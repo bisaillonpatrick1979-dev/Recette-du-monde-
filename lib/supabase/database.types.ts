@@ -814,6 +814,7 @@ export type Database = {
           p_description?: string
           p_difficulty?: Database["public"]["Enums"]["recipe_difficulty"]
           p_ingredients?: Json
+          p_place_id?: string
           p_prep_minutes?: number
           p_region?: string
           p_servings?: number

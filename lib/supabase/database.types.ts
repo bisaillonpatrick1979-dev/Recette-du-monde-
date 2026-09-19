@@ -198,6 +198,62 @@ export type Database = {
           },
         ]
       }
+      culinary_places: {
+        Row: {
+          country_code: string
+          created_at: string
+          default_zoom: number
+          id: string
+          is_active: boolean
+          latitude: number
+          longitude: number
+          name: string
+          parent_id: string | null
+          place_type: string
+          slug: string
+          summary: string | null
+          updated_at: string
+        }
+        Insert: {
+          country_code: string
+          created_at?: string
+          default_zoom?: number
+          id?: string
+          is_active?: boolean
+          latitude: number
+          longitude: number
+          name: string
+          parent_id?: string | null
+          place_type: string
+          slug: string
+          summary?: string | null
+          updated_at?: string
+        }
+        Update: {
+          country_code?: string
+          created_at?: string
+          default_zoom?: number
+          id?: string
+          is_active?: boolean
+          latitude?: number
+          longitude?: number
+          name?: string
+          parent_id?: string | null
+          place_type?: string
+          slug?: string
+          summary?: string | null
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "culinary_places_parent_id_fkey"
+            columns: ["parent_id"]
+            isOneToOne: false
+            referencedRelation: "culinary_places"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       entitlements: {
         Row: {
           ai_credits_used: number
@@ -467,6 +523,45 @@ export type Database = {
         Relationships: [
           {
             foreignKeyName: "recipe_likes_recipe_id_fkey"
+            columns: ["recipe_id"]
+            isOneToOne: false
+            referencedRelation: "recipes"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      recipe_locations: {
+        Row: {
+          created_at: string
+          is_primary: boolean
+          place_id: string
+          recipe_id: string
+          relation: string
+        }
+        Insert: {
+          created_at?: string
+          is_primary?: boolean
+          place_id: string
+          recipe_id: string
+          relation?: string
+        }
+        Update: {
+          created_at?: string
+          is_primary?: boolean
+          place_id?: string
+          recipe_id?: string
+          relation?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "recipe_locations_place_id_fkey"
+            columns: ["place_id"]
+            isOneToOne: false
+            referencedRelation: "culinary_places"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "recipe_locations_recipe_id_fkey"
             columns: ["recipe_id"]
             isOneToOne: false
             referencedRelation: "recipes"

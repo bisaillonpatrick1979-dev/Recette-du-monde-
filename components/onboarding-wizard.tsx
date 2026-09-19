@@ -2,6 +2,7 @@
 
 import { FormEvent, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import { createClient } from "@/lib/supabase/client";
 import {
   CurrencyCode,
   defaultPreferences,
@@ -75,9 +76,27 @@ export function OnboardingWizard() {
     }));
   }
 
-  function submit(event: FormEvent<HTMLFormElement>) {
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     window.localStorage.setItem(PREFERENCES_STORAGE_KEY, JSON.stringify(preferences));
+
+    const supabase = createClient();
+    const { data: { user } } = await supabase.auth.getUser();
+
+    if (user) {
+      await Promise.all([
+        supabase.from("user_preferences").upsert({
+          user_id: user.id,
+          language_code: preferences.language,
+          country_code: preferences.country,
+          measurement_system: preferences.measurements,
+          temperature_unit: preferences.temperature,
+          currency_code: preferences.currency,
+        }, { onConflict: "user_id" }),
+        supabase.from("profiles").update({ country_code: preferences.country }).eq("id", user.id),
+      ]);
+    }
+
     router.replace("/");
   }
 

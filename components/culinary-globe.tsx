@@ -36,11 +36,6 @@ export function CulinaryGlobe() {
         const maplibre = await import("maplibre-gl");
         if (cancelled || !containerRef.current) return;
 
-        if (!maplibre.supported()) {
-          setMapState("error");
-          return;
-        }
-
         maplibre.setWorkerUrl("/maplibre/maplibre-gl-worker.mjs");
 
         const map = new maplibre.Map({
@@ -50,7 +45,6 @@ export function CulinaryGlobe() {
           zoom: 1.35,
           minZoom: 1,
           maxZoom: 16,
-          attributionControl: true,
         });
 
         map.addControl(new maplibre.NavigationControl({ visualizePitch: true }), "top-right");

@@ -109,7 +109,8 @@ export function HomeExperience({ recipes, countries }: Props) {
           <Link className="ghost-button" href="/onboarding">
             ⚙
           </Link>
-          <button className="compact-primary">{text.publish}</button>
+          <Link className="ghost-button" href="/profile">Compte</Link>
+          <Link className="compact-primary" href="/publish">{text.publish}</Link>
         </div>
       </header>
 
@@ -201,7 +202,7 @@ export function HomeExperience({ recipes, countries }: Props) {
           <span className="eyebrow">Partage & découverte</span>
           <h2>{text.community}</h2>
           <p>{text.communityText}</p>
-          <button className="primary-button">{text.publish}</button>
+          <Link className="primary-button" href="/publish">{text.publish}</Link>
         </div>
         <div className="community-feed">
           <article>

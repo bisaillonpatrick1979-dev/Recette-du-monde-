@@ -3,6 +3,7 @@
 import { FormEvent, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import {
+  CurrencyCode,
   defaultPreferences,
   LanguageCode,
   MeasurementSystem,
@@ -15,8 +16,12 @@ const countries = [
   { value: "US", label: "États-Unis / United States", currency: "USD", language: "en", temp: "f" },
   { value: "FR", label: "France", currency: "EUR", language: "fr", temp: "c" },
   { value: "ES", label: "Espagne / España", currency: "EUR", language: "es", temp: "c" },
-  { value: "MX", label: "Mexique / México", currency: "USD", language: "es", temp: "c" },
-  { value: "GB", label: "Royaume-Uni / United Kingdom", currency: "EUR", language: "en", temp: "c" },
+  { value: "MX", label: "Mexique / México", currency: "MXN", language: "es", temp: "c" },
+  { value: "GB", label: "Royaume-Uni / United Kingdom", currency: "GBP", language: "en", temp: "c" },
+  { value: "JP", label: "Japon / 日本", currency: "JPY", language: "en", temp: "c" },
+  { value: "MA", label: "Maroc / المغرب", currency: "MAD", language: "fr", temp: "c" },
+  { value: "IN", label: "Inde / India", currency: "INR", language: "en", temp: "c" },
+  { value: "TH", label: "Thaïlande / ประเทศไทย", currency: "THB", language: "en", temp: "c" },
 ] as const;
 
 const languageLabels: Record<LanguageCode, string> = {
@@ -29,6 +34,18 @@ const measureLabels: Record<MeasurementSystem, string> = {
   metric: "Métrique · g, kg, ml, L",
   imperial: "Impérial · oz, lb, fl oz",
   cups: "Cuisine · tasses, c. à soupe, c. à thé",
+};
+
+const currencyLabels: Record<CurrencyCode, string> = {
+  CAD: "$ CAD",
+  USD: "$ USD",
+  EUR: "€ EUR",
+  GBP: "£ GBP",
+  MXN: "$ MXN",
+  JPY: "¥ JPY",
+  MAD: "MAD",
+  INR: "₹ INR",
+  THB: "฿ THB",
 };
 
 export function OnboardingWizard() {
@@ -51,9 +68,9 @@ export function OnboardingWizard() {
     setPreferences((current) => ({
       ...current,
       country: country.value,
-      currency: country.currency as UserPreferences["currency"],
-      language: country.language as LanguageCode,
-      temperature: country.temp as UserPreferences["temperature"],
+      currency: country.currency,
+      language: country.language,
+      temperature: country.temp,
       measurements: country.value === "US" ? "imperial" : "metric",
     }));
   }
@@ -70,8 +87,8 @@ export function OnboardingWizard() {
         <span className="step-pill">Configuration initiale</span>
         <h2>Adaptons l’application à votre cuisine</h2>
         <p>
-          Vous pourrez modifier ces choix en tout temps. Les recettes, unités, températures
-          et traductions utiliseront ces préférences.
+          Vous pourrez modifier ces choix en tout temps. Les recettes, unités, températures,
+          monnaies et traductions utiliseront ces préférences.
         </p>
       </div>
 
@@ -139,13 +156,11 @@ export function OnboardingWizard() {
           <span>Devise</span>
           <select
             value={preferences.currency}
-            onChange={(event) =>
-              update("currency", event.target.value as UserPreferences["currency"])
-            }
+            onChange={(event) => update("currency", event.target.value as CurrencyCode)}
           >
-            <option value="CAD">$ CAD</option>
-            <option value="USD">$ USD</option>
-            <option value="EUR">€ EUR</option>
+            {Object.entries(currencyLabels).map(([value, label]) => (
+              <option value={value} key={value}>{label}</option>
+            ))}
           </select>
         </label>
       </div>

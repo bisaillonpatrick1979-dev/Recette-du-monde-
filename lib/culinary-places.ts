@@ -1,0 +1,153 @@
+export type CulinaryPlace = {
+  id: string;
+  name: string;
+  country: string;
+  countryCode: string;
+  parent: string;
+  level: "country" | "region" | "island" | "city";
+  longitude: number;
+  latitude: number;
+  zoom: number;
+  summary: string;
+  examples: string[];
+};
+
+export const culinaryPlaces: CulinaryPlace[] = [
+  {
+    id: "cd-kinshasa",
+    name: "Kinshasa",
+    country: "République démocratique du Congo",
+    countryCode: "CD",
+    parent: "Kinshasa",
+    level: "city",
+    longitude: 15.3222,
+    latitude: -4.325,
+    zoom: 8,
+    summary: "Explorer les recettes et traditions documentées autour de Kinshasa.",
+    examples: ["Cuisine de Kinshasa", "Recettes congolaises urbaines"],
+  },
+  {
+    id: "cd-sud-kivu",
+    name: "Sud-Kivu",
+    country: "République démocratique du Congo",
+    countryCode: "CD",
+    parent: "Est de la RDC",
+    level: "region",
+    longitude: 28.8608,
+    latitude: -2.496,
+    zoom: 7,
+    summary: "Un point d’entrée pour distinguer les traditions culinaires de l’est du pays.",
+    examples: ["Cuisine du Sud-Kivu", "Recettes autour de Bukavu"],
+  },
+  {
+    id: "cd-haut-katanga",
+    name: "Haut-Katanga",
+    country: "République démocratique du Congo",
+    countryCode: "CD",
+    parent: "Sud-est de la RDC",
+    level: "region",
+    longitude: 27.4794,
+    latitude: -11.6647,
+    zoom: 7,
+    summary: "Explorer séparément les recettes et ingrédients du sud-est congolais.",
+    examples: ["Cuisine du Haut-Katanga", "Recettes autour de Lubumbashi"],
+  },
+  {
+    id: "id-bali",
+    name: "Bali",
+    country: "Indonésie",
+    countryCode: "ID",
+    parent: "Petites îles de la Sonde",
+    level: "island",
+    longitude: 115.1889,
+    latitude: -8.4095,
+    zoom: 8,
+    summary: "L’île peut être explorée comme une région culinaire distincte de l’Indonésie.",
+    examples: ["Ayam betutu", "Lawar"],
+  },
+  {
+    id: "id-ubud",
+    name: "Ubud",
+    country: "Indonésie",
+    countryCode: "ID",
+    parent: "Bali",
+    level: "city",
+    longitude: 115.2625,
+    latitude: -8.5069,
+    zoom: 12,
+    summary: "Descendre jusqu’à la ville pour découvrir des recettes et créateurs locaux.",
+    examples: ["Cuisine balinaise", "Recettes locales d’Ubud"],
+  },
+  {
+    id: "it-naples",
+    name: "Naples",
+    country: "Italie",
+    countryCode: "IT",
+    parent: "Campanie",
+    level: "city",
+    longitude: 14.2681,
+    latitude: 40.8518,
+    zoom: 10,
+    summary: "Explorer la cuisine napolitaine sans la mélanger à toute la cuisine italienne.",
+    examples: ["Pizza napolitaine", "Pasta e patate"],
+  },
+  {
+    id: "mx-oaxaca",
+    name: "Oaxaca",
+    country: "Mexique",
+    countryCode: "MX",
+    parent: "Oaxaca",
+    level: "city",
+    longitude: -96.7266,
+    latitude: 17.0732,
+    zoom: 9,
+    summary: "Une porte d’entrée vers les cuisines régionales de l’État de Oaxaca.",
+    examples: ["Tlayudas", "Mole negro"],
+  },
+  {
+    id: "th-chiang-mai",
+    name: "Chiang Mai",
+    country: "Thaïlande",
+    countryCode: "TH",
+    parent: "Nord de la Thaïlande",
+    level: "city",
+    longitude: 98.9853,
+    latitude: 18.7883,
+    zoom: 9,
+    summary: "Séparer la cuisine du nord des traditions du centre et du sud du pays.",
+    examples: ["Khao soi", "Sai ua"],
+  },
+  {
+    id: "ma-fez",
+    name: "Fès",
+    country: "Maroc",
+    countryCode: "MA",
+    parent: "Fès-Meknès",
+    level: "city",
+    longitude: -5.0078,
+    latitude: 34.0181,
+    zoom: 9,
+    summary: "Explorer les recettes par ville et région plutôt que seulement par pays.",
+    examples: ["Cuisine fassie", "Recettes de Fès"],
+  },
+  {
+    id: "jp-sapporo",
+    name: "Sapporo",
+    country: "Japon",
+    countryCode: "JP",
+    parent: "Hokkaidō",
+    level: "city",
+    longitude: 141.3545,
+    latitude: 43.0618,
+    zoom: 9,
+    summary: "Découvrir les spécialités d’Hokkaidō séparément du reste du Japon.",
+    examples: ["Miso ramen", "Soup curry"],
+  },
+];
+
+export const levelLabels = {
+  country: "Pays",
+  region: "Région",
+  island: "Île",
+  city: "Ville",
+} as const;

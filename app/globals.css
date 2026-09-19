@@ -315,3 +315,163 @@ button { cursor: pointer; }
   .publish-card .form-grid { grid-template-columns: 1fr; }
   .publish-card .span-2 { grid-column: auto; }
 }
+
+
+/* Culinary globe */
+.atlas-page {
+  min-height: 100vh;
+  padding: clamp(16px, 3vw, 42px);
+  background:
+    radial-gradient(circle at 8% 8%, rgba(216,162,63,.14), transparent 26%),
+    linear-gradient(145deg, #fffaf3, #f4eee4);
+}
+.atlas-shell { width: min(1480px, 100%); margin: 0 auto; }
+.atlas-toolbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 22px;
+}
+.atlas-toolbar h1 {
+  margin: 7px 0 10px;
+  font: 700 clamp(38px, 5vw, 68px)/1 Georgia, serif;
+  letter-spacing: -.035em;
+}
+.atlas-toolbar p { max-width: 830px; margin: 0; color: var(--ink-soft); font-size: 17px; line-height: 1.6; }
+.atlas-search-row { display: flex; gap: 12px; align-items: end; margin-bottom: 16px; }
+.atlas-search { flex: 1; }
+.atlas-search > span { display: block; margin-bottom: 7px; font-size: 13px; font-weight: 800; }
+.atlas-search input {
+  width: 100%;
+  min-height: 52px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 0 16px;
+  background: white;
+  color: var(--ink);
+  box-shadow: 0 5px 18px rgba(0,0,0,.04);
+}
+.atlas-search-row .secondary-button { min-height: 52px; white-space: nowrap; }
+.atlas-layout { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(300px, .45fr); gap: 18px; align-items: stretch; }
+.atlas-map-panel {
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: #d9e7e5;
+  box-shadow: var(--shadow);
+}
+.atlas-map { width: 100%; min-height: 620px; }
+.atlas-map-message {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(255,250,243,.9);
+  font-weight: 800;
+  text-align: center;
+  z-index: 4;
+}
+.atlas-map-message.error { color: #8f2f20; }
+.atlas-map-hint {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  max-width: min(520px, calc(100% - 28px));
+  z-index: 3;
+  background: rgba(255,255,255,.94);
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: 12px;
+  padding: 9px 12px;
+  color: var(--ink-soft);
+  font-size: 12px;
+  line-height: 1.4;
+}
+.culinary-map-marker {
+  width: 46px;
+  height: 46px;
+  border: 3px solid white;
+  border-radius: 50% 50% 50% 12px;
+  transform: rotate(-45deg);
+  background: var(--terracotta);
+  color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,.25);
+  display: grid;
+  place-items: center;
+}
+.culinary-map-marker span { transform: rotate(45deg); font-size: 20px; }
+.culinary-map-marker:focus-visible { outline: 4px solid rgba(216,162,63,.7); outline-offset: 3px; }
+.atlas-detail {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: clamp(22px, 3vw, 32px);
+  background: white;
+  box-shadow: var(--shadow);
+  min-width: 0;
+}
+.place-level {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 7px 10px;
+  background: #e8f1ed;
+  color: var(--forest);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+}
+.atlas-detail h2 { margin: 14px 0 5px; font: 700 clamp(34px, 4vw, 52px) Georgia, serif; }
+.atlas-detail > p { color: var(--ink-soft); line-height: 1.65; }
+.atlas-detail .place-parent { color: var(--terracotta); font-weight: 800; }
+.place-examples { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+.place-examples > span { width: 100%; font-size: 12px; font-weight: 900; text-transform: uppercase; color: var(--ink-soft); }
+.place-examples button {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 9px 11px;
+  background: var(--cream);
+  color: var(--ink);
+}
+.atlas-note { margin-top: 24px; border-left: 4px solid var(--gold); background: #fff8e8; padding: 14px; color: var(--ink-soft); line-height: 1.55; font-size: 13px; }
+.place-browser { margin-top: 28px; padding: 28px; border: 1px solid var(--line); border-radius: 24px; background: rgba(255,255,255,.82); }
+.place-grid { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 10px; }
+.place-card {
+  min-width: 0;
+  min-height: 118px;
+  padding: 15px;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: white;
+  color: var(--ink);
+}
+.place-card.active { border-color: var(--terracotta); box-shadow: inset 0 0 0 1px var(--terracotta); background: #fff9f5; }
+.place-card-level { display: block; color: var(--terracotta); font-size: 10px; font-weight: 900; text-transform: uppercase; letter-spacing: .06em; }
+.place-card strong { display: block; margin: 8px 0 5px; font: 700 19px Georgia, serif; }
+.place-card small { display: block; color: var(--ink-soft); line-height: 1.4; }
+
+@media (max-width: 1100px) {
+  .atlas-layout { grid-template-columns: 1fr; }
+  .atlas-map { min-height: 560px; }
+  .place-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+}
+@media (max-width: 700px) {
+  .atlas-page { padding: 14px; }
+  .atlas-toolbar { align-items: flex-start; }
+  .atlas-toolbar .ghost-button { flex: 0 0 auto; }
+  .atlas-toolbar h1 { font-size: 42px; }
+  .atlas-search-row { flex-direction: column; align-items: stretch; }
+  .atlas-map { min-height: 500px; }
+  .atlas-map-hint { font-size: 11px; }
+  .place-browser { padding: 18px; }
+  .place-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 430px) {
+  .atlas-toolbar { flex-direction: column-reverse; }
+  .atlas-toolbar h1 { font-size: 37px; }
+  .atlas-map { min-height: 440px; }
+  .place-grid { grid-template-columns: 1fr; }
+}

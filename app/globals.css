@@ -475,3 +475,87 @@ button { cursor: pointer; }
   .atlas-map { min-height: 440px; }
   .place-grid { grid-template-columns: 1fr; }
 }
+
+
+.form-help {
+  display: block;
+  margin-top: 7px;
+  color: var(--ink-soft);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.atlas-recipes {
+  margin-top: 24px;
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+.atlas-recipes-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+.atlas-recipes-heading span {
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+.atlas-recipes-heading strong {
+  min-width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: var(--forest);
+  color: white;
+}
+.atlas-recipe-list {
+  display: grid;
+  gap: 8px;
+}
+.atlas-recipe-list a {
+  display: grid;
+  gap: 3px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 11px 12px;
+  background: #fffdf9;
+}
+.atlas-recipe-list a:hover {
+  border-color: var(--terracotta);
+}
+.atlas-recipe-list span {
+  color: var(--terracotta);
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.atlas-recipe-list strong {
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+.atlas-empty {
+  margin: 0;
+  padding: 14px;
+  border-radius: 12px;
+  background: #f7f3ec;
+  color: var(--ink-soft);
+  font-size: 13px;
+  line-height: 1.55;
+}
+.marker-country {
+  width: 50px;
+  height: 50px;
+}
+.marker-region, .marker-island {
+  width: 44px;
+  height: 44px;
+}
+.marker-city, .marker-locality {
+  width: 38px;
+  height: 38px;
+}

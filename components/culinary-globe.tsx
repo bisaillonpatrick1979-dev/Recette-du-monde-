@@ -3,34 +3,117 @@
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Map as MapLibreMap, Marker } from "maplibre-gl";
-import { culinaryPlaces, levelLabels, type CulinaryPlace } from "@/lib/culinary-places";
+import {
+  levelLabels,
+  type AtlasRecipe,
+  type CulinaryPlace,
+} from "@/lib/culinary-places";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/liberty";
 
-export function CulinaryGlobe() {
+type Props = {
+  places: CulinaryPlace[];
+  recipes: AtlasRecipe[];
+  dataError?: string | null;
+};
+
+export function CulinaryGlobe({ places, recipes, dataError = null }: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const markersRef = useRef<Marker[]>([]);
-  const [selected, setSelected] = useState<CulinaryPlace>(culinaryPlaces[3]);
+  const initialPlace = places.find((place) => place.slug === "id-bali") ?? places[0] ?? null;
+  const [selectedId, setSelectedId] = useState<string | null>(initialPlace?.id ?? null);
   const [query, setQuery] = useState("");
   const [mapState, setMapState] = useState<"loading" | "ready" | "error">("loading");
 
+  const placeById = useMemo(
+    () => new Map(places.map((place) => [place.id, place])),
+    [places],
+  );
+
+  const selected = (selectedId ? placeById.get(selectedId) : null) ?? initialPlace;
+
+  function descendantIds(placeId: string) {
+    const ids = new Set<string>([placeId]);
+    let changed = true;
+
+    while (changed) {
+      changed = false;
+      for (const place of places) {
+        if (place.parentId && ids.has(place.parentId) && !ids.has(place.id)) {
+          ids.add(place.id);
+          changed = true;
+        }
+      }
+    }
+
+    return ids;
+  }
+
+  function placePath(place: CulinaryPlace) {
+    const path: CulinaryPlace[] = [];
+    const visited = new Set<string>();
+    let current: CulinaryPlace | undefined = place;
+
+    while (current && !visited.has(current.id)) {
+      visited.add(current.id);
+      path.push(current);
+      current = current.parentId ? placeById.get(current.parentId) : undefined;
+    }
+
+    return path.reverse();
+  }
+
+  const selectedPlaceIds = useMemo(
+    () => (selected ? descendantIds(selected.id) : new Set<string>()),
+    [selected, places],
+  );
+
+  const selectedRecipes = useMemo(
+    () => recipes.filter((recipe) => selectedPlaceIds.has(recipe.placeId)),
+    [recipes, selectedPlaceIds],
+  );
+
+  const childPlaces = useMemo(
+    () => (selected ? places.filter((place) => place.parentId === selected.id) : []),
+    [places, selected],
+  );
+
   const filteredPlaces = useMemo(() => {
     const normalized = query.trim().toLocaleLowerCase("fr");
-    if (!normalized) return culinaryPlaces;
-    return culinaryPlaces.filter((place) =>
-      [place.name, place.country, place.parent, ...place.examples]
-        .join(" ")
-        .toLocaleLowerCase("fr")
-        .includes(normalized),
+    if (!normalized) return places;
+
+    const matchingRecipePlaceIds = new Set(
+      recipes
+        .filter((recipe) =>
+          [recipe.title, recipe.category ?? "", recipe.description ?? ""]
+            .join(" ")
+            .toLocaleLowerCase("fr")
+            .includes(normalized),
+        )
+        .map((recipe) => recipe.placeId),
     );
-  }, [query]);
+
+    return places.filter((place) => {
+      const path = placePath(place).map((item) => item.name).join(" ");
+      return (
+        [place.name, place.countryCode, path]
+          .join(" ")
+          .toLocaleLowerCase("fr")
+          .includes(normalized) ||
+        matchingRecipePlaceIds.has(place.id)
+      );
+    });
+  }, [query, places, recipes, placeById]);
 
   useEffect(() => {
     let cancelled = false;
 
     async function initMap() {
-      if (!containerRef.current || mapRef.current) return;
+      if (!containerRef.current || mapRef.current || places.length === 0) {
+        if (places.length === 0) setMapState("error");
+        return;
+      }
 
       try {
         const maplibre = await import("maplibre-gl");
@@ -57,16 +140,16 @@ export function CulinaryGlobe() {
         map.on("load", () => {
           if (cancelled) return;
 
-          for (const place of culinaryPlaces) {
+          for (const place of places) {
             const markerButton = document.createElement("button");
             markerButton.type = "button";
-            markerButton.className = "culinary-map-marker";
-            markerButton.setAttribute("aria-label", `Explorer ${place.name}, ${place.country}`);
-            markerButton.title = `${place.name} · ${place.country}`;
+            markerButton.className = `culinary-map-marker marker-${place.placeType}`;
+            markerButton.setAttribute("aria-label", `Explorer ${place.name}`);
+            markerButton.title = placePath(place).map((item) => item.name).join(" › ");
             markerButton.innerHTML = "<span>🍴</span>";
 
             markerButton.addEventListener("click", () => {
-              setSelected(place);
+              setSelectedId(place.id);
               map.flyTo({
                 center: [place.longitude, place.latitude],
                 zoom: place.zoom,
@@ -107,10 +190,10 @@ export function CulinaryGlobe() {
       mapRef.current?.remove();
       mapRef.current = null;
     };
-  }, []);
+  }, [places]);
 
   function focusPlace(place: CulinaryPlace) {
-    setSelected(place);
+    setSelectedId(place.id);
     mapRef.current?.flyTo({
       center: [place.longitude, place.latitude],
       zoom: place.zoom,
@@ -130,11 +213,17 @@ export function CulinaryGlobe() {
           <h1 id="atlas-title">Explorez le monde par ses cuisines</h1>
           <p>
             Tournez le globe, zoomez d’un pays vers une région, une île ou une ville,
-            puis découvrez les recettes associées à ce lieu.
+            puis découvrez les recettes réellement reliées à cette zone.
           </p>
         </div>
         <Link className="ghost-button" href="/">← Accueil</Link>
       </div>
+
+      {dataError ? (
+        <p className="form-alert error">
+          Certaines données de l’atlas n’ont pas pu être chargées : {dataError}
+        </p>
+      ) : null}
 
       <div className="atlas-search-row">
         <label className="atlas-search">
@@ -156,7 +245,7 @@ export function CulinaryGlobe() {
           {mapState === "loading" && <div className="atlas-map-message">Chargement du globe…</div>}
           {mapState === "error" && (
             <div className="atlas-map-message error">
-              Le globe 3D n’est pas disponible sur cet appareil. Utilisez la liste des lieux pour explorer.
+              Le globe 3D n’est pas disponible. Utilisez la liste des lieux pour explorer.
             </div>
           )}
           <div className="atlas-map-hint">
@@ -165,27 +254,63 @@ export function CulinaryGlobe() {
         </div>
 
         <aside className="atlas-detail" aria-live="polite">
-          <div className="place-level">{levelLabels[selected.level]}</div>
-          <h2>{selected.name}</h2>
-          <p className="place-parent">{selected.parent} · {selected.country}</p>
-          <p>{selected.summary}</p>
-          <div className="place-examples">
-            <span>À explorer</span>
-            {selected.examples.map((example) => (
-              <button type="button" key={example}>{example}</button>
-            ))}
-          </div>
-          <div className="atlas-note">
-            Les lieux servent de filtres géographiques. Les recettes seront reliées au niveau le plus précis documenté
-            et pourront aussi remonter vers leur région et leur pays.
-          </div>
+          {selected ? (
+            <>
+              <div className="place-level">{levelLabels[selected.placeType]}</div>
+              <h2>{selected.name}</h2>
+              <p className="place-parent">
+                {placePath(selected).map((place) => place.name).join(" › ")}
+              </p>
+              <p>{selected.summary || "Explorez les recettes reliées à cette zone."}</p>
+
+              {childPlaces.length > 0 ? (
+                <div className="place-examples">
+                  <span>Descendre plus précisément</span>
+                  {childPlaces.map((place) => (
+                    <button type="button" key={place.id} onClick={() => focusPlace(place)}>
+                      {levelLabels[place.placeType]} · {place.name}
+                    </button>
+                  ))}
+                </div>
+              ) : null}
+
+              <div className="atlas-recipes">
+                <div className="atlas-recipes-heading">
+                  <span>Recettes dans cette zone</span>
+                  <strong>{selectedRecipes.length}</strong>
+                </div>
+                {selectedRecipes.length ? (
+                  <div className="atlas-recipe-list">
+                    {selectedRecipes.slice(0, 8).map((recipe) => (
+                      <Link href={`/recipes/${recipe.id}`} key={`${recipe.id}-${recipe.placeId}`}>
+                        <span>{recipe.category || "Recette"}</span>
+                        <strong>{recipe.title}</strong>
+                      </Link>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="atlas-empty">
+                    Aucune recette publiée n’est encore reliée à cette zone. Les prochaines recettes
+                    ajoutées ici apparaîtront automatiquement.
+                  </p>
+                )}
+              </div>
+
+              <div className="atlas-note">
+                Quand vous choisissez un pays ou une région, les recettes de toutes ses sous-régions
+                et villes sont incluses automatiquement.
+              </div>
+            </>
+          ) : (
+            <p>Aucun lieu n’est encore disponible.</p>
+          )}
         </aside>
       </div>
 
       <div className="place-browser">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">Lieux disponibles dans la démo</span>
+            <span className="eyebrow">Atlas connecté à Supabase</span>
             <h2>Du pays jusqu’à la ville</h2>
           </div>
           <span>{filteredPlaces.length} lieu{filteredPlaces.length > 1 ? "x" : ""}</span>
@@ -195,12 +320,12 @@ export function CulinaryGlobe() {
             <button
               type="button"
               key={place.id}
-              className={`place-card ${selected.id === place.id ? "active" : ""}`}
+              className={`place-card ${selected?.id === place.id ? "active" : ""}`}
               onClick={() => focusPlace(place)}
             >
-              <span className="place-card-level">{levelLabels[place.level]}</span>
+              <span className="place-card-level">{levelLabels[place.placeType]}</span>
               <strong>{place.name}</strong>
-              <small>{place.parent} · {place.country}</small>
+              <small>{placePath(place).map((item) => item.name).join(" › ")}</small>
             </button>
           ))}
         </div>

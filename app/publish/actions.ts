@@ -78,6 +78,7 @@ export async function createRecipe(formData: FormData) {
     p_status: status,
     p_ingredients: parseIngredients(textValue(formData, "ingredients")),
     p_steps: parseSteps(textValue(formData, "steps")),
+    p_place_id: textValue(formData, "place_id") || undefined,
   });
 
   if (error || !data) {

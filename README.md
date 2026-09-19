@@ -35,3 +35,7 @@ La branche `build/initial-app` contient le premier MVP visuel et fonctionnel :
 ## Sécurité
 
 Aucune clé secrète ne doit être préfixée par `NEXT_PUBLIC_`. Les clés OpenAI, Stripe secrètes et Supabase service-role resteront exclusivement côté serveur.
+
+## Déploiement
+
+Déploiement continu prévu sur Vercel depuis la branche `main`.

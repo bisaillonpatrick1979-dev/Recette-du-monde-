@@ -14,6 +14,34 @@ export default async function PublishPage({ searchParams }: Props) {
     redirect("/login");
   }
 
+  const { data: places } = await supabase
+    .from("culinary_places")
+    .select("id, name, country_code, place_type, parent_id")
+    .eq("is_active", true)
+    .order("country_code")
+    .order("name");
+
+  const placeRows = places ?? [];
+  const placeById = new Map(placeRows.map((place) => [place.id, place]));
+
+  function placeLabel(place: (typeof placeRows)[number]) {
+    const parts: string[] = [];
+    const visited = new Set<string>();
+    let current: (typeof placeRows)[number] | undefined = place;
+
+    while (current && !visited.has(current.id)) {
+      visited.add(current.id);
+      parts.push(current.name);
+      current = current.parent_id ? placeById.get(current.parent_id) : undefined;
+    }
+
+    return parts.reverse().join(" › ");
+  }
+
+  const sortedPlaces = [...placeRows].sort((a, b) =>
+    placeLabel(a).localeCompare(placeLabel(b), "fr"),
+  );
+
   return (
     <main className="publish-page">
       <div className="publish-shell">
@@ -29,7 +57,10 @@ export default async function PublishPage({ searchParams }: Props) {
           <div className="onboarding-heading">
             <span className="step-pill">Partager une recette</span>
             <h1>Votre recette, votre histoire</h1>
-            <p>Ajoutez la recette originale. Les traductions et conversions seront générées à partir de cette version.</p>
+            <p>
+              Ajoutez la recette originale et choisissez le lieu d’origine le plus précis connu.
+              Une recette de Bukavu restera aussi découvrable dans Sud-Kivu et en RDC.
+            </p>
           </div>
 
           {params.error ? <p className="form-alert error">{params.error}</p> : null}
@@ -37,8 +68,24 @@ export default async function PublishPage({ searchParams }: Props) {
           <div className="form-grid">
             <label className="span-2"><span>Titre</span><input name="title" required minLength={2} /></label>
             <label className="span-2"><span>Description</span><textarea name="description" rows={4} /></label>
-            <label><span>Pays</span><input name="country_code" placeholder="CA, IT, JP…" maxLength={3} /></label>
-            <label><span>Région</span><input name="region" placeholder="Québec, Toscane…" /></label>
+
+            <label className="span-2">
+              <span>Lieu d’origine précis</span>
+              <select name="place_id" defaultValue="">
+                <option value="">Choisir dans l’atlas (optionnel)</option>
+                {sortedPlaces.map((place) => (
+                  <option value={place.id} key={place.id}>
+                    {placeLabel(place)}
+                  </option>
+                ))}
+              </select>
+              <small className="form-help">
+                Choisissez la ville ou région la plus précise disponible. Le pays et la région seront remplis automatiquement.
+              </small>
+            </label>
+
+            <label><span>Pays — si le lieu n’est pas encore dans l’atlas</span><input name="country_code" placeholder="CA, IT, JP…" maxLength={3} /></label>
+            <label><span>Région — si le lieu n’est pas encore dans l’atlas</span><input name="region" placeholder="Québec, Toscane…" /></label>
             <label><span>Catégorie</span><input name="category" placeholder="Soupe, dessert, BBQ…" /></label>
             <label><span>Langue originale</span><input name="source_language" defaultValue="fr" /></label>
             <label><span>Authenticité</span>

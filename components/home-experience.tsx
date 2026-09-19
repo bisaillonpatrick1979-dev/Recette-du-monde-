@@ -28,7 +28,7 @@ const copy = {
     sub: "Des recettes authentiques, une communauté mondiale et un chef IA pour cuisiner sans frontières.",
     search: "Rechercher un plat, un pays ou un ingrédient…",
     featured: "Recettes en vedette",
-    explore: "Explorer par pays",
+    explore: "Explorer sur le globe",
     community: "Communauté gourmande",
     communityText: "Publiez vos recettes, échangez vos astuces et découvrez ce que le monde cuisine aujourd’hui.",
     publish: "Publier une recette",
@@ -40,7 +40,7 @@ const copy = {
     sub: "Authentic recipes, a global community and an AI chef for cooking without borders.",
     search: "Search a dish, country or ingredient…",
     featured: "Featured recipes",
-    explore: "Explore by country",
+    explore: "Explore the globe",
     community: "Food community",
     communityText: "Publish your recipes, share tips and discover what the world is cooking today.",
     publish: "Publish a recipe",
@@ -52,7 +52,7 @@ const copy = {
     sub: "Recetas auténticas, una comunidad global y un chef IA para cocinar sin fronteras.",
     search: "Buscar un plato, país o ingrediente…",
     featured: "Recetas destacadas",
-    explore: "Explorar por país",
+    explore: "Explorar el globo",
     community: "Comunidad gastronómica",
     communityText: "Publica tus recetas, comparte consejos y descubre lo que cocina el mundo.",
     publish: "Publicar una receta",
@@ -98,10 +98,13 @@ export function HomeExperience({ recipes, countries }: Props) {
           </span>
         </Link>
         <nav className="desktop-nav" aria-label="Navigation principale">
-          {text.nav.map((item) => (
-            <a href={item === text.nav[6] ? "#community" : "#"} key={item}>
+          {text.nav.map((item, index) => (
+            <Link
+              href={index === 2 ? "/explore" : item === text.nav[6] ? "#community" : "#"}
+              key={item}
+            >
               {item}
-            </a>
+            </Link>
           ))}
         </nav>
         <div className="header-actions">
@@ -184,7 +187,7 @@ export function HomeExperience({ recipes, countries }: Props) {
             <span className="eyebrow">Atlas culinaire</span>
             <h2>{text.explore}</h2>
           </div>
-          <a href="#">Tous les pays →</a>
+          <Link href="/explore">Ouvrir le globe →</Link>
         </div>
         <div className="country-grid">
           {countries.map((country) => (

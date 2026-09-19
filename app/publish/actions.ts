@@ -9,10 +9,10 @@ function textValue(formData: FormData, key: string) {
   return typeof value === "string" ? value.trim() : "";
 }
 
-function nullableNumber(value: string) {
-  if (!value) return null;
+function optionalNumber(value: string) {
+  if (!value) return undefined;
   const number = Number(value);
-  return Number.isFinite(number) ? number : null;
+  return Number.isFinite(number) ? number : undefined;
 }
 
 function parseIngredients(raw: string): Json {
@@ -61,20 +61,20 @@ export async function createRecipe(formData: FormData) {
   const difficulty =
     difficultyRaw === "easy" || difficultyRaw === "medium" || difficultyRaw === "hard"
       ? difficultyRaw
-      : null;
+      : undefined;
 
   const { data, error } = await supabase.rpc("create_recipe_with_content", {
     p_title: title,
-    p_description: textValue(formData, "description") || null,
+    p_description: textValue(formData, "description") || undefined,
     p_source_language: textValue(formData, "source_language") || "fr",
-    p_country_code: textValue(formData, "country_code") || null,
-    p_region: textValue(formData, "region") || null,
-    p_category: textValue(formData, "category") || null,
+    p_country_code: textValue(formData, "country_code") || undefined,
+    p_region: textValue(formData, "region") || undefined,
+    p_category: textValue(formData, "category") || undefined,
     p_authenticity: authenticity,
     p_difficulty: difficulty,
-    p_prep_minutes: nullableNumber(textValue(formData, "prep_minutes")),
-    p_cook_minutes: nullableNumber(textValue(formData, "cook_minutes")),
-    p_servings: nullableNumber(textValue(formData, "servings")),
+    p_prep_minutes: optionalNumber(textValue(formData, "prep_minutes")),
+    p_cook_minutes: optionalNumber(textValue(formData, "cook_minutes")),
+    p_servings: optionalNumber(textValue(formData, "servings")),
     p_status: status,
     p_ingredients: parseIngredients(textValue(formData, "ingredients")),
     p_steps: parseSteps(textValue(formData, "steps")),

@@ -6,8 +6,8 @@
 - 130 pays représentés
 - 801 titres localisés FR / EN / ES
 - 120 traductions complètes EN / ES
-- 163 recettes avec photo persistée prête
-- 104 recettes encore sans photo persistée
+- 171 recettes avec photo persistée prête
+- 96 recettes encore sans photo persistée
 
 ## 10 nouveaux pays
 
@@ -87,7 +87,7 @@ Les 20 nouvelles recettes ont chacune une photo Wikimedia Commons persistée dan
 
 ## Backfill photo effectué dans le même passage
 
-31 anciennes recettes supplémentaires ont reçu une photo exacte ou représentative du plat avec licence claire, notamment :
+39 anciennes recettes supplémentaires ont reçu une photo exacte ou représentative du plat avec licence claire, notamment :
 - kung pao chicken;
 - sauerbraten de bœuf;
 - tortilla española;
@@ -118,7 +118,15 @@ Les 20 nouvelles recettes ont chacune une photo Wikimedia Commons persistée dan
 - mantu afghans;
 - kaiserschmarrn autrichien;
 - poulet yassa sénégalais;
-- menemen turc.
+- menemen turc;
+- fesenjan persan;
+- maqluba;
+- byrek albanais aux épinards;
+- dolma arménien aux feuilles de vigne;
+- chili con carne style Texas;
+- banitsa bulgare;
+- ful medames égyptien;
+- lohikeitto finlandaise.
 
 ## Règle photo
 

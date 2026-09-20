@@ -328,6 +328,89 @@ export type Database = {
         }
         Relationships: []
       }
+      image_jobs: {
+        Row: {
+          created_at: string
+          entity_type: string
+          error_message: string | null
+          id: string
+          job_kind: string
+          place_id: string | null
+          prompt_text: string | null
+          provider: string | null
+          query_text: string | null
+          recipe_id: string | null
+          requested_by: string | null
+          result_place_image_id: string | null
+          result_recipe_image_id: string | null
+          status: Database["public"]["Enums"]["job_status"]
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          entity_type: string
+          error_message?: string | null
+          id?: string
+          job_kind: string
+          place_id?: string | null
+          prompt_text?: string | null
+          provider?: string | null
+          query_text?: string | null
+          recipe_id?: string | null
+          requested_by?: string | null
+          result_place_image_id?: string | null
+          result_recipe_image_id?: string | null
+          status?: Database["public"]["Enums"]["job_status"]
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          entity_type?: string
+          error_message?: string | null
+          id?: string
+          job_kind?: string
+          place_id?: string | null
+          prompt_text?: string | null
+          provider?: string | null
+          query_text?: string | null
+          recipe_id?: string | null
+          requested_by?: string | null
+          result_place_image_id?: string | null
+          result_recipe_image_id?: string | null
+          status?: Database["public"]["Enums"]["job_status"]
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "image_jobs_place_id_fkey"
+            columns: ["place_id"]
+            isOneToOne: false
+            referencedRelation: "culinary_places"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "image_jobs_recipe_id_fkey"
+            columns: ["recipe_id"]
+            isOneToOne: false
+            referencedRelation: "recipes"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "image_jobs_result_place_image_id_fkey"
+            columns: ["result_place_image_id"]
+            isOneToOne: false
+            referencedRelation: "place_images"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "image_jobs_result_recipe_image_id_fkey"
+            columns: ["result_recipe_image_id"]
+            isOneToOne: false
+            referencedRelation: "recipe_images"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       notifications: {
         Row: {
           actor_id: string | null
@@ -372,6 +455,193 @@ export type Database = {
           },
           {
             foreignKeyName: "notifications_recipe_id_fkey"
+            columns: ["recipe_id"]
+            isOneToOne: false
+            referencedRelation: "recipes"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      place_aliases: {
+        Row: {
+          alias: string
+          created_at: string
+          id: string
+          is_primary: boolean
+          locale: string
+          place_id: string
+        }
+        Insert: {
+          alias: string
+          created_at?: string
+          id?: string
+          is_primary?: boolean
+          locale?: string
+          place_id: string
+        }
+        Update: {
+          alias?: string
+          created_at?: string
+          id?: string
+          is_primary?: boolean
+          locale?: string
+          place_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "place_aliases_place_id_fkey"
+            columns: ["place_id"]
+            isOneToOne: false
+            referencedRelation: "culinary_places"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      place_images: {
+        Row: {
+          alt_text: string | null
+          attribution_text: string | null
+          caption: string | null
+          created_at: string
+          created_by: string | null
+          external_url: string | null
+          generated_model: string | null
+          generated_prompt: string | null
+          height: number | null
+          id: string
+          is_primary: boolean
+          license_name: string | null
+          license_url: string | null
+          photographer_name: string | null
+          photographer_url: string | null
+          place_id: string
+          source_name: string | null
+          source_page_url: string | null
+          source_type: Database["public"]["Enums"]["media_source_type"]
+          status: Database["public"]["Enums"]["media_status"]
+          storage_path: string | null
+          thumbnail_url: string | null
+          updated_at: string
+          width: number | null
+        }
+        Insert: {
+          alt_text?: string | null
+          attribution_text?: string | null
+          caption?: string | null
+          created_at?: string
+          created_by?: string | null
+          external_url?: string | null
+          generated_model?: string | null
+          generated_prompt?: string | null
+          height?: number | null
+          id?: string
+          is_primary?: boolean
+          license_name?: string | null
+          license_url?: string | null
+          photographer_name?: string | null
+          photographer_url?: string | null
+          place_id: string
+          source_name?: string | null
+          source_page_url?: string | null
+          source_type: Database["public"]["Enums"]["media_source_type"]
+          status?: Database["public"]["Enums"]["media_status"]
+          storage_path?: string | null
+          thumbnail_url?: string | null
+          updated_at?: string
+          width?: number | null
+        }
+        Update: {
+          alt_text?: string | null
+          attribution_text?: string | null
+          caption?: string | null
+          created_at?: string
+          created_by?: string | null
+          external_url?: string | null
+          generated_model?: string | null
+          generated_prompt?: string | null
+          height?: number | null
+          id?: string
+          is_primary?: boolean
+          license_name?: string | null
+          license_url?: string | null
+          photographer_name?: string | null
+          photographer_url?: string | null
+          place_id?: string
+          source_name?: string | null
+          source_page_url?: string | null
+          source_type?: Database["public"]["Enums"]["media_source_type"]
+          status?: Database["public"]["Enums"]["media_status"]
+          storage_path?: string | null
+          thumbnail_url?: string | null
+          updated_at?: string
+          width?: number | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "place_images_place_id_fkey"
+            columns: ["place_id"]
+            isOneToOne: false
+            referencedRelation: "culinary_places"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      place_specialties: {
+        Row: {
+          created_at: string
+          created_by: string | null
+          description: string | null
+          id: string
+          is_signature: boolean
+          name: string
+          origin_note: string | null
+          place_id: string
+          recipe_id: string | null
+          sort_order: number
+          source_name: string | null
+          source_url: string | null
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          created_by?: string | null
+          description?: string | null
+          id?: string
+          is_signature?: boolean
+          name: string
+          origin_note?: string | null
+          place_id: string
+          recipe_id?: string | null
+          sort_order?: number
+          source_name?: string | null
+          source_url?: string | null
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          created_by?: string | null
+          description?: string | null
+          id?: string
+          is_signature?: boolean
+          name?: string
+          origin_note?: string | null
+          place_id?: string
+          recipe_id?: string | null
+          sort_order?: number
+          source_name?: string | null
+          source_url?: string | null
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "place_specialties_place_id_fkey"
+            columns: ["place_id"]
+            isOneToOne: false
+            referencedRelation: "culinary_places"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "place_specialties_recipe_id_fkey"
             columns: ["recipe_id"]
             isOneToOne: false
             referencedRelation: "recipes"
@@ -456,6 +726,101 @@ export type Database = {
           },
           {
             foreignKeyName: "recipe_comments_recipe_id_fkey"
+            columns: ["recipe_id"]
+            isOneToOne: false
+            referencedRelation: "recipes"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      recipe_images: {
+        Row: {
+          alt_text: string | null
+          attribution_text: string | null
+          caption: string | null
+          created_at: string
+          created_by: string | null
+          external_url: string | null
+          generated_model: string | null
+          generated_prompt: string | null
+          height: number | null
+          id: string
+          is_primary: boolean
+          is_representative: boolean
+          license_name: string | null
+          license_url: string | null
+          moderation_notes: string | null
+          photographer_name: string | null
+          photographer_url: string | null
+          recipe_id: string
+          source_name: string | null
+          source_page_url: string | null
+          source_type: Database["public"]["Enums"]["media_source_type"]
+          status: Database["public"]["Enums"]["media_status"]
+          storage_path: string | null
+          thumbnail_url: string | null
+          updated_at: string
+          width: number | null
+        }
+        Insert: {
+          alt_text?: string | null
+          attribution_text?: string | null
+          caption?: string | null
+          created_at?: string
+          created_by?: string | null
+          external_url?: string | null
+          generated_model?: string | null
+          generated_prompt?: string | null
+          height?: number | null
+          id?: string
+          is_primary?: boolean
+          is_representative?: boolean
+          license_name?: string | null
+          license_url?: string | null
+          moderation_notes?: string | null
+          photographer_name?: string | null
+          photographer_url?: string | null
+          recipe_id: string
+          source_name?: string | null
+          source_page_url?: string | null
+          source_type: Database["public"]["Enums"]["media_source_type"]
+          status?: Database["public"]["Enums"]["media_status"]
+          storage_path?: string | null
+          thumbnail_url?: string | null
+          updated_at?: string
+          width?: number | null
+        }
+        Update: {
+          alt_text?: string | null
+          attribution_text?: string | null
+          caption?: string | null
+          created_at?: string
+          created_by?: string | null
+          external_url?: string | null
+          generated_model?: string | null
+          generated_prompt?: string | null
+          height?: number | null
+          id?: string
+          is_primary?: boolean
+          is_representative?: boolean
+          license_name?: string | null
+          license_url?: string | null
+          moderation_notes?: string | null
+          photographer_name?: string | null
+          photographer_url?: string | null
+          recipe_id?: string
+          source_name?: string | null
+          source_page_url?: string | null
+          source_type?: Database["public"]["Enums"]["media_source_type"]
+          status?: Database["public"]["Enums"]["media_status"]
+          storage_path?: string | null
+          thumbnail_url?: string | null
+          updated_at?: string
+          width?: number | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "recipe_images_recipe_id_fkey"
             columns: ["recipe_id"]
             isOneToOne: false
             referencedRelation: "recipes"
@@ -690,16 +1055,26 @@ export type Database = {
           category: string | null
           cook_minutes: number | null
           country_code: string | null
+          cover_image_id: string | null
           cover_image_path: string | null
           created_at: string
           description: string | null
           difficulty: Database["public"]["Enums"]["recipe_difficulty"] | null
+          excerpt: string | null
+          hero_image_id: string | null
           id: string
+          is_editorial: boolean
           prep_minutes: number | null
+          primary_place_id: string | null
           published_at: string | null
           region: string | null
+          search_text: string | null
           servings: number | null
+          slug: string | null
           source_language: string
+          source_name: string | null
+          source_notes: string | null
+          source_url: string | null
           status: Database["public"]["Enums"]["recipe_status"]
           title: string
           updated_at: string
@@ -710,16 +1085,26 @@ export type Database = {
           category?: string | null
           cook_minutes?: number | null
           country_code?: string | null
+          cover_image_id?: string | null
           cover_image_path?: string | null
           created_at?: string
           description?: string | null
           difficulty?: Database["public"]["Enums"]["recipe_difficulty"] | null
+          excerpt?: string | null
+          hero_image_id?: string | null
           id?: string
+          is_editorial?: boolean
           prep_minutes?: number | null
+          primary_place_id?: string | null
           published_at?: string | null
           region?: string | null
+          search_text?: string | null
           servings?: number | null
+          slug?: string | null
           source_language?: string
+          source_name?: string | null
+          source_notes?: string | null
+          source_url?: string | null
           status?: Database["public"]["Enums"]["recipe_status"]
           title: string
           updated_at?: string
@@ -730,21 +1115,53 @@ export type Database = {
           category?: string | null
           cook_minutes?: number | null
           country_code?: string | null
+          cover_image_id?: string | null
           cover_image_path?: string | null
           created_at?: string
           description?: string | null
           difficulty?: Database["public"]["Enums"]["recipe_difficulty"] | null
+          excerpt?: string | null
+          hero_image_id?: string | null
           id?: string
+          is_editorial?: boolean
           prep_minutes?: number | null
+          primary_place_id?: string | null
           published_at?: string | null
           region?: string | null
+          search_text?: string | null
           servings?: number | null
+          slug?: string | null
           source_language?: string
+          source_name?: string | null
+          source_notes?: string | null
+          source_url?: string | null
           status?: Database["public"]["Enums"]["recipe_status"]
           title?: string
           updated_at?: string
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: "recipes_cover_image_fk"
+            columns: ["cover_image_id"]
+            isOneToOne: false
+            referencedRelation: "recipe_images"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "recipes_hero_image_fk"
+            columns: ["hero_image_id"]
+            isOneToOne: false
+            referencedRelation: "recipe_images"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "recipes_primary_place_id_fkey"
+            columns: ["primary_place_id"]
+            isOneToOne: false
+            referencedRelation: "culinary_places"
+            referencedColumns: ["id"]
+          },
+        ]
       }
       user_blocks: {
         Row: {
@@ -825,9 +1242,18 @@ export type Database = {
         }
         Returns: string
       }
+      get_place_descendants: {
+        Args: { root_place: string }
+        Returns: {
+          id: string
+        }[]
+      }
     }
     Enums: {
+      job_status: "queued" | "processing" | "done" | "failed" | "cancelled"
       measurement_system: "metric" | "imperial" | "cups"
+      media_source_type: "external_licensed" | "generated" | "user_uploaded"
+      media_status: "pending" | "ready" | "rejected" | "archived"
       notification_type:
         | "comment"
         | "rating"
@@ -973,7 +1399,10 @@ export type CompositeTypes<
 export const Constants = {
   public: {
     Enums: {
+      job_status: ["queued", "processing", "done", "failed", "cancelled"],
       measurement_system: ["metric", "imperial", "cups"],
+      media_source_type: ["external_licensed", "generated", "user_uploaded"],
+      media_status: ["pending", "ready", "rejected", "archived"],
       notification_type: [
         "comment",
         "rating",

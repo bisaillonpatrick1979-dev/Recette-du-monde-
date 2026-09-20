@@ -923,3 +923,234 @@ button { cursor: pointer; }
   }
   .culinary-map-marker span { font-size: 16px; }
 }
+
+
+/* Recipe media and culinary atlas specialties */
+.recipe-top-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.recipe-hero-media {
+  position: relative;
+  margin: -1px -1px 28px;
+  height: clamp(280px, 48vw, 560px);
+  overflow: hidden;
+  border-radius: 22px 22px 18px 18px;
+  background: #eee7dc;
+}
+.recipe-hero-media img,
+.recipe-gallery-image img,
+.atlas-place-media img,
+.atlas-recipe-thumb img {
+  object-fit: cover;
+}
+.recipe-hero-media figcaption,
+.atlas-place-media figcaption {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 10px;
+  align-items: center;
+  padding: 9px 11px;
+  border-radius: 12px;
+  background: rgba(12,29,33,.82);
+  color: white;
+  backdrop-filter: blur(12px);
+  font-size: 11px;
+}
+.recipe-hero-media figcaption small,
+.atlas-place-media figcaption small {
+  opacity: .86;
+}
+.recipe-hero-media figcaption a,
+.atlas-place-media figcaption a {
+  margin-left: auto;
+  color: white;
+  text-decoration: underline;
+}
+.recipe-media-placeholder {
+  min-height: 260px;
+  margin: -1px -1px 28px;
+  border-radius: 22px 22px 18px 18px;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 6px;
+  background:
+    radial-gradient(circle at 50% 20%, rgba(216,162,63,.22), transparent 38%),
+    linear-gradient(145deg, #f7f0e4, #ece3d6);
+  color: var(--ink-soft);
+  text-align: center;
+}
+.recipe-media-placeholder > span { font-size: 58px; }
+.recipe-media-placeholder > strong { color: var(--ink); font: 700 24px Georgia, serif; }
+.recipe-media-placeholder > small { max-width: 360px; line-height: 1.45; }
+.recipe-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 12px;
+  margin: 24px 0;
+}
+.recipe-gallery figure {
+  margin: 0;
+  min-width: 0;
+}
+.recipe-gallery-image {
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #eee7dc;
+}
+.recipe-gallery figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 6px;
+  color: var(--ink-soft);
+  font-size: 10px;
+}
+.recipe-gallery figcaption a { color: var(--terracotta); font-weight: 800; }
+.recipe-photo-uploader {
+  margin: 24px 0 4px;
+  display: grid;
+  grid-template-columns: 1fr minmax(210px, .65fr);
+  gap: 12px 18px;
+  align-items: center;
+  padding: 18px;
+  border: 1px dashed var(--terracotta);
+  border-radius: 16px;
+  background: #fff9f4;
+}
+.recipe-photo-uploader strong,
+.recipe-photo-uploader small {
+  display: block;
+}
+.recipe-photo-uploader small {
+  margin-top: 4px;
+  color: var(--ink-soft);
+}
+.recipe-photo-uploader input[type="file"] {
+  width: 100%;
+  min-height: 46px;
+  padding: 9px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: white;
+}
+.upload-status {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--forest);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.atlas-place-media {
+  position: relative;
+  margin: -22px -22px 18px;
+  height: 190px;
+  overflow: hidden;
+  border-radius: 22px 22px 14px 14px;
+  background: #ebe5da;
+}
+.atlas-place-media figcaption {
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  font-size: 9px;
+}
+.atlas-specialties {
+  margin-top: 22px;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+.atlas-specialty-list {
+  display: grid;
+  gap: 8px;
+}
+.atlas-specialty-list a,
+.atlas-specialty-item {
+  display: grid;
+  gap: 3px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 11px 12px;
+  background: #fffaf3;
+}
+.atlas-specialty-list span {
+  color: var(--gold);
+  font-size: 9px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.atlas-specialty-list strong {
+  color: var(--ink);
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+.atlas-specialty-list small {
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
+.atlas-recipe-list a {
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+.atlas-recipe-thumb {
+  position: relative;
+  width: 76px;
+  height: 64px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #eee7dc;
+}
+.atlas-recipe-list a > div:last-child {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+}
+
+@media (max-width: 760px) {
+  .recipe-gallery { grid-template-columns: 1fr 1fr; }
+  .recipe-photo-uploader { grid-template-columns: 1fr; }
+  .recipe-photo-uploader .upload-status { grid-column: auto; }
+  .recipe-top-actions .ghost-button:first-child { display: none; }
+  .atlas-place-media {
+    margin: -17px -17px 15px;
+    height: 150px;
+  }
+}
+
+
+.editorial-provenance {
+  margin: 14px 0 20px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--gold);
+  border-radius: 0 12px 12px 0;
+  background: #fff8e8;
+}
+.editorial-provenance > span {
+  display: block;
+  color: var(--forest);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.editorial-provenance p {
+  margin: 7px 0;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  font-size: 13px;
+}
+.editorial-provenance a {
+  color: var(--terracotta);
+  font-size: 12px;
+  font-weight: 800;
+}

@@ -1,19 +1,25 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Map as MapLibreMap, Marker } from "maplibre-gl";
 import {
   levelLabels,
+  type AtlasPlaceImage,
   type AtlasRecipe,
+  type AtlasSpecialty,
   type CulinaryPlace,
 } from "@/lib/culinary-places";
+import { mediaSourceLabel } from "@/lib/media";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/liberty";
 
 type Props = {
   places: CulinaryPlace[];
   recipes: AtlasRecipe[];
+  specialties: AtlasSpecialty[];
+  placeImages: AtlasPlaceImage[];
   dataError?: string | null;
 };
 
@@ -62,11 +68,21 @@ function featureName(properties: Record<string, unknown> | null | undefined) {
   return candidates.find((value): value is string => typeof value === "string" && value.trim().length > 0) ?? null;
 }
 
-export function CulinaryGlobe({ places, recipes, dataError = null }: Props) {
+export function CulinaryGlobe({
+  places,
+  recipes,
+  specialties,
+  placeImages,
+  dataError = null,
+}: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const markersRef = useRef<Marker[]>([]);
-  const initialPlace = places.find((place) => place.slug === "id-bali") ?? places[0] ?? null;
+  const initialPlace =
+    places.find((place) => place.slug === "id-bali") ??
+    places.find((place) => recipes.some((recipe) => recipe.placeId === place.id)) ??
+    places[0] ??
+    null;
   const [selectedId, setSelectedId] = useState<string | null>(initialPlace?.id ?? null);
   const [mapPick, setMapPick] = useState<MapPick | null>(null);
   const [query, setQuery] = useState("");
@@ -120,6 +136,23 @@ export function CulinaryGlobe({ places, recipes, dataError = null }: Props) {
     [recipes, selectedPlaceIds],
   );
 
+  const selectedSpecialties = useMemo(
+    () =>
+      specialties
+        .filter((specialty) => selectedPlaceIds.has(specialty.placeId))
+        .sort((a, b) => Number(b.isSignature) - Number(a.isSignature) || a.sortOrder - b.sortOrder || a.name.localeCompare(b.name, "fr")),
+    [specialties, selectedPlaceIds],
+  );
+
+  const selectedPlaceImage = useMemo(() => {
+    if (!selected) return null;
+    return (
+      placeImages.find((image) => image.placeId === selected.id && image.isPrimary) ??
+      placeImages.find((image) => image.placeId === selected.id) ??
+      null
+    );
+  }, [placeImages, selected]);
+
   const childPlaces = useMemo(
     () => (selected ? places.filter((place) => place.parentId === selected.id) : []),
     [places, selected],
@@ -129,24 +162,34 @@ export function CulinaryGlobe({ places, recipes, dataError = null }: Props) {
     const normalized = normalizeName(query);
     if (!normalized) return [];
 
-    const matchingRecipePlaceIds = new Set(
-      recipes
-        .filter((recipe) =>
-          normalizeName([recipe.title, recipe.category ?? "", recipe.description ?? ""].join(" ")).includes(normalized),
-        )
-        .map((recipe) => recipe.placeId),
-    );
+    const matchingPlaceIds = new Set<string>();
+
+    for (const recipe of recipes) {
+      if (
+        normalizeName([recipe.title, recipe.category ?? "", recipe.description ?? ""].join(" ")).includes(normalized)
+      ) {
+        matchingPlaceIds.add(recipe.placeId);
+      }
+    }
+
+    for (const specialty of specialties) {
+      if (
+        normalizeName([specialty.name, specialty.description ?? "", specialty.originNote ?? ""].join(" ")).includes(normalized)
+      ) {
+        matchingPlaceIds.add(specialty.placeId);
+      }
+    }
 
     return places
       .filter((place) => {
         const path = placePath(place).map((item) => item.name).join(" ");
         return (
           normalizeName([place.name, place.countryCode, path].join(" ")).includes(normalized) ||
-          matchingRecipePlaceIds.has(place.id)
+          matchingPlaceIds.has(place.id)
         );
       })
       .slice(0, 8);
-  }, [query, places, recipes, placeById]);
+  }, [query, places, recipes, specialties, placeById]);
 
   function findDatabasePlace(name: string, placeClass: string) {
     const normalized = normalizeName(name);
@@ -371,7 +414,14 @@ export function CulinaryGlobe({ places, recipes, dataError = null }: Props) {
 
   function surpriseMe() {
     if (!places.length) return;
-    const candidates = places.filter((place) => place.placeType !== "country");
+    const usefulPlaceIds = new Set([
+      ...recipes.map((recipe) => recipe.placeId),
+      ...specialties.map((specialty) => specialty.placeId),
+    ]);
+    const useful = places.filter((place) => place.placeType !== "country" && usefulPlaceIds.has(place.id));
+    const candidates = useful.length
+      ? useful
+      : places.filter((place) => place.placeType !== "country");
     const source = candidates.length ? candidates : places;
     const place = source[Math.floor(Math.random() * source.length)];
     focusPlace(place);
@@ -453,6 +503,24 @@ export function CulinaryGlobe({ places, recipes, dataError = null }: Props) {
           </>
         ) : selected ? (
           <>
+            {selectedPlaceImage ? (
+              <figure className="atlas-place-media">
+                <Image
+                  src={selectedPlaceImage.url}
+                  alt={selectedPlaceImage.altText || selected.name}
+                  fill
+                  sizes="390px"
+                />
+                <figcaption>
+                  <span>{mediaSourceLabel(selectedPlaceImage.sourceType)}</span>
+                  {selectedPlaceImage.attributionText ? <small>{selectedPlaceImage.attributionText}</small> : null}
+                  {selectedPlaceImage.sourcePageUrl ? (
+                    <a href={selectedPlaceImage.sourcePageUrl} target="_blank" rel="noreferrer">Source ↗</a>
+                  ) : null}
+                </figcaption>
+              </figure>
+            ) : null}
+
             <div className="place-level">{levelLabels[selected.placeType]}</div>
             <h2>{selected.name}</h2>
             <p className="place-parent">
@@ -471,6 +539,31 @@ export function CulinaryGlobe({ places, recipes, dataError = null }: Props) {
               </div>
             ) : null}
 
+            {selectedSpecialties.length ? (
+              <div className="atlas-specialties">
+                <div className="atlas-recipes-heading">
+                  <span>Spécialités du coin</span>
+                  <strong>{selectedSpecialties.length}</strong>
+                </div>
+                <div className="atlas-specialty-list">
+                  {selectedSpecialties.slice(0, 8).map((specialty) => {
+                    const body = (
+                      <>
+                        {specialty.isSignature ? <span>Spécialité emblématique</span> : <span>Spécialité locale</span>}
+                        <strong>{specialty.name}</strong>
+                        {specialty.description ? <small>{specialty.description}</small> : null}
+                      </>
+                    );
+                    return specialty.recipeId ? (
+                      <Link href={`/recipes/${specialty.recipeId}`} key={specialty.id}>{body}</Link>
+                    ) : (
+                      <div className="atlas-specialty-item" key={specialty.id}>{body}</div>
+                    );
+                  })}
+                </div>
+              </div>
+            ) : null}
+
             <div className="atlas-recipes">
               <div className="atlas-recipes-heading">
                 <span>Recettes de cette zone</span>
@@ -480,9 +573,16 @@ export function CulinaryGlobe({ places, recipes, dataError = null }: Props) {
                 <div className="atlas-recipe-list">
                   {selectedRecipes.slice(0, 10).map((recipe) => (
                     <Link href={`/recipes/${recipe.id}`} key={`${recipe.id}-${recipe.placeId}`}>
-                      <span>{recipe.category || "Recette locale"}</span>
-                      <strong>{recipe.title}</strong>
-                      <small>Voir ingrédients + étapes complètes →</small>
+                      {recipe.coverImageUrl ? (
+                        <div className="atlas-recipe-thumb">
+                          <Image src={recipe.coverImageUrl} alt={recipe.title} fill sizes="84px" />
+                        </div>
+                      ) : null}
+                      <div>
+                        <span>{recipe.category || "Recette locale"}</span>
+                        <strong>{recipe.title}</strong>
+                        <small>Voir ingrédients + étapes complètes →</small>
+                      </div>
                     </Link>
                   ))}
                 </div>

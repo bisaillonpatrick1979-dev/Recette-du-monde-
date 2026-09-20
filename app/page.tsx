@@ -1,5 +1,5 @@
 import { HomeExperience } from "@/components/home-experience";
-import type { HomeCountryCard, HomeRecipe } from "@/lib/home-data";
+import type { HomeAtlasStats, HomeCountryCard, HomeRecipe } from "@/lib/home-data";
 import { resolveMediaUrl } from "@/lib/media";
 import { createClient } from "@/lib/supabase/server";
 
@@ -29,14 +29,31 @@ function timeLabel(prep: number | null, cook: number | null) {
 export default async function HomePage() {
   const supabase = await createClient();
 
-  const { data } = await supabase
-    .from("recipes")
-    .select(
-      "id,title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
-    )
-    .eq("status", "published")
-    .order("published_at", { ascending: false })
-    .limit(18);
+  const [recipesResult, recipeCountResult, countryCodesResult, subplaceCountResult] = await Promise.all([
+    supabase
+      .from("recipes")
+      .select(
+        "id,title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
+      )
+      .eq("status", "published")
+      .order("published_at", { ascending: false })
+      .limit(18),
+    supabase
+      .from("recipes")
+      .select("id", { count: "exact", head: true })
+      .eq("status", "published"),
+    supabase
+      .from("recipes")
+      .select("country_code")
+      .eq("status", "published"),
+    supabase
+      .from("culinary_places")
+      .select("id", { count: "exact", head: true })
+      .eq("is_active", true)
+      .in("place_type", ["region", "island", "city", "locality"]),
+  ]);
+
+  const data = recipesResult.data;
 
   const displayNames = new Intl.DisplayNames(["fr"], { type: "region" });
 
@@ -76,5 +93,15 @@ export default async function HomePage() {
       dishes: value.titles.slice(0, 3).join(", "),
     }));
 
-  return <HomeExperience recipes={recipes} countries={countries} />;
+  const stats: HomeAtlasStats = {
+    recipes: recipeCountResult.count ?? recipes.length,
+    countries: new Set(
+      (countryCodesResult.data ?? [])
+        .map((row) => row.country_code)
+        .filter((code): code is string => Boolean(code)),
+    ).size,
+    subplaces: subplaceCountResult.count ?? 0,
+  };
+
+  return <HomeExperience recipes={recipes} countries={countries} stats={stats} />;
 }

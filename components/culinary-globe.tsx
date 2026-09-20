@@ -126,17 +126,21 @@ export function CulinaryGlobe({
     [selected, places],
   );
 
-  const selectedRecipes = useMemo(
-    () =>
-      recipes
-        .filter((recipe) => selectedPlaceIds.has(recipe.placeId))
-        .sort((a, b) => {
-          const aDirect = selected && a.placeId === selected.id ? 1 : 0;
-          const bDirect = selected && b.placeId === selected.id ? 1 : 0;
-          return bDirect - aDirect || a.title.localeCompare(b.title, "fr");
-        }),
-    [recipes, selectedPlaceIds, selected],
-  );
+  const selectedRecipes = useMemo(() => {
+    const ordered = recipes
+      .filter((recipe) => selectedPlaceIds.has(recipe.placeId))
+      .sort((a, b) => {
+        const aDirect = selected && a.placeId === selected.id ? 1 : 0;
+        const bDirect = selected && b.placeId === selected.id ? 1 : 0;
+        return bDirect - aDirect || a.title.localeCompare(b.title, "fr");
+      });
+
+    const unique = new Map<string, AtlasRecipe>();
+    for (const recipe of ordered) {
+      if (!unique.has(recipe.id)) unique.set(recipe.id, recipe);
+    }
+    return [...unique.values()];
+  }, [recipes, selectedPlaceIds, selected]);
 
   const selectedSpecialties = useMemo(
     () =>
@@ -177,6 +181,33 @@ export function CulinaryGlobe({
       : selected?.placeType === "region" || selected?.placeType === "island"
         ? "Spécialités de la région"
         : "Spécialités du coin";
+
+  const worldRecipeCount = useMemo(
+    () => new Set(recipes.map((recipe) => recipe.id)).size,
+    [recipes],
+  );
+
+  const worldCountryCount = useMemo(() => {
+    const countries = new Set<string>();
+    for (const recipe of recipes) {
+      let place = placeById.get(recipe.placeId);
+      const visited = new Set<string>();
+      while (place && !visited.has(place.id)) {
+        visited.add(place.id);
+        if (place.placeType === "country") {
+          countries.add(place.id);
+          break;
+        }
+        place = place.parentId ? placeById.get(place.parentId) : undefined;
+      }
+    }
+    return countries.size;
+  }, [recipes, placeById]);
+
+  const worldSubplaceCount = useMemo(
+    () => places.filter((place) => place.placeType !== "country").length,
+    [places],
+  );
 
   const selectedPlaceImage = useMemo(() => {
     if (!selected) return null;
@@ -457,6 +488,11 @@ export function CulinaryGlobe({
           <div>
             <strong id="atlas-title">Globetrotter culinaire</strong>
             <small>Tournez la Terre. Touchez un endroit. Découvrez quoi manger.</small>
+            <div className="earth-title-stats">
+              <span>{worldRecipeCount.toLocaleString("fr-CA")} recettes</span>
+              <span>{worldCountryCount.toLocaleString("fr-CA")} pays</span>
+              <span>{worldSubplaceCount.toLocaleString("fr-CA")} régions/villes</span>
+            </div>
           </div>
         </div>
         <button type="button" className="earth-random-button" onClick={surpriseMe}>
@@ -540,6 +576,17 @@ export function CulinaryGlobe({
             </p>
             <p>{selected.summary || "Découvrez ce que l’on cuisine dans cette zone."}</p>
 
+            <div className="atlas-context-stats">
+              <div>
+                <strong>{selectedRecipes.length.toLocaleString("fr-CA")}</strong>
+                <span>recettes dans cette zone</span>
+              </div>
+              <div>
+                <strong>{childPlaces.length.toLocaleString("fr-CA")}</strong>
+                <span>régions ou villes à explorer</span>
+              </div>
+            </div>
+
             {childPlaces.length > 0 ? (
               <div className="place-examples">
                 <span>Explorer plus précisément</span>
@@ -555,7 +602,7 @@ export function CulinaryGlobe({
               <div className="atlas-specialties">
                 <div className="atlas-recipes-heading">
                   <span>{specialtySectionLabel}</span>
-                  <strong>{Math.min(selectedSpecialties.length, specialtyLimit)}</strong>
+                  <strong>{selectedSpecialties.length}</strong>
                 </div>
                 <div className="atlas-specialty-list">
                   {selectedSpecialties.slice(0, specialtyLimit).map((specialty) => {
@@ -579,7 +626,7 @@ export function CulinaryGlobe({
             <div className="atlas-recipes">
               <div className="atlas-recipes-heading">
                 <span>{recipeSectionLabel}</span>
-                <strong>{Math.min(selectedRecipes.length, recipeLimit)}</strong>
+                <strong>{selectedRecipes.length}</strong>
               </div>
               {selectedRecipes.length ? (
                 <div className="atlas-recipe-list">

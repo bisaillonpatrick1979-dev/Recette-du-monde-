@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { HomeCountryCard, HomeRecipe } from "@/lib/home-data";
+import type { HomeAtlasStats, HomeCountryCard, HomeRecipe } from "@/lib/home-data";
 import {
   defaultPreferences,
   PREFERENCES_STORAGE_KEY,
@@ -13,6 +13,7 @@ import {
 type Props = {
   recipes: HomeRecipe[];
   countries: HomeCountryCard[];
+  stats: HomeAtlasStats;
 };
 
 const copy = {
@@ -54,7 +55,7 @@ const copy = {
   },
 } as const;
 
-export function HomeExperience({ recipes, countries }: Props) {
+export function HomeExperience({ recipes, countries, stats }: Props) {
   const [preferences, setPreferences] = useState<UserPreferences>(defaultPreferences);
   const [query, setQuery] = useState("");
   const featuredRef = useRef<HTMLDivElement | null>(null);
@@ -220,6 +221,11 @@ export function HomeExperience({ recipes, countries }: Props) {
             <h2>{text.explore}</h2>
           </div>
           <Link href="/explore">Ouvrir le globe →</Link>
+        </div>
+        <div className="atlas-summary" aria-label="Statistiques de l’atlas culinaire">
+          <div><strong>{stats.recipes.toLocaleString("fr-CA")}</strong><span>recettes</span></div>
+          <div><strong>{stats.countries.toLocaleString("fr-CA")}</strong><span>pays représentés</span></div>
+          <div><strong>{stats.subplaces.toLocaleString("fr-CA")}</strong><span>régions et villes</span></div>
         </div>
         <div className="country-grid">
           {countries.map((country) => (

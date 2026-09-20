@@ -13,6 +13,7 @@ export type HomeRecipe = {
 export type HomeCountryCard = {
   flag: string;
   name: string;
+  countryCode: string;
   dishes: string;
 };
 

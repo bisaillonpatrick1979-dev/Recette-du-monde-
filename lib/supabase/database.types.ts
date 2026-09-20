@@ -1007,6 +1007,38 @@ export type Database = {
           },
         ]
       }
+      recipe_title_translations: {
+        Row: {
+          language_code: string
+          model: string | null
+          recipe_id: string
+          title: string
+          translated_at: string
+        }
+        Insert: {
+          language_code: string
+          model?: string | null
+          recipe_id: string
+          title: string
+          translated_at?: string
+        }
+        Update: {
+          language_code?: string
+          model?: string | null
+          recipe_id?: string
+          title?: string
+          translated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "recipe_title_translations_recipe_id_fkey"
+            columns: ["recipe_id"]
+            isOneToOne: false
+            referencedRelation: "recipes"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       recipe_translations: {
         Row: {
           description: string | null
@@ -1064,6 +1096,7 @@ export type Database = {
           hero_image_id: string | null
           id: string
           is_editorial: boolean
+          original_title: string | null
           prep_minutes: number | null
           primary_place_id: string | null
           published_at: string | null
@@ -1094,6 +1127,7 @@ export type Database = {
           hero_image_id?: string | null
           id?: string
           is_editorial?: boolean
+          original_title?: string | null
           prep_minutes?: number | null
           primary_place_id?: string | null
           published_at?: string | null
@@ -1124,6 +1158,7 @@ export type Database = {
           hero_image_id?: string | null
           id?: string
           is_editorial?: boolean
+          original_title?: string | null
           prep_minutes?: number | null
           primary_place_id?: string | null
           published_at?: string | null

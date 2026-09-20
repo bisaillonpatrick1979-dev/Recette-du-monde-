@@ -40,7 +40,7 @@ const CONTINENT_PHOTOS = {
     source: "https://commons.wikimedia.org/wiki/File:Moraine_lake_banff.jpg",
     licenseUrl: "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
   },
-  "latin-america": {
+  "south-america": {
     url: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Machu.jpg",
     alt: "Machu Picchu au Pérou",
     author: "Diespas",
@@ -72,13 +72,13 @@ const CONTINENT_PHOTOS = {
     source: "https://commons.wikimedia.org/wiki/File:Amboseli_National_Park_and_Mt._Kilimanjaro.jpg",
     licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
   },
-  "middle-east": {
-    url: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Petra%2C_Jordan.jpg",
-    alt: "Pétra en Jordanie",
-    author: "Vyacheslav Argenberg",
-    license: "CC BY 4.0",
-    source: "https://commons.wikimedia.org/wiki/File:Petra,_Jordan.jpg",
-    licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
+  antarctica: {
+    url: "https://upload.wikimedia.org/wikipedia/commons/6/63/Antarctica_Landscape.jpg",
+    alt: "Paysage de l’Antarctique avec icebergs, montagnes et neige",
+    author: "Pedro Szekely",
+    license: "CC BY-SA 2.0",
+    source: "https://commons.wikimedia.org/wiki/File:Antarctica_Landscape.jpg",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/",
   },
   oceania: {
     url: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Sydney_Opera_House_and_Sydney_Harbour_Bridge.jpg",
@@ -222,7 +222,7 @@ export function HomeExperience({
 
           <div className="world-substats">
             <div><strong>{stats.countries}</strong><span>pays</span></div>
-            <div><strong>7</strong><span>grandes régions</span></div>
+            <div><strong>7</strong><span>continents</span></div>
             <div><strong>{stats.subplaces}</strong><span>régions et villes</span></div>
           </div>
 

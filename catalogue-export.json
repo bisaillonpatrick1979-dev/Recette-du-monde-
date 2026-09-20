@@ -1,0 +1,3113 @@
+{
+  "generated_at": "2026-09-20",
+  "recipe_count": 207,
+  "country_count": 100,
+  "internal_photo_count": 95,
+  "rows": [
+    {
+      "country_code": "AF",
+      "country_name": "Afghanistan",
+      "id": "10000000-0000-4000-8000-000000000083",
+      "title": "Kabuli pulao afghan (riz à l’agneau, carottes et raisins)",
+      "original_title": "Kabuli pulao afghan",
+      "region": "Kaboul",
+      "category": "Riz et agneau",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Kabuli pulao Afghan (rice à l’lamb, carrots and raisins)",
+        "es": "Kabuli pulao afgano (arroz à l’cordero, zanahorias y pasas)",
+        "fr": "Kabuli pulao afghan (riz à l’agneau, carottes et raisins)"
+      }
+    },
+    {
+      "country_code": "AF",
+      "country_name": "Afghanistan",
+      "id": "f1f41654-5eae-41d3-a855-e7a2f4bc633b",
+      "title": "Mantu afghans à la viande",
+      "original_title": "Mantu afghans à la viande",
+      "region": "Kaboul",
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Mantu Afghan à la viande",
+        "es": "Mantu afgano à la viande",
+        "fr": "Mantu afghans à la viande"
+      }
+    },
+    {
+      "country_code": "ZA",
+      "country_name": "Afrique du Sud",
+      "id": "10000000-0000-4000-8000-000000000052",
+      "title": "Bobotie sud-africain (bœuf épicé gratiné, riz et banane)",
+      "original_title": "Bobotie sud-africain",
+      "region": "Afrique du Sud",
+      "category": "Gratin de viande",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Bobotie South African (beef épicé gratiné, rice and banane)",
+        "es": "Bobotie sudafricano (carne de res épicé gratiné, arroz y banane)",
+        "fr": "Bobotie sud-africain (bœuf épicé gratiné, riz et banane)"
+      }
+    },
+    {
+      "country_code": "ZA",
+      "country_name": "Afrique du Sud",
+      "id": "f10ee071-7af9-4ec2-8608-3a3660eea6c9",
+      "title": "Malva pudding sud-africain",
+      "original_title": "Malva pudding sud-africain",
+      "region": null,
+      "category": "Dessert",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Malva pudding South African",
+        "es": "Malva pudding sudafricano",
+        "fr": "Malva pudding sud-africain"
+      }
+    },
+    {
+      "country_code": "AL",
+      "country_name": "Albanie",
+      "id": "e835e895-1d2e-40c3-87ae-1ddfcde4c4c8",
+      "title": "Byrek albanais aux épinards",
+      "original_title": "Byrek albanais aux épinards",
+      "region": null,
+      "category": "Entrée",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Byrek Albanian with épinards",
+        "es": "Byrek albanés con épinards",
+        "fr": "Byrek albanais aux épinards"
+      }
+    },
+    {
+      "country_code": "AL",
+      "country_name": "Albanie",
+      "id": "10000000-0000-4000-8000-000000000090",
+      "title": "Tavë kosi albanaise (agneau gratiné au yaourt et aux œufs)",
+      "original_title": "Tavë kosi albanaise",
+      "region": "Albanie",
+      "category": "Agneau gratiné",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Tavë kosi Albanian (lamb gratiné with yaourt and with œufs)",
+        "es": "Tavë kosi albanés (cordero gratiné con yaourt y con œufs)",
+        "fr": "Tavë kosi albanaise (agneau gratiné au yaourt et aux œufs)"
+      }
+    },
+    {
+      "country_code": "DZ",
+      "country_name": "Algérie",
+      "id": "10000000-0000-4000-8000-000000000067",
+      "title": "Chakhchoukha algérienne (pain de semoule déchiré, agneau, pois chiches et sauce tomate)",
+      "original_title": "Chakhchoukha algérienne",
+      "region": "Algérie",
+      "category": "Agneau et pain",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Chakhchoukha Algerian (bread de semoule déchiré, lamb, pois chiches and sauce tomato)",
+        "es": "Chakhchoukha argelino (pan de semoule déchiré, cordero, pois chiches y salsa tomate)",
+        "fr": "Chakhchoukha algérienne (pain de semoule déchiré, agneau, pois chiches et sauce tomate)"
+      }
+    },
+    {
+      "country_code": "DZ",
+      "country_name": "Algérie",
+      "id": "af5e9c60-ba89-4470-b3c6-7e13fdfe2f1e",
+      "title": "Chorba frik algérienne",
+      "original_title": "Chorba frik algérienne",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Chorba frik Algerian",
+        "es": "Chorba frik argelino",
+        "fr": "Chorba frik algérienne"
+      }
+    },
+    {
+      "country_code": "DE",
+      "country_name": "Allemagne",
+      "id": "10000000-0000-4000-8000-000000000042",
+      "title": "Currywurst de Berlin (saucisse sauce curry-tomate et frites)",
+      "original_title": "Currywurst de Berlin",
+      "region": "Berlin",
+      "category": "Cuisine de rue",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Currywurst de Berlin (saucisse sauce curry-tomato and frites)",
+        "es": "Currywurst de Berlin (saucisse salsa curry-tomate y frites)",
+        "fr": "Currywurst de Berlin (saucisse sauce curry-tomate et frites)"
+      }
+    },
+    {
+      "country_code": "DE",
+      "country_name": "Allemagne",
+      "id": "ef2066a5-b942-435b-ac05-fc2d6fb37025",
+      "title": "Sauerbraten allemand au bœuf",
+      "original_title": "Sauerbraten allemand au bœuf",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Sauerbraten German with beef",
+        "es": "Sauerbraten alemán con carne de res",
+        "fr": "Sauerbraten allemand au bœuf"
+      }
+    },
+    {
+      "country_code": "AO",
+      "country_name": "Angola",
+      "id": "05cc74c1-b636-4983-90d2-f9195d45318e",
+      "title": "Calulu angolais au poisson et aux feuilles",
+      "original_title": "Calulu",
+      "region": null,
+      "category": "Poisson",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Angolan calulu with fish and greens",
+        "es": "Calulu angoleño con pescado y hojas verdes",
+        "fr": "Calulu angolais au poisson et aux feuilles"
+      }
+    },
+    {
+      "country_code": "AO",
+      "country_name": "Angola",
+      "id": "6117973f-d570-4ac3-9d74-76cdd65fb4dc",
+      "title": "Muamba de galinha - poulet angolais à l’huile de palme",
+      "original_title": "Muamba de galinha",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Muamba de galinha - Angolan palm-oil chicken",
+        "es": "Muamba de galinha - pollo angoleño con aceite de palma",
+        "fr": "Muamba de galinha - poulet angolais à l’huile de palme"
+      }
+    },
+    {
+      "country_code": "SA",
+      "country_name": "Arabie saoudite",
+      "id": "10000000-0000-4000-8000-000000000081",
+      "title": "Kabsa saoudienne (riz épicé au poulet, raisins et noix)",
+      "original_title": "Kabsa saoudienne",
+      "region": "Arabie saoudite",
+      "category": "Poulet et riz",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Kabsa Saudi (rice épicé with chicken, raisins and nuts)",
+        "es": "Kabsa saudí (arroz épicé con pollo, pasas y nueces)",
+        "fr": "Kabsa saoudienne (riz épicé au poulet, raisins et noix)"
+      }
+    },
+    {
+      "country_code": "SA",
+      "country_name": "Arabie saoudite",
+      "id": "9d0f3625-2e21-4268-bef9-014d3b45613e",
+      "title": "Saleeg saoudien au poulet",
+      "original_title": "Saleeg saoudien au poulet",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Saleeg Saudi with chicken",
+        "es": "Saleeg saudí con pollo",
+        "fr": "Saleeg saoudien au poulet"
+      }
+    },
+    {
+      "country_code": "AR",
+      "country_name": "Argentine",
+      "id": "10000000-0000-4000-8000-000000000034",
+      "title": "Empanadas argentines au bœuf",
+      "original_title": "Empanadas argentines au bœuf",
+      "region": "Argentine",
+      "category": "Pâté salé",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Empanadas Argentinian with beef",
+        "es": "Empanadas argentino con carne de res",
+        "fr": "Empanadas argentines au bœuf"
+      }
+    },
+    {
+      "country_code": "AR",
+      "country_name": "Argentine",
+      "id": "979709c5-5859-4c11-82de-5f27074d97e0",
+      "title": "Milanesa napolitana argentine",
+      "original_title": "Milanesa napolitana argentine",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Milanesa napolitana Argentinian",
+        "es": "Milanesa napolitana argentino",
+        "fr": "Milanesa napolitana argentine"
+      }
+    },
+    {
+      "country_code": "AM",
+      "country_name": "Arménie",
+      "id": "0a26e109-2acf-4cd7-ae01-9fcdce2c14f7",
+      "title": "Dolma arménien aux feuilles de vigne",
+      "original_title": "Dolma arménien aux feuilles de vigne",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Dolma Armenian with feuilles de vigne",
+        "es": "Dolma armenio con feuilles de vigne",
+        "fr": "Dolma arménien aux feuilles de vigne"
+      }
+    },
+    {
+      "country_code": "AM",
+      "country_name": "Arménie",
+      "id": "10000000-0000-4000-8000-000000000091",
+      "title": "Khorovats arménien (brochettes d’agneau grillées au feu)",
+      "original_title": "Khorovats arménien",
+      "region": "Arménie",
+      "category": "Grillade",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Khorovats Armenian (brochettes d’lamb grilled with feu)",
+        "es": "Khorovats armenio (brochettes d’cordero a la parrilla con feu)",
+        "fr": "Khorovats arménien (brochettes d’agneau grillées au feu)"
+      }
+    },
+    {
+      "country_code": "AU",
+      "country_name": "Australie",
+      "id": "10000000-0000-4000-8000-000000000074",
+      "title": "Aussie meat pie (tourte australienne au bœuf et sauce brune)",
+      "original_title": "Aussie meat pie",
+      "region": "Australie",
+      "category": "Tourte salée",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Aussie meat pie (tourte australienne with beef and sauce brune)",
+        "es": "Aussie meat pie (tourte australienne con carne de res y salsa brune)",
+        "fr": "Aussie meat pie (tourte australienne au bœuf et sauce brune)"
+      }
+    },
+    {
+      "country_code": "AU",
+      "country_name": "Australie",
+      "id": "7e4d319b-533a-4622-9bdd-cb530b3a4aa2",
+      "title": "Biscuits ANZAC à l’avoine et noix de coco",
+      "original_title": "Biscuits ANZAC à l’avoine et noix de coco",
+      "region": null,
+      "category": "Dessert",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Biscuits ANZAC à l’avoine and nuts de coco",
+        "es": "Biscuits ANZAC à l’avoine y nueces de coco",
+        "fr": "Biscuits ANZAC à l’avoine et noix de coco"
+      }
+    },
+    {
+      "country_code": "AU",
+      "country_name": "Australie",
+      "id": "861c63e7-9bd4-45a7-9e03-b41ac396dee5",
+      "title": "Lamingtons australiens",
+      "original_title": "Lamingtons australiens",
+      "region": null,
+      "category": "Dessert",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Lamingtons Australian",
+        "es": "Lamingtons australiano",
+        "fr": "Lamingtons australiens"
+      }
+    },
+    {
+      "country_code": "AT",
+      "country_name": "Autriche",
+      "id": "728c4a48-88d2-4d3c-83e1-89c8b6b17bfb",
+      "title": "Kaiserschmarrn autrichien",
+      "original_title": "Kaiserschmarrn autrichien",
+      "region": "Vienne",
+      "category": "Dessert",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Kaiserschmarrn Austrian",
+        "es": "Kaiserschmarrn austríaco",
+        "fr": "Kaiserschmarrn autrichien"
+      }
+    },
+    {
+      "country_code": "AT",
+      "country_name": "Autriche",
+      "id": "10000000-0000-4000-8000-000000000023",
+      "title": "Wiener Schnitzel de Vienne (escalope de veau panée)",
+      "original_title": "Wiener Schnitzel de Vienne",
+      "region": "Vienne",
+      "category": "Escalope panée",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Wiener Schnitzel de Vienne (escalope de veal panée)",
+        "es": "Wiener Schnitzel de Vienne (escalope de ternera panée)",
+        "fr": "Wiener Schnitzel de Vienne (escalope de veau panée)"
+      }
+    },
+    {
+      "country_code": "BD",
+      "country_name": "Bangladesh",
+      "id": "fb9b4e3b-8df4-4e77-88ae-5c15cebfcdfc",
+      "title": "Bhuna khichuri bangladais",
+      "original_title": "Bhuna khichuri bangladais",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Bhuna khichuri Bangladeshi",
+        "es": "Bhuna khichuri bangladesí",
+        "fr": "Bhuna khichuri bangladais"
+      }
+    },
+    {
+      "country_code": "BD",
+      "country_name": "Bangladesh",
+      "id": "10000000-0000-4000-8000-000000000072",
+      "title": "Kacchi biryani de Dhaka (riz basmati et chèvre marinée aux épices)",
+      "original_title": "Kacchi biryani de Dhaka",
+      "region": "Dhaka",
+      "category": "Biryani",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Kacchi biryani de Dhaka (rice basmati and chèvre marinée with épices)",
+        "es": "Kacchi biryani de Dhaka (arroz basmati y chèvre marinée con épices)",
+        "fr": "Kacchi biryani de Dhaka (riz basmati et chèvre marinée aux épices)"
+      }
+    },
+    {
+      "country_code": "BE",
+      "country_name": "Belgique",
+      "id": "b9e42716-0e69-45f5-b226-ae5c648760e5",
+      "title": "Carbonnade flamande",
+      "original_title": "Carbonnade flamande",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Carbonnade Belgian",
+        "es": "Carbonnade belga",
+        "fr": "Carbonnade flamande"
+      }
+    },
+    {
+      "country_code": "BE",
+      "country_name": "Belgique",
+      "id": "10000000-0000-4000-8000-000000000085",
+      "title": "Moules-frites belges (moules marinières et frites croustillantes)",
+      "original_title": "Moules-frites belges",
+      "region": "Bruxelles",
+      "category": "Fruits de mer",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Moules-frites Belgian (moules marinières and frites croustillantes)",
+        "es": "Moules-frites belga (moules marinières y frites croustillantes)",
+        "fr": "Moules-frites belges (moules marinières et frites croustillantes)"
+      }
+    },
+    {
+      "country_code": "BO",
+      "country_name": "Bolivie",
+      "id": "10000000-0000-4000-8000-000000000093",
+      "title": "Salteñas boliviennes (chaussons au bœuf, pommes de terre, œuf et sauce juteuse)",
+      "original_title": "Salteñas boliviennes",
+      "region": "Bolivie",
+      "category": "Chausson salé",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Salteñas Bolivian (chaussons with beef, potatoes, œuf and sauce juteuse)",
+        "es": "Salteñas boliviano (chaussons con carne de res, patatas, œuf y salsa juteuse)",
+        "fr": "Salteñas boliviennes (chaussons au bœuf, pommes de terre, œuf et sauce juteuse)"
+      }
+    },
+    {
+      "country_code": "BO",
+      "country_name": "Bolivie",
+      "id": "9d7eff59-26c9-4089-982f-83628a5af736",
+      "title": "Silpancho bolivien",
+      "original_title": "Silpancho bolivien",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Silpancho bolivien",
+        "es": "Silpancho bolivien",
+        "fr": "Silpancho bolivien"
+      }
+    },
+    {
+      "country_code": "BA",
+      "country_name": "Bosnie-Herzégovine",
+      "id": "61187f68-ea48-48d2-b02b-9e3dc35de645",
+      "title": "Begova čorba bosnienne",
+      "original_title": "Begova čorba bosnienne",
+      "region": "Sarajevo",
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Begova čorba bosnienne",
+        "es": "Begova čorba bosnienne",
+        "fr": "Begova čorba bosnienne"
+      }
+    },
+    {
+      "country_code": "BA",
+      "country_name": "Bosnie-Herzégovine",
+      "id": "10000000-0000-4000-8000-000000000089",
+      "title": "Burek bosnien (spirale de pâte filo farcie au bœuf)",
+      "original_title": "Burek bosnien",
+      "region": "Sarajevo",
+      "category": "Pâtisserie salée",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Burek Bosnian (spirale de pâte filo farcie with beef)",
+        "es": "Burek bosnio (spirale de pâte filo farcie con carne de res)",
+        "fr": "Burek bosnien (spirale de pâte filo farcie au bœuf)"
+      }
+    },
+    {
+      "country_code": "BW",
+      "country_name": "Botswana",
+      "id": "7aa0a0c2-c5ed-47a1-a04a-5ba9b7de5c6c",
+      "title": "Bogobe jwa lerotse - porridge de sorgho et melon",
+      "original_title": "Bogobe jwa lerotse",
+      "region": null,
+      "category": "Accompagnement",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Bogobe jwa lerotse - sorghum and melon porridge",
+        "es": "Bogobe jwa lerotse - gachas de sorgo y melón",
+        "fr": "Bogobe jwa lerotse - porridge de sorgho et melon"
+      }
+    },
+    {
+      "country_code": "BW",
+      "country_name": "Botswana",
+      "id": "391931a6-7e8e-4767-a5ac-fb207025f975",
+      "title": "Seswaa - bœuf effiloché du Botswana",
+      "original_title": "Seswaa",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Seswaa - Botswana pounded beef",
+        "es": "Seswaa - carne de res deshebrada de Botsuana",
+        "fr": "Seswaa - bœuf effiloché du Botswana"
+      }
+    },
+    {
+      "country_code": "BR",
+      "country_name": "Brésil",
+      "id": "10000000-0000-4000-8000-000000000026",
+      "title": "Feijoada brésilienne (ragoût de haricots noirs et porc)",
+      "original_title": "Feijoada brésilienne",
+      "region": "Brésil",
+      "category": "Ragoût",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Feijoada Brazilian (stew de black beans and pork)",
+        "es": "Feijoada brasileño (guiso de frijoles negros y cerdo)",
+        "fr": "Feijoada brésilienne (ragoût de haricots noirs et porc)"
+      }
+    },
+    {
+      "country_code": "BR",
+      "country_name": "Brésil",
+      "id": "e32b953b-035a-4125-88cd-84b3c719e686",
+      "title": "Moqueca baiana de poisson",
+      "original_title": "Moqueca baiana de poisson",
+      "region": null,
+      "category": "Poisson",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Moqueca baiana de fish",
+        "es": "Moqueca baiana de pescado",
+        "fr": "Moqueca baiana de poisson"
+      }
+    },
+    {
+      "country_code": "BG",
+      "country_name": "Bulgarie",
+      "id": "2f44a1a8-8f49-4a8d-a287-e105f455619e",
+      "title": "Banitsa bulgare au fromage",
+      "original_title": "Banitsa bulgare au fromage",
+      "region": null,
+      "category": "Déjeuner",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Banitsa Bulgarian with cheese",
+        "es": "Banitsa búlgaro con queso",
+        "fr": "Banitsa bulgare au fromage"
+      }
+    },
+    {
+      "country_code": "BG",
+      "country_name": "Bulgarie",
+      "id": "10000000-0000-4000-8000-000000000066",
+      "title": "Shopska salata bulgare (tomate, concombre, poivron et fromage sirene)",
+      "original_title": "Shopska salata bulgare",
+      "region": "Bulgarie",
+      "category": "Salade",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Shopska salata Bulgarian (tomato, concombre, peppers and cheese sirene)",
+        "es": "Shopska salata búlgaro (tomate, concombre, pimientos y queso sirene)",
+        "fr": "Shopska salata bulgare (tomate, concombre, poivron et fromage sirene)"
+      }
+    },
+    {
+      "country_code": "KH",
+      "country_name": "Cambodge",
+      "id": "10000000-0000-4000-8000-000000000059",
+      "title": "Fish amok cambodgien (poisson vapeur au coco et kroeung)",
+      "original_title": "Fish amok cambodgien",
+      "region": "Cambodge",
+      "category": "Poisson vapeur",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Fish amok Cambodian (fish steamed with coco and kroeung)",
+        "es": "Fish amok camboyano (pescado al vapor con coco y kroeung)",
+        "fr": "Fish amok cambodgien (poisson vapeur au coco et kroeung)"
+      }
+    },
+    {
+      "country_code": "KH",
+      "country_name": "Cambodge",
+      "id": "621ab9a2-8709-420d-9282-dfb3f44d7e49",
+      "title": "Lok lak cambodgien au bœuf",
+      "original_title": "Lok lak cambodgien au bœuf",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Lok lak Cambodian with beef",
+        "es": "Lok lak camboyano con carne de res",
+        "fr": "Lok lak cambodgien au bœuf"
+      }
+    },
+    {
+      "country_code": "CM",
+      "country_name": "Cameroun",
+      "id": "a7bb1827-80ca-4c51-8c37-0a13ba15303a",
+      "title": "Ndolé camerounais aux arachides et feuilles",
+      "original_title": "Ndolé",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Cameroonian ndolé with peanuts and greens",
+        "es": "Ndolé camerunés con cacahuetes y hojas verdes",
+        "fr": "Ndolé camerounais aux arachides et feuilles"
+      }
+    },
+    {
+      "country_code": "CM",
+      "country_name": "Cameroun",
+      "id": "110ac67e-88ed-496f-a8bd-5f6c3845d735",
+      "title": "Poulet DG camerounais aux plantains",
+      "original_title": "Poulet DG",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Cameroonian Poulet DG with plantains",
+        "es": "Poulet DG camerunés con plátanos",
+        "fr": "Poulet DG camerounais aux plantains"
+      }
+    },
+    {
+      "country_code": "CA",
+      "country_name": "Canada",
+      "id": "10000000-0000-4000-8000-000000000007",
+      "title": "Barres Nanaimo",
+      "original_title": "Barres Nanaimo",
+      "region": "Nanaimo, Colombie-Britannique",
+      "category": "Dessert",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Barres Nanaimo",
+        "es": "Barres Nanaimo",
+        "fr": "Barres Nanaimo"
+      }
+    },
+    {
+      "country_code": "CA",
+      "country_name": "Canada",
+      "id": "10000000-0000-4000-8000-000000000006",
+      "title": "Poutine classique du Québec",
+      "original_title": "Poutine classique du Québec",
+      "region": "Québec",
+      "category": "Plat principal",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Poutine classique du Québec",
+        "es": "Poutine classique du Québec",
+        "fr": "Poutine classique du Québec"
+      }
+    },
+    {
+      "country_code": "CA",
+      "country_name": "Canada",
+      "id": "c891d8dc-ffdb-41bb-a5ab-8b52e47c1135",
+      "title": "Tourtière québécoise classique",
+      "original_title": "Tourtière québécoise classique",
+      "region": "Québec",
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Tourtière Canadian classique",
+        "es": "Tourtière canadiense classique",
+        "fr": "Tourtière québécoise classique"
+      }
+    },
+    {
+      "country_code": "CL",
+      "country_name": "Chili",
+      "id": "be39dd8e-f1c9-4ca9-846d-18bf32ff16ce",
+      "title": "Empanadas de pino chiliennes",
+      "original_title": "Empanadas de pino chiliennes",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Empanadas de pino Chilean",
+        "es": "Empanadas de pino chileno",
+        "fr": "Empanadas de pino chiliennes"
+      }
+    },
+    {
+      "country_code": "CL",
+      "country_name": "Chili",
+      "id": "10000000-0000-4000-8000-000000000057",
+      "title": "Pastel de choclo chilien (gratin de maïs au bœuf, œuf, olives et raisins)",
+      "original_title": "Pastel de choclo chilien",
+      "region": "Chili",
+      "category": "Gratin",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Pastel de choclo chilien (gratin de corn with beef, œuf, olives and raisins)",
+        "es": "Pastel de choclo chilien (gratin de maíz con carne de res, œuf, olives y pasas)",
+        "fr": "Pastel de choclo chilien (gratin de maïs au bœuf, œuf, olives et raisins)"
+      }
+    },
+    {
+      "country_code": "CN",
+      "country_name": "Chine",
+      "id": "10000000-0000-4000-8000-000000000035",
+      "title": "Mapo tofu de Chengdu (tofu épicé au bœuf, style Sichuan)",
+      "original_title": "Mapo tofu de Chengdu",
+      "region": "Chengdu, Sichuan",
+      "category": "Tofu épicé",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Mapo tofu de Chengdu (tofu épicé with beef, style Sichuan)",
+        "es": "Mapo tofu de Chengdu (tofu épicé con carne de res, style Sichuan)",
+        "fr": "Mapo tofu de Chengdu (tofu épicé au bœuf, style Sichuan)"
+      }
+    },
+    {
+      "country_code": "CN",
+      "country_name": "Chine",
+      "id": "c4aefbd0-157d-48f0-9721-c5eca2d39514",
+      "title": "Poulet kung pao du Sichuan",
+      "original_title": "Poulet kung pao du Sichuan",
+      "region": "Sichuan",
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "chicken kung pao du Sichuan",
+        "es": "pollo kung pao du Sichuan",
+        "fr": "Poulet kung pao du Sichuan"
+      }
+    },
+    {
+      "country_code": "CO",
+      "country_name": "Colombie",
+      "id": "10000000-0000-4000-8000-000000000043",
+      "title": "Ajiaco santafereño de Bogotá (soupe de poulet, maïs et pommes de terre)",
+      "original_title": "Ajiaco santafereño de Bogotá",
+      "region": "Bogotá",
+      "category": "Soupe",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Ajiaco santafereño de Bogotá (soup de chicken, corn and potatoes)",
+        "es": "Ajiaco santafereño de Bogotá (sopa de pollo, maíz y patatas)",
+        "fr": "Ajiaco santafereño de Bogotá (soupe de poulet, maïs et pommes de terre)"
+      }
+    },
+    {
+      "country_code": "CO",
+      "country_name": "Colombie",
+      "id": "006a0885-ec5d-408f-9996-d300feeb74e4",
+      "title": "Bandeja paisa colombienne",
+      "original_title": "Bandeja paisa colombienne",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Bandeja paisa Colombian",
+        "es": "Bandeja paisa colombiano",
+        "fr": "Bandeja paisa colombienne"
+      }
+    },
+    {
+      "country_code": "KR",
+      "country_name": "Corée du Sud",
+      "id": "10000000-0000-4000-8000-000000000009",
+      "title": "Bibimbap de Jeonju (bol de riz coréen au bœuf et légumes)",
+      "original_title": "Bibimbap de Jeonju",
+      "region": "Jeonju",
+      "category": "Bol de riz",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Bibimbap de Jeonju (bol de rice Korean with beef and vegetables)",
+        "es": "Bibimbap de Jeonju (bol de arroz coreano con carne de res y verduras)",
+        "fr": "Bibimbap de Jeonju (bol de riz coréen au bœuf et légumes)"
+      }
+    },
+    {
+      "country_code": "KR",
+      "country_name": "Corée du Sud",
+      "id": "b30f1377-b86f-42f3-b16c-99a2e663a976",
+      "title": "Bulgogi coréen au bœuf",
+      "original_title": "Bulgogi coréen au bœuf",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Bulgogi Korean with beef",
+        "es": "Bulgogi coreano con carne de res",
+        "fr": "Bulgogi coréen au bœuf"
+      }
+    },
+    {
+      "country_code": "CR",
+      "country_name": "Costa Rica",
+      "id": "4d3e2714-b0e0-4251-aa03-1dbb28d12067",
+      "title": "Casado costaricain au poulet",
+      "original_title": "Casado costaricain au poulet",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Casado Costa Rican with chicken",
+        "es": "Casado costarricense con pollo",
+        "fr": "Casado costaricain au poulet"
+      }
+    },
+    {
+      "country_code": "CR",
+      "country_name": "Costa Rica",
+      "id": "10000000-0000-4000-8000-000000000094",
+      "title": "Gallo pinto costaricain (riz et haricots noirs avec œuf, fromage et tortilla)",
+      "original_title": "Gallo pinto costaricain",
+      "region": "Costa Rica",
+      "category": "Petit-déjeuner",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Gallo pinto Costa Rican (rice and black beans with œuf, cheese and tortilla)",
+        "es": "Gallo pinto costarricense (arroz y frijoles negros con œuf, queso y tortilla)",
+        "fr": "Gallo pinto costaricain (riz et haricots noirs avec œuf, fromage et tortilla)"
+      }
+    },
+    {
+      "country_code": "CI",
+      "country_name": "Côte d’Ivoire",
+      "id": "9d5a0785-f925-4cfd-9620-057fd243b155",
+      "title": "Attiéké ivoirien au poisson grillé",
+      "original_title": "Attiéké poisson grillé",
+      "region": null,
+      "category": "Poisson",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Ivorian attiéké with grilled fish",
+        "es": "Attiéké marfileño con pescado a la parrilla",
+        "fr": "Attiéké ivoirien au poisson grillé"
+      }
+    },
+    {
+      "country_code": "CI",
+      "country_name": "Côte d’Ivoire",
+      "id": "9531d23e-9a11-46f9-b7fc-1ec8d11b9a3a",
+      "title": "Kédjénou ivoirien de poulet",
+      "original_title": "Kédjénou",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Ivorian chicken kedjenou",
+        "es": "Kedjenou marfileño de pollo",
+        "fr": "Kédjénou ivoirien de poulet"
+      }
+    },
+    {
+      "country_code": "HR",
+      "country_name": "Croatie",
+      "id": "9bca2e31-2e73-47d4-a650-85a562137638",
+      "title": "Crni rižot dalmate au calmar",
+      "original_title": "Crni rižot dalmate au calmar",
+      "region": null,
+      "category": "Poisson",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Crni rižot Croatian with calmar",
+        "es": "Crni rižot croata con calmar",
+        "fr": "Crni rižot dalmate au calmar"
+      }
+    },
+    {
+      "country_code": "HR",
+      "country_name": "Croatie",
+      "id": "10000000-0000-4000-8000-000000000064",
+      "title": "Pašticada dalmate (bœuf mijoté au vin avec gnocchis)",
+      "original_title": "Pašticada dalmate",
+      "region": "Split, Dalmatie",
+      "category": "Bœuf mijoté",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Pašticada Croatian (beef mijoté with vin with gnocchis)",
+        "es": "Pašticada croata (carne de res mijoté con vin con gnocchis)",
+        "fr": "Pašticada dalmate (bœuf mijoté au vin avec gnocchis)"
+      }
+    },
+    {
+      "country_code": "CU",
+      "country_name": "Cuba",
+      "id": "9b0a2a15-6997-4f48-a4c6-b4470fa1fa58",
+      "title": "Picadillo cubain",
+      "original_title": "Picadillo cubain",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Picadillo Cuban",
+        "es": "Picadillo cubano",
+        "fr": "Picadillo cubain"
+      }
+    },
+    {
+      "country_code": "CU",
+      "country_name": "Cuba",
+      "id": "10000000-0000-4000-8000-000000000044",
+      "title": "Ropa vieja cubaine (bœuf effiloché, riz, haricots et plantain)",
+      "original_title": "Ropa vieja cubaine",
+      "region": "Cuba",
+      "category": "Bœuf mijoté",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Ropa vieja Cuban (beef effiloché, rice, beans and plantain)",
+        "es": "Ropa vieja cubano (carne de res effiloché, arroz, frijoles y plantain)",
+        "fr": "Ropa vieja cubaine (bœuf effiloché, riz, haricots et plantain)"
+      }
+    },
+    {
+      "country_code": "DK",
+      "country_name": "Danemark",
+      "id": "ecb23475-9218-4aad-b202-1a49395d033c",
+      "title": "Frikadeller danoises",
+      "original_title": "Frikadeller danoises",
+      "region": "Copenhague",
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Frikadeller Danish",
+        "es": "Frikadeller danés",
+        "fr": "Frikadeller danoises"
+      }
+    },
+    {
+      "country_code": "DK",
+      "country_name": "Danemark",
+      "id": "10000000-0000-4000-8000-000000000061",
+      "title": "Smørrebrød danois (tartine ouverte aux crevettes, œuf et aneth)",
+      "original_title": "Smørrebrød danois",
+      "region": "Copenhague",
+      "category": "Tartine ouverte",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Smørrebrød Danish (tartine ouverte with shrimp, œuf and aneth)",
+        "es": "Smørrebrød danés (tartine ouverte con camarones, œuf y aneth)",
+        "fr": "Smørrebrød danois (tartine ouverte aux crevettes, œuf et aneth)"
+      }
+    },
+    {
+      "country_code": "EG",
+      "country_name": "Égypte",
+      "id": "a6c066fa-4c59-4f13-b411-e115a492bc78",
+      "title": "Ful medames égyptien",
+      "original_title": "Ful medames égyptien",
+      "region": null,
+      "category": "Déjeuner",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Ful medames égyptien",
+        "es": "Ful medames égyptien",
+        "fr": "Ful medames égyptien"
+      }
+    },
+    {
+      "country_code": "EG",
+      "country_name": "Égypte",
+      "id": "10000000-0000-4000-8000-000000000058",
+      "title": "Koshari égyptien (riz, lentilles, pâtes, pois chiches et sauce tomate)",
+      "original_title": "Koshari égyptien",
+      "region": "Égypte",
+      "category": "Riz et légumineuses",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Koshari égyptien (rice, lentils, pâtes, pois chiches and sauce tomato)",
+        "es": "Koshari égyptien (arroz, lentejas, pâtes, pois chiches y salsa tomate)",
+        "fr": "Koshari égyptien (riz, lentilles, pâtes, pois chiches et sauce tomate)"
+      }
+    },
+    {
+      "country_code": "EC",
+      "country_name": "Équateur",
+      "id": "10000000-0000-4000-8000-000000000051",
+      "title": "Encebollado de Guayaquil (soupe de thon, manioc et oignon rouge)",
+      "original_title": "Encebollado de Guayaquil",
+      "region": "Guayaquil, Guayas",
+      "category": "Soupe de poisson",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Encebollado de Guayaquil (soup de thon, cassava and onions rouge)",
+        "es": "Encebollado de Guayaquil (sopa de thon, yuca y cebollas rouge)",
+        "fr": "Encebollado de Guayaquil (soupe de thon, manioc et oignon rouge)"
+      }
+    },
+    {
+      "country_code": "EC",
+      "country_name": "Équateur",
+      "id": "e5b7cdec-9833-4ecb-aedd-1354cd5b507f",
+      "title": "Llapingachos équatoriens",
+      "original_title": "Llapingachos équatoriens",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Llapingachos équatoriens",
+        "es": "Llapingachos équatoriens",
+        "fr": "Llapingachos équatoriens"
+      }
+    },
+    {
+      "country_code": "ES",
+      "country_name": "Espagne",
+      "id": "10000000-0000-4000-8000-000000000024",
+      "title": "Paella valencienne au poulet, lapin et escargots",
+      "original_title": "Paella valencienne au poulet, lapin et escargots",
+      "region": "Valence",
+      "category": "Riz",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Paella Spanish with chicken, lapin and escargots",
+        "es": "Paella español con pollo, lapin y escargots",
+        "fr": "Paella valencienne au poulet, lapin et escargots"
+      }
+    },
+    {
+      "country_code": "ES",
+      "country_name": "Espagne",
+      "id": "d3a381dd-a586-405c-b822-dda3cb86503f",
+      "title": "Tortilla española aux pommes de terre",
+      "original_title": "Tortilla española aux pommes de terre",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Tortilla Spanish with potatoes",
+        "es": "Tortilla español con patatas",
+        "fr": "Tortilla española aux pommes de terre"
+      }
+    },
+    {
+      "country_code": "US",
+      "country_name": "États-Unis",
+      "id": "c0e38cc5-5133-4124-a59e-45d9d2dce888",
+      "title": "Chili con carne style Texas",
+      "original_title": "Chili con carne style Texas",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Chili con carne American",
+        "es": "Chili con carne estadounidense",
+        "fr": "Chili con carne style Texas"
+      }
+    },
+    {
+      "country_code": "US",
+      "country_name": "États-Unis",
+      "id": "10000000-0000-4000-8000-000000000015",
+      "title": "Gumbo poulet-andouille de La Nouvelle-Orléans",
+      "original_title": "Gumbo poulet-andouille de La Nouvelle-Orléans",
+      "region": "La Nouvelle-Orléans, Louisiane",
+      "category": "Ragoût",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Gumbo chicken-andouille American",
+        "es": "Gumbo pollo-andouille estadounidense",
+        "fr": "Gumbo poulet-andouille de La Nouvelle-Orléans"
+      }
+    },
+    {
+      "country_code": "ET",
+      "country_name": "Éthiopie",
+      "id": "10000000-0000-4000-8000-000000000011",
+      "title": "Doro wat éthiopien (ragoût de poulet épicé)",
+      "original_title": "Doro wat éthiopien",
+      "region": "Éthiopie",
+      "category": "Ragoût",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Doro wat éthiopien (stew de chicken épicé)",
+        "es": "Doro wat éthiopien (guiso de pollo épicé)",
+        "fr": "Doro wat éthiopien (ragoût de poulet épicé)"
+      }
+    },
+    {
+      "country_code": "ET",
+      "country_name": "Éthiopie",
+      "id": "a1c9b0b7-bb42-45ed-b356-77abd49326d9",
+      "title": "Misir wat éthiopien",
+      "original_title": "Misir wat éthiopien",
+      "region": null,
+      "category": "Végétarien",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Misir wat éthiopien",
+        "es": "Misir wat éthiopien",
+        "fr": "Misir wat éthiopien"
+      }
+    },
+    {
+      "country_code": "FJ",
+      "country_name": "Fidji",
+      "id": "ab5e72b2-6501-452e-b6ce-2dfb807ef445",
+      "title": "Kokoda fidjien au poisson et lait de coco",
+      "original_title": "Kokoda",
+      "region": null,
+      "category": "Poisson",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Fijian kokoda fish in coconut milk",
+        "es": "Kokoda fiyiano de pescado con leche de coco",
+        "fr": "Kokoda fidjien au poisson et lait de coco"
+      }
+    },
+    {
+      "country_code": "FJ",
+      "country_name": "Fidji",
+      "id": "955b216e-a907-44a8-b1a4-4fb321a59627",
+      "title": "Rourou fidjien aux feuilles de taro et coco",
+      "original_title": "Rourou",
+      "region": null,
+      "category": "Végétarien",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Fijian rourou taro leaves with coconut milk",
+        "es": "Rourou fiyiano de hojas de taro y coco",
+        "fr": "Rourou fidjien aux feuilles de taro et coco"
+      }
+    },
+    {
+      "country_code": "FI",
+      "country_name": "Finlande",
+      "id": "10000000-0000-4000-8000-000000000062",
+      "title": "Karjalanpiirakka finlandaise (tartelette de seigle au riz et beurre aux œufs)",
+      "original_title": "Karjalanpiirakka finlandaise",
+      "region": "Finlande",
+      "category": "Pâtisserie salée",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Karjalanpiirakka Finnish (tartelette de seigle with rice and beurre with œufs)",
+        "es": "Karjalanpiirakka finlandés (tartelette de seigle con arroz y beurre con œufs)",
+        "fr": "Karjalanpiirakka finlandaise (tartelette de seigle au riz et beurre aux œufs)"
+      }
+    },
+    {
+      "country_code": "FI",
+      "country_name": "Finlande",
+      "id": "37b16516-4d26-485f-9b9d-ad9a8a55f972",
+      "title": "Lohikeitto finlandaise",
+      "original_title": "Lohikeitto finlandaise",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Lohikeitto Finnish",
+        "es": "Lohikeitto finlandés",
+        "fr": "Lohikeitto finlandaise"
+      }
+    },
+    {
+      "country_code": "FR",
+      "country_name": "France",
+      "id": "10000000-0000-4000-8000-000000000027",
+      "title": "Bœuf bourguignon",
+      "original_title": "Bœuf bourguignon",
+      "region": "Bourgogne-Franche-Comté",
+      "category": "Mijoté",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "beef bourguignon",
+        "es": "carne de res bourguignon",
+        "fr": "Bœuf bourguignon"
+      }
+    },
+    {
+      "country_code": "FR",
+      "country_name": "France",
+      "id": "d76ab4c9-b8a4-4ce9-ae64-a1c444e1fe6a",
+      "title": "Ratatouille provençale",
+      "original_title": "Ratatouille provençale",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Ratatouille French",
+        "es": "Ratatouille francés",
+        "fr": "Ratatouille provençale"
+      }
+    },
+    {
+      "country_code": "GE",
+      "country_name": "Géorgie",
+      "id": "10000000-0000-4000-8000-000000000017",
+      "title": "Khachapuri adjarien (pain géorgien au fromage et œuf)",
+      "original_title": "Khachapuri adjarien",
+      "region": "Adjarie",
+      "category": "Pain au fromage",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Khachapuri adjarien (bread Georgian with cheese and œuf)",
+        "es": "Khachapuri adjarien (pan georgiano con queso y œuf)",
+        "fr": "Khachapuri adjarien (pain géorgien au fromage et œuf)"
+      }
+    },
+    {
+      "country_code": "GE",
+      "country_name": "Géorgie",
+      "id": "92927677-85e2-46e8-8df8-846938b0a7b1",
+      "title": "Khinkali géorgiens à la viande",
+      "original_title": "Khinkali géorgiens à la viande",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Khinkali Georgian à la viande",
+        "es": "Khinkali georgiano à la viande",
+        "fr": "Khinkali géorgiens à la viande"
+      }
+    },
+    {
+      "country_code": "GH",
+      "country_name": "Ghana",
+      "id": "721b8387-db58-4824-9baf-f2b7de07c5cf",
+      "title": "Soupe ghanéenne aux arachides et poulet",
+      "original_title": "Soupe ghanéenne aux arachides et poulet",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "soup Ghanaian with arachides and chicken",
+        "es": "sopa ghanés con arachides y pollo",
+        "fr": "Soupe ghanéenne aux arachides et poulet"
+      }
+    },
+    {
+      "country_code": "GH",
+      "country_name": "Ghana",
+      "id": "10000000-0000-4000-8000-000000000068",
+      "title": "Waakye ghanéen (riz et haricots avec shito et garnitures)",
+      "original_title": "Waakye ghanéen",
+      "region": "Accra",
+      "category": "Riz et haricots",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Waakye Ghanaian (rice and beans with shito and garnitures)",
+        "es": "Waakye ghanés (arroz y frijoles con shito y garnitures)",
+        "fr": "Waakye ghanéen (riz et haricots avec shito et garnitures)"
+      }
+    },
+    {
+      "country_code": "GR",
+      "country_name": "Grèce",
+      "id": "10000000-0000-4000-8000-000000000030",
+      "title": "Moussaka grecque avec salade et pain",
+      "original_title": "Moussaka grecque avec salade et pain",
+      "region": "Grèce",
+      "category": "Gratin",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Moussaka Greek with salad and bread",
+        "es": "Moussaka griego con ensalada y pan",
+        "fr": "Moussaka grecque avec salade et pain"
+      }
+    },
+    {
+      "country_code": "GR",
+      "country_name": "Grèce",
+      "id": "a33d89d7-afa6-4554-b4f0-e638eea57439",
+      "title": "Spanakopita grecque aux épinards et feta",
+      "original_title": "Spanakopita grecque aux épinards et feta",
+      "region": null,
+      "category": "Entrée",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Spanakopita Greek with épinards and feta",
+        "es": "Spanakopita griego con épinards y feta",
+        "fr": "Spanakopita grecque aux épinards et feta"
+      }
+    },
+    {
+      "country_code": "GT",
+      "country_name": "Guatemala",
+      "id": "c2a7a89e-2ce9-4a5d-8e81-36fc54a382bf",
+      "title": "Kak'ik guatémaltèque - soupe rouge de dinde",
+      "original_title": "Kak'ik",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Guatemalan kak'ik red turkey soup",
+        "es": "Kak'ik guatemalteco - sopa roja de pavo",
+        "fr": "Kak'ik guatémaltèque - soupe rouge de dinde"
+      }
+    },
+    {
+      "country_code": "GT",
+      "country_name": "Guatemala",
+      "id": "473bda24-fe07-4cc7-bf07-1fc161d1be37",
+      "title": "Pepián guatémaltèque au poulet",
+      "original_title": "Pepián",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Guatemalan chicken pepián",
+        "es": "Pepián guatemalteco de pollo",
+        "fr": "Pepián guatémaltèque au poulet"
+      }
+    },
+    {
+      "country_code": "HT",
+      "country_name": "Haïti",
+      "id": "73da83dd-db71-4cbd-99e9-336910b4fa39",
+      "title": "Griot haïtien au porc",
+      "original_title": "Griyo",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Haitian griot fried pork",
+        "es": "Griot haitiano de cerdo frito",
+        "fr": "Griot haïtien au porc"
+      }
+    },
+    {
+      "country_code": "HT",
+      "country_name": "Haïti",
+      "id": "e03cce52-96f2-4555-b3b0-dcba8d6a4c2e",
+      "title": "Soupe joumou haïtienne au giraumon",
+      "original_title": "Soup joumou",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Haitian soup joumou squash and beef soup",
+        "es": "Sopa joumou haitiana de calabaza y carne",
+        "fr": "Soupe joumou haïtienne au giraumon"
+      }
+    },
+    {
+      "country_code": "HN",
+      "country_name": "Honduras",
+      "id": "1f0da4ae-5eac-415f-a695-b8777b7fa57a",
+      "title": "Baleadas honduriennes aux haricots et fromage",
+      "original_title": "Baleadas",
+      "region": null,
+      "category": "Déjeuner",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Honduran baleadas with beans and cheese",
+        "es": "Baleadas hondureñas con frijoles y queso",
+        "fr": "Baleadas honduriennes aux haricots et fromage"
+      }
+    },
+    {
+      "country_code": "HN",
+      "country_name": "Honduras",
+      "id": "e88e9c90-bacb-4422-811b-fe80fd8820ad",
+      "title": "Sopa de caracol hondurienne au lait de coco",
+      "original_title": "Sopa de caracol",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Honduran conch soup with coconut milk",
+        "es": "Sopa de caracol hondureña con leche de coco",
+        "fr": "Sopa de caracol hondurienne au lait de coco"
+      }
+    },
+    {
+      "country_code": "HU",
+      "country_name": "Hongrie",
+      "id": "10000000-0000-4000-8000-000000000046",
+      "title": "Gulyás hongrois (soupe de bœuf au paprika et pommes de terre)",
+      "original_title": "Gulyás hongrois",
+      "region": "Hongrie",
+      "category": "Soupe-ragoût",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Gulyás Hungarian (soup de beef with paprika and potatoes)",
+        "es": "Gulyás húngaro (sopa de carne de res con paprika y patatas)",
+        "fr": "Gulyás hongrois (soupe de bœuf au paprika et pommes de terre)"
+      }
+    },
+    {
+      "country_code": "HU",
+      "country_name": "Hongrie",
+      "id": "226829f7-1e9a-4232-b902-da41c5a95818",
+      "title": "Paprikás csirke hongrois",
+      "original_title": "Paprikás csirke hongrois",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Paprikás csirke Hungarian",
+        "es": "Paprikás csirke húngaro",
+        "fr": "Paprikás csirke hongrois"
+      }
+    },
+    {
+      "country_code": "IN",
+      "country_name": "Inde",
+      "id": "10000000-0000-4000-8000-000000000010",
+      "title": "Butter chicken de Delhi (poulet au beurre et sauce tomate crémeuse)",
+      "original_title": "Butter chicken de Delhi",
+      "region": "Delhi",
+      "category": "Curry",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Butter chicken de Delhi (chicken with beurre and sauce tomato creamy)",
+        "es": "Butter chicken de Delhi (pollo con beurre y salsa tomate cremosa)",
+        "fr": "Butter chicken de Delhi (poulet au beurre et sauce tomate crémeuse)"
+      }
+    },
+    {
+      "country_code": "IN",
+      "country_name": "Inde",
+      "id": "f9d75100-019c-42c2-8080-1e058d0cfa32",
+      "title": "Chana masala indien",
+      "original_title": "Chana masala indien",
+      "region": null,
+      "category": "Végétarien",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Chana masala Indian",
+        "es": "Chana masala indio",
+        "fr": "Chana masala indien"
+      }
+    },
+    {
+      "country_code": "ID",
+      "country_name": "Indonésie",
+      "id": "10000000-0000-4000-8000-000000000002",
+      "title": "Ayam Betutu balinais (poulet épicé balinais)",
+      "original_title": "Ayam Betutu balinais",
+      "region": "Bali",
+      "category": "Poulet",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Ayam Betutu Indonesian (chicken épicé Indonesian)",
+        "es": "Ayam Betutu indonesio (pollo épicé indonesio)",
+        "fr": "Ayam Betutu balinais (poulet épicé balinais)"
+      }
+    },
+    {
+      "country_code": "ID",
+      "country_name": "Indonésie",
+      "id": "10000000-0000-4000-8000-000000000050",
+      "title": "Rendang de Padang (bœuf mijoté au lait de coco et épices)",
+      "original_title": "Rendang de Padang",
+      "region": "Padang, Sumatra occidental",
+      "category": "Bœuf mijoté",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Rendang de Padang (beef mijoté with lait de coco and épices)",
+        "es": "Rendang de Padang (carne de res mijoté con lait de coco y épices)",
+        "fr": "Rendang de Padang (bœuf mijoté au lait de coco et épices)"
+      }
+    },
+    {
+      "country_code": "IQ",
+      "country_name": "Irak",
+      "id": "21bd938b-1756-4563-8944-cb83b6c0f40d",
+      "title": "Dolma irakien aux légumes farcis",
+      "original_title": "Dolma irakien aux légumes farcis",
+      "region": "Bagdad",
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Dolma Iraqi with vegetables farcis",
+        "es": "Dolma iraquí con verduras farcis",
+        "fr": "Dolma irakien aux légumes farcis"
+      }
+    },
+    {
+      "country_code": "IQ",
+      "country_name": "Irak",
+      "id": "10000000-0000-4000-8000-000000000076",
+      "title": "Masgouf irakien (carpe ouverte et grillée au feu)",
+      "original_title": "Masgouf irakien",
+      "region": "Bagdad",
+      "category": "Poisson grillé",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Masgouf Iraqi (carpe ouverte and grilled with feu)",
+        "es": "Masgouf iraquí (carpe ouverte y a la parrilla con feu)",
+        "fr": "Masgouf irakien (carpe ouverte et grillée au feu)"
+      }
+    },
+    {
+      "country_code": "IR",
+      "country_name": "Iran",
+      "id": "34613af6-ba0c-4b04-95cb-dda2d894c991",
+      "title": "Fesenjan persan au poulet et noix",
+      "original_title": "Fesenjan persan au poulet et noix",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Fesenjan Iranian with chicken and nuts",
+        "es": "Fesenjan iraní con pollo y nueces",
+        "fr": "Fesenjan persan au poulet et noix"
+      }
+    },
+    {
+      "country_code": "IR",
+      "country_name": "Iran",
+      "id": "10000000-0000-4000-8000-000000000054",
+      "title": "Ghormeh sabzi iranien (ragoût de bœuf, herbes, haricots et citron séché)",
+      "original_title": "Ghormeh sabzi iranien",
+      "region": "Iran",
+      "category": "Ragoût",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Ghormeh sabzi Iranian (stew de beef, herbes, beans and citron séché)",
+        "es": "Ghormeh sabzi iraní (guiso de carne de res, herbes, frijoles y citron séché)",
+        "fr": "Ghormeh sabzi iranien (ragoût de bœuf, herbes, haricots et citron séché)"
+      }
+    },
+    {
+      "country_code": "IE",
+      "country_name": "Irlande",
+      "id": "23e591f7-0721-48ca-88b1-c26479d69e81",
+      "title": "Boxty irlandais aux pommes de terre",
+      "original_title": "Boxty irlandais aux pommes de terre",
+      "region": null,
+      "category": "Déjeuner",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Boxty Irish with potatoes",
+        "es": "Boxty irlandés con patatas",
+        "fr": "Boxty irlandais aux pommes de terre"
+      }
+    },
+    {
+      "country_code": "IE",
+      "country_name": "Irlande",
+      "id": "10000000-0000-4000-8000-000000000079",
+      "title": "Irish stew (ragoût irlandais d’agneau et pommes de terre)",
+      "original_title": "Irish stew",
+      "region": "Irlande",
+      "category": "Ragoût",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Irish stew (stew Irish d’lamb and potatoes)",
+        "es": "Irish stew (guiso irlandés d’cordero y patatas)",
+        "fr": "Irish stew (ragoût irlandais d’agneau et pommes de terre)"
+      }
+    },
+    {
+      "country_code": "IS",
+      "country_name": "Islande",
+      "id": "10000000-0000-4000-8000-000000000087",
+      "title": "Kjötsúpa islandaise (soupe d’agneau et légumes-racines)",
+      "original_title": "Kjötsúpa islandaise",
+      "region": "Islande",
+      "category": "Soupe",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Kjötsúpa Icelandic (soup d’lamb and vegetables-racines)",
+        "es": "Kjötsúpa islandés (sopa d’cordero y verduras-racines)",
+        "fr": "Kjötsúpa islandaise (soupe d’agneau et légumes-racines)"
+      }
+    },
+    {
+      "country_code": "IS",
+      "country_name": "Islande",
+      "id": "1318fafe-1f29-4aef-800d-c17599de2adf",
+      "title": "Plokkfiskur islandais",
+      "original_title": "Plokkfiskur islandais",
+      "region": null,
+      "category": "Poisson",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Plokkfiskur islandais",
+        "es": "Plokkfiskur islandais",
+        "fr": "Plokkfiskur islandais"
+      }
+    },
+    {
+      "country_code": "IT",
+      "country_name": "Italie",
+      "id": "10000000-0000-4000-8000-000000000001",
+      "title": "Pizza Margherita napolitaine",
+      "original_title": "Pizza Margherita napolitaine",
+      "region": "Naples",
+      "category": "Pizza",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Pizza Margherita Italian",
+        "es": "Pizza Margherita italiano",
+        "fr": "Pizza Margherita napolitaine"
+      }
+    },
+    {
+      "country_code": "IT",
+      "country_name": "Italie",
+      "id": "10000000-0000-4000-8000-000000000028",
+      "title": "Risotto alla Milanese (risotto crémeux au safran)",
+      "original_title": "Risotto alla Milanese",
+      "region": "Milan",
+      "category": "Risotto",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Risotto alla Milanese (risotto crémeux with safran)",
+        "es": "Risotto alla Milanese (risotto crémeux con safran)",
+        "fr": "Risotto alla Milanese (risotto crémeux au safran)"
+      }
+    },
+    {
+      "country_code": "IT",
+      "country_name": "Italie",
+      "id": "397644dc-afe3-4afa-8cd4-ed7b7d72ff25",
+      "title": "Spaghetti alla carbonara",
+      "original_title": "Spaghetti alla carbonara",
+      "region": null,
+      "category": "Pâtes",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Spaghetti alla carbonara",
+        "es": "Spaghetti alla carbonara",
+        "fr": "Spaghetti alla carbonara"
+      }
+    },
+    {
+      "country_code": "JM",
+      "country_name": "Jamaïque",
+      "id": "23baa851-799a-47fb-abcc-cfd91f811fe7",
+      "title": "Ackee and saltfish jamaïcain",
+      "original_title": "Ackee and saltfish jamaïcain",
+      "region": null,
+      "category": "Déjeuner",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Ackee and saltfish Jamaican",
+        "es": "Ackee and saltfish jamaicano",
+        "fr": "Ackee and saltfish jamaïcain"
+      }
+    },
+    {
+      "country_code": "JM",
+      "country_name": "Jamaïque",
+      "id": "10000000-0000-4000-8000-000000000031",
+      "title": "Poulet jerk jamaïcain",
+      "original_title": "Poulet jerk jamaïcain",
+      "region": "Jamaïque",
+      "category": "Poulet grillé",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "chicken jerk Jamaican",
+        "es": "pollo jerk jamaicano",
+        "fr": "Poulet jerk jamaïcain"
+      }
+    },
+    {
+      "country_code": "JP",
+      "country_name": "Japon",
+      "id": "10000000-0000-4000-8000-000000000025",
+      "title": "Okonomiyaki style Osaka (crêpe salée au chou et porc)",
+      "original_title": "Okonomiyaki style Osaka",
+      "region": "Osaka",
+      "category": "Cuisine de rue",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Okonomiyaki style Osaka (crêpe salée with cabbage and pork)",
+        "es": "Okonomiyaki style Osaka (crêpe salée con col y cerdo)",
+        "fr": "Okonomiyaki style Osaka (crêpe salée au chou et porc)"
+      }
+    },
+    {
+      "country_code": "JP",
+      "country_name": "Japon",
+      "id": "78f15823-3ef6-48a1-9e69-3a5d0f64accd",
+      "title": "Poulet katsu japonais",
+      "original_title": "Poulet katsu japonais",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "chicken katsu Japanese",
+        "es": "pollo katsu japonés",
+        "fr": "Poulet katsu japonais"
+      }
+    },
+    {
+      "country_code": "JP",
+      "country_name": "Japon",
+      "id": "10000000-0000-4000-8000-000000000005",
+      "title": "Ramen miso style Sapporo (soupe de nouilles au miso)",
+      "original_title": "Ramen miso style Sapporo",
+      "region": "Sapporo",
+      "category": "Ramen",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Ramen miso style Sapporo (soup de noodles with miso)",
+        "es": "Ramen miso style Sapporo (sopa de fideos con miso)",
+        "fr": "Ramen miso style Sapporo (soupe de nouilles au miso)"
+      }
+    },
+    {
+      "country_code": "JO",
+      "country_name": "Jordanie",
+      "id": "10000000-0000-4000-8000-000000000033",
+      "title": "Mansaf jordanien (agneau, riz et sauce au jameed)",
+      "original_title": "Mansaf jordanien",
+      "region": "Jordanie",
+      "category": "Agneau et riz",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Mansaf Jordanian (lamb, rice and sauce with jameed)",
+        "es": "Mansaf jordano (cordero, arroz y salsa con jameed)",
+        "fr": "Mansaf jordanien (agneau, riz et sauce au jameed)"
+      }
+    },
+    {
+      "country_code": "JO",
+      "country_name": "Jordanie",
+      "id": "23e86e1a-dd1c-497b-a9b8-1adc0313bf68",
+      "title": "Maqluba jordanienne au poulet",
+      "original_title": "Maqluba jordanienne au poulet",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Maqluba jordanienne with chicken",
+        "es": "Maqluba jordanienne con pollo",
+        "fr": "Maqluba jordanienne au poulet"
+      }
+    },
+    {
+      "country_code": "KZ",
+      "country_name": "Kazakhstan",
+      "id": "10000000-0000-4000-8000-000000000077",
+      "title": "Beshbarmak kazakh (viande bouillie sur larges nouilles et oignons)",
+      "original_title": "Beshbarmak kazakh",
+      "region": "Kazakhstan",
+      "category": "Viande et nouilles",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Beshbarmak Kazakh (viande bouillie sur larges noodles and onions)",
+        "es": "Beshbarmak kazajo (viande bouillie sur larges fideos y cebollas)",
+        "fr": "Beshbarmak kazakh (viande bouillie sur larges nouilles et oignons)"
+      }
+    },
+    {
+      "country_code": "KZ",
+      "country_name": "Kazakhstan",
+      "id": "6a66be2e-3287-40c4-af5f-da9a78305956",
+      "title": "Kuyrdak kazakh",
+      "original_title": "Kuyrdak kazakh",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Kuyrdak Kazakh",
+        "es": "Kuyrdak kazajo",
+        "fr": "Kuyrdak kazakh"
+      }
+    },
+    {
+      "country_code": "KE",
+      "country_name": "Kenya",
+      "id": "10000000-0000-4000-8000-000000000069",
+      "title": "Nyama choma kényan (chèvre grillée avec ugali et kachumbari)",
+      "original_title": "Nyama choma kényan",
+      "region": "Nairobi",
+      "category": "Viande grillée",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Nyama choma Kenyan (chèvre grilled with ugali and kachumbari)",
+        "es": "Nyama choma keniano (chèvre a la parrilla con ugali y kachumbari)",
+        "fr": "Nyama choma kényan (chèvre grillée avec ugali et kachumbari)"
+      }
+    },
+    {
+      "country_code": "KE",
+      "country_name": "Kenya",
+      "id": "68ab7050-6e55-4ad8-be76-58ebe243936c",
+      "title": "Pilau kényan au bœuf",
+      "original_title": "Pilau kényan au bœuf",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Pilau Kenyan with beef",
+        "es": "Pilau keniano con carne de res",
+        "fr": "Pilau kényan au bœuf"
+      }
+    },
+    {
+      "country_code": "LA",
+      "country_name": "Laos",
+      "id": "b9635c18-126d-41b8-a631-55ecf9700f88",
+      "title": "Khao piak sen lao",
+      "original_title": "Khao piak sen lao",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Khao piak sen Lao",
+        "es": "Khao piak sen laosiano",
+        "fr": "Khao piak sen lao"
+      }
+    },
+    {
+      "country_code": "LA",
+      "country_name": "Laos",
+      "id": "10000000-0000-4000-8000-000000000075",
+      "title": "Larb pia lao (salade tiède de viande, tripes, herbes et saveur amère)",
+      "original_title": "Larb pia lao",
+      "region": "Laos",
+      "category": "Salade de viande",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Larb pia Lao (salad tiède de viande, tripes, herbes and saveur amère)",
+        "es": "Larb pia laosiano (ensalada tiède de viande, tripes, herbes y saveur amère)",
+        "fr": "Larb pia lao (salade tiède de viande, tripes, herbes et saveur amère)"
+      }
+    },
+    {
+      "country_code": "LB",
+      "country_name": "Liban",
+      "id": "5493aa75-5e21-4ea1-8fbc-78cb284c1a1c",
+      "title": "Kibbeh libanais au four",
+      "original_title": "Kibbeh libanais au four",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Kibbeh Lebanese with four",
+        "es": "Kibbeh libanés con four",
+        "fr": "Kibbeh libanais au four"
+      }
+    },
+    {
+      "country_code": "LB",
+      "country_name": "Liban",
+      "id": "10000000-0000-4000-8000-000000000045",
+      "title": "Tabbouleh de Beyrouth (salade de persil, tomate, menthe et boulgour)",
+      "original_title": "Tabbouleh de Beyrouth",
+      "region": "Beyrouth",
+      "category": "Salade",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Tabbouleh de Beyrouth (salad de persil, tomato, menthe and boulgour)",
+        "es": "Tabbouleh de Beyrouth (ensalada de persil, tomate, menthe y boulgour)",
+        "fr": "Tabbouleh de Beyrouth (salade de persil, tomate, menthe et boulgour)"
+      }
+    },
+    {
+      "country_code": "MG",
+      "country_name": "Madagascar",
+      "id": "f19718e2-ec5f-495d-b215-a55ea3c26718",
+      "title": "Ravitoto malgache au porc et feuilles de manioc",
+      "original_title": "Ravitoto",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Malagasy ravitoto with pork and cassava leaves",
+        "es": "Ravitoto malgache con cerdo y hojas de yuca",
+        "fr": "Ravitoto malgache au porc et feuilles de manioc"
+      }
+    },
+    {
+      "country_code": "MG",
+      "country_name": "Madagascar",
+      "id": "e36241bf-11ba-45b8-b688-22d2e7b1b07d",
+      "title": "Romazava malgache au bœuf et brèdes",
+      "original_title": "Romazava",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Malagasy romazava beef and greens stew",
+        "es": "Romazava malgache de carne y hojas verdes",
+        "fr": "Romazava malgache au bœuf et brèdes"
+      }
+    },
+    {
+      "country_code": "MY",
+      "country_name": "Malaisie",
+      "id": "f6227d62-e268-496f-9b15-2e597ec4c89d",
+      "title": "Char kway teow malaisien",
+      "original_title": "Char kway teow malaisien",
+      "region": null,
+      "category": "Pâtes",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Char kway teow Malaysian",
+        "es": "Char kway teow malasio",
+        "fr": "Char kway teow malaisien"
+      }
+    },
+    {
+      "country_code": "MY",
+      "country_name": "Malaisie",
+      "id": "10000000-0000-4000-8000-000000000049",
+      "title": "Nasi lemak malaisien (riz coco, sambal, œuf, anchois et poulet)",
+      "original_title": "Nasi lemak malaisien",
+      "region": "Malaisie",
+      "category": "Riz",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Nasi lemak Malaysian (rice coco, sambal, œuf, anchois and chicken)",
+        "es": "Nasi lemak malasio (arroz coco, sambal, œuf, anchois y pollo)",
+        "fr": "Nasi lemak malaisien (riz coco, sambal, œuf, anchois et poulet)"
+      }
+    },
+    {
+      "country_code": "MA",
+      "country_name": "Maroc",
+      "id": "2e491dcf-c012-44c3-8dd2-d57d38d7ab12",
+      "title": "Harira marocaine",
+      "original_title": "Harira marocaine",
+      "region": "Fès",
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Harira Moroccan",
+        "es": "Harira marroquí",
+        "fr": "Harira marocaine"
+      }
+    },
+    {
+      "country_code": "MA",
+      "country_name": "Maroc",
+      "id": "10000000-0000-4000-8000-000000000022",
+      "title": "Rfissa de Fès (poulet, lentilles et pain marocain)",
+      "original_title": "Rfissa de Fès",
+      "region": "Fès",
+      "category": "Poulet et pain",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Rfissa de Fès (chicken, lentils and bread marocain)",
+        "es": "Rfissa de Fès (pollo, lentejas y pan marocain)",
+        "fr": "Rfissa de Fès (poulet, lentilles et pain marocain)"
+      }
+    },
+    {
+      "country_code": "MU",
+      "country_name": "Maurice",
+      "id": "f70bd6b7-ca37-4621-8678-c98fe132560a",
+      "title": "Dholl puri mauricien aux pois cassés",
+      "original_title": "Dholl puri",
+      "region": null,
+      "category": "Pain",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Mauritian dholl puri with split peas",
+        "es": "Dholl puri mauriciano de guisantes partidos",
+        "fr": "Dholl puri mauricien aux pois cassés"
+      }
+    },
+    {
+      "country_code": "MU",
+      "country_name": "Maurice",
+      "id": "a9d38414-962f-4122-b25d-e71ffaff627d",
+      "title": "Mine frit mauricien au poulet et légumes",
+      "original_title": "Mine frit",
+      "region": null,
+      "category": "Pâtes",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Mauritian fried noodles with chicken and vegetables",
+        "es": "Fideos fritos mauricianos con pollo y verduras",
+        "fr": "Mine frit mauricien au poulet et légumes"
+      }
+    },
+    {
+      "country_code": "MX",
+      "country_name": "Mexique",
+      "id": "147ad639-a06d-4cbb-9b91-6dde09e937ab",
+      "title": "Pozole rojo mexicain au porc",
+      "original_title": "Pozole rojo mexicain au porc",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Pozole rojo Mexican with pork",
+        "es": "Pozole rojo mexicano con cerdo",
+        "fr": "Pozole rojo mexicain au porc"
+      }
+    },
+    {
+      "country_code": "MX",
+      "country_name": "Mexique",
+      "id": "10000000-0000-4000-8000-000000000003",
+      "title": "Tlayuda oaxaqueña (grande tortilla garnie, style Oaxaca)",
+      "original_title": "Tlayuda oaxaqueña",
+      "region": "Oaxaca de Juárez",
+      "category": "Cuisine de rue",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Tlayuda oaxaqueña (grande tortilla garnie, style Oaxaca)",
+        "es": "Tlayuda oaxaqueña (grande tortilla garnie, style Oaxaca)",
+        "fr": "Tlayuda oaxaqueña (grande tortilla garnie, style Oaxaca)"
+      }
+    },
+    {
+      "country_code": "MN",
+      "country_name": "Mongolie",
+      "id": "10000000-0000-4000-8000-000000000073",
+      "title": "Buuz mongols (raviolis vapeur au bœuf, agneau et oignon)",
+      "original_title": "Buuz mongols",
+      "region": "Mongolie",
+      "category": "Raviolis vapeur",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Buuz Mongolian (raviolis steamed with beef, lamb and onions)",
+        "es": "Buuz mongol (raviolis al vapor con carne de res, cordero y cebollas)",
+        "fr": "Buuz mongols (raviolis vapeur au bœuf, agneau et oignon)"
+      }
+    },
+    {
+      "country_code": "MN",
+      "country_name": "Mongolie",
+      "id": "f7f75fd2-7b3a-45e7-8928-96b2c3ff0605",
+      "title": "Tsuivan mongol",
+      "original_title": "Tsuivan mongol",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Tsuivan Mongolian",
+        "es": "Tsuivan mongol",
+        "fr": "Tsuivan mongol"
+      }
+    },
+    {
+      "country_code": "MM",
+      "country_name": "Myanmar",
+      "id": "27d5ca1e-eaf1-4878-986a-a1a3407e4854",
+      "title": "Laphet thoke birman",
+      "original_title": "Laphet thoke birman",
+      "region": null,
+      "category": "Salade",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Laphet thoke Burmese",
+        "es": "Laphet thoke birmano",
+        "fr": "Laphet thoke birman"
+      }
+    },
+    {
+      "country_code": "MM",
+      "country_name": "Myanmar",
+      "id": "10000000-0000-4000-8000-000000000060",
+      "title": "Mohinga birmane (soupe de nouilles de riz au poisson et pois chiche)",
+      "original_title": "Mohinga birmane",
+      "region": "Myanmar",
+      "category": "Soupe de nouilles",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Mohinga Burmese (soup de noodles de rice with fish and pois chiche)",
+        "es": "Mohinga birmano (sopa de fideos de arroz con pescado y pois chiche)",
+        "fr": "Mohinga birmane (soupe de nouilles de riz au poisson et pois chiche)"
+      }
+    },
+    {
+      "country_code": "NP",
+      "country_name": "Népal",
+      "id": "fe8ffd65-40f7-45ae-ad0a-4b018dde642b",
+      "title": "Dal bhat népalais",
+      "original_title": "Dal bhat népalais",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Dal bhat Nepalese",
+        "es": "Dal bhat nepalí",
+        "fr": "Dal bhat népalais"
+      }
+    },
+    {
+      "country_code": "NP",
+      "country_name": "Népal",
+      "id": "10000000-0000-4000-8000-000000000055",
+      "title": "Momo népalais (raviolis vapeur à la viande et sauces épicées)",
+      "original_title": "Momo népalais",
+      "region": "Népal",
+      "category": "Raviolis vapeur",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Momo Nepalese (raviolis steamed à la viande and sauces épicées)",
+        "es": "Momo nepalí (raviolis al vapor à la viande y sauces épicées)",
+        "fr": "Momo népalais (raviolis vapeur à la viande et sauces épicées)"
+      }
+    },
+    {
+      "country_code": "NI",
+      "country_name": "Nicaragua",
+      "id": "10000000-0000-4000-8000-000000000095",
+      "title": "Gallo pinto nicaraguayen (riz sauté aux haricots rouges)",
+      "original_title": "Gallo pinto nicaraguayen",
+      "region": "Nicaragua",
+      "category": "Riz et haricots",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Gallo pinto Nicaraguan (rice sauté with beans rouges)",
+        "es": "Gallo pinto nicaragüense (arroz sauté con frijoles rouges)",
+        "fr": "Gallo pinto nicaraguayen (riz sauté aux haricots rouges)"
+      }
+    },
+    {
+      "country_code": "NI",
+      "country_name": "Nicaragua",
+      "id": "27b5533b-14f5-4448-986f-7fcf2ecc04d4",
+      "title": "Nacatamal nicaraguayen",
+      "original_title": "Nacatamal nicaraguayen",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Nacatamal Nicaraguan",
+        "es": "Nacatamal nicaragüense",
+        "fr": "Nacatamal nicaraguayen"
+      }
+    },
+    {
+      "country_code": "NG",
+      "country_name": "Nigeria",
+      "id": "10000000-0000-4000-8000-000000000037",
+      "title": "Jollof rice nigérian (riz tomate-poivron épicé)",
+      "original_title": "Jollof rice nigérian",
+      "region": "Nigeria",
+      "category": "Riz",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Jollof rice Nigerian (rice tomato-peppers épicé)",
+        "es": "Jollof rice nigeriano (arroz tomate-pimientos épicé)",
+        "fr": "Jollof rice nigérian (riz tomate-poivron épicé)"
+      }
+    },
+    {
+      "country_code": "NG",
+      "country_name": "Nigeria",
+      "id": "c61bcbf0-e397-4ac6-8cbc-bceb9d567eb1",
+      "title": "Soupe egusi nigériane",
+      "original_title": "Soupe egusi nigériane",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "soup egusi Nigerian",
+        "es": "sopa egusi nigeriano",
+        "fr": "Soupe egusi nigériane"
+      }
+    },
+    {
+      "country_code": "NO",
+      "country_name": "Norvège",
+      "id": "10000000-0000-4000-8000-000000000084",
+      "title": "Fårikål norvégien (ragoût d’agneau, chou et pommes de terre)",
+      "original_title": "Fårikål norvégien",
+      "region": "Norvège",
+      "category": "Ragoût d’agneau",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Fårikål Norwegian (stew d’lamb, cabbage and potatoes)",
+        "es": "Fårikål noruego (guiso d’cordero, col y patatas)",
+        "fr": "Fårikål norvégien (ragoût d’agneau, chou et pommes de terre)"
+      }
+    },
+    {
+      "country_code": "NO",
+      "country_name": "Norvège",
+      "id": "a80d9e75-ab40-481d-ac93-2599f24eef74",
+      "title": "Kjøttkaker norvégiennes",
+      "original_title": "Kjøttkaker norvégiennes",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Kjøttkaker norvégiennes",
+        "es": "Kjøttkaker norvégiennes",
+        "fr": "Kjøttkaker norvégiennes"
+      }
+    },
+    {
+      "country_code": "NZ",
+      "country_name": "Nouvelle-Zélande",
+      "id": "2c608ad4-212d-4036-a8ba-67a09820b674",
+      "title": "Boil-up māori au porc, légumes et doughboys",
+      "original_title": "Māori boil-up",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Māori boil-up with pork, greens and doughboys",
+        "es": "Boil-up maorí con cerdo, verduras y bolas de masa",
+        "fr": "Boil-up māori au porc, légumes et doughboys"
+      }
+    },
+    {
+      "country_code": "NZ",
+      "country_name": "Nouvelle-Zélande",
+      "id": "0e3900f2-fef7-4859-8684-da4431957ce9",
+      "title": "Parāoa rēwena - pain māori au levain de pomme de terre",
+      "original_title": "Parāoa rēwena",
+      "region": null,
+      "category": "Pain",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Parāoa rēwena - Māori potato sourdough bread",
+        "es": "Parāoa rēwena - pan maorí de masa madre de patata",
+        "fr": "Parāoa rēwena - pain māori au levain de pomme de terre"
+      }
+    },
+    {
+      "country_code": "UG",
+      "country_name": "Ouganda",
+      "id": "4bc1da3a-3e84-4ed5-99c6-c04978b0568c",
+      "title": "Luwombo ougandais au poulet",
+      "original_title": "Luwombo ougandais au poulet",
+      "region": "Kampala",
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Luwombo Ugandan with chicken",
+        "es": "Luwombo ugandés con pollo",
+        "fr": "Luwombo ougandais au poulet"
+      }
+    },
+    {
+      "country_code": "UG",
+      "country_name": "Ouganda",
+      "id": "10000000-0000-4000-8000-000000000080",
+      "title": "Rolex ougandais (chapati roulé avec omelette, tomate et légumes)",
+      "original_title": "Rolex ougandais",
+      "region": "Kampala",
+      "category": "Cuisine de rue",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Rolex Ugandan (chapati roulé with omelette, tomato and vegetables)",
+        "es": "Rolex ugandés (chapati roulé con omelette, tomate y verduras)",
+        "fr": "Rolex ougandais (chapati roulé avec omelette, tomate et légumes)"
+      }
+    },
+    {
+      "country_code": "UZ",
+      "country_name": "Ouzbékistan",
+      "id": "86648286-9485-47b5-98f1-14c11d4d4700",
+      "title": "Manti ouzbeks à l’agneau",
+      "original_title": "Manti ouzbeks à l’agneau",
+      "region": "Tachkent",
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Manti Uzbek à l’lamb",
+        "es": "Manti uzbeko à l’cordero",
+        "fr": "Manti ouzbeks à l’agneau"
+      }
+    },
+    {
+      "country_code": "UZ",
+      "country_name": "Ouzbékistan",
+      "id": "10000000-0000-4000-8000-000000000078",
+      "title": "Plov de Tachkent (riz à l’agneau, carottes et oignons)",
+      "original_title": "Plov de Tachkent",
+      "region": "Tachkent",
+      "category": "Riz",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Plov de Tachkent (rice à l’lamb, carrots and onions)",
+        "es": "Plov de Tachkent (arroz à l’cordero, zanahorias y cebollas)",
+        "fr": "Plov de Tachkent (riz à l’agneau, carottes et oignons)"
+      }
+    },
+    {
+      "country_code": "PK",
+      "country_name": "Pakistan",
+      "id": "09b4fe3f-50d2-4c73-be13-525996153041",
+      "title": "Chicken karahi pakistanais",
+      "original_title": "Chicken karahi pakistanais",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Chicken karahi Pakistani",
+        "es": "Chicken karahi pakistaní",
+        "fr": "Chicken karahi pakistanais"
+      }
+    },
+    {
+      "country_code": "PK",
+      "country_name": "Pakistan",
+      "id": "10000000-0000-4000-8000-000000000082",
+      "title": "Nihari pakistanais (bœuf longuement mijoté aux épices)",
+      "original_title": "Nihari pakistanais",
+      "region": "Pakistan",
+      "category": "Bœuf mijoté",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Nihari Pakistani (beef longuement mijoté with épices)",
+        "es": "Nihari pakistaní (carne de res longuement mijoté con épices)",
+        "fr": "Nihari pakistanais (bœuf longuement mijoté aux épices)"
+      }
+    },
+    {
+      "country_code": "PY",
+      "country_name": "Paraguay",
+      "id": "297043c9-39e0-4205-9c6c-35d86aa63a94",
+      "title": "Chipa paraguayenne au manioc et fromage",
+      "original_title": "Chipa",
+      "region": null,
+      "category": "Pain",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Paraguayan chipa cassava cheese bread",
+        "es": "Chipa paraguaya de mandioca y queso",
+        "fr": "Chipa paraguayenne au manioc et fromage"
+      }
+    },
+    {
+      "country_code": "PY",
+      "country_name": "Paraguay",
+      "id": "de0e15df-ac35-4473-80d7-aaacb90f8af7",
+      "title": "Sopa paraguaya - pain de maïs salé au fromage",
+      "original_title": "Sopa paraguaya",
+      "region": null,
+      "category": "Pain",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Sopa paraguaya - Paraguayan savory cornbread",
+        "es": "Sopa paraguaya - pan salado de maíz y queso",
+        "fr": "Sopa paraguaya - pain de maïs salé au fromage"
+      }
+    },
+    {
+      "country_code": "NL",
+      "country_name": "Pays-Bas",
+      "id": "69544364-efde-42a5-ad2b-257c13976acb",
+      "title": "Bitterballen néerlandaises",
+      "original_title": "Bitterballen néerlandaises",
+      "region": null,
+      "category": "Entrée",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Bitterballen néerlandaises",
+        "es": "Bitterballen néerlandaises",
+        "fr": "Bitterballen néerlandaises"
+      }
+    },
+    {
+      "country_code": "NL",
+      "country_name": "Pays-Bas",
+      "id": "10000000-0000-4000-8000-000000000086",
+      "title": "Boerenkool stamppot néerlandais (purée de pommes de terre, chou frisé, saucisse et bacon)",
+      "original_title": "Boerenkool stamppot néerlandais",
+      "region": "Pays-Bas",
+      "category": "Pommes de terre",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Boerenkool stamppot Dutch (purée de potatoes, cabbage frisé, saucisse and bacon)",
+        "es": "Boerenkool stamppot neerlandés (purée de patatas, col frisé, saucisse y bacon)",
+        "fr": "Boerenkool stamppot néerlandais (purée de pommes de terre, chou frisé, saucisse et bacon)"
+      }
+    },
+    {
+      "country_code": "PE",
+      "country_name": "Pérou",
+      "id": "10000000-0000-4000-8000-000000000014",
+      "title": "Ceviche de pescado de Callao (poisson mariné au citron vert)",
+      "original_title": "Ceviche de pescado de Callao",
+      "region": "Callao",
+      "category": "Poisson",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Ceviche de pescado de Callao (fish mariné with citron vert)",
+        "es": "Ceviche de pescado de Callao (pescado mariné con citron vert)",
+        "fr": "Ceviche de pescado de Callao (poisson mariné au citron vert)"
+      }
+    },
+    {
+      "country_code": "PE",
+      "country_name": "Pérou",
+      "id": "bddcab96-7bc2-4a59-9c9b-98c0d38f1597",
+      "title": "Lomo saltado péruvien",
+      "original_title": "Lomo saltado péruvien",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Lomo saltado Peruvian",
+        "es": "Lomo saltado peruano",
+        "fr": "Lomo saltado péruvien"
+      }
+    },
+    {
+      "country_code": "PH",
+      "country_name": "Philippines",
+      "id": "10000000-0000-4000-8000-000000000036",
+      "title": "Chicken adobo philippin (poulet braisé au vinaigre et soja)",
+      "original_title": "Chicken adobo philippin",
+      "region": "Philippines",
+      "category": "Poulet braisé",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Chicken adobo Filipino (chicken braisé with vinaigre and soja)",
+        "es": "Chicken adobo filipino (pollo braisé con vinaigre y soja)",
+        "fr": "Chicken adobo philippin (poulet braisé au vinaigre et soja)"
+      }
+    },
+    {
+      "country_code": "PH",
+      "country_name": "Philippines",
+      "id": "cea73bb7-3b58-495e-bb0b-72c43e99f7d5",
+      "title": "Sinigang na baboy philippin",
+      "original_title": "Sinigang na baboy philippin",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Sinigang na baboy Filipino",
+        "es": "Sinigang na baboy filipino",
+        "fr": "Sinigang na baboy philippin"
+      }
+    },
+    {
+      "country_code": "PL",
+      "country_name": "Pologne",
+      "id": "30922e3d-603a-4bd7-a4a1-72648a2356f1",
+      "title": "Bigos polonais",
+      "original_title": "Bigos polonais",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Bigos Polish",
+        "es": "Bigos polaco",
+        "fr": "Bigos polonais"
+      }
+    },
+    {
+      "country_code": "PL",
+      "country_name": "Pologne",
+      "id": "10000000-0000-4000-8000-000000000013",
+      "title": "Pierogi pomme de terre, fromage et oignon",
+      "original_title": "Pierogi pomme de terre, fromage et oignon",
+      "region": "Pologne",
+      "category": "Pâtes farcies",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Pierogi pomme de terre, cheese and onions",
+        "es": "Pierogi pomme de terre, queso y cebollas",
+        "fr": "Pierogi pomme de terre, fromage et oignon"
+      }
+    },
+    {
+      "country_code": "PT",
+      "country_name": "Portugal",
+      "id": "10000000-0000-4000-8000-000000000038",
+      "title": "Bacalhau à Brás de Lisbonne (morue, pommes allumettes et œufs)",
+      "original_title": "Bacalhau à Brás de Lisbonne",
+      "region": "Lisbonne",
+      "category": "Morue",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Bacalhau à Brás de Lisbonne (morue, pommes allumettes and œufs)",
+        "es": "Bacalhau à Brás de Lisbonne (morue, pommes allumettes y œufs)",
+        "fr": "Bacalhau à Brás de Lisbonne (morue, pommes allumettes et œufs)"
+      }
+    },
+    {
+      "country_code": "PT",
+      "country_name": "Portugal",
+      "id": "93c1cb8e-1cbe-4626-9183-f45f1bcfc027",
+      "title": "Caldo verde portugais",
+      "original_title": "Caldo verde portugais",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Caldo verde Portuguese",
+        "es": "Caldo verde portugués",
+        "fr": "Caldo verde portugais"
+      }
+    },
+    {
+      "country_code": "CD",
+      "country_name": "République démocratique du Congo",
+      "id": "10000000-0000-4000-8000-000000000021",
+      "title": "Kwanga / chikwangue de Kinshasa (pain de manioc fermenté)",
+      "original_title": "Kwanga / chikwangue de Kinshasa",
+      "region": "Kinshasa",
+      "category": "Accompagnement",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Kwanga / chikwangue de Kinshasa (bread de cassava fermenté)",
+        "es": "Kwanga / chikwangue de Kinshasa (pan de yuca fermenté)",
+        "fr": "Kwanga / chikwangue de Kinshasa (pain de manioc fermenté)"
+      }
+    },
+    {
+      "country_code": "CD",
+      "country_name": "République démocratique du Congo",
+      "id": "10000000-0000-4000-8000-000000000020",
+      "title": "Liboké de poisson congolais (poisson cuit en feuilles)",
+      "original_title": "Liboké de poisson congolais",
+      "region": "République démocratique du Congo",
+      "category": "Poisson",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Liboké de fish Congolese (fish cuit en feuilles)",
+        "es": "Liboké de pescado congoleño (pescado cuit en feuilles)",
+        "fr": "Liboké de poisson congolais (poisson cuit en feuilles)"
+      }
+    },
+    {
+      "country_code": "CD",
+      "country_name": "République démocratique du Congo",
+      "id": "10000000-0000-4000-8000-000000000019",
+      "title": "Mikaté de Kinshasa (beignets congolais frits)",
+      "original_title": "Mikaté de Kinshasa",
+      "region": "Kinshasa",
+      "category": "Beignets",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Mikaté de Kinshasa (beignets Congolese fried)",
+        "es": "Mikaté de Kinshasa (beignets congoleño fritos)",
+        "fr": "Mikaté de Kinshasa (beignets congolais frits)"
+      }
+    },
+    {
+      "country_code": "CD",
+      "country_name": "République démocratique du Congo",
+      "id": "10000000-0000-4000-8000-000000000018",
+      "title": "Poulet moambé de Kinshasa",
+      "original_title": "Poulet moambé de Kinshasa",
+      "region": "Kinshasa",
+      "category": "Poulet et accompagnements",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "chicken moambé de Kinshasa",
+        "es": "pollo moambé de Kinshasa",
+        "fr": "Poulet moambé de Kinshasa"
+      }
+    },
+    {
+      "country_code": "DO",
+      "country_name": "République dominicaine",
+      "id": "1226d66a-5b47-4de7-9990-0805b92e7dec",
+      "title": "La Bandera Dominicana - riz, haricots et poulet",
+      "original_title": "La Bandera Dominicana",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "La Bandera Dominicana - rice, beans and chicken",
+        "es": "La Bandera Dominicana - arroz, habichuelas y pollo",
+        "fr": "La Bandera Dominicana - riz, haricots et poulet"
+      }
+    },
+    {
+      "country_code": "DO",
+      "country_name": "République dominicaine",
+      "id": "3a54c9c2-875f-4e8d-8a0f-c28370c4c7ea",
+      "title": "Mangú dominicain aux oignons rouges",
+      "original_title": "Mangú",
+      "region": null,
+      "category": "Déjeuner",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Dominican mangú mashed plantains",
+        "es": "Mangú dominicano con cebolla roja",
+        "fr": "Mangú dominicain aux oignons rouges"
+      }
+    },
+    {
+      "country_code": "RO",
+      "country_name": "Roumanie",
+      "id": "810e6963-a42d-4616-9520-51df87175c5c",
+      "title": "Ciorbă de perișoare roumaine",
+      "original_title": "Ciorbă de perișoare roumaine",
+      "region": null,
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Ciorbă de perișoare Romanian",
+        "es": "Ciorbă de perișoare rumano",
+        "fr": "Ciorbă de perișoare roumaine"
+      }
+    },
+    {
+      "country_code": "RO",
+      "country_name": "Roumanie",
+      "id": "10000000-0000-4000-8000-000000000056",
+      "title": "Sarmale roumaines (rouleaux de chou farcis au porc et riz)",
+      "original_title": "Sarmale roumaines",
+      "region": "Roumanie",
+      "category": "Chou farci",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Sarmale Romanian (rouleaux de cabbage farcis with pork and rice)",
+        "es": "Sarmale rumano (rouleaux de col farcis con cerdo y arroz)",
+        "fr": "Sarmale roumaines (rouleaux de chou farcis au porc et riz)"
+      }
+    },
+    {
+      "country_code": "RU",
+      "country_name": "Russie",
+      "id": "10000000-0000-4000-8000-000000000041",
+      "title": "Blini russes (crêpes levées aux fraises)",
+      "original_title": "Blini russes",
+      "region": "Russie",
+      "category": "Crêpes",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Blini Russian (crêpes levées with fraises)",
+        "es": "Blini ruso (crêpes levées con fraises)",
+        "fr": "Blini russes (crêpes levées aux fraises)"
+      }
+    },
+    {
+      "country_code": "RU",
+      "country_name": "Russie",
+      "id": "10000000-0000-4000-8000-000000000040",
+      "title": "Bœuf Stroganoff russe avec nouilles",
+      "original_title": "Bœuf Stroganoff russe avec nouilles",
+      "region": "Russie",
+      "category": "Bœuf en sauce",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "beef Stroganoff Russian with noodles",
+        "es": "carne de res Stroganoff ruso con fideos",
+        "fr": "Bœuf Stroganoff russe avec nouilles"
+      }
+    },
+    {
+      "country_code": "RU",
+      "country_name": "Russie",
+      "id": "10000000-0000-4000-8000-000000000039",
+      "title": "Pelmeni russes (raviolis de viande, champignons et crème sure)",
+      "original_title": "Pelmeni russes",
+      "region": "Russie",
+      "category": "Pâtes farcies",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Pelmeni Russian (raviolis de viande, mushrooms and sour cream)",
+        "es": "Pelmeni ruso (raviolis de viande, champiñones y crema agria)",
+        "fr": "Pelmeni russes (raviolis de viande, champignons et crème sure)"
+      }
+    },
+    {
+      "country_code": "SV",
+      "country_name": "Salvador",
+      "id": "321f1a72-e0d7-46ef-ba16-5355bfb2573e",
+      "title": "Pupusas salvadoriennes au fromage, haricots et porc",
+      "original_title": "Pupusas revueltas",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Salvadoran pupusas with cheese, beans and pork",
+        "es": "Pupusas revueltas salvadoreñas",
+        "fr": "Pupusas salvadoriennes au fromage, haricots et porc"
+      }
+    },
+    {
+      "country_code": "SV",
+      "country_name": "Salvador",
+      "id": "b6c01006-c894-4bef-a4e0-84c5ef6ddbfd",
+      "title": "Yuca frita salvadorienne au chicharrón",
+      "original_title": "Yuca frita con chicharrón",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Salvadoran fried cassava with chicharrón",
+        "es": "Yuca frita salvadoreña con chicharrón",
+        "fr": "Yuca frita salvadorienne au chicharrón"
+      }
+    },
+    {
+      "country_code": "SN",
+      "country_name": "Sénégal",
+      "id": "10000000-0000-4000-8000-000000000032",
+      "title": "Ceebu jën de Saint-Louis (riz sénégalais au poisson et légumes)",
+      "original_title": "Ceebu jën de Saint-Louis",
+      "region": "Saint-Louis",
+      "category": "Poisson et riz",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Ceebu jën de Saint-Louis (rice Senegalese with fish and vegetables)",
+        "es": "Ceebu jën de Saint-Louis (arroz senegalés con pescado y verduras)",
+        "fr": "Ceebu jën de Saint-Louis (riz sénégalais au poisson et légumes)"
+      }
+    },
+    {
+      "country_code": "SN",
+      "country_name": "Sénégal",
+      "id": "e8491c6e-774c-4c2c-9b4a-589567435072",
+      "title": "Poulet yassa sénégalais",
+      "original_title": "Poulet yassa sénégalais",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "chicken yassa Senegalese",
+        "es": "pollo yassa senegalés",
+        "fr": "Poulet yassa sénégalais"
+      }
+    },
+    {
+      "country_code": "RS",
+      "country_name": "Serbie",
+      "id": "10000000-0000-4000-8000-000000000065",
+      "title": "Ćevapi serbes (petites grillades de bœuf et agneau avec pain et oignon)",
+      "original_title": "Ćevapi serbes",
+      "region": "Serbie",
+      "category": "Grillade",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Ćevapi Serbian (petites grillades de beef and lamb with bread and onions)",
+        "es": "Ćevapi serbio (petites grillades de carne de res y cordero con pan y cebollas)",
+        "fr": "Ćevapi serbes (petites grillades de bœuf et agneau avec pain et oignon)"
+      }
+    },
+    {
+      "country_code": "RS",
+      "country_name": "Serbie",
+      "id": "7ab453fa-7c97-4622-a8a2-9b53b00c2ae0",
+      "title": "Gibanica serbe au fromage",
+      "original_title": "Gibanica serbe au fromage",
+      "region": null,
+      "category": "Déjeuner",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Gibanica Serbian with cheese",
+        "es": "Gibanica serbio con queso",
+        "fr": "Gibanica serbe au fromage"
+      }
+    },
+    {
+      "country_code": "SG",
+      "country_name": "Singapour",
+      "id": "4430b67b-512a-4cdf-8279-8d9e0ae66f7b",
+      "title": "Chili crab de Singapour",
+      "original_title": "Chili crab de Singapour",
+      "region": "Singapour",
+      "category": "Poisson",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Chili crab Singaporean",
+        "es": "Chili crab singapurense",
+        "fr": "Chili crab de Singapour"
+      }
+    },
+    {
+      "country_code": "SG",
+      "country_name": "Singapour",
+      "id": "10000000-0000-4000-8000-000000000016",
+      "title": "Riz au poulet hainanais de Singapour",
+      "original_title": "Riz au poulet hainanais de Singapour",
+      "region": "Singapour",
+      "category": "Poulet et riz",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "rice with chicken hainanais Singaporean",
+        "es": "arroz con pollo hainanais singapurense",
+        "fr": "Riz au poulet hainanais de Singapour"
+      }
+    },
+    {
+      "country_code": "SK",
+      "country_name": "Slovaquie",
+      "id": "10000000-0000-4000-8000-000000000088",
+      "title": "Bryndzové halušky slovaques (petits gnocchis, fromage de brebis et bacon)",
+      "original_title": "Bryndzové halušky slovaques",
+      "region": "Bratislava",
+      "category": "Pâtes et fromage",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Bryndzové halušky Slovak (petits gnocchis, cheese de brebis and bacon)",
+        "es": "Bryndzové halušky eslovaco (petits gnocchis, queso de brebis y bacon)",
+        "fr": "Bryndzové halušky slovaques (petits gnocchis, fromage de brebis et bacon)"
+      }
+    },
+    {
+      "country_code": "SK",
+      "country_name": "Slovaquie",
+      "id": "b5038888-ab1f-4148-aecb-b67bbefa52f0",
+      "title": "Kapustnica slovaque",
+      "original_title": "Kapustnica slovaque",
+      "region": "Bratislava",
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Kapustnica Slovak",
+        "es": "Kapustnica eslovaco",
+        "fr": "Kapustnica slovaque"
+      }
+    },
+    {
+      "country_code": "LK",
+      "country_name": "Sri Lanka",
+      "id": "31d8fa58-d14e-4e10-b53d-6cb3f224330a",
+      "title": "Fish ambul thiyal sri-lankais",
+      "original_title": "Fish ambul thiyal sri-lankais",
+      "region": null,
+      "category": "Poisson",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Fish ambul thiyal Sri Lankan",
+        "es": "Fish ambul thiyal esrilanqués",
+        "fr": "Fish ambul thiyal sri-lankais"
+      }
+    },
+    {
+      "country_code": "LK",
+      "country_name": "Sri Lanka",
+      "id": "10000000-0000-4000-8000-000000000071",
+      "title": "Kottu roti sri-lankais (pain haché sauté au poulet, œuf et légumes)",
+      "original_title": "Kottu roti sri-lankais",
+      "region": "Sri Lanka",
+      "category": "Cuisine de rue",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Kottu roti Sri Lankan (bread haché sauté with chicken, œuf and vegetables)",
+        "es": "Kottu roti esrilanqués (pan haché sauté con pollo, œuf y verduras)",
+        "fr": "Kottu roti sri-lankais (pain haché sauté au poulet, œuf et légumes)"
+      }
+    },
+    {
+      "country_code": "SE",
+      "country_name": "Suède",
+      "id": "95a152cd-0882-486d-9b48-fdc06f84e3f9",
+      "title": "Janssons frestelse suédoise",
+      "original_title": "Janssons frestelse suédoise",
+      "region": "Stockholm",
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Janssons frestelse Swedish",
+        "es": "Janssons frestelse sueco",
+        "fr": "Janssons frestelse suédoise"
+      }
+    },
+    {
+      "country_code": "SE",
+      "country_name": "Suède",
+      "id": "10000000-0000-4000-8000-000000000047",
+      "title": "Köttbullar suédois (boulettes de bœuf et porc, purée et airelles)",
+      "original_title": "Köttbullar suédois",
+      "region": "Stockholm",
+      "category": "Boulettes",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Köttbullar Swedish (boulettes de beef and pork, purée and airelles)",
+        "es": "Köttbullar sueco (boulettes de carne de res y cerdo, purée y airelles)",
+        "fr": "Köttbullar suédois (boulettes de bœuf et porc, purée et airelles)"
+      }
+    },
+    {
+      "country_code": "CH",
+      "country_name": "Suisse",
+      "id": "10000000-0000-4000-8000-000000000048",
+      "title": "Älpler-Rösti suisse (pommes de terre, bacon et œuf)",
+      "original_title": "Älpler-Rösti suisse",
+      "region": "Canton de Berne",
+      "category": "Pommes de terre",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Älpler-Rösti Swiss (potatoes, bacon and œuf)",
+        "es": "Älpler-Rösti suizo (patatas, bacon y œuf)",
+        "fr": "Älpler-Rösti suisse (pommes de terre, bacon et œuf)"
+      }
+    },
+    {
+      "country_code": "CH",
+      "country_name": "Suisse",
+      "id": "f453474a-04ab-46ac-9b3b-447754306a1e",
+      "title": "Fondue suisse moitié-moitié",
+      "original_title": "Fondue suisse moitié-moitié",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Fondue Swiss moitié-moitié",
+        "es": "Fondue suizo moitié-moitié",
+        "fr": "Fondue suisse moitié-moitié"
+      }
+    },
+    {
+      "country_code": "TZ",
+      "country_name": "Tanzanie",
+      "id": "98d6f5d5-d37a-4b0b-a6a2-99c3ce121936",
+      "title": "Chipsi mayai tanzanien",
+      "original_title": "Chipsi mayai tanzanien",
+      "region": null,
+      "category": "Déjeuner",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Chipsi mayai Tanzanian",
+        "es": "Chipsi mayai tanzano",
+        "fr": "Chipsi mayai tanzanien"
+      }
+    },
+    {
+      "country_code": "TZ",
+      "country_name": "Tanzanie",
+      "id": "10000000-0000-4000-8000-000000000070",
+      "title": "Pilau tanzanien (riz épicé à la viande, tomate, gingembre et ail)",
+      "original_title": "Pilau tanzanien",
+      "region": "Tanzanie",
+      "category": "Riz épicé",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Pilau Tanzanian (rice épicé à la viande, tomato, gingembre and ail)",
+        "es": "Pilau tanzano (arroz épicé à la viande, tomate, gingembre y ail)",
+        "fr": "Pilau tanzanien (riz épicé à la viande, tomate, gingembre et ail)"
+      }
+    },
+    {
+      "country_code": "CZ",
+      "country_name": "Tchéquie",
+      "id": "1e4cccc0-54ae-4166-abba-1b3ff4344b8b",
+      "title": "Kulajda tchèque aux champignons et aneth",
+      "original_title": "Kulajda tchèque aux champignons et aneth",
+      "region": "Prague",
+      "category": "Soupe",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Kulajda Czech with mushrooms and aneth",
+        "es": "Kulajda checo con champiñones y aneth",
+        "fr": "Kulajda tchèque aux champignons et aneth"
+      }
+    },
+    {
+      "country_code": "CZ",
+      "country_name": "Tchéquie",
+      "id": "10000000-0000-4000-8000-000000000063",
+      "title": "Svíčková tchèque (bœuf, sauce crémeuse aux légumes et knedlíky)",
+      "original_title": "Svíčková tchèque",
+      "region": "Prague",
+      "category": "Bœuf en sauce",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Svíčková Czech (beef, sauce creamy with vegetables and knedlíky)",
+        "es": "Svíčková checo (carne de res, salsa cremosa con verduras y knedlíky)",
+        "fr": "Svíčková tchèque (bœuf, sauce crémeuse aux légumes et knedlíky)"
+      }
+    },
+    {
+      "country_code": "TH",
+      "country_name": "Thaïlande",
+      "id": "10000000-0000-4000-8000-000000000004",
+      "title": "Khao Soi de Chiang Mai (soupe de nouilles au curry et poulet)",
+      "original_title": "Khao Soi de Chiang Mai",
+      "region": "Chiang Mai",
+      "category": "Soupe de nouilles",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Khao Soi de Chiang Mai (soup de noodles with curry and chicken)",
+        "es": "Khao Soi de Chiang Mai (sopa de fideos con curry y pollo)",
+        "fr": "Khao Soi de Chiang Mai (soupe de nouilles au curry et poulet)"
+      }
+    },
+    {
+      "country_code": "TH",
+      "country_name": "Thaïlande",
+      "id": "addf7051-577c-440d-b0e0-e634d784fb14",
+      "title": "Pad kra pao au porc",
+      "original_title": "Pad kra pao au porc",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Pad kra pao with pork",
+        "es": "Pad kra pao con cerdo",
+        "fr": "Pad kra pao au porc"
+      }
+    },
+    {
+      "country_code": "TN",
+      "country_name": "Tunisie",
+      "id": "b02dda9e-5bc1-4f0d-87b7-d7ef7e05932b",
+      "title": "Brik tunisien à l’œuf et au thon",
+      "original_title": "Brik tunisien à l’œuf et au thon",
+      "region": null,
+      "category": "Entrée",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Brik Tunisian à l’œuf and with thon",
+        "es": "Brik tunecino à l’œuf y con thon",
+        "fr": "Brik tunisien à l’œuf et au thon"
+      }
+    },
+    {
+      "country_code": "TN",
+      "country_name": "Tunisie",
+      "id": "10000000-0000-4000-8000-000000000053",
+      "title": "Shakshuka tunisienne (œufs pochés dans tomate, poivron et oignon)",
+      "original_title": "Shakshuka tunisienne",
+      "region": "Tunisie",
+      "category": "Œufs et tomate",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Shakshuka Tunisian (œufs pochés dans tomato, peppers and onions)",
+        "es": "Shakshuka tunecino (œufs pochés dans tomate, pimientos y cebollas)",
+        "fr": "Shakshuka tunisienne (œufs pochés dans tomate, poivron et oignon)"
+      }
+    },
+    {
+      "country_code": "TR",
+      "country_name": "Türkiye",
+      "id": "10000000-0000-4000-8000-000000000029",
+      "title": "İskender kebap de Bursa (agneau sur pain, tomate et yaourt)",
+      "original_title": "İskender kebap de Bursa",
+      "region": "Bursa",
+      "category": "Kebab",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "İskender kebap de Bursa (lamb sur bread, tomato and yaourt)",
+        "es": "İskender kebap de Bursa (cordero sur pan, tomate y yaourt)",
+        "fr": "İskender kebap de Bursa (agneau sur pain, tomate et yaourt)"
+      }
+    },
+    {
+      "country_code": "TR",
+      "country_name": "Türkiye",
+      "id": "e44d8b23-e313-4140-8d4d-d4354a6d5ed1",
+      "title": "Menemen turc aux œufs et tomates",
+      "original_title": "Menemen turc aux œufs et tomates",
+      "region": null,
+      "category": "Déjeuner",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Menemen Turkish with œufs and tomato",
+        "es": "Menemen turco con œufs y tomate",
+        "fr": "Menemen turc aux œufs et tomates"
+      }
+    },
+    {
+      "country_code": "UA",
+      "country_name": "Ukraine",
+      "id": "10000000-0000-4000-8000-000000000012",
+      "title": "Bortsch ukrainien",
+      "original_title": "Bortsch ukrainien",
+      "region": "Ukraine",
+      "category": "Soupe",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Bortsch Ukrainian",
+        "es": "Bortsch ucraniano",
+        "fr": "Bortsch ukrainien"
+      }
+    },
+    {
+      "country_code": "UA",
+      "country_name": "Ukraine",
+      "id": "c2716324-7f91-46a7-bbfd-cc14fb5be7bb",
+      "title": "Varenyky ukrainiens aux pommes de terre",
+      "original_title": "Varenyky ukrainiens aux pommes de terre",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Varenyky ukrainiens with potatoes",
+        "es": "Varenyky ukrainiens con patatas",
+        "fr": "Varenyky ukrainiens aux pommes de terre"
+      }
+    },
+    {
+      "country_code": "VE",
+      "country_name": "Venezuela",
+      "id": "ce933920-91e7-4fc5-a982-2febf229f98a",
+      "title": "Arepas reina pepiada vénézuéliennes",
+      "original_title": "Arepas reina pepiada vénézuéliennes",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Arepas reina pepiada Venezuelan",
+        "es": "Arepas reina pepiada venezolano",
+        "fr": "Arepas reina pepiada vénézuéliennes"
+      }
+    },
+    {
+      "country_code": "VE",
+      "country_name": "Venezuela",
+      "id": "10000000-0000-4000-8000-000000000092",
+      "title": "Pabellón criollo vénézuélien (bœuf effiloché, riz, haricots noirs et plantain)",
+      "original_title": "Pabellón criollo vénézuélien",
+      "region": "Venezuela",
+      "category": "Assiette complète",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Pabellón criollo Venezuelan (beef effiloché, rice, black beans and plantain)",
+        "es": "Pabellón criollo venezolano (carne de res effiloché, arroz, frijoles negros y plantain)",
+        "fr": "Pabellón criollo vénézuélien (bœuf effiloché, riz, haricots noirs et plantain)"
+      }
+    },
+    {
+      "country_code": "VN",
+      "country_name": "Viêt Nam",
+      "id": "d7a641e9-f4bd-436c-9792-88e43b95b645",
+      "title": "Bánh xèo vietnamien",
+      "original_title": "Bánh xèo vietnamien",
+      "region": null,
+      "category": "Plat principal",
+      "has_internal_photo": false,
+      "translations": {
+        "en": "Bánh xèo Vietnamese",
+        "es": "Bánh xèo vietnamita",
+        "fr": "Bánh xèo vietnamien"
+      }
+    },
+    {
+      "country_code": "VN",
+      "country_name": "Viêt Nam",
+      "id": "10000000-0000-4000-8000-000000000008",
+      "title": "Phở bò de Hanoï (soupe vietnamienne au bœuf et nouilles)",
+      "original_title": "Phở bò de Hanoï",
+      "region": "Hanoï",
+      "category": "Soupe",
+      "has_internal_photo": true,
+      "translations": {
+        "en": "Phở bò de Hanoï (soup vietnamienne with beef and noodles)",
+        "es": "Phở bò de Hanoï (sopa vietnamienne con carne de res y fideos)",
+        "fr": "Phở bò de Hanoï (soupe vietnamienne au bœuf et nouilles)"
+      }
+    }
+  ]
+}

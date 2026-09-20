@@ -16,6 +16,7 @@ import {
 } from "@/lib/preferences";
 import { OpenCountryCard } from "@/components/open-place-image";
 import { ContinentRecipesModal } from "@/components/continent-recipes-modal";
+import { CountryRecipesModal } from "@/components/country-recipes-modal";
 import type { ContinentKey } from "@/lib/continents";
 
 type Props = {
@@ -133,6 +134,7 @@ export function HomeExperience({
   const [preferences, setPreferences] = useState<UserPreferences>(defaultPreferences);
   const [query, setQuery] = useState("");
   const [activeContinent, setActiveContinent] = useState<{ key: ContinentKey; label: string } | null>(null);
+  const [activeCountry, setActiveCountry] = useState<{ code: string; name: string; flag: string } | null>(null);
   const featuredRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -386,6 +388,13 @@ export function HomeExperience({
               countryCode={country.countryCode}
               flag={country.flag}
               dishes={country.dishes}
+              onSelect={() =>
+                setActiveCountry({
+                  code: country.countryCode,
+                  name: country.name,
+                  flag: country.flag,
+                })
+              }
             />
           ))}
         </div>
@@ -415,6 +424,15 @@ export function HomeExperience({
           continentKey={activeContinent.key}
           continentLabel={activeContinent.label}
           onClose={() => setActiveContinent(null)}
+        />
+      ) : null}
+
+      {activeCountry ? (
+        <CountryRecipesModal
+          countryCode={activeCountry.code}
+          countryName={activeCountry.name}
+          flag={activeCountry.flag}
+          onClose={() => setActiveCountry(null)}
         />
       ) : null}
     </main>

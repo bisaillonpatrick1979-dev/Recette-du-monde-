@@ -1286,3 +1286,18 @@ button { cursor: pointer; }
     text-align: left;
   }
 }
+
+
+/* Legacy globe-pin hard stop
+   The current globe no longer creates culinary markers. Keep this as a safety
+   net so old marker markup can never cover the continents again. */
+.earth-explorer .culinary-map-marker,
+.earth-explorer .marker-country,
+.earth-explorer .marker-region,
+.earth-explorer .marker-island,
+.earth-explorer .marker-city,
+.earth-explorer .marker-locality {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}

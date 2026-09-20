@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { RecipePhotoUploader } from "@/components/recipe-photo-uploader";
 import { RecipeSocialPanel } from "@/components/recipe-social-panel";
-import { RecipeServingScaler } from "@/components/recipe-serving-scaler";
+import { LocalizedRecipeContent } from "@/components/localized-recipe-content";
 import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import { OpenRecipeImage } from "@/components/open-recipe-image";
 import { mediaSourceLabel, resolveMediaUrl } from "@/lib/media";
@@ -18,7 +18,7 @@ export default async function RecipePage({ params }: Props) {
   const [{ data: recipe }, { data: claimsData }] = await Promise.all([
     supabase
       .from("recipes")
-      .select("*, recipe_ingredients(*), recipe_steps(*), recipe_title_translations(language_code,title), recipe_images!recipe_images_recipe_id_fkey(*)")
+      .select("*, recipe_ingredients(*), recipe_steps(*), recipe_title_translations(language_code,title), recipe_translations(language_code,title,description,ingredients,steps), recipe_images!recipe_images_recipe_id_fkey(*)")
       .eq("id", id)
       .maybeSingle(),
     supabase.auth.getClaims(),
@@ -164,8 +164,6 @@ export default async function RecipePage({ params }: Props) {
           ) : (
             <p className="recipe-author">Recette utilisateur · Par {author?.display_name || author?.username || "un membre"}</p>
           )}
-          {recipe.description ? <p className="recipe-lead">{recipe.description}</p> : null}
-
           <div className="recipe-detail-meta">
             <span>Préparation : {recipe.prep_minutes ?? "—"} min</span>
             <span>Cuisson : {recipe.cook_minutes ?? "—"} min</span>
@@ -205,24 +203,24 @@ export default async function RecipePage({ params }: Props) {
             />
           ) : null}
 
-          <div className="recipe-columns">
-            <RecipeServingScaler
-              baseServings={recipe.servings}
-              ingredients={ingredients.map((item) => ({
-                id: item.id,
-                name: item.name,
-                quantity: item.quantity,
-                unit: item.unit,
-                note: item.note,
-              }))}
-            />
-            <section>
-              <h2>Préparation</h2>
-              <ol className="step-list">
-                {steps.map((step) => <li key={step.id}>{step.instruction}</li>)}
-              </ol>
-            </section>
-          </div>
+          <LocalizedRecipeContent
+            baseDescription={recipe.description}
+            baseServings={recipe.servings}
+            baseIngredients={ingredients.map((item) => ({
+              id: item.id,
+              position: item.position,
+              name: item.name,
+              quantity: item.quantity,
+              unit: item.unit,
+              note: item.note,
+            }))}
+            baseSteps={steps.map((step) => ({
+              id: step.id,
+              position: step.position,
+              instruction: step.instruction,
+            }))}
+            translations={recipe.recipe_translations ?? []}
+          />
 
           <RecipeSocialPanel
             recipeId={recipe.id}

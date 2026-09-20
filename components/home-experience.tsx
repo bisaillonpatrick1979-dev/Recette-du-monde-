@@ -18,6 +18,7 @@ import { OpenCountryCard } from "@/components/open-place-image";
 import { ContinentRecipesModal } from "@/components/continent-recipes-modal";
 import { CountryRecipesModal } from "@/components/country-recipes-modal";
 import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
+import { OpenRecipeImage } from "@/components/open-recipe-image";
 import type { ContinentKey } from "@/lib/continents";
 
 type Props = {
@@ -327,7 +328,16 @@ export function HomeExperience({
           {filtered.map((recipe) => (
             <Link className="planet-recipe-card" key={recipe.id} href={`/recipes/${recipe.id}`}>
               <div className="planet-recipe-image">
-                <Image src={recipe.image} alt={recipe.title} fill sizes="(max-width: 700px) 78vw, 270px" />
+                {recipe.image ? (
+                  <Image src={recipe.image} alt={recipe.title} fill sizes="(max-width: 700px) 78vw, 270px" />
+                ) : (
+                  <OpenRecipeImage
+                    title={recipe.originalTitle}
+                    countryCode={recipe.countryCode}
+                    className="home-reference-image"
+                    showCredit={false}
+                  />
+                )}
                 <span className="planet-official-badge">✓ Recette de l’application</span>
               </div>
               <div className="planet-recipe-body">

@@ -15,3 +15,10 @@ export type HomeCountryCard = {
   name: string;
   dishes: string;
 };
+
+
+export type HomeAtlasStats = {
+  recipes: number;
+  countries: number;
+  subplaces: number;
+};

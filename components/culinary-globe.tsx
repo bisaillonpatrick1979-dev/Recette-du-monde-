@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { Map as MapLibreMap, Marker } from "maplibre-gl";
+import type { Map as MapLibreMap } from "maplibre-gl";
 import {
   levelLabels,
   type AtlasPlaceImage,
@@ -77,13 +77,8 @@ export function CulinaryGlobe({
 }: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
-  const markersRef = useRef<Marker[]>([]);
-  const initialPlace =
-    places.find((place) => place.slug === "id-bali") ??
-    places.find((place) => recipes.some((recipe) => recipe.placeId === place.id)) ??
-    places[0] ??
-    null;
-  const [selectedId, setSelectedId] = useState<string | null>(initialPlace?.id ?? null);
+  const initialPlace: CulinaryPlace | null = null;
+  const [selectedId, setSelectedId] = useState<string | null>(null);
   const [mapPick, setMapPick] = useState<MapPick | null>(null);
   const [query, setQuery] = useState("");
   const [mapState, setMapState] = useState<"loading" | "ready" | "error">("loading");
@@ -132,17 +127,56 @@ export function CulinaryGlobe({
   );
 
   const selectedRecipes = useMemo(
-    () => recipes.filter((recipe) => selectedPlaceIds.has(recipe.placeId)),
-    [recipes, selectedPlaceIds],
+    () =>
+      recipes
+        .filter((recipe) => selectedPlaceIds.has(recipe.placeId))
+        .sort((a, b) => {
+          const aDirect = selected && a.placeId === selected.id ? 1 : 0;
+          const bDirect = selected && b.placeId === selected.id ? 1 : 0;
+          return bDirect - aDirect || a.title.localeCompare(b.title, "fr");
+        }),
+    [recipes, selectedPlaceIds, selected],
   );
 
   const selectedSpecialties = useMemo(
     () =>
       specialties
         .filter((specialty) => selectedPlaceIds.has(specialty.placeId))
-        .sort((a, b) => Number(b.isSignature) - Number(a.isSignature) || a.sortOrder - b.sortOrder || a.name.localeCompare(b.name, "fr")),
-    [specialties, selectedPlaceIds],
+        .sort((a, b) => {
+          const aDirect = selected && a.placeId === selected.id ? 1 : 0;
+          const bDirect = selected && b.placeId === selected.id ? 1 : 0;
+          return (
+            bDirect - aDirect ||
+            Number(b.isSignature) - Number(a.isSignature) ||
+            a.sortOrder - b.sortOrder ||
+            a.name.localeCompare(b.name, "fr")
+          );
+        }),
+    [specialties, selectedPlaceIds, selected],
   );
+
+  const recipeLimit =
+    selected?.placeType === "country"
+      ? 4
+      : selected?.placeType === "region" || selected?.placeType === "island"
+        ? 6
+        : 8;
+
+  const specialtyLimit = recipeLimit;
+
+  const recipeSectionLabel =
+    selected?.placeType === "country"
+      ? "Recettes représentatives du pays"
+      : selected?.placeType === "region" || selected?.placeType === "island"
+        ? "Recettes de la région"
+        : "Recettes locales";
+
+  const specialtySectionLabel =
+    selected?.placeType === "country"
+      ? "Spécialités du pays"
+      : selected?.placeType === "region" || selected?.placeType === "island"
+        ? "Spécialités de la région"
+        : "Spécialités du coin";
 
   const selectedPlaceImage = useMemo(() => {
     if (!selected) return null;
@@ -222,8 +256,7 @@ export function CulinaryGlobe({
     const databaseMatch = findDatabasePlace(name, placeClass);
 
     if (databaseMatch) {
-      setMapPick(null);
-      setSelectedId(databaseMatch.id);
+      focusPlace(databaseMatch);
       return;
     }
 
@@ -262,39 +295,13 @@ export function CulinaryGlobe({
 
         map.on("load", () => {
           if (cancelled) return;
-
-          for (const place of places) {
-            const markerButton = document.createElement("button");
-            markerButton.type = "button";
-            markerButton.className = `culinary-map-marker marker-${place.placeType}`;
-            markerButton.setAttribute("aria-label", `Explorer ${place.name}`);
-            markerButton.title = placePath(place).map((item) => item.name).join(" › ");
-            markerButton.innerHTML = "<span>🍴</span>";
-
-            markerButton.addEventListener("click", (event) => {
-              event.stopPropagation();
-              setMapPick(null);
-              setSelectedId(place.id);
-              map.flyTo({
-                center: [place.longitude, place.latitude],
-                zoom: Math.max(place.zoom, 5),
-                essential: true,
-              });
-            });
-
-            const marker = new maplibre.Marker({ element: markerButton, anchor: "bottom" })
-              .setLngLat([place.longitude, place.latitude])
-              .addTo(map);
-
-            markersRef.current.push(marker);
-          }
-
           setMapState("ready");
           map.resize();
         });
 
         map.on("click", (event) => {
-          const radius = 54;
+          const zoom = map.getZoom();
+          const radius = zoom < 3.5 ? 90 : zoom < 6 ? 72 : 54;
           const rendered = map
             .queryRenderedFeatures([
               [event.point.x - radius, event.point.y - radius],
@@ -302,13 +309,12 @@ export function CulinaryGlobe({
             ])
             .filter((feature) => feature.sourceLayer === "place" && featureName(feature.properties));
 
-          const zoom = map.getZoom();
           const classOrder =
             zoom < 3.5
-              ? ["country", "state", "province", "city", "island"]
+              ? ["country"]
               : zoom < 6
-                ? ["state", "province", "city", "town", "country", "island"]
-                : ["city", "town", "village", "hamlet", "state", "province", "island", "country"];
+                ? ["state", "province", "island", "country"]
+                : ["city", "town", "village", "hamlet", "borough", "suburb", "quarter", "neighbourhood", "state", "province", "island", "country"];
 
           const ranked = [...rendered].sort((a, b) => {
             const aClass = String(a.properties?.class ?? "");
@@ -388,8 +394,6 @@ export function CulinaryGlobe({
 
     return () => {
       cancelled = true;
-      markersRef.current.forEach((marker) => marker.remove());
-      markersRef.current = [];
       mapRef.current?.remove();
       mapRef.current = null;
     };
@@ -399,16 +403,24 @@ export function CulinaryGlobe({
     setMapPick(null);
     setSelectedId(place.id);
     setQuery("");
+
+    const targetZoom =
+      place.placeType === "country"
+        ? Math.min(Math.max(place.zoom, 3.2), 4.2)
+        : place.placeType === "region" || place.placeType === "island"
+          ? Math.max(place.zoom, 5.7)
+          : Math.max(place.zoom, 8.5);
+
     mapRef.current?.flyTo({
       center: [place.longitude, place.latitude],
-      zoom: Math.max(place.zoom, 5),
+      zoom: targetZoom,
       essential: true,
     });
   }
 
   function resetWorld() {
     setMapPick(null);
-    setSelectedId(initialPlace?.id ?? null);
+    setSelectedId(null);
     mapRef.current?.flyTo({ center: [15, 18], zoom: 1.55, pitch: 0, bearing: 0, essential: true });
   }
 
@@ -542,11 +554,11 @@ export function CulinaryGlobe({
             {selectedSpecialties.length ? (
               <div className="atlas-specialties">
                 <div className="atlas-recipes-heading">
-                  <span>Spécialités du coin</span>
-                  <strong>{selectedSpecialties.length}</strong>
+                  <span>{specialtySectionLabel}</span>
+                  <strong>{Math.min(selectedSpecialties.length, specialtyLimit)}</strong>
                 </div>
                 <div className="atlas-specialty-list">
-                  {selectedSpecialties.slice(0, 8).map((specialty) => {
+                  {selectedSpecialties.slice(0, specialtyLimit).map((specialty) => {
                     const body = (
                       <>
                         {specialty.isSignature ? <span>Spécialité emblématique</span> : <span>Spécialité locale</span>}
@@ -566,12 +578,12 @@ export function CulinaryGlobe({
 
             <div className="atlas-recipes">
               <div className="atlas-recipes-heading">
-                <span>Recettes de cette zone</span>
-                <strong>{selectedRecipes.length}</strong>
+                <span>{recipeSectionLabel}</span>
+                <strong>{Math.min(selectedRecipes.length, recipeLimit)}</strong>
               </div>
               {selectedRecipes.length ? (
                 <div className="atlas-recipe-list">
-                  {selectedRecipes.slice(0, 10).map((recipe) => (
+                  {selectedRecipes.slice(0, recipeLimit).map((recipe) => (
                     <Link href={`/recipes/${recipe.id}`} key={`${recipe.id}-${recipe.placeId}`}>
                       {recipe.coverImageUrl ? (
                         <div className="atlas-recipe-thumb">
@@ -600,7 +612,7 @@ export function CulinaryGlobe({
       </aside>
 
       <div className="earth-map-hint">
-        🖐 Glisser pour tourner · 🤏 Pincer pour zoomer · 👆 Toucher un lieu
+        🖐 Tourner · 🤏 Zoomer · 👆 Pays → région → ville
       </div>
 
       <button type="button" className="earth-reset-button" onClick={resetWorld}>

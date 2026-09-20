@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
+import { OpenRecipeImage } from "@/components/open-recipe-image";
 import { notFound } from "next/navigation";
 import { resolveMediaUrl } from "@/lib/media";
 import { createClient } from "@/lib/supabase/server";
@@ -45,7 +47,7 @@ export default async function CountryPage({ params }: Props) {
       supabase
         .from("recipes")
         .select(
-          "id,title,description,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
+          "id,title,original_title,description,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
         )
         .eq("status", "published")
         .eq("is_editorial", true)
@@ -237,12 +239,22 @@ export default async function CountryPage({ params }: Props) {
                       sizes="(max-width: 680px) 100vw, (max-width: 1050px) 50vw, 25vw"
                     />
                   ) : (
-                    <span>🍲</span>
+                    <OpenRecipeImage
+                      title={recipe.original_title || recipe.title}
+                      countryCode={recipe.country_code}
+                      className="continent-card-reference-image"
+                      showCredit={false}
+                    />
                   )}
                 </div>
                 <div className="continent-page-card-body">
                   <small>{recipe.region || country.name}</small>
-                  <h2>{recipe.title}</h2>
+                  <h2>
+                    <LocalizedRecipeTitle
+                      originalTitle={recipe.original_title || recipe.title}
+                      translations={recipe.recipe_title_translations ?? []}
+                    />
+                  </h2>
                   {recipe.description ? <p>{recipe.description}</p> : null}
                   <div className="continent-page-card-meta">
                     <span>{recipe.category || "Recette"}</span>

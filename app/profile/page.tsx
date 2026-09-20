@@ -31,7 +31,7 @@ export default async function ProfilePage() {
         <div className="account-topbar">
           <Link href="/" className="logo-lockup">
             <span className="logo-globe">🌍</span>
-            <span><strong>Cuisine du monde</strong><small>Mon espace</small></span>
+            <span><strong>Recette de la planète</strong><small>Mon espace</small></span>
           </Link>
           <form action={signOut}><button className="ghost-button">Déconnexion</button></form>
         </div>
@@ -41,7 +41,7 @@ export default async function ProfilePage() {
           <div>
             <span className="eyebrow">Profil</span>
             <h1>{profile?.display_name || "Nouveau cuisinier"}</h1>
-            <p>{profile?.bio || "Votre cuisine peut maintenant voyager partout dans le monde."}</p>
+            <p>{profile?.bio || "Votre cuisine peut maintenant voyager partout dans le monde, dans l’espace Communauté."}</p>
           </div>
           <Link className="primary-button" href="/publish">+ Publier une recette</Link>
         </section>
@@ -66,7 +66,7 @@ export default async function ProfilePage() {
 
         <section className="account-card">
           <div className="section-heading">
-            <div><span className="eyebrow">Vos créations</span><h2>Mes recettes</h2></div>
+            <div><span className="eyebrow">Recettes de la communauté</span><h2>Mes recettes</h2></div>
             <Link href="/publish">Nouvelle recette →</Link>
           </div>
           {recipes?.length ? (

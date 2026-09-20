@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { RecipePhotoUploader } from "@/components/recipe-photo-uploader";
+import { RecipeSocialPanel } from "@/components/recipe-social-panel";
 import { mediaSourceLabel, resolveMediaUrl } from "@/lib/media";
 import { createClient } from "@/lib/supabase/server";
 
@@ -22,11 +23,64 @@ export default async function RecipePage({ params }: Props) {
 
   if (!recipe) notFound();
 
-  const { data: author } = await supabase
-    .from("profiles")
-    .select("display_name,username")
-    .eq("id", recipe.author_id)
-    .maybeSingle();
+  const userId = typeof claimsData?.claims?.sub === "string" ? claimsData.claims.sub : null;
+
+  const [
+    { data: author },
+    { data: likes },
+    { data: ratings },
+    { data: comments },
+  ] = await Promise.all([
+    supabase
+      .from("profiles")
+      .select("display_name,username")
+      .eq("id", recipe.author_id)
+      .maybeSingle(),
+    supabase
+      .from("recipe_likes")
+      .select("user_id")
+      .eq("recipe_id", id),
+    supabase
+      .from("recipe_ratings")
+      .select("user_id,rating")
+      .eq("recipe_id", id),
+    supabase
+      .from("recipe_comments")
+      .select("id,user_id,body,created_at")
+      .eq("recipe_id", id)
+      .is("deleted_at", null)
+      .order("created_at", { ascending: false })
+      .limit(20),
+  ]);
+
+  const commentUserIds = [...new Set((comments ?? []).map((comment) => comment.user_id))];
+  const { data: commentProfiles } = commentUserIds.length
+    ? await supabase
+        .from("profiles")
+        .select("id,display_name,username")
+        .in("id", commentUserIds)
+    : { data: [] };
+
+  const profileById = new Map(
+    (commentProfiles ?? []).map((profile) => [profile.id, profile]),
+  );
+
+  const socialComments = (comments ?? []).map((comment) => {
+    const profile = profileById.get(comment.user_id);
+    return {
+      id: comment.id,
+      author: profile?.display_name || profile?.username || "Membre",
+      body: comment.body,
+      createdAt: comment.created_at,
+    };
+  });
+
+  const averageRating = ratings?.length
+    ? ratings.reduce((sum, item) => sum + item.rating, 0) / ratings.length
+    : null;
+  const initialLiked = Boolean(userId && likes?.some((like) => like.user_id === userId));
+  const initialUserRating =
+    userId ? ratings?.find((rating) => rating.user_id === userId)?.rating ?? null : null;
 
   const ingredients = [...(recipe.recipe_ingredients ?? [])].sort((a, b) => a.position - b.position);
   const steps = [...(recipe.recipe_steps ?? [])].sort((a, b) => a.position - b.position);
@@ -39,7 +93,6 @@ export default async function RecipePage({ params }: Props) {
     }))
     .filter((image): image is typeof image & { url: string } => Boolean(image.url));
 
-  const userId = typeof claimsData?.claims?.sub === "string" ? claimsData.claims.sub : null;
   const isOwner = userId === recipe.author_id;
   const primaryImage = images.find((image) => image.is_primary) ?? images[0] ?? null;
 
@@ -49,10 +102,11 @@ export default async function RecipePage({ params }: Props) {
         <div className="account-topbar">
           <Link href="/" className="logo-lockup">
             <span className="logo-globe">🌍</span>
-            <span><strong>Cuisine du monde</strong><small>Recette</small></span>
+            <span><strong>Recette de la planète</strong><small>Recette</small></span>
           </Link>
           <div className="recipe-top-actions">
             <Link href="/explore" className="ghost-button">🌍 Globe</Link>
+            <Link href="/community" className="ghost-button">Communauté</Link>
             <Link href="/profile" className="ghost-button">Mon profil</Link>
           </div>
         </div>
@@ -87,7 +141,7 @@ export default async function RecipePage({ params }: Props) {
           <h1>{recipe.title}</h1>
           {recipe.is_editorial ? (
             <div className="editorial-provenance">
-              <span>Recette éditoriale · Cuisine du monde</span>
+              <span>Recette officielle · Recette de la planète</span>
               <p>
                 Version adaptée rédigée pour l’application à partir de caractéristiques culinaires documentées.
               </p>
@@ -98,7 +152,7 @@ export default async function RecipePage({ params }: Props) {
               ) : null}
             </div>
           ) : (
-            <p className="recipe-author">Par {author?.display_name || author?.username || "un membre"}</p>
+            <p className="recipe-author">Recette utilisateur · Par {author?.display_name || author?.username || "un membre"}</p>
           )}
           {recipe.description ? <p className="recipe-lead">{recipe.description}</p> : null}
 
@@ -160,6 +214,16 @@ export default async function RecipePage({ params }: Props) {
               </ol>
             </section>
           </div>
+
+          <RecipeSocialPanel
+            recipeId={recipe.id}
+            initialLikes={likes?.length ?? 0}
+            initialLiked={initialLiked}
+            initialRating={averageRating}
+            initialRatingCount={ratings?.length ?? 0}
+            initialUserRating={initialUserRating}
+            initialComments={socialComments}
+          />
         </article>
       </div>
     </main>

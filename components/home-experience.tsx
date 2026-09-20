@@ -3,7 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { HomeAtlasStats, HomeCountryCard, HomeRecipe } from "@/lib/home-data";
+import type {
+  HomeAtlasStats,
+  HomeCommunityRecipe,
+  HomeCountryCard,
+  HomeRecipe,
+} from "@/lib/home-data";
 import {
   defaultPreferences,
   PREFERENCES_STORAGE_KEY,
@@ -13,49 +18,56 @@ import {
 type Props = {
   recipes: HomeRecipe[];
   countries: HomeCountryCard[];
+  communityRecipes: HomeCommunityRecipe[];
   stats: HomeAtlasStats;
 };
 
+const EARTH_IMAGE =
+  "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg";
+
+const categoryCards = [
+  { icon: "🍢", label: "Entrées" },
+  { icon: "🥣", label: "Soupes" },
+  { icon: "🍲", label: "Plats principaux" },
+  { icon: "🥗", label: "Salades" },
+  { icon: "🍝", label: "Pâtes" },
+  { icon: "🥩", label: "Viandes" },
+  { icon: "🐟", label: "Poissons et fruits de mer" },
+  { icon: "🌿", label: "Végétarien" },
+  { icon: "🍰", label: "Desserts" },
+];
+
+const quickFilters = [
+  "⚡ 30 minutes et moins",
+  "🍲 Instant Pot",
+  "🔥 BBQ",
+  "🌿 Santé",
+  "👨‍👩‍👧‍👦 Repas en famille",
+  "💰 Économique",
+  "⭐ Les plus populaires",
+];
+
 const copy = {
   fr: {
-    nav: ["Accueil", "Recettes", "Pays", "Catégories", "Desserts", "Soupes", "Communauté", "Chef IA"],
-    hero: "Les meilleures recettes du monde entier",
-    sub: "Des recettes authentiques, une communauté mondiale et un chef IA pour cuisiner sans frontières.",
-    search: "Rechercher un plat, un pays ou un ingrédient…",
-    featured: "Recettes en vedette",
-    explore: "Explorer sur le globe",
-    community: "Communauté gourmande",
-    communityText: "Publiez vos recettes, échangez vos astuces et découvrez ce que le monde cuisine aujourd’hui.",
-    publish: "Publier une recette",
-    tools: "Tout pour mieux cuisiner",
+    search: "Rechercher une recette, un pays, un plat, un ingrédient…",
+    community: "La cuisine du monde, faite aussi par le monde",
   },
   en: {
-    nav: ["Home", "Recipes", "Countries", "Categories", "Desserts", "Soups", "Community", "AI Chef"],
-    hero: "The world’s best recipes in one place",
-    sub: "Authentic recipes, a global community and an AI chef for cooking without borders.",
-    search: "Search a dish, country or ingredient…",
-    featured: "Featured recipes",
-    explore: "Explore the globe",
-    community: "Food community",
-    communityText: "Publish your recipes, share tips and discover what the world is cooking today.",
-    publish: "Publish a recipe",
-    tools: "Everything you need to cook better",
+    search: "Search a recipe, country, dish or ingredient…",
+    community: "World cuisine, also made by the world",
   },
   es: {
-    nav: ["Inicio", "Recetas", "Países", "Categorías", "Postres", "Sopas", "Comunidad", "Chef IA"],
-    hero: "Las mejores recetas del mundo en un solo lugar",
-    sub: "Recetas auténticas, una comunidad global y un chef IA para cocinar sin fronteras.",
-    search: "Buscar un plato, país o ingrediente…",
-    featured: "Recetas destacadas",
-    explore: "Explorar el globo",
-    community: "Comunidad gastronómica",
-    communityText: "Publica tus recetas, comparte consejos y descubre lo que cocina el mundo.",
-    publish: "Publicar una receta",
-    tools: "Todo para cocinar mejor",
+    search: "Buscar una receta, país, plato o ingrediente…",
+    community: "La cocina del mundo, hecha también por el mundo",
   },
 } as const;
 
-export function HomeExperience({ recipes, countries, stats }: Props) {
+export function HomeExperience({
+  recipes,
+  countries,
+  communityRecipes,
+  stats,
+}: Props) {
   const [preferences, setPreferences] = useState<UserPreferences>(defaultPreferences);
   const [query, setQuery] = useState("");
   const featuredRef = useRef<HTMLDivElement | null>(null);
@@ -63,7 +75,6 @@ export function HomeExperience({ recipes, countries, stats }: Props) {
   useEffect(() => {
     const saved = window.localStorage.getItem(PREFERENCES_STORAGE_KEY);
     if (!saved) return;
-
     try {
       setPreferences(JSON.parse(saved) as UserPreferences);
     } catch {
@@ -93,194 +104,218 @@ export function HomeExperience({ recipes, countries, stats }: Props) {
   }
 
   return (
-    <main>
-      <header className="site-header">
-        <Link href="/" className="logo-lockup">
-          <span className="logo-globe">🌍</span>
-          <span>
-            <strong>Cuisine du monde</strong>
-            <small>Voyagez. Cuisinez. Partagez.</small>
-          </span>
+    <main className="planet-home">
+      <header className="planet-header">
+        <button className="planet-icon-button" type="button" aria-label="Menu">☰</button>
+        <Link href="/" className="planet-brand">
+          <span className="planet-brand-leaf">◒</span>
+          <strong>Recette de la planète</strong>
         </Link>
-        <nav className="desktop-nav" aria-label="Navigation principale">
-          {text.nav.map((item, index) => (
-            <Link
-              href={index === 2 ? "/explore" : item === text.nav[6] ? "#community" : "#"}
-              key={item}
-            >
-              {item}
-            </Link>
-          ))}
-        </nav>
-        <div className="header-actions">
-          <Link className="globe-shortcut" href="/explore" aria-label="Ouvrir la planète culinaire" title="Explorer la planète">
-            🌍
-          </Link>
-          <span className="language-chip">{preferences.language.toUpperCase()}</span>
-          <Link className="ghost-button" href="/onboarding">
-            ⚙
-          </Link>
-          <Link className="ghost-button" href="/profile">Compte</Link>
-          <Link className="compact-primary" href="/publish">{text.publish}</Link>
+        <div className="planet-header-actions">
+          <Link href="/community" className="planet-icon-button" aria-label="Communauté">♡</Link>
+          <Link href="/profile" className="planet-icon-button" aria-label="Mon profil">●</Link>
         </div>
       </header>
 
-      <section className="hero">
-        <div className="hero-copy">
-          <span className="hero-kicker">🌎 Un monde de saveurs</span>
-          <h1>{text.hero}</h1>
-          <p>{text.sub}</p>
-          <div className="search-bar">
-            <span aria-hidden="true">⌕</span>
-            <input
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder={text.search}
-              aria-label={text.search}
+      <section className="planet-hero">
+        <Link href="/explore" className="earth-visual" aria-label="Explorer la planète culinaire">
+          <div className="earth-photo">
+            <Image
+              src={EARTH_IMAGE}
+              alt="La planète Terre vue depuis Apollo 17"
+              fill
+              priority
+              sizes="(max-width: 760px) 72vw, 390px"
             />
-            <button>Rechercher</button>
           </div>
-          <div className="chip-row">
-            {["🇮🇹 Italien", "🇲🇽 Mexicain", "🇯🇵 Japonais", "🥣 Soupes", "🍰 Desserts", "🌱 Végétarien"].map(
-              (chip) => (
-                <button key={chip} className="filter-chip">
-                  {chip}
-                </button>
-              ),
-            )}
+          <div className="earth-touch-note">
+            <span>↗</span>
+            <strong>Touchez le globe<br />pour explorer !</strong>
           </div>
-        </div>
-        <Link className="hero-art hero-globe-link" href="/explore" aria-label="Ouvrir la planète Terre culinaire">
-          <div className="continent">🌍</div>
-          <div className="floating-dish dish-one">🍜</div>
-          <div className="floating-dish dish-two">🥘</div>
-          <div className="floating-dish dish-three">🍣</div>
-          <p>Tourner la planète et choisir quoi manger</p>
         </Link>
+
+        <div className="planet-hero-copy">
+          <p className="planet-script">Un monde de saveurs à portée de main !</p>
+          <h1>Recette<br />de la planète</h1>
+
+          <div className="world-counter" aria-label="Nombre total de recettes">
+            <span className="world-counter-icon">◎</span>
+            <div>
+              <strong>{stats.recipes.toLocaleString("fr-CA")}</strong>
+              <span>recettes du monde entier</span>
+            </div>
+          </div>
+
+          <div className="world-substats">
+            <div><strong>{stats.countries}</strong><span>pays</span></div>
+            <div><strong>7</strong><span>grandes régions</span></div>
+            <div><strong>{stats.subplaces}</strong><span>régions et villes</span></div>
+          </div>
+
+          <p className="planet-side-note">Cuisiner<br />Rassembler<br />Découvrir<br />Partager ♡</p>
+        </div>
       </section>
 
-      <section className="content-section">
-        <div className="section-heading">
-          <div>
-            <span className="eyebrow">À découvrir maintenant</span>
-            <h2>{text.featured}</h2>
-          </div>
-          <div className="featured-heading-actions">
-            <button
-              type="button"
-              className="carousel-arrow"
-              onClick={() => scrollFeatured(-1)}
-              aria-label="Voir les recettes précédentes"
-            >
-              ‹
-            </button>
-            <button
-              type="button"
-              className="carousel-arrow"
-              onClick={() => scrollFeatured(1)}
-              aria-label="Voir les recettes suivantes"
-            >
-              ›
-            </button>
-            <Link href="/explore">Voir toutes →</Link>
-          </div>
+      <section className="planet-search-wrap">
+        <div className="planet-search">
+          <span aria-hidden="true">⌕</span>
+          <input
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder={text.search}
+            aria-label={text.search}
+          />
+          <button type="button">Rechercher</button>
         </div>
-        <div
-          className="recipe-carousel"
-          ref={featuredRef}
-          aria-label={text.featured}
-          tabIndex={0}
-        >
-          {filtered.map((recipe) => (
-            <Link className="recipe-card" key={recipe.id} href={`/recipes/${recipe.id}`}>
-              <div className="recipe-image">
-                <Image src={recipe.image} alt={recipe.title} fill sizes="(max-width: 700px) 82vw, 280px" />
-                <span className="country-badge">{recipe.flag} {recipe.region || recipe.country}</span>
-              </div>
-              <div className="recipe-body">
-                <span className="recipe-category">{recipe.category}</span>
-                <h3>{recipe.title}</h3>
-                <div className="verified-recipe">✓ Recette complète avec source et photo</div>
-                <div className="recipe-meta">
-                  <span>◷ {recipe.time}</span>
-                  <span>♨ {recipe.difficulty}</span>
-                </div>
+      </section>
+
+      <section className="planet-section">
+        <div className="planet-section-heading">
+          <h2>Explorer par continent</h2>
+          <Link href="/explore">⌘ Voir la carte du monde →</Link>
+        </div>
+        <div className="continent-strip">
+          {stats.continents.map((continent) => (
+            <Link href="/explore" className={`continent-card continent-${continent.key}`} key={continent.key}>
+              <div className="continent-art"><span>{continent.icon}</span></div>
+              <div className="continent-card-body">
+                <strong>{continent.label}</strong>
+                <span>{continent.recipes.toLocaleString("fr-CA")} recettes</span>
               </div>
             </Link>
           ))}
         </div>
-        {filtered.length > 5 ? (
-          <p className="carousel-hint">Glissez de droite à gauche pour découvrir les autres recettes →</p>
-        ) : null}
       </section>
 
-      <section className="content-section country-section">
-        <div className="section-heading">
-          <div>
-            <span className="eyebrow">Atlas culinaire</span>
-            <h2>{text.explore}</h2>
-          </div>
-          <Link href="/explore">Ouvrir le globe →</Link>
+      <section className="planet-section compact-section">
+        <div className="planet-section-heading">
+          <h2>Explorer par catégorie</h2>
+          <Link href="/explore">Voir toutes les catégories →</Link>
         </div>
-        <div className="atlas-summary" aria-label="Statistiques de l’atlas culinaire">
-          <div><strong>{stats.recipes.toLocaleString("fr-CA")}</strong><span>recettes</span></div>
-          <div><strong>{stats.countries.toLocaleString("fr-CA")}</strong><span>pays représentés</span></div>
-          <div><strong>{stats.subplaces.toLocaleString("fr-CA")}</strong><span>régions et villes</span></div>
+        <div className="category-strip">
+          {categoryCards.map((category) => (
+            <button className="category-card" type="button" key={category.label}>
+              <span>{category.icon}</span>
+              <strong>{category.label}</strong>
+            </button>
+          ))}
         </div>
-        <div className="country-grid">
-          {countries.map((country) => (
-            <article className="country-card" key={country.name}>
-              <span>{country.flag}</span>
-              <h3>{country.name}</h3>
-              <p>{country.dishes}</p>
-            </article>
+
+        <h3 className="quick-title">Filtres rapides</h3>
+        <div className="quick-filters">
+          {quickFilters.map((filter) => (
+            <button type="button" key={filter}>{filter}</button>
           ))}
         </div>
       </section>
 
-      <section className="community-section" id="community">
-        <div className="community-intro">
-          <span className="eyebrow">Partage & découverte</span>
-          <h2>{text.community}</h2>
-          <p>{text.communityText}</p>
-          <Link className="primary-button" href="/publish">{text.publish}</Link>
+      <section className="planet-section">
+        <div className="planet-section-heading">
+          <div>
+            <span className="planet-eyebrow">Sélection officielle</span>
+            <h2>Recettes populaires autour du monde</h2>
+          </div>
+          <div className="featured-heading-actions">
+            <button type="button" className="carousel-arrow" onClick={() => scrollFeatured(-1)} aria-label="Précédentes">‹</button>
+            <button type="button" className="carousel-arrow" onClick={() => scrollFeatured(1)} aria-label="Suivantes">›</button>
+            <Link href="/explore">Voir plus →</Link>
+          </div>
         </div>
-        <div className="community-feed">
-          <article>
-            <div className="author-line"><span>👩🏻‍🍳</span><div><strong>LucieM</strong><small>Québec · il y a 2 h</small></div></div>
-            <h3>Ma soupe pho familiale</h3>
-            <p>Le bouillon mijote doucement depuis ce matin. Voici la version que ma famille préfère.</p>
-            <div className="social-stats">♥ 248 &nbsp; 💬 32 &nbsp; 🔖 91</div>
-          </article>
-          <article>
-            <div className="author-line"><span>👨🏽‍🍳</span><div><strong>MarcoCucina</strong><small>Naples · il y a 3 h</small></div></div>
-            <h3>Pizza napolitaine maison</h3>
-            <p>72 heures de fermentation et seulement quelques ingrédients. La pâte fait toute la différence.</p>
-            <div className="social-stats">♥ 521 &nbsp; 💬 68 &nbsp; 🔖 174</div>
-          </article>
-          <article>
-            <div className="author-line"><span>👩🏻‍🍳</span><div><strong>SakuraHana</strong><small>Tokyo · il y a 5 h</small></div></div>
-            <h3>Mochis aux fraises</h3>
-            <p>Une version simple et douce, parfaite pour apprendre la texture de la pâte mochi.</p>
-            <div className="social-stats">♥ 376 &nbsp; 💬 41 &nbsp; 🔖 133</div>
-          </article>
+
+        <div className="planet-recipe-carousel" ref={featuredRef} tabIndex={0}>
+          {filtered.map((recipe) => (
+            <Link className="planet-recipe-card" key={recipe.id} href={`/recipes/${recipe.id}`}>
+              <div className="planet-recipe-image">
+                <Image src={recipe.image} alt={recipe.title} fill sizes="(max-width: 700px) 78vw, 270px" />
+                <span className="planet-official-badge">✓ Recette de l’application</span>
+              </div>
+              <div className="planet-recipe-body">
+                <span>{recipe.flag} {recipe.region || recipe.country}</span>
+                <h3>{recipe.title}</h3>
+                <small>{recipe.category} · {recipe.time} · {recipe.difficulty}</small>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
 
-      <section className="content-section">
-        <div className="section-heading">
-          <div>
-            <span className="eyebrow">Pensé pour le quotidien</span>
-            <h2>{text.tools}</h2>
+      <section className="planet-community" id="community">
+        <div className="community-banner-copy">
+          <span className="planet-eyebrow">Communauté mondiale</span>
+          <h2>{text.community}</h2>
+          <p>
+            Les recettes officielles restent séparées. Ici, les membres publient leurs propres recettes,
+            ajoutent leurs photos, suivent d’autres cuisiniers, donnent une note et discutent dans les commentaires.
+          </p>
+          <div className="community-banner-actions">
+            <Link href="/community" className="primary-button">Découvrir la communauté</Link>
+            <Link href="/publish" className="secondary-button">+ Publier ma recette</Link>
+          </div>
+          <div className="community-live-stats">
+            <span><strong>{stats.communityRecipes}</strong> recettes utilisateurs</span>
+            <span><strong>{stats.editorialRecipes}</strong> recettes officielles</span>
           </div>
         </div>
-        <div className="feature-grid">
-          <article><span>🌐</span><h3>Traduction automatique</h3><p>Recettes, profils et commentaires dans votre langue, avec accès au texte original.</p></article>
-          <article><span>🤖</span><h3>Chef IA</h3><p>Substitutions, dépannage en cuisine, planification de repas et aide mains libres.</p></article>
-          <article><span>⚖️</span><h3>Conversion intelligente</h3><p>Grammes, millilitres, onces, livres, tasses et portions selon vos préférences.</p></article>
-          <article><span>🛒</span><h3>Liste de courses</h3><p>Ajoutez les ingrédients d’une recette et regroupez automatiquement les quantités.</p></article>
+
+        <div className="community-preview-grid">
+          {communityRecipes.length ? (
+            communityRecipes.slice(0, 4).map((recipe) => (
+              <Link href={`/recipes/${recipe.id}`} className="community-preview-card" key={recipe.id}>
+                <div className="community-preview-media">
+                  {recipe.image ? <Image src={recipe.image} alt={recipe.title} fill sizes="320px" /> : <span>🍳</span>}
+                </div>
+                <div>
+                  <small>Par {recipe.author}{recipe.authorCountry ? ` · ${recipe.authorCountry}` : ""}</small>
+                  <h3>{recipe.title}</h3>
+                  <p>♥ {recipe.likes} · 💬 {recipe.comments} · ★ {recipe.rating ? recipe.rating.toFixed(1) : "—"}</p>
+                </div>
+              </Link>
+            ))
+          ) : (
+            <>
+              <article className="community-feature-card"><span>📸</span><h3>Photos de vos plats</h3><p>Publiez vos créations dans un espace distinct des recettes officielles.</p></article>
+              <article className="community-feature-card"><span>⭐</span><h3>Notes & avis</h3><p>Évaluez une recette et partagez ce que vous avez changé ou amélioré.</p></article>
+              <article className="community-feature-card"><span>💬</span><h3>Commentaires</h3><p>Posez des questions et échangez directement entre cuisiniers.</p></article>
+              <article className="community-feature-card"><span>👥</span><h3>Abonnements</h3><p>Suivez les membres dont vous aimez la cuisine et retrouvez leurs nouveautés.</p></article>
+            </>
+          )}
         </div>
       </section>
+
+      <section className="planet-section country-discovery">
+        <div className="planet-section-heading">
+          <div><span className="planet-eyebrow">Voyager par les saveurs</span><h2>Pays à découvrir</h2></div>
+          <Link href="/explore">Explorer la planète →</Link>
+        </div>
+        <div className="planet-country-grid">
+          {countries.map((country) => (
+            <Link href="/explore" className="planet-country-card" key={country.name}>
+              <span>{country.flag}</span>
+              <strong>{country.name}</strong>
+              <small>{country.dishes}</small>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <footer className="planet-footer">
+        <div><strong>Des recettes d’aujourd’hui et de toujours…</strong></div>
+        <div className="planet-footer-links">
+          <Link href="/explore">◎ Découvrir</Link>
+          <Link href="/publish">♨ Cuisiner</Link>
+          <Link href="/community">♧ Partager</Link>
+          <Link href="/profile">♡ Mon espace</Link>
+        </div>
+        <span>Bon appétit, le monde ! ♡</span>
+      </footer>
+
+      <nav className="planet-mobile-nav" aria-label="Navigation mobile">
+        <Link href="/"><span>⌂</span>Accueil</Link>
+        <Link href="/explore"><span>◎</span>Explorer</Link>
+        <Link href="/profile"><span>▢</span>Mes recettes</Link>
+        <Link href="/community"><span>♡</span>Communauté</Link>
+        <Link href="/onboarding"><span>•••</span>Plus</Link>
+      </nav>
     </main>
   );
 }

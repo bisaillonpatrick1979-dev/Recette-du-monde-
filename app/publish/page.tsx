@@ -48,17 +48,17 @@ export default async function PublishPage({ searchParams }: Props) {
         <div className="account-topbar">
           <Link href="/" className="logo-lockup">
             <span className="logo-globe">🌍</span>
-            <span><strong>Cuisine du monde</strong><small>Nouvelle recette</small></span>
+            <span><strong>Recette de la planète</strong><small>Nouvelle recette</small></span>
           </Link>
           <Link href="/profile" className="ghost-button">Mon profil</Link>
         </div>
 
         <form action={createRecipe} className="publish-card">
           <div className="onboarding-heading">
-            <span className="step-pill">Partager une recette</span>
-            <h1>Votre recette, votre histoire</h1>
+            <span className="step-pill">Recette utilisateur · Partager une recette</span>
+            <h1>Votre recette dans la communauté</h1>
             <p>
-              Ajoutez la recette originale et choisissez le lieu d’origine le plus précis connu.
+              Cette recette sera publiée dans l’espace Communauté, séparément des recettes officielles de l’application. Ajoutez votre recette et choisissez le lieu d’origine le plus précis connu.
               Une recette de Bukavu restera aussi découvrable dans Sud-Kivu et en RDC.
             </p>
           </div>

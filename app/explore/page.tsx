@@ -45,7 +45,7 @@ export default async function ExplorePage() {
   const recipesResult = recipeIds.length
     ? await supabase
         .from("recipes")
-        .select("id, title, description, category, recipe_images(id, storage_path, external_url, is_primary, status)")
+        .select("id, title, description, category, recipe_images!recipe_images_recipe_id_fkey(id, storage_path, external_url, is_primary, status)")
         .in("id", recipeIds)
     : { data: [], error: null };
 

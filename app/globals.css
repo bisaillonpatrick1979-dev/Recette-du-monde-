@@ -1185,3 +1185,18 @@ button { cursor: pointer; }
   width: 100%;
   min-height: 48px;
 }
+
+
+.verified-recipe {
+  margin-top: 8px;
+  color: var(--forest);
+  font-size: 12px;
+  font-weight: 800;
+}
+.recipe-card {
+  text-decoration: none;
+  color: inherit;
+}
+.recipe-card:hover h3 {
+  color: var(--terracotta);
+}

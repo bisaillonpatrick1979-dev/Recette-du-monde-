@@ -70,8 +70,15 @@ export function OpenRecipeImage({
           decoding="async"
         />
       ) : (
-        <div className="open-recipe-image-placeholder" aria-hidden="true">
-          {state === "loading" ? <span className="photo-shimmer" /> : <span>🍽️</span>}
+        <div className="open-recipe-image-placeholder">
+          {state === "loading" ? (
+            <span className="photo-shimmer" aria-hidden="true" />
+          ) : (
+            <span className="recipe-photo-pending">
+              <span aria-hidden="true">🍽️</span>
+              <small>Photo exacte à ajouter</small>
+            </span>
+          )}
         </div>
       )}
 

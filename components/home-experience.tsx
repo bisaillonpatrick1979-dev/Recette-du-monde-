@@ -15,6 +15,8 @@ import {
   UserPreferences,
 } from "@/lib/preferences";
 import { OpenCountryCard } from "@/components/open-place-image";
+import { ContinentRecipesModal } from "@/components/continent-recipes-modal";
+import type { ContinentKey } from "@/lib/continents";
 
 type Props = {
   recipes: HomeRecipe[];
@@ -44,12 +46,12 @@ const CONTINENT_PHOTOS = {
     licenseUrl: "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
   },
   europe: {
-    url: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Colosseum_in_Rome-April_2007-1-_copie_2B.jpg",
-    alt: "Colisée de Rome au crépuscule",
-    author: "Diliff",
-    license: "CC BY-SA 2.5",
-    source: "https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome-April_2007-1-_copie_2B.jpg",
-    licenseUrl: "https://creativecommons.org/licenses/by-sa/2.5/",
+    url: "https://upload.wikimedia.org/wikipedia/commons/1/10/Eiffel_tower_paris.jpg",
+    alt: "Tour Eiffel à Paris",
+    author: "John Salatas",
+    license: "CC BY-SA 4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Eiffel_tower_paris.jpg",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
   },
   asia: {
     url: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Chureito_Pagoda_and_Mount_Fuji.jpg",
@@ -130,6 +132,7 @@ export function HomeExperience({
 }: Props) {
   const [preferences, setPreferences] = useState<UserPreferences>(defaultPreferences);
   const [query, setQuery] = useState("");
+  const [activeContinent, setActiveContinent] = useState<{ key: ContinentKey; label: string } | null>(null);
   const featuredRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -239,7 +242,17 @@ export function HomeExperience({
             const photo = CONTINENT_PHOTOS[continent.key];
             return (
               <article className={`continent-card continent-${continent.key}`} key={continent.key}>
-                <Link href="/explore" className="continent-card-main">
+                <button
+                  type="button"
+                  className="continent-card-main"
+                  onClick={() =>
+                    setActiveContinent({
+                      key: continent.key as ContinentKey,
+                      label: continent.label,
+                    })
+                  }
+                  aria-label={`Voir les recettes de ${continent.label}`}
+                >
                   <div className="continent-art">
                     <Image
                       src={photo.url}
@@ -251,8 +264,9 @@ export function HomeExperience({
                   <div className="continent-card-body">
                     <strong>{continent.label}</strong>
                     <span>{continent.recipes.toLocaleString("fr-CA")} recettes</span>
+                    <small>Voir les recettes →</small>
                   </div>
-                </Link>
+                </button>
                 <div className="continent-photo-credit">
                   <a href={photo.source} target="_blank" rel="noreferrer">{photo.author}</a>
                   <span> · </span>
@@ -395,6 +409,14 @@ export function HomeExperience({
         <Link href="/community"><span>♡</span>Communauté</Link>
         <Link href="/onboarding"><span>•••</span>Plus</Link>
       </nav>
+
+      {activeContinent ? (
+        <ContinentRecipesModal
+          continentKey={activeContinent.key}
+          continentLabel={activeContinent.label}
+          onClose={() => setActiveContinent(null)}
+        />
+      ) : null}
     </main>
   );
 }

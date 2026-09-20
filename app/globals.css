@@ -1126,3 +1126,31 @@ button { cursor: pointer; }
     height: 150px;
   }
 }
+
+
+.editorial-provenance {
+  margin: 14px 0 20px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--gold);
+  border-radius: 0 12px 12px 0;
+  background: #fff8e8;
+}
+.editorial-provenance > span {
+  display: block;
+  color: var(--forest);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.editorial-provenance p {
+  margin: 7px 0;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  font-size: 13px;
+}
+.editorial-provenance a {
+  color: var(--terracotta);
+  font-size: 12px;
+  font-weight: 800;
+}

@@ -17,6 +17,7 @@ import {
 import { OpenCountryCard } from "@/components/open-place-image";
 import { ContinentRecipesModal } from "@/components/continent-recipes-modal";
 import { CountryRecipesModal } from "@/components/country-recipes-modal";
+import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import type { ContinentKey } from "@/lib/continents";
 
 type Props = {
@@ -153,7 +154,14 @@ export function HomeExperience({
     const normalized = query.trim().toLowerCase();
     if (!normalized) return recipes;
     return recipes.filter((recipe) =>
-      [recipe.title, recipe.country, recipe.region ?? "", recipe.category].some((value) =>
+      [
+        recipe.title,
+        recipe.originalTitle,
+        ...recipe.titleTranslations.map((item) => item.title),
+        recipe.country,
+        recipe.region ?? "",
+        recipe.category,
+      ].some((value) =>
         value.toLowerCase().includes(normalized),
       ),
     );
@@ -324,7 +332,12 @@ export function HomeExperience({
               </div>
               <div className="planet-recipe-body">
                 <span>{recipe.flag} {recipe.region || recipe.country}</span>
-                <h3>{recipe.title}</h3>
+                <h3>
+                  <LocalizedRecipeTitle
+                    originalTitle={recipe.originalTitle}
+                    translations={recipe.titleTranslations}
+                  />
+                </h3>
                 <small>{recipe.category} · {recipe.time} · {recipe.difficulty}</small>
               </div>
             </Link>

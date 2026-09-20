@@ -4,10 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { ContinentKey } from "@/lib/continents";
+import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
+import { OpenRecipeImage } from "@/components/open-recipe-image";
 
 type PreviewRecipe = {
   id: string;
   title: string;
+  originalTitle: string;
+  titleTranslations: Array<{ language_code: string; title: string }>;
   country: string;
   countryCode: string | null;
   region: string | null;
@@ -166,12 +170,22 @@ export function ContinentRecipesModal({
                           sizes="(max-width: 700px) 80vw, 260px"
                         />
                       ) : (
-                        <span>🍲</span>
+                        <OpenRecipeImage
+                          title={recipe.originalTitle}
+                          countryCode={recipe.countryCode}
+                          className="modal-reference-image"
+                          showCredit={false}
+                        />
                       )}
                     </div>
                     <div className="continent-modal-recipe-body">
                       <small>{flagFor(recipe.countryCode)} {recipe.country}</small>
-                      <h3>{recipe.title}</h3>
+                      <h3>
+                        <LocalizedRecipeTitle
+                          originalTitle={recipe.originalTitle}
+                          translations={recipe.titleTranslations}
+                        />
+                      </h3>
                       <p>
                         {recipe.category}
                         {recipe.minutes ? " · " + recipe.minutes + " min" : ""}

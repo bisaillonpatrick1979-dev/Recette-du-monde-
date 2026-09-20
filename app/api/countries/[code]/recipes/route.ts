@@ -39,7 +39,7 @@ export async function GET(
       supabase
         .from("recipes")
         .select(
-          "id,title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
+          "id,title,original_title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
         )
         .eq("status", "published")
         .eq("is_editorial", true)
@@ -140,6 +140,8 @@ export async function GET(
       return {
         id: recipe.id,
         title: recipe.title,
+        originalTitle: recipe.original_title || recipe.title,
+        titleTranslations: recipe.recipe_title_translations ?? [],
         region: recipe.region,
         category: recipe.category || "Recette",
         difficulty: recipe.difficulty,

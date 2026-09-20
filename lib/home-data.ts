@@ -1,6 +1,8 @@
 export type HomeRecipe = {
   id: string;
   title: string;
+  originalTitle: string;
+  titleTranslations: Array<{ language_code: string; title: string }>;
   country: string;
   region: string | null;
   flag: string;

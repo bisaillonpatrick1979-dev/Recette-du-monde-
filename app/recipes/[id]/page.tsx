@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { RecipePhotoUploader } from "@/components/recipe-photo-uploader";
 import { RecipeSocialPanel } from "@/components/recipe-social-panel";
 import { RecipeServingScaler } from "@/components/recipe-serving-scaler";
+import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
+import { OpenRecipeImage } from "@/components/open-recipe-image";
 import { mediaSourceLabel, resolveMediaUrl } from "@/lib/media";
 import { createClient } from "@/lib/supabase/server";
 
@@ -16,7 +18,7 @@ export default async function RecipePage({ params }: Props) {
   const [{ data: recipe }, { data: claimsData }] = await Promise.all([
     supabase
       .from("recipes")
-      .select("*, recipe_ingredients(*), recipe_steps(*), recipe_images!recipe_images_recipe_id_fkey(*)")
+      .select("*, recipe_ingredients(*), recipe_steps(*), recipe_title_translations(language_code,title), recipe_images!recipe_images_recipe_id_fkey(*)")
       .eq("id", id)
       .maybeSingle(),
     supabase.auth.getClaims(),
@@ -131,15 +133,22 @@ export default async function RecipePage({ params }: Props) {
               </figcaption>
             </figure>
           ) : (
-            <div className="recipe-media-placeholder">
-              <span>🍽️</span>
-              <strong>Photo du plat à venir</strong>
-              <small>Les photos réelles, licenciées ou générées apparaîtront ici.</small>
-            </div>
+            <OpenRecipeImage
+              title={recipe.original_title || recipe.title}
+              countryCode={recipe.country_code}
+              className="recipe-hero-media recipe-reference-media"
+              alt={`Photo de référence pour ${recipe.title}`}
+              showCredit
+            />
           )}
 
           <span className="eyebrow">{recipe.country_code || "Cuisine du monde"} · {recipe.category || "Recette"}</span>
-          <h1>{recipe.title}</h1>
+          <h1>
+            <LocalizedRecipeTitle
+              originalTitle={recipe.original_title || recipe.title}
+              translations={recipe.recipe_title_translations ?? []}
+            />
+          </h1>
           {recipe.is_editorial ? (
             <div className="editorial-provenance">
               <span>Recette officielle · Recette de la planète</span>

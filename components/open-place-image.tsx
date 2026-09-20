@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export type OpenPlaceImageData = {
@@ -103,17 +102,24 @@ export function OpenCountryCard({
   countryCode,
   flag,
   dishes,
+  onSelect,
 }: {
   name: string;
   countryCode: string;
   flag: string;
   dishes: string;
+  onSelect: () => void;
 }) {
   const { image, state } = useOpenPlaceImage(name, countryCode);
 
   return (
     <article className="planet-country-card">
-      <Link href="/explore" className="planet-country-card-link">
+      <button
+        type="button"
+        className="planet-country-card-link"
+        onClick={onSelect}
+        aria-label={`Voir les recettes de ${name}`}
+      >
         <div className="planet-country-photo">
           {image ? (
             <img
@@ -133,9 +139,10 @@ export function OpenCountryCard({
           <div>
             <strong>{name}</strong>
             <small>{dishes}</small>
+            <em>Voir les recettes →</em>
           </div>
         </div>
-      </Link>
+      </button>
 
       {image ? (
         <div className="planet-country-credit">

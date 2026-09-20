@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { RecipePhotoUploader } from "@/components/recipe-photo-uploader";
 import { RecipeSocialPanel } from "@/components/recipe-social-panel";
+import { RecipeServingScaler } from "@/components/recipe-serving-scaler";
 import { mediaSourceLabel, resolveMediaUrl } from "@/lib/media";
 import { createClient } from "@/lib/supabase/server";
 
@@ -196,17 +197,16 @@ export default async function RecipePage({ params }: Props) {
           ) : null}
 
           <div className="recipe-columns">
-            <section>
-              <h2>Ingrédients</h2>
-              <ul className="ingredient-list">
-                {ingredients.map((item) => (
-                  <li key={item.id}>
-                    <strong>{item.quantity ?? ""} {item.unit ?? ""}</strong> {item.name}
-                    {item.note ? <small>{item.note}</small> : null}
-                  </li>
-                ))}
-              </ul>
-            </section>
+            <RecipeServingScaler
+              baseServings={recipe.servings}
+              ingredients={ingredients.map((item) => ({
+                id: item.id,
+                name: item.name,
+                quantity: item.quantity,
+                unit: item.unit,
+                note: item.note,
+              }))}
+            />
             <section>
               <h2>Préparation</h2>
               <ol className="step-list">

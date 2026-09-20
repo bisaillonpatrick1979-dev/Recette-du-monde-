@@ -6,8 +6,8 @@
 - 130 pays représentés
 - 801 titres localisés FR / EN / ES
 - 120 traductions complètes EN / ES
-- 158 recettes avec photo persistée prête
-- 109 recettes encore sans photo persistée
+- 163 recettes avec photo persistée prête
+- 104 recettes encore sans photo persistée
 
 ## 10 nouveaux pays
 
@@ -87,7 +87,7 @@ Les 20 nouvelles recettes ont chacune une photo Wikimedia Commons persistée dan
 
 ## Backfill photo effectué dans le même passage
 
-26 anciennes recettes supplémentaires ont reçu une photo exacte ou représentative du plat avec licence claire, notamment :
+31 anciennes recettes supplémentaires ont reçu une photo exacte ou représentative du plat avec licence claire, notamment :
 - kung pao chicken;
 - sauerbraten de bœuf;
 - tortilla española;
@@ -113,7 +113,12 @@ Les 20 nouvelles recettes ont chacune une photo Wikimedia Commons persistée dan
 - pozole rojo;
 - malva pudding;
 - carbonnade flamande;
-- empanadas de pino.
+- empanadas de pino;
+- harira marocaine;
+- mantu afghans;
+- kaiserschmarrn autrichien;
+- poulet yassa sénégalais;
+- menemen turc.
 
 ## Règle photo
 

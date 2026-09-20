@@ -14,7 +14,7 @@ export default async function RecipePage({ params }: Props) {
   const [{ data: recipe }, { data: claimsData }] = await Promise.all([
     supabase
       .from("recipes")
-      .select("*, recipe_ingredients(*), recipe_steps(*), recipe_images(*)")
+      .select("*, recipe_ingredients(*), recipe_steps(*), recipe_images!recipe_images_recipe_id_fkey(*)")
       .eq("id", id)
       .maybeSingle(),
     supabase.auth.getClaims(),

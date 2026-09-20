@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { login, signup } from "@/app/auth/actions";
+import { login, resendConfirmation, signup } from "@/app/auth/actions";
 import {
   defaultPreferences,
   PREFERENCES_STORAGE_KEY,
@@ -61,6 +61,22 @@ export function AuthForm({ error, message }: Props) {
           <button className="primary-button" formAction={login}>Connexion</button>
           <button className="secondary-button" formAction={signup}>Créer mon compte</button>
         </div>
+      </form>
+
+      <form action={resendConfirmation} className="auth-resend">
+        <div>
+          <strong>Compte créé mais pas confirmé?</strong>
+          <small>Entrez votre courriel et nous renverrons le lien.</small>
+        </div>
+        <input
+          name="resend_email"
+          type="email"
+          autoComplete="email"
+          required
+          placeholder="votre courriel"
+          aria-label="Courriel du compte à confirmer"
+        />
+        <button className="ghost-button" type="submit">Renvoyer la confirmation</button>
       </form>
     </div>
   );

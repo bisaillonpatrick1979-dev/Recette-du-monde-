@@ -35,6 +35,45 @@ const USER_AGENT =
 const REJECT_TITLE =
   /\b(flag|map|locator|coat[ _-]?of[ _-]?arms|emblem|seal|logo|passport|currency|banknote|stamp|diagram|icon|blank|outline)\b/i;
 
+const RECIPE_MATCH_STOPWORDS = new Set([
+  "classic","traditional","style","with","and","the","from","food","dish","recipe",
+  "chicken","beef","pork","fish","soup","rice","salad","bread","stew","meat",
+  "poulet","boeuf","porc","poisson","soupe","riz","salade","pain","ragout",
+  "de","du","des","la","le","les","au","aux","avec","et","en",
+  "con","y","del","los","las","una","uno",
+]);
+
+function normalizedRecipeText(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function recipeMatchTokens(value: string) {
+  return normalizedRecipeText(value)
+    .split(" ")
+    .filter((token) => token.length >= 4 && !RECIPE_MATCH_STOPWORDS.has(token));
+}
+
+function recipeImageMatchesTitle(image: WikimediaPlaceImage, recipeTitle: string) {
+  const imageText = normalizedRecipeText(image.title);
+  const titleText = normalizedRecipeText(recipeTitle);
+
+  if (titleText && imageText.includes(titleText)) return true;
+
+  const tokens = recipeMatchTokens(recipeTitle);
+  if (!tokens.length) return false;
+
+  const matches = tokens.filter((token) => imageText.includes(token));
+  const minimumMatches = Math.max(1, Math.ceil(tokens.length * 0.5));
+
+  return matches.length >= minimumMatches;
+}
+
 function decodeEntities(value: string) {
   return value
     .replace(/&nbsp;/gi, " ")
@@ -278,7 +317,8 @@ export async function findWikimediaRecipeImage({
 
   for (const search of searches) {
     const results = await searchCommons(search);
-    if (results.length) return results[0];
+    const matching = results.find((image) => recipeImageMatchesTitle(image, cleanTitle));
+    if (matching) return matching;
   }
 
   return null;

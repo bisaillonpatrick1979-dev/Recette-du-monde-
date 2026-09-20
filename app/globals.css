@@ -3219,3 +3219,20 @@ button.planet-country-card-link {
     height: 300px;
   }
 }
+
+
+.recipe-photo-pending {
+  display: grid;
+  place-items: center;
+  gap: 8px;
+  padding: 18px;
+  text-align: center;
+  color: #5f6b65;
+}
+.recipe-photo-pending > span {
+  font-size: 42px;
+}
+.recipe-photo-pending > small {
+  font-size: 12px;
+  font-weight: 700;
+}

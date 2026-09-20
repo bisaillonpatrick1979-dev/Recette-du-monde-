@@ -152,9 +152,19 @@ export default async function HomePage() {
     }];
   });
 
-  const countryMap = new Map<string, { flag: string; titles: string[] }>();
+  const countryMap = new Map<string, { flag: string; countryCode: string; titles: string[] }>();
   for (const recipe of recipes) {
-    const current = countryMap.get(recipe.country) ?? { flag: recipe.flag, titles: [] };
+    const matchingCode =
+      (countryCodesResult.data ?? []).find((row) => {
+        const code = row.country_code?.toUpperCase();
+        return code && displayNames.of(code) === recipe.country;
+      })?.country_code?.toUpperCase() ?? "";
+
+    const current = countryMap.get(recipe.country) ?? {
+      flag: recipe.flag,
+      countryCode: matchingCode,
+      titles: [],
+    };
     if (!current.titles.includes(recipe.title)) current.titles.push(recipe.title);
     countryMap.set(recipe.country, current);
   }
@@ -164,6 +174,7 @@ export default async function HomePage() {
     .map(([name, value]) => ({
       flag: value.flag,
       name,
+      countryCode: value.countryCode,
       dishes: value.titles.slice(0, 3).join(", "),
     }));
 

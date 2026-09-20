@@ -12,6 +12,7 @@ import {
   type CulinaryPlace,
 } from "@/lib/culinary-places";
 import { mediaSourceLabel } from "@/lib/media";
+import { OpenPlaceImage } from "@/components/open-place-image";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/liberty";
 
@@ -567,7 +568,15 @@ export function CulinaryGlobe({
                   ) : null}
                 </figcaption>
               </figure>
-            ) : null}
+            ) : (
+              <OpenPlaceImage
+                name={selected.name}
+                countryCode={selected.countryCode}
+                className="atlas-place-media atlas-open-place-media"
+                alt={`Photo représentative de ${selected.name}`}
+                showCredit
+              />
+            )}
 
             <div className="place-level">{levelLabels[selected.placeType]}</div>
             <h2>{selected.name}</h2>

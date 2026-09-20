@@ -6,8 +6,8 @@
 - 130 pays représentés
 - 801 titres localisés FR / EN / ES
 - 120 traductions complètes EN / ES
-- 171 recettes avec photo persistée prête
-- 96 recettes encore sans photo persistée
+- 175 recettes avec photo persistée prête
+- 92 recettes encore sans photo persistée
 
 ## 10 nouveaux pays
 
@@ -87,7 +87,7 @@ Les 20 nouvelles recettes ont chacune une photo Wikimedia Commons persistée dan
 
 ## Backfill photo effectué dans le même passage
 
-39 anciennes recettes supplémentaires ont reçu une photo exacte ou représentative du plat avec licence claire, notamment :
+43 anciennes recettes supplémentaires ont reçu une photo exacte ou représentative du plat avec licence claire, notamment :
 - kung pao chicken;
 - sauerbraten de bœuf;
 - tortilla española;
@@ -126,7 +126,11 @@ Les 20 nouvelles recettes ont chacune une photo Wikimedia Commons persistée dan
 - chili con carne style Texas;
 - banitsa bulgare;
 - ful medames égyptien;
-- lohikeitto finlandaise.
+- lohikeitto finlandaise;
+- chorba frik algérienne;
+- frikadeller danoises;
+- kulajda tchèque;
+- saleeg saoudien.
 
 ## Règle photo
 

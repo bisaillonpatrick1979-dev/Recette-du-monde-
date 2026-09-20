@@ -275,9 +275,18 @@ export function CulinaryGlobe({ places, recipes, dataError = null }: Props) {
             return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
           });
 
-          let picked = ranked[0];
+          let pickedName: string | null = null;
+          let pickedClass = "place";
+          let pickedCoordinates: [number, number] | null = null;
 
-          if (!picked) {
+          const renderedPick = ranked[0];
+          if (renderedPick && renderedPick.geometry.type === "Point") {
+            pickedName = featureName(renderedPick.properties);
+            pickedClass = String(renderedPick.properties?.class ?? "place");
+            pickedCoordinates = renderedPick.geometry.coordinates as [number, number];
+          }
+
+          if (!pickedName || !pickedCoordinates) {
             const sourceFeatures = map
               .querySourceFeatures("openmaptiles", { sourceLayer: "place" })
               .filter(
@@ -288,6 +297,10 @@ export function CulinaryGlobe({ places, recipes, dataError = null }: Props) {
               );
 
             let bestDistance = Number.POSITIVE_INFINITY;
+            let nearestName: string | null = null;
+            let nearestClass = "place";
+            let nearestCoordinates: [number, number] | null = null;
+
             for (const feature of sourceFeatures) {
               if (feature.geometry.type !== "Point") continue;
               const coords = feature.geometry.coordinates as [number, number];
@@ -296,16 +309,19 @@ export function CulinaryGlobe({ places, recipes, dataError = null }: Props) {
               const distance = dx * dx + dy * dy;
               if (distance < bestDistance) {
                 bestDistance = distance;
-                picked = feature;
+                nearestName = featureName(feature.properties);
+                nearestClass = String(feature.properties?.class ?? "place");
+                nearestCoordinates = coords;
               }
             }
+
+            pickedName = nearestName;
+            pickedClass = nearestClass;
+            pickedCoordinates = nearestCoordinates;
           }
 
-          const name = featureName(picked?.properties);
-          if (picked && name && picked.geometry.type === "Point") {
-            const coordinates = picked.geometry.coordinates as [number, number];
-            const placeClass = String(picked.properties?.class ?? "place");
-            useMapFeature(name, placeClass, coordinates[0], coordinates[1]);
+          if (pickedName && pickedCoordinates) {
+            useMapFeature(pickedName, pickedClass, pickedCoordinates[0], pickedCoordinates[1]);
             return;
           }
 

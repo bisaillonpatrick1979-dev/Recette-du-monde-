@@ -232,3 +232,37 @@ export async function findWikimediaPlaceImage({
 
   return null;
 }
+
+
+function compactRecipeSearchTitle(title: string) {
+  return title
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/\b(classique|traditionnel(?:le)?|style)\b/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export async function findWikimediaRecipeImage({
+  title,
+  countryCode,
+}: {
+  title: string;
+  countryCode?: string | null;
+}) {
+  const cleanTitle = compactRecipeSearchTitle(title);
+  const englishCountry = englishCountryName(countryCode);
+
+  const searches = [
+    `${cleanTitle} food`,
+    `${cleanTitle} dish`,
+    englishCountry ? `${cleanTitle} ${englishCountry} cuisine` : cleanTitle,
+    title,
+  ];
+
+  for (const search of searches) {
+    const results = await searchCommons(search);
+    if (results.length) return results[0];
+  }
+
+  return null;
+}

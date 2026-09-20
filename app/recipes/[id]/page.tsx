@@ -85,7 +85,21 @@ export default async function RecipePage({ params }: Props) {
 
           <span className="eyebrow">{recipe.country_code || "Cuisine du monde"} · {recipe.category || "Recette"}</span>
           <h1>{recipe.title}</h1>
-          <p className="recipe-author">Par {author?.display_name || author?.username || "un membre"}</p>
+          {recipe.is_editorial ? (
+            <div className="editorial-provenance">
+              <span>Recette éditoriale · Cuisine du monde</span>
+              <p>
+                Version adaptée rédigée pour l’application à partir de caractéristiques culinaires documentées.
+              </p>
+              {recipe.source_url ? (
+                <a href={recipe.source_url} target="_blank" rel="noreferrer">
+                  Source de référence : {recipe.source_name || "voir la source"} ↗
+                </a>
+              ) : null}
+            </div>
+          ) : (
+            <p className="recipe-author">Par {author?.display_name || author?.username || "un membre"}</p>
+          )}
           {recipe.description ? <p className="recipe-lead">{recipe.description}</p> : null}
 
           <div className="recipe-detail-meta">
@@ -118,7 +132,7 @@ export default async function RecipePage({ params }: Props) {
             </section>
           ) : null}
 
-          {isOwner && userId ? (
+          {isOwner && userId && !recipe.is_editorial ? (
             <RecipePhotoUploader
               recipeId={recipe.id}
               userId={userId}

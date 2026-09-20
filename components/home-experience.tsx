@@ -14,6 +14,7 @@ import {
   PREFERENCES_STORAGE_KEY,
   UserPreferences,
 } from "@/lib/preferences";
+import { OpenCountryCard } from "@/components/open-place-image";
 
 type Props = {
   recipes: HomeRecipe[];
@@ -24,6 +25,65 @@ type Props = {
 
 const EARTH_IMAGE =
   "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg";
+
+const CONTINENT_PHOTOS = {
+  "north-america": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/2/28/Moraine_lake_banff.jpg",
+    alt: "Lac Moraine et Rocheuses canadiennes",
+    author: "PDPhoto.org",
+    license: "Domaine public",
+    source: "https://commons.wikimedia.org/wiki/File:Moraine_lake_banff.jpg",
+    licenseUrl: "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+  },
+  "latin-america": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Machu.jpg",
+    alt: "Machu Picchu au Pérou",
+    author: "Diespas",
+    license: "Domaine public",
+    source: "https://commons.wikimedia.org/wiki/File:Machu.jpg",
+    licenseUrl: "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+  },
+  europe: {
+    url: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Colosseum_in_Rome-April_2007-1-_copie_2B.jpg",
+    alt: "Colisée de Rome au crépuscule",
+    author: "Diliff",
+    license: "CC BY-SA 2.5",
+    source: "https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome-April_2007-1-_copie_2B.jpg",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/2.5/",
+  },
+  asia: {
+    url: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Chureito_Pagoda_and_Mount_Fuji.jpg",
+    alt: "Pagode Chureito, mont Fuji et cerisiers au Japon",
+    author: "Manishprabhune",
+    license: "CC BY-SA 4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Chureito_Pagoda_and_Mount_Fuji.jpg",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+  },
+  africa: {
+    url: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Amboseli_National_Park_and_Mt._Kilimanjaro.jpg",
+    alt: "Éléphants à Amboseli devant le Kilimandjaro",
+    author: "Ninaras",
+    license: "CC BY 4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Amboseli_National_Park_and_Mt._Kilimanjaro.jpg",
+    licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
+  },
+  "middle-east": {
+    url: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Petra%2C_Jordan.jpg",
+    alt: "Pétra en Jordanie",
+    author: "Vyacheslav Argenberg",
+    license: "CC BY 4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Petra,_Jordan.jpg",
+    licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
+  },
+  oceania: {
+    url: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Sydney_Opera_House_and_Sydney_Harbour_Bridge.jpg",
+    alt: "Opéra de Sydney et Harbour Bridge en Australie",
+    author: "Charles J. Sharp",
+    license: "CC BY-SA 4.0",
+    source: "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_and_Sydney_Harbour_Bridge.jpg",
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/",
+  },
+} as const;
 
 const categoryCards = [
   { icon: "🍢", label: "Entrées" },
@@ -175,15 +235,32 @@ export function HomeExperience({
           <Link href="/explore">⌘ Voir la carte du monde →</Link>
         </div>
         <div className="continent-strip">
-          {stats.continents.map((continent) => (
-            <Link href="/explore" className={`continent-card continent-${continent.key}`} key={continent.key}>
-              <div className="continent-art"><span>{continent.icon}</span></div>
-              <div className="continent-card-body">
-                <strong>{continent.label}</strong>
-                <span>{continent.recipes.toLocaleString("fr-CA")} recettes</span>
-              </div>
-            </Link>
-          ))}
+          {stats.continents.map((continent) => {
+            const photo = CONTINENT_PHOTOS[continent.key];
+            return (
+              <article className={`continent-card continent-${continent.key}`} key={continent.key}>
+                <Link href="/explore" className="continent-card-main">
+                  <div className="continent-art">
+                    <Image
+                      src={photo.url}
+                      alt={photo.alt}
+                      fill
+                      sizes="190px"
+                    />
+                  </div>
+                  <div className="continent-card-body">
+                    <strong>{continent.label}</strong>
+                    <span>{continent.recipes.toLocaleString("fr-CA")} recettes</span>
+                  </div>
+                </Link>
+                <div className="continent-photo-credit">
+                  <a href={photo.source} target="_blank" rel="noreferrer">{photo.author}</a>
+                  <span> · </span>
+                  <a href={photo.licenseUrl} target="_blank" rel="noreferrer">{photo.license}</a>
+                </div>
+              </article>
+            );
+          })}
         </div>
       </section>
 
@@ -289,11 +366,13 @@ export function HomeExperience({
         </div>
         <div className="planet-country-grid">
           {countries.map((country) => (
-            <Link href="/explore" className="planet-country-card" key={country.name}>
-              <span>{country.flag}</span>
-              <strong>{country.name}</strong>
-              <small>{country.dishes}</small>
-            </Link>
+            <OpenCountryCard
+              key={country.name}
+              name={country.name}
+              countryCode={country.countryCode}
+              flag={country.flag}
+              dishes={country.dishes}
+            />
           ))}
         </div>
       </section>

@@ -167,7 +167,7 @@ export function LocalizedRecipeContent({
 
     return {
       description: translation.description?.trim() || baseDescription,
-      ingredients: translatedIngredients(translation.ingredients, baseIngredients),
+      ingredients: translatedIngredients(translation.ingredients, baseIngredients, language),
       steps: translatedSteps(translation.steps, baseSteps),
     };
   }, [baseDescription, baseIngredients, baseSteps, language, translations]);

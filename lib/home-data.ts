@@ -4,9 +4,10 @@ export type HomeRecipe = {
   originalTitle: string;
   titleTranslations: Array<{ language_code: string; title: string }>;
   country: string;
+  countryCode: string;
   region: string | null;
   flag: string;
-  image: string;
+  image: string | null;
   time: string;
   difficulty: "Facile" | "Moyen" | "Difficile";
   category: string;

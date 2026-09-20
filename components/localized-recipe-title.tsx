@@ -9,6 +9,7 @@ import {
 } from "@/lib/preferences";
 
 type TranslationMap = Partial<Record<LanguageCode, string>>;
+type TranslationRow = { language_code: string; title: string };
 
 export function LocalizedRecipeTitle({
   originalTitle,
@@ -16,7 +17,7 @@ export function LocalizedRecipeTitle({
   className = "",
 }: {
   originalTitle: string;
-  translations?: TranslationMap | null;
+  translations?: TranslationMap | TranslationRow[] | null;
   className?: string;
 }) {
   const [language, setLanguage] = useState<LanguageCode>(defaultPreferences.language);
@@ -33,7 +34,9 @@ export function LocalizedRecipeTitle({
   }, []);
 
   const translatedTitle = useMemo(() => {
-    const value = translations?.[language]?.trim();
+    const value = Array.isArray(translations)
+      ? translations.find((item) => item.language_code === language)?.title?.trim()
+      : translations?.[language]?.trim();
     if (!value) return null;
     if (value.localeCompare(originalTitle, undefined, { sensitivity: "accent" }) === 0) return null;
     return value;

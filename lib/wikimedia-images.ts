@@ -230,6 +230,23 @@ export async function findWikimediaPlaceImage({
     if (results.length) return results[0];
   }
 
+  // Last-resort culinary fallback: keep recipe cards visual even when
+  // Wikimedia Commons has no file indexed under the exact dish name.
+  // This remains a cuisine reference image for the recipe's country,
+  // never an AI-generated image, and still preserves Commons licensing.
+  if (englishCountry) {
+    const cuisineFallbacks = [
+      `${englishCountry} traditional food`,
+      `${englishCountry} cuisine dish`,
+      `${englishCountry} traditional cuisine`,
+    ];
+
+    for (const search of cuisineFallbacks) {
+      const results = await searchCommons(search);
+      if (results.length) return results[0];
+    }
+  }
+
   return null;
 }
 

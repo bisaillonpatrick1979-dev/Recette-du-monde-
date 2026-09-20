@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import type { LanguageCode } from "@/lib/preferences";
 
 type Ingredient = {
   id: number;
@@ -18,7 +19,7 @@ function numericQuantity(value: number | string | null) {
   return Number.isFinite(parsed) ? parsed : null;
 }
 
-function formatQuantity(value: number) {
+function formatQuantity(value: number, locale: string) {
   const rounded = Math.round(value * 100) / 100;
   const whole = Math.floor(rounded);
   const fraction = Math.round((rounded - whole) * 100) / 100;
@@ -45,20 +46,77 @@ function formatQuantity(value: number) {
     return String(Math.round(rounded));
   }
 
-  return new Intl.NumberFormat("fr-CA", {
+  return new Intl.NumberFormat(locale, {
     maximumFractionDigits: 2,
   }).format(rounded);
 }
 
+const labels = {
+  fr: {
+    eyebrow: "Quantités adaptatives",
+    ingredients: "Ingrédients",
+    servings: "Nombre de portions",
+    remove: "Retirer une portion",
+    add: "Ajouter une portion",
+    one: "personne",
+    many: "personnes",
+    quick: "Choix rapides de portions",
+    original: "Recette originale pour",
+    recalculated: "Les quantités sont recalculées automatiquement pour",
+    locale: "fr-CA",
+  },
+  en: {
+    eyebrow: "Adaptive quantities",
+    ingredients: "Ingredients",
+    servings: "Number of servings",
+    remove: "Remove one serving",
+    add: "Add one serving",
+    one: "person",
+    many: "people",
+    quick: "Quick serving choices",
+    original: "Original recipe for",
+    recalculated: "Quantities are automatically recalculated for",
+    locale: "en-CA",
+  },
+  es: {
+    eyebrow: "Cantidades adaptables",
+    ingredients: "Ingredientes",
+    servings: "Número de porciones",
+    remove: "Quitar una porción",
+    add: "Añadir una porción",
+    one: "persona",
+    many: "personas",
+    quick: "Selección rápida de porciones",
+    original: "Receta original para",
+    recalculated: "Las cantidades se recalculan automáticamente para",
+    locale: "es",
+  },
+} satisfies Record<LanguageCode, {
+  eyebrow: string;
+  ingredients: string;
+  servings: string;
+  remove: string;
+  add: string;
+  one: string;
+  many: string;
+  quick: string;
+  original: string;
+  recalculated: string;
+  locale: string;
+}>;
+
 export function RecipeServingScaler({
   baseServings,
   ingredients,
+  language = "fr",
 }: {
   baseServings: number | string | null;
   ingredients: Ingredient[];
+  language?: LanguageCode;
 }) {
   const normalizedBase = Math.max(1, Math.round(numericQuantity(baseServings) ?? 4));
   const [servings, setServings] = useState(normalizedBase);
+  const text = labels[language] ?? labels.fr;
 
   const scaledIngredients = useMemo(() => {
     const ratio = servings / normalizedBase;
@@ -66,10 +124,10 @@ export function RecipeServingScaler({
       const baseQuantity = numericQuantity(ingredient.quantity);
       return {
         ...ingredient,
-        displayQuantity: baseQuantity == null ? null : formatQuantity(baseQuantity * ratio),
+        displayQuantity: baseQuantity == null ? null : formatQuantity(baseQuantity * ratio, text.locale),
       };
     });
-  }, [ingredients, normalizedBase, servings]);
+  }, [ingredients, normalizedBase, servings, text.locale]);
 
   function updateServings(value: number) {
     setServings(Math.min(48, Math.max(1, Math.round(value))));
@@ -79,33 +137,33 @@ export function RecipeServingScaler({
     <section className="serving-scaler" aria-labelledby="serving-scaler-title">
       <div className="serving-scaler-heading">
         <div>
-          <span className="eyebrow">Quantités adaptatives</span>
-          <h2 id="serving-scaler-title">Ingrédients</h2>
+          <span className="eyebrow">{text.eyebrow}</span>
+          <h2 id="serving-scaler-title">{text.ingredients}</h2>
         </div>
 
-        <div className="serving-stepper" aria-label="Nombre de portions">
+        <div className="serving-stepper" aria-label={text.servings}>
           <button
             type="button"
             onClick={() => updateServings(servings - 1)}
-            aria-label="Retirer une portion"
+            aria-label={text.remove}
           >
             −
           </button>
           <div>
             <strong>{servings}</strong>
-            <span>{servings > 1 ? "personnes" : "personne"}</span>
+            <span>{servings > 1 ? text.many : text.one}</span>
           </div>
           <button
             type="button"
             onClick={() => updateServings(servings + 1)}
-            aria-label="Ajouter une portion"
+            aria-label={text.add}
           >
             +
           </button>
         </div>
       </div>
 
-      <div className="serving-quick-picks" aria-label="Choix rapides de portions">
+      <div className="serving-quick-picks" aria-label={text.quick}>
         {QUICK_SERVINGS.map((value) => (
           <button
             type="button"
@@ -120,8 +178,8 @@ export function RecipeServingScaler({
 
       {servings !== normalizedBase ? (
         <p className="serving-scale-note">
-          Recette originale pour {normalizedBase} {normalizedBase > 1 ? "personnes" : "personne"}.
-          Les quantités sont recalculées automatiquement pour {servings}.
+          {text.original} {normalizedBase} {normalizedBase > 1 ? text.many : text.one}.
+          {text.recalculated} {servings}.
         </p>
       ) : null}
 

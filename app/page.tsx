@@ -94,7 +94,7 @@ export default async function HomePage() {
       .eq("status", "published")
       .eq("is_editorial", true)
       .order("published_at", { ascending: false })
-      .limit(20),
+      .limit(500),
     supabase
       .from("recipes")
       .select(
@@ -131,42 +131,47 @@ export default async function HomePage() {
 
   const displayNames = new Intl.DisplayNames(["fr"], { type: "region" });
 
-  const recipes: HomeRecipe[] = (editorialResult.data ?? []).flatMap((recipe) => {
-    const images = [...(recipe.recipe_images ?? [])]
-      .filter((image) => image.status === "ready")
-      .sort((a, b) => Number(b.is_primary) - Number(a.is_primary));
-    const image = images[0] ? resolveMediaUrl(images[0], "recipe-images") : null;
-    if (!image) return [];
+  const editorialRows = editorialResult.data ?? [];
 
-    const code = recipe.country_code || "";
-    return [{
-      id: recipe.id,
-      title: recipe.title,
-      country: (code && displayNames.of(code)) || code || "Cuisine du monde",
-      region: recipe.region,
-      flag: code.length === 2 ? flagFor(code) : "🌍",
-      image,
-      time: timeLabel(recipe.prep_minutes, recipe.cook_minutes),
-      difficulty: difficultyLabel(recipe.difficulty),
-      category: recipe.category || "Recette",
-    }];
-  });
+  const recipes: HomeRecipe[] = editorialRows
+    .flatMap((recipe) => {
+      const images = [...(recipe.recipe_images ?? [])]
+        .filter((image) => image.status === "ready")
+        .sort((a, b) => Number(b.is_primary) - Number(a.is_primary));
+      const image = images[0] ? resolveMediaUrl(images[0], "recipe-images") : null;
+      if (!image) return [];
 
+      const code = recipe.country_code?.toUpperCase() || "";
+      return [{
+        id: recipe.id,
+        title: recipe.title,
+        country: (code && displayNames.of(code)) || code || "Cuisine du monde",
+        region: recipe.region,
+        flag: code.length === 2 ? flagFor(code) : "🌍",
+        image,
+        time: timeLabel(recipe.prep_minutes, recipe.cook_minutes),
+        difficulty: difficultyLabel(recipe.difficulty),
+        category: recipe.category || "Recette",
+      }];
+    })
+    .slice(0, 20);
+
+  // Country discovery must not depend on whether a recipe already has a photo.
+  // Build it from every published editorial recipe so the section never vanishes
+  // when a newly-added batch is still waiting for imagery.
   const countryMap = new Map<string, { flag: string; countryCode: string; titles: string[] }>();
-  for (const recipe of recipes) {
-    const matchingCode =
-      (countryCodesResult.data ?? []).find((row) => {
-        const code = row.country_code?.toUpperCase();
-        return code && displayNames.of(code) === recipe.country;
-      })?.country_code?.toUpperCase() ?? "";
+  for (const recipe of editorialRows) {
+    const code = recipe.country_code?.toUpperCase() || "";
+    if (code.length !== 2) continue;
 
-    const current = countryMap.get(recipe.country) ?? {
-      flag: recipe.flag,
-      countryCode: matchingCode,
+    const name = displayNames.of(code) || code;
+    const current = countryMap.get(name) ?? {
+      flag: flagFor(code),
+      countryCode: code,
       titles: [],
     };
     if (!current.titles.includes(recipe.title)) current.titles.push(recipe.title);
-    countryMap.set(recipe.country, current);
+    countryMap.set(name, current);
   }
 
   const countries: HomeCountryCard[] = [...countryMap.entries()]

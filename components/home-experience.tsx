@@ -108,6 +108,9 @@ export function HomeExperience({ recipes, countries }: Props) {
           ))}
         </nav>
         <div className="header-actions">
+          <Link className="globe-shortcut" href="/explore" aria-label="Ouvrir la planète culinaire" title="Explorer la planète">
+            🌍
+          </Link>
           <span className="language-chip">{preferences.language.toUpperCase()}</span>
           <Link className="ghost-button" href="/onboarding">
             ⚙
@@ -142,13 +145,13 @@ export function HomeExperience({ recipes, countries }: Props) {
             )}
           </div>
         </div>
-        <div className="hero-art" aria-label="Illustration de cuisine mondiale">
+        <Link className="hero-art hero-globe-link" href="/explore" aria-label="Ouvrir la planète Terre culinaire">
           <div className="continent">🌍</div>
           <div className="floating-dish dish-one">🍜</div>
           <div className="floating-dish dish-two">🥘</div>
           <div className="floating-dish dish-three">🍣</div>
-          <p>Des saveurs des quatre coins du monde</p>
-        </div>
+          <p>Tourner la planète et choisir quoi manger</p>
+        </Link>
       </section>
 
       <section className="content-section">

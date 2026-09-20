@@ -598,6 +598,8 @@ export type Database = {
           place_id: string
           recipe_id: string | null
           sort_order: number
+          source_name: string | null
+          source_url: string | null
           updated_at: string
         }
         Insert: {
@@ -611,6 +613,8 @@ export type Database = {
           place_id: string
           recipe_id?: string | null
           sort_order?: number
+          source_name?: string | null
+          source_url?: string | null
           updated_at?: string
         }
         Update: {
@@ -624,6 +628,8 @@ export type Database = {
           place_id?: string
           recipe_id?: string | null
           sort_order?: number
+          source_name?: string | null
+          source_url?: string | null
           updated_at?: string
         }
         Relationships: [
@@ -1057,6 +1063,7 @@ export type Database = {
           excerpt: string | null
           hero_image_id: string | null
           id: string
+          is_editorial: boolean
           prep_minutes: number | null
           primary_place_id: string | null
           published_at: string | null
@@ -1065,6 +1072,9 @@ export type Database = {
           servings: number | null
           slug: string | null
           source_language: string
+          source_name: string | null
+          source_notes: string | null
+          source_url: string | null
           status: Database["public"]["Enums"]["recipe_status"]
           title: string
           updated_at: string
@@ -1083,6 +1093,7 @@ export type Database = {
           excerpt?: string | null
           hero_image_id?: string | null
           id?: string
+          is_editorial?: boolean
           prep_minutes?: number | null
           primary_place_id?: string | null
           published_at?: string | null
@@ -1091,6 +1102,9 @@ export type Database = {
           servings?: number | null
           slug?: string | null
           source_language?: string
+          source_name?: string | null
+          source_notes?: string | null
+          source_url?: string | null
           status?: Database["public"]["Enums"]["recipe_status"]
           title: string
           updated_at?: string
@@ -1109,6 +1123,7 @@ export type Database = {
           excerpt?: string | null
           hero_image_id?: string | null
           id?: string
+          is_editorial?: boolean
           prep_minutes?: number | null
           primary_place_id?: string | null
           published_at?: string | null
@@ -1117,6 +1132,9 @@ export type Database = {
           servings?: number | null
           slug?: string | null
           source_language?: string
+          source_name?: string | null
+          source_notes?: string | null
+          source_url?: string | null
           status?: Database["public"]["Enums"]["recipe_status"]
           title?: string
           updated_at?: string

@@ -217,10 +217,12 @@ export async function findWikimediaPlaceImage({
   const base = englishCountry || name;
 
   const searches = [
-    `${base} landscape landmark`,
-    `${base} city skyline historic`,
-    `${base} national park scenery`,
-    `${name} ${base} travel landscape`,
+    `${base} landscape`,
+    `${base} landmark`,
+    `${base} national park`,
+    `${base} skyline`,
+    `${name} ${base}`,
+    base,
   ];
 
   for (const search of searches) {

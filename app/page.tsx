@@ -134,27 +134,27 @@ export default async function HomePage() {
   const editorialRows = editorialResult.data ?? [];
 
   const recipes: HomeRecipe[] = editorialRows
-    .flatMap((recipe) => {
+    .map((recipe) => {
       const images = [...(recipe.recipe_images ?? [])]
         .filter((image) => image.status === "ready")
         .sort((a, b) => Number(b.is_primary) - Number(a.is_primary));
       const image = images[0] ? resolveMediaUrl(images[0], "recipe-images") : null;
-      if (!image) return [];
 
       const code = recipe.country_code?.toUpperCase() || "";
-      return [{
+      return {
         id: recipe.id,
         title: recipe.title,
         originalTitle: recipe.original_title || recipe.title,
         titleTranslations: recipe.recipe_title_translations ?? [],
         country: (code && displayNames.of(code)) || code || "Cuisine du monde",
+        countryCode: code,
         region: recipe.region,
         flag: code.length === 2 ? flagFor(code) : "🌍",
         image,
         time: timeLabel(recipe.prep_minutes, recipe.cook_minutes),
         difficulty: difficultyLabel(recipe.difficulty),
         category: recipe.category || "Recette",
-      }];
+      };
     })
     .slice(0, 20);
 

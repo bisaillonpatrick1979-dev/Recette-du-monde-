@@ -1659,11 +1659,11 @@ button { cursor: pointer; }
   background: linear-gradient(150deg,#d7e8f5,#f6e7ce);
 }
 .continent-north-america .continent-art { background: linear-gradient(150deg,#bdd9e9,#e9f4f7); }
-.continent-latin-america .continent-art { background: linear-gradient(150deg,#f5b980,#ec7b62); }
+.continent-south-america .continent-art { background: linear-gradient(150deg,#f5b980,#ec7b62); }
 .continent-europe .continent-art { background: linear-gradient(150deg,#a7d7ef,#f5eee1); }
 .continent-asia .continent-art { background: linear-gradient(150deg,#f5c0c0,#f3d8ec); }
 .continent-africa .continent-art { background: linear-gradient(150deg,#f0b067,#efdf91); }
-.continent-middle-east .continent-art { background: linear-gradient(150deg,#d7a06c,#efd7b5); }
+.continent-antarctica .continent-art { background: linear-gradient(150deg,#c9e8f5,#f4fbff); }
 .continent-oceania .continent-art { background: linear-gradient(150deg,#68c6d0,#bdeef0); }
 .continent-card-body {
   min-height: 88px;

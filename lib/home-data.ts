@@ -1,3 +1,5 @@
+import type { ContinentKey } from "@/lib/continents";
+
 export type HomeRecipe = {
   id: string;
   title: string;
@@ -21,7 +23,7 @@ export type HomeCountryCard = {
 };
 
 export type HomeContinentStat = {
-  key: "north-america" | "latin-america" | "europe" | "asia" | "africa" | "middle-east" | "oceania";
+  key: ContinentKey;
   label: string;
   icon: string;
   recipes: number;

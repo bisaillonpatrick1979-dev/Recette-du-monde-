@@ -6,6 +6,7 @@ import type {
   HomeCountryCard,
   HomeRecipe,
 } from "@/lib/home-data";
+import { CONTINENTS } from "@/lib/continents";
 import { resolveMediaUrl } from "@/lib/media";
 import { createClient } from "@/lib/supabase/server";
 
@@ -32,46 +33,14 @@ function timeLabel(prep: number | null, cook: number | null) {
   return minutes ? `${hours} h ${minutes}` : `${hours} h`;
 }
 
-const CONTINENT_CODES = {
-  "north-america": ["CA", "US", "GL", "BM"],
-  "latin-america": [
-    "MX", "GT", "BZ", "HN", "SV", "NI", "CR", "PA", "CU", "DO", "HT", "JM",
-    "BS", "BB", "TT", "GD", "LC", "VC", "AG", "DM", "KN", "CO", "VE", "GY",
-    "SR", "EC", "PE", "BO", "BR", "PY", "UY", "AR", "CL",
-  ],
-  europe: [
-    "AL", "AD", "AT", "BY", "BE", "BA", "BG", "HR", "CY", "CZ", "DK", "EE",
-    "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU",
-    "MT", "MD", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO", "RU", "SM",
-    "RS", "SK", "SI", "ES", "SE", "CH", "UA", "GB", "VA",
-  ],
-  asia: [
-    "AF", "BD", "BT", "BN", "KH", "CN", "IN", "ID", "JP", "KZ", "KG", "LA",
-    "MY", "MV", "MN", "MM", "NP", "KP", "KR", "PK", "PH", "SG", "LK", "TW",
-    "TJ", "TH", "TL", "TM", "UZ", "VN",
-  ],
-  africa: [
-    "DZ", "AO", "BJ", "BW", "BF", "BI", "CV", "CM", "CF", "TD", "KM", "CG",
-    "CD", "CI", "DJ", "EG", "GQ", "ER", "SZ", "ET", "GA", "GM", "GH", "GN",
-    "GW", "KE", "LS", "LR", "LY", "MG", "MW", "ML", "MR", "MU", "MA", "MZ",
-    "NA", "NE", "NG", "RW", "ST", "SN", "SC", "SL", "SO", "ZA", "SS", "SD",
-    "TZ", "TG", "TN", "UG", "ZM", "ZW",
-  ],
-  "middle-east": [
-    "AM", "AZ", "BH", "GE", "IR", "IQ", "IL", "JO", "KW", "LB", "OM", "PS",
-    "QA", "SA", "SY", "TR", "AE", "YE",
-  ],
-  oceania: ["AU", "FJ", "KI", "MH", "FM", "NR", "NZ", "PW", "PG", "WS", "SB", "TO", "TV", "VU"],
-} as const;
-
 const CONTINENT_META: Array<Omit<HomeContinentStat, "recipes">> = [
-  { key: "north-america", label: "Amérique du Nord", icon: "🏔️" },
-  { key: "latin-america", label: "Amérique latine", icon: "🌺" },
-  { key: "europe", label: "Europe", icon: "🏛️" },
-  { key: "asia", label: "Asie", icon: "🏯" },
-  { key: "africa", label: "Afrique", icon: "🌅" },
-  { key: "middle-east", label: "Moyen-Orient", icon: "🕌" },
-  { key: "oceania", label: "Océanie", icon: "🏝️" },
+  { key: "africa", label: CONTINENTS.africa.label, icon: "🌅" },
+  { key: "north-america", label: CONTINENTS["north-america"].label, icon: "🏔️" },
+  { key: "south-america", label: CONTINENTS["south-america"].label, icon: "🌺" },
+  { key: "antarctica", label: CONTINENTS.antarctica.label, icon: "🧊" },
+  { key: "asia", label: CONTINENTS.asia.label, icon: "🏯" },
+  { key: "europe", label: CONTINENTS.europe.label, icon: "🏛️" },
+  { key: "oceania", label: CONTINENTS.oceania.label, icon: "🏝️" },
 ];
 
 export default async function HomePage() {
@@ -190,7 +159,7 @@ export default async function HomePage() {
     .filter((code): code is string => Boolean(code));
 
   const continents: HomeContinentStat[] = CONTINENT_META.map((continent) => {
-    const allowed = new Set<string>(CONTINENT_CODES[continent.key]);
+    const allowed = new Set<string>(CONTINENTS[continent.key].codes);
     return {
       ...continent,
       recipes: publishedCodes.reduce((count, code) => count + (allowed.has(code) ? 1 : 0), 0),

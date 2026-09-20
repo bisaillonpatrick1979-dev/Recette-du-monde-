@@ -1,33 +1,4 @@
 export const CONTINENTS = {
-  "north-america": {
-    label: "Amérique du Nord",
-    codes: ["CA", "US", "GL", "BM"],
-  },
-  "latin-america": {
-    label: "Amérique latine",
-    codes: [
-      "MX", "GT", "BZ", "HN", "SV", "NI", "CR", "PA", "CU", "DO", "HT", "JM",
-      "BS", "BB", "TT", "GD", "LC", "VC", "AG", "DM", "KN", "CO", "VE", "GY",
-      "SR", "EC", "PE", "BO", "BR", "PY", "UY", "AR", "CL",
-    ],
-  },
-  europe: {
-    label: "Europe",
-    codes: [
-      "AL", "AD", "AT", "BY", "BE", "BA", "BG", "HR", "CY", "CZ", "DK", "EE",
-      "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU",
-      "MT", "MD", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO", "RU", "SM",
-      "RS", "SK", "SI", "ES", "SE", "CH", "UA", "GB", "VA",
-    ],
-  },
-  asia: {
-    label: "Asie",
-    codes: [
-      "AF", "BD", "BT", "BN", "KH", "CN", "IN", "ID", "JP", "KZ", "KG", "LA",
-      "MY", "MV", "MN", "MM", "NP", "KP", "KR", "PK", "PH", "SG", "LK", "TW",
-      "TJ", "TH", "TL", "TM", "UZ", "VN",
-    ],
-  },
   africa: {
     label: "Afrique",
     codes: [
@@ -38,11 +9,38 @@ export const CONTINENTS = {
       "TZ", "TG", "TN", "UG", "ZM", "ZW",
     ],
   },
-  "middle-east": {
-    label: "Moyen-Orient",
+  "north-america": {
+    label: "Amérique du Nord",
     codes: [
-      "AM", "AZ", "BH", "GE", "IR", "IQ", "IL", "JO", "KW", "LB", "OM", "PS",
-      "QA", "SA", "SY", "TR", "AE", "YE",
+      "CA", "US", "GL", "BM", "MX", "GT", "BZ", "HN", "SV", "NI", "CR", "PA",
+      "CU", "DO", "HT", "JM", "BS", "BB", "TT", "GD", "LC", "VC", "AG", "DM",
+      "KN",
+    ],
+  },
+  "south-america": {
+    label: "Amérique du Sud",
+    codes: ["CO", "VE", "GY", "SR", "EC", "PE", "BO", "BR", "PY", "UY", "AR", "CL"],
+  },
+  antarctica: {
+    label: "Antarctique",
+    codes: ["AQ"],
+  },
+  asia: {
+    label: "Asie",
+    codes: [
+      "AF", "AM", "AZ", "BH", "BD", "BT", "BN", "KH", "CN", "GE", "IN", "ID",
+      "IR", "IQ", "IL", "JP", "JO", "KZ", "KW", "KG", "LA", "LB", "MY", "MV",
+      "MN", "MM", "NP", "KP", "KR", "OM", "PK", "PS", "PH", "QA", "SA", "SG",
+      "LK", "SY", "TW", "TJ", "TH", "TL", "TR", "TM", "AE", "UZ", "VN", "YE",
+    ],
+  },
+  europe: {
+    label: "Europe",
+    codes: [
+      "AL", "AD", "AT", "BY", "BE", "BA", "BG", "HR", "CY", "CZ", "DK", "EE",
+      "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU",
+      "MT", "MD", "MC", "ME", "NL", "MK", "NO", "PL", "PT", "RO", "RU", "SM",
+      "RS", "SK", "SI", "ES", "SE", "CH", "UA", "GB", "VA",
     ],
   },
   oceania: {

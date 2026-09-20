@@ -3,22 +3,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { DemoRecipe } from "@/lib/demo-data";
+import type { HomeCountryCard, HomeRecipe } from "@/lib/home-data";
 import {
   defaultPreferences,
   PREFERENCES_STORAGE_KEY,
   UserPreferences,
 } from "@/lib/preferences";
 
-type CountryCard = {
-  flag: string;
-  name: string;
-  dishes: string;
-};
-
 type Props = {
-  recipes: DemoRecipe[];
-  countries: CountryCard[];
+  recipes: HomeRecipe[];
+  countries: HomeCountryCard[];
 };
 
 const copy = {
@@ -81,7 +75,7 @@ export function HomeExperience({ recipes, countries }: Props) {
     const normalized = query.trim().toLowerCase();
     if (!normalized) return recipes;
     return recipes.filter((recipe) =>
-      [recipe.title, recipe.country, recipe.category].some((value) =>
+      [recipe.title, recipe.country, recipe.region ?? "", recipe.category].some((value) =>
         value.toLowerCase().includes(normalized),
       ),
     );
@@ -160,26 +154,25 @@ export function HomeExperience({ recipes, countries }: Props) {
             <span className="eyebrow">À découvrir maintenant</span>
             <h2>{text.featured}</h2>
           </div>
-          <a href="#">Voir toutes →</a>
+          <Link href="/explore">Voir toutes →</Link>
         </div>
         <div className="recipe-grid">
           {filtered.map((recipe) => (
-            <article className="recipe-card" key={recipe.title}>
+            <Link className="recipe-card" key={recipe.id} href={`/recipes/${recipe.id}`}>
               <div className="recipe-image">
                 <Image src={recipe.image} alt={recipe.title} fill sizes="(max-width: 700px) 90vw, 280px" />
-                <span className="country-badge">{recipe.flag} {recipe.country}</span>
-                <button className="heart-button" aria-label="Ajouter aux favoris">♡</button>
+                <span className="country-badge">{recipe.flag} {recipe.region || recipe.country}</span>
               </div>
               <div className="recipe-body">
                 <span className="recipe-category">{recipe.category}</span>
                 <h3>{recipe.title}</h3>
-                <div className="rating">★★★★★ <span>{recipe.rating} ({recipe.reviews})</span></div>
+                <div className="verified-recipe">✓ Recette complète avec source et photo</div>
                 <div className="recipe-meta">
                   <span>◷ {recipe.time}</span>
                   <span>♨ {recipe.difficulty}</span>
                 </div>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </section>

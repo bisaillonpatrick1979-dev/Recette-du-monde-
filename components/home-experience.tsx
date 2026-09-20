@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { HomeCountryCard, HomeRecipe } from "@/lib/home-data";
 import {
   defaultPreferences,
@@ -57,6 +57,7 @@ const copy = {
 export function HomeExperience({ recipes, countries }: Props) {
   const [preferences, setPreferences] = useState<UserPreferences>(defaultPreferences);
   const [query, setQuery] = useState("");
+  const featuredRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const saved = window.localStorage.getItem(PREFERENCES_STORAGE_KEY);
@@ -80,6 +81,15 @@ export function HomeExperience({ recipes, countries }: Props) {
       ),
     );
   }, [query, recipes]);
+
+  function scrollFeatured(direction: -1 | 1) {
+    const track = featuredRef.current;
+    if (!track) return;
+    track.scrollBy({
+      left: direction * Math.max(track.clientWidth * 0.82, 280),
+      behavior: "smooth",
+    });
+  }
 
   return (
     <main>
@@ -154,13 +164,36 @@ export function HomeExperience({ recipes, countries }: Props) {
             <span className="eyebrow">À découvrir maintenant</span>
             <h2>{text.featured}</h2>
           </div>
-          <Link href="/explore">Voir toutes →</Link>
+          <div className="featured-heading-actions">
+            <button
+              type="button"
+              className="carousel-arrow"
+              onClick={() => scrollFeatured(-1)}
+              aria-label="Voir les recettes précédentes"
+            >
+              ‹
+            </button>
+            <button
+              type="button"
+              className="carousel-arrow"
+              onClick={() => scrollFeatured(1)}
+              aria-label="Voir les recettes suivantes"
+            >
+              ›
+            </button>
+            <Link href="/explore">Voir toutes →</Link>
+          </div>
         </div>
-        <div className="recipe-grid">
+        <div
+          className="recipe-carousel"
+          ref={featuredRef}
+          aria-label={text.featured}
+          tabIndex={0}
+        >
           {filtered.map((recipe) => (
             <Link className="recipe-card" key={recipe.id} href={`/recipes/${recipe.id}`}>
               <div className="recipe-image">
-                <Image src={recipe.image} alt={recipe.title} fill sizes="(max-width: 700px) 90vw, 280px" />
+                <Image src={recipe.image} alt={recipe.title} fill sizes="(max-width: 700px) 82vw, 280px" />
                 <span className="country-badge">{recipe.flag} {recipe.region || recipe.country}</span>
               </div>
               <div className="recipe-body">
@@ -175,6 +208,9 @@ export function HomeExperience({ recipes, countries }: Props) {
             </Link>
           ))}
         </div>
+        {filtered.length > 5 ? (
+          <p className="carousel-hint">Glissez de droite à gauche pour découvrir les autres recettes →</p>
+        ) : null}
       </section>
 
       <section className="content-section country-section">

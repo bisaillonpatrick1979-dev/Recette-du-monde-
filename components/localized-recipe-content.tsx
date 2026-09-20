@@ -51,7 +51,35 @@ const labels = {
   es: { preparation: "Preparación" },
 } satisfies Record<LanguageCode, { preparation: string }>;
 
-function translatedIngredients(value: unknown, fallback: BaseIngredient[]) {
+function localizedUnit(unit: string | null, language: LanguageCode) {
+  if (!unit) return unit;
+  const map: Record<LanguageCode, Record<string, string>> = {
+    fr: {},
+    en: {
+      "unité": "unit",
+      "unités": "units",
+      "c. à soupe": "tbsp",
+      "c. à thé": "tsp",
+      "gousses": "cloves",
+      "tranches": "slices",
+      "bâtons": "sticks",
+      "branche": "stalk",
+    },
+    es: {
+      "unité": "unidad",
+      "unités": "unidades",
+      "c. à soupe": "cda",
+      "c. à thé": "cdta",
+      "gousses": "dientes",
+      "tranches": "rebanadas",
+      "bâtons": "ramas",
+      "branche": "tallo",
+    },
+  };
+  return map[language][unit] ?? unit;
+}
+
+function translatedIngredients(value: unknown, fallback: BaseIngredient[], language: LanguageCode) {
   if (!Array.isArray(value)) return fallback;
 
   const parsed = value
@@ -63,7 +91,7 @@ function translatedIngredients(value: unknown, fallback: BaseIngredient[]) {
         id: fallback[index]?.id ?? -(index + 1),
         name: row.name.trim(),
         quantity: row.quantity ?? fallback[index]?.quantity ?? null,
-        unit: row.unit ?? fallback[index]?.unit ?? null,
+        unit: row.unit ?? localizedUnit(fallback[index]?.unit ?? null, language),
         note: row.note ?? null,
       };
     })

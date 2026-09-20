@@ -1154,3 +1154,34 @@ button { cursor: pointer; }
   font-size: 12px;
   font-weight: 800;
 }
+
+
+.auth-resend {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 10px;
+}
+.auth-resend strong,
+.auth-resend small {
+  display: block;
+}
+.auth-resend small {
+  margin-top: 3px;
+  color: var(--ink-soft);
+}
+.auth-resend input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: white;
+  color: var(--ink);
+  font: inherit;
+}
+.auth-resend .ghost-button {
+  width: 100%;
+  min-height: 48px;
+}

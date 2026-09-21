@@ -114,12 +114,13 @@ export function RecipeServingScaler({
   ingredients: Ingredient[];
   language?: LanguageCode;
 }) {
-  const normalizedBase = Math.max(1, Math.round(numericQuantity(baseServings) ?? 4));
-  const [servings, setServings] = useState(normalizedBase);
+  const parsedBase = numericQuantity(baseServings);
+  const normalizedBase = parsedBase == null ? null : Math.max(1, Math.round(parsedBase));
+  const [servings, setServings] = useState(normalizedBase ?? 1);
   const text = labels[language] ?? labels.fr;
 
   const scaledIngredients = useMemo(() => {
-    const ratio = servings / normalizedBase;
+    const ratio = normalizedBase == null ? 1 : servings / normalizedBase;
     return ingredients.map((ingredient) => {
       const baseQuantity = numericQuantity(ingredient.quantity);
       return {
@@ -130,6 +131,7 @@ export function RecipeServingScaler({
   }, [ingredients, normalizedBase, servings, text.locale]);
 
   function updateServings(value: number) {
+    if (normalizedBase == null) return;
     setServings(Math.min(48, Math.max(1, Math.round(value))));
   }
 
@@ -141,7 +143,7 @@ export function RecipeServingScaler({
           <h2 id="serving-scaler-title">{text.ingredients}</h2>
         </div>
 
-        <div className="serving-stepper" aria-label={text.servings}>
+        {normalizedBase != null ? <div className="serving-stepper" aria-label={text.servings}>
           <button
             type="button"
             onClick={() => updateServings(servings - 1)}
@@ -160,10 +162,10 @@ export function RecipeServingScaler({
           >
             +
           </button>
-        </div>
+        </div> : null}
       </div>
 
-      <div className="serving-quick-picks" aria-label={text.quick}>
+      {normalizedBase != null ? <div className="serving-quick-picks" aria-label={text.quick}>
         {QUICK_SERVINGS.map((value) => (
           <button
             type="button"
@@ -174,9 +176,9 @@ export function RecipeServingScaler({
             {value}
           </button>
         ))}
-      </div>
+      </div> : null}
 
-      {servings !== normalizedBase ? (
+      {normalizedBase != null && servings !== normalizedBase ? (
         <p className="serving-scale-note">
           {text.original} {normalizedBase} {normalizedBase > 1 ? text.many : text.one}.
           {text.recalculated} {servings}.

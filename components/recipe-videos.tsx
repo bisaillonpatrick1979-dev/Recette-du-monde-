@@ -113,11 +113,17 @@ export function RecipeVideos({ recipeId, userId, videos, available }: Props) {
     setBusy(true);
     const supabase = createClient();
     const { error } = await supabase.from("recipe_videos").delete().eq("id", video.id);
-    setBusy(false);
     if (error) {
+      setBusy(false);
       setStatus(error.message);
       return;
     }
+    // Un fichier téléversé peut peser 100 Mo : on le retire aussi du stockage.
+    if (video.storagePath) {
+      const { error: storageError } = await supabase.storage.from("recipe-videos").remove([video.storagePath]);
+      if (storageError) setStatus(`Vidéo retirée, mais le fichier n’a pas pu être supprimé : ${storageError.message}`);
+    }
+    setBusy(false);
     router.refresh();
   }
 

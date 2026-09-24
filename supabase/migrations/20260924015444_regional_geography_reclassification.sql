@@ -20,6 +20,25 @@ values ('ps', 'Palestine', 'PS', 'country', 31.9522, 35.2332, 7,
         'Cuisine palestinienne : musakhan, maqluba, knafeh de Naplouse et pain taboon.')
 on conflict (slug) do nothing;
 
+-- Lieux parents présents en production mais créés hors des migrations suivies :
+-- on les garantit pour qu'une base neuve puisse rejouer cette migration.
+insert into public.culinary_places (slug, name, country_code, place_type, latitude, longitude, default_zoom, summary)
+values
+  ('royaume-uni', 'Royaume-Uni', 'GB', 'country', 54.0000, -2.5000, 5,
+   'Cuisine britannique : tourtes, rôtis du dimanche, puddings, fish and chips et heure du thé.'),
+  ('uruguay', 'Uruguay', 'UY', 'country', -32.5228, -55.7658, 6,
+   'Cuisine uruguayenne : asado, chivito, dulce de leche et maté.')
+on conflict (slug) do nothing;
+
+insert into public.culinary_places (slug, name, country_code, place_type, parent_id, latitude, longitude, default_zoom, summary)
+select v.slug, v.name, 'GB', v.place_type, p.id, v.latitude, v.longitude, v.default_zoom, v.summary
+from (values
+  ('londres', 'Londres', 'city', 51.5074, -0.1278, 10, 'Pubs, marchés, cuisine du monde et grands classiques britanniques.'),
+  ('cornouailles', 'Cornouailles', 'region', 50.2660, -5.0527, 8, 'Cornish pasties, stargazy pie, crème caillée et fruits de mer.')
+) as v(slug, name, place_type, latitude, longitude, default_zoom, summary)
+join public.culinary_places p on p.slug = 'royaume-uni'
+on conflict (slug) do nothing;
+
 -- Nouvelles régions et villes (depth 1 = parent déjà existant, depth 2 = parent créé au niveau 1)
 with new_places(depth, slug, name, country_code, place_type, parent_slug, latitude, longitude, default_zoom, summary) as (
   values
@@ -132,7 +151,10 @@ set parent_id = e.id
 from public.culinary_places e
 where e.slug = 'gb-england' and c.slug in ('londres', 'cornouailles');
 
--- Correspondance recette → lieu (null = classique sans frontières)
+-- Correspondance recette → lieu (null = classique sans frontières).
+-- Limitée aux recettes éditoriales importées : les titres étaient uniques au
+-- moment de l'application, mais une recette de la communauté pourrait porter
+-- le même nom.
 create temporary table recipe_geo_fix (title text primary key, place_slug text) on commit drop;
 
 insert into recipe_geo_fix (title, place_slug) values
@@ -436,22 +458,22 @@ set country_code = p.country_code,
 from recipe_geo_fix f
 join public.culinary_places p on p.slug = f.place_slug
 left join public.culinary_places parent on parent.id = p.parent_id
-where r.title = f.title and f.place_slug is not null;
+where r.title = f.title and r.is_editorial and f.place_slug is not null;
 
 update public.recipes r
 set country_code = null,
     region = null,
     primary_place_id = null
 from recipe_geo_fix f
-where r.title = f.title and f.place_slug is null;
+where r.title = f.title and r.is_editorial and f.place_slug is null;
 
 -- Recette contenant du cannabis : retirée de la publication (réversible)
-update public.recipes set status = 'archived' where title = 'Cannabutter';
+update public.recipes set status = 'archived' where title = 'Cannabutter' and is_editorial;
 
 -- Tout ce qui reste sans pays devient un classique sans frontières
 update public.recipes
 set is_borderless = true
-where country_code is null and primary_place_id is null;
+where is_editorial and country_code is null and primary_place_id is null;
 
 -- Champ région qui répétait simplement le nom du pays
 update public.recipes r

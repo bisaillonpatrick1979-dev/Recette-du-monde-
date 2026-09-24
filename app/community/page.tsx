@@ -1,9 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { resolveMediaUrl } from "@/lib/media";
+import { fetchAllRows } from "@/lib/supabase/fetch-all";
 import { createClient } from "@/lib/supabase/server";
 
 type Props = { searchParams: Promise<{ fil?: string }> };
+
+const FEED_SIZE = 36;
+const AUTHOR_BATCH = 100;
+
+function chunk<T>(items: T[], size: number) {
+  const chunks: T[][] = [];
+  for (let index = 0; index < items.length; index += size) chunks.push(items.slice(index, index + size));
+  return chunks;
+}
 
 export default async function CommunityPage({ searchParams }: Props) {
   const { fil } = await searchParams;
@@ -12,27 +22,39 @@ export default async function CommunityPage({ searchParams }: Props) {
   const viewerId = typeof claimsData?.claims?.sub === "string" ? claimsData.claims.sub : null;
   const followingFeed = fil === "abonnements" && Boolean(viewerId);
 
+  // Tous les abonnements, page par page (pas de sous-ensemble arbitraire).
   const followedIds = followingFeed && viewerId
-    ? ((await supabase.from("follows").select("following_id").eq("follower_id", viewerId).limit(500)).data ?? [])
-        .map((row) => row.following_id)
+    ? (await fetchAllRows((from, to) =>
+        supabase
+          .from("follows")
+          .select("following_id")
+          .eq("follower_id", viewerId)
+          .order("following_id")
+          .range(from, to),
+      )).data.map((row) => row.following_id)
     : [];
 
-  let recipeQuery = supabase
-    .from("recipes")
-    .select(
-      "id,title,description,author_id,country_code,region,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status),recipe_likes(count),recipe_comments(count),recipe_ratings(rating)",
-    )
-    .eq("status", "published")
-    .eq("is_editorial", false)
-    .is("recipe_comments.deleted_at", null);
+  const recipeQuery = (authorIds?: string[]) => {
+    let query = supabase
+      .from("recipes")
+      .select(
+        "id,title,description,author_id,country_code,region,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status),recipe_likes(count),recipe_comments(count),recipe_ratings(rating)",
+      )
+      .eq("status", "published")
+      .eq("is_editorial", false)
+      .is("recipe_comments.deleted_at", null);
+    if (authorIds) query = query.in("author_id", authorIds);
+    return query.order("published_at", { ascending: false }).limit(FEED_SIZE);
+  };
 
-  if (followingFeed) {
-    recipeQuery = recipeQuery.in("author_id", followedIds.length ? followedIds : ["00000000-0000-0000-0000-000000000000"]);
-  }
-
-  const { data: recipes } = await recipeQuery.order("published_at", { ascending: false }).limit(36);
-
-  const recipeRows = recipes ?? [];
+  // Le fil d'abonnements interroge les auteurs par lots pour garder des URL courtes,
+  // puis garde les FEED_SIZE recettes les plus récentes, tous lots confondus.
+  const recipeRows = followingFeed
+    ? (await Promise.all(chunk(followedIds, AUTHOR_BATCH).map((ids) => recipeQuery(ids))))
+        .flatMap((result) => result.data ?? [])
+        .sort((a, b) => String(b.published_at ?? "").localeCompare(String(a.published_at ?? "")))
+        .slice(0, FEED_SIZE)
+    : ((await recipeQuery()).data ?? []);
   const authorIds = [...new Set(recipeRows.map((recipe) => recipe.author_id))];
   const { data: profiles } = authorIds.length
     ? await supabase.from("profiles").select("id,display_name,username,country_code").in("id", authorIds)

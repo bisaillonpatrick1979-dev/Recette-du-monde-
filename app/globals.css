@@ -3382,3 +3382,11 @@ a.social-recipe-media { display: grid; }
 }
 .profile-hero-actions { display: grid; gap: 8px; }
 .atlas-recipe-thumb.open-recipe-image { margin: 0; }
+.search-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 24px 0;
+  font-weight: 700;
+}

@@ -107,6 +107,7 @@ export default async function HomePage() {
       .from("recipes")
       .select("id", { count: "exact", head: true })
       .eq("status", "published")
+      .eq("is_editorial", true)
       .eq("is_borderless", true),
   ]);
 

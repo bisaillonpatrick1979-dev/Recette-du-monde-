@@ -5,6 +5,7 @@ export type RecipeVideo = {
   provider: VideoProvider;
   externalId: string | null;
   url: string | null;
+  storagePath: string | null;
   caption: string | null;
   author: string;
   authorId: string;

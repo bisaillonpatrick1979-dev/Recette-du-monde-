@@ -3,10 +3,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { FollowButton } from "@/components/follow-button";
 import { resolveMediaUrl } from "@/lib/media";
+import { fetchAllRows } from "@/lib/supabase/fetch-all";
 import { createClient } from "@/lib/supabase/server";
 
 type Props = { params: Promise<{ id: string }> };
 
+const RECIPES_SHOWN = 60;
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 function flagFor(code: string | null) {
@@ -30,7 +32,7 @@ export default async function CookProfilePage({ params }: Props) {
 
   const viewerId = typeof claimsData?.claims?.sub === "string" ? claimsData.claims.sub : null;
 
-  const [recipesResult, followersResult, followingResult, viewerFollowResult] = await Promise.all([
+  const [recipesResult, followersResult, followingResult, viewerFollowResult, likeTotals] = await Promise.all([
     supabase
       .from("recipes")
       .select("id,title,country_code,region,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status),recipe_likes(count)")
@@ -38,18 +40,30 @@ export default async function CookProfilePage({ params }: Props) {
       .eq("status", "published")
       .eq("is_editorial", false)
       .order("published_at", { ascending: false })
-      .limit(60),
+      .limit(RECIPES_SHOWN),
     supabase.from("follows").select("follower_id", { count: "exact", head: true }).eq("following_id", id),
     supabase.from("follows").select("following_id", { count: "exact", head: true }).eq("follower_id", id),
     viewerId
       ? supabase.from("follows").select("follower_id").eq("follower_id", viewerId).eq("following_id", id).maybeSingle()
       : Promise.resolve({ data: null }),
+    // Statistiques sur toutes les recettes publiées, pas seulement celles affichées.
+    fetchAllRows((from, to) =>
+      supabase
+        .from("recipes")
+        .select("id,recipe_likes(count)")
+        .eq("author_id", id)
+        .eq("status", "published")
+        .eq("is_editorial", false)
+        .order("id")
+        .range(from, to),
+    ),
   ]);
 
   const recipes = recipesResult.data ?? [];
   const name = profile.display_name || profile.username || "Cuisinier de la communauté";
   const displayNames = new Intl.DisplayNames(["fr"], { type: "region" });
-  const totalLikes = recipes.reduce((sum, recipe) => sum + (recipe.recipe_likes?.[0]?.count ?? 0), 0);
+  const totalRecipes = likeTotals.data.length;
+  const totalLikes = likeTotals.data.reduce((sum, recipe) => sum + (recipe.recipe_likes?.[0]?.count ?? 0), 0);
 
   return (
     <main className="community-page">
@@ -65,7 +79,7 @@ export default async function CookProfilePage({ params }: Props) {
             <h1>{name}</h1>
             <p>{profile.bio || "Membre de la communauté Cuisine du monde."}</p>
             <div className="public-profile-stats">
-              <span><strong>{recipes.length}</strong> recettes</span>
+              <span><strong>{totalRecipes}</strong> recettes</span>
               <span><strong>{followingResult.count ?? 0}</strong> abonnements</span>
               <span><strong>{totalLikes}</strong> j’aime reçus</span>
             </div>

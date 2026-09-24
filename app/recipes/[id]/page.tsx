@@ -126,6 +126,7 @@ export default async function RecipePage({ params }: Props) {
       provider: video.provider as RecipeVideo["provider"],
       externalId: video.external_id,
       url: video.storage_path ? publicStorageUrl("recipe-videos", video.storage_path) : null,
+      storagePath: video.storage_path,
       caption: video.caption,
       author: profile?.display_name || profile?.username || "Membre",
       authorId: video.user_id,

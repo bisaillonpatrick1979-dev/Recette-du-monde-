@@ -48,7 +48,7 @@ export default async function ContinentPage({ params }: Props) {
     .eq("status", "published");
 
   query = borderless
-    ? query.eq("is_borderless", true)
+    ? query.eq("is_borderless", true).eq("is_editorial", true)
     : query.eq("is_editorial", true).in("country_code", [...CONTINENTS[key as ContinentKey].codes]);
 
   const { data: recipes, error } = await query

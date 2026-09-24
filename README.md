@@ -22,15 +22,19 @@ Plateforme mondiale de recettes, communauté culinaire et chef IA.
 
 ## État actuel
 
-La branche `build/initial-app` contient le premier MVP visuel et fonctionnel :
-- onboarding
-- préférences locales
-- page d'accueil multilingue FR/EN/ES
-- recherche de démonstration
-- recettes vedettes
-- exploration par pays
-- aperçu de communauté
-- mise en page mobile
+- Globe interactif (MapLibre) : marqueurs pays → régions → villes selon le zoom, avec la spécialité locale
+- Lien direct vers un lieu : `/explore?lieu=<slug>` (ex. `fr-marseille`)
+- Recettes rattachées au lieu d'origine le plus précis connu (`recipes.primary_place_id`)
+- « Classiques sans frontières » (`recipes.is_borderless`) : recettes internationales sans origine unique,
+  sur `/continents/sans-frontieres`
+- Recherche complète : `/search?q=`, `?categorie=`, `?filtre=`
+- Communauté : publication, photos, vidéos, notes, J'aime, commentaires, profils publics `/cooks/<id>`,
+  abonnements et fil « Mes abonnements »
+
+## Migrations à appliquer
+
+`supabase/migrations/20260924030000_recipe_videos.sql` (table `recipe_videos` + bucket `recipe-videos`)
+n'est pas encore appliquée en production. Tant qu'elle ne l'est pas, la section vidéo reste en lecture seule.
 
 ## Sécurité
 

@@ -43,7 +43,10 @@ export default async function ProfilePage() {
             <h1>{profile?.display_name || "Nouveau cuisinier"}</h1>
             <p>{profile?.bio || "Votre cuisine peut maintenant voyager partout dans le monde, dans l’espace Communauté."}</p>
           </div>
-          <Link className="primary-button" href="/publish">+ Publier une recette</Link>
+          <div className="profile-hero-actions">
+            <Link className="primary-button" href="/publish">+ Publier une recette</Link>
+            <Link className="secondary-button" href={`/cooks/${userId}`}>Voir mon profil public</Link>
+          </div>
         </section>
 
         <section className="account-grid">

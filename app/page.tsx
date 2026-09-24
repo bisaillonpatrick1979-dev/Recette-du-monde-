@@ -8,6 +8,7 @@ import type {
 } from "@/lib/home-data";
 import { CONTINENTS } from "@/lib/continents";
 import { resolveMediaUrl } from "@/lib/media";
+import { fetchAllRows } from "@/lib/supabase/fetch-all";
 import { createClient } from "@/lib/supabase/server";
 
 function flagFor(code: string) {
@@ -54,6 +55,7 @@ export default async function HomePage() {
     communityCountResult,
     countryCodesResult,
     subplaceCountResult,
+    borderlessCountResult,
   ] = await Promise.all([
     supabase
       .from("recipes")
@@ -87,15 +89,25 @@ export default async function HomePage() {
       .select("id", { count: "exact", head: true })
       .eq("status", "published")
       .eq("is_editorial", false),
-    supabase
-      .from("recipes")
-      .select("country_code")
-      .eq("status", "published"),
+    fetchAllRows((from, to) =>
+      supabase
+        .from("recipes")
+        .select("country_code")
+        .eq("status", "published")
+        .not("country_code", "is", null)
+        .order("id")
+        .range(from, to),
+    ),
     supabase
       .from("culinary_places")
       .select("id", { count: "exact", head: true })
       .eq("is_active", true)
       .in("place_type", ["region", "island", "city", "locality"]),
+    supabase
+      .from("recipes")
+      .select("id", { count: "exact", head: true })
+      .eq("status", "published")
+      .eq("is_borderless", true),
   ]);
 
   const displayNames = new Intl.DisplayNames(["fr"], { type: "region" });
@@ -154,7 +166,7 @@ export default async function HomePage() {
       dishes: value.titles.slice(0, 3).join(", "),
     }));
 
-  const publishedCodes = (countryCodesResult.data ?? [])
+  const publishedCodes = countryCodesResult.data
     .map((row) => row.country_code?.toUpperCase())
     .filter((code): code is string => Boolean(code));
 
@@ -218,6 +230,7 @@ export default async function HomePage() {
     recipes: totalCountResult.count ?? recipes.length,
     editorialRecipes: editorialCountResult.count ?? recipes.length,
     communityRecipes: communityCountResult.count ?? communityRecipes.length,
+    borderlessRecipes: borderlessCountResult.count ?? 0,
     countries: new Set(publishedCodes).size,
     subplaces: subplaceCountResult.count ?? 0,
     continents,

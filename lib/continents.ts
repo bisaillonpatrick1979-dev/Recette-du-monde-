@@ -54,3 +54,7 @@ export type ContinentKey = keyof typeof CONTINENTS;
 export function isContinentKey(value: string): value is ContinentKey {
   return value in CONTINENTS;
 }
+
+// Recettes internationales sans origine géographique précise (recipes.is_borderless).
+export const BORDERLESS_KEY = "sans-frontieres";
+export const BORDERLESS_LABEL = "Classiques sans frontières";

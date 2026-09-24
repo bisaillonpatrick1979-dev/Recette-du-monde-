@@ -1039,6 +1039,47 @@ export type Database = {
           },
         ]
       }
+      recipe_videos: {
+        Row: {
+          caption: string | null
+          created_at: string
+          external_id: string | null
+          id: string
+          provider: string
+          recipe_id: string
+          storage_path: string | null
+          user_id: string
+        }
+        Insert: {
+          caption?: string | null
+          created_at?: string
+          external_id?: string | null
+          id?: string
+          provider: string
+          recipe_id: string
+          storage_path?: string | null
+          user_id: string
+        }
+        Update: {
+          caption?: string | null
+          created_at?: string
+          external_id?: string | null
+          id?: string
+          provider?: string
+          recipe_id?: string
+          storage_path?: string | null
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "recipe_videos_recipe_id_fkey"
+            columns: ["recipe_id"]
+            isOneToOne: false
+            referencedRelation: "recipes"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       recipe_translations: {
         Row: {
           description: string | null
@@ -1096,6 +1137,7 @@ export type Database = {
           hero_image_id: string | null
           id: string
           is_editorial: boolean
+          is_borderless: boolean
           original_title: string | null
           prep_minutes: number | null
           primary_place_id: string | null
@@ -1127,6 +1169,7 @@ export type Database = {
           hero_image_id?: string | null
           id?: string
           is_editorial?: boolean
+          is_borderless?: boolean
           original_title?: string | null
           prep_minutes?: number | null
           primary_place_id?: string | null
@@ -1158,6 +1201,7 @@ export type Database = {
           hero_image_id?: string | null
           id?: string
           is_editorial?: boolean
+          is_borderless?: boolean
           original_title?: string | null
           prep_minutes?: number | null
           primary_place_id?: string | null

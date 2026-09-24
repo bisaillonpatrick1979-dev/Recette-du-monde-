@@ -3,10 +3,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { RecipePhotoUploader } from "@/components/recipe-photo-uploader";
 import { RecipeSocialPanel } from "@/components/recipe-social-panel";
+import { RecipeVideos } from "@/components/recipe-videos";
 import { LocalizedRecipeContent } from "@/components/localized-recipe-content";
 import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import { OpenRecipeImage } from "@/components/open-recipe-image";
-import { mediaSourceLabel, resolveMediaUrl } from "@/lib/media";
+import { BORDERLESS_KEY, BORDERLESS_LABEL } from "@/lib/continents";
+import { mediaSourceLabel, publicStorageUrl, resolveMediaUrl } from "@/lib/media";
+import type { RecipeVideo } from "@/lib/video";
 import { createClient } from "@/lib/supabase/server";
 
 type Props = { params: Promise<{ id: string }> };
@@ -33,6 +36,7 @@ export default async function RecipePage({ params }: Props) {
     { data: likes },
     { data: ratings },
     { data: comments },
+    videosResult,
   ] = await Promise.all([
     supabase
       .from("profiles")
@@ -54,9 +58,45 @@ export default async function RecipePage({ params }: Props) {
       .is("deleted_at", null)
       .order("created_at", { ascending: false })
       .limit(20),
+    supabase
+      .from("recipe_videos")
+      .select("id,user_id,provider,external_id,storage_path,caption,created_at")
+      .eq("recipe_id", id)
+      .order("created_at", { ascending: false })
+      .limit(12),
   ]);
 
-  const commentUserIds = [...new Set((comments ?? []).map((comment) => comment.user_id))];
+  // Tant que la migration recipe_videos n'est pas appliquée, la section reste en lecture seule.
+  const videosAvailable = !videosResult.error;
+  const videoRows = videosResult.data ?? [];
+
+  // Fil d'Ariane du lieu d'origine : pays › région › ville
+  const placePath: Array<{ id: string; slug: string; name: string; place_type: string }> = [];
+  let placeId: string | null = recipe.primary_place_id;
+  while (placeId && placePath.length < 5) {
+    const { data: place } = await supabase
+      .from("culinary_places")
+      .select("id, slug, name, place_type, parent_id")
+      .eq("id", placeId)
+      .maybeSingle();
+    if (!place) break;
+    placePath.unshift(place);
+    placeId = place.parent_id;
+  }
+  const originPlace = placePath.at(-1) ?? null;
+  const countryName = recipe.country_code
+    ? new Intl.DisplayNames(["fr"], { type: "region" }).of(recipe.country_code) ?? recipe.country_code
+    : null;
+  const originLabel = placePath.length
+    ? placePath.map((place) => place.name).join(" › ")
+    : countryName ?? (recipe.is_borderless ? BORDERLESS_LABEL : "Cuisine du monde");
+
+  const commentUserIds = [
+    ...new Set([
+      ...(comments ?? []).map((comment) => comment.user_id),
+      ...videoRows.map((video) => video.user_id),
+    ]),
+  ];
   const { data: commentProfiles } = commentUserIds.length
     ? await supabase
         .from("profiles")
@@ -72,9 +112,24 @@ export default async function RecipePage({ params }: Props) {
     const profile = profileById.get(comment.user_id);
     return {
       id: comment.id,
+      authorId: comment.user_id,
       author: profile?.display_name || profile?.username || "Membre",
       body: comment.body,
       createdAt: comment.created_at,
+    };
+  });
+
+  const videos: RecipeVideo[] = videoRows.map((video) => {
+    const profile = profileById.get(video.user_id);
+    return {
+      id: video.id,
+      provider: video.provider as RecipeVideo["provider"],
+      externalId: video.external_id,
+      url: video.storage_path ? publicStorageUrl("recipe-videos", video.storage_path) : null,
+      caption: video.caption,
+      author: profile?.display_name || profile?.username || "Membre",
+      authorId: video.user_id,
+      createdAt: video.created_at,
     };
   });
 
@@ -142,7 +197,18 @@ export default async function RecipePage({ params }: Props) {
             />
           )}
 
-          <span className="eyebrow">{recipe.country_code || "Cuisine du monde"} · {recipe.category || "Recette"}</span>
+          <div className="recipe-origin">
+            <span className="eyebrow">{originLabel} · {recipe.category || "Recette"}</span>
+            {originPlace ? (
+              <Link href={`/explore?lieu=${encodeURIComponent(originPlace.slug)}`} className="recipe-origin-link">
+                🌍 Voir {originPlace.name} sur le globe
+              </Link>
+            ) : recipe.is_borderless ? (
+              <Link href={`/continents/${BORDERLESS_KEY}`} className="recipe-origin-link">
+                🌐 Autres classiques sans frontières
+              </Link>
+            ) : null}
+          </div>
           <h1>
             <LocalizedRecipeTitle
               originalTitle={recipe.original_title || recipe.title}
@@ -162,7 +228,10 @@ export default async function RecipePage({ params }: Props) {
               ) : null}
             </div>
           ) : (
-            <p className="recipe-author">Recette utilisateur · Par {author?.display_name || author?.username || "un membre"}</p>
+            <p className="recipe-author">
+              Recette utilisateur · Par{" "}
+              <Link href={`/cooks/${recipe.author_id}`}>{author?.display_name || author?.username || "un membre"}</Link>
+            </p>
           )}
           <div className="recipe-detail-meta">
             <span>Préparation : {recipe.prep_minutes ?? "—"} min</span>
@@ -230,6 +299,14 @@ export default async function RecipePage({ params }: Props) {
             initialRatingCount={ratings?.length ?? 0}
             initialUserRating={initialUserRating}
             initialComments={socialComments}
+            currentUserId={userId}
+          />
+
+          <RecipeVideos
+            recipeId={recipe.id}
+            userId={userId}
+            videos={videos}
+            available={videosAvailable}
           />
         </article>
       </div>

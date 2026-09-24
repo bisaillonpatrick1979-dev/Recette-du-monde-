@@ -1,15 +1,21 @@
 "use client";
 
+import Link from "next/link";
 import { FormEvent, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
 type SocialComment = {
   id: string;
+  authorId: string;
   author: string;
   body: string;
   createdAt: string;
 };
+
+function formatDate(value: string) {
+  return new Date(value).toLocaleDateString("fr-CA", { day: "numeric", month: "short", year: "numeric" });
+}
 
 type Props = {
   recipeId: string;
@@ -19,6 +25,7 @@ type Props = {
   initialRatingCount: number;
   initialUserRating: number | null;
   initialComments: SocialComment[];
+  currentUserId: string | null;
 };
 
 export function RecipeSocialPanel({
@@ -29,6 +36,7 @@ export function RecipeSocialPanel({
   initialRatingCount,
   initialUserRating,
   initialComments,
+  currentUserId,
 }: Props) {
   const router = useRouter();
   const [likes, setLikes] = useState(initialLikes);
@@ -166,6 +174,7 @@ export function RecipeSocialPanel({
     setComments((items) => [
       {
         id: data.id,
+        authorId: auth.user.id,
         author: profile?.display_name || profile?.username || "Vous",
         body: data.body,
         createdAt: data.created_at,
@@ -174,6 +183,26 @@ export function RecipeSocialPanel({
     ]);
     setComment("");
     setBusy(false);
+  }
+
+  async function deleteComment(commentId: string) {
+    if (busy || !window.confirm("Supprimer ce commentaire ?")) return;
+    const auth = await requireUser();
+    if (!auth) return;
+
+    setBusy(true);
+    const { error } = await auth.supabase
+      .from("recipe_comments")
+      .update({ deleted_at: new Date().toISOString() })
+      .eq("id", commentId)
+      .eq("user_id", auth.user.id);
+    setBusy(false);
+
+    if (error) {
+      setStatus(error.message);
+      return;
+    }
+    setComments((items) => items.filter((item) => item.id !== commentId));
   }
 
   return (
@@ -228,7 +257,15 @@ export function RecipeSocialPanel({
       <div className="comment-list">
         {comments.slice(0, 20).map((item) => (
           <article className="comment-item" key={item.id}>
-            <strong>{item.author}</strong>
+            <div className="comment-meta">
+              <Link href={`/cooks/${item.authorId}`}><strong>{item.author}</strong></Link>
+              <time dateTime={item.createdAt}>{formatDate(item.createdAt)}</time>
+              {item.authorId === currentUserId ? (
+                <button type="button" className="link-button" onClick={() => void deleteComment(item.id)} disabled={busy}>
+                  Supprimer
+                </button>
+              ) : null}
+            </div>
             <p>{item.body}</p>
           </article>
         ))}

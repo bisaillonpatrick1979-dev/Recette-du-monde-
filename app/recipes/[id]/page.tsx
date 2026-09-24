@@ -161,7 +161,7 @@ export default async function RecipePage({ params }: Props) {
         <div className="account-topbar">
           <Link href="/" className="logo-lockup">
             <span className="logo-globe">🌍</span>
-            <span><strong>Recette de la planète</strong><small>Recette</small></span>
+            <span><strong>Spoontrotter</strong><small>Recette</small></span>
           </Link>
           <div className="recipe-top-actions">
             <Link href="/explore" className="ghost-button">🌍 Globe</Link>
@@ -218,7 +218,7 @@ export default async function RecipePage({ params }: Props) {
           </h1>
           {recipe.is_editorial ? (
             <div className="editorial-provenance">
-              <span>Recette officielle · Recette de la planète</span>
+              <span>Recette officielle · Spoontrotter</span>
               <p>
                 Version adaptée rédigée pour l’application à partir de caractéristiques culinaires documentées.
               </p>

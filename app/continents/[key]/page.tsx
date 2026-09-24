@@ -109,7 +109,7 @@ export default async function ContinentPage({ params }: Props) {
         <header className="continent-page-header">
           <Link href="/" className="continent-page-back">← Accueil</Link>
           <div>
-            <span className="planet-eyebrow">Recette de la planète</span>
+            <span className="planet-eyebrow">Spoontrotter</span>
             <h1>{label}</h1>
             <p>
               {borderless

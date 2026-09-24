@@ -10,7 +10,7 @@ import { fetchAllRows } from "@/lib/supabase/fetch-all";
 import { createClient } from "@/lib/supabase/server";
 
 export const metadata: Metadata = {
-  title: "Recherche | Cuisine du monde",
+  title: "Recherche",
 };
 
 type Props = {

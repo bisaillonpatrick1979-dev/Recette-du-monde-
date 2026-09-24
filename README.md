@@ -1,4 +1,6 @@
-# Cuisine du monde
+# Spoontrotter
+
+*Travel the world, one spoon at a time — Faites le tour du monde, une cuillère à la fois.*
 
 Plateforme mondiale de recettes, communauté culinaire et chef IA.
 

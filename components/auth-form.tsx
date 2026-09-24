@@ -30,7 +30,7 @@ export function AuthForm({ error, message }: Props) {
     <div className="auth-card">
       <div className="onboarding-heading">
         <span className="step-pill">Votre compte</span>
-        <h1>Rejoindre Cuisine du monde</h1>
+        <h1>Rejoindre Spoontrotter</h1>
         <p>
           Sauvegardez vos recettes, publiez vos créations et échangez avec des cuisiniers du monde entier.
         </p>

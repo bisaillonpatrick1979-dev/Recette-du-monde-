@@ -164,7 +164,7 @@ export function HomeExperience({
         <button className="planet-icon-button" type="button" aria-label="Menu">☰</button>
         <Link href="/" className="planet-brand">
           <span className="planet-brand-leaf">◒</span>
-          <strong>Recette de la planète</strong>
+          <strong>Spoontrotter</strong>
         </Link>
         <div className="planet-header-actions">
           <Link href="/community" className="planet-icon-button" aria-label="Communauté">♡</Link>

@@ -30,7 +30,7 @@ type CommonsPage = {
 
 const COMMONS_API = "https://commons.wikimedia.org/w/api.php";
 const USER_AGENT =
-  "Recette-de-la-planete/1.0 (https://github.com/bisaillonpatrick1979-dev/Recette-du-monde-)";
+  "Spoontrotter/1.0 (https://github.com/bisaillonpatrick1979-dev/Recette-du-monde-)";
 
 const REJECT_TITLE =
   /\b(flag|map|locator|coat[ _-]?of[ _-]?arms|emblem|seal|logo|passport|currency|banknote|stamp|diagram|icon|blank|outline)\b/i;

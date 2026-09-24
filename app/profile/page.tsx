@@ -31,7 +31,7 @@ export default async function ProfilePage() {
         <div className="account-topbar">
           <Link href="/" className="logo-lockup">
             <span className="logo-globe">🌍</span>
-            <span><strong>Recette de la planète</strong><small>Mon espace</small></span>
+            <span><strong>Spoontrotter</strong><small>Mon espace</small></span>
           </Link>
           <form action={signOut}><button className="ghost-button">Déconnexion</button></form>
         </div>

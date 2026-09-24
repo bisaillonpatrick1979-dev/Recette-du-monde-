@@ -7,8 +7,8 @@ export default function OnboardingPage() {
         <div className="brand-mark" aria-hidden="true">🌍</div>
         <div>
           <p className="eyebrow">Bienvenue</p>
-          <h1>Cuisine du monde</h1>
-          <p className="muted">Voyagez. Cuisinez. Partagez.</p>
+          <h1>Spoontrotter</h1>
+          <p className="muted">Faites le tour du monde, une cuillère à la fois</p>
         </div>
       </section>
       <OnboardingWizard />

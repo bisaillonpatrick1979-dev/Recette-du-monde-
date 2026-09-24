@@ -13,8 +13,8 @@ export default async function LoginPage({ searchParams }: Props) {
       <Link href="/" className="logo-lockup">
         <span className="logo-globe">🌍</span>
         <span>
-          <strong>Cuisine du monde</strong>
-          <small>Voyagez. Cuisinez. Partagez.</small>
+          <strong>Spoontrotter</strong>
+          <small>Faites le tour du monde, une cuillère à la fois</small>
         </span>
       </Link>
       <AuthForm error={params.error} message={params.message} />

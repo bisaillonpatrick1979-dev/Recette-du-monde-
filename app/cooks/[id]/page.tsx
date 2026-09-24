@@ -77,7 +77,7 @@ export default async function CookProfilePage({ params }: Props) {
               {profile.username ? ` · @${profile.username}` : ""}
             </span>
             <h1>{name}</h1>
-            <p>{profile.bio || "Membre de la communauté Cuisine du monde."}</p>
+            <p>{profile.bio || "Membre de la communauté Spoontrotter."}</p>
             <div className="public-profile-stats">
               <span><strong>{totalRecipes}</strong> recettes</span>
               <span><strong>{followingResult.count ?? 0}</strong> abonnements</span>

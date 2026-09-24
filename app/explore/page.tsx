@@ -12,7 +12,7 @@ import { fetchAllRows } from "@/lib/supabase/fetch-all";
 import { createClient } from "@/lib/supabase/server";
 
 export const metadata: Metadata = {
-  title: "Atlas culinaire | Cuisine du monde",
+  title: "Atlas culinaire",
   description: "Explorez les cuisines du monde par pays, région, île et ville sur un globe interactif.",
 };
 

@@ -33,7 +33,7 @@ const USER_AGENT =
   "Spoontrotter/1.0 (https://github.com/bisaillonpatrick1979-dev/Recette-du-monde-)";
 
 const REJECT_TITLE =
-  /\b(flag|map|locator|coat[ _-]?of[ _-]?arms|emblem|seal|logo|passport|currency|banknote|stamp|diagram|icon|blank|outline|camera[ _-]?photo|ambox|cookbook|recipe[ _-]?book|book[ _-]?cover|catalog|catalogue|manual|brochure|poster|packaging|label|advertisement)\b/i;
+  /\b(flag|map|locator|coat[ _-]?of[ _-]?arms|emblem|seal|logo|passport|currency|banknote|stamp|diagram|icon|blank|outline|camera[ _-]?photo|ambox|book[ _-]?cover|catalog|catalogue|manual|brochure|poster|packaging|label|advertisement)\b/i;
 
 const RECIPE_MATCH_STOPWORDS = new Set([
   "classic","traditional","style","with","and","the","from","food","dish","recipe",

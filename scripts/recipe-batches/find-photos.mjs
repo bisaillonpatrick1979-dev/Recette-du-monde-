@@ -32,10 +32,12 @@ const stripTags = (s) => (s ?? "").replace(/<[^>]*>/g, "").replace(/\s+/g, " ").
 
 async function api(params) {
   const url = `${API}?${new URLSearchParams({ format: "json", origin: "*", ...params })}`;
-  for (let attempt = 0; attempt < 3; attempt += 1) {
+  // Commons limite le débit (429) : on respecte Retry-After, sinon on attend de plus en plus longtemps.
+  for (let attempt = 0; attempt < 8; attempt += 1) {
     const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
     if (res.ok) return res.json();
-    await new Promise((r) => setTimeout(r, 2000 * (attempt + 1)));
+    const retryAfter = Number(res.headers.get("retry-after"));
+    await new Promise((r) => setTimeout(r, retryAfter > 0 ? retryAfter * 1000 : 5000 * 2 ** Math.min(attempt, 4)));
   }
   throw new Error(`Commons a refusé la requête : ${url}`);
 }
@@ -95,6 +97,6 @@ for (const r of recipes) {
     }
   }
   writeFileSync(candidatesPath, JSON.stringify(candidates, null, 1));
-  await new Promise((res) => setTimeout(res, 300));
+  await new Promise((res) => setTimeout(res, 1500));
 }
 console.log(`${found} recettes avec au moins une photo candidate → ${candidatesPath.replace(ROOT, "")}`);

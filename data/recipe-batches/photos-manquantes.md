@@ -19,7 +19,9 @@ Règle (PIPELINE.md §4) : chaque photo doit montrer ce plat précis, sous licen
 - Recettes des anciennes migrations (sans slug) cherchées sur Commons : 93
   - ✅ Photo validée à l'œil : **69** → `photos-legacy.json` (par identifiant), migration `*_legacy_recipe_photos.sql` (`build-legacy-photos.mjs`)
   - ❌ Pas de photo Commons exacte : 24
-- **Total : 257 photos ajoutées, 180 recettes encore sans photo.**
+- **Total première passe : 257 photos ajoutées.**
+- 2ᵉ passe (2026-09-26, recherche Commons par catégories, descriptions et noms alternatifs — orthographes locales, alphabets d’origine, noms anglais) sur les 180 restantes : **52 photos validées à l’œil** (42 lots dans `photos.json`, 10 anciennes dans `photos-legacy.json`), migration `20260926090000_recipe_photos_second_pass.sql`.
+- **Total : 309 photos ajoutées, 128 recettes encore sans photo.** Pour celles-ci, Commons ne contient pas de photo montrant exactement le plat (souvent seulement l’ingrédient cru, un homonyme ou un plat voisin d’un autre pays).
 
 Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche).
 
@@ -38,7 +40,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Andorre (AD) — 3
 
 - `cargols-a-la-llauna` — Cargols a la llauna 🅱 — _Andorran cargols a la llauna (grilled snails with allioli)_ — ✅ photo validée
-- `civet-de-senglar` — Civet de senglar 🅱 — _Andorran civet de senglar (wild boar stew in red wine)_ — ∅ aucune candidate Commons
+- `civet-de-senglar` — Civet de senglar 🅱 — _Andorran civet de senglar (wild boar stew in red wine)_ — ✅ photo validée (2ᵉ passe)
 - `truita-de-carreroles` — Truita de carreroles 🅱 — _Andorran truita de carreroles (fairy ring mushroom omelette)_ — ∅ aucune candidate Commons
 
 ## Angola (AO) — 5
@@ -53,7 +55,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `jareesh-najdi` — Jareesh 🅱 — _Najdi jareesh (cracked wheat with yogurt)_ — ❌ candidates rejetées
 - `kleija-qassim` — Kleija 🅱 — _Qassim kleija (date and cardamom cookies)_ — ∅ aucune candidate Commons
-- `mutabbaq-jeddah` — Mutabbaq 🅱 — _Jeddah mutabbaq (stuffed pan-fried pastry)_ — ∅ aucune candidate Commons
+- `mutabbaq-jeddah` — Mutabbaq 🅱 — _Jeddah mutabbaq (stuffed pan-fried pastry)_ — ✅ photo validée (2ᵉ passe)
 
 ## Argentine (AR) — 2
 
@@ -62,31 +64,31 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 ## Arménie (AM) — 3
 
-- `gata-armenienne` — Gata 🅱 — _Armenian gata (sweet buttery pastry)_ — ❌ candidates rejetées
+- `gata-armenienne` — Gata 🅱 — _Armenian gata (sweet buttery pastry)_ — ✅ photo validée (2ᵉ passe)
 - `ghapama-armenienne` — Ghapama 🅱 — _Armenian ghapama (pumpkin stuffed with rice and dried fruit)_ — ✅ photo validée
 - `harissa-armenienne` — Harissa (Arménie) 🅱 — _Armenian harissa (wheat and chicken porridge)_ — ❌ candidates rejetées
 
 ## Australie (AU) — 1
 
-- `damper-australien` — Damper 🅱 — _Australian damper (bush bread)_ — ❌ candidates rejetées
+- `damper-australien` — Damper 🅱 — _Australian damper (bush bread)_ — ✅ photo validée (2ᵉ passe)
 
 ## Azerbaïdjan (AZ) — 3
 
 - `dushbara-azerbaidjan` — Düşbərə 🅱 — _Azerbaijani dushbara (tiny lamb dumpling soup)_ — ✅ photo validée
-- `lavangi-lankaran` — Ləvəngi 🅱 — _Lankaran lavangi (chicken stuffed with walnuts and sour plums)_ — ❌ candidates rejetées
+- `lavangi-lankaran` — Ləvəngi 🅱 — _Lankaran lavangi (chicken stuffed with walnuts and sour plums)_ — ✅ photo validée (2ᵉ passe)
 - `piti-sheki` — Piti 🅱 — _Sheki piti (lamb and chickpea soup in a clay pot)_ — ✅ photo validée
 
 ## Bahamas (BS) — 5
 
 - `chicken-souse-bahamas` — Chicken souse 🅱 — _Bahamian chicken souse (lime and chicken soup)_ — ❌ candidates rejetées
-- `guava-duff` — Guava duff 🅱 — _Bahamian guava duff (guava roll with rum sauce)_ — ❌ candidates rejetées
+- `guava-duff` — Guava duff 🅱 — _Bahamian guava duff (guava roll with rum sauce)_ — ✅ photo validée (2ᵉ passe)
 - `johnnycake-bahamas` — Johnnycake 🅱 — _Bahamian johnnycake_ — ❌ candidates rejetées
 - `None` — Bahamian conch salad — ✅ photo validée
 - `None` — Bahamian peas n' rice — ✅ photo validée
 
 ## Bahreïn (BH) — 3
 
-- `gers-ogaily` — Gers ogaily 🅱 — _Bahraini gers ogaily (saffron cardamom cake)_ — ∅ aucune candidate Commons
+- `gers-ogaily` — Gers ogaily 🅱 — _Bahraini gers ogaily (saffron cardamom cake)_ — ✅ photo validée (2ᵉ passe)
 - `halwa-bahreinie` — Halwa bahreïnie 🅱 — _Bahraini halwa (saffron starch sweet with nuts)_ — ❌ candidates rejetées
 - `muhammar-bahrein` — Muhammar 🅱 — _Bahraini muhammar (sweet date-syrup rice)_ — ∅ aucune candidate Commons
 
@@ -108,15 +110,15 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `gaufres-de-liege` — Gaufre de Liège 🅱 — _Liège waffles (pearl sugar yeast waffles)_ — ✅ photo validée
 - `stoemp-bruxellois` — Stoemp 🅱 — _Brussels stoemp (potato and vegetable mash with sausage)_ — ✅ photo validée
-- `waterzooi-gantois` — Gentse waterzooi 🅱 — _Ghent waterzooi (creamy chicken and vegetable stew)_ — ❌ candidates rejetées
+- `waterzooi-gantois` — Gentse waterzooi 🅱 — _Ghent waterzooi (creamy chicken and vegetable stew)_ — ✅ photo validée (2ᵉ passe)
 
 ## Belize (BZ) — 5
 
 - `fry-jacks-belize` — Fry jacks 🅱 — _Belizean fry jacks_ — ✅ photo validée
-- `hudut-dangriga` — Hudut 🅱 — _Garifuna hudut from Dangriga (fish in coconut broth with mashed plantain)_ — ❌ candidates rejetées
+- `hudut-dangriga` — Hudut 🅱 — _Garifuna hudut from Dangriga (fish in coconut broth with mashed plantain)_ — ✅ photo validée (2ᵉ passe)
 - `salbutes-belize` — Salbutes 🅱 — _Belizean salbutes (puffed tortillas with chicken)_ — ✅ photo validée
 - `None` — Belizean rice and beans with stew chicken — ✅ photo validée
-- `None` — Chimole — ❌ pas de photo Commons exacte
+- `None` — Chimole — ✅ photo validée (2ᵉ passe)
 
 ## Bhoutan (BT) — 3
 
@@ -184,7 +186,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Chili (CL) — 3
 
 - `cazuela-chilena` — Cazuela 🅱 — _Chilean cazuela (meat, corn and pumpkin soup)_ — ❌ candidates rejetées
-- `curanto-chiloe` — Curanto 🅱 — _Chiloé curanto (seafood and meat steamed with leaves)_ — ❌ candidates rejetées
+- `curanto-chiloe` — Curanto 🅱 — _Chiloé curanto (seafood and meat steamed with leaves)_ — ✅ photo validée (2ᵉ passe)
 - `sopaipillas-chilenas` — Sopaipillas 🅱 — _Chilean sopaipillas (pumpkin fried dough)_ — ✅ photo validée
 
 ## Chypre (CY) — 5
@@ -234,14 +236,14 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Danemark (DK) — 3
 
 - `aebleskiver` — Æbleskiver 🅱 — _Danish æbleskiver (Christmas pancake puffs)_ — ✅ photo validée
-- `rodgrod-med-flode` — Rødgrød med fløde 🅱 — _Danish rødgrød med fløde (red berry pudding with cream)_ — ∅ aucune candidate Commons
+- `rodgrod-med-flode` — Rødgrød med fløde 🅱 — _Danish rødgrød med fløde (red berry pudding with cream)_ — ✅ photo validée (2ᵉ passe)
 - `stegt-flaesk-persillesovs` — Stegt flæsk med persillesovs 🅱 — _Danish stegt flæsk (crispy pork belly with parsley sauce)_ — ✅ photo validée
 
 ## Djibouti (DJ) — 4
 
 - `fah-fah-djiboutien` — Fah-fah 🅱 — _Djiboutian fah-fah (spicy goat soup)_ — ∅ aucune candidate Commons
 - `poisson-yemenite-djibouti` — Poisson à la yéménite (mukbasa) 🅱 — _Djibouti Yemeni-style fish (tandoor-roasted fish with chili paste)_ — ∅ aucune candidate Commons
-- `sambusa-djiboutienne` — Sambusa 🅱 — _Djiboutian sambusa (fried minced-meat triangles)_ — ∅ aucune candidate Commons
+- `sambusa-djiboutienne` — Sambusa 🅱 — _Djiboutian sambusa (fried minced-meat triangles)_ — ✅ photo validée (2ᵉ passe)
 - `None` — Skoudehkaris — ❌ pas de photo Commons exacte
 
 ## Estonie (EE) — 2
@@ -265,7 +267,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 ## Gambie (GM) — 2
 
-- `benachin-gambien` — Benachin 🅱 — _Gambian benachin (one-pot fish and rice)_ — ∅ aucune candidate Commons
+- `benachin-gambien` — Benachin 🅱 — _Gambian benachin (one-pot fish and rice)_ — ✅ photo validée (2ᵉ passe)
 - `domoda-gambien` — Domoda 🅱 — _Gambian domoda (beef and peanut stew)_ — ✅ photo validée
 
 ## Ghana (GH) — 3
@@ -321,8 +323,8 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Irak (IQ) — 4
 
 - `kleicha-irakiens` — Kleicha 🅱 — _Iraqi kleicha (date-filled cookies)_ — ✅ photo validée
-- `kubbat-mosul` — Kubbat Mosul 🅱 — _Kubbat Mosul (large flat bulgur kibbeh)_ — ∅ aucune candidate Commons
-- `tepsi-baytinjan` — Tepsi baytinjan 🅱 — _Iraqi tepsi baytinjan (eggplant and meatball casserole)_ — ∅ aucune candidate Commons
+- `kubbat-mosul` — Kubbat Mosul 🅱 — _Kubbat Mosul (large flat bulgur kibbeh)_ — ✅ photo validée (2ᵉ passe)
+- `tepsi-baytinjan` — Tepsi baytinjan 🅱 — _Iraqi tepsi baytinjan (eggplant and meatball casserole)_ — ✅ photo validée (2ᵉ passe)
 - `None` — Dolma irakien aux légumes farcis — ✅ photo validée
 
 ## Iran (IR) — 3
@@ -333,7 +335,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 ## Irlande (IE) — 1
 
-- `None` — Boxty irlandais aux pommes de terre — ❌ pas de photo Commons exacte
+- `None` — Boxty irlandais aux pommes de terre — ✅ photo validée (2ᵉ passe)
 
 ## Islande (IS) — 4
 
@@ -354,9 +356,9 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 ## Jordanie (JO) — 3
 
-- `galayet-bandora` — Galayet bandora 🅱 — _Jordanian galayet bandora (pan-fried tomatoes with garlic)_ — ∅ aucune candidate Commons
+- `galayet-bandora` — Galayet bandora 🅱 — _Jordanian galayet bandora (pan-fried tomatoes with garlic)_ — ✅ photo validée (2ᵉ passe)
 - `kofta-bi-tahini` — Kofta bi tahini 🅱 — _Jordanian kofta bi tahini (baked kofta in tahini sauce)_ — ∅ aucune candidate Commons
-- `zarb-wadi-rum` — Zarb 🅱 — _Wadi Rum zarb (Bedouin underground-roasted lamb)_ — ❌ candidates rejetées
+- `zarb-wadi-rum` — Zarb 🅱 — _Wadi Rum zarb (Bedouin underground-roasted lamb)_ — ✅ photo validée (2ᵉ passe)
 
 ## Kazakhstan (KZ) — 4
 
@@ -381,8 +383,8 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Laos (LA) — 4
 
 - `mok-pa-lao` — Mok pa 🅱 — _Lao mok pa (steamed fish in banana leaf)_ — ∅ aucune candidate Commons
-- `or-lam-luang-prabang` — Or lam 🅱 — _Luang Prabang or lam (stew with eggplant and pepper wood)_ — ∅ aucune candidate Commons
-- `tam-mak-hoong` — Tam mak hoong 🅱 — _Lao tam mak hoong (pounded green papaya salad)_ — ∅ aucune candidate Commons
+- `or-lam-luang-prabang` — Or lam 🅱 — _Luang Prabang or lam (stew with eggplant and pepper wood)_ — ✅ photo validée (2ᵉ passe)
+- `tam-mak-hoong` — Tam mak hoong 🅱 — _Lao tam mak hoong (pounded green papaya salad)_ — ✅ photo validée (2ᵉ passe)
 - `None` — Khao piak sen lao — ✅ photo validée
 
 ## Lettonie (LV) — 3
@@ -395,12 +397,12 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `fattoush` — Fattoush 🅱 — _Lebanese fattoush (toasted bread salad with sumac)_ — ✅ photo validée
 - `manakish-zaatar` — Manakish za'atar 🅱 — _Lebanese manakish za'atar (za'atar flatbread)_ — ✅ photo validée
-- `None` — Kibbeh libanais au four — ❌ pas de photo Commons exacte
+- `None` — Kibbeh libanais au four — ✅ photo validée (2ᵉ passe)
 
 ## Libye (LY) — 2
 
-- `bazeen-libyen` — Bazeen 🅱 — _Libyan bazeen (barley dough dome with lamb sauce)_ — ❌ candidates rejetées
-- `sharba-libiya` — Sharba libiya 🅱 — _Libyan sharba (lamb and orzo soup with mint)_ — ∅ aucune candidate Commons
+- `bazeen-libyen` — Bazeen 🅱 — _Libyan bazeen (barley dough dome with lamb sauce)_ — ✅ photo validée (2ᵉ passe)
+- `sharba-libiya` — Sharba libiya 🅱 — _Libyan sharba (lamb and orzo soup with mint)_ — ✅ photo validée (2ᵉ passe)
 
 ## Libéria (LR) — 3
 
@@ -430,7 +432,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `ajvar` — Ajvar 🅱 — _Macedonian ajvar (roasted red pepper relish)_ — ✅ photo validée
 - `ohridska-pastrmka` — Ohridska pastrmka 🅱 — _Ohrid trout baked with garlic and lemon_ — ∅ aucune candidate Commons
-- `selsko-meso` — Selsko meso 🅱 — _Macedonian selsko meso (village-style meat)_ — ∅ aucune candidate Commons
+- `selsko-meso` — Selsko meso 🅱 — _Macedonian selsko meso (village-style meat)_ — ✅ photo validée (2ᵉ passe)
 
 ## Madagascar (MG) — 5
 
@@ -449,7 +451,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Malawi (MW) — 3
 
 - `kondowole-malawien` — Kondowole 🅱 — _Malawian kondowole (cassava flour porridge)_ — ∅ aucune candidate Commons
-- `mandasi-malawien` — Mandasi 🅱 — _Malawian mandasi (breakfast doughnuts)_ — ∅ aucune candidate Commons
+- `mandasi-malawien` — Mandasi 🅱 — _Malawian mandasi (breakfast doughnuts)_ — ✅ photo validée (2ᵉ passe)
 - `ndiwo-za-nkhwani` — Nkhwani 🅱 — _Malawian nkhwani (pumpkin leaves with peanut flour)_ — ∅ aucune candidate Commons
 
 ## Maldives (MV) — 3
@@ -468,11 +470,11 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Maroc (MA) — 2
 
 - `tajine-poulet-citron-olives` — Tajine de poulet aux citrons confits et olives 🅱 — _Moroccan chicken tagine with preserved lemons and olives_ — ✅ photo validée
-- `tanjia-marrakchia` — Tanjia marrakchia 🅱 — _Marrakech tanjia (slow-cooked beef in a clay urn)_ — ❌ candidates rejetées
+- `tanjia-marrakchia` — Tanjia marrakchia 🅱 — _Marrakech tanjia (slow-cooked beef in a clay urn)_ — ✅ photo validée (2ᵉ passe)
 
 ## Maurice (MU) — 5
 
-- `gateaux-piments-maurice` — Gâteaux piments 🅱 — _Mauritian gâteaux piments (split pea chili fritters)_ — ∅ aucune candidate Commons
+- `gateaux-piments-maurice` — Gâteaux piments 🅱 — _Mauritian gâteaux piments (split pea chili fritters)_ — ✅ photo validée (2ᵉ passe)
 - `rougaille-saucisses-maurice` — Rougaille saucisses 🅱 — _Mauritian rougaille with sausages (spicy tomato sauce)_ — ∅ aucune candidate Commons
 - `vindaye-poisson-maurice` — Vindaye de poisson 🅱 — _Mauritian fish vindaye (fried fish in mustard-turmeric pickle)_ — ✅ photo validée
 - `None` — Dholl puri — ✅ photo validée
@@ -481,7 +483,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Moldavie (MD) — 3
 
 - `coltunasi-moldaves` — Colțunași 🅱 — _Moldovan colțunași (cheese dumplings)_ — ∅ aucune candidate Commons
-- `mamaliga-moldave` — Mămăligă cu brânză și smântână 🅱 — _Moldovan mămăligă with cheese and sour cream_ — ∅ aucune candidate Commons
+- `mamaliga-moldave` — Mămăligă cu brânză și smântână 🅱 — _Moldovan mămăligă with cheese and sour cream_ — ✅ photo validée (2ᵉ passe)
 - `parjoale-moldaves` — Pârjoale 🅱 — _Moldovan pârjoale (herbed meat patties)_ — ✅ photo validée
 
 ## Mongolie (MN) — 4
@@ -495,8 +497,8 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `buzara-boka` — Buzara 🅱 — _Boka Kotorska buzara (mussels in white wine and garlic)_ — ❌ candidates rejetées
 - `cicvara` — Cicvara 🅱 — _Montenegrin cicvara (cornmeal with young cheese)_ — ✅ photo validée
-- `njeguski-raznjic` — Njeguški ražanj 🅱 — _Njeguši ražanj (pork stuffed with prosciutto and cheese)_ — ∅ aucune candidate Commons
-- `None` — Jagnjetina ispod sača — ❌ pas de photo Commons exacte
+- `njeguski-raznjic` — Njeguški ražanj 🅱 — _Njeguši ražanj (pork stuffed with prosciutto and cheese)_ — ✅ photo validée (2ᵉ passe)
+- `None` — Jagnjetina ispod sača — ✅ photo validée (2ᵉ passe)
 
 ## Mozambique (MZ) — 3
 
@@ -513,8 +515,8 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 ## Namibie (NA) — 3
 
-- `omboga-namibien` — Omboga 🅱 — _Namibian omboga (wild spinach with onion)_ — ❌ candidates rejetées
-- `oshifima-namibien` — Oshifima 🅱 — _Owambo oshifima (mahangu millet porridge)_ — ∅ aucune candidate Commons
+- `omboga-namibien` — Omboga 🅱 — _Namibian omboga (wild spinach with onion)_ — ✅ photo validée (2ᵉ passe)
+- `oshifima-namibien` — Oshifima 🅱 — _Owambo oshifima (mahangu millet porridge)_ — ✅ photo validée (2ᵉ passe)
 - `vetkoek-namibien` — Vetkoek 🅱 — _Namibian vetkoek (fried bread with savory mince)_ — ✅ photo validée
 
 ## Nicaragua (NI) — 4
@@ -526,16 +528,16 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 ## Norvège (NO) — 4
 
-- `bergensk-fiskesuppe` — Bergensk fiskesuppe 🅱 — _Bergen fish soup (bergensk fiskesuppe)_ — ∅ aucune candidate Commons
+- `bergensk-fiskesuppe` — Bergensk fiskesuppe 🅱 — _Bergen fish soup (bergensk fiskesuppe)_ — ✅ photo validée (2ᵉ passe)
 - `lapskaus-norvegien` — Lapskaus 🅱 — _Norwegian lapskaus (meat and root vegetable stew)_ — ❌ candidates rejetées
-- `raspeballer` — Raspeballer 🅱 — _Norwegian raspeballer (potato dumplings)_ — ∅ aucune candidate Commons
+- `raspeballer` — Raspeballer 🅱 — _Norwegian raspeballer (potato dumplings)_ — ✅ photo validée (2ᵉ passe)
 - `None` — Kjøttkaker norvégiennes — ✅ photo validée
 
 ## Nouvelle-Zélande (NZ) — 4
 
 - `hangi` — Hāngī 🅱 — _Māori hāngī (earth oven feast)_ — ✅ photo validée
 - `whitebait-fritters` — Whitebait fritters 🅱 — _West Coast whitebait fritters_ — ✅ photo validée
-- `None` — Parāoa rēwena — ❌ pas de photo Commons exacte
+- `None` — Parāoa rēwena — ✅ photo validée (2ᵉ passe)
 - `None` — Māori boil-up — ✅ photo validée
 
 ## Népal (NP) — 4
@@ -550,7 +552,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 - `halwa-omanaise` — Halwa omanaise 🅱 — _Omani halwa (saffron and rosewater sweet)_ — ✅ photo validée
 - `mashuai-omanais` — Mashuai 🅱 — _Omani mashuai (grilled kingfish with lemon rice)_ — ∅ aucune candidate Commons
 - `mishkak-omanais` — Mishkak 🅱 — _Omani mishkak (tamarind beef skewers)_ — ∅ aucune candidate Commons
-- `None` — Majboos — ❌ pas de photo Commons exacte
+- `None` — Majboos — ✅ photo validée (2ᵉ passe)
 
 ## Ouganda (UG) — 4
 
@@ -562,7 +564,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Ouzbékistan (UZ) — 4
 
 - `samsa-ouzbek` — Samsa 🅱 — _Uzbek samsa (tandoor-baked lamb pastries)_ — ✅ photo validée
-- `shurpa-ouzbek` — Shurpa 🅱 — _Uzbek shurpa (lamb vegetable soup)_ — ∅ aucune candidate Commons
+- `shurpa-ouzbek` — Shurpa 🅱 — _Uzbek shurpa (lamb vegetable soup)_ — ✅ photo validée (2ᵉ passe)
 - `tuxum-barak-khorezm` — Tuxum barak 🅱 — _Khorezm tukhum barak (egg-filled dumplings)_ — ✅ photo validée
 - `None` — Manti ouzbeks à l’agneau — ✅ photo validée
 
@@ -575,7 +577,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Palestine (PS) — 4
 
 - `knafeh-nabulsieh` — Knafeh nabulsieh 🅱 — _Nablus knafeh (sweet cheese pastry)_ — ✅ photo validée
-- `maftoul-palestinien` — Maftoul 🅱 — _Palestinian maftoul (hand-rolled couscous with chicken and chickpeas)_ — ∅ aucune candidate Commons
+- `maftoul-palestinien` — Maftoul 🅱 — _Palestinian maftoul (hand-rolled couscous with chicken and chickpeas)_ — ✅ photo validée (2ᵉ passe)
 - `musakhan-palestinien` — Musakhan 🅱 — _Palestinian musakhan (sumac roast chicken on taboun bread)_ — ✅ photo validée
 - `sumagiyya-gaza` — Sumagiyya 🅱 — _Gaza sumagiyya (lamb and chard stew with sumac and tahini)_ — ∅ aucune candidate Commons
 
@@ -596,7 +598,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `chipa-guasu` — Chipa guasu 🅱 — _Paraguayan chipa guasu (fresh corn and cheese bake)_ — ✅ photo validée
 - `mbeju` — Mbejú 🅱 — _Paraguayan mbejú (cassava starch and cheese flatbread)_ — ✅ photo validée
-- `vori-vori` — Vori vori 🅱 — _Paraguayan vori vori (chicken soup with corn and cheese dumplings)_ — ❌ candidates rejetées
+- `vori-vori` — Vori vori 🅱 — _Paraguayan vori vori (chicken soup with corn and cheese dumplings)_ — ✅ photo validée (2ᵉ passe)
 - `None` — Chipa — ✅ photo validée
 - `None` — Sopa paraguaya — ✅ photo validée
 
@@ -636,7 +638,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 ## République dominicaine (DO) — 3
 
-- `sancocho-dominicano` — Sancocho dominicano 🅱 — _Dominican sancocho (hearty meat and root vegetable stew)_ — ❌ candidates rejetées
+- `sancocho-dominicano` — Sancocho dominicano 🅱 — _Dominican sancocho (hearty meat and root vegetable stew)_ — ✅ photo validée (2ᵉ passe)
 - `None` — La Bandera Dominicana — ❌ pas de photo Commons exacte
 - `None` — Mangú — ✅ photo validée
 
@@ -662,7 +664,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `karadjordjeva-snicla` — Karađorđeva šnicla 🅱 — _Belgrade Karađorđeva šnicla (breaded kajmak-stuffed schnitzel)_ — ✅ photo validée
 - `pasulj` — Pasulj 🅱 — _Serbian pasulj (bean stew with smoked meat)_ — ✅ photo validée
-- `pljeskavica-leskovac` — Leskovačka pljeskavica 🅱 — _Leskovac pljeskavica (spicy grilled meat patty)_ — ❌ candidates rejetées
+- `pljeskavica-leskovac` — Leskovačka pljeskavica 🅱 — _Leskovac pljeskavica (spicy grilled meat patty)_ — ✅ photo validée (2ᵉ passe)
 - `None` — Gibanica serbe au fromage — ✅ photo validée
 
 ## Singapour (SG) — 4
@@ -685,7 +687,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 - `potica` — Potica 🅱 — _Slovenian potica (walnut roll)_ — ✅ photo validée
 - `prekmurska-gibanica` — Prekmurska gibanica 🅱 — _Prekmurje gibanica (layered poppy, cheese, walnut and apple cake)_ — ✅ photo validée
 - `None` — Kraška jota — ❌ pas de photo Commons exacte
-- `None` — Skutni štruklji — ❌ pas de photo Commons exacte
+- `None` — Skutni štruklji — ✅ photo validée (2ᵉ passe)
 
 ## Somalie (SO) — 3
 
@@ -712,7 +714,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 - `bara-suriname` — Bara 🅱 — _Surinamese bara (split pea fritters)_ — ❌ candidates rejetées
 - `moksi-alesi` — Moksi alesi 🅱 — _Surinamese moksi alesi (mixed rice)_ — ∅ aucune candidate Commons
 - `saoto-soep` — Saoto soep 🅱 — _Surinamese saoto soup (Javanese chicken soup)_ — ∅ aucune candidate Commons
-- `None` — Surinamese pom — ❌ pas de photo Commons exacte
+- `None` — Surinamese pom — ✅ photo validée (2ᵉ passe)
 - `None` — Surinamese chicken roti — ✅ photo validée
 
 ## Suède (SE) — 2
@@ -742,7 +744,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Taïwan (TW) — 3
 
 - `lu-rou-fan` — Lu rou fan 🅱 — _Taiwanese lu rou fan (braised pork rice)_ — ✅ photo validée
-- `niu-rou-mian` — Niu rou mian 🅱 — _Taiwanese beef noodle soup (niu rou mian)_ — ∅ aucune candidate Commons
+- `niu-rou-mian` — Niu rou mian 🅱 — _Taiwanese beef noodle soup (niu rou mian)_ — ✅ photo validée (2ᵉ passe)
 - `san-bei-ji` — San bei ji 🅱 — _Taiwanese three-cup chicken (san bei ji)_ — ✅ photo validée
 
 ## Tchad (TD) — 5
@@ -762,7 +764,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Timor-Leste (TL) — 3
 
 - `feijoada-timorense` — Feijoada timorense 🅱 — _Timorese feijoada (pork and bean stew)_ — ✅ photo validée
-- `katupa-timor` — Katupa 🅱 — _Timorese katupa (coconut rice in woven palm leaves)_ — ∅ aucune candidate Commons
+- `katupa-timor` — Katupa 🅱 — _Timorese katupa (coconut rice in woven palm leaves)_ — ✅ photo validée (2ᵉ passe)
 - `tukir-timor` — Tukir 🅱 — _Timorese tukir (meat cooked in bamboo)_ — ✅ photo validée
 
 ## Trinité-et-Tobago (TT) — 5
@@ -770,7 +772,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 - `bake-and-shark-maracas` — Bake and shark 🅱 — _Maracas Bay bake and shark_ — ✅ photo validée
 - `curry-crab-and-dumpling` — Curry crab and dumpling 🅱 — _Tobago curry crab and dumpling_ — ❌ candidates rejetées
 - `pelau-trinidad` — Pelau 🅱 — _Trinidadian pelau (caramelized chicken and pigeon pea rice)_ — ✅ photo validée
-- `None` — Trinidad doubles — ❌ pas de photo Commons exacte
+- `None` — Trinidad doubles — ✅ photo validée (2ᵉ passe)
 - `None` — Trinidad and Tobago callaloo — ✅ photo validée
 
 ## Tunisie (TN) — 4
@@ -785,11 +787,11 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 - `banosh-carpates` — Banosh 🅱 — _Carpathian banosh (cornmeal with cream, brynza and cracklings)_ — ✅ photo validée
 - `deruny-ukrainiens` — Deruny 🅱 — _Ukrainian deruny (potato pancakes)_ — ✅ photo validée
 - `syrnyky-ukrainiens` — Syrnyky 🅱 — _Ukrainian syrnyky (farmer's cheese pancakes)_ — ❌ candidates rejetées
-- `None` — Varenyky ukrainiens aux pommes de terre — ❌ pas de photo Commons exacte
+- `None` — Varenyky ukrainiens aux pommes de terre — ✅ photo validée (2ᵉ passe)
 
 ## Uruguay (UY) — 4
 
-- `chaja-paysandu` — Chajá 🅱 — _Paysandú chajá (sponge, meringue, cream and peach cake)_ — ❌ candidates rejetées
+- `chaja-paysandu` — Chajá 🅱 — _Paysandú chajá (sponge, meringue, cream and peach cake)_ — ✅ photo validée (2ᵉ passe)
 - `torta-frita-uruguaya` — Torta frita 🅱 — _Uruguayan torta frita (fried dough)_ — ✅ photo validée
 - `None` — Asado uruguayo — ✅ photo validée
 - `None` — Chivito uruguayo — ✅ photo validée
@@ -807,11 +809,11 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 ## Viêt Nam (VN) — 1
 
-- `cao-lau-hoi-an` — Cao lầu 🅱 — _Hội An cao lầu (pork and herb noodles)_ — ∅ aucune candidate Commons
+- `cao-lau-hoi-an` — Cao lầu 🅱 — _Hội An cao lầu (pork and herb noodles)_ — ✅ photo validée (2ᵉ passe)
 
 ## Yémen (YE) — 2
 
-- `fahsa-sanaa` — Fahsa 🅱 — _Sanaa fahsa (bubbling shredded lamb stew with fenugreek froth)_ — ❌ candidates rejetées
+- `fahsa-sanaa` — Fahsa 🅱 — _Sanaa fahsa (bubbling shredded lamb stew with fenugreek froth)_ — ✅ photo validée (2ᵉ passe)
 - `mandi-hadramaout` — Mandi 🅱 — _Hadhramaut mandi (smoked lamb over spiced rice)_ — ❌ candidates rejetées
 
 ## Zambie (ZM) — 3
@@ -830,7 +832,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `chebab-emirati` — Chebab 🅱 — _Emirati chebab (saffron and cardamom pancakes)_ — ❌ candidates rejetées
 - `saloona-emirati` — Saloona 🅱 — _Emirati saloona (chicken and vegetable stew)_ — ❌ candidates rejetées
-- `thareed-emirati` — Thareed 🅱 — _Emirati thareed (lamb stew over regag bread)_ — ∅ aucune candidate Commons
+- `thareed-emirati` — Thareed 🅱 — _Emirati thareed (lamb stew over regag bread)_ — ✅ photo validée (2ᵉ passe)
 
 ## Équateur (EC) — 4
 

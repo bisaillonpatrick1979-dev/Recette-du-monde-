@@ -99,7 +99,7 @@ export function isTrustedRecipeImage(
   const rawSource = [image.external_url, image.source_page_url].filter(Boolean).join(" ");
   if (!rawSource) return Boolean(image.storage_path);
 
-  if (/\.(?:pdf|svg)(?:[?#]|$)/i.test(rawSource)) return false;
+  if (/\.(?:pdf|svg|tif|tiff|djvu)(?:[?#]|$)/i.test(rawSource)) return false;
 
   const source = normalizeMediaText(rawSource);
   if (

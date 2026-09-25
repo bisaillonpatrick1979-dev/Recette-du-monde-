@@ -35,6 +35,13 @@ const USER_AGENT =
 const REJECT_TITLE =
   /\b(flag|map|locator|coat[ _-]?of[ _-]?arms|emblem|seal|logo|passport|currency|banknote|stamp|diagram|icon|blank|outline|camera[ _-]?photo|ambox|book[ _-]?cover|catalog|catalogue|manual|brochure|poster|packaging|label|advertisement)\b/i;
 
+const DISH_TYPE_TERMS = new Set([
+  "pizza", "burger", "sandwich", "milkshake", "candy", "smoothie",
+  "muffin", "muffins", "cupcake", "cupcakes", "cookie", "cookies",
+  "brownie", "brownies", "bundt", "pie", "tart", "popsicle", "sundae",
+  "schnitzel", "wrap", "wraps",
+]);
+
 const RECIPE_MATCH_STOPWORDS = new Set([
   "classic","traditional","style","with","and","the","from","food","dish","recipe",
   "chicken","beef","pork","fish","soup","rice","salad","bread","stew","meat",
@@ -62,6 +69,13 @@ function recipeMatchTokens(value: string) {
 function recipeImageMatchesTitle(image: WikimediaPlaceImage, recipeTitle: string) {
   const imageText = normalizedRecipeText(image.title);
   const titleText = normalizedRecipeText(recipeTitle);
+  const imageWords = new Set(imageText.split(" "));
+  const titleWords = new Set(titleText.split(" "));
+
+  const conflictingDishType = [...DISH_TYPE_TERMS].some(
+    (term) => imageWords.has(term) && !titleWords.has(term),
+  );
+  if (conflictingDishType) return false;
 
   if (titleText && imageText.includes(titleText)) return true;
 
@@ -69,7 +83,7 @@ function recipeImageMatchesTitle(image: WikimediaPlaceImage, recipeTitle: string
   if (!tokens.length) return false;
 
   const matches = tokens.filter((token) => imageText.includes(token));
-  const minimumMatches = Math.max(1, Math.ceil(tokens.length * 0.5));
+  const minimumMatches = tokens.length <= 3 ? tokens.length : Math.ceil(tokens.length * 0.75);
 
   return matches.length >= minimumMatches;
 }

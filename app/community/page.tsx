@@ -1,44 +1,66 @@
 import Image from "next/image";
 import Link from "next/link";
 import { resolveMediaUrl } from "@/lib/media";
+import { fetchAllRows } from "@/lib/supabase/fetch-all";
 import { createClient } from "@/lib/supabase/server";
 
-export default async function CommunityPage() {
+type Props = { searchParams: Promise<{ fil?: string }> };
+
+const FEED_SIZE = 36;
+const AUTHOR_BATCH = 100;
+
+function chunk<T>(items: T[], size: number) {
+  const chunks: T[][] = [];
+  for (let index = 0; index < items.length; index += size) chunks.push(items.slice(index, index + size));
+  return chunks;
+}
+
+export default async function CommunityPage({ searchParams }: Props) {
+  const { fil } = await searchParams;
   const supabase = await createClient();
+  const { data: claimsData } = await supabase.auth.getClaims();
+  const viewerId = typeof claimsData?.claims?.sub === "string" ? claimsData.claims.sub : null;
+  const followingFeed = fil === "abonnements" && Boolean(viewerId);
 
-  const { data: recipes } = await supabase
-    .from("recipes")
-    .select(
-      "id,title,description,author_id,country_code,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
-    )
-    .eq("status", "published")
-    .eq("is_editorial", false)
-    .order("published_at", { ascending: false })
-    .limit(36);
+  // Tous les abonnements, page par page (pas de sous-ensemble arbitraire).
+  const followedIds = followingFeed && viewerId
+    ? (await fetchAllRows((from, to) =>
+        supabase
+          .from("follows")
+          .select("following_id")
+          .eq("follower_id", viewerId)
+          .order("following_id")
+          .range(from, to),
+      )).data.map((row) => row.following_id)
+    : [];
 
-  const recipeRows = recipes ?? [];
-  const recipeIds = recipeRows.map((recipe) => recipe.id);
+  const recipeQuery = (authorIds?: string[]) => {
+    let query = supabase
+      .from("recipes")
+      .select(
+        "id,title,description,author_id,country_code,region,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status),recipe_likes(count),recipe_comments(count),recipe_ratings(rating)",
+      )
+      .eq("status", "published")
+      .eq("is_editorial", false)
+      .is("recipe_comments.deleted_at", null);
+    if (authorIds) query = query.in("author_id", authorIds);
+    return query.order("published_at", { ascending: false }).limit(FEED_SIZE);
+  };
+
+  // Le fil d'abonnements interroge les auteurs par lots pour garder des URL courtes,
+  // puis garde les FEED_SIZE recettes les plus récentes, tous lots confondus.
+  const recipeRows = followingFeed
+    ? (await Promise.all(chunk(followedIds, AUTHOR_BATCH).map((ids) => recipeQuery(ids))))
+        .flatMap((result) => result.data ?? [])
+        .sort((a, b) => String(b.published_at ?? "").localeCompare(String(a.published_at ?? "")))
+        .slice(0, FEED_SIZE)
+    : ((await recipeQuery()).data ?? []);
   const authorIds = [...new Set(recipeRows.map((recipe) => recipe.author_id))];
+  const { data: profiles } = authorIds.length
+    ? await supabase.from("profiles").select("id,display_name,username,country_code").in("id", authorIds)
+    : { data: [] };
 
-  const [profilesResult, likesResult, commentsResult, ratingsResult] =
-    recipeIds.length > 0
-      ? await Promise.all([
-          authorIds.length
-            ? supabase.from("profiles").select("id,display_name,username,country_code").in("id", authorIds)
-            : Promise.resolve({ data: [] }),
-          supabase.from("recipe_likes").select("recipe_id").in("recipe_id", recipeIds),
-          supabase
-            .from("recipe_comments")
-            .select("recipe_id")
-            .in("recipe_id", recipeIds)
-            .is("deleted_at", null),
-          supabase.from("recipe_ratings").select("recipe_id,rating").in("recipe_id", recipeIds),
-        ])
-      : [{ data: [] }, { data: [] }, { data: [] }, { data: [] }];
-
-  const profileById = new Map(
-    (profilesResult.data ?? []).map((profile) => [profile.id, profile]),
-  );
+  const profileById = new Map((profiles ?? []).map((profile) => [profile.id, profile]));
 
   return (
     <main className="community-page">
@@ -49,7 +71,7 @@ export default async function CommunityPage() {
             <h1>Communauté</h1>
             <p>
               Un espace séparé des recettes officielles où les membres publient leurs recettes,
-              ajoutent des photos, suivent d’autres cuisiniers, notent les plats et échangent dans les commentaires.
+              ajoutent des photos et des vidéos, suivent d’autres cuisiniers, notent les plats et échangent dans les commentaires.
             </p>
           </div>
           <div className="community-page-actions">
@@ -58,50 +80,72 @@ export default async function CommunityPage() {
           </div>
         </section>
 
+        <nav className="community-tabs" aria-label="Fil de la communauté">
+          <Link href="/community" className={followingFeed ? "" : "active"} aria-current={followingFeed ? undefined : "page"}>
+            🌍 Tout le monde
+          </Link>
+          <Link
+            href={viewerId ? "/community?fil=abonnements" : "/login"}
+            className={followingFeed ? "active" : ""}
+            aria-current={followingFeed ? "page" : undefined}
+          >
+            👥 Mes abonnements
+          </Link>
+        </nav>
+
         {recipeRows.length ? (
           <section className="community-feed-grid" aria-label="Recettes de la communauté">
             {recipeRows.map((recipe) => {
               const profile = profileById.get(recipe.author_id);
+              const authorName = profile?.display_name || profile?.username || "Membre";
               const images = [...(recipe.recipe_images ?? [])]
                 .filter((image) => image.status === "ready")
                 .sort((a, b) => Number(b.is_primary) - Number(a.is_primary));
               const image = images[0] ? resolveMediaUrl(images[0], "recipe-images") : null;
-              const likes = (likesResult.data ?? []).filter((row) => row.recipe_id === recipe.id).length;
-              const comments = (commentsResult.data ?? []).filter((row) => row.recipe_id === recipe.id).length;
-              const ratings = (ratingsResult.data ?? []).filter((row) => row.recipe_id === recipe.id);
+              const likes = recipe.recipe_likes?.[0]?.count ?? 0;
+              const comments = recipe.recipe_comments?.[0]?.count ?? 0;
+              const ratings = recipe.recipe_ratings ?? [];
               const average = ratings.length
                 ? ratings.reduce((sum, row) => sum + row.rating, 0) / ratings.length
                 : null;
 
               return (
-                <Link href={`/recipes/${recipe.id}`} className="social-recipe-card" key={recipe.id}>
-                  <div className="social-recipe-media">
+                <article className="social-recipe-card" key={recipe.id}>
+                  <Link href={`/recipes/${recipe.id}`} className="social-recipe-media">
                     {image ? (
                       <Image src={image} alt={recipe.title} fill sizes="(max-width: 640px) 100vw, 360px" />
                     ) : (
                       <span>🍳</span>
                     )}
-                  </div>
+                  </Link>
                   <div className="social-recipe-body">
-                    <div className="social-author-line">
-                      <span className="social-avatar">
-                        {(profile?.display_name || profile?.username || "M").slice(0, 1).toUpperCase()}
-                      </span>
+                    <Link href={`/cooks/${recipe.author_id}`} className="social-author-line">
+                      <span className="social-avatar">{authorName.slice(0, 1).toUpperCase()}</span>
                       <div>
-                        <strong>{profile?.display_name || profile?.username || "Membre"}</strong>
-                        <small>{profile?.country_code || recipe.country_code || "Cuisine sans frontières"}</small>
+                        <strong>{authorName}</strong>
+                        <small>
+                          {[recipe.country_code || profile?.country_code, recipe.region].filter(Boolean).join(" · ") ||
+                            "Cuisine sans frontières"}
+                        </small>
                       </div>
-                    </div>
-                    <h2>{recipe.title}</h2>
+                    </Link>
+                    <h2><Link href={`/recipes/${recipe.id}`}>{recipe.title}</Link></h2>
                     <div className="social-metrics">
                       <span>♥ {likes}</span>
                       <span>💬 {comments}</span>
                       <span>★ {average ? average.toFixed(1) : "—"} ({ratings.length})</span>
                     </div>
                   </div>
-                </Link>
+                </article>
               );
             })}
+          </section>
+        ) : followingFeed ? (
+          <section className="community-empty">
+            <span>👥</span>
+            <h2>Votre fil d’abonnements est vide</h2>
+            <p>Suivez des cuisiniers depuis leur profil pour voir leurs nouvelles recettes ici.</p>
+            <Link href="/community" className="primary-button">Découvrir des cuisiniers</Link>
           </section>
         ) : (
           <section className="community-empty">
@@ -109,7 +153,7 @@ export default async function CommunityPage() {
             <h2>La communauté ouvre ses portes</h2>
             <p>
               Les recettes officielles sont déjà dans l’application. Les premières recettes publiées par les membres
-              apparaîtront ici, avec leurs photos, notes, mentions J’aime et commentaires.
+              apparaîtront ici, avec leurs photos, vidéos, notes, mentions J’aime et commentaires.
             </p>
             <Link href="/publish" className="primary-button">Publier la première recette utilisateur</Link>
           </section>

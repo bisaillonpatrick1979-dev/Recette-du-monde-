@@ -7,3 +7,5 @@ out
 .env.*.local
 *.log
 .DS_Store
+public/maplibre/
+*.tsbuildinfo

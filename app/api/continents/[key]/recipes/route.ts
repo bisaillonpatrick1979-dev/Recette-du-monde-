@@ -18,27 +18,19 @@ export async function GET(
   const { data: recipes, error } = await supabase
     .from("recipes")
     .select(
-      "id,title,original_title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
+      "id,title,original_title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status),recipe_likes(count),recipe_ratings(rating)",
     )
     .eq("status", "published")
     .eq("is_editorial", true)
     .in("country_code", [...continent.codes])
-    .order("published_at", { ascending: false });
+    .order("published_at", { ascending: false })
+    .limit(1000);
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
   const rows = recipes ?? [];
-  const ids = rows.map((recipe) => recipe.id);
-
-  const [likesResult, ratingsResult] = ids.length
-    ? await Promise.all([
-        supabase.from("recipe_likes").select("recipe_id").in("recipe_id", ids),
-        supabase.from("recipe_ratings").select("recipe_id,rating").in("recipe_id", ids),
-      ])
-    : [{ data: [] }, { data: [] }];
-
   const displayNames = new Intl.DisplayNames(["fr"], { type: "region" });
 
   const items = rows
@@ -48,8 +40,8 @@ export async function GET(
         .sort((a, b) => Number(b.is_primary) - Number(a.is_primary));
       const image = readyImages[0] ? resolveMediaUrl(readyImages[0], "recipe-images") : null;
 
-      const likes = (likesResult.data ?? []).filter((row) => row.recipe_id === recipe.id).length;
-      const ratings = (ratingsResult.data ?? []).filter((row) => row.recipe_id === recipe.id);
+      const likes = recipe.recipe_likes?.[0]?.count ?? 0;
+      const ratings = recipe.recipe_ratings ?? [];
       const rating = ratings.length
         ? ratings.reduce((sum, row) => sum + row.rating, 0) / ratings.length
         : null;

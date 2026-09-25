@@ -3,7 +3,13 @@ import Link from "next/link";
 import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import { OpenRecipeImage } from "@/components/open-recipe-image";
 import { notFound } from "next/navigation";
-import { CONTINENTS, isContinentKey } from "@/lib/continents";
+import {
+  BORDERLESS_KEY,
+  BORDERLESS_LABEL,
+  CONTINENTS,
+  isContinentKey,
+  type ContinentKey,
+} from "@/lib/continents";
 import { resolveMediaUrl } from "@/lib/media";
 import { createClient } from "@/lib/supabase/server";
 
@@ -28,34 +34,32 @@ function difficultyLabel(value: "easy" | "medium" | "hard" | null) {
 
 export default async function ContinentPage({ params }: Props) {
   const { key } = await params;
-  if (!isContinentKey(key)) notFound();
+  const borderless = key === BORDERLESS_KEY;
+  if (!borderless && !isContinentKey(key)) notFound();
 
-  const continent = CONTINENTS[key];
+  const label = borderless ? BORDERLESS_LABEL : CONTINENTS[key as ContinentKey].label;
   const supabase = await createClient();
 
-  const { data: recipes, error } = await supabase
+  let query = supabase
     .from("recipes")
     .select(
-      "id,title,original_title,description,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
+      "id,title,original_title,description,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status),recipe_likes(count),recipe_ratings(rating)",
     )
-    .eq("status", "published")
-    .eq("is_editorial", true)
-    .in("country_code", [...continent.codes])
-    .order("published_at", { ascending: false });
+    .eq("status", "published");
+
+  query = borderless
+    ? query.eq("is_borderless", true).eq("is_editorial", true)
+    : query.eq("is_editorial", true).in("country_code", [...CONTINENTS[key as ContinentKey].codes]);
+
+  const { data: recipes, error } = await query
+    .order("published_at", { ascending: false })
+    .limit(1000);
 
   if (error) {
     throw new Error(error.message);
   }
 
   const rows = recipes ?? [];
-  const ids = rows.map((recipe) => recipe.id);
-
-  const [likesResult, ratingsResult] = ids.length
-    ? await Promise.all([
-        supabase.from("recipe_likes").select("recipe_id").in("recipe_id", ids),
-        supabase.from("recipe_ratings").select("recipe_id,rating").in("recipe_id", ids),
-      ])
-    : [{ data: [] }, { data: [] }];
 
   const displayNames = new Intl.DisplayNames(["fr"], { type: "region" });
 
@@ -65,17 +69,18 @@ export default async function ContinentPage({ params }: Props) {
         .filter((image) => image.status === "ready")
         .sort((a, b) => Number(b.is_primary) - Number(a.is_primary));
       const image = readyImages[0] ? resolveMediaUrl(readyImages[0], "recipe-images") : null;
-      const likes = (likesResult.data ?? []).filter((row) => row.recipe_id === recipe.id).length;
-      const ratings = (ratingsResult.data ?? []).filter((row) => row.recipe_id === recipe.id);
+      const likes = recipe.recipe_likes?.[0]?.count ?? 0;
+      const ratings = recipe.recipe_ratings ?? [];
       const rating = ratings.length
         ? ratings.reduce((sum, row) => sum + row.rating, 0) / ratings.length
         : null;
       const totalMinutes = (recipe.prep_minutes ?? 0) + (recipe.cook_minutes ?? 0);
       const score = likes * 3 + ratings.length * 2 + (rating ?? 0);
       const country =
-        (recipe.country_code && displayNames.of(recipe.country_code)) ||
-        recipe.country_code ||
-        "Cuisine du monde";
+        [
+          (recipe.country_code && displayNames.of(recipe.country_code)) || recipe.country_code,
+          recipe.region,
+        ].filter(Boolean).join(" · ") || BORDERLESS_LABEL;
 
       return {
         ...recipe,
@@ -104,10 +109,12 @@ export default async function ContinentPage({ params }: Props) {
         <header className="continent-page-header">
           <Link href="/" className="continent-page-back">← Accueil</Link>
           <div>
-            <span className="planet-eyebrow">Recette de la planète</span>
-            <h1>{continent.label}</h1>
+            <span className="planet-eyebrow">Spoontrotter</span>
+            <h1>{label}</h1>
             <p>
-              {items.length.toLocaleString("fr-CA")} recettes · {countryCount.toLocaleString("fr-CA")} pays représentés
+              {borderless
+                ? `${items.length.toLocaleString("fr-CA")} recettes classiques cuisinées partout, sans origine unique`
+                : `${items.length.toLocaleString("fr-CA")} recettes · ${countryCount.toLocaleString("fr-CA")} pays représentés`}
             </p>
           </div>
         </header>
@@ -120,7 +127,7 @@ export default async function ContinentPage({ params }: Props) {
         </section>
 
         {items.length ? (
-          <section className="continent-page-grid" aria-label={"Recettes de " + continent.label}>
+          <section className="continent-page-grid" aria-label={"Recettes : " + label}>
             {items.map((recipe) => (
               <Link href={"/recipes/" + recipe.id} className="continent-page-card" key={recipe.id}>
                 <div className="continent-page-card-image">

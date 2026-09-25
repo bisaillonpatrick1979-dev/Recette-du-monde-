@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { Map as MapLibreMap } from "maplibre-gl";
+import type { GeoJSONSource, Map as MapLibreMap } from "maplibre-gl";
 import {
   levelLabels,
   type AtlasPlaceImage,
@@ -12,9 +12,29 @@ import {
   type CulinaryPlace,
 } from "@/lib/culinary-places";
 import { mediaSourceLabel } from "@/lib/media";
+import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import { OpenPlaceImage } from "@/components/open-place-image";
+import { OpenRecipeImage } from "@/components/open-recipe-image";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/liberty";
+const MARKER_SOURCE = "culinary-places";
+
+// Plus on zoome, plus on descend : pays → régions et îles → villes et localités.
+const MARKER_LEVELS = [
+  { id: "country", types: ["country"], minzoom: 0, maxzoom: 4.6, color: "#f59e0b", radius: 7 },
+  { id: "region", types: ["region", "island"], minzoom: 3.4, maxzoom: 24, color: "#e4572e", radius: 8 },
+  { id: "city", types: ["city", "locality"], minzoom: 5.2, maxzoom: 24, color: "#b91c1c", radius: 7 },
+] as const;
+
+const MARKER_CIRCLE_LAYERS = MARKER_LEVELS.map((level) => `culinary-${level.id}-circle`);
+
+type MarkerCollection = GeoJSON.FeatureCollection<GeoJSON.Point, {
+  id: string;
+  name: string;
+  placeType: string;
+  recipeCount: number;
+  specialty: string;
+}>;
 
 type Props = {
   places: CulinaryPlace[];
@@ -22,6 +42,7 @@ type Props = {
   specialties: AtlasSpecialty[];
   placeImages: AtlasPlaceImage[];
   dataError?: string | null;
+  initialPlaceId?: string | null;
 };
 
 type MapPick = {
@@ -75,11 +96,12 @@ export function CulinaryGlobe({
   specialties,
   placeImages,
   dataError = null,
+  initialPlaceId = null,
 }: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const initialPlace: CulinaryPlace | null = null;
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [selectedId, setSelectedId] = useState<string | null>(initialPlaceId);
   const [mapPick, setMapPick] = useState<MapPick | null>(null);
   const [query, setQuery] = useState("");
   const [mapState, setMapState] = useState<"loading" | "ready" | "error">("loading");
@@ -210,6 +232,53 @@ export function CulinaryGlobe({
     [places],
   );
 
+  const markerData = useMemo<MarkerCollection>(() => {
+    const recipeCount = new Map<string, Set<string>>();
+    for (const recipe of recipes) {
+      let place = placeById.get(recipe.placeId);
+      const visited = new Set<string>();
+      while (place && !visited.has(place.id)) {
+        visited.add(place.id);
+        const ids = recipeCount.get(place.id) ?? new Set<string>();
+        ids.add(recipe.id);
+        recipeCount.set(place.id, ids);
+        place = place.parentId ? placeById.get(place.parentId) : undefined;
+      }
+    }
+
+    const topSpecialty = new Map<string, string>();
+    for (const specialty of [...specialties].sort(
+      (a, b) => Number(b.isSignature) - Number(a.isSignature) || a.sortOrder - b.sortOrder,
+    )) {
+      if (!topSpecialty.has(specialty.placeId)) topSpecialty.set(specialty.placeId, specialty.name);
+    }
+
+    return {
+      type: "FeatureCollection",
+      features: places
+        .filter((place) => recipeCount.has(place.id) || topSpecialty.has(place.id))
+        .map((place) => ({
+          type: "Feature",
+          geometry: { type: "Point", coordinates: [place.longitude, place.latitude] },
+          properties: {
+            id: place.id,
+            name: place.name,
+            placeType: place.placeType,
+            recipeCount: recipeCount.get(place.id)?.size ?? 0,
+            specialty: (topSpecialty.get(place.id) ?? "").slice(0, 42),
+          },
+        })),
+    };
+  }, [places, recipes, specialties, placeById]);
+
+  const markerDataRef = useRef(markerData);
+  markerDataRef.current = markerData;
+
+  useEffect(() => {
+    const source = mapRef.current?.getSource(MARKER_SOURCE) as GeoJSONSource | undefined;
+    source?.setData(markerData);
+  }, [markerData]);
+
   const selectedPlaceImage = useMemo(() => {
     if (!selected) return null;
     return (
@@ -296,6 +365,69 @@ export function CulinaryGlobe({
     setMapPick({ name, placeClass, longitude, latitude });
   }
 
+  const placeByIdRef = useRef(placeById);
+  placeByIdRef.current = placeById;
+  const focusPlaceRef = useRef<(place: CulinaryPlace) => void>(() => undefined);
+
+  function addCulinaryMarkers(map: MapLibreMap) {
+    if (map.getSource(MARKER_SOURCE)) return;
+
+    map.addSource(MARKER_SOURCE, { type: "geojson", data: markerDataRef.current });
+
+    for (const level of MARKER_LEVELS) {
+      const filter = ["in", ["get", "placeType"], ["literal", [...level.types]]] as const;
+
+      map.addLayer({
+        id: `culinary-${level.id}-circle`,
+        type: "circle",
+        source: MARKER_SOURCE,
+        minzoom: level.minzoom,
+        maxzoom: level.maxzoom,
+        filter: filter as never,
+        paint: {
+          "circle-color": level.color,
+          "circle-radius": [
+            "interpolate", ["linear"], ["get", "recipeCount"],
+            0, level.radius - 2,
+            10, level.radius + 2,
+            60, level.radius + 6,
+          ],
+          "circle-stroke-color": "#ffffff",
+          "circle-stroke-width": 2,
+          "circle-opacity": 0.92,
+        },
+      });
+
+      map.addLayer({
+        id: `culinary-${level.id}-label`,
+        type: "symbol",
+        source: MARKER_SOURCE,
+        minzoom: level.id === "country" ? 2.2 : level.minzoom + 0.4,
+        maxzoom: level.maxzoom,
+        filter: filter as never,
+        layout: {
+          "text-field": [
+            "format",
+            ["get", "name"], { "font-scale": 1 },
+            ["case", ["!=", ["get", "specialty"], ""], "\n", ""], {},
+            ["get", "specialty"], { "font-scale": 0.85 },
+          ] as never,
+          "text-font": ["Noto Sans Bold"],
+          "text-size": level.id === "country" ? 11 : 12,
+          "text-offset": [0, 1.1],
+          "text-anchor": "top",
+          "text-max-width": 12,
+          "text-optional": true,
+        },
+        paint: {
+          "text-color": "#3b1d0e",
+          "text-halo-color": "#fffaf2",
+          "text-halo-width": 1.6,
+        },
+      });
+    }
+  }
+
   useEffect(() => {
     let cancelled = false;
 
@@ -327,11 +459,42 @@ export function CulinaryGlobe({
 
         map.on("load", () => {
           if (cancelled) return;
+          addCulinaryMarkers(map);
           setMapState("ready");
           map.resize();
+          const initial = initialPlaceId ? placeByIdRef.current.get(initialPlaceId) : undefined;
+          if (initial) focusPlaceRef.current(initial);
         });
 
+        for (const layerId of MARKER_CIRCLE_LAYERS) {
+          map.on("mouseenter", layerId, () => {
+            map.getCanvas().style.cursor = "pointer";
+          });
+          map.on("mouseleave", layerId, () => {
+            map.getCanvas().style.cursor = "";
+          });
+        }
+
         map.on("click", (event) => {
+          const markerLayers = MARKER_CIRCLE_LAYERS.filter((layerId) => map.getLayer(layerId));
+          const markerHits = markerLayers.length
+            ? map.queryRenderedFeatures(
+                [
+                  [event.point.x - 12, event.point.y - 12],
+                  [event.point.x + 12, event.point.y + 12],
+                ],
+                { layers: markerLayers },
+              )
+            : [];
+          const markerPlace = markerHits
+            .map((feature) => placeByIdRef.current.get(String(feature.properties?.id ?? "")))
+            .find((place): place is CulinaryPlace => Boolean(place));
+
+          if (markerPlace) {
+            focusPlaceRef.current(markerPlace);
+            return;
+          }
+
           const zoom = map.getZoom();
           const radius = zoom < 3.5 ? 90 : zoom < 6 ? 72 : 54;
           const rendered = map
@@ -449,6 +612,8 @@ export function CulinaryGlobe({
       essential: true,
     });
   }
+
+  focusPlaceRef.current = focusPlace;
 
   function resetWorld() {
     setMapPick(null);
@@ -645,10 +810,23 @@ export function CulinaryGlobe({
                         <div className="atlas-recipe-thumb">
                           <Image src={recipe.coverImageUrl} alt={recipe.title} fill sizes="84px" />
                         </div>
-                      ) : null}
+                      ) : (
+                        <OpenRecipeImage
+                          title={recipe.originalTitle}
+                          countryCode={recipe.countryCode}
+                          className="atlas-recipe-thumb"
+                          alt={recipe.title}
+                          showCredit={false}
+                        />
+                      )}
                       <div>
                         <span>{recipe.category || "Recette locale"}</span>
-                        <strong>{recipe.title}</strong>
+                        <strong>
+                          <LocalizedRecipeTitle
+                            originalTitle={recipe.originalTitle}
+                            translations={recipe.titleTranslations}
+                          />
+                        </strong>
                         <small>Voir ingrédients + étapes complètes →</small>
                       </div>
                     </Link>

@@ -30,7 +30,7 @@ type CommonsPage = {
 
 const COMMONS_API = "https://commons.wikimedia.org/w/api.php";
 const USER_AGENT =
-  "Recette-de-la-planete/1.0 (https://github.com/bisaillonpatrick1979-dev/Recette-du-monde-)";
+  "Spoontrotter/1.0 (https://github.com/bisaillonpatrick1979-dev/Recette-du-monde-)";
 
 const REJECT_TITLE =
   /\b(flag|map|locator|coat[ _-]?of[ _-]?arms|emblem|seal|logo|passport|currency|banknote|stamp|diagram|icon|blank|outline)\b/i;
@@ -236,6 +236,15 @@ async function searchCommons(term: string): Promise<WikimediaPlaceImage[]> {
     .map((candidate) => candidate.image);
 }
 
+function frenchCountryName(countryCode?: string | null) {
+  if (!countryCode || countryCode.length !== 2) return null;
+  try {
+    return new Intl.DisplayNames(["fr"], { type: "region" }).of(countryCode.toUpperCase()) ?? null;
+  } catch {
+    return null;
+  }
+}
+
 function englishCountryName(countryCode?: string | null) {
   if (!countryCode || countryCode.length !== 2) return null;
   try {
@@ -243,6 +252,27 @@ function englishCountryName(countryCode?: string | null) {
   } catch {
     return null;
   }
+}
+
+function placeMatchTokens(value: string) {
+  return normalizedRecipeText(value)
+    .split(" ")
+    .filter((token) => token.length >= 3 && !RECIPE_MATCH_STOPWORDS.has(token));
+}
+
+function imageMatchesPlace(image: WikimediaPlaceImage, placeName: string) {
+  const imageText = normalizedRecipeText(image.title);
+  const tokens = placeMatchTokens(placeName);
+  return tokens.length > 0 && tokens.some((token) => imageText.includes(token));
+}
+
+async function firstMatchingPlaceImage(searches: string[], placeName: string) {
+  for (const search of searches) {
+    const results = await searchCommons(search);
+    const matching = results.find((image) => imageMatchesPlace(image, placeName));
+    if (matching) return matching;
+  }
+  return null;
 }
 
 export async function findWikimediaPlaceImage({
@@ -253,37 +283,52 @@ export async function findWikimediaPlaceImage({
   countryCode?: string | null;
 }) {
   const englishCountry = englishCountryName(countryCode);
-  const base = englishCountry || name;
+  const frenchCountry = frenchCountryName(countryCode);
+  const isCountry =
+    !englishCountry ||
+    normalizedRecipeText(name) === normalizedRecipeText(englishCountry) ||
+    (frenchCountry !== null && normalizedRecipeText(name) === normalizedRecipeText(frenchCountry));
 
-  const searches = [
-    `${base} landscape`,
-    `${base} landmark`,
-    `${base} national park`,
-    `${base} skyline`,
-    `${name} ${base}`,
-    base,
-  ];
-
-  for (const search of searches) {
-    const results = await searchCommons(search);
-    if (results.length) return results[0];
+  // Régions et villes : chercher d'abord le lieu lui-même, et n'accepter
+  // qu'une photo dont le titre nomme ce lieu. Avant, la recherche utilisait
+  // le pays et renvoyait n'importe quel paysage (ex. l'Islande pour Marseille).
+  if (!isCountry) {
+    const local = await firstMatchingPlaceImage(
+      [
+        `${name} ${englishCountry}`,
+        `${name} city`,
+        `${name} landscape`,
+        name,
+      ],
+      name,
+    );
+    if (local) return local;
   }
 
-  // Last-resort culinary fallback: keep recipe cards visual even when
-  // Wikimedia Commons has no file indexed under the exact dish name.
-  // This remains a cuisine reference image for the recipe's country,
-  // never an AI-generated image, and still preserves Commons licensing.
-  if (englishCountry) {
-    const cuisineFallbacks = [
-      `${englishCountry} traditional food`,
-      `${englishCountry} cuisine dish`,
-      `${englishCountry} traditional cuisine`,
-    ];
+  const countryName = englishCountry || name;
+  const national = await firstMatchingPlaceImage(
+    [
+      `${countryName} landscape`,
+      `${countryName} landmark`,
+      `${countryName} national park`,
+      `${countryName} skyline`,
+      countryName,
+    ],
+    countryName,
+  );
+  if (national) return national;
 
-    for (const search of cuisineFallbacks) {
-      const results = await searchCommons(search);
-      if (results.length) return results[0];
-    }
+  // Dernier recours culinaire : photo de cuisine du pays, jamais générée par IA,
+  // toujours sous licence libre Commons.
+  if (englishCountry) {
+    return firstMatchingPlaceImage(
+      [
+        `${englishCountry} traditional food`,
+        `${englishCountry} cuisine dish`,
+        `${englishCountry} traditional cuisine`,
+      ],
+      englishCountry,
+    );
   }
 
   return null;

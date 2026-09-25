@@ -48,7 +48,7 @@ export default async function PublishPage({ searchParams }: Props) {
         <div className="account-topbar">
           <Link href="/" className="logo-lockup">
             <span className="logo-globe">🌍</span>
-            <span><strong>Recette de la planète</strong><small>Nouvelle recette</small></span>
+            <span><strong>Spoontrotter</strong><small>Nouvelle recette</small></span>
           </Link>
           <Link href="/profile" className="ghost-button">Mon profil</Link>
         </div>

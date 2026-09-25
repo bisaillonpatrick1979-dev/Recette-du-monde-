@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type {
   HomeAtlasStats,
@@ -19,7 +20,8 @@ import { ContinentRecipesModal } from "@/components/continent-recipes-modal";
 import { CountryRecipesModal } from "@/components/country-recipes-modal";
 import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import { OpenRecipeImage } from "@/components/open-recipe-image";
-import type { ContinentKey } from "@/lib/continents";
+import { QUICK_FILTERS, SEARCH_CATEGORIES } from "@/lib/search-filters";
+import { BORDERLESS_KEY, BORDERLESS_LABEL, type ContinentKey } from "@/lib/continents";
 
 type Props = {
   recipes: HomeRecipe[];
@@ -90,28 +92,6 @@ const CONTINENT_PHOTOS = {
   },
 } as const;
 
-const categoryCards = [
-  { icon: "🍢", label: "Entrées" },
-  { icon: "🥣", label: "Soupes" },
-  { icon: "🍲", label: "Plats principaux" },
-  { icon: "🥗", label: "Salades" },
-  { icon: "🍝", label: "Pâtes" },
-  { icon: "🥩", label: "Viandes" },
-  { icon: "🐟", label: "Poissons et fruits de mer" },
-  { icon: "🌿", label: "Végétarien" },
-  { icon: "🍰", label: "Desserts" },
-];
-
-const quickFilters = [
-  "⚡ 30 minutes et moins",
-  "🍲 Instant Pot",
-  "🔥 BBQ",
-  "🌿 Santé",
-  "👨‍👩‍👧‍👦 Repas en famille",
-  "💰 Économique",
-  "⭐ Les plus populaires",
-];
-
 const copy = {
   fr: {
     search: "Rechercher une recette, un pays, un plat, un ingrédient…",
@@ -138,6 +118,7 @@ export function HomeExperience({
   const [activeContinent, setActiveContinent] = useState<{ key: ContinentKey; label: string } | null>(null);
   const [activeCountry, setActiveCountry] = useState<{ code: string; name: string; flag: string } | null>(null);
   const featuredRef = useRef<HTMLDivElement | null>(null);
+  const router = useRouter();
 
   useEffect(() => {
     const saved = window.localStorage.getItem(PREFERENCES_STORAGE_KEY);
@@ -183,7 +164,7 @@ export function HomeExperience({
         <button className="planet-icon-button" type="button" aria-label="Menu">☰</button>
         <Link href="/" className="planet-brand">
           <span className="planet-brand-leaf">◒</span>
-          <strong>Recette de la planète</strong>
+          <strong>Spoontrotter</strong>
         </Link>
         <div className="planet-header-actions">
           <Link href="/community" className="planet-icon-button" aria-label="Communauté">♡</Link>
@@ -231,7 +212,14 @@ export function HomeExperience({
       </section>
 
       <section className="planet-search-wrap">
-        <div className="planet-search">
+        <form
+          className="planet-search"
+          onSubmit={(event) => {
+            event.preventDefault();
+            const value = query.trim();
+            router.push(value ? `/search?q=${encodeURIComponent(value)}` : "/search");
+          }}
+        >
           <span aria-hidden="true">⌕</span>
           <input
             value={query}
@@ -239,8 +227,8 @@ export function HomeExperience({
             placeholder={text.search}
             aria-label={text.search}
           />
-          <button type="button">Rechercher</button>
-        </div>
+          <button type="submit">Rechercher</button>
+        </form>
       </section>
 
       <section className="planet-section">
@@ -286,27 +274,45 @@ export function HomeExperience({
               </article>
             );
           })}
+          {stats.borderlessRecipes > 0 ? (
+            <article className="continent-card continent-borderless">
+              <Link
+                href={`/continents/${BORDERLESS_KEY}`}
+                className="continent-card-main"
+                aria-label={`Voir les ${BORDERLESS_LABEL.toLowerCase()}`}
+              >
+                <div className="continent-art continent-art-borderless" aria-hidden="true">
+                  <span>🌐</span>
+                </div>
+                <div className="continent-card-body">
+                  <strong>{BORDERLESS_LABEL}</strong>
+                  <span>{stats.borderlessRecipes.toLocaleString("fr-CA")} recettes</span>
+                  <small>Cuisinées partout →</small>
+                </div>
+              </Link>
+            </article>
+          ) : null}
         </div>
       </section>
 
       <section className="planet-section compact-section">
         <div className="planet-section-heading">
           <h2>Explorer par catégorie</h2>
-          <Link href="/explore">Voir toutes les catégories →</Link>
+          <Link href="/search">Voir toutes les recettes →</Link>
         </div>
         <div className="category-strip">
-          {categoryCards.map((category) => (
-            <button className="category-card" type="button" key={category.label}>
+          {SEARCH_CATEGORIES.map((category) => (
+            <Link className="category-card" href={`/search?categorie=${category.key}`} key={category.key}>
               <span>{category.icon}</span>
               <strong>{category.label}</strong>
-            </button>
+            </Link>
           ))}
         </div>
 
         <h3 className="quick-title">Filtres rapides</h3>
         <div className="quick-filters">
-          {quickFilters.map((filter) => (
-            <button type="button" key={filter}>{filter}</button>
+          {QUICK_FILTERS.map((filter) => (
+            <Link href={`/search?filtre=${filter.key}`} key={filter.key}>{filter.label}</Link>
           ))}
         </div>
       </section>

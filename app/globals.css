@@ -1386,7 +1386,7 @@ button { cursor: pointer; }
 
 
 /* =========================================================
-   Recette de la planète — home + community visual system
+   Spoontrotter — home + community visual system
    ========================================================= */
 .planet-home {
   min-height: 100vh;
@@ -3234,5 +3234,159 @@ button.planet-country-card-link {
 }
 .recipe-photo-pending > small {
   font-size: 12px;
+  font-weight: 700;
+}
+
+/* ——— Recherche, sans frontières, social et vidéos ——— */
+.quick-filters a {
+  flex: 0 0 auto;
+  border: 1px solid #dcd8d0;
+  border-radius: 999px;
+  background: white;
+  padding: 9px 13px;
+  font-size: 11px;
+  color: #263a35;
+  text-decoration: none;
+}
+.quick-filters a.active,
+.community-tabs a.active {
+  background: var(--forest);
+  border-color: var(--forest);
+  color: white;
+}
+a.category-card { color: inherit; text-decoration: none; }
+a.continent-card-main { display: block; color: inherit; text-decoration: none; }
+.continent-art-borderless {
+  background: linear-gradient(150deg, #e7dcc9, #c9dfd6);
+  font-size: 56px;
+}
+.search-page-form { margin: 18px 0 12px; }
+.search-page-filters { flex-wrap: wrap; margin-bottom: 22px; }
+
+.recipe-origin {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+}
+.recipe-origin-link {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--forest);
+  text-decoration: none;
+}
+.recipe-origin-link:hover { text-decoration: underline; }
+.recipe-author a { font-weight: 700; color: var(--forest); }
+
+.link-button {
+  border: 0;
+  background: none;
+  padding: 0;
+  color: var(--terracotta);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.link-button:disabled { opacity: .5; cursor: default; }
+.comment-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+}
+.comment-meta a { text-decoration: none; }
+.comment-meta time { font-size: 12px; color: var(--ink-soft); }
+
+.recipe-videos {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.recipe-videos h2 { margin: 4px 0 14px; }
+.recipe-video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+.recipe-video { margin: 0; }
+.recipe-video-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #111;
+}
+.recipe-video-frame iframe,
+.recipe-video-frame video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.recipe-video figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  align-items: baseline;
+  padding-top: 8px;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+.recipe-video figcaption p { width: 100%; margin: 0; color: var(--ink); }
+.recipe-video-form {
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+}
+.recipe-video-form input {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0 14px;
+  font-size: 15px;
+}
+.recipe-video-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.community-tabs {
+  display: flex;
+  gap: 10px;
+  margin: 0 0 20px;
+}
+.community-tabs a {
+  border: 1px solid #dcd8d0;
+  border-radius: 999px;
+  background: white;
+  padding: 10px 16px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+.social-recipe-card a { text-decoration: none; }
+.social-recipe-card h2 a:hover { text-decoration: underline; }
+a.social-recipe-media { display: grid; }
+
+.public-profile-card { align-items: center; }
+.public-profile-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+.public-profile-stats strong { color: var(--ink); }
+.follow-control {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+}
+.profile-hero-actions { display: grid; gap: 8px; }
+.atlas-recipe-thumb.open-recipe-image { margin: 0; }
+.search-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 24px 0;
   font-weight: 700;
 }

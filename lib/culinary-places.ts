@@ -16,6 +16,9 @@ export type CulinaryPlace = {
 export type AtlasRecipe = {
   id: string;
   title: string;
+  originalTitle: string;
+  titleTranslations: Array<{ language_code: string; title: string }>;
+  countryCode: string | null;
   description: string | null;
   category: string | null;
   coverImageUrl: string | null;

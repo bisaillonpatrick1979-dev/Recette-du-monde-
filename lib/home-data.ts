@@ -45,6 +45,7 @@ export type HomeAtlasStats = {
   recipes: number;
   editorialRecipes: number;
   communityRecipes: number;
+  borderlessRecipes: number;
   countries: number;
   subplaces: number;
   continents: HomeContinentStat[];

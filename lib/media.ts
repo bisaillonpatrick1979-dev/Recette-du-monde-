@@ -45,6 +45,13 @@ function normalizeMediaText(value: string) {
     .trim();
 }
 
+const DISH_TYPE_TERMS = new Set([
+  "pizza", "burger", "sandwich", "milkshake", "candy", "smoothie",
+  "muffin", "muffins", "cupcake", "cupcakes", "cookie", "cookies",
+  "brownie", "brownies", "bundt", "pie", "tart", "popsicle", "sundae",
+  "schnitzel", "wrap", "wraps",
+]);
+
 const GENERIC_RECIPE_WORDS = new Set([
   "classic", "traditional", "style", "recipe", "food", "dish",
   "with", "and", "the", "from", "pour", "avec", "aux", "des", "les",
@@ -59,6 +66,12 @@ function recipeTokens(value: string) {
   return compactRecipeName(value)
     .split(" ")
     .filter((token) => token.length >= 3 && !GENERIC_RECIPE_WORDS.has(token));
+}
+
+function hasConflictingDishType(source: string, recipeName: string) {
+  const sourceWords = new Set(source.split(" "));
+  const recipeWords = new Set(recipeName.split(" "));
+  return [...DISH_TYPE_TERMS].some((term) => sourceWords.has(term) && !recipeWords.has(term));
 }
 
 /**
@@ -101,13 +114,14 @@ export function isTrustedRecipeImage(
     .filter(Boolean);
 
   for (const name of candidates) {
+    if (hasConflictingDishType(source, name)) continue;
     if (name.length >= 4 && source.includes(name)) return true;
 
     const tokens = recipeTokens(name);
     if (!tokens.length) continue;
 
     const matched = tokens.filter((token) => source.includes(token)).length;
-    const required = tokens.length === 1 ? 1 : Math.max(2, Math.ceil(tokens.length * 0.6));
+    const required = tokens.length <= 3 ? tokens.length : Math.ceil(tokens.length * 0.75);
     if (matched >= required) return true;
   }
 

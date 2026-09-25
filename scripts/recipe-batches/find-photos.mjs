@@ -78,7 +78,7 @@ for (const r of recipes) {
       if (!info || !matches || !FREE_LICENSE.test(license) || info.width < 500) continue;
       seen.set(page.title, {
         file: page.title,
-        url: info.thumburl ?? info.url,
+        url: (info.thumburl ?? info.url).replace("https://thumb.wikimedia.org/", "https://upload.wikimedia.org/").replace(/\?.*$/, ""),
         page: info.descriptionurl,
         author: stripTags(meta.Artist?.value).slice(0, 200),
         license,

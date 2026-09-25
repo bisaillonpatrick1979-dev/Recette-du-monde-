@@ -371,7 +371,7 @@
   "file": "File:Fattoush.JPG",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Fattoush.JPG/1280px-Fattoush.JPG",
   "page": "https://commons.wikimedia.org/wiki/File:Fattoush.JPG",
-  "author": "",
+  "author": "Aziz1005",
   "license": "Public domain",
   "licenseUrl": null
  },
@@ -430,6 +430,14 @@
   "author": "Benoît Prieur",
   "license": "CC0",
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "githeri-kenyan": {
+  "file": "File:Githeri.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Githeri.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Githeri.jpg",
+  "author": "Mukuba",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
  },
  "golabki-polonais": {
   "file": "File:Golabki jacek.jpg",
@@ -1110,6 +1118,14 @@
   "author": "Sl-Ziga",
   "license": "Public domain",
   "licenseUrl": null
+ },
+ "raclette-valais": {
+  "file": "File:Raclette-degustation.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Raclette-degustation.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Raclette-degustation.jpg",
+  "author": "Pakeha",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
  },
  "red-red-ghaneen": {
   "file": "File:Ghanaian Red-Red cuisine dish food.jpg",

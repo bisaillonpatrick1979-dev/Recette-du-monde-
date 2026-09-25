@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { resolveMediaUrl } from "@/lib/media";
+import { isTrustedRecipeImage, resolveMediaUrl } from "@/lib/media";
 import { createClient } from "@/lib/supabase/server";
 
 function validCountryCode(value: string) {
@@ -39,7 +39,7 @@ export async function GET(
       supabase
         .from("recipes")
         .select(
-          "id,title,original_title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
+          "id,title,original_title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status,source_type,source_page_url,moderation_notes)",
         )
         .eq("status", "published")
         .eq("is_editorial", true)
@@ -126,7 +126,7 @@ export async function GET(
   const items = recipeRows
     .map((recipe) => {
       const readyImages = [...(recipe.recipe_images ?? [])]
-        .filter((image) => image.status === "ready")
+        .filter((image) => image.status === "ready" && isTrustedRecipeImage(image, { title: recipe.title, originalTitle: recipe.original_title }))
         .sort((a, b) => Number(b.is_primary) - Number(a.is_primary));
       const image = readyImages[0] ? resolveMediaUrl(readyImages[0], "recipe-images") : null;
       const likes = (likesResult.data ?? []).filter((row) => row.recipe_id === recipe.id).length;

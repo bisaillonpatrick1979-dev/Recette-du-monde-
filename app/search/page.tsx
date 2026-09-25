@@ -4,7 +4,7 @@ import Link from "next/link";
 import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import { OpenRecipeImage } from "@/components/open-recipe-image";
 import { BORDERLESS_LABEL } from "@/lib/continents";
-import { resolveMediaUrl } from "@/lib/media";
+import { isTrustedRecipeImage, resolveMediaUrl } from "@/lib/media";
 import { QUICK_FILTERS, SEARCH_CATEGORIES, ilikePattern } from "@/lib/search-filters";
 import { fetchAllRows } from "@/lib/supabase/fetch-all";
 import { createClient } from "@/lib/supabase/server";
@@ -111,7 +111,7 @@ export default async function SearchPage({ searchParams }: Props) {
     ? await supabase
         .from("recipes")
         .select(
-          "id,title,original_title,country_code,region,category,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
+          "id,title,original_title,country_code,region,category,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status,source_type,source_page_url,moderation_notes)",
         )
         .in("id", pageIds)
     : { data: [], error: null };
@@ -124,7 +124,7 @@ export default async function SearchPage({ searchParams }: Props) {
     const rank = rankById.get(id);
     if (!recipe || !rank) return [];
     const images = [...(recipe.recipe_images ?? [])]
-      .filter((image) => image.status === "ready")
+      .filter((image) => image.status === "ready" && isTrustedRecipeImage(image, { title: recipe.title, originalTitle: recipe.original_title }))
       .sort((a, b) => Number(b.is_primary) - Number(a.is_primary));
     return [{
       ...recipe,

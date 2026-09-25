@@ -7,7 +7,7 @@ import type {
   HomeRecipe,
 } from "@/lib/home-data";
 import { CONTINENTS } from "@/lib/continents";
-import { resolveMediaUrl } from "@/lib/media";
+import { isTrustedRecipeImage, resolveMediaUrl } from "@/lib/media";
 import { fetchAllRows } from "@/lib/supabase/fetch-all";
 import { createClient } from "@/lib/supabase/server";
 
@@ -60,7 +60,7 @@ export default async function HomePage() {
     supabase
       .from("recipes")
       .select(
-        "id,title,original_title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
+        "id,title,original_title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status,source_type,source_page_url,moderation_notes)",
       )
       .eq("status", "published")
       .eq("is_editorial", true)
@@ -69,7 +69,7 @@ export default async function HomePage() {
     supabase
       .from("recipes")
       .select(
-        "id,title,author_id,country_code,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
+        "id,title,author_id,country_code,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status,source_type,source_page_url,moderation_notes)",
       )
       .eq("status", "published")
       .eq("is_editorial", false)
@@ -118,7 +118,7 @@ export default async function HomePage() {
   const recipes: HomeRecipe[] = editorialRows
     .map((recipe) => {
       const images = [...(recipe.recipe_images ?? [])]
-        .filter((image) => image.status === "ready")
+        .filter((image) => image.status === "ready" && isTrustedRecipeImage(image, { title: recipe.title, originalTitle: recipe.original_title }))
         .sort((a, b) => Number(b.is_primary) - Number(a.is_primary));
       const image = images[0] ? resolveMediaUrl(images[0], "recipe-images") : null;
 
@@ -206,7 +206,7 @@ export default async function HomePage() {
   const communityRecipes: HomeCommunityRecipe[] = communityRows.map((recipe) => {
     const profile = profileById.get(recipe.author_id);
     const images = [...(recipe.recipe_images ?? [])]
-      .filter((image) => image.status === "ready")
+      .filter((image) => image.status === "ready" && isTrustedRecipeImage(image, { title: recipe.title }))
       .sort((a, b) => Number(b.is_primary) - Number(a.is_primary));
     const image = images[0] ? resolveMediaUrl(images[0], "recipe-images") : null;
     const ratings = (ratingsResult.data ?? []).filter((row) => row.recipe_id === recipe.id);

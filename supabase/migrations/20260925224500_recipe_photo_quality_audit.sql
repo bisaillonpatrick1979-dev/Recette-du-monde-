@@ -15,7 +15,7 @@ set
   )
 where status = 'ready'
   and (
-    external_url ~* '\\.(pdf|svg)(\\?|$)'
+    external_url ~* '[.](pdf|svg)([?]|$)'
     or id = any (array[
       '2855ddd2-1e5a-4a70-a43a-86fb7b516ea2'::uuid,
       '2d9bd203-aaae-4647-a316-df6b738a04a8'::uuid,

@@ -2,6 +2,8 @@
 //
 //   node scripts/recipe-batches/find-photos.mjs [dossier-vignettes]
 //
+// Couvre les recettes des lots (clé : slug) et les recettes plus anciennes encore sans photo en base
+// (legacy-missing-photos.json, clé : id de la recette, nom de recherche épuré).
 // Pour chaque recette sans photo validée, interroge Commons avec le nom du plat et garde
 // jusqu'à 3 fichiers sous licence libre dont le nom contient un mot du nom du plat.
 // Résultat : data/recipe-batches/photo-candidates.json (+ vignettes à contrôler à l'œil).
@@ -57,12 +59,14 @@ async function search(query) {
 const recipes = readdirSync(DATA_DIR)
   .filter((f) => /^batch-.*\.json$/.test(f))
   .sort()
-  .flatMap((f) => JSON.parse(readFileSync(join(DATA_DIR, f), "utf8")));
+  .flatMap((f) => JSON.parse(readFileSync(join(DATA_DIR, f), "utf8")))
+  .concat(JSON.parse(readFileSync(join(DATA_DIR, "legacy-missing-photos.json"), "utf8")))
+  .map((r) => ({ ...r, key: r.slug ?? r.id }));
 
 if (THUMBS) mkdirSync(THUMBS, { recursive: true });
 let found = 0;
 for (const r of recipes) {
-  if (photos[r.slug] || candidates[r.slug]) continue;
+  if (photos[r.key] || candidates[r.key]) continue;
   const name = r.original.replace(/\(.*?\)/g, "").trim();
   const wanted = new Set([...tokens(name), ...tokens(r.en).filter((t) => tokens(name).length === 0)]);
   const seen = new Map();
@@ -86,12 +90,12 @@ for (const r of recipes) {
     }
   }
   const list = [...seen.values()].slice(0, 3);
-  candidates[r.slug] = list;
+  candidates[r.key] = list;
   if (list.length) found += 1;
   if (THUMBS) {
     for (const [i, c] of list.entries()) {
       const res = await fetch(c.url.replace(/\/1280px-/, "/480px-"), { headers: { "User-Agent": USER_AGENT } });
-      if (res.ok) writeFileSync(join(THUMBS, `${r.slug}--${i}.jpg`), Buffer.from(await res.arrayBuffer()));
+      if (res.ok) writeFileSync(join(THUMBS, `${r.key}--${i}.jpg`), Buffer.from(await res.arrayBuffer()));
     }
   }
   writeFileSync(candidatesPath, JSON.stringify(candidates, null, 1));

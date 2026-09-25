@@ -8,7 +8,7 @@ import { LocalizedRecipeContent } from "@/components/localized-recipe-content";
 import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import { OpenRecipeImage } from "@/components/open-recipe-image";
 import { BORDERLESS_KEY, BORDERLESS_LABEL } from "@/lib/continents";
-import { mediaSourceLabel, publicStorageUrl, resolveMediaUrl } from "@/lib/media";
+import { isTrustedRecipeImage, mediaSourceLabel, publicStorageUrl, resolveMediaUrl } from "@/lib/media";
 import type { RecipeVideo } from "@/lib/video";
 import { createClient } from "@/lib/supabase/server";
 
@@ -144,7 +144,7 @@ export default async function RecipePage({ params }: Props) {
   const ingredients = [...(recipe.recipe_ingredients ?? [])].sort((a, b) => a.position - b.position);
   const steps = [...(recipe.recipe_steps ?? [])].sort((a, b) => a.position - b.position);
   const images = [...(recipe.recipe_images ?? [])]
-    .filter((image) => image.status === "ready")
+    .filter((image) => image.status === "ready" && isTrustedRecipeImage(image, { title: recipe.title, originalTitle: recipe.original_title }))
     .sort((a, b) => Number(b.is_primary) - Number(a.is_primary) || a.created_at.localeCompare(b.created_at))
     .map((image) => ({
       ...image,

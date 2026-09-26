@@ -33,6 +33,13 @@ L’audit photo du 2026-09-25 a archivé l’image de 72 autres recettes publié
 
 Pour les 148 recettes encore sans photo : catégorie Commons du plat → élément Wikidata → fichiers étiquetés « représente ce plat ». 28 recettes avec candidates, presque toutes des homonymes (personnes, lieux, espèces) ou des plats voisins d’un autre pays. **1 photo validée** (American Potato Salad I), migration `20260926190000_recipe_photo_potato_salad.sql`. **147 recettes publiées restent sans photo** : Commons ne contient pas de photo exacte de ces plats. Flickr répond désormais, mais son API demande une clé et ses images (`live.staticflickr.com`) restent bloquées par le réseau de l’environnement. Pour celles-ci, Commons ne contient pas de photo montrant exactement le plat (souvent seulement l’ingrédient cru, un homonyme ou un plat voisin d’un autre pays).
 
+## 6ᵉ passe (2026-09-26) : recherche Commons ciblée, à la main
+
+Recherche plat par plat (catégories et titres de fichiers, noms locaux) sur les 147 recettes restantes, avec vérification des ingrédients de la recette avant de retenir une photo. **8 photos validées**, migration `20260926210000_recipe_photos_sixth_pass.sql` :
+Crispy Roast Potatoes, Crispy Sweet Potato Fries, Caramel Sauce II, Jam (recipe) (l’audit avait retiré leurs anciennes images, des PDF), Kuyrdak kazakh, Karjalanpaisti, Conkies de la Barbade, Rougaille saucisses.
+Rejetées : Shrewsbury biscuits (raisins absents de la recette), pot pie (garniture non identifiable), Labskaus allemand (≠ lapskaus norvégien), rosolli finlandais (≠ rosolje estonien, sans hareng), Bosanski lonac (image de 240 px), karjalanpaisti en GFDL seule (remplacé par une photo du domaine public).
+**139 recettes publiées restent sans photo.**
+
 Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche).
 
 ## Afghanistan (AF) — 3
@@ -111,7 +118,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Barbade (BB) — 5
 
 - `bajan-fish-cakes` — Bajan fish cakes 🅱 — _Bajan fish cakes (salt cod fritters)_ — ∅ aucune candidate Commons
-- `conkies-barbade` — Conkies 🅱 — _Bajan conkies (cornmeal and coconut steamed in banana leaves)_ — ∅ aucune candidate Commons
+- `conkies-barbade` — Conkies 🅱 — _Bajan conkies (cornmeal and coconut steamed in banana leaves)_ — ✅ photo validée (6ᵉ passe)
 - `pudding-and-souse` — Pudding and souse 🅱 — _Bajan pudding and souse_ — ∅ aucune candidate Commons
 - `None` — Cou-cou and flying fish — ❌ pas de photo Commons exacte
 - `None` — Bajan macaroni pie — ✅ photo validée
@@ -272,7 +279,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Finlande (FI) — 3
 
 - `kalakukko-kuopio` — Kalakukko 🅱 — _Kuopio kalakukko (rye loaf filled with fish and pork)_ — ✅ photo validée
-- `karjalanpaisti` — Karjalanpaisti 🅱 — _Karelian hot pot (karjalanpaisti)_ — ∅ aucune candidate Commons
+- `karjalanpaisti` — Karjalanpaisti 🅱 — _Karelian hot pot (karjalanpaisti)_ — ✅ photo validée (6ᵉ passe)
 - `korvapuusti` — Korvapuusti 🅱 — _Finnish korvapuusti (cinnamon cardamom rolls)_ — ✅ photo validée
 
 ## Gambie (GM) — 2
@@ -375,7 +382,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 - `kespe-kazakh` — Kespe 🅱 — _Kazakh kespe (homemade noodle soup)_ — ∅ aucune candidate Commons
 - `manty-kazakh` — Manty 🅱 — _Kazakh manty (steamed lamb dumplings)_ — ✅ photo validée
 - `sorpa-kazakh` — Sorpa 🅱 — _Kazakh sorpa (mutton broth)_ — ∅ aucune candidate Commons
-- `None` — Kuyrdak kazakh — ❌ pas de photo Commons exacte
+- `None` — Kuyrdak kazakh — ✅ photo validée (6ᵉ passe)
 
 ## Kenya (KE) — 4
 
@@ -485,7 +492,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Maurice (MU) — 5
 
 - `gateaux-piments-maurice` — Gâteaux piments 🅱 — _Mauritian gâteaux piments (split pea chili fritters)_ — ✅ photo validée (2ᵉ passe)
-- `rougaille-saucisses-maurice` — Rougaille saucisses 🅱 — _Mauritian rougaille with sausages (spicy tomato sauce)_ — ∅ aucune candidate Commons
+- `rougaille-saucisses-maurice` — Rougaille saucisses 🅱 — _Mauritian rougaille with sausages (spicy tomato sauce)_ — ✅ photo validée (6ᵉ passe)
 - `vindaye-poisson-maurice` — Vindaye de poisson 🅱 — _Mauritian fish vindaye (fried fish in mustard-turmeric pickle)_ — ✅ photo validée
 - `None` — Dholl puri — ✅ photo validée
 - `None` — Mine frit — ✅ photo validée

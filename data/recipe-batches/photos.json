@@ -1958,5 +1958,29 @@
   "author": "Mith",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "karjalanpaisti": {
+  "file": "File:Karelskastek1.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Karelskastek1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Karelskastek1.jpg",
+  "author": "Sari Moo",
+  "license": "Public domain",
+  "licenseUrl": null
+ },
+ "conkies-barbade": {
+  "file": "File:Conkie.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Conkie.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Conkie.jpg",
+  "author": "Foodista",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "rougaille-saucisses-maurice": {
+  "file": "File:Rougail Saucisse 04-07-07.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Rougail_Saucisse_04-07-07.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rougail_Saucisse_04-07-07.jpg",
+  "author": "flo77220",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
  }
 }

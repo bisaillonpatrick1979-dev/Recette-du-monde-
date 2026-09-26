@@ -27,7 +27,11 @@ Règle (PIPELINE.md §4) : chaque photo doit montrer ce plat précis, sous licen
 
 ## Recettes dont l’audit photo a retiré l’image (hors liste ci-dessous)
 
-L’audit photo du 2026-09-25 a archivé l’image de 72 autres recettes publiées (surtout le lot Wikibooks : scans de livres PDF, logos, plats voisins). Recherche Commons refaite le 2026-09-26, chaque candidate contrôlée à l’œil : **36 photos validées** → `photos-legacy.json`, migration `20260926150000_recipe_photos_audit_replacements.sql`. Les 36 autres n’ont pas de photo exacte sur Commons (assaisonnements, sauces, boissons maison, noms de recette propres à Wikibooks). Pour celles-ci, Commons ne contient pas de photo montrant exactement le plat (souvent seulement l’ingrédient cru, un homonyme ou un plat voisin d’un autre pays).
+L’audit photo du 2026-09-25 a archivé l’image de 72 autres recettes publiées (surtout le lot Wikibooks : scans de livres PDF, logos, plats voisins). Recherche Commons refaite le 2026-09-26, chaque candidate contrôlée à l’œil : **36 photos validées** → `photos-legacy.json`, migration `20260926150000_recipe_photos_audit_replacements.sql`. Les 36 autres n’ont pas de photo exacte sur Commons (assaisonnements, sauces, boissons maison, noms de recette propres à Wikibooks).
+
+## 5ᵉ passe (2026-09-26) : données structurées Commons « depicts » (P180)
+
+Pour les 148 recettes encore sans photo : catégorie Commons du plat → élément Wikidata → fichiers étiquetés « représente ce plat ». 28 recettes avec candidates, presque toutes des homonymes (personnes, lieux, espèces) ou des plats voisins d’un autre pays. **1 photo validée** (American Potato Salad I), migration `20260926190000_recipe_photo_potato_salad.sql`. **147 recettes publiées restent sans photo** : Commons ne contient pas de photo exacte de ces plats. Flickr répond désormais, mais son API demande une clé et ses images (`live.staticflickr.com`) restent bloquées par le réseau de l’environnement. Pour celles-ci, Commons ne contient pas de photo montrant exactement le plat (souvent seulement l’ingrédient cru, un homonyme ou un plat voisin d’un autre pays).
 
 Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche).
 

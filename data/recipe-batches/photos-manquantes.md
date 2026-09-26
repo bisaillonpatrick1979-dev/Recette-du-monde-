@@ -40,7 +40,13 @@ Crispy Roast Potatoes, Crispy Sweet Potato Fries, Caramel Sauce II, Jam (recipe)
 Rejetées : Shrewsbury biscuits (raisins absents de la recette), pot pie (garniture non identifiable), Labskaus allemand (≠ lapskaus norvégien), rosolli finlandais (≠ rosolje estonien, sans hareng), Bosanski lonac (image de 240 px), karjalanpaisti en GFDL seule (remplacé par une photo du domaine public).
 Suite, par titres de fichiers Commons dans la langue locale : **6 photos de plus**, migration `20260926213000_recipe_photos_sixth_pass_more.sql` : Shurbo, Matoke, Eru, Chamuças, Morogo, Appa (egg hopper).
 Rejetées aussi : même plat photographié dans un autre pays (run down jamaïcain pour le rondón, canja portugaise, soupe à l’oseille russe, parippu du Kerala, arroz con pollo non panaméen, johnnycake américain), images trop petites (jocón 300 px, peka 400 px), produits emballés (thiakry, cocoa mix), homonymes (« Sorpa » = centre de tri à Reykjavík).
-**133 recettes publiées restent sans photo.**
+**133 recettes publiées restaient sans photo.**
+
+## 7ᵉ passe (2026-09-26) : recherche plein texte dans les descriptions Commons
+
+Nom du plat cherché dans le texte des pages de fichiers (pas seulement le titre). **3 photos validées**, migration `20260926220000_recipe_photos_seventh_pass.sql` : Kleija (photographiée à Unayzah, Qassim), Sumagiyya de Gaza, Hilachas guatémaltèques.
+Rejetées : thiakry (arraw cru, sans lait caillé), « Kartoffelturm » (bac de culture), soupe d’arachide (viande non identifiable), sorpa/shorpo kirghize, kesme turque, ftira maltaise (≠ ftira de Gozo), jollof/thiéboudienne (≠ benachin).
+**130 recettes publiées restent sans photo.**
 
 Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche).
 
@@ -73,7 +79,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 ## Arabie saoudite (SA) — 3
 
 - `jareesh-najdi` — Jareesh 🅱 — _Najdi jareesh (cracked wheat with yogurt)_ — ✅ photo validée (3ᵉ passe)
-- `kleija-qassim` — Kleija 🅱 — _Qassim kleija (date and cardamom cookies)_ — ∅ aucune candidate Commons
+- `kleija-qassim` — Kleija 🅱 — _Qassim kleija (date and cardamom cookies)_ — ✅ photo validée (7ᵉ passe)
 - `mutabbaq-jeddah` — Mutabbaq 🅱 — _Jeddah mutabbaq (stuffed pan-fried pastry)_ — ✅ photo validée (2ᵉ passe)
 
 ## Argentine (AR) — 2
@@ -297,7 +303,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 ## Guatemala (GT) — 5
 
-- `hilachas-guatemaltecas` — Hilachas 🅱 — _Guatemalan hilachas (shredded beef in tomato sauce)_ — ∅ aucune candidate Commons
+- `hilachas-guatemaltecas` — Hilachas 🅱 — _Guatemalan hilachas (shredded beef in tomato sauce)_ — ✅ photo validée (7ᵉ passe)
 - `jocon-guatemalteque` — Jocón 🅱 — _Guatemalan jocón (chicken in green tomatillo sauce)_ — ∅ aucune candidate Commons
 - `rellenitos-de-platano` — Rellenitos de plátano 🅱 — _Guatemalan rellenitos (plantain stuffed with sweet black beans)_ — ✅ photo validée
 - `None` — Pepián — ✅ photo validée
@@ -598,7 +604,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 - `knafeh-nabulsieh` — Knafeh nabulsieh 🅱 — _Nablus knafeh (sweet cheese pastry)_ — ✅ photo validée
 - `maftoul-palestinien` — Maftoul 🅱 — _Palestinian maftoul (hand-rolled couscous with chicken and chickpeas)_ — ✅ photo validée (2ᵉ passe)
 - `musakhan-palestinien` — Musakhan 🅱 — _Palestinian musakhan (sumac roast chicken on taboun bread)_ — ✅ photo validée
-- `sumagiyya-gaza` — Sumagiyya 🅱 — _Gaza sumagiyya (lamb and chard stew with sumac and tahini)_ — ∅ aucune candidate Commons
+- `sumagiyya-gaza` — Sumagiyya 🅱 — _Gaza sumagiyya (lamb and chard stew with sumac and tahini)_ — ✅ photo validée (7ᵉ passe)
 
 ## Panama (PA) — 4
 

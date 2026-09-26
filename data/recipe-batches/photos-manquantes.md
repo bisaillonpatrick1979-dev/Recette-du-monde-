@@ -38,7 +38,9 @@ Pour les 148 recettes encore sans photo : catégorie Commons du plat → éléme
 Recherche plat par plat (catégories et titres de fichiers, noms locaux) sur les 147 recettes restantes, avec vérification des ingrédients de la recette avant de retenir une photo. **8 photos validées**, migration `20260926210000_recipe_photos_sixth_pass.sql` :
 Crispy Roast Potatoes, Crispy Sweet Potato Fries, Caramel Sauce II, Jam (recipe) (l’audit avait retiré leurs anciennes images, des PDF), Kuyrdak kazakh, Karjalanpaisti, Conkies de la Barbade, Rougaille saucisses.
 Rejetées : Shrewsbury biscuits (raisins absents de la recette), pot pie (garniture non identifiable), Labskaus allemand (≠ lapskaus norvégien), rosolli finlandais (≠ rosolje estonien, sans hareng), Bosanski lonac (image de 240 px), karjalanpaisti en GFDL seule (remplacé par une photo du domaine public).
-**139 recettes publiées restent sans photo.**
+Suite, par titres de fichiers Commons dans la langue locale : **6 photos de plus**, migration `20260926213000_recipe_photos_sixth_pass_more.sql` : Shurbo, Matoke, Eru, Chamuças, Morogo, Appa (egg hopper).
+Rejetées aussi : même plat photographié dans un autre pays (run down jamaïcain pour le rondón, canja portugaise, soupe à l’oseille russe, parippu du Kerala, arroz con pollo non panaméen, johnnycake américain), images trop petites (jocón 300 px, peka 400 px), produits emballés (thiakry, cocoa mix), homonymes (« Sorpa » = centre de tri à Reykjavík).
+**133 recettes publiées restent sans photo.**
 
 Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche).
 
@@ -161,7 +163,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `dikgobe-botswana` — Dikgobe 🅱 — _Botswana dikgobe (sorghum and beans)_ — ✅ photo validée
 - `magwinya-botswana` — Magwinya 🅱 — _Botswana magwinya (fat cakes)_ — ✅ photo validée
-- `morogo-botswana` — Morogo 🅱 — _Botswana morogo (wild greens with tomato)_ — ❌ candidates rejetées
+- `morogo-botswana` — Morogo 🅱 — _Botswana morogo (wild greens with tomato)_ — ✅ photo validée (6ᵉ passe)
 - `None` — Bogobe jwa lerotse — ✅ photo validée
 - `None` — Seswaa — ✅ photo validée
 
@@ -191,7 +193,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 ## Cameroun (CM) — 4
 
-- `eru-camerounais` — Eru 🅱 — _Cameroonian eru (okok leaves, waterleaf and palm oil)_ — ∅ aucune candidate Commons
+- `eru-camerounais` — Eru 🅱 — _Cameroonian eru (okok leaves, waterleaf and palm oil)_ — ✅ photo validée (6ᵉ passe)
 - `mbongo-tchobi` — Mbongo tchobi 🅱 — _Cameroonian mbongo tchobi (fish in black spice sauce)_ — ✅ photo validée
 - `None` — Ndolé — ✅ photo validée
 - `None` — Poulet DG — ✅ photo validée
@@ -521,7 +523,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `bolo-polana` — Bolo polana 🅱 — _Maputo bolo polana (cashew and potato cake)_ — ∅ aucune candidate Commons
 - `camarao-piri-piri` — Camarão grelhado piri-piri 🅱 — _Mozambican grilled piri-piri prawns_ — ∅ aucune candidate Commons
-- `chamucas-mocambicanas` — Chamuças 🅱 — _Mozambican chamuças (spiced meat samosas)_ — ∅ aucune candidate Commons
+- `chamucas-mocambicanas` — Chamuças 🅱 — _Mozambican chamuças (spiced meat samosas)_ — ✅ photo validée (6ᵉ passe)
 
 ## Myanmar (MM) — 4
 
@@ -575,7 +577,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `katogo-ougandais` — Katogo 🅱 — _Ugandan katogo (green banana one-pot)_ — ✅ photo validée
 - `malewa-bugisu` — Malewa 🅱 — _Bugisu malewa (smoked bamboo shoots in peanut sauce)_ — ❌ candidates rejetées
-- `matoke-ougandais` — Matoke 🅱 — _Ugandan matoke (mashed green bananas)_ — ❌ candidates rejetées
+- `matoke-ougandais` — Matoke 🅱 — _Ugandan matoke (mashed green bananas)_ — ✅ photo validée (6ᵉ passe)
 - `None` — Luwombo ougandais au poulet — ✅ photo validée
 
 ## Ouzbékistan (UZ) — 4
@@ -714,7 +716,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 ## Sri Lanka (LK) — 4
 
-- `appa-sri-lankais` — Appa (hoppers) 🅱 — _Sri Lankan hoppers (appa) with egg_ — ❌ candidates rejetées
+- `appa-sri-lankais` — Appa (hoppers) 🅱 — _Sri Lankan hoppers (appa) with egg_ — ✅ photo validée (6ᵉ passe)
 - `kiribath` — Kiribath 🅱 — _Sri Lankan kiribath (coconut milk rice)_ — ✅ photo validée
 - `parippu-sri-lankais` — Parippu 🅱 — _Sri Lankan parippu (red lentil coconut dhal)_ — ❌ candidates rejetées
 - `None` — Fish ambul thiyal sri-lankais — ❌ pas de photo Commons exacte
@@ -749,7 +751,7 @@ Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche
 
 - `sambusa-tadjik` — Sambusa 🅱 — _Tajik sambusa (baked lamb pastries)_ — ✅ photo validée
 - `shirchoy-tadjik` — Shirchoy 🅱 — _Tajik shirchoy (salted milk tea with butter)_ — ∅ aucune candidate Commons
-- `shurbo-tadjik` — Shurbo 🅱 — _Tajik shurbo (lamb and vegetable soup)_ — ∅ aucune candidate Commons
+- `shurbo-tadjik` — Shurbo 🅱 — _Tajik shurbo (lamb and vegetable soup)_ — ✅ photo validée (6ᵉ passe)
 
 ## Tanzanie (TZ) — 4
 

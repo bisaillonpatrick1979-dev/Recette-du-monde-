@@ -23,7 +23,11 @@ Règle (PIPELINE.md §4) : chaque photo doit montrer ce plat précis, sous licen
 - 2ᵉ passe (2026-09-26, recherche Commons par catégories, descriptions et noms alternatifs — orthographes locales, alphabets d’origine, noms anglais) sur les 180 restantes : **52 photos validées à l’œil** (42 lots dans `photos.json`, 10 anciennes dans `photos-legacy.json`), migration `20260926090000_recipe_photos_second_pass.sql`.
 - 3ᵉ passe (2026-09-26, fichiers des catégories « Cuisine of <pays> » et sous-catégories, dont le nom ne cite pas forcément le plat) : **19 photos validées à l’œil**, migration `20260926120000_recipe_photos_third_pass.sql`.
 - Audit photo du 2026-09-25 (autre session) : 3 de ces photos retirées (benachin, soupe ghanéenne, jagnjetina ispod sača), jugées trop approximatives.
-- **Total : 325 photos en place, 112 recettes de cette liste encore sans photo.** Pour celles-ci, Commons ne contient pas de photo montrant exactement le plat (souvent seulement l’ingrédient cru, un homonyme ou un plat voisin d’un autre pays).
+- **Total : 325 photos en place, 112 recettes de cette liste encore sans photo.**
+
+## Recettes dont l’audit photo a retiré l’image (hors liste ci-dessous)
+
+L’audit photo du 2026-09-25 a archivé l’image de 72 autres recettes publiées (surtout le lot Wikibooks : scans de livres PDF, logos, plats voisins). Recherche Commons refaite le 2026-09-26, chaque candidate contrôlée à l’œil : **36 photos validées** → `photos-legacy.json`, migration `20260926150000_recipe_photos_audit_replacements.sql`. Les 36 autres n’ont pas de photo exacte sur Commons (assaisonnements, sauces, boissons maison, noms de recette propres à Wikibooks). Pour celles-ci, Commons ne contient pas de photo montrant exactement le plat (souvent seulement l’ingrédient cru, un homonyme ou un plat voisin d’un autre pays).
 
 Légende : 🅱 = recette d'un lot local (nom anglais indiqué pour la recherche).
 

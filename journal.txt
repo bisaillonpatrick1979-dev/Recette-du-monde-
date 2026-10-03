@@ -1,0 +1,15 @@
+<anonymous_script>:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:5895:19)
+    at successSteps (node:internal/deps/undici/undici:5876:27)
+    at fullyReadBody (node:internal/deps/undici/undici:4768:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async consumeBody (node:internal/deps/undici/undici:5885:7)
+    at async commons (file:///home/runner/work/Recette-du-monde-/Recette-du-monde-/scripts/recipe-batches/search-photos.mjs:68:16)
+    at async file:///home/runner/work/Recette-du-monde-/Recette-du-monde-/scripts/recipe-batches/search-photos.mjs:161:24
+
+Node.js v22.23.3

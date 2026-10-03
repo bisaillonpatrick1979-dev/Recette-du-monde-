@@ -1,0 +1,1970 @@
+[
+{
+"slug": "bissara",
+"country": "MA",
+"original": "Bissara",
+"title": "Bissara du Nord marocain (purée de fèves à l'huile d'olive et cumin)",
+"en": "Moroccan bissara",
+"es": "Bissara marroquí",
+"desc": "Soupe-purée épaisse de fèves sèches arrosée d'huile d'olive, de cumin et de paprika, petit-déjeuner d'hiver des montagnes du Rif.",
+"cat": "Soupe",
+"diff": "easy",
+"prep": 10,
+"cook": 60,
+"serv": 4,
+"place": {
+"slug": "ma-chefchaouen",
+"name": "Chefchaouen",
+"type": "city",
+"lat": 35.1688,
+"lng": -5.2636,
+"summary": "Ville bleue du Rif, cuisine montagnarde à l'huile d'olive."
+},
+"ing": [
+[
+"Fèves sèches décortiquées",
+400,
+"g",
+null
+],
+[
+"Ail",
+4,
+"gousses",
+null
+],
+[
+"Huile d'olive",
+100,
+"ml",
+null
+],
+[
+"Cumin",
+2,
+"c. à café",
+null
+],
+[
+"Paprika",
+1,
+"c. à café",
+null
+],
+[
+"Piment",
+0.5,
+"c. à café",
+null
+],
+[
+"Citron",
+1,
+null,
+null
+]
+],
+"steps": [
+"Tremper les fèves une nuit puis les rincer.",
+"Les cuire avec l'ail dans 1,5 l d'eau 1 heure jusqu'à ce qu'elles se défassent.",
+"Mixer en purée lisse, saler et ajouter du cumin.",
+"Allonger d'eau pour une consistance de soupe épaisse.",
+"Servir en bol avec un généreux filet d'huile d'olive, cumin, paprika et piment.",
+"Accompagner de pain et de citron."
+]
+},
+{
+"slug": "harcha",
+"country": "MA",
+"original": "Harcha",
+"title": "Harcha (galettes de semoule poêlées)",
+"en": "Moroccan harcha semolina bread",
+"es": "Harcha marroquí",
+"desc": "Petites galettes de semoule fine au beurre, sablées et poêlées, servies au petit-déjeuner ou au goûter avec miel, fromage frais ou confiture.",
+"cat": "Pain",
+"diff": "easy",
+"prep": 15,
+"cook": 20,
+"serv": 10,
+"place": "ma-fez",
+"ing": [
+[
+"Semoule fine",
+400,
+"g",
+null
+],
+[
+"Beurre fondu",
+100,
+"g",
+null
+],
+[
+"Lait",
+250,
+"ml",
+null
+],
+[
+"Sucre",
+2,
+"c. à soupe",
+null
+],
+[
+"Levure chimique",
+1,
+"c. à café",
+null
+],
+[
+"Sel",
+1,
+"c. à café",
+null
+],
+[
+"Semoule grosse",
+50,
+"g",
+"pour enrober"
+]
+],
+"steps": [
+"Mélanger la semoule, le sucre, le sel et la levure.",
+"Sabler avec le beurre fondu jusqu'à ce que la semoule soit bien enrobée.",
+"Ajouter le lait et former une pâte molle; reposer 15 minutes.",
+"Façonner des galettes de 8 cm et 1 cm d'épaisseur, les rouler dans la grosse semoule.",
+"Cuire à sec dans une poêle à feu doux 8 à 10 minutes par face.",
+"Servir tiède avec miel et beurre."
+]
+},
+{
+"slug": "sfenj",
+"country": "MA",
+"original": "Sfenj",
+"title": "Sfenj (beignets marocains en anneau)",
+"en": "Moroccan sfenj doughnuts",
+"es": "Sfenj marroquí",
+"desc": "Beignets légers et troués à la pâte levée collante, frits par les sfenjis dans les ruelles des médinas et enfilés sur un brin de palmier.",
+"cat": "Petit-déjeuner",
+"diff": "medium",
+"prep": 20,
+"cook": 20,
+"serv": 12,
+"place": "ma-marrakech",
+"ing": [
+[
+"Farine",
+500,
+"g",
+null
+],
+[
+"Eau tiède",
+400,
+"ml",
+null
+],
+[
+"Levure sèche",
+10,
+"g",
+null
+],
+[
+"Sel",
+1,
+"c. à café",
+null
+],
+[
+"Sucre",
+1,
+"c. à café",
+null
+],
+[
+"Huile de friture",
+1.5,
+"l",
+null
+],
+[
+"Sucre ou miel",
+1,
+"c. à soupe",
+"pour servir"
+]
+],
+"steps": [
+"Mélanger farine, levure, sel, sucre et eau en pâte très collante.",
+"Battre à la main 10 minutes puis laisser lever 2 heures.",
+"Chauffer l'huile à 180 °C.",
+"Avec les mains mouillées, prendre une boule de pâte, la percer au centre et l'étirer en anneau.",
+"Frire 2 minutes de chaque côté jusqu'à ce qu'il soit doré.",
+"Servir nature, sucré ou trempé dans le miel."
+]
+},
+{
+"slug": "kefta-mkaouara",
+"country": "MA",
+"original": "Tajine kefta mkaouara",
+"title": "Tajine de kefta aux œufs et tomates",
+"en": "Moroccan kefta tagine with eggs",
+"es": "Tajín de kefta con huevos",
+"desc": "Boulettes de bœuf épicées mijotées dans une sauce tomate au cumin et paprika, des œufs pochés directement dans la sauce en fin de cuisson.",
+"cat": "Plat principal",
+"diff": "easy",
+"prep": 20,
+"cook": 35,
+"serv": 4,
+"place": "ma-marrakech",
+"ing": [
+[
+"Bœuf haché",
+500,
+"g",
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Persil et coriandre",
+1,
+"bouquet",
+null
+],
+[
+"Cumin et paprika",
+3,
+"c. à café",
+null
+],
+[
+"Tomates",
+800,
+"g",
+"râpées"
+],
+[
+"Ail",
+3,
+"gousses",
+null
+],
+[
+"Huile d'olive",
+3,
+"c. à soupe",
+null
+],
+[
+"Œufs",
+4,
+null,
+null
+]
+],
+"steps": [
+"Mélanger le bœuf avec la moitié des herbes, l'oignon râpé, les épices et le sel.",
+"Façonner de petites boulettes.",
+"Faire revenir l'ail dans l'huile, ajouter les tomates et le reste des épices; cuire 15 minutes.",
+"Ajouter les boulettes et mijoter 15 minutes à couvert.",
+"Casser les œufs dans la sauce et cuire jusqu'à ce que le blanc prenne.",
+"Parsemer d'herbes et servir dans le tajine avec du pain."
+]
+},
+{
+"slug": "garantita-oran",
+"country": "DZ",
+"original": "Garantita",
+"title": "Garantita d'Oran (flan de pois chiches au cumin)",
+"en": "Oran garantita",
+"es": "Calentita de Orán",
+"desc": "Flan de farine de pois chiche cuit au four, saupoudré de cumin et de harissa et servi dans un pain, en-cas de rue d'Oran hérité de la calentita espagnole.",
+"cat": "Cuisine de rue",
+"diff": "easy",
+"prep": 10,
+"cook": 35,
+"serv": 8,
+"place": {
+"slug": "dz-oran",
+"name": "Oran",
+"type": "city",
+"lat": 35.6971,
+"lng": -0.6308,
+"summary": "Grande ville de l'Ouest algérien, au carrefour des influences espagnoles."
+},
+"ing": [
+[
+"Farine de pois chiche",
+250,
+"g",
+null
+],
+[
+"Eau",
+1,
+"l",
+null
+],
+[
+"Huile",
+60,
+"ml",
+null
+],
+[
+"Œuf",
+1,
+null,
+null
+],
+[
+"Sel",
+1,
+"c. à café",
+null
+],
+[
+"Cumin",
+2,
+"c. à café",
+null
+],
+[
+"Harissa",
+2,
+"c. à soupe",
+"pour servir"
+],
+[
+"Baguette",
+2,
+null,
+"facultatif"
+]
+],
+"steps": [
+"Fouetter la farine de pois chiche avec l'eau, l'huile, l'œuf et le sel.",
+"Laisser reposer 30 minutes.",
+"Verser dans un plat huilé sur 2 cm.",
+"Badigeonner le dessus d'œuf ou d'huile.",
+"Cuire 30 à 35 minutes à 220 °C jusqu'à ce que le dessus soit doré.",
+"Couper en carrés, saupoudrer de cumin et servir avec harissa, en sandwich si on veut."
+]
+},
+{
+"slug": "mhajeb-alger",
+"country": "DZ",
+"original": "Mhajeb",
+"title": "Mhajeb (crêpes feuilletées farcies à la tomate et oignon)",
+"en": "Algerian mhajeb",
+"es": "Mhajeb argelino",
+"desc": "Feuilles de pâte de semoule étirées très finement, garnies d'une chakchouka d'oignons et de tomates, pliées en carré et cuites sur une plaque.",
+"cat": "Cuisine de rue",
+"diff": "medium",
+"prep": 50,
+"cook": 30,
+"serv": 8,
+"place": {
+"slug": "dz-alger",
+"name": "Alger",
+"type": "city",
+"lat": 36.7538,
+"lng": 3.0588,
+"summary": "Capitale algérienne, la « Blanche », casbah et cuisine citadine."
+},
+"ing": [
+[
+"Semoule fine",
+400,
+"g",
+null
+],
+[
+"Farine",
+100,
+"g",
+null
+],
+[
+"Eau tiède",
+350,
+"ml",
+null
+],
+[
+"Huile",
+100,
+"ml",
+null
+],
+[
+"Oignons",
+3,
+null,
+null
+],
+[
+"Tomates",
+4,
+null,
+null
+],
+[
+"Poivron",
+1,
+null,
+null
+],
+[
+"Paprika et piment",
+2,
+"c. à café",
+null
+]
+],
+"steps": [
+"Pétrir semoule, farine, sel et eau longuement en pâte très souple; reposer 30 minutes.",
+"Faire fondre oignons, poivron et tomates avec les épices en compotée sèche.",
+"Diviser la pâte en boules huilées.",
+"Étirer chaque boule sur un plan huilé jusqu'à ce qu'elle soit transparente.",
+"Garnir de farce au centre et replier en carré.",
+"Cuire sur une plaque chaude 3 minutes par face; badigeonner de beurre."
+]
+},
+{
+"slug": "rechta-alger",
+"country": "DZ",
+"original": "Rechta",
+"title": "Rechta algéroise (nouilles fraîches au poulet et navets)",
+"en": "Algiers rechta",
+"es": "Rechta argelina",
+"desc": "Fines nouilles fraîches cuites à la vapeur, nappées d'une sauce blanche au poulet, navets et pois chiches parfumée à la cannelle, plat des fêtes d'Alger.",
+"cat": "Plat principal",
+"diff": "hard",
+"prep": 60,
+"cook": 90,
+"serv": 6,
+"place": {
+"slug": "dz-alger",
+"name": "Alger",
+"type": "city",
+"lat": 36.7538,
+"lng": 3.0588,
+"summary": "Capitale algérienne, la « Blanche », casbah et cuisine citadine."
+},
+"ing": [
+[
+"Rechta (nouilles fraîches)",
+600,
+"g",
+null
+],
+[
+"Poulet en morceaux",
+1,
+"kg",
+null
+],
+[
+"Navets",
+4,
+null,
+null
+],
+[
+"Pois chiches cuits",
+200,
+"g",
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Cannelle",
+1,
+"c. à café",
+null
+],
+[
+"Smen ou beurre",
+50,
+"g",
+null
+],
+[
+"Poivre blanc",
+1,
+"c. à café",
+null
+]
+],
+"steps": [
+"Faire revenir le poulet et l'oignon dans le smen avec la cannelle, le poivre et le sel.",
+"Couvrir d'eau et mijoter 45 minutes; ajouter navets et pois chiches 20 minutes avant la fin.",
+"Cuire la rechta à la vapeur 3 fois en l'aérant et en l'huilant entre chaque passage.",
+"Arroser la rechta d'une louche de sauce.",
+"Dresser les nouilles, puis le poulet et les légumes.",
+"Servir avec la sauce à part, saupoudrée de cannelle."
+]
+},
+{
+"slug": "makroudh-kairouan",
+"country": "TN",
+"original": "Makroudh",
+"title": "Makroudh de Kairouan (losanges de semoule aux dattes et au miel)",
+"en": "Kairouan makroudh",
+"es": "Makroudh de Kairuán",
+"desc": "Losanges de pâte de semoule fourrés de pâte de dattes, frits puis trempés dans un sirop au miel et à l'eau de fleur d'oranger, gloire pâtissière de Kairouan.",
+"cat": "Dessert",
+"diff": "medium",
+"prep": 60,
+"cook": 30,
+"serv": 30,
+"place": {
+"slug": "tn-kairouan",
+"name": "Kairouan",
+"type": "city",
+"lat": 35.6781,
+"lng": 10.0963,
+"summary": "Ville sainte du centre tunisien, capitale du makroudh."
+},
+"ing": [
+[
+"Semoule moyenne",
+500,
+"g",
+null
+],
+[
+"Huile",
+150,
+"ml",
+null
+],
+[
+"Eau tiède",
+150,
+"ml",
+null
+],
+[
+"Pâte de dattes",
+400,
+"g",
+null
+],
+[
+"Cannelle",
+1,
+"c. à café",
+null
+],
+[
+"Eau de fleur d'oranger",
+3,
+"c. à soupe",
+null
+],
+[
+"Miel",
+300,
+"g",
+null
+],
+[
+"Huile de friture",
+1,
+"l",
+null
+]
+],
+"steps": [
+"Sabler la semoule avec l'huile, laisser reposer 1 heure puis mouiller d'eau salée pour former une pâte.",
+"Mélanger la pâte de dattes avec cannelle et fleur d'oranger; rouler en boudins.",
+"Aplatir la pâte, poser un boudin de dattes au centre et refermer.",
+"Rouler en boudin régulier et couper en losanges.",
+"Frire à 170 °C jusqu'à ce qu'ils soient dorés.",
+"Plonger aussitôt dans le miel tiède à la fleur d'oranger."
+]
+},
+{
+"slug": "ojja-merguez",
+"country": "TN",
+"original": "Ojja merguez",
+"title": "Ojja aux merguez (œufs pochés dans la sauce pimentée)",
+"en": "Tunisian ojja with merguez",
+"es": "Ojja de merguez",
+"desc": "Sauce de tomates, poivrons et harissa où l'on fait cuire des merguez et pocher des œufs, plat rapide des gargotes de Tunis servi brûlant avec du pain.",
+"cat": "Plat principal",
+"diff": "easy",
+"prep": 15,
+"cook": 25,
+"serv": 4,
+"place": "tn-tunis",
+"ing": [
+[
+"Merguez",
+8,
+null,
+null
+],
+[
+"Œufs",
+6,
+null,
+null
+],
+[
+"Tomates",
+500,
+"g",
+null
+],
+[
+"Poivrons verts",
+2,
+null,
+null
+],
+[
+"Ail",
+4,
+"gousses",
+null
+],
+[
+"Harissa",
+2,
+"c. à soupe",
+null
+],
+[
+"Carvi et paprika",
+2,
+"c. à café",
+null
+],
+[
+"Huile d'olive",
+4,
+"c. à soupe",
+null
+]
+],
+"steps": [
+"Dorer les merguez coupées en tronçons dans l'huile; réserver.",
+"Faire revenir ail et poivrons, ajouter harissa, carvi et paprika.",
+"Ajouter les tomates et un verre d'eau; mijoter 15 minutes.",
+"Remettre les merguez.",
+"Casser les œufs dans la sauce et laisser prendre (ou les brouiller légèrement).",
+"Servir aussitôt dans la poêle."
+]
+},
+{
+"slug": "bambalouni",
+"country": "TN",
+"original": "Bambalouni",
+"title": "Bambalouni de Sidi Bou Saïd (beignet au sucre)",
+"en": "Tunisian bambalouni",
+"es": "Bambalouni tunecino",
+"desc": "Grand beignet fin et moelleux saupoudré de sucre, dégusté face à la mer sur les marches de Sidi Bou Saïd avec un thé aux pignons.",
+"cat": "Dessert",
+"diff": "medium",
+"prep": 20,
+"cook": 20,
+"serv": 10,
+"place": {
+"slug": "tn-sidi-bou-said",
+"name": "Sidi Bou Saïd",
+"type": "locality",
+"lat": 36.8687,
+"lng": 10.3417,
+"summary": "Village blanc et bleu dominant le golfe de Tunis."
+},
+"ing": [
+[
+"Farine",
+500,
+"g",
+null
+],
+[
+"Levure fraîche",
+20,
+"g",
+null
+],
+[
+"Eau tiède",
+300,
+"ml",
+null
+],
+[
+"Sucre",
+2,
+"c. à soupe",
+null
+],
+[
+"Huile",
+2,
+"c. à soupe",
+null
+],
+[
+"Huile de friture",
+1,
+"l",
+null
+],
+[
+"Sucre en poudre",
+100,
+"g",
+"pour saupoudrer"
+]
+],
+"steps": [
+"Délayer la levure dans l'eau tiède avec le sucre.",
+"Pétrir avec farine, sel et huile en pâte molle; laisser lever 1 heure 30.",
+"Prendre une boule de pâte, l'aplatir avec les doigts huilés et percer le centre.",
+"Frire à 180 °C 1 à 2 minutes par face.",
+"Égoutter et saupoudrer généreusement de sucre.",
+"Servir chaud avec un thé."
+]
+},
+{
+"slug": "hawawshi",
+"country": "EG",
+"original": "حواوشي (Hawawshi)",
+"title": "Hawawshi (pain baladi farci à la viande épicée)",
+"en": "Egyptian hawawshi",
+"es": "Hawawshi egipcio",
+"desc": "Pain baladi farci de bœuf haché, d'oignon, de poivron et de piment, cuit au four jusqu'à devenir croustillant, en-cas populaire du Caire.",
+"cat": "Cuisine de rue",
+"diff": "easy",
+"prep": 20,
+"cook": 25,
+"serv": 4,
+"place": {
+"slug": "eg-cairo",
+"name": "Le Caire",
+"type": "city",
+"lat": 30.0444,
+"lng": 31.2357,
+"summary": "Capitale égyptienne, cuisine de rue foisonnante: koshari, taameya, hawawshi."
+},
+"ing": [
+[
+"Pains baladi ou pitas",
+4,
+null,
+null
+],
+[
+"Bœuf haché",
+500,
+"g",
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Poivron vert",
+1,
+null,
+null
+],
+[
+"Piment vert",
+1,
+null,
+null
+],
+[
+"Persil",
+1,
+"bouquet",
+null
+],
+[
+"Cumin, coriandre, poivre de la Jamaïque",
+2,
+"c. à café",
+null
+],
+[
+"Beurre ou huile",
+3,
+"c. à soupe",
+null
+]
+],
+"steps": [
+"Hacher finement oignon, poivron, piment et persil, et presser l'excès d'eau.",
+"Mélanger au bœuf avec les épices et le sel.",
+"Ouvrir les pains et les farcir d'une couche fine de viande.",
+"Badigeonner l'extérieur de beurre.",
+"Cuire 20 à 25 minutes à 220 °C en retournant à mi-cuisson.",
+"Couper en quartiers et servir avec tahini et pickles."
+]
+},
+{
+"slug": "sayadeya-alexandrie",
+"country": "EG",
+"original": "صيادية (Sayadeya)",
+"title": "Sayadeya d'Alexandrie (poisson et riz aux oignons caramélisés)",
+"en": "Alexandrian sayadeya",
+"es": "Sayadeya de Alejandría",
+"desc": "Riz brun parfumé cuit dans un bouillon d'oignons caramélisés et d'épices, couronné de poisson blanc frit, plat des pêcheurs d'Alexandrie.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 30,
+"cook": 50,
+"serv": 4,
+"place": {
+"slug": "eg-alexandria",
+"name": "Alexandrie",
+"type": "city",
+"lat": 31.2001,
+"lng": 29.9187,
+"summary": "Grand port méditerranéen d'Égypte, réputé pour ses poissons et fruits de mer."
+},
+"ing": [
+[
+"Filets de poisson blanc (bar, dorade)",
+800,
+"g",
+null
+],
+[
+"Riz",
+400,
+"g",
+null
+],
+[
+"Oignons",
+3,
+null,
+"émincés"
+],
+[
+"Cumin et coriandre",
+2,
+"c. à café",
+null
+],
+[
+"Cannelle",
+0.5,
+"c. à café",
+null
+],
+[
+"Bouillon de poisson",
+900,
+"ml",
+null
+],
+[
+"Farine",
+50,
+"g",
+null
+],
+[
+"Huile",
+150,
+"ml",
+null
+],
+[
+"Pignons ou amandes",
+40,
+"g",
+null
+]
+],
+"steps": [
+"Frire les oignons jusqu'à ce qu'ils soient très foncés sans brûler; en réserver une partie.",
+"Mixer le reste avec le bouillon pour lui donner sa couleur brune.",
+"Fariner et frire le poisson assaisonné de cumin.",
+"Faire revenir le riz dans un peu d'huile avec les épices, ajouter le bouillon brun et cuire 20 minutes.",
+"Dresser le riz, poser le poisson dessus.",
+"Garnir d'oignons frits et de pignons grillés."
+]
+},
+{
+"slug": "taameya",
+"country": "EG",
+"original": "طعمية (Taameya)",
+"title": "Taameya du Caire (falafels de fèves aux herbes)",
+"en": "Egyptian taameya (fava falafel)",
+"es": "Taameya egipcia",
+"desc": "Falafels égyptiens à base de fèves décortiquées et d'herbes fraîches, verts à l'intérieur, couverts de sésame, servis dans le pain baladi avec tahini et salade.",
+"cat": "Cuisine de rue",
+"diff": "easy",
+"prep": 20,
+"cook": 15,
+"serv": 6,
+"place": {
+"slug": "eg-cairo",
+"name": "Le Caire",
+"type": "city",
+"lat": 30.0444,
+"lng": 31.2357,
+"summary": "Capitale égyptienne, cuisine de rue foisonnante: koshari, taameya, hawawshi."
+},
+"ing": [
+[
+"Fèves sèches décortiquées",
+400,
+"g",
+"trempées 24 h"
+],
+[
+"Persil, coriandre et aneth",
+2,
+"bouquets",
+null
+],
+[
+"Oignon vert et poireau",
+1,
+null,
+null
+],
+[
+"Ail",
+4,
+"gousses",
+null
+],
+[
+"Cumin et coriandre moulue",
+2,
+"c. à café",
+null
+],
+[
+"Bicarbonate",
+0.5,
+"c. à café",
+null
+],
+[
+"Sésame",
+3,
+"c. à soupe",
+null
+],
+[
+"Huile de friture",
+1,
+"l",
+null
+]
+],
+"steps": [
+"Égoutter les fèves et les hacher finement avec les herbes, l'oignon et l'ail.",
+"Ajouter les épices et le sel; reposer 30 minutes au frais.",
+"Ajouter le bicarbonate juste avant la cuisson.",
+"Former des galettes et les parsemer de sésame.",
+"Frire à 175 °C 3 à 4 minutes.",
+"Servir dans le pain avec tahini, tomates et pickles."
+]
+},
+{
+"slug": "firfir",
+"country": "ET",
+"original": "ፍርፍር (Firfir)",
+"title": "Firfir (injera émiettée sautée au berbéré)",
+"en": "Ethiopian firfir",
+"es": "Firfir etíope",
+"desc": "Morceaux d'injera de la veille sautés dans une sauce d'oignons, de niter kibbeh et de berbéré, petit-déjeuner éthiopien souvent servi avec du yaourt.",
+"cat": "Petit-déjeuner",
+"diff": "easy",
+"prep": 10,
+"cook": 20,
+"serv": 4,
+"place": {
+"slug": "et-addis-ababa",
+"name": "Addis-Abeba",
+"type": "city",
+"lat": 9.03,
+"lng": 38.74,
+"summary": "Capitale éthiopienne, maisons d'injera et cérémonies du café."
+},
+"ing": [
+[
+"Injera de la veille",
+4,
+null,
+"déchirées en morceaux"
+],
+[
+"Oignons rouges",
+2,
+null,
+"finement hachés"
+],
+[
+"Niter kibbeh",
+4,
+"c. à soupe",
+null
+],
+[
+"Berbéré",
+1.5,
+"c. à soupe",
+null
+],
+[
+"Ail et gingembre",
+1,
+"c. à soupe",
+null
+],
+[
+"Tomates",
+2,
+null,
+null
+],
+[
+"Piment vert",
+1,
+null,
+null
+],
+[
+"Yaourt",
+150,
+"g",
+"pour servir"
+]
+],
+"steps": [
+"Faire suer les oignons à sec puis avec le niter kibbeh.",
+"Ajouter ail, gingembre et berbéré; cuire 3 minutes.",
+"Ajouter les tomates et un peu d'eau; mijoter 10 minutes en sauce.",
+"Incorporer les morceaux d'injera et mélanger pour qu'ils s'imbibent.",
+"Garnir de piment vert.",
+"Servir avec du yaourt et une injera fraîche."
+]
+},
+{
+"slug": "suya-kano",
+"country": "NG",
+"original": "Suya",
+"title": "Suya de Kano (brochettes de bœuf au yaji)",
+"en": "Kano suya",
+"es": "Suya de Kano",
+"desc": "Fines lamelles de bœuf enrobées de yaji (épices aux arachides, gingembre et piment), grillées sur la braise et servies avec oignon cru et tomate, tradition haoussa.",
+"cat": "Cuisine de rue",
+"diff": "easy",
+"prep": 30,
+"cook": 15,
+"serv": 4,
+"place": {
+"slug": "ng-kano",
+"name": "Kano",
+"type": "city",
+"lat": 12.0022,
+"lng": 8.592,
+"summary": "Grande cité haoussa du nord du Nigeria, berceau du suya."
+},
+"ing": [
+[
+"Bœuf (faux-filet ou rumsteck)",
+800,
+"g",
+"en lamelles fines"
+],
+[
+"Kuli-kuli ou cacahuètes moulues",
+100,
+"g",
+null
+],
+[
+"Piment de Cayenne",
+2,
+"c. à café",
+null
+],
+[
+"Gingembre en poudre",
+2,
+"c. à café",
+null
+],
+[
+"Paprika",
+1,
+"c. à soupe",
+null
+],
+[
+"Ail et oignon en poudre",
+2,
+"c. à café",
+null
+],
+[
+"Cube de bouillon",
+1,
+null,
+null
+],
+[
+"Huile",
+3,
+"c. à soupe",
+null
+],
+[
+"Oignon rouge et tomate",
+1,
+null,
+"pour servir"
+]
+],
+"steps": [
+"Mélanger kuli-kuli, piment, gingembre, paprika, ail, oignon et bouillon émietté: c'est le yaji.",
+"Enfiler les lamelles de bœuf en accordéon sur des brochettes.",
+"Badigeonner d'huile et rouler généreusement dans le yaji.",
+"Laisser reposer 30 minutes.",
+"Griller sur une braise vive 4 à 6 minutes par face.",
+"Servir saupoudré de yaji avec oignon rouge et tomate."
+]
+},
+{
+"slug": "moin-moin",
+"country": "NG",
+"original": "Moin moin",
+"title": "Moin moin (flan vapeur de haricots à l'œuf)",
+"en": "Nigerian moin moin",
+"es": "Moin moin nigeriano",
+"desc": "Pudding de haricots à œil noir mixés avec poivron, oignon et huile de palme, cuit à la vapeur dans des feuilles avec des œufs durs, classique yoruba des fêtes.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 60,
+"cook": 60,
+"serv": 8,
+"place": {
+"slug": "ng-lagos",
+"name": "Lagos",
+"type": "city",
+"lat": 6.5244,
+"lng": 3.3792,
+"summary": "Métropole nigériane, capitale de la cuisine de rue yoruba."
+},
+"ing": [
+[
+"Haricots à œil noir pelés",
+500,
+"g",
+null
+],
+[
+"Poivrons rouges (tatashe)",
+2,
+null,
+null
+],
+[
+"Piment scotch bonnet",
+1,
+null,
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Huile de palme ou végétale",
+100,
+"ml",
+null
+],
+[
+"Bouillon",
+250,
+"ml",
+null
+],
+[
+"Œufs durs",
+4,
+null,
+null
+],
+[
+"Écrevisses séchées",
+2,
+"c. à soupe",
+"moulues"
+]
+],
+"steps": [
+"Tremper les haricots et retirer les peaux en les frottant.",
+"Mixer avec poivrons, piment, oignon et un peu de bouillon en pâte très lisse.",
+"Incorporer l'huile, le reste du bouillon, les écrevisses et le sel.",
+"Répartir dans des ramequins ou des feuilles, ajouter une moitié d'œuf dans chacun.",
+"Cuire à la vapeur 45 à 60 minutes jusqu'à ce que ce soit ferme.",
+"Servir avec du riz jollof ou de l'ogi."
+]
+},
+{
+"slug": "akara",
+"country": "NG",
+"original": "Akara",
+"title": "Akara (beignets de haricots)",
+"en": "Nigerian akara (bean fritters)",
+"es": "Akara nigeriano",
+"desc": "Beignets légers de haricots à œil noir mixés avec oignon et piment, frits en petites boules dorées, petit-déjeuner nigérian avec pap ou pain.",
+"cat": "Petit-déjeuner",
+"diff": "medium",
+"prep": 40,
+"cook": 20,
+"serv": 6,
+"place": {
+"slug": "ng-lagos",
+"name": "Lagos",
+"type": "city",
+"lat": 6.5244,
+"lng": 3.3792,
+"summary": "Métropole nigériane, capitale de la cuisine de rue yoruba."
+},
+"ing": [
+[
+"Haricots à œil noir pelés",
+400,
+"g",
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Piment scotch bonnet",
+1,
+null,
+null
+],
+[
+"Sel",
+1,
+"c. à café",
+null
+],
+[
+"Huile de friture",
+1,
+"l",
+null
+]
+],
+"steps": [
+"Tremper et peler les haricots.",
+"Les mixer avec très peu d'eau, l'oignon et le piment.",
+"Battre vigoureusement la pâte 5 minutes pour l'aérer, puis saler.",
+"Chauffer l'huile à 175 °C.",
+"Déposer des cuillerées de pâte et frire jusqu'à ce qu'elles soient dorées.",
+"Égoutter et servir chaud."
+]
+},
+{
+"slug": "puff-puff",
+"country": "NG",
+"original": "Puff-puff",
+"title": "Puff-puff (beignets levés nigérians)",
+"en": "Nigerian puff-puff",
+"es": "Puff-puff nigeriano",
+"desc": "Petites boules de pâte levée sucrée frites jusqu'à être gonflées et dorées, en-cas des fêtes et des rues de Lagos.",
+"cat": "Dessert",
+"diff": "easy",
+"prep": 15,
+"cook": 20,
+"serv": 30,
+"place": {
+"slug": "ng-lagos",
+"name": "Lagos",
+"type": "city",
+"lat": 6.5244,
+"lng": 3.3792,
+"summary": "Métropole nigériane, capitale de la cuisine de rue yoruba."
+},
+"ing": [
+[
+"Farine",
+500,
+"g",
+null
+],
+[
+"Sucre",
+100,
+"g",
+null
+],
+[
+"Levure sèche",
+7,
+"g",
+null
+],
+[
+"Eau tiède",
+400,
+"ml",
+null
+],
+[
+"Muscade",
+0.5,
+"c. à café",
+null
+],
+[
+"Sel",
+1,
+"pincée",
+null
+],
+[
+"Huile de friture",
+1,
+"l",
+null
+]
+],
+"steps": [
+"Mélanger farine, sucre, levure, muscade et sel.",
+"Ajouter l'eau tiède et battre en pâte épaisse et collante.",
+"Couvrir et laisser lever 1 heure.",
+"Chauffer l'huile à 170 °C.",
+"Prendre la pâte à la main et la faire sortir entre pouce et index en boules dans l'huile.",
+"Frire en retournant jusqu'à ce qu'elles soient dorées; égoutter."
+]
+},
+{
+"slug": "banku-tilapia",
+"country": "GH",
+"original": "Banku and tilapia",
+"title": "Banku et tilapia grillé, piment shito",
+"en": "Banku with grilled tilapia",
+"es": "Banku con tilapia",
+"desc": "Boule de pâte de maïs et manioc fermentés, servie avec un tilapia entier grillé et un piment frais écrasé, plat de prédilection des chop bars d'Accra.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 30,
+"cook": 40,
+"serv": 4,
+"place": "gh-accra",
+"ing": [
+[
+"Pâte de maïs fermentée",
+500,
+"g",
+null
+],
+[
+"Pâte de manioc fermentée",
+250,
+"g",
+null
+],
+[
+"Tilapias entiers",
+4,
+null,
+null
+],
+[
+"Gingembre, ail et oignon",
+3,
+"c. à soupe",
+"mixés"
+],
+[
+"Piments frais",
+4,
+null,
+null
+],
+[
+"Tomates",
+2,
+null,
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Huile",
+3,
+"c. à soupe",
+null
+]
+],
+"steps": [
+"Mariner les tilapias incisés avec gingembre, ail, oignon, sel et huile.",
+"Délayer les deux pâtes dans 500 ml d'eau salée.",
+"Cuire en remuant énergiquement avec une spatule 20 minutes jusqu'à une pâte lisse et ferme.",
+"Façonner des boules avec un bol mouillé.",
+"Griller les tilapias 8 à 10 minutes par face.",
+"Écraser piments, tomates et oignon avec du sel; servir avec banku et poisson."
+]
+},
+{
+"slug": "dibi-dakar",
+"country": "SN",
+"original": "Dibi",
+"title": "Dibi de Dakar (agneau grillé, oignons et moutarde)",
+"en": "Dakar dibi grilled lamb",
+"es": "Dibi de Dakar",
+"desc": "Morceaux d'agneau grillés à la braise dans les dibiteries, servis sur du papier avec oignons au vinaigre, moutarde et piment, à manger avec du pain.",
+"cat": "Plat principal",
+"diff": "easy",
+"prep": 20,
+"cook": 20,
+"serv": 4,
+"place": {
+"slug": "sn-dakar",
+"name": "Dakar",
+"type": "city",
+"lat": 14.7167,
+"lng": -17.4677,
+"summary": "Capitale sénégalaise, dibiteries et marchés de Sandaga."
+},
+"ing": [
+[
+"Côtes et épaule d'agneau",
+1.2,
+"kg",
+null
+],
+[
+"Oignons",
+3,
+null,
+"émincés"
+],
+[
+"Moutarde",
+3,
+"c. à soupe",
+null
+],
+[
+"Vinaigre",
+3,
+"c. à soupe",
+null
+],
+[
+"Poivre et piment",
+2,
+"c. à café",
+null
+],
+[
+"Cube de bouillon",
+1,
+null,
+null
+],
+[
+"Baguette",
+2,
+null,
+null
+]
+],
+"steps": [
+"Assaisonner l'agneau de sel, poivre et bouillon émietté.",
+"Griller sur une braise vive 15 à 20 minutes en retournant.",
+"Faire revenir les oignons avec vinaigre, moutarde et piment.",
+"Découper la viande en morceaux.",
+"Servir sur papier avec les oignons et la baguette."
+]
+},
+{
+"slug": "gatsby-cape-town",
+"country": "ZA",
+"original": "Gatsby",
+"title": "Gatsby du Cap (sandwich géant aux frites)",
+"en": "Cape Town Gatsby sandwich",
+"es": "Gatsby de Ciudad del Cabo",
+"desc": "Long pain garni de frites masala, de viande (steak, polony ou poulet), de laitue, de tomate et de sauce pimentée, à partager entre amis, né à Athlone au Cap.",
+"cat": "Cuisine de rue",
+"diff": "easy",
+"prep": 20,
+"cook": 25,
+"serv": 4,
+"place": "za-cape-town",
+"ing": [
+[
+"Pain long (baguette ou submarine)",
+1,
+null,
+"60 cm"
+],
+[
+"Frites",
+600,
+"g",
+null
+],
+[
+"Steak ou poulet émincé",
+400,
+"g",
+null
+],
+[
+"Épices masala",
+1,
+"c. à soupe",
+null
+],
+[
+"Laitue",
+1,
+null,
+null
+],
+[
+"Tomates",
+2,
+null,
+null
+],
+[
+"Sauce pimentée peri-peri",
+4,
+"c. à soupe",
+null
+],
+[
+"Ketchup et mayonnaise",
+4,
+"c. à soupe",
+null
+]
+],
+"steps": [
+"Frire les frites et les saupoudrer d'épices masala.",
+"Saisir la viande assaisonnée à la plancha.",
+"Ouvrir le pain sur toute sa longueur.",
+"Garnir de laitue, tomates, viande puis frites.",
+"Arroser de sauces.",
+"Couper en quatre parts et servir."
+]
+},
+{
+"slug": "melktert",
+"country": "ZA",
+"original": "Melktert",
+"title": "Melktert (tarte au lait à la cannelle)",
+"en": "South African milk tart",
+"es": "Tarta de leche sudafricana",
+"desc": "Fond de pâte sablée garni d'une crème au lait douce, vanillée, saupoudrée de cannelle, héritage afrikaner et Cape Malay servi au thé.",
+"cat": "Dessert",
+"diff": "medium",
+"prep": 30,
+"cook": 45,
+"serv": 8,
+"place": "za-cape-town",
+"ing": [
+[
+"Pâte sablée",
+1,
+"disque",
+null
+],
+[
+"Lait",
+750,
+"ml",
+null
+],
+[
+"Sucre",
+120,
+"g",
+null
+],
+[
+"Fécule de maïs",
+40,
+"g",
+null
+],
+[
+"Farine",
+30,
+"g",
+null
+],
+[
+"Œufs",
+2,
+null,
+null
+],
+[
+"Beurre",
+30,
+"g",
+null
+],
+[
+"Bâton de cannelle",
+1,
+null,
+null
+],
+[
+"Cannelle moulue",
+2,
+"c. à café",
+null
+]
+],
+"steps": [
+"Cuire le fond de tarte à blanc 15 minutes à 180 °C.",
+"Chauffer le lait avec le bâton de cannelle et le beurre.",
+"Fouetter œufs, sucre, fécule et farine.",
+"Verser le lait chaud en fouettant puis remettre sur le feu jusqu'à épaississement.",
+"Verser dans le fond de tarte.",
+"Saupoudrer de cannelle et laisser prendre au frais."
+]
+},
+{
+"slug": "potjiekos",
+"country": "ZA",
+"original": "Potjiekos",
+"title": "Potjiekos (ragoût mijoté en marmite à trois pieds)",
+"en": "South African potjiekos",
+"es": "Potjiekos sudafricano",
+"desc": "Ragoût d'agneau et de légumes superposés, cuit lentement sans remuer dans une marmite en fonte à trois pieds posée sur les braises, rituel des rassemblements sud-africains.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 30,
+"cook": 180,
+"serv": 6,
+"place": {
+"slug": "za-johannesburg",
+"name": "Johannesburg",
+"type": "city",
+"lat": -26.2041,
+"lng": 28.0473,
+"summary": "Plus grande ville sud-africaine, cuisines des townships et des marchés."
+},
+"ing": [
+[
+"Collier ou épaule d'agneau en morceaux",
+1.5,
+"kg",
+null
+],
+[
+"Oignons",
+2,
+null,
+null
+],
+[
+"Pommes de terre",
+600,
+"g",
+null
+],
+[
+"Carottes",
+4,
+null,
+null
+],
+[
+"Butternut",
+400,
+"g",
+null
+],
+[
+"Haricots verts",
+200,
+"g",
+null
+],
+[
+"Bouillon",
+500,
+"ml",
+null
+],
+[
+"Vin rouge",
+200,
+"ml",
+null
+],
+[
+"Ail et romarin",
+2,
+"c. à soupe",
+null
+]
+],
+"steps": [
+"Dorer l'agneau dans la marmite sur les braises avec un peu d'huile, puis les oignons et l'ail.",
+"Mouiller avec le vin et la moitié du bouillon; mijoter 1 heure à couvert.",
+"Superposer sans mélanger carottes, pommes de terre, butternut puis haricots verts.",
+"Ajouter le reste du bouillon et le romarin.",
+"Laisser mijoter 1 heure 30 sur des braises douces sans remuer.",
+"Servir directement de la marmite avec du riz ou du pain."
+]
+},
+{
+"slug": "mtsvadi",
+"country": "GE",
+"original": "მწვადი (Mtsvadi)",
+"title": "Mtsvadi (brochettes de porc géorgiennes sur sarments)",
+"en": "Georgian mtsvadi",
+"es": "Mtsvadi georgiano",
+"desc": "Gros morceaux de porc grillés sur un feu de sarments de vigne, servis avec oignons crus, grenade et sauce tkemali, plat des supras de Kakhétie.",
+"cat": "Plat principal",
+"diff": "easy",
+"prep": 20,
+"cook": 20,
+"serv": 6,
+"place": "ge-kakheti",
+"ing": [
+[
+"Échine de porc en gros cubes",
+1.2,
+"kg",
+null
+],
+[
+"Oignons",
+3,
+null,
+null
+],
+[
+"Grenade",
+1,
+null,
+null
+],
+[
+"Sauce tkemali (prunes)",
+150,
+"ml",
+null
+],
+[
+"Vin blanc ou jus de grenade",
+100,
+"ml",
+"facultatif"
+],
+[
+"Sel et poivre",
+1,
+"c. à café",
+null
+]
+],
+"steps": [
+"Saler la viande, la mêler à un oignon émincé et laisser reposer 1 heure.",
+"Enfiler sur de longues brochettes.",
+"Griller sur la braise de sarments 15 à 20 minutes en tournant.",
+"Arroser de vin ou de jus de grenade en fin de cuisson.",
+"Glisser sur un plat avec oignons crus en rondelles et grains de grenade.",
+"Servir avec du tkemali et du pain shoti."
+]
+},
+{
+"slug": "samarkand-non",
+"country": "UZ",
+"original": "Samarqand noni",
+"title": "Non de Samarcande (pain rond au tandoor)",
+"en": "Samarkand non bread",
+"es": "Pan non de Samarcanda",
+"desc": "Pain rond épais au centre décoré au tampon (chekich), à la croûte brillante parsemée de sésame et de nigelle, cuit contre la paroi du tandoor, emblème de Samarcande.",
+"cat": "Pain",
+"diff": "medium",
+"prep": 40,
+"cook": 20,
+"serv": 4,
+"place": {
+"slug": "uz-samarkand",
+"name": "Samarcande",
+"type": "city",
+"lat": 39.6542,
+"lng": 66.9597,
+"summary": "Cité de la route de la soie, Registan et pain non légendaire."
+},
+"ing": [
+[
+"Farine",
+600,
+"g",
+null
+],
+[
+"Lait tiède",
+250,
+"ml",
+null
+],
+[
+"Eau tiède",
+100,
+"ml",
+null
+],
+[
+"Levure sèche",
+7,
+"g",
+null
+],
+[
+"Beurre ou suif",
+50,
+"g",
+null
+],
+[
+"Sucre",
+1,
+"c. à soupe",
+null
+],
+[
+"Sésame et nigelle",
+2,
+"c. à soupe",
+null
+],
+[
+"Jaune d'œuf",
+1,
+null,
+null
+]
+],
+"steps": [
+"Pétrir farine, lait, eau, levure, sucre, sel et beurre en pâte ferme; laisser lever 1 heure.",
+"Diviser en 4 boules, laisser reposer 15 minutes.",
+"Aplatir chaque boule en gardant un bord épais et un centre fin.",
+"Piquer le centre en motifs avec un tampon ou une fourchette.",
+"Dorer au jaune et parsemer de sésame et de nigelle.",
+"Cuire 15 à 20 minutes à 250 °C sur une pierre."
+]
+},
+{
+"slug": "norin",
+"country": "UZ",
+"original": "Norin",
+"title": "Norin de Tachkent (nouilles froides à la viande de cheval ou de bœuf)",
+"en": "Tashkent norin",
+"es": "Norin de Taskent",
+"desc": "Nouilles maison coupées en fines lanières mêlées à de la viande bouillie hachée très finement, oignon et poivre, servies froides avec un bouillon chaud à part.",
+"cat": "Plat principal",
+"diff": "hard",
+"prep": 60,
+"cook": 150,
+"serv": 6,
+"place": "uz-tashkent",
+"ing": [
+[
+"Farine",
+400,
+"g",
+null
+],
+[
+"Œufs",
+2,
+null,
+null
+],
+[
+"Eau",
+100,
+"ml",
+null
+],
+[
+"Bœuf ou viande de cheval (kazy)",
+800,
+"g",
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Poivre noir",
+1,
+"c. à café",
+null
+],
+[
+"Bouillon de cuisson",
+1,
+"l",
+null
+]
+],
+"steps": [
+"Cuire la viande 2 heures 30 dans l'eau salée; garder le bouillon.",
+"Pétrir une pâte ferme avec farine, œufs, eau et sel; reposer 30 minutes.",
+"Abaisser très finement, cuire les feuilles dans le bouillon 2 minutes puis les huiler.",
+"Couper pâte et viande en lanières très fines.",
+"Mélanger avec l'oignon émincé, le sel et le poivre.",
+"Servir en petit tas, avec un bol de bouillon chaud à côté."
+]
+}
+]

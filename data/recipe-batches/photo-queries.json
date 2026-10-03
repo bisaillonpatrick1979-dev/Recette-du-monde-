@@ -1222,8 +1222,8 @@
   "bugnes"
  ],
  "pain-d-epices-dijon": [
-  "Category:Pain d'épices",
-  "pain d'épices"
+  "Category:Pain d'épices de Dijon",
+  "pain d'épices Dijon tranche"
  ],
  "kougelhopf": [
   "Category:Kouglof",
@@ -1235,7 +1235,7 @@
  ],
  "pizza-fritta-napoli": [
   "Category:Pizza fritta",
-  "pizza fritta Napoli"
+  "pizza fritta napoletana"
  ],
  "panzerotti-bari": [
   "Category:Panzerotti",
@@ -1315,8 +1315,8 @@
   "boulets liégeois"
  ],
  "croquettes-aux-crevettes-ostende": [
-  "Category:Garnaalkroketten",
-  "croquettes aux crevettes"
+  "Category:Shrimp croquettes",
+  "garnaalkroket"
  ],
  "tarte-au-riz-verviers": [
   "Category:Tarte au riz",
@@ -1328,17 +1328,17 @@
   "speculoos"
  ],
  "hollandse-nieuwe-haring": [
-  "Category:Hollandse Nieuwe",
-  "Category:Soused herring",
-  "hollandse nieuwe haring"
+  "Category:Maatjes",
+  "haring met uitjes",
+  "Category:Herring stands in the Netherlands"
  ],
  "kibbeling": [
   "Category:Kibbeling",
   "kibbeling"
  ],
  "oliebollen": [
-  "Category:Oliebollen",
-  "oliebollen"
+  "oliebollen poedersuiker",
+  "Category:Oliebol"
  ],
  "limburgse-vlaai": [
   "Category:Limburgse vlaai",
@@ -1350,9 +1350,8 @@
   "chlebíček"
  ],
  "moravske-kolace": [
-  "Category:Koláče",
-  "Category:Kolache",
-  "koláče"
+  "Category:Frgály",
+  "moravské koláče"
  ],
  "utopenci": [
   "Category:Utopenci",
@@ -1464,16 +1463,16 @@
   "asado negro venezolano"
  ],
  "congri-oriental": [
-  "Category:Congrí",
-  "congrí"
+  "congrí cubano",
+  "Category:Congri"
  ],
  "pastelitos-de-guayaba": [
   "Category:Pastelitos",
   "pastelitos de guayaba"
  ],
  "chimi-dominicano": [
-  "chimi dominicano",
-  "chimichurri burger dominican"
+  "chimi burger",
+  "Category:Chimichurri burger"
  ],
  "escovitch-fish": [
   "Category:Escovitch fish",
@@ -1484,8 +1483,8 @@
   "curry goat"
  ],
  "bammy": [
-  "Category:Bammy",
-  "bammy"
+  "bammy fried",
+  "Category:Bammies"
  ],
  "festival-jamaica": [
   "festival jamaican fried dumpling",
@@ -1550,5 +1549,229 @@
  "afghan-biscuits": [
   "Category:Afghan biscuits",
   "afghan biscuit"
+ ],
+ "champon-nagasaki": [
+  "Category:Champon",
+  "Nagasaki champon"
+ ],
+ "okinawa-soba": [
+  "Category:Okinawa soba",
+  "Okinawa soba"
+ ],
+ "soup-curry-sapporo": [
+  "Category:Soup curry",
+  "soup curry Sapporo"
+ ],
+ "kushikatsu-osaka": [
+  "Category:Kushikatsu",
+  "kushikatsu"
+ ],
+ "yatsuhashi-kyoto": [
+  "Category:Yatsuhashi",
+  "nama yatsuhashi"
+ ],
+ "miso-katsu-nagoya": [
+  "Category:Miso katsu",
+  "miso katsu"
+ ],
+ "shengjianbao-shanghai": [
+  "Category:Shengjian mantou",
+  "shengjian bao"
+ ],
+ "cheung-fun-guangzhou": [
+  "Category:Rice noodle rolls",
+  "cheung fun"
+ ],
+ "chongqing-huoguo": [
+  "Category:Chongqing hot pot",
+  "Chongqing hotpot"
+ ],
+ "yangrouchuan-xinjiang": [
+  "Category:Chuan (food)",
+  "yangrou chuan"
+ ],
+ "chou-doufu-changsha": [
+  "Category:Stinky tofu",
+  "Changsha stinky tofu"
+ ],
+ "jianbing-tianjin": [
+  "Category:Jianbing",
+  "jianbing guozi"
+ ],
+ "kathi-roll-kolkata": [
+  "Category:Kati roll",
+  "kathi roll"
+ ],
+ "amritsari-kulcha": [
+  "Category:Kulcha",
+  "Amritsari kulcha"
+ ],
+ "galouti-kebab-lucknow": [
+  "Category:Galouti kebab",
+  "galouti kebab"
+ ],
+ "mysore-pak": [
+  "Category:Mysore pak",
+  "Mysore pak"
+ ],
+ "chettinad-chicken": [
+  "Category:Chettinad cuisine",
+  "chicken chettinad"
+ ],
+ "khaman-dhokla": [
+  "Category:Dhokla",
+  "khaman dhokla"
+ ],
+ "kuay-teow-reua": [
+  "Category:Boat noodles",
+  "boat noodles"
+ ],
+ "sai-ua-chiang-mai": [
+  "Category:Sai ua",
+  "sai ua sausage"
+ ],
+ "moo-ping": [
+  "Category:Mu ping",
+  "moo ping"
+ ],
+ "banh-cuon-hanoi": [
+  "Category:Bánh cuốn",
+  "bánh cuốn"
+ ],
+ "banh-beo-hue": [
+  "Category:Bánh bèo",
+  "bánh bèo"
+ ],
+ "ca-kho-to": [
+  "Category:Cá kho tộ",
+  "cá kho tộ"
+ ],
+ "milmyeon-busan": [
+  "Category:Milmyeon",
+  "milmyeon"
+ ],
+ "ssiat-hotteok-busan": [
+  "Category:Hotteok",
+  "ssiat hotteok"
+ ],
+ "bakso-malang": [
+  "Category:Bakso",
+  "bakso Malang"
+ ],
+ "gado-gado": [
+  "Category:Gado-gado",
+  "gado-gado"
+ ],
+ "hamsi-tava": [
+  "Category:Hamsi tava",
+  "hamsi tava"
+ ],
+ "simit-istanbul": [
+  "Category:Simit",
+  "simit"
+ ],
+ "bissara": [
+  "Category:Bissara",
+  "bissara"
+ ],
+ "harcha": [
+  "Category:Harcha",
+  "harcha"
+ ],
+ "sfenj": [
+  "Category:Sfenj",
+  "sfenj"
+ ],
+ "kefta-mkaouara": [
+  "kefta tagine eggs",
+  "Category:Kefta tajine"
+ ],
+ "garantita-oran": [
+  "Category:Calentita",
+  "karantika"
+ ],
+ "mhajeb-alger": [
+  "Category:Mhajeb",
+  "mhadjeb"
+ ],
+ "rechta-alger": [
+  "Category:Rechta",
+  "rechta"
+ ],
+ "makroudh-kairouan": [
+  "Category:Makroudh",
+  "makroud"
+ ],
+ "ojja-merguez": [
+  "Category:Ojja",
+  "ojja merguez"
+ ],
+ "bambalouni": [
+  "Category:Bambalouni",
+  "bambalouni"
+ ],
+ "hawawshi": [
+  "Category:Hawawshi",
+  "hawawshi"
+ ],
+ "sayadeya-alexandrie": [
+  "Category:Sayadieh",
+  "sayadeya"
+ ],
+ "taameya": [
+  "Category:Ta'ameya",
+  "taameya"
+ ],
+ "firfir": [
+  "Category:Firfir",
+  "firfir"
+ ],
+ "suya-kano": [
+  "Category:Suya",
+  "suya"
+ ],
+ "moin-moin": [
+  "Category:Moin moin",
+  "moi moi"
+ ],
+ "akara": [
+  "Category:Akara",
+  "akara bean fritters"
+ ],
+ "puff-puff": [
+  "Category:Puff-puff",
+  "puff puff"
+ ],
+ "banku-tilapia": [
+  "banku tilapia",
+  "Category:Banku"
+ ],
+ "dibi-dakar": [
+  "dibi Sénégal",
+  "Category:Dibiterie"
+ ],
+ "gatsby-cape-town": [
+  "Category:Gatsby (sandwich)",
+  "gatsby sandwich"
+ ],
+ "melktert": [
+  "Category:Melktert",
+  "milk tart"
+ ],
+ "potjiekos": [
+  "Category:Potjiekos",
+  "potjiekos"
+ ],
+ "mtsvadi": [
+  "Category:Mtsvadi",
+  "mtsvadi"
+ ],
+ "samarkand-non": [
+  "Category:Samarkand bread",
+  "Samarkand non"
+ ],
+ "norin": [
+  "Category:Norin",
+  "norin"
  ]
 }

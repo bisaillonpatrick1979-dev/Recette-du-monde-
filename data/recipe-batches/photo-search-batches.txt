@@ -1,4 +1,1 @@
-batch-21-iles-britanniques-nord-alpes.json
-batch-22-ameriques-liban-afrique.json
-batch-23-etats-unis-regions.json
-photo-legacy-missing.json
+batch-24-france-italie-espagne-2.json

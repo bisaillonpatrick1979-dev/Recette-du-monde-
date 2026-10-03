@@ -85,10 +85,10 @@ begin
     if jsonb_typeof(ph) = 'object' then
       insert into public.recipe_images (recipe_id, source_type, status, external_url, alt_text, source_name, source_page_url,
         photographer_name, license_name, license_url, attribution_text, is_primary, is_representative, moderation_notes)
-      values (rid, 'external_licensed', 'ready', ph->>'url', r->>'title', 'Wikimedia Commons', ph->>'page',
+      values (rid, 'external_licensed', 'ready', ph->>'url', r->>'title', coalesce(ph->>'source', 'Wikimedia Commons'), ph->>'page',
         nullif(ph->>'author', ''), ph->>'license', nullif(ph->>'licenseUrl', ''),
-        'Photo : ' || coalesce(nullif(ph->>'author', ''), 'auteur inconnu') || ' · ' || (ph->>'license') || ' · Wikimedia Commons',
-        true, true, 'Photo Wikimedia Commons vérifiée : le fichier représente ce plat.');
+        'Photo : ' || coalesce(nullif(ph->>'author', ''), 'auteur inconnu') || ' · ' || (ph->>'license') || ' · ' || coalesce(ph->>'source', 'Wikimedia Commons'),
+        true, true, 'Photo libre vérifiée à l’œil : le fichier représente ce plat.');
     end if;
 
     total := total + 1;

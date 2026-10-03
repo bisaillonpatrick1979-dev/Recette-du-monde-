@@ -104,7 +104,8 @@ function commonsCandidate(page, fromCategory, wanted) {
     const hay = normalize(`${page.title} ${description}`);
     if (![...wanted].some((t) => hay.includes(t))) return null;
   }
-  const url = (info.thumburl ?? info.url).replace(/\?.*$/, "");
+  // Même hôte que les photos déjà publiées (upload.wikimedia.org, autorisé par next.config.ts).
+  const url = (info.thumburl ?? info.url).replace("https://thumb.wikimedia.org/", "https://upload.wikimedia.org/").replace(/\?.*$/, "");
   return {
     source: "Wikimedia Commons",
     file: page.title,

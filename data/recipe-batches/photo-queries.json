@@ -64,7 +64,10 @@
   "Category:Truffade"
  ],
  "coq-au-vin": [
-  "Category:Coq au vin"
+  "coq au vin Bourgogne",
+  "coq au vin rouge",
+  "Category:Coq au vin",
+  "coq au vin plat"
  ],
  "oeufs-en-meurette": [
   "Category:Œufs en meurette",
@@ -80,8 +83,10 @@
   "Category:Potjevleesch"
  ],
  "trofie-al-pesto": [
-  "Category:Trofie",
-  "trofie pesto"
+  "trofie al pesto",
+  "Category:Trofie al pesto",
+  "trofie pesto patate fagiolini",
+  "Category:Pesto alla genovese"
  ],
  "focaccia-genovese": [
   "Category:Focaccia genovese",
@@ -193,8 +198,10 @@
   "pâté chinois"
  ],
  "tarte-au-sucre": [
-  "Category:Tarte au sucre",
-  "sugar pie Quebec"
+  "Category:Sugar pie (Quebec)",
+  "Quebec sugar pie",
+  "tarte au sucre Québec",
+  "sugar pie slice"
  ],
  "cretons-quebecois": [
   "Category:Cretons",
@@ -210,14 +217,17 @@
   "maple syrup dumplings"
  ],
  "soupe-aux-pois-quebec": [
-  "Category:Pea soup",
-  "soupe aux pois",
-  "pea soup Quebec"
+  "French Canadian pea soup",
+  "soupe aux pois Québec",
+  "habitant pea soup",
+  "Category:Yellow pea soup"
  ],
  "tourtiere-du-lac-saint-jean": [
-  "tourtière du Lac-Saint-Jean",
-  "Category:Tourtière",
-  "cipaille"
+  "Tourtiere Cuite",
+  "Tourtiere Servie",
+  "tourtière saguenéenne",
+  "tourtière Lac-Saint-Jean",
+  "Category:Tourtière"
  ],
  "tarte-aux-bleuets-lac-saint-jean": [
   "tarte aux bleuets",
@@ -255,8 +265,9 @@
   "râpure"
  ],
  "donair-halifax": [
-  "Category:Donair",
-  "Halifax donair"
+  "donair sandwich",
+  "Halifax donair pita",
+  "donair sauce pita"
  ],
  "saskatoon-berry-pie": [
   "saskatoon berry pie",
@@ -296,5 +307,218 @@
  "poke-hawaien": [
   "Category:Poke (Hawaiian dish)",
   "ahi poke"
+ ],
+ "cochinita-pibil": [
+  "Category:Cochinita pibil"
+ ],
+ "sopa-de-lima": [
+  "Category:Sopa de lima",
+  "sopa de lima Yucatan"
+ ],
+ "papadzules": [
+  "Category:Papadzules",
+  "papadzules"
+ ],
+ "mole-poblano": [
+  "Category:Mole poblano"
+ ],
+ "chiles-en-nogada": [
+  "Category:Chiles en nogada"
+ ],
+ "tacos-al-pastor": [
+  "Category:Tacos al pastor"
+ ],
+ "tortas-ahogadas": [
+  "Category:Tortas ahogadas",
+  "torta ahogada"
+ ],
+ "birria-de-chivo": [
+  "Category:Birria",
+  "birria"
+ ],
+ "mole-negro-oaxaqueno": [
+  "Category:Mole negro",
+  "mole negro Oaxaca"
+ ],
+ "cabrito-monterrey": [
+  "Category:Cabrito",
+  "cabrito al pastor Monterrey"
+ ],
+ "aguachile-sinaloa": [
+  "Category:Aguachile",
+  "aguachile"
+ ],
+ "causa-limena": [
+  "Category:Causa limeña",
+  "causa limeña"
+ ],
+ "rocoto-relleno-arequipa": [
+  "Category:Rocoto relleno",
+  "rocoto relleno"
+ ],
+ "chupe-de-camarones": [
+  "Category:Chupe de camarones",
+  "chupe de camarones"
+ ],
+ "papa-a-la-huancaina": [
+  "Category:Papa a la huancaína"
+ ],
+ "arroz-con-pato-chiclayo": [
+  "Category:Arroz con pato",
+  "arroz con pato"
+ ],
+ "picarones-lima": [
+  "Category:Picarones"
+ ],
+ "pollo-a-la-brasa": [
+  "Category:Pollo a la brasa"
+ ],
+ "pao-de-queijo": [
+  "Category:Pão de queijo"
+ ],
+ "feijao-tropeiro": [
+  "Category:Feijão tropeiro",
+  "feijão tropeiro"
+ ],
+ "acaraje-salvador": [
+  "Category:Acarajé"
+ ],
+ "vatapa-baiano": [
+  "Category:Vatapá"
+ ],
+ "coxinha-sao-paulo": [
+  "Category:Coxinha"
+ ],
+ "baiao-de-dois": [
+  "Category:Baião de dois",
+  "baião de dois"
+ ],
+ "tacaca-belem": [
+  "Category:Tacacá"
+ ],
+ "pato-no-tucupi": [
+  "Category:Pato no tucupi",
+  "pato no tucupi"
+ ],
+ "arroz-carreteiro": [
+  "Category:Arroz carreteiro",
+  "arroz carreteiro"
+ ],
+ "moqueca-capixaba": [
+  "Category:Moqueca capixaba",
+  "moqueca capixaba"
+ ],
+ "takoyaki-osaka": [
+  "Category:Takoyaki"
+ ],
+ "hiroshima-okonomiyaki": [
+  "Category:Hiroshima-style okonomiyaki",
+  "Hiroshima okonomiyaki"
+ ],
+ "hakata-ramen": [
+  "Category:Hakata ramen",
+  "Hakata ramen",
+  "Category:Tonkotsu ramen"
+ ],
+ "sanuki-udon": [
+  "Category:Sanuki udon",
+  "Sanuki udon"
+ ],
+ "goya-champuru": [
+  "Category:Goya champuru",
+  "Category:Chanpurū",
+  "goya champuru"
+ ],
+ "hitsumabushi-nagoya": [
+  "Category:Hitsumabushi",
+  "hitsumabushi"
+ ],
+ "tebasaki-nagoya": [
+  "Category:Tebasaki",
+  "tebasaki Nagoya"
+ ],
+ "jingisukan-hokkaido": [
+  "Category:Jingisukan",
+  "jingisukan"
+ ],
+ "yudofu-kyoto": [
+  "Category:Yudōfu",
+  "Category:Yudofu",
+  "yudofu"
+ ],
+ "peking-duck": [
+  "Category:Peking duck"
+ ],
+ "zhajiangmian-beijing": [
+  "Category:Zhajiangmian",
+  "zhajiangmian"
+ ],
+ "xiaolongbao-shanghai": [
+  "Category:Xiaolongbao"
+ ],
+ "hong-shao-rou-shanghai": [
+  "Category:Hong shao rou",
+  "hong shao rou"
+ ],
+ "dan-dan-mian": [
+  "Category:Dandan noodles",
+  "dan dan noodles"
+ ],
+ "biangbiang-mian": [
+  "Category:Biangbiang noodles",
+  "biang biang noodles"
+ ],
+ "roujiamo-xian": [
+  "Category:Roujiamo",
+  "roujiamo"
+ ],
+ "lanzhou-beef-noodles": [
+  "Category:Lanzhou beef noodles",
+  "Lanzhou beef noodle soup"
+ ],
+ "char-siu-cantonais": [
+  "Category:Char siu"
+ ],
+ "har-gow": [
+  "Category:Har gow",
+  "har gow"
+ ],
+ "dongpo-rou-hangzhou": [
+  "Category:Dongpo pork",
+  "Dongpo pork"
+ ],
+ "reganmian-wuhan": [
+  "Category:Re gan mian",
+  "Category:Hot dry noodles",
+  "hot dry noodles Wuhan"
+ ],
+ "guilin-mifen": [
+  "Category:Guilin rice noodles",
+  "Guilin rice noodles"
+ ],
+ "yangzhou-fried-rice": [
+  "Category:Yangzhou fried rice",
+  "Yangzhou fried rice"
+ ],
+ "guoqiao-mixian": [
+  "Category:Crossing-the-bridge noodles",
+  "crossing the bridge noodles"
+ ],
+ "andong-jjimdak": [
+  "Category:Jjimdak",
+  "Andong jjimdak"
+ ],
+ "dongnae-pajeon": [
+  "Category:Pajeon",
+  "Dongnae pajeon",
+  "haemul pajeon"
+ ],
+ "tteokbokki-seoul": [
+  "Category:Tteokbokki"
+ ],
+ "samgyetang": [
+  "Category:Samgye-tang",
+  "Category:Samgyetang",
+  "samgyetang"
  ]
 }

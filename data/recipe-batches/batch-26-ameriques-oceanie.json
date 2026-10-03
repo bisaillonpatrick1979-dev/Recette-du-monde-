@@ -1,0 +1,2128 @@
+[
+{
+"slug": "medialunas",
+"country": "AR",
+"original": "Medialunas de manteca",
+"title": "Medialunas de Buenos Aires (croissants glacés au sirop)",
+"en": "Buenos Aires medialunas",
+"es": "Medialunas de manteca",
+"desc": "Petits croissants argentins plus sucrés et plus denses que le croissant français, glacés au sirop, inséparables du café con leche porteño.",
+"cat": "Petit-déjeuner",
+"diff": "hard",
+"prep": 60,
+"cook": 15,
+"serv": 16,
+"place": "ar-buenos-aires",
+"ing": [
+[
+"Farine",
+500,
+"g",
+null
+],
+[
+"Lait tiède",
+200,
+"ml",
+null
+],
+[
+"Levure fraîche",
+25,
+"g",
+null
+],
+[
+"Sucre",
+80,
+"g",
+null
+],
+[
+"Œuf",
+1,
+null,
+null
+],
+[
+"Miel",
+1,
+"c. à soupe",
+null
+],
+[
+"Beurre de tourage",
+200,
+"g",
+null
+],
+[
+"Sirop (sucre et eau)",
+100,
+"ml",
+null
+]
+],
+"steps": [
+"Pétrir farine, lait, levure, sucre, œuf, miel et une pincée de sel; reposer 30 minutes au frais.",
+"Abaisser la pâte, y enfermer le beurre aplati et donner trois tours simples avec 20 minutes de froid entre chaque.",
+"Abaisser à 4 mm et découper de longs triangles.",
+"Rouler les triangles en croissants serrés en courbant les pointes.",
+"Laisser lever 1 heure 30 au tiède, dorer à l'œuf.",
+"Cuire 12 à 15 minutes à 200 °C.",
+"Badigeonner de sirop dès la sortie du four."
+]
+},
+{
+"slug": "fugazzeta",
+"country": "AR",
+"original": "Fugazzeta",
+"title": "Fugazzeta porteña (pizza farcie au fromage et oignons)",
+"en": "Fugazzeta (Argentine stuffed onion pizza)",
+"es": "Fugazzeta rellena",
+"desc": "Pizza épaisse à la mode de Buenos Aires, fourrée de mozzarella et couverte d'une montagne d'oignons et d'origan, héritage des pizzerias génoises de La Boca.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 30,
+"cook": 30,
+"serv": 6,
+"place": "ar-buenos-aires",
+"ing": [
+[
+"Farine",
+600,
+"g",
+null
+],
+[
+"Eau tiède",
+350,
+"ml",
+null
+],
+[
+"Levure sèche",
+7,
+"g",
+null
+],
+[
+"Huile d'olive",
+4,
+"c. à soupe",
+null
+],
+[
+"Mozzarella",
+500,
+"g",
+null
+],
+[
+"Oignons blancs",
+3,
+null,
+"en fines lamelles"
+],
+[
+"Origan séché",
+2,
+"c. à café",
+null
+],
+[
+"Parmesan râpé",
+50,
+"g",
+null
+]
+],
+"steps": [
+"Pétrir farine, eau, levure, huile et sel; laisser lever 1 heure 30.",
+"Faire dégorger les oignons émincés avec du sel 30 minutes puis les presser.",
+"Diviser la pâte en deux disques; étaler le premier dans un moule huilé.",
+"Couvrir de mozzarella en tranches puis du second disque; souder les bords.",
+"Garnir généreusement d'oignons, d'origan et d'un filet d'huile.",
+"Cuire 15 minutes à 230 °C, ajouter un peu de mozzarella et de parmesan et cuire 10 minutes de plus."
+]
+},
+{
+"slug": "humita-en-chala",
+"country": "AR",
+"original": "Humita en chala",
+"title": "Humita en chala de Salta (maïs frais en feuilles)",
+"en": "Salta humita en chala",
+"es": "Humita en chala salteña",
+"desc": "Purée de maïs frais à l'oignon, au piment doux et au fromage, enveloppée dans les feuilles d'épi et bouillie, plat andin du nord-ouest argentin.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 50,
+"cook": 40,
+"serv": 6,
+"place": {
+"slug": "ar-salta",
+"name": "Salta",
+"type": "city",
+"lat": -24.7821,
+"lng": -65.4232,
+"summary": "Ville coloniale du nord-ouest argentin, porte des cuisines andines."
+},
+"ing": [
+[
+"Épis de maïs frais avec feuilles",
+8,
+null,
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Poivron rouge",
+1,
+null,
+null
+],
+[
+"Saindoux ou beurre",
+50,
+"g",
+null
+],
+[
+"Fromage frais de chèvre ou queso fresco",
+200,
+"g",
+null
+],
+[
+"Paprika doux et cumin",
+1,
+"c. à café",
+null
+],
+[
+"Basilic",
+6,
+"feuilles",
+null
+]
+],
+"steps": [
+"Retirer délicatement les feuilles des épis et les ébouillanter pour les assouplir.",
+"Râper les grains de maïs pour obtenir une pâte crémeuse.",
+"Faire revenir l'oignon et le poivron au saindoux, ajouter paprika, cumin et la pâte de maïs; cuire 10 minutes.",
+"Assaisonner, ajouter le basilic.",
+"Déposer la préparation dans deux feuilles croisées avec un bâtonnet de fromage, replier et ficeler.",
+"Cuire 40 minutes dans l'eau bouillante salée."
+]
+},
+{
+"slug": "cordero-patagonico",
+"country": "AR",
+"original": "Cordero patagónico al asador",
+"title": "Agneau de Patagonie à la croix (al asador)",
+"en": "Patagonian lamb al asador",
+"es": "Cordero patagónico al asador",
+"desc": "Agneau entier ouvert en crapaudine, fixé sur une croix de fer et rôti des heures devant un feu de bois, arrosé de salmuera, fierté de la Patagonie.",
+"cat": "Plat principal",
+"diff": "hard",
+"prep": 30,
+"cook": 240,
+"serv": 10,
+"place": {
+"slug": "ar-patagonie",
+"name": "Patagonie argentine",
+"type": "region",
+"lat": -45.0,
+"lng": -69.0,
+"summary": "Steppes et estancias du sud argentin, pays de l'agneau au asador."
+},
+"ing": [
+[
+"Agneau entier ou demi-agneau",
+8,
+"kg",
+null
+],
+[
+"Gros sel",
+100,
+"g",
+null
+],
+[
+"Eau tiède",
+1,
+"l",
+null
+],
+[
+"Ail",
+6,
+"gousses",
+null
+],
+[
+"Origan et piment",
+2,
+"c. à soupe",
+null
+],
+[
+"Vinaigre",
+50,
+"ml",
+null
+],
+[
+"Chimichurri",
+300,
+"ml",
+"pour servir"
+]
+],
+"steps": [
+"Préparer la salmuera: dissoudre le sel dans l'eau tiède avec ail, origan, piment et vinaigre.",
+"Ouvrir l'agneau à plat et le fixer sur la croix (asador).",
+"Planter la croix inclinée à environ 1 m d'un feu de bois bien nourri, côté os vers le feu.",
+"Rôtir 2 heures 30 en arrosant de salmuera toutes les 30 minutes.",
+"Retourner côté peau et rôtir encore 1 heure à 1 heure 30 jusqu'à ce que la peau soit croustillante.",
+"Découper et servir avec le chimichurri."
+]
+},
+{
+"slug": "pascualina",
+"country": "UY",
+"original": "Torta pascualina",
+"title": "Torta pascualina (tourte aux blettes et œufs entiers)",
+"en": "Torta pascualina (chard and egg pie)",
+"es": "Torta pascualina",
+"desc": "Tourte d'origine ligure garnie de blettes ou d'épinards, de fromage et d'œufs entiers qui apparaissent à la coupe, classique des familles uruguayennes.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 40,
+"cook": 45,
+"serv": 8,
+"place": {
+"slug": "uy-montevideo",
+"name": "Montevideo",
+"type": "city",
+"lat": -34.9011,
+"lng": -56.1645,
+"summary": "Capitale uruguayenne, parrillas du Mercado del Puerto et cuisine d'immigration italienne."
+},
+"ing": [
+[
+"Pâte brisée",
+2,
+"disques",
+null
+],
+[
+"Blettes",
+1,
+"kg",
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Ricotta",
+250,
+"g",
+null
+],
+[
+"Parmesan râpé",
+80,
+"g",
+null
+],
+[
+"Œufs (farce)",
+2,
+null,
+null
+],
+[
+"Œufs entiers",
+6,
+null,
+null
+],
+[
+"Muscade",
+1,
+"pincée",
+null
+]
+],
+"steps": [
+"Blanchir les blettes, les presser et les hacher.",
+"Faire revenir l'oignon, ajouter les blettes; laisser refroidir.",
+"Mélanger avec la ricotta, le parmesan, 2 œufs, sel, poivre et muscade.",
+"Foncer un moule de pâte, étaler la farce et creuser 6 nids.",
+"Casser un œuf dans chaque nid.",
+"Couvrir du second disque, souder, dorer et cuire 45 minutes à 180 °C."
+]
+},
+{
+"slug": "tequenos",
+"country": "VE",
+"original": "Tequeños",
+"title": "Tequeños vénézuéliens (bâtonnets de fromage en pâte)",
+"en": "Venezuelan tequeños",
+"es": "Tequeños venezolanos",
+"desc": "Bâtonnets de queso blanco enroulés dans une pâte de blé et frits, incontournables des fêtes vénézuéliennes; on les dit nés à Los Teques.",
+"cat": "Entrée",
+"diff": "medium",
+"prep": 40,
+"cook": 15,
+"serv": 24,
+"place": {
+"slug": "ve-los-teques",
+"name": "Los Teques",
+"type": "city",
+"lat": 10.3447,
+"lng": -67.0433,
+"summary": "Ville des hauteurs près de Caracas, à qui l'on attribue les tequeños."
+},
+"ing": [
+[
+"Farine",
+400,
+"g",
+null
+],
+[
+"Beurre froid",
+60,
+"g",
+null
+],
+[
+"Œuf",
+1,
+null,
+null
+],
+[
+"Eau froide",
+120,
+"ml",
+null
+],
+[
+"Sucre",
+1,
+"c. à soupe",
+null
+],
+[
+"Queso blanco ferme (ou halloumi)",
+500,
+"g",
+null
+],
+[
+"Huile de friture",
+1,
+"l",
+null
+]
+],
+"steps": [
+"Sabler la farine, le sucre, le sel et le beurre.",
+"Ajouter l'œuf et l'eau et pétrir en pâte lisse; reposer 30 minutes.",
+"Couper le fromage en bâtonnets de 1 × 8 cm.",
+"Abaisser la pâte finement et la découper en lanières de 1,5 cm.",
+"Enrouler une lanière en spirale serrée autour de chaque bâtonnet en couvrant les extrémités.",
+"Frire à 180 °C 3 minutes jusqu'à ce qu'ils soient dorés."
+]
+},
+{
+"slug": "asado-negro",
+"country": "VE",
+"original": "Asado negro",
+"title": "Asado negro caraqueño (bœuf braisé au papelón)",
+"en": "Caracas asado negro",
+"es": "Asado negro caraqueño",
+"desc": "Rond de gîte saisi dans le sucre de canne caramélisé puis braisé longuement avec vin et légumes, plat dominical de Caracas servi avec riz et bananes plantains.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 30,
+"cook": 180,
+"serv": 6,
+"place": "ve-caracas",
+"ing": [
+[
+"Rond de gîte (muchacho redondo)",
+1.5,
+"kg",
+null
+],
+[
+"Papelón ou sucre brun",
+100,
+"g",
+null
+],
+[
+"Oignons",
+2,
+null,
+null
+],
+[
+"Poivron rouge",
+1,
+null,
+null
+],
+[
+"Ail",
+4,
+"gousses",
+null
+],
+[
+"Vin rouge",
+250,
+"ml",
+null
+],
+[
+"Sauce Worcestershire",
+2,
+"c. à soupe",
+null
+],
+[
+"Huile",
+3,
+"c. à soupe",
+null
+]
+],
+"steps": [
+"Mariner la viande avec ail, Worcestershire, sel et poivre une nuit.",
+"Faire caraméliser le papelón dans l'huile jusqu'à presque noir.",
+"Y saisir la viande sur toutes les faces.",
+"Ajouter oignons, poivron, vin et 500 ml d'eau.",
+"Braiser à couvert 2 heures 30 à 3 heures en retournant.",
+"Mixer la sauce, trancher la viande et napper; servir avec riz blanc et plantains frits."
+]
+},
+{
+"slug": "congri-oriental",
+"country": "CU",
+"original": "Congrí oriental",
+"title": "Congrí oriental (riz aux haricots rouges de Santiago de Cuba)",
+"en": "Cuban congrí oriental",
+"es": "Congrí oriental",
+"desc": "Riz cuit avec des haricots rouges, du lard et un sofrito, spécialité de l'Oriente cubain, cousin du moros y cristianos aux haricots noirs.",
+"cat": "Accompagnement",
+"diff": "easy",
+"prep": 15,
+"cook": 90,
+"serv": 6,
+"place": {
+"slug": "cu-santiago",
+"name": "Santiago de Cuba",
+"type": "city",
+"lat": 20.0247,
+"lng": -75.8219,
+"summary": "Grande ville de l'Oriente cubain, berceau du son et du congrí."
+},
+"ing": [
+[
+"Haricots rouges secs",
+250,
+"g",
+null
+],
+[
+"Riz long",
+400,
+"g",
+null
+],
+[
+"Lard fumé",
+100,
+"g",
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Poivron vert",
+1,
+null,
+null
+],
+[
+"Ail",
+3,
+"gousses",
+null
+],
+[
+"Cumin",
+1,
+"c. à café",
+null
+],
+[
+"Origan",
+1,
+"c. à café",
+null
+],
+[
+"Feuille de laurier",
+1,
+null,
+null
+]
+],
+"steps": [
+"Tremper les haricots une nuit puis les cuire 1 heure avec le laurier; garder l'eau de cuisson.",
+"Faire fondre le lard, ajouter oignon, poivron et ail (sofrito).",
+"Ajouter cumin, origan et le riz rincé.",
+"Verser les haricots et 800 ml de leur eau de cuisson; saler.",
+"Cuire à couvert à feu doux 25 minutes.",
+"Égrener à la fourchette et servir."
+]
+},
+{
+"slug": "pastelitos-de-guayaba",
+"country": "CU",
+"original": "Pastelitos de guayaba",
+"title": "Pastelitos de guayaba (feuilletés goyave et fromage)",
+"en": "Cuban guava pastelitos",
+"es": "Pastelitos de guayaba",
+"desc": "Feuilletés dorés garnis de pâte de goyave et de fromage frais, vendus dans les panaderías de La Havane et de Miami avec un cafecito.",
+"cat": "Dessert",
+"diff": "easy",
+"prep": 20,
+"cook": 25,
+"serv": 12,
+"place": {
+"slug": "cu-havana",
+"name": "La Havane",
+"type": "city",
+"lat": 23.1136,
+"lng": -82.3666,
+"summary": "Capitale cubaine, paladares et panaderías."
+},
+"ing": [
+[
+"Pâte feuilletée",
+2,
+"rouleaux",
+null
+],
+[
+"Pâte de goyave",
+250,
+"g",
+null
+],
+[
+"Fromage frais à tartiner",
+150,
+"g",
+"facultatif"
+],
+[
+"Œuf",
+1,
+null,
+"pour dorer"
+],
+[
+"Sucre",
+2,
+"c. à soupe",
+null
+],
+[
+"Sirop simple",
+50,
+"ml",
+"facultatif"
+]
+],
+"steps": [
+"Découper chaque rouleau de pâte en 12 carrés.",
+"Poser une tranche de goyave et un peu de fromage au centre de la moitié des carrés.",
+"Couvrir avec les autres carrés et souder les bords à la fourchette.",
+"Dorer à l'œuf, inciser le dessus et saupoudrer de sucre.",
+"Cuire 20 à 25 minutes à 200 °C.",
+"Badigeonner de sirop à la sortie du four."
+]
+},
+{
+"slug": "chimi-dominicano",
+"country": "DO",
+"original": "Chimi",
+"title": "Chimi dominicain (burger de rue au chou)",
+"en": "Dominican chimi burger",
+"es": "Chimi dominicano",
+"desc": "Burger de rue de Saint-Domingue: galette de bœuf épicée dans un pain pan de agua avec chou, tomate, oignon et sauce rose ketchup-mayonnaise.",
+"cat": "Cuisine de rue",
+"diff": "easy",
+"prep": 20,
+"cook": 15,
+"serv": 4,
+"place": {
+"slug": "do-santo-domingo",
+"name": "Saint-Domingue",
+"type": "city",
+"lat": 18.4861,
+"lng": -69.9312,
+"summary": "Capitale dominicaine, chimi-trucks du Malecón."
+},
+"ing": [
+[
+"Bœuf haché",
+500,
+"g",
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Origan dominicain",
+1,
+"c. à café",
+null
+],
+[
+"Sauce soja ou Worcestershire",
+1,
+"c. à soupe",
+null
+],
+[
+"Pains pan de agua",
+4,
+null,
+null
+],
+[
+"Chou blanc émincé",
+200,
+"g",
+null
+],
+[
+"Tomate",
+2,
+null,
+null
+],
+[
+"Ketchup et mayonnaise",
+6,
+"c. à soupe",
+"mélangés"
+]
+],
+"steps": [
+"Mélanger le bœuf avec la moitié de l'oignon haché, l'origan, la sauce, sel et poivre.",
+"Former 4 galettes un peu ovales.",
+"Les cuire 4 minutes de chaque côté à la plancha.",
+"Toaster les pains ouverts.",
+"Garnir de viande, chou, tomate et oignon en rondelles.",
+"Napper généreusement de sauce rose et servir."
+]
+},
+{
+"slug": "escovitch-fish",
+"country": "JM",
+"original": "Escovitch fish",
+"title": "Poisson escovitch jamaïcain (frit, mariné au vinaigre pimenté)",
+"en": "Jamaican escovitch fish",
+"es": "Pescado escovitch jamaicano",
+"desc": "Poisson entier frit puis couvert d'une marinade chaude au vinaigre, oignons, carottes, piment scotch bonnet et piment de la Jamaïque, servi avec festival ou bammy.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 20,
+"cook": 20,
+"serv": 4,
+"place": {
+"slug": "jm-kingston",
+"name": "Kingston",
+"type": "city",
+"lat": 17.9714,
+"lng": -76.7936,
+"summary": "Capitale jamaïcaine; à l'est, la plage de Hellshire est réputée pour son poisson frit."
+},
+"ing": [
+[
+"Vivaneaux entiers vidés",
+4,
+null,
+null
+],
+[
+"Citron vert",
+2,
+null,
+null
+],
+[
+"Farine",
+50,
+"g",
+null
+],
+[
+"Huile de friture",
+500,
+"ml",
+null
+],
+[
+"Vinaigre blanc",
+250,
+"ml",
+null
+],
+[
+"Oignon",
+1,
+null,
+"en rondelles"
+],
+[
+"Carotte",
+1,
+null,
+"en julienne"
+],
+[
+"Piment scotch bonnet",
+1,
+null,
+"en lamelles"
+],
+[
+"Grains de piment de la Jamaïque",
+8,
+null,
+null
+]
+],
+"steps": [
+"Frotter les poissons de citron vert, saler et poivrer; les inciser et les fariner légèrement.",
+"Les frire 5 à 6 minutes par face jusqu'à ce qu'ils soient croustillants.",
+"Dans une casserole, porter le vinaigre à ébullition avec le piment de la Jamaïque et un peu de sucre.",
+"Ajouter oignon, carotte et scotch bonnet; cuire 2 minutes.",
+"Verser la marinade chaude sur les poissons.",
+"Laisser reposer 10 minutes (ou une nuit) avant de servir."
+]
+},
+{
+"slug": "curry-goat",
+"country": "JM",
+"original": "Curry goat",
+"title": "Curry goat jamaïcain (cabri au curry)",
+"en": "Jamaican curry goat",
+"es": "Curry de cabra jamaicano",
+"desc": "Cabri mariné à la poudre de curry jamaïcaine, au thym et au scotch bonnet, longuement mijoté, plat des fêtes servi avec rice and peas.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 30,
+"cook": 150,
+"serv": 6,
+"place": "jm-kingston",
+"ing": [
+[
+"Viande de chèvre avec os en morceaux",
+1.5,
+"kg",
+null
+],
+[
+"Poudre de curry jamaïcaine",
+4,
+"c. à soupe",
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Ail",
+4,
+"gousses",
+null
+],
+[
+"Thym frais",
+4,
+"branches",
+null
+],
+[
+"Piment scotch bonnet",
+1,
+null,
+"entier"
+],
+[
+"Oignons verts",
+3,
+null,
+null
+],
+[
+"Pommes de terre",
+2,
+null,
+null
+],
+[
+"Huile",
+3,
+"c. à soupe",
+null
+]
+],
+"steps": [
+"Mariner la viande avec 3 c. à soupe de curry, ail, oignon, thym, oignons verts, sel et poivre une nuit.",
+"Griller le reste de curry dans l'huile chaude 1 minute.",
+"Saisir la viande égouttée sur toutes les faces.",
+"Ajouter la marinade, le scotch bonnet entier et 750 ml d'eau.",
+"Mijoter à couvert 2 heures en ajoutant de l'eau au besoin.",
+"Ajouter les pommes de terre en dés et cuire 30 minutes jusqu'à ce que la sauce épaississe."
+]
+},
+{
+"slug": "bammy",
+"country": "JM",
+"original": "Bammy",
+"title": "Bammy (galettes de manioc de Sainte-Élisabeth)",
+"en": "Jamaican bammy (cassava flatbread)",
+"es": "Bammy jamaicano",
+"desc": "Galettes de manioc râpé et pressé héritées des Taïnos, trempées dans le lait de coco puis frites, accompagnement classique du poisson.",
+"cat": "Accompagnement",
+"diff": "medium",
+"prep": 40,
+"cook": 25,
+"serv": 8,
+"place": {
+"slug": "jm-st-elizabeth",
+"name": "Sainte-Élisabeth",
+"type": "region",
+"lat": 18.05,
+"lng": -77.7,
+"summary": "Paroisse du sud-ouest jamaïcain, terre traditionnelle du bammy."
+},
+"ing": [
+[
+"Manioc frais",
+1,
+"kg",
+null
+],
+[
+"Sel",
+1,
+"c. à café",
+null
+],
+[
+"Lait de coco",
+250,
+"ml",
+null
+],
+[
+"Huile",
+100,
+"ml",
+null
+]
+],
+"steps": [
+"Éplucher et râper finement le manioc.",
+"Presser fortement dans un linge pour en extraire tout le jus.",
+"Émietter, saler et tasser en disques de 1 cm dans un cercle sur une poêle sèche.",
+"Cuire 5 minutes par face jusqu'à ce qu'ils se tiennent.",
+"Tremper les galettes 10 minutes dans le lait de coco salé.",
+"Les frire dans l'huile jusqu'à ce qu'elles soient dorées."
+]
+},
+{
+"slug": "festival-jamaica",
+"country": "JM",
+"original": "Festival",
+"title": "Festival jamaïcain (beignets de maïs sucrés)",
+"en": "Jamaican festival dumplings",
+"es": "Festival jamaicano",
+"desc": "Beignets allongés à la farine de maïs, légèrement sucrés et vanillés, frits jusqu'à être croustillants, servis avec le poisson escovitch ou le jerk.",
+"cat": "Accompagnement",
+"diff": "easy",
+"prep": 15,
+"cook": 15,
+"serv": 10,
+"place": "jm-portland",
+"ing": [
+[
+"Farine de blé",
+250,
+"g",
+null
+],
+[
+"Semoule de maïs fine",
+120,
+"g",
+null
+],
+[
+"Sucre",
+3,
+"c. à soupe",
+null
+],
+[
+"Levure chimique",
+2,
+"c. à café",
+null
+],
+[
+"Lait",
+180,
+"ml",
+null
+],
+[
+"Extrait de vanille",
+1,
+"c. à café",
+null
+],
+[
+"Huile de friture",
+500,
+"ml",
+null
+]
+],
+"steps": [
+"Mélanger les farines, le sucre, la levure et le sel.",
+"Ajouter le lait et la vanille et pétrir en pâte souple.",
+"Reposer 15 minutes.",
+"Diviser en 10 morceaux et rouler des boudins de 12 cm.",
+"Frire à 175 °C 5 minutes en retournant jusqu'à ce qu'ils soient dorés.",
+"Égoutter et servir chaud."
+]
+},
+{
+"slug": "fanesca",
+"country": "EC",
+"original": "Fanesca",
+"title": "Fanesca (soupe de Pâques aux douze grains et morue)",
+"en": "Ecuadorian fanesca",
+"es": "Fanesca ecuatoriana",
+"desc": "Soupe épaisse de la Semaine sainte, préparée avec douze grains et légumineuses, de la courge, du lait et de la morue salée, garnie d'œufs, de plantain et d'empanadas.",
+"cat": "Soupe",
+"diff": "hard",
+"prep": 60,
+"cook": 90,
+"serv": 10,
+"place": {
+"slug": "ec-quito",
+"name": "Quito",
+"type": "city",
+"lat": -0.1807,
+"lng": -78.4678,
+"summary": "Capitale andine de l'Équateur, centre historique colonial."
+},
+"ing": [
+[
+"Morue salée dessalée",
+400,
+"g",
+null
+],
+[
+"Mélange de grains cuits (maïs, fèves, pois, haricots, lupins)",
+1,
+"kg",
+null
+],
+[
+"Courge (zapallo)",
+500,
+"g",
+null
+],
+[
+"Riz cuit",
+100,
+"g",
+null
+],
+[
+"Lait",
+1,
+"l",
+null
+],
+[
+"Cacahuètes moulues",
+100,
+"g",
+null
+],
+[
+"Oignon et ail",
+1,
+null,
+"en refrito"
+],
+[
+"Œufs durs",
+4,
+null,
+null
+],
+[
+"Plantain mûr frit",
+1,
+null,
+null
+]
+],
+"steps": [
+"Cuire la courge et la réduire en purée.",
+"Faire un refrito d'oignon et d'ail au rocou, ajouter la morue émiettée pochée dans le lait.",
+"Ajouter les grains cuits, la courge, le riz et le lait.",
+"Incorporer les cacahuètes délayées dans un peu de lait.",
+"Mijoter 30 minutes en remuant jusqu'à une consistance épaisse.",
+"Servir garni d'œufs durs, de plantain frit, de fromage et de persil."
+]
+},
+{
+"slug": "hornado-riobamba",
+"country": "EC",
+"original": "Hornado",
+"title": "Hornado de Riobamba (porc rôti entier, llapingachos)",
+"en": "Ecuadorian hornado",
+"es": "Hornado riobambeño",
+"desc": "Porc entier mariné à la chicha et à l'ail, rôti au four à bois, servi avec mote, llapingachos et agrio d'oignon et tomate, dans les marchés andins.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 30,
+"cook": 240,
+"serv": 8,
+"place": {
+"slug": "ec-riobamba",
+"name": "Riobamba",
+"type": "city",
+"lat": -1.6636,
+"lng": -78.6546,
+"summary": "Ville andine au pied du Chimborazo, célèbre pour son hornado."
+},
+"ing": [
+[
+"Épaule ou cuissot de porc avec couenne",
+3,
+"kg",
+null
+],
+[
+"Ail",
+10,
+"gousses",
+null
+],
+[
+"Cumin",
+1,
+"c. à soupe",
+null
+],
+[
+"Bière ou chicha",
+500,
+"ml",
+null
+],
+[
+"Rocou (achiote)",
+1,
+"c. à soupe",
+null
+],
+[
+"Oignon rouge",
+2,
+null,
+null
+],
+[
+"Tomates",
+2,
+null,
+null
+],
+[
+"Mote (maïs blanc cuit)",
+500,
+"g",
+null
+],
+[
+"Citron vert",
+2,
+null,
+null
+]
+],
+"steps": [
+"Piler l'ail avec le cumin, le rocou et le sel; masser la viande et la piquer.",
+"Mariner une nuit dans la bière.",
+"Rôtir 4 heures à 160 °C en arrosant de la marinade.",
+"Monter à 230 °C 20 minutes pour rendre la couenne croustillante.",
+"Préparer l'agrio: oignon, tomate, citron vert et jus de cuisson.",
+"Servir le porc effiloché avec mote, llapingachos et agrio."
+]
+},
+{
+"slug": "juane",
+"country": "PE",
+"original": "Juane",
+"title": "Juane amazonien (riz au poulet en feuilles de bijao)",
+"en": "Amazonian juane",
+"es": "Juane de gallina",
+"desc": "Riz au curcuma, poulet, œuf dur et olive enveloppés dans des feuilles de bijao et bouillis, plat de la fête de San Juan en Amazonie péruvienne.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 50,
+"cook": 60,
+"serv": 6,
+"place": {
+"slug": "pe-tarapoto",
+"name": "Tarapoto",
+"type": "city",
+"lat": -6.4825,
+"lng": -76.3653,
+"summary": "« Cité des palmiers » de l'Amazonie péruvienne, capitale du juane."
+},
+"ing": [
+[
+"Riz",
+500,
+"g",
+null
+],
+[
+"Cuisses de poulet",
+6,
+null,
+null
+],
+[
+"Œufs",
+8,
+null,
+"dont 6 durs"
+],
+[
+"Oignon rouge",
+1,
+null,
+null
+],
+[
+"Ail",
+4,
+"gousses",
+null
+],
+[
+"Curcuma (palillo)",
+2,
+"c. à café",
+null
+],
+[
+"Cumin et origan",
+1,
+"c. à café",
+null
+],
+[
+"Olives noires",
+6,
+null,
+null
+],
+[
+"Feuilles de bijao ou de bananier",
+12,
+null,
+null
+]
+],
+"steps": [
+"Faire revenir oignon, ail, curcuma, cumin et origan; ajouter le poulet et le cuire avec de l'eau 30 minutes.",
+"Cuire le riz dans le bouillon du poulet.",
+"Hors du feu, y mêler 2 œufs crus battus.",
+"Croiser deux feuilles passées à la flamme, poser une portion de riz, un morceau de poulet, un œuf dur et une olive.",
+"Fermer en baluchon et ficeler.",
+"Cuire 45 minutes dans l'eau bouillante; servir avec du piment cocona."
+]
+},
+{
+"slug": "suspiro-a-la-limena",
+"country": "PE",
+"original": "Suspiro a la limeña",
+"title": "Suspiro a la limeña (manjar blanc et meringue au porto)",
+"en": "Suspiro a la limeña",
+"es": "Suspiro a la limeña",
+"desc": "Crème onctueuse de lait concentré et de jaunes d'œufs couverte d'une meringue parfumée au porto et à la cannelle, dessert colonial de Lima.",
+"cat": "Dessert",
+"diff": "medium",
+"prep": 20,
+"cook": 40,
+"serv": 6,
+"place": "pe-lima",
+"ing": [
+[
+"Lait concentré sucré",
+400,
+"g",
+null
+],
+[
+"Lait évaporé",
+400,
+"ml",
+null
+],
+[
+"Jaunes d'œufs",
+4,
+null,
+null
+],
+[
+"Vanille",
+1,
+"c. à café",
+null
+],
+[
+"Blancs d'œufs",
+3,
+null,
+null
+],
+[
+"Sucre",
+150,
+"g",
+null
+],
+[
+"Porto",
+80,
+"ml",
+null
+],
+[
+"Cannelle moulue",
+1,
+"c. à café",
+null
+]
+],
+"steps": [
+"Cuire les deux laits à feu doux en remuant 30 minutes jusqu'à épaississement (manjar).",
+"Hors du feu, incorporer les jaunes et la vanille; répartir dans des verres et laisser refroidir.",
+"Réduire le porto avec le sucre en sirop au boulé.",
+"Monter les blancs en neige.",
+"Verser le sirop chaud en filet en fouettant jusqu'à refroidissement.",
+"Couvrir le manjar de meringue et poudrer de cannelle."
+]
+},
+{
+"slug": "adobo-arequipeno",
+"country": "PE",
+"original": "Adobo arequipeño",
+"title": "Adobo arequipeño (porc mariné à la chicha de jora)",
+"en": "Arequipa-style adobo",
+"es": "Adobo arequipeño",
+"desc": "Porc mariné une nuit dans la chicha de jora, l'ail et le piment ají panca, mijoté en pot de terre, petit-déjeuner dominical d'Arequipa servi avec du pain tres puntas.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 20,
+"cook": 120,
+"serv": 6,
+"place": "pe-arequipa",
+"ing": [
+[
+"Échine de porc en gros morceaux",
+1.5,
+"kg",
+null
+],
+[
+"Chicha de jora ou bière brune",
+500,
+"ml",
+null
+],
+[
+"Ají panca en pâte",
+4,
+"c. à soupe",
+null
+],
+[
+"Ail",
+8,
+"gousses",
+null
+],
+[
+"Oignons rouges",
+3,
+null,
+"en quartiers"
+],
+[
+"Cumin",
+1,
+"c. à café",
+null
+],
+[
+"Origan",
+1,
+"c. à café",
+null
+],
+[
+"Vinaigre",
+3,
+"c. à soupe",
+null
+]
+],
+"steps": [
+"Mélanger chicha, ají panca, ail pilé, cumin, origan, vinaigre, sel et poivre.",
+"Y faire mariner le porc avec les oignons une nuit.",
+"Transférer dans une marmite en terre ou une cocotte.",
+"Cuire à couvert à feu doux 2 heures sans ajouter d'eau.",
+"Servir le porc et son jus avec du pain."
+]
+},
+{
+"slug": "tacu-tacu",
+"country": "PE",
+"original": "Tacu tacu",
+"title": "Tacu tacu (galette de riz et haricots, steak et œuf)",
+"en": "Peruvian tacu tacu",
+"es": "Tacu tacu limeño",
+"desc": "Galette dorée de riz et de haricots de la veille relevée d'ají amarillo, servie à Lima avec un steak, un œuf au plat, un plantain frit et une salsa criolla.",
+"cat": "Plat principal",
+"diff": "easy",
+"prep": 20,
+"cook": 25,
+"serv": 4,
+"place": "pe-lima",
+"ing": [
+[
+"Riz cuit",
+400,
+"g",
+null
+],
+[
+"Haricots canario cuits",
+400,
+"g",
+null
+],
+[
+"Oignon rouge",
+1,
+null,
+null
+],
+[
+"Ail",
+2,
+"gousses",
+null
+],
+[
+"Pâte d'ají amarillo",
+2,
+"c. à soupe",
+null
+],
+[
+"Huile",
+4,
+"c. à soupe",
+null
+],
+[
+"Steaks minute",
+4,
+null,
+null
+],
+[
+"Œufs",
+4,
+null,
+null
+],
+[
+"Plantain mûr",
+1,
+null,
+null
+]
+],
+"steps": [
+"Faire revenir oignon, ail et ají amarillo dans l'huile.",
+"Ajouter les haricots grossièrement écrasés puis le riz; mélanger.",
+"Façonner en forme de gros cigare dans la poêle en le roulant.",
+"Le dorer sur toutes les faces à feu moyen.",
+"Saisir les steaks, frire les œufs et le plantain.",
+"Servir le tacu tacu avec steak, œuf, plantain et salsa criolla."
+]
+},
+{
+"slug": "chacarero",
+"country": "CL",
+"original": "Chacarero",
+"title": "Chacarero (sandwich au bœuf et haricots verts)",
+"en": "Chilean chacarero sandwich",
+"es": "Sándwich chacarero",
+"desc": "Sandwich de Santiago au bœuf finement tranché (churrasco), haricots verts, tomate, piment vert et mayonnaise, dans un pain frica.",
+"cat": "Cuisine de rue",
+"diff": "easy",
+"prep": 15,
+"cook": 15,
+"serv": 4,
+"place": {
+"slug": "cl-santiago",
+"name": "Santiago du Chili",
+"type": "city",
+"lat": -33.4489,
+"lng": -70.6693,
+"summary": "Capitale chilienne, fuentes de soda et sandwichs généreux."
+},
+"ing": [
+[
+"Bœuf en tranches très fines",
+500,
+"g",
+null
+],
+[
+"Haricots verts",
+250,
+"g",
+null
+],
+[
+"Tomates",
+2,
+null,
+null
+],
+[
+"Piment vert (ají verde)",
+1,
+null,
+null
+],
+[
+"Mayonnaise",
+4,
+"c. à soupe",
+null
+],
+[
+"Pains ronds (frica)",
+4,
+null,
+null
+],
+[
+"Huile",
+2,
+"c. à soupe",
+null
+]
+],
+"steps": [
+"Cuire les haricots verts émincés en biais 5 minutes à l'eau salée.",
+"Saisir les tranches de bœuf très rapidement à la plancha; saler.",
+"Toaster les pains ouverts.",
+"Garnir de bœuf, haricots, tranches de tomate et piment émincé.",
+"Tartiner de mayonnaise et refermer."
+]
+},
+{
+"slug": "machas-a-la-parmesana",
+"country": "CL",
+"original": "Machas a la parmesana",
+"title": "Machas à la parmesane (palourdes gratinées)",
+"en": "Chilean razor clams parmesan",
+"es": "Machas a la parmesana",
+"desc": "Coquillages machas gratinés au parmesan, au beurre et au vin blanc, entrée de la côte chilienne servie à Valparaíso et Viña del Mar.",
+"cat": "Entrée",
+"diff": "easy",
+"prep": 15,
+"cook": 8,
+"serv": 4,
+"place": {
+"slug": "cl-valparaiso",
+"name": "Valparaíso",
+"type": "city",
+"lat": -33.0472,
+"lng": -71.6127,
+"summary": "Port chilien aux maisons colorées accrochées aux collines."
+},
+"ing": [
+[
+"Machas ou grosses palourdes",
+24,
+null,
+null
+],
+[
+"Parmesan râpé",
+120,
+"g",
+null
+],
+[
+"Beurre",
+40,
+"g",
+null
+],
+[
+"Vin blanc",
+80,
+"ml",
+null
+],
+[
+"Citron",
+1,
+null,
+null
+],
+[
+"Poivre blanc",
+1,
+"pincée",
+null
+]
+],
+"steps": [
+"Ouvrir les coquillages et les nettoyer en gardant la chair dans une demi-coquille.",
+"Les disposer sur une plaque.",
+"Ajouter dans chaque coquille quelques gouttes de vin blanc et de citron.",
+"Poser une noisette de beurre et couvrir de parmesan.",
+"Passer sous le gril 5 à 8 minutes jusqu'à ce que ce soit doré.",
+"Servir aussitôt."
+]
+},
+{
+"slug": "pie-floater-adelaide",
+"country": "AU",
+"original": "Pie floater",
+"title": "Pie floater d'Adélaïde (tourte à la viande sur soupe de pois)",
+"en": "Adelaide pie floater",
+"es": "Pie floater de Adelaida",
+"desc": "Tourte australienne à la viande retournée sur une soupe épaisse de pois cassés, nappée de sauce tomate, en-cas nocturne des pie carts d'Adélaïde.",
+"cat": "Plat principal",
+"diff": "medium",
+"prep": 30,
+"cook": 60,
+"serv": 4,
+"place": {
+"slug": "au-adelaide",
+"name": "Adélaïde",
+"type": "city",
+"lat": -34.9285,
+"lng": 138.6007,
+"summary": "Capitale de l'Australie-Méridionale, célèbre pour ses pie carts."
+},
+"ing": [
+[
+"Tourtes à la viande",
+4,
+null,
+null
+],
+[
+"Pois cassés verts",
+300,
+"g",
+null
+],
+[
+"Oignon",
+1,
+null,
+null
+],
+[
+"Carotte",
+1,
+null,
+null
+],
+[
+"Bouillon",
+1.2,
+"l",
+null
+],
+[
+"Sauce tomate (ketchup australien)",
+4,
+"c. à soupe",
+null
+],
+[
+"Vinaigre de malt",
+1,
+"c. à soupe",
+"facultatif"
+]
+],
+"steps": [
+"Cuire les pois avec l'oignon, la carotte et le bouillon 50 minutes jusqu'à ce qu'ils se défassent.",
+"Mixer en soupe épaisse; saler et poivrer.",
+"Réchauffer les tourtes 20 minutes au four à 180 °C.",
+"Verser la soupe dans des assiettes creuses.",
+"Poser la tourte à l'envers au centre.",
+"Napper de sauce tomate et d'un trait de vinaigre."
+]
+},
+{
+"slug": "fairy-bread",
+"country": "AU",
+"original": "Fairy bread",
+"title": "Fairy bread (tartines beurrées aux vermicelles colorés)",
+"en": "Australian fairy bread",
+"es": "Fairy bread australiano",
+"desc": "Pain de mie beurré couvert de « hundreds and thousands » multicolores et coupé en triangles, incontournable des anniversaires d'enfants australiens.",
+"cat": "Collation",
+"diff": "easy",
+"prep": 10,
+"cook": 0,
+"serv": 8,
+"place": {
+"slug": "au-sydney",
+"name": "Sydney",
+"type": "city",
+"lat": -33.8688,
+"lng": 151.2093,
+"summary": "Plus grande ville d'Australie, port et cuisines du monde."
+},
+"ing": [
+[
+"Pain de mie blanc",
+8,
+"tranches",
+null
+],
+[
+"Beurre mou ou margarine",
+60,
+"g",
+null
+],
+[
+"Vermicelles multicolores (hundreds and thousands)",
+80,
+"g",
+null
+]
+],
+"steps": [
+"Beurrer les tranches jusqu'aux bords.",
+"Verser les vermicelles dans une assiette.",
+"Presser chaque tranche, face beurrée, dans les vermicelles.",
+"Retirer la croûte si on le souhaite.",
+"Couper en triangles et servir aussitôt."
+]
+},
+{
+"slug": "sausage-sizzle",
+"country": "AU",
+"original": "Sausage sizzle",
+"title": "Sausage sizzle australien (saucisse dans une tranche de pain)",
+"en": "Australian sausage sizzle",
+"es": "Sausage sizzle australiano",
+"desc": "Saucisse grillée enroulée dans une tranche de pain de mie avec oignons caramélisés et sauce tomate, tradition des barbecues de collecte de fonds et des jours d'élection.",
+"cat": "Cuisine de rue",
+"diff": "easy",
+"prep": 10,
+"cook": 20,
+"serv": 8,
+"place": "au-sydney",
+"ing": [
+[
+"Saucisses de bœuf",
+8,
+null,
+null
+],
+[
+"Pain de mie blanc",
+8,
+"tranches",
+null
+],
+[
+"Oignons",
+3,
+null,
+"émincés"
+],
+[
+"Huile",
+2,
+"c. à soupe",
+null
+],
+[
+"Sauce tomate",
+8,
+"c. à soupe",
+null
+],
+[
+"Moutarde",
+4,
+"c. à soupe",
+"facultatif"
+]
+],
+"steps": [
+"Faire caraméliser les oignons dans l'huile sur la plaque du barbecue 15 minutes.",
+"Griller les saucisses 12 à 15 minutes en les retournant.",
+"Poser chaque saucisse en diagonale sur une tranche de pain.",
+"Garnir d'oignons.",
+"Ajouter sauce tomate et moutarde, replier et servir."
+]
+},
+{
+"slug": "barramundi-darwin",
+"country": "AU",
+"original": "Barramundi",
+"title": "Barramundi grillé de Darwin, beurre citron vert et piment",
+"en": "Grilled Darwin barramundi",
+"es": "Barramundi a la parrilla",
+"desc": "Filets de barramundi, perche des estuaires du Territoire du Nord, grillés côté peau jusqu'à la rendre croustillante, avec beurre citron vert, piment et coriandre.",
+"cat": "Plat principal",
+"diff": "easy",
+"prep": 10,
+"cook": 12,
+"serv": 4,
+"place": {
+"slug": "au-darwin",
+"name": "Darwin",
+"type": "city",
+"lat": -12.4634,
+"lng": 130.8456,
+"summary": "Capitale tropicale du Territoire du Nord, marchés de Mindil Beach."
+},
+"ing": [
+[
+"Filets de barramundi avec peau",
+4,
+null,
+null
+],
+[
+"Huile",
+2,
+"c. à soupe",
+null
+],
+[
+"Beurre",
+50,
+"g",
+null
+],
+[
+"Citron vert",
+2,
+null,
+null
+],
+[
+"Piment rouge",
+1,
+null,
+null
+],
+[
+"Coriandre",
+1,
+"bouquet",
+null
+],
+[
+"Ail",
+1,
+"gousse",
+null
+]
+],
+"steps": [
+"Sécher la peau des filets et l'inciser légèrement; saler.",
+"Cuire côté peau dans l'huile chaude 5 minutes en pressant.",
+"Retourner et cuire 2 minutes.",
+"Dans une petite casserole, fondre le beurre avec l'ail, le piment, le zeste et le jus de citron vert.",
+"Ajouter la coriandre hachée.",
+"Napper le poisson du beurre et servir avec une salade."
+]
+},
+{
+"slug": "pavlova-nz",
+"country": "NZ",
+"original": "Pavlova",
+"title": "Pavlova néo-zélandaise aux kiwis",
+"en": "New Zealand pavlova",
+"es": "Pavlova neozelandesa",
+"desc": "Meringue croustillante dehors et moelleuse dedans, couverte de crème fouettée et de kiwis et fruits de la passion, dessert de Noël austral.",
+"cat": "Dessert",
+"diff": "medium",
+"prep": 25,
+"cook": 90,
+"serv": 8,
+"place": {
+"slug": "nz-wellington",
+"name": "Wellington",
+"type": "city",
+"lat": -41.2865,
+"lng": 174.7762,
+"summary": "Capitale néo-zélandaise, ville venteuse et gourmande."
+},
+"ing": [
+[
+"Blancs d'œufs",
+4,
+null,
+null
+],
+[
+"Sucre en poudre fin",
+220,
+"g",
+null
+],
+[
+"Fécule de maïs",
+1,
+"c. à soupe",
+null
+],
+[
+"Vinaigre blanc",
+1,
+"c. à café",
+null
+],
+[
+"Vanille",
+1,
+"c. à café",
+null
+],
+[
+"Crème entière",
+300,
+"ml",
+null
+],
+[
+"Kiwis",
+3,
+null,
+null
+],
+[
+"Fruits de la passion",
+2,
+null,
+null
+]
+],
+"steps": [
+"Monter les blancs en neige ferme puis ajouter le sucre cuillerée par cuillerée jusqu'à une meringue brillante.",
+"Incorporer fécule, vinaigre et vanille.",
+"Former un disque épais de 20 cm sur papier sulfurisé.",
+"Cuire 1 heure 30 à 110 °C puis laisser refroidir dans le four éteint.",
+"Fouetter la crème.",
+"Garnir la meringue de crème, de kiwis tranchés et de pulpe de passion juste avant de servir."
+]
+},
+{
+"slug": "hokey-pokey",
+"country": "NZ",
+"original": "Hokey pokey",
+"title": "Hokey pokey (caramel alvéolé) et glace néo-zélandaise",
+"en": "Hokey pokey honeycomb toffee",
+"es": "Hokey pokey neozelandés",
+"desc": "Caramel au golden syrup gonflé au bicarbonate, croquant et alvéolé; en éclats dans la glace vanille, c'est le parfum national de la Nouvelle-Zélande.",
+"cat": "Dessert",
+"diff": "easy",
+"prep": 10,
+"cook": 10,
+"serv": 8,
+"place": "nz-wellington",
+"ing": [
+[
+"Sucre",
+100,
+"g",
+null
+],
+[
+"Golden syrup",
+2,
+"c. à soupe",
+null
+],
+[
+"Bicarbonate de soude",
+1,
+"c. à café",
+null
+],
+[
+"Glace à la vanille",
+1,
+"l",
+"pour servir"
+]
+],
+"steps": [
+"Chauffer sucre et golden syrup à feu doux en remuant jusqu'à dissolution.",
+"Porter à ébullition sans remuer 5 minutes jusqu'à un caramel ambré.",
+"Hors du feu, ajouter le bicarbonate et mélanger vivement: la masse mousse.",
+"Verser aussitôt sur une plaque beurrée sans étaler.",
+"Laisser durcir 30 minutes et casser en éclats.",
+"Mêler les éclats à la glace vanille ramollie et regeler."
+]
+},
+{
+"slug": "afghan-biscuits",
+"country": "NZ",
+"original": "Afghan biscuits",
+"title": "Biscuits Afghan (cacao, cornflakes et glaçage chocolat)",
+"en": "New Zealand Afghan biscuits",
+"es": "Galletas Afghan",
+"desc": "Biscuits sablés au cacao et aux cornflakes, couverts d'un glaçage au chocolat et d'un cerneau de noix, classique des boîtes à biscuits néo-zélandaises.",
+"cat": "Biscuits",
+"diff": "easy",
+"prep": 20,
+"cook": 15,
+"serv": 20,
+"place": "nz-wellington",
+"ing": [
+[
+"Beurre mou",
+200,
+"g",
+null
+],
+[
+"Sucre",
+75,
+"g",
+null
+],
+[
+"Farine",
+175,
+"g",
+null
+],
+[
+"Cacao",
+25,
+"g",
+null
+],
+[
+"Cornflakes",
+50,
+"g",
+null
+],
+[
+"Sucre glace",
+150,
+"g",
+null
+],
+[
+"Cacao (glaçage)",
+2,
+"c. à soupe",
+null
+],
+[
+"Cerneaux de noix",
+20,
+null,
+null
+]
+],
+"steps": [
+"Crémer le beurre et le sucre.",
+"Ajouter la farine et le cacao tamisés, puis les cornflakes.",
+"Former des boules et les aplatir légèrement sur une plaque.",
+"Cuire 15 minutes à 180 °C et laisser refroidir.",
+"Mélanger sucre glace, cacao et un peu d'eau chaude en glaçage.",
+"Glacer les biscuits et poser un cerneau de noix sur chacun."
+]
+}
+]

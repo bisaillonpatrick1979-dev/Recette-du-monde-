@@ -50,8 +50,12 @@ jobs:
             echo "list=" >> "$GITHUB_OUTPUT"
           fi
       - name: Chercher les photos
-        run: node scripts/recipe-batches/search-photos.mjs "$RUNNER_TEMP/photo-review" ${{ steps.batches.outputs.list }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/photo-review"
+          set -o pipefail
+          node scripts/recipe-batches/search-photos.mjs "$RUNNER_TEMP/photo-review" ${{ steps.batches.outputs.list }} 2>&1 | tee "$RUNNER_TEMP/photo-review/journal.txt"
       - name: Publier les miniatures sur une branche photo-review/run-<n>
+        if: always()
         run: |
           cd "$RUNNER_TEMP/photo-review"
           echo "Source : ${GITHUB_REF_NAME} @ ${GITHUB_SHA}" > SOURCE.txt

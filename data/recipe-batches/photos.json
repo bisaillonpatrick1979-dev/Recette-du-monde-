@@ -1,4 +1,13 @@
 {
+ "acaraje-salvador": {
+  "file": "File:Acarajé 2.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Acaraj%C3%A9_2.jpg/1280px-Acaraj%C3%A9_2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Acaraj%C3%A9_2.jpg",
+  "author": "Melsj",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
  "aebleskiver": {
   "file": "File:Aebleskiver.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Aebleskiver.jpg",
@@ -56,6 +65,15 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "andong-jjimdak": {
+  "file": "File:Korean.cuisine-Andong.jjimdalk-03.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Korean.cuisine-Andong.jjimdalk-03.jpg/1280px-Korean.cuisine-Andong.jjimdalk-03.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Korean.cuisine-Andong.jjimdalk-03.jpg",
+  "author": "karendotcom127",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
  "apfelkuchle": {
   "file": "File:AIMG 7804 Apfelküchle.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/AIMG_7804_Apfelk%C3%BCchle.jpg/1280px-AIMG_7804_Apfelk%C3%BCchle.jpg",
@@ -71,6 +89,24 @@
   "author": "Jdvillalobos",
   "license": "CC BY 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+ },
+ "arroz-carreteiro": {
+  "file": "File:Arroz carreteiro.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Arroz_carreteiro.jpg/1280px-Arroz_carreteiro.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Arroz_carreteiro.jpg",
+  "author": "Cesar Vieira",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "arroz-con-pato-chiclayo": {
+  "file": "File:Arroz con pato a la chiclayana.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Arroz_con_pato_a_la_chiclayana.JPG/1280px-Arroz_con_pato_a_la_chiclayana.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Arroz_con_pato_a_la_chiclayana.JPG",
+  "author": "Dtarazona",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "Wikimedia Commons"
  },
  "ash-reshteh": {
   "file": "File:Ash Reshteh.JPG",
@@ -139,6 +175,15 @@
   "licenseUrl": null,
   "source": "Wikimedia Commons"
  },
+ "baiao-de-dois": {
+  "file": "File:Baião de dois.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Bai%C3%A3o_de_dois.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bai%C3%A3o_de_dois.jpg",
+  "author": "Zé Carlos Barretta",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
  "bake-and-shark-maracas": {
   "file": "File:MISC Bake & Shark.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/MISC_Bake_%26_Shark.jpg/1280px-MISC_Bake_%26_Shark.jpg",
@@ -195,6 +240,24 @@
   "author": "Tu (Flickr), Grand Forks, ND, USA",
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "biangbiang-mian": {
+  "file": "File:Biang Biang Mian.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Biang_Biang_Mian.jpg/1280px-Biang_Biang_Mian.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Biang_Biang_Mian.jpg",
+  "author": "Gary Soup",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
+ "birria-de-chivo": {
+  "file": "File:Birria Tatemada, La Barca, Jalisco..jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Birria_Tatemada%2C_La_Barca%2C_Jalisco..jpg/1280px-Birria_Tatemada%2C_La_Barca%2C_Jalisco..jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Birria_Tatemada,_La_Barca,_Jalisco..jpg",
+  "author": "Carloscurielfotografo",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
  },
  "bistecca-alla-fiorentina": {
   "file": "File:BisteccaFiorentina.jpg",
@@ -278,6 +341,15 @@
   "author": "Glen.wilkinson",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "cabrito-monterrey": {
+  "file": "File:Cabritos in Monterrey.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Cabritos_in_Monterrey.jpg/1280px-Cabritos_in_Monterrey.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cabritos_in_Monterrey.jpg",
+  "author": "",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
  },
  "cachapa-venezolana": {
   "file": "File:Cachapa con queso rallado.jpg",
@@ -364,6 +436,15 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "Wikimedia Commons"
  },
+ "causa-limena": {
+  "file": "File:Peru CausaLimena.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Peru_CausaLimena.jpg/1280px-Peru_CausaLimena.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Peru_CausaLimena.jpg",
+  "author": "",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "Wikimedia Commons"
+ },
  "cesnakova-polievka": {
   "file": "File:Cesnaková polievka (česneková polévka), Motel Skalka, Radoľa, okres Kysucké Nové Město, Žilinský kraj.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Cesnakov%C3%A1_polievka_%28%C4%8Desnekov%C3%A1_pol%C3%A9vka%29%2C_Motel_Skalka%2C_Rado%C4%BEa%2C_okres_Kysuck%C3%A9_Nov%C3%A9_M%C4%9Bsto%2C_%C5%BDilinsk%C3%BD_kraj.jpg/1280px-Cesnakov%C3%A1_polievka_%28%C4%8Desnekov%C3%A1_pol%C3%A9vka%29%2C_Motel_Skalka%2C_Rado%C4%BEa%2C_okres_Kysuck%C3%A9_Nov%C3%A9_M%C4%9Bsto%2C_%C5%BDilinsk%C3%BD_kraj.jpg",
@@ -412,6 +493,15 @@
   "license": "Public domain",
   "licenseUrl": null
  },
+ "char-siu-cantonais": {
+  "file": "File:Char Siu by daxiang stef.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Char_Siu_by_daxiang_stef.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Char_Siu_by_daxiang_stef.jpg",
+  "author": "daxiang stef",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
  "chicago-deep-dish-pizza": {
   "file": "File:Pizzeria Uno Chicago-style deep-dish pizza.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Pizzeria_Uno_Chicago-style_deep-dish_pizza.jpg/1280px-Pizzeria_Uno_Chicago-style_deep-dish_pizza.jpg",
@@ -437,6 +527,15 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "chiles-en-nogada": {
+  "file": "File:Chile en nogada.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Chile_en_nogada.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chile_en_nogada.jpg",
+  "author": "Arturo Sánchez",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
  "chipa-guasu": {
   "file": "File:Chipa Guazú (plato).jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Chipa_Guaz%C3%BA_%28plato%29.jpg",
@@ -450,6 +549,15 @@
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Choucroute_d%27Alsace_003.jpg/1280px-Choucroute_d%27Alsace_003.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Choucroute_d%27Alsace_003.jpg",
   "author": "Arnaud 25",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "chupe-de-camarones": {
+  "file": "File:Chupe de camarones 20100512.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Chupe_de_camarones_20100512.JPG/1280px-Chupe_de_camarones_20100512.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Chupe_de_camarones_20100512.JPG",
+  "author": "Dtarazona",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "Wikimedia Commons"
@@ -478,6 +586,15 @@
   "license": "CC0",
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
  },
+ "cochinita-pibil": {
+  "file": "File:Pibil.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Pibil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pibil.jpg",
+  "author": "SchmuckyTheCat",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "Wikimedia Commons"
+ },
  "cocido-madrileno": {
   "file": "File:Cocido en sus componentes.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Cocido_en_sus_componentes.jpg",
@@ -494,6 +611,15 @@
   "author": "Habib M'henni",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "coxinha-sao-paulo": {
+  "file": "File:Coxinha - iguaria brasileira 01.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Coxinha_-_iguaria_brasileira_01.jpg/1280px-Coxinha_-_iguaria_brasileira_01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Coxinha_-_iguaria_brasileira_01.jpg",
+  "author": "Sintegrity",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
  },
  "crema-catalana": {
   "file": "File:Crema Catalana (7 Portes).jpg",
@@ -537,6 +663,15 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "dan-dan-mian": {
+  "file": "File:Dandanmian in Chengdu (20180218142856).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Dandanmian_in_Chengdu_%2820180218142856%29.jpg/1280px-Dandanmian_in_Chengdu_%2820180218142856%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dandanmian_in_Chengdu_(20180218142856).jpg",
+  "author": "N509FZ",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
  "deruny-ukrainiens": {
   "file": "File:Deruny.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Deruny.jpg",
@@ -560,6 +695,15 @@
   "author": "T.K. Naliaka",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "dongpo-rou-hangzhou": {
+  "file": "File:DongPoRou.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/DongPoRou.jpg/1280px-DongPoRou.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:DongPoRou.jpg",
+  "author": "Sjschen",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
  },
  "dushbara-azerbaidjan": {
   "file": "File:Azerbaijani dusbere with nane-2.JPG",
@@ -643,6 +787,15 @@
   "author": "Xaura",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "Wikimedia Commons"
+ },
+ "feijao-tropeiro": {
+  "file": "File:Feijão tropeiro.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Feij%C3%A3o_tropeiro.jpg/1280px-Feij%C3%A3o_tropeiro.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Feij%C3%A3o_tropeiro.jpg",
+  "author": "Moe Alves",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "Wikimedia Commons"
  },
  "feijoada-timorense": {
@@ -812,6 +965,15 @@
   "license": "Public domain",
   "licenseUrl": null
  },
+ "goya-champuru": {
+  "file": "File:Goya chanpuru - Okinawan food - June 14 2015.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Goya_chanpuru_-_Okinawan_food_-_June_14_2015.jpg/1280px-Goya_chanpuru_-_Okinawan_food_-_June_14_2015.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Goya_chanpuru_-_Okinawan_food_-_June_14_2015.jpg",
+  "author": "Nesnad",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "Wikimedia Commons"
+ },
  "grands-peres-sirop-erable": {
   "file": "File:Grand-Père au sirop d'érable.JPG",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Grand-P%C3%A8re_au_sirop_d%27%C3%A9rable.JPG/1280px-Grand-P%C3%A8re_au_sirop_d%27%C3%A9rable.JPG",
@@ -838,6 +1000,24 @@
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
  },
+ "guilin-mifen": {
+  "file": "File:桂林米粉(Guilin Rice Noodle ).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89%28Guilin_Rice_Noodle_%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%E6%A1%82%E6%9E%97%E7%B1%B3%E7%B2%89(Guilin_Rice_Noodle_).jpg",
+  "author": "Flickr user gigijin",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "Wikimedia Commons"
+ },
+ "hakata-ramen": {
+  "file": "File:Hakata ramen.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Hakata_ramen.JPG/1280px-Hakata_ramen.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Hakata_ramen.JPG",
+  "author": "vigorous_action",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
  "halaszle-szeged": {
   "file": "File:Halászlé.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hal%C3%A1szl%C3%A9.jpg/1280px-Hal%C3%A1szl%C3%A9.jpg",
@@ -862,6 +1042,33 @@
   "license": "CC BY-SA 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
  },
+ "har-gow": {
+  "file": "File:Ha Gow (Cantonese Shrimp Dumplings).jpeg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Ha_Gow_%28Cantonese_Shrimp_Dumplings%29.jpeg/1280px-Ha_Gow_%28Cantonese_Shrimp_Dumplings%29.jpeg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ha_Gow_(Cantonese_Shrimp_Dumplings).jpeg",
+  "author": "ZhengZhou",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "hiroshima-okonomiyaki": {
+  "file": "File:Hiroshima-Style Okonomiyaki (40283556800).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Hiroshima-Style_Okonomiyaki_%2840283556800%29.jpg/1280px-Hiroshima-Style_Okonomiyaki_%2840283556800%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hiroshima-Style_Okonomiyaki_(40283556800).jpg",
+  "author": "Ajay Suresh from New York, NY, USA",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
+ "hitsumabushi-nagoya": {
+  "file": "File:Hitsumabushi by hirotomo in Nagoya.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hitsumabushi_by_hirotomo_in_Nagoya.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hitsumabushi_by_hirotomo_in_Nagoya.jpg",
+  "author": "hirotomo from Nagoya",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "Wikimedia Commons"
+ },
  "hokkien-mee-singapour": {
   "file": "File:Newton HokkienMee.JPG",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Newton_HokkienMee.JPG/1280px-Newton_HokkienMee.JPG",
@@ -869,6 +1076,15 @@
   "author": "Jpatokal",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "hong-shao-rou-shanghai": {
+  "file": "File:Red braised pork belly 红烧肉 hóngshāoròu 23 January 2025 Filipinas4.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Red_braised_pork_belly_%E7%BA%A2%E7%83%A7%E8%82%89_h%C3%B3ngsh%C4%81or%C3%B2u_23_January_2025_Filipinas4.jpg/1280px-Red_braised_pork_belly_%E7%BA%A2%E7%83%A7%E8%82%89_h%C3%B3ngsh%C4%81or%C3%B2u_23_January_2025_Filipinas4.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Red_braised_pork_belly_%E7%BA%A2%E7%83%A7%E8%82%89_h%C3%B3ngsh%C4%81or%C3%B2u_23_January_2025_Filipinas4.jpg",
+  "author": "",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
  },
  "hudut-dangriga": {
   "file": "File:Garifuna Hudutu by Ted Obermayer.jpg",
@@ -925,6 +1141,15 @@
   "author": "Alycmy",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "jingisukan-hokkaido": {
+  "file": "File:Jingisukan at Asahi Beer Community Hall.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jingisukan_at_Asahi_Beer_Community_Hall.jpg/1280px-Jingisukan_at_Asahi_Beer_Community_Hall.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jingisukan_at_Asahi_Beer_Community_Hall.jpg",
+  "author": "mdid",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "Wikimedia Commons"
  },
  "joojeh-kabab": {
@@ -1209,6 +1434,15 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "lanzhou-beef-noodles": {
+  "file": "File:Lanzhou beef lamian (20150227145650).JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Lanzhou_beef_lamian_%2820150227145650%29.JPG/1280px-Lanzhou_beef_lamian_%2820150227145650%29.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Lanzhou_beef_lamian_(20150227145650).JPG",
+  "author": "N509FZ",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
  "lavangi-lankaran": {
   "file": "File:Cuce-levengisi.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Cuce-levengisi.jpg",
@@ -1444,6 +1678,33 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "mole-negro-oaxaqueno": {
+  "file": "File:Mole negro de Oaxaca con arroz.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Mole_negro_de_Oaxaca_con_arroz.jpg/1280px-Mole_negro_de_Oaxaca_con_arroz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mole_negro_de_Oaxaca_con_arroz.jpg",
+  "author": "ProtoplasmaKid",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "mole-poblano": {
+  "file": "File:Mole Poblano.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mole_Poblano.jpg/1280px-Mole_Poblano.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mole_Poblano.jpg",
+  "author": "Melissa Doroquez",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "Wikimedia Commons"
+ },
+ "moqueca-capixaba": {
+  "file": "File:Moqueca capixaba 18 de janeiro de 2014 (2).JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Moqueca_capixaba_18_de_janeiro_de_2014_%282%29.JPG/1280px-Moqueca_capixaba_18_de_janeiro_de_2014_%282%29.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Moqueca_capixaba_18_de_janeiro_de_2014_(2).JPG",
+  "author": "DAR7 e Eloy Olindo Setti",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
  "mufete-de-luanda": {
   "file": "File:Mufete - traditional food of Angola.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Mufete_-_traditional_food_of_Angola.jpg",
@@ -1609,6 +1870,33 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
  },
+ "pao-de-queijo": {
+  "file": "File:Pão de queijo (3029721354).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/P%C3%A3o_de_queijo_%283029721354%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:P%C3%A3o_de_queijo_(3029721354).jpg",
+  "author": "Carlos Lopes from Uberaba-MG, Brasil",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
+ "papa-a-la-huancaina": {
+  "file": "File:Cuisine Perú Papa a la Huancaína.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Cuisine_Per%C3%BA_Papa_a_la_Huanca%C3%ADna.jpg/1280px-Cuisine_Per%C3%BA_Papa_a_la_Huanca%C3%ADna.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cuisine_Per%C3%BA_Papa_a_la_Huanca%C3%ADna.jpg",
+  "author": "AgainErick",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "papadzules": {
+  "file": "File:Papadzules at La Chaya Maya.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Papadzules_at_La_Chaya_Maya.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Papadzules_at_La_Chaya_Maya.jpg",
+  "author": "StellarD",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
  "papanasi": {
   "file": "File:Papanasi cu cirese (cropped).jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Papanasi_cu_cirese_%28cropped%29.jpg/1280px-Papanasi_cu_cirese_%28cropped%29.jpg",
@@ -1668,6 +1956,24 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "Wikimedia Commons"
  },
+ "pato-no-tucupi": {
+  "file": "File:BrunaBrandao Pato no Tucupi Belem PA (26185651117).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/BrunaBrandao_Pato_no_Tucupi_Belem_PA_%2826185651117%29.jpg/1280px-BrunaBrandao_Pato_no_Tucupi_Belem_PA_%2826185651117%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BrunaBrandao_Pato_no_Tucupi_Belem_PA_(26185651117).jpg",
+  "author": "MTur Destinos",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "Wikimedia Commons"
+ },
+ "peking-duck": {
+  "file": "File:Bianyifang duck.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Bianyifang_duck.jpg/1280px-Bianyifang_duck.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bianyifang_duck.jpg",
+  "author": "vixyao",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "Wikimedia Commons"
+ },
  "pelau-trinidad": {
   "file": "File:Trinidadian Chicken Pelau (15399269506).jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Trinidadian_Chicken_Pelau_%2815399269506%29.jpg",
@@ -1692,6 +1998,15 @@
   "author": "Kobako",
   "license": "CC BY-SA 2.5",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "source": "Wikimedia Commons"
+ },
+ "picarones-lima": {
+  "file": "File:Peru Picarones.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Peru_Picarones.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Peru_Picarones.jpg",
+  "author": "",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "source": "Wikimedia Commons"
  },
  "pikliz": {
@@ -1785,6 +2100,15 @@
   "author": "Openmalware.exe",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "pollo-a-la-brasa": {
+  "file": "File:Un cuarto de Pollo a la Brasa (pecho).JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Un_cuarto_de_Pollo_a_la_Brasa_%28pecho%29.JPG/1280px-Un_cuarto_de_Pollo_a_la_Brasa_%28pecho%29.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Un_cuarto_de_Pollo_a_la_Brasa_(pecho).JPG",
+  "author": "Dtarazona",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "source": "Wikimedia Commons"
  },
  "ponnukokur-islandaises": {
@@ -1889,6 +2213,15 @@
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
  },
+ "reganmian-wuhan": {
+  "file": "File:Hot Dry Noodles.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hot_Dry_Noodles.jpg/1280px-Hot_Dry_Noodles.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hot_Dry_Noodles.jpg",
+  "author": "ZhengZhou",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
  "rellenitos-de-platano": {
   "file": "File:Rellenitos-de-platano-01.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Rellenitos-de-platano-01.jpg/1280px-Rellenitos-de-platano-01.jpg",
@@ -1922,6 +2255,15 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "rocoto-relleno-arequipa": {
+  "file": "File:Rocoto relleno arequipeño.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rocoto_relleno_arequipe%C3%B1o.jpg/1280px-Rocoto_relleno_arequipe%C3%B1o.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rocoto_relleno_arequipe%C3%B1o.jpg",
+  "author": "Angel Olin from Peru",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
  "rodgrod-med-flode": {
   "file": "File:Roedgroedmedfloede (5922538807).jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Roedgroedmedfloede_%285922538807%29.jpg",
@@ -1937,6 +2279,15 @@
   "author": "BrokenSphere",
   "license": "CC BY-SA 3.0",
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ "roujiamo-xian": {
+  "file": "File:Roujiamo-cn.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Roujiamo-cn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Roujiamo-cn.jpg",
+  "author": "P. Xie",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "Wikimedia Commons"
  },
  "rugbraud-islandais": {
   "file": "File:Slices of flat rúgbrauð.jpg",
@@ -2012,6 +2363,15 @@
   "author": "Parvision",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "samgyetang": {
+  "file": "File:KOCIS Korea Malbok Samgyetang 03 (9493375058).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/KOCIS_Korea_Malbok_Samgyetang_03_%289493375058%29.jpg/1280px-KOCIS_Korea_Malbok_Samgyetang_03_%289493375058%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:KOCIS_Korea_Malbok_Samgyetang_03_(9493375058).jpg",
+  "author": "Korea.net / Korean Culture and Information Service (Jeon Han)",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "Wikimedia Commons"
  },
  "samsa-ouzbek": {
   "file": "File:'Parmuda'-uzbek samsa-02.jpg",
@@ -2169,6 +2529,15 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "Wikimedia Commons"
  },
+ "sopa-de-lima": {
+  "file": "File:Sopa de lima.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Sopa_de_lima.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sopa_de_lima.jpg",
+  "author": "Aome7937",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
  "sopa-de-mani": {
   "file": "File:Sopa de mani.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sopa_de_mani.jpg/1280px-Sopa_de_mani.jpg",
@@ -2251,6 +2620,24 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "Wikimedia Commons"
  },
+ "tacaca-belem": {
+  "file": "File:BrunaBrandao Tacaca Belem PA (41056109801).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/BrunaBrandao_Tacaca_Belem_PA_%2841056109801%29.jpg/1280px-BrunaBrandao_Tacaca_Belem_PA_%2841056109801%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BrunaBrandao_Tacaca_Belem_PA_(41056109801).jpg",
+  "author": "MTur Destinos",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "Wikimedia Commons"
+ },
+ "tacos-al-pastor": {
+  "file": "File:01 Tacos al Pastor.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/01_Tacos_al_Pastor.jpg/1280px-01_Tacos_al_Pastor.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:01_Tacos_al_Pastor.jpg",
+  "author": "William Neuheisel",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
  "tagliatelle-al-ragu-bolognese": {
   "file": "File:Tagliatelle al ragù (image modified).jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg/1280px-Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg",
@@ -2267,6 +2654,15 @@
   "author": "Foodista",
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "takoyaki-osaka": {
+  "file": "File:06749jfCuisine Foods Takoyaki cooking Balut Penoy Baliuag Bulacanfvf 01.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/06749jfCuisine_Foods_Takoyaki_cooking_Balut_Penoy_Baliuag_Bulacanfvf_01.jpg/1280px-06749jfCuisine_Foods_Takoyaki_cooking_Balut_Penoy_Baliuag_Bulacanfvf_01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:06749jfCuisine_Foods_Takoyaki_cooking_Balut_Penoy_Baliuag_Bulacanfvf_01.jpg",
+  "author": "Judgefloro",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "Wikimedia Commons"
  },
  "tam-mak-hoong": {
   "file": "File:Lao papaya salad and rice balls.jpg",
@@ -2318,6 +2714,15 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "source": "Wikimedia Commons"
  },
+ "tebasaki-nagoya": {
+  "file": "File:Furaibo Tebasaki.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Furaibo_Tebasaki.JPG/1280px-Furaibo_Tebasaki.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Furaibo_Tebasaki.JPG",
+  "author": "Nissy-KITAQ",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
  "tepsi-baytinjan": {
   "file": "File:تبسي باذنجان.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/%D8%AA%D8%A8%D8%B3%D9%8A_%D8%A8%D8%A7%D8%B0%D9%86%D8%AC%D8%A7%D9%86.jpg",
@@ -2360,6 +2765,15 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
  },
+ "tortas-ahogadas": {
+  "file": "File:Tortas ahogadas en Guadalajara 02.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Tortas_ahogadas_en_Guadalajara_02.jpg/1280px-Tortas_ahogadas_en_Guadalajara_02.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tortas_ahogadas_en_Guadalajara_02.jpg",
+  "author": "ProtoplasmaKid",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
  "tortellini-in-brodo": {
   "file": "File:Tortellini In Brodo.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Tortellini_In_Brodo.jpg/1280px-Tortellini_In_Brodo.jpg",
@@ -2369,6 +2783,15 @@
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "source": "Wikimedia Commons"
  },
+ "trofie-al-pesto": {
+  "file": "File:Trofie al pesto .jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Trofie_al_pesto_.jpg/1280px-Trofie_al_pesto_.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Trofie_al_pesto_.jpg",
+  "author": "Pastalovers",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
  "truffade-auvergnate": {
   "file": "File:Truffade, chiffonnade de jambon cru, salade et vin rouge (Puy-de-Dôme, France).jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Truffade%2C_chiffonnade_de_jambon_cru%2C_salade_et_vin_rouge_%28Puy-de-D%C3%B4me%2C_France%29.jpg/1280px-Truffade%2C_chiffonnade_de_jambon_cru%2C_salade_et_vin_rouge_%28Puy-de-D%C3%B4me%2C_France%29.jpg",
@@ -2376,6 +2799,15 @@
   "author": "Sebleouf",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "tteokbokki-seoul": {
+  "file": "File:2015년 10월 25일 과천시 굴다리시장 형태네집 떡볶이2.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2015%EB%85%84_10%EC%9B%94_25%EC%9D%BC_%EA%B3%BC%EC%B2%9C%EC%8B%9C_%EA%B5%B4%EB%8B%A4%EB%A6%AC%EC%8B%9C%EC%9E%A5_%ED%98%95%ED%83%9C%EB%84%A4%EC%A7%91_%EB%96%A1%EB%B3%B6%EC%9D%B42.jpg/1280px-2015%EB%85%84_10%EC%9B%94_25%EC%9D%BC_%EA%B3%BC%EC%B2%9C%EC%8B%9C_%EA%B5%B4%EB%8B%A4%EB%A6%AC%EC%8B%9C%EC%9E%A5_%ED%98%95%ED%83%9C%EB%84%A4%EC%A7%91_%EB%96%A1%EB%B3%B6%EC%9D%B42.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2015%EB%85%84_10%EC%9B%94_25%EC%9D%BC_%EA%B3%BC%EC%B2%9C%EC%8B%9C_%EA%B5%B4%EB%8B%A4%EB%A6%AC%EC%8B%9C%EC%9E%A5_%ED%98%95%ED%83%9C%EB%84%A4%EC%A7%91_%EB%96%A1%EB%B3%B6%EC%9D%B42.jpg",
+  "author": "최광모 (Choe Kwangmo)",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "source": "Wikimedia Commons"
  },
  "tufahija": {
@@ -2409,6 +2841,15 @@
   "author": "DonCamillo",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "vatapa-baiano": {
+  "file": "File:Vatapá.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Vatap%C3%A1.jpg/1280px-Vatap%C3%A1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vatap%C3%A1.jpg",
+  "author": "Elingunnur",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "Wikimedia Commons"
  },
  "vepro-knedlo-zelo": {
   "file": "File:VeproKnedloZelo.jpg",
@@ -2475,6 +2916,24 @@
   "license": "Public domain",
   "licenseUrl": null
  },
+ "xiaolongbao-shanghai": {
+  "file": "File:2019-02-22 Xiaolongbao in \"Taste Of Shanghai\" restaurant, Sydney, Australia.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/2019-02-22_Xiaolongbao_in_%22Taste_Of_Shanghai%22_restaurant%2C_Sydney%2C_Australia.jpg/1280px-2019-02-22_Xiaolongbao_in_%22Taste_Of_Shanghai%22_restaurant%2C_Sydney%2C_Australia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2019-02-22_Xiaolongbao_in_%22Taste_Of_Shanghai%22_restaurant,_Sydney,_Australia.jpg",
+  "author": "Maksym Kozlenko",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "yangzhou-fried-rice": {
+  "file": "File:Yeung Chow Fried Rice in Hong Kong Fast Food Shop.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Yeung_Chow_Fried_Rice_in_Hong_Kong_Fast_Food_Shop.JPG/1280px-Yeung_Chow_Fried_Rice_in_Hong_Kong_Fast_Food_Shop.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Yeung_Chow_Fried_Rice_in_Hong_Kong_Fast_Food_Shop.JPG",
+  "author": "Ceeseven",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
  "yomari-katmandou": {
   "file": "File:Yomari.jpg",
   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Yomari.jpg/1280px-Yomari.jpg",
@@ -2482,6 +2941,15 @@
   "author": "Ritesh Man Tamrakar",
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "yudofu-kyoto": {
+  "file": "File:110115 Ryoan-ji Kyoto Japan08s3.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/110115_Ryoan-ji_Kyoto_Japan08s3.jpg/1280px-110115_Ryoan-ji_Kyoto_Japan08s3.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:110115_Ryoan-ji_Kyoto_Japan08s3.jpg",
+  "author": "663highland",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
  },
  "zacusca": {
   "file": "File:Zacuscă bgiu.jpg",
@@ -2506,6 +2974,15 @@
   "author": "Ji-Elle",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "zhajiangmian-beijing": {
+  "file": "File:Fried sauce noodles in Ganjiakou (20140302144640).JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Fried_sauce_noodles_in_Ganjiakou_%2820140302144640%29.JPG/1280px-Fried_sauce_noodles_in_Ganjiakou_%2820140302144640%29.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Fried_sauce_noodles_in_Ganjiakou_(20140302144640).JPG",
+  "author": "N509FZ",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
  },
  "zurcher-geschnetzeltes": {
   "file": "File:Zürcher Geschnetzeltes at Zur rote Buech.jpg",

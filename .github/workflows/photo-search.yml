@@ -11,7 +11,8 @@ on:
     branches:
       - "robot-photos/**"
     paths:
-      - "data/recipe-batches/**"
+      - "data/recipe-batches/photo-search-batches.txt"
+      - "data/recipe-batches/photo-queries.json"
       - "scripts/recipe-batches/search-photos.mjs"
       - ".github/workflows/photo-search.yml"
   workflow_dispatch:

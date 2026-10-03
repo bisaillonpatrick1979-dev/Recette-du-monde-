@@ -64,10 +64,10 @@
   "Category:Truffade"
  ],
  "coq-au-vin": [
-  "coq au vin Bourgogne",
-  "coq au vin rouge",
-  "Category:Coq au vin",
-  "coq au vin plat"
+  "coq au vin Burgundy",
+  "coq au vin red wine chicken",
+  "coq au vin dish",
+  "poulet au vin rouge"
  ],
  "oeufs-en-meurette": [
   "Category:Œufs en meurette",
@@ -198,10 +198,10 @@
   "pâté chinois"
  ],
  "tarte-au-sucre": [
-  "Category:Sugar pie (Quebec)",
+  "tarte au sucre québécoise",
   "Quebec sugar pie",
-  "tarte au sucre Québec",
-  "sugar pie slice"
+  "sugar pie Canada",
+  "tarte au sucre Beauce"
  ],
  "cretons-quebecois": [
   "Category:Cretons",
@@ -217,17 +217,17 @@
   "maple syrup dumplings"
  ],
  "soupe-aux-pois-quebec": [
-  "French Canadian pea soup",
-  "soupe aux pois Québec",
-  "habitant pea soup",
-  "Category:Yellow pea soup"
+  "soupe aux pois",
+  "Quebec pea soup",
+  "French-Canadian pea soup ham",
+  "pea soup Habitant"
  ],
  "tourtiere-du-lac-saint-jean": [
   "Tourtiere Cuite",
+  "Tourtiere Finale",
   "Tourtiere Servie",
-  "tourtière saguenéenne",
-  "tourtière Lac-Saint-Jean",
-  "Category:Tourtière"
+  "Tourtiere Assiette",
+  "tourtière du Lac"
  ],
  "tarte-aux-bleuets-lac-saint-jean": [
   "tarte aux bleuets",
@@ -265,9 +265,10 @@
   "râpure"
  ],
  "donair-halifax": [
-  "donair sandwich",
-  "Halifax donair pita",
-  "donair sauce pita"
+  "donair wrap",
+  "donair Halifax",
+  "donair pita sauce",
+  "Halifax-style donair"
  ],
  "saskatoon-berry-pie": [
   "saskatoon berry pie",
@@ -345,8 +346,10 @@
   "cabrito al pastor Monterrey"
  ],
  "aguachile-sinaloa": [
-  "Category:Aguachile",
-  "aguachile"
+  "aguachile de camarón",
+  "aguachile camarones",
+  "aguachile verde camarón",
+  "Category:Aguachile"
  ],
  "causa-limena": [
   "Category:Causa limeña",
@@ -421,8 +424,10 @@
   "Category:Tonkotsu ramen"
  ],
  "sanuki-udon": [
-  "Category:Sanuki udon",
-  "Sanuki udon"
+  "讃岐うどん",
+  "Sanuki udon Kagawa",
+  "kake udon Kagawa",
+  "udon Takamatsu"
  ],
  "goya-champuru": [
   "Category:Goya champuru",
@@ -501,17 +506,19 @@
   "Yangzhou fried rice"
  ],
  "guoqiao-mixian": [
-  "Category:Crossing-the-bridge noodles",
-  "crossing the bridge noodles"
+  "过桥米线",
+  "Guoqiao mixian",
+  "crossing bridge rice noodles Yunnan",
+  "Category:Mixian"
  ],
  "andong-jjimdak": [
   "Category:Jjimdak",
   "Andong jjimdak"
  ],
  "dongnae-pajeon": [
-  "Category:Pajeon",
+  "동래파전",
   "Dongnae pajeon",
-  "haemul pajeon"
+  "Dongnae-pajeon"
  ],
  "tteokbokki-seoul": [
   "Category:Tteokbokki"

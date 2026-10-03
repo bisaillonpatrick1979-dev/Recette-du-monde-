@@ -64,10 +64,9 @@
   "Category:Truffade"
  ],
  "coq-au-vin": [
-  "coq au vin Burgundy",
-  "coq au vin red wine chicken",
-  "coq au vin dish",
-  "poulet au vin rouge"
+  "coq au vin",
+  "Category:Coq au vin",
+  "chicken in red wine sauce France"
  ],
  "oeufs-en-meurette": [
   "Category:Œufs en meurette",
@@ -198,10 +197,7 @@
   "pâté chinois"
  ],
  "tarte-au-sucre": [
-  "tarte au sucre québécoise",
-  "Quebec sugar pie",
-  "sugar pie Canada",
-  "tarte au sucre Beauce"
+  "__ignorer__"
  ],
  "cretons-quebecois": [
   "Category:Cretons",
@@ -217,17 +213,12 @@
   "maple syrup dumplings"
  ],
  "soupe-aux-pois-quebec": [
-  "soupe aux pois",
-  "Quebec pea soup",
-  "French-Canadian pea soup ham",
-  "pea soup Habitant"
+  "pea soup Quebec",
+  "split pea soup ham hock",
+  "Category:Pea soup"
  ],
  "tourtiere-du-lac-saint-jean": [
-  "Tourtiere Cuite",
-  "Tourtiere Finale",
-  "Tourtiere Servie",
-  "Tourtiere Assiette",
-  "tourtière du Lac"
+  "__ignorer__"
  ],
  "tarte-aux-bleuets-lac-saint-jean": [
   "tarte aux bleuets",
@@ -265,10 +256,7 @@
   "râpure"
  ],
  "donair-halifax": [
-  "donair wrap",
-  "donair Halifax",
-  "donair pita sauce",
-  "Halifax-style donair"
+  "__ignorer__"
  ],
  "saskatoon-berry-pie": [
   "saskatoon berry pie",
@@ -545,13 +533,16 @@
   "masala dosa"
  ],
  "haleem-hyderabadi": [
-  "Category:Haleem",
-  "Hyderabadi haleem"
+  "Hyderabadi haleem",
+  "Pista House haleem",
+  "haleem Hyderabad Ramadan",
+  "Category:Haleem"
  ],
  "goan-fish-curry": [
-  "Goan fish curry",
-  "fish curry Goa",
-  "xitt kodi"
+  "fish curry rice Goa",
+  "Goan fish curry rice",
+  "Category:Fish curry",
+  "xitti kodi"
  ],
  "pork-vindaloo-goa": [
   "Category:Vindaloo",
@@ -567,8 +558,9 @@
   "dal baati churma"
  ],
  "laal-maas": [
-  "Category:Laal maas",
-  "laal maas"
+  "laal maas",
+  "lal maas mutton Rajasthan",
+  "Rajasthani laal maas"
  ],
  "chole-bhature-delhi": [
   "Category:Chole bhature",
@@ -638,5 +630,322 @@
  "khao-man-gai": [
   "Category:Khao man kai",
   "khao man gai"
+ ],
+ "weisswurst-munich": [
+  "Category:Weißwurst",
+  "Weißwurstfrühstück"
+ ],
+ "schweinshaxe-bavaroise": [
+  "Category:Schweinshaxe",
+  "Schweinshaxe"
+ ],
+ "kaesespaetzle-souabe": [
+  "Category:Käsespätzle",
+  "Käsespätzle"
+ ],
+ "maultaschen": [
+  "Category:Maultaschen",
+  "Maultaschen"
+ ],
+ "schwarzwaelder-kirschtorte": [
+  "Category:Black Forest gateau",
+  "Schwarzwälder Kirschtorte"
+ ],
+ "labskaus-hamburg": [
+  "Category:Labskaus",
+  "Labskaus"
+ ],
+ "franzbroetchen": [
+  "Category:Franzbrötchen",
+  "Franzbrötchen"
+ ],
+ "thueringer-rostbratwurst": [
+  "Category:Thüringer Rostbratwurst",
+  "Thüringer Rostbratwurst"
+ ],
+ "himmel-un-aeaed": [
+  "Category:Himmel und Erde (dish)",
+  "Himmel un Ääd",
+  "Himmel und Erde Blutwurst"
+ ],
+ "gruene-sosse-frankfurt": [
+  "Category:Frankfurter Grüne Soße",
+  "Grüne Soße"
+ ],
+ "dresdner-christstollen": [
+  "Category:Dresdner Stollen",
+  "Dresdner Christstollen",
+  "Category:Stollen"
+ ],
+ "dakos-cretois": [
+  "Category:Dakos",
+  "dakos"
+ ],
+ "bougatsa-thessaloniki": [
+  "Category:Bougatsa",
+  "bougatsa"
+ ],
+ "gemista": [
+  "Category:Gemista",
+  "gemista"
+ ],
+ "fasolada": [
+  "Category:Fasolada",
+  "fasolada"
+ ],
+ "loukoumades": [
+  "Category:Loukoumades",
+  "loukoumades"
+ ],
+ "lahmacun-sanliurfa": [
+  "Category:Lahmacun",
+  "lahmacun"
+ ],
+ "adana-kebap": [
+  "Category:Adana kebab",
+  "Adana kebap"
+ ],
+ "kayseri-manti": [
+  "Category:Mantı",
+  "Kayseri mantısı"
+ ],
+ "hunkar-begendi": [
+  "Category:Hünkar beğendi",
+  "hünkar beğendi"
+ ],
+ "imam-bayildi": [
+  "Category:İmam bayıldı",
+  "imam bayildi"
+ ],
+ "kunefe-hatay": [
+  "Category:Künefe",
+  "künefe"
+ ],
+ "testi-kebabi": [
+  "Category:Testi kebabı",
+  "testi kebab"
+ ],
+ "balik-ekmek-istanbul": [
+  "Category:Balık ekmek",
+  "balık ekmek"
+ ],
+ "bifana-vendas-novas": [
+  "Category:Bifana",
+  "bifana"
+ ],
+ "cataplana-algarve": [
+  "Category:Cataplana",
+  "cataplana marisco"
+ ],
+ "ovos-moles-aveiro": [
+  "Category:Ovos moles de Aveiro",
+  "ovos moles"
+ ],
+ "bolo-do-caco-madeira": [
+  "Category:Bolo do caco",
+  "bolo do caco"
+ ],
+ "pastilla-fes": [
+  "Category:Pastilla",
+  "pastilla bastilla"
+ ],
+ "zaalouk": [
+  "Category:Zaalouk",
+  "zaalouk"
+ ],
+ "msemen": [
+  "Category:Msemen",
+  "msemen"
+ ],
+ "chebakia": [
+  "Category:Chebakia",
+  "chebakia"
+ ],
+ "couscous-sept-legumes": [
+  "couscous aux sept légumes",
+  "Moroccan couscous vegetables",
+  "Category:Couscous in Morocco"
+ ],
+ "soupe-aux-gourganes": [
+  "soupe aux gourganes",
+  "gourgane soup",
+  "Category:Soupe aux gourganes"
+ ],
+ "pets-de-soeur": [
+  "pets de soeur",
+  "pets de sœur Québec"
+ ],
+ "guedille-quebec": [
+  "guédille",
+  "guedille Québec",
+  "chicken salad roll Quebec"
+ ],
+ "tire-sur-la-neige": [
+  "Category:Maple taffy",
+  "tire sur la neige",
+  "maple taffy snow"
+ ],
+ "poutine-rapee": [
+  "Category:Poutine râpée",
+  "poutine râpée"
+ ],
+ "blueberry-grunt": [
+  "blueberry grunt",
+  "Category:Blueberry grunt"
+ ],
+ "toutons-terre-neuve": [
+  "toutons Newfoundland",
+  "Category:Toutons",
+  "touton molasses"
+ ],
+ "pyrohy-alberta": [
+  "Category:Pierogi",
+  "perogies sour cream onions",
+  "pyrohy"
+ ],
+ "peameal-bacon-sandwich": [
+  "Category:Peameal bacon",
+  "peameal bacon sandwich"
+ ],
+ "bannock": [
+  "Category:Bannock (food)",
+  "bannock bread",
+  "frybread bannock"
+ ],
+ "hodge-podge": [
+  "hodge podge Nova Scotia",
+  "hodgepodge vegetables cream"
+ ],
+ "zapiekanka-krakow": [
+  "Category:Zapiekanka",
+  "zapiekanka"
+ ],
+ "oscypek-zakopane": [
+  "Category:Oscypek",
+  "oscypek grillowany"
+ ],
+ "kotlet-schabowy": [
+  "Category:Kotlet schabowy",
+  "kotlet schabowy"
+ ],
+ "obwarzanek-krakowski": [
+  "Category:Obwarzanek krakowski",
+  "obwarzanek"
+ ],
+ "langos-hongrois": [
+  "Category:Lángos",
+  "lángos"
+ ],
+ "dobos-torta": [
+  "Category:Dobos torte",
+  "Dobos torta"
+ ],
+ "lecso": [
+  "Category:Lecsó",
+  "lecsó"
+ ],
+ "imeruli-khachapuri": [
+  "Category:Imeruli khachapuri",
+  "imeruli khachapuri",
+  "Category:Khachapuri"
+ ],
+ "churchkhela": [
+  "Category:Churchkhela",
+  "churchkhela"
+ ],
+ "gudeg-yogyakarta": [
+  "Category:Gudeg",
+  "gudeg Yogyakarta"
+ ],
+ "nasi-goreng": [
+  "Category:Nasi goreng",
+  "nasi goreng telur"
+ ],
+ "sate-madura": [
+  "Category:Sate Madura",
+  "sate madura"
+ ],
+ "soto-betawi": [
+  "Category:Soto Betawi",
+  "soto betawi"
+ ],
+ "rawon-surabaya": [
+  "Category:Rawon",
+  "rawon"
+ ],
+ "babi-guling-bali": [
+  "Category:Babi guling",
+  "babi guling"
+ ],
+ "pempek-palembang": [
+  "Category:Pempek",
+  "pempek"
+ ],
+ "nasi-kandar-penang": [
+  "Category:Nasi kandar",
+  "nasi kandar"
+ ],
+ "satay-kajang": [
+  "Satay Kajang",
+  "Category:Satay in Malaysia",
+  "satay kacang Malaysia"
+ ],
+ "laksa-sarawak": [
+  "Category:Sarawak laksa",
+  "Sarawak laksa"
+ ],
+ "cendol-melaka": [
+  "Category:Cendol",
+  "cendol"
+ ],
+ "lechon-cebu": [
+  "Category:Lechon",
+  "Cebu lechon"
+ ],
+ "sisig-pampanga": [
+  "Category:Sisig",
+  "sisig"
+ ],
+ "kare-kare": [
+  "Category:Kare-kare",
+  "kare-kare"
+ ],
+ "batchoy-la-paz": [
+  "Category:Batchoy",
+  "La Paz batchoy"
+ ],
+ "bibingka": [
+  "Category:Bibingka",
+  "bibingka"
+ ],
+ "oyster-omelette-tainan": [
+  "Category:Oyster omelette",
+  "oyster omelette Taiwan"
+ ],
+ "danzai-noodles": [
+  "Category:Danzai noodles",
+  "danzai noodles",
+  "擔仔麵"
+ ],
+ "gua-bao": [
+  "Category:Gua bao",
+  "gua bao"
+ ],
+ "chelow-kabab-koobideh": [
+  "Category:Chelow kabab",
+  "kabab koobideh"
+ ],
+ "tahdig": [
+  "Category:Tahdig",
+  "tahdig"
+ ],
+ "sholeh-zard": [
+  "Category:Sholeh zard",
+  "sholeh zard"
+ ],
+ "abgoosht-dizi": [
+  "Category:Dizi (food)",
+  "Category:Abgoosht",
+  "dizi abgoosht"
  ]
 }

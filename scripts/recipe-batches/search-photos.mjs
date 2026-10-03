@@ -161,7 +161,10 @@ const batchFiles = (files.length ? files : readdirSync(DATA_DIR).filter((f) => /
 const photos = existsSync(join(DATA_DIR, "photos.json")) ? JSON.parse(readFileSync(join(DATA_DIR, "photos.json"), "utf8")) : {};
 const queriesPath = join(DATA_DIR, "photo-queries.json");
 const extraQueries = existsSync(queriesPath) ? JSON.parse(readFileSync(queriesPath, "utf8")) : {};
-const recipes = batchFiles.flatMap((f) => JSON.parse(readFileSync(f, "utf8"))).filter((r) => !photos[r.slug]);
+// « __ignorer__ » dans photo-queries.json : recette mise de côté (aucune photo libre exacte trouvée après plusieurs passes).
+const recipes = batchFiles
+  .flatMap((f) => JSON.parse(readFileSync(f, "utf8")))
+  .filter((r) => !photos[r.slug] && !(extraQueries[r.slug] ?? []).includes("__ignorer__"));
 
 const out = {};
 let withCandidates = 0;

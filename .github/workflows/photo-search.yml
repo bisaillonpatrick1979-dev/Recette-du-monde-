@@ -1,0 +1,64 @@
+# Robot photo : cherche des photos libres candidates (Wikimedia Commons + Openverse/Flickr)
+# pour les recettes des lots, puis publie les miniatures sur une branche « photo-review/run-<n> »
+# pour validation visuelle. Ne publie rien dans l'application.
+#
+# Déclenchement : pousser sur une branche « robot-photos/** », ou lancer à la main (Actions › Run workflow).
+# Lots à traiter : data/recipe-batches/photo-search-batches.txt (absent = tous les lots).
+name: Recherche photos
+
+on:
+  push:
+    branches:
+      - "robot-photos/**"
+    paths:
+      - "data/recipe-batches/**"
+      - "scripts/recipe-batches/search-photos.mjs"
+      - ".github/workflows/photo-search.yml"
+  workflow_dispatch:
+    inputs:
+      batches:
+        description: "Lots à traiter (noms de fichiers séparés par des espaces, vide = tous)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: photo-search
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Lire la liste des lots
+        id: batches
+        run: |
+          if [ -n "${{ github.event.inputs.batches }}" ]; then
+            echo "list=${{ github.event.inputs.batches }}" >> "$GITHUB_OUTPUT"
+          elif [ -f data/recipe-batches/photo-search-batches.txt ]; then
+            echo "list=$(tr '\n' ' ' < data/recipe-batches/photo-search-batches.txt)" >> "$GITHUB_OUTPUT"
+          else
+            echo "list=" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Chercher les photos
+        run: node scripts/recipe-batches/search-photos.mjs "$RUNNER_TEMP/photo-review" ${{ steps.batches.outputs.list }}
+      - name: Publier les miniatures sur une branche photo-review/run-<n>
+        run: |
+          cd "$RUNNER_TEMP/photo-review"
+          echo "Source : ${GITHUB_REF_NAME} @ ${GITHUB_SHA}" > SOURCE.txt
+          BR="photo-review/run-${GITHUB_RUN_NUMBER}"
+          git init -q -b "$BR"
+          git config user.name "spoontrotter-photo-bot"
+          git config user.email "photo-bot@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Candidates photo pour ${GITHUB_REF_NAME} (${GITHUB_SHA::7})"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" "$BR"

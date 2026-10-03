@@ -3,3 +3,4 @@ batch-13-italie-espagne-regions.json
 batch-14-canada-etats-unis.json
 batch-15-amerique-latine-regions.json
 batch-16-japon-chine-coree.json
+batch-17-inde-vietnam-thailande.json

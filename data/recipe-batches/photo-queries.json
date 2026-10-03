@@ -1,26 +1,300 @@
 {
- "quiche-lorraine": ["Category:Quiche lorraine"],
- "cassoulet-castelnaudary": ["Category:Cassoulet"],
- "choucroute-garnie-alsace": ["Category:Choucroute garnie", "choucroute garnie"],
- "flammekueche": ["Category:Flammekueche", "Category:Tarte flambée"],
- "baeckeoffe": ["Category:Baeckeoffe"],
- "kouign-amann-douarnenez": ["Category:Kouign-amann"],
- "far-breton": ["Category:Far breton"],
- "aligot-aubrac": ["Category:Aligot"],
- "socca-nicoise": ["Category:Socca"],
- "pissaladiere": ["Category:Pissaladière"],
- "salade-nicoise": ["Category:Salade niçoise"],
- "quenelles-de-brochet-lyon": ["Category:Quenelles", "quenelle Nantua", "quenelle de brochet"],
- "gratin-dauphinois": ["Category:Gratin dauphinois"],
- "caneles-de-bordeaux": ["Category:Canelé", "Category:Canelés"],
- "piperade-basque": ["Category:Piperade"],
- "gateau-basque": ["Category:Gâteau basque"],
- "brandade-de-nimes": ["Category:Brandade de morue", "brandade"],
- "madeleines-de-commercy": ["Category:Madeleines (cakes)", "Category:Madeleine (cake)"],
- "truffade-auvergnate": ["Category:Truffade"],
- "coq-au-vin": ["Category:Coq au vin"],
- "oeufs-en-meurette": ["Category:Œufs en meurette", "oeufs en meurette"],
- "soupe-au-pistou": ["Category:Soupe au pistou"],
- "teurgoule-normande": ["Category:Teurgoule"],
- "potjevleesch": ["Category:Potjevleesch"]
+ "quiche-lorraine": [
+  "Category:Quiche lorraine"
+ ],
+ "cassoulet-castelnaudary": [
+  "Category:Cassoulet"
+ ],
+ "choucroute-garnie-alsace": [
+  "Category:Choucroute garnie",
+  "choucroute garnie"
+ ],
+ "flammekueche": [
+  "Category:Flammekueche",
+  "Category:Tarte flambée"
+ ],
+ "baeckeoffe": [
+  "Category:Baeckeoffe"
+ ],
+ "kouign-amann-douarnenez": [
+  "Category:Kouign-amann"
+ ],
+ "far-breton": [
+  "Category:Far breton"
+ ],
+ "aligot-aubrac": [
+  "Category:Aligot"
+ ],
+ "socca-nicoise": [
+  "Category:Socca"
+ ],
+ "pissaladiere": [
+  "Category:Pissaladière"
+ ],
+ "salade-nicoise": [
+  "Category:Salade niçoise"
+ ],
+ "quenelles-de-brochet-lyon": [
+  "Category:Quenelles",
+  "quenelle Nantua",
+  "quenelle de brochet"
+ ],
+ "gratin-dauphinois": [
+  "Category:Gratin dauphinois"
+ ],
+ "caneles-de-bordeaux": [
+  "Category:Canelé",
+  "Category:Canelés"
+ ],
+ "piperade-basque": [
+  "Category:Piperade"
+ ],
+ "gateau-basque": [
+  "Category:Gâteau basque"
+ ],
+ "brandade-de-nimes": [
+  "Category:Brandade de morue",
+  "brandade"
+ ],
+ "madeleines-de-commercy": [
+  "Category:Madeleines (cakes)",
+  "Category:Madeleine (cake)"
+ ],
+ "truffade-auvergnate": [
+  "Category:Truffade"
+ ],
+ "coq-au-vin": [
+  "Category:Coq au vin"
+ ],
+ "oeufs-en-meurette": [
+  "Category:Œufs en meurette",
+  "oeufs en meurette"
+ ],
+ "soupe-au-pistou": [
+  "Category:Soupe au pistou"
+ ],
+ "teurgoule-normande": [
+  "Category:Teurgoule"
+ ],
+ "potjevleesch": [
+  "Category:Potjevleesch"
+ ],
+ "trofie-al-pesto": [
+  "Category:Trofie",
+  "trofie pesto"
+ ],
+ "focaccia-genovese": [
+  "Category:Focaccia genovese",
+  "focaccia genovese"
+ ],
+ "cacio-e-pepe": [
+  "Category:Cacio e pepe"
+ ],
+ "bucatini-amatriciana": [
+  "Category:Amatriciana",
+  "Category:Pasta all'amatriciana",
+  "amatriciana"
+ ],
+ "saltimbocca-alla-romana": [
+  "Category:Saltimbocca"
+ ],
+ "suppli-romani": [
+  "Category:Supplì"
+ ],
+ "tagliatelle-al-ragu-bolognese": [
+  "Category:Tagliatelle al ragù",
+  "tagliatelle ragù bolognese"
+ ],
+ "tortellini-in-brodo": [
+  "Category:Tortellini in brodo",
+  "tortellini in brodo"
+ ],
+ "piadina-romagnola": [
+  "Category:Piadina"
+ ],
+ "orecchiette-cime-di-rapa": [
+  "Category:Orecchiette con le cime di rapa",
+  "orecchiette cime di rapa"
+ ],
+ "pasta-alla-norma": [
+  "Category:Pasta alla Norma"
+ ],
+ "ribollita-toscana": [
+  "Category:Ribollita"
+ ],
+ "bistecca-alla-fiorentina": [
+  "Category:Bistecca alla fiorentina"
+ ],
+ "sfogliatella-napoletana": [
+  "Category:Sfogliatella"
+ ],
+ "vitello-tonnato": [
+  "Category:Vitello tonnato"
+ ],
+ "fegato-alla-veneziana": [
+  "Category:Fegato alla veneziana"
+ ],
+ "tiramisu-treviso": [
+  "Category:Tiramisu"
+ ],
+ "canederli-trentini": [
+  "Category:Knödel in soup",
+  "canederli"
+ ],
+ "gazpacho-andaluz": [
+  "Category:Gazpacho"
+ ],
+ "salmorejo-cordobes": [
+  "Category:Salmorejo"
+ ],
+ "fabada-asturiana": [
+  "Category:Fabada asturiana"
+ ],
+ "pulpo-a-la-gallega": [
+  "Category:Pulpo a la gallega",
+  "pulpo a feira"
+ ],
+ "pa-amb-tomaquet": [
+  "Category:Pa amb tomàquet",
+  "pan con tomate"
+ ],
+ "crema-catalana": [
+  "Category:Crema catalana"
+ ],
+ "cocido-madrileno": [
+  "Category:Cocido madrileño"
+ ],
+ "pimientos-de-padron": [
+  "Category:Pimientos de Padrón"
+ ],
+ "bacalao-al-pil-pil": [
+  "Category:Bacalao al pil-pil",
+  "bacalao pil pil"
+ ],
+ "ensaimada-mallorquina": [
+  "Category:Ensaïmada"
+ ],
+ "patatas-bravas": [
+  "Category:Patatas bravas"
+ ],
+ "pisto-manchego": [
+  "Category:Pisto",
+  "pisto manchego"
+ ],
+ "tarta-de-santiago": [
+  "Category:Tarta de Santiago"
+ ],
+ "pouding-chomeur": [
+  "Category:Pouding chômeur",
+  "pouding chomeur"
+ ],
+ "pate-chinois": [
+  "Category:Pâté chinois",
+  "pâté chinois"
+ ],
+ "tarte-au-sucre": [
+  "Category:Tarte au sucre",
+  "sugar pie Quebec"
+ ],
+ "cretons-quebecois": [
+  "Category:Cretons",
+  "cretons"
+ ],
+ "feves-au-lard": [
+  "fèves au lard",
+  "Category:Baked beans",
+  "baked beans Quebec"
+ ],
+ "grands-peres-sirop-erable": [
+  "grands-pères sirop d'érable",
+  "maple syrup dumplings"
+ ],
+ "soupe-aux-pois-quebec": [
+  "Category:Pea soup",
+  "soupe aux pois",
+  "pea soup Quebec"
+ ],
+ "tourtiere-du-lac-saint-jean": [
+  "tourtière du Lac-Saint-Jean",
+  "Category:Tourtière",
+  "cipaille"
+ ],
+ "tarte-aux-bleuets-lac-saint-jean": [
+  "tarte aux bleuets",
+  "Category:Blueberry pies"
+ ],
+ "bagel-de-montreal": [
+  "Category:Montreal-style bagels",
+  "Montreal bagel",
+  "St-Viateur bagel"
+ ],
+ "smoked-meat-de-montreal": [
+  "Category:Montreal-style smoked meat",
+  "Montreal smoked meat",
+  "Schwartz's smoked meat"
+ ],
+ "ginger-beef-calgary": [
+  "ginger beef",
+  "Category:Ginger beef"
+ ],
+ "caesar-calgary": [
+  "Category:Caesar (cocktail)",
+  "Caesar cocktail Clamato"
+ ],
+ "jiggs-dinner": [
+  "Category:Jiggs dinner",
+  "Jiggs dinner"
+ ],
+ "fish-and-brewis": [
+  "fish and brewis",
+  "Category:Fish and brewis"
+ ],
+ "rapure-acadienne": [
+  "Category:Rappie pie",
+  "rappie pie",
+  "râpure"
+ ],
+ "donair-halifax": [
+  "Category:Donair",
+  "Halifax donair"
+ ],
+ "saskatoon-berry-pie": [
+  "saskatoon berry pie",
+  "Category:Amelanchier alnifolia fruit"
+ ],
+ "philly-cheesesteak": [
+  "Category:Cheesesteaks",
+  "cheesesteak"
+ ],
+ "new-england-clam-chowder": [
+  "Category:New England clam chowder",
+  "clam chowder"
+ ],
+ "chicago-deep-dish-pizza": [
+  "Category:Chicago-style pizza",
+  "deep dish pizza"
+ ],
+ "lobster-roll-maine": [
+  "Category:Lobster rolls",
+  "lobster roll"
+ ],
+ "key-lime-pie": [
+  "Category:Key lime pie"
+ ],
+ "nashville-hot-chicken": [
+  "Category:Hot chicken",
+  "Nashville hot chicken"
+ ],
+ "beignets-new-orleans": [
+  "Category:Beignets of New Orleans",
+  "Café du Monde beignets",
+  "beignets"
+ ],
+ "loco-moco": [
+  "Category:Loco moco"
+ ],
+ "poke-hawaien": [
+  "Category:Poke (Hawaiian dish)",
+  "ahi poke"
+ ]
 }

@@ -80,7 +80,7 @@ async function getJson(url) {
 }
 
 async function commons(params) {
-  const data = await getJson(`${COMMONS}?${new URLSearchParams({ format: "json", origin: "*", ...params })}`);
+  const data = await getJson(`${COMMONS}?${new URLSearchParams({ action: "query", format: "json", origin: "*", ...params })}`);
   return Object.values(data?.query?.pages ?? {});
 }
 

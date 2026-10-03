@@ -51,12 +51,27 @@ const tokens = (s) =>
 const stripTags = (s) => (s ?? "").replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+let consecutiveFailures = 0;
 async function getJson(url) {
   // Les deux API limitent le débit (429) : on respecte Retry-After, sinon on attend de plus en plus longtemps.
   for (let attempt = 0; attempt < 7; attempt += 1) {
-    const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
-    if (res.ok) return res.json();
+    const res = await fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } });
     if (res.status === 404) return null;
+    const text = await res.text();
+    if (res.ok) {
+      try {
+        const json = JSON.parse(text);
+        consecutiveFailures = 0;
+        return json;
+      } catch {
+        // Page HTML (anti-robot, maintenance…) au lieu de JSON : on note et on réessaie.
+        console.warn(`Réponse non JSON (${res.status}) pour ${url.slice(0, 120)} : ${text.replace(/\s+/g, " ").slice(0, 400)}`);
+      }
+    } else {
+      console.warn(`HTTP ${res.status} pour ${url.slice(0, 120)} : ${text.replace(/\s+/g, " ").slice(0, 200)}`);
+    }
+    consecutiveFailures += 1;
+    if (consecutiveFailures >= 12) throw new Error("Trop d’échecs consécutifs : la source bloque probablement le robot.");
     const retryAfter = Number(res.headers.get("retry-after"));
     await sleep(retryAfter > 0 ? Math.min(retryAfter, 120) * 1000 : 4000 * 2 ** Math.min(attempt, 4));
   }

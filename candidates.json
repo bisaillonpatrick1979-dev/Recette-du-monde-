@@ -1,0 +1,2578 @@
+{
+ "coq-au-vin": {
+  "title": "Coq au vin de Bourgogne (volaille braisée au vin rouge)",
+  "original": "Coq au vin",
+  "en": "Coq au vin (chicken braised in Burgundy red wine)",
+  "country": "FR",
+  "candidates": []
+ },
+ "tarte-au-sucre": {
+  "title": "Tarte au sucre québécoise (cassonade et crème)",
+  "original": "Tarte au sucre",
+  "en": "Québec sugar pie (tarte au sucre)",
+  "country": "CA",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Recette tarte sucre complet cannelle 8.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Recette_tarte_sucre_complet_cannelle_8.jpg/1280px-Recette_tarte_sucre_complet_cannelle_8.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Recette_tarte_sucre_complet_cannelle_8.jpg/500px-Recette_tarte_sucre_complet_cannelle_8.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Recette_tarte_sucre_complet_cannelle_8.jpg",
+    "author": "Romain Behar",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Raw cane sugar and cinnamon tart recipe, step 8",
+    "thumb": "thumbs/tarte-au-sucre--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tarte au sucre de Pérouges (2010).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Tarte_au_sucre_de_P%C3%A9rouges_%282010%29.jpg/1280px-Tarte_au_sucre_de_P%C3%A9rouges_%282010%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Tarte_au_sucre_de_P%C3%A9rouges_%282010%29.jpg/500px-Tarte_au_sucre_de_P%C3%A9rouges_%282010%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarte_au_sucre_de_P%C3%A9rouges_(2010).jpg",
+    "author": "Arnaud 25",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Tarte au sucre de Pérouges.",
+    "thumb": "thumbs/tarte-au-sucre--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tarte au sucre de Pérouges.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tarte_au_sucre_de_P%C3%A9rouges.JPG/1280px-Tarte_au_sucre_de_P%C3%A9rouges.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tarte_au_sucre_de_P%C3%A9rouges.JPG/500px-Tarte_au_sucre_de_P%C3%A9rouges.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarte_au_sucre_de_P%C3%A9rouges.JPG",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Tarte au sucre de Pérouges à l'Hostellerie du Vieux Pérouges.",
+    "thumb": "thumbs/tarte-au-sucre--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Jielbeaumadier tarte au sucre 2011.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jielbeaumadier_tarte_au_sucre_2011.jpg/1280px-Jielbeaumadier_tarte_au_sucre_2011.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jielbeaumadier_tarte_au_sucre_2011.jpg/500px-Jielbeaumadier_tarte_au_sucre_2011.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jielbeaumadier_tarte_au_sucre_2011.jpg",
+    "author": "Jiel Beaumadier",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Sugar pie from Nord departement, France.",
+    "thumb": "thumbs/tarte-au-sucre--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tarte au sucre.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tarte_au_sucre.jpeg/1280px-Tarte_au_sucre.jpeg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tarte_au_sucre.jpeg/500px-Tarte_au_sucre.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarte_au_sucre.jpeg",
+    "author": "Popo le Chien",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "une tarte au sucre (gros plan)",
+    "thumb": "thumbs/tarte-au-sucre--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tarte à rien et boule de glace au yaourt .jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tarte_%C3%A0_rien_et_boule_de_glace_au_yaourt_.jpg/1280px-Tarte_%C3%A0_rien_et_boule_de_glace_au_yaourt_.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tarte_%C3%A0_rien_et_boule_de_glace_au_yaourt_.jpg/500px-Tarte_%C3%A0_rien_et_boule_de_glace_au_yaourt_.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarte_%C3%A0_rien_et_boule_de_glace_au_yaourt_.jpg",
+    "author": "Exilexi",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Tarte à rien et boule de glace au yaourt dans un restaurant parisien (le Lobster Bar)",
+    "thumb": "thumbs/tarte-au-sucre--5.jpg"
+   }
+  ]
+ },
+ "soupe-aux-pois-quebec": {
+  "title": "Soupe aux pois jaunes québécoise (au jarret de porc)",
+  "original": "Soupe aux pois",
+  "en": "Québec yellow pea soup with ham hock",
+  "country": "CA",
+  "candidates": []
+ },
+ "tourtiere-du-lac-saint-jean": {
+  "title": "Tourtière du Lac-Saint-Jean (cipâte de viandes et pommes de terre en cubes)",
+  "original": "Tourtière du Lac-Saint-Jean",
+  "en": "Lac-Saint-Jean tourtière (deep-dish meat and potato pie)",
+  "country": "CA",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tourtiere Pate.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tourtiere_Pate.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tourtiere_Pate.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tourtiere_Pate.jpg",
+    "author": "Dominic Genest",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Pâte pour la tourtière du Lac Saint-Jean",
+    "thumb": "thumbs/tourtiere-du-lac-saint-jean--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tourtiere Viande.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Tourtiere_Viande.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/4/48/Tourtiere_Viande.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tourtiere_Viande.jpg",
+    "author": "Dominic Genest",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Viande pour la tourtière du Lac Saint-Jean",
+    "thumb": "thumbs/tourtiere-du-lac-saint-jean--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tourtiere Cocotte.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Tourtiere_Cocotte.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/3/30/Tourtiere_Cocotte.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tourtiere_Cocotte.jpg",
+    "author": "Dominic Genest",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Cocotte pour la tourtière du Lac Saint-Jean",
+    "thumb": "thumbs/tourtiere-du-lac-saint-jean--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tourtiere Lard.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Tourtiere_Lard.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/66/Tourtiere_Lard.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tourtiere_Lard.jpg",
+    "author": "Dominic Genest",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Lard pour la tourtière du Lac Saint-Jean",
+    "thumb": "thumbs/tourtiere-du-lac-saint-jean--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tourtiere PateMoitie.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Tourtiere_PateMoitie.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Tourtiere_PateMoitie.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tourtiere_PateMoitie.jpg",
+    "author": "Dominic Genest",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Placement de la première moitié de la pâte pour la tourtière du Lac Saint-Jean",
+    "thumb": "thumbs/tourtiere-du-lac-saint-jean--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tourtiere PateComplete.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tourtiere_PateComplete.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tourtiere_PateComplete.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tourtiere_PateComplete.jpg",
+    "author": "Dominic Genest",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Placement de la première moitié de la pâte pour la tourtière du Lac Saint-Jean",
+    "thumb": "thumbs/tourtiere-du-lac-saint-jean--5.jpg"
+   }
+  ]
+ },
+ "donair-halifax": {
+  "title": "Donair d’Halifax (pain pita, bœuf épicé et sauce sucrée à l’ail)",
+  "original": "Halifax donair",
+  "en": "Halifax donair",
+  "country": "CA",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:King of Donairs.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/King_of_Donairs.JPG/1280px-King_of_Donairs.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/King_of_Donairs.JPG/500px-King_of_Donairs.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:King_of_Donairs.JPG",
+    "author": "SimonP at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "A King of Donair location. Taken by SimonP At \"pizza corner\", i.e. Blowers and Grafton Streets.",
+    "thumb": "thumbs/donair-halifax--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Roberts Pizza ^ Donairs - panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Roberts_Pizza_%5E_Donairs_-_panoramio.jpg/1280px-Roberts_Pizza_%5E_Donairs_-_panoramio.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Roberts_Pizza_%5E_Donairs_-_panoramio.jpg/500px-Roberts_Pizza_%5E_Donairs_-_panoramio.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Roberts_Pizza_%5E_Donairs_-_panoramio.jpg",
+    "author": "Larry LaRose",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Roberts Pizza &amp; Donairs",
+    "thumb": "thumbs/donair-halifax--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cosmos pizza and donair (5738874824).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Cosmos_pizza_and_donair_%285738874824%29.jpg/1280px-Cosmos_pizza_and_donair_%285738874824%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Cosmos_pizza_and_donair_%285738874824%29.jpg/500px-Cosmos_pizza_and_donair_%285738874824%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cosmos_pizza_and_donair_(5738874824).jpg",
+    "author": "jasonwoodhead23",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Cosmos Pizza and Donair in Peterpond mall Fort Mcmurray Alberta",
+    "thumb": "thumbs/donair-halifax--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cosmos pizza and donair (5738323299).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Cosmos_pizza_and_donair_%285738323299%29.jpg/1280px-Cosmos_pizza_and_donair_%285738323299%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Cosmos_pizza_and_donair_%285738323299%29.jpg/500px-Cosmos_pizza_and_donair_%285738323299%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cosmos_pizza_and_donair_(5738323299).jpg",
+    "author": "jasonwoodhead23",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Top of donair spit",
+    "thumb": "thumbs/donair-halifax--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cosmos pizza and donair (5738320887).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cosmos_pizza_and_donair_%285738320887%29.jpg/1280px-Cosmos_pizza_and_donair_%285738320887%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Cosmos_pizza_and_donair_%285738320887%29.jpg/500px-Cosmos_pizza_and_donair_%285738320887%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cosmos_pizza_and_donair_(5738320887).jpg",
+    "author": "jasonwoodhead23",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Close up of donair meat",
+    "thumb": "thumbs/donair-halifax--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cosmos pizza and donair (5738318273).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Cosmos_pizza_and_donair_%285738318273%29.jpg/1280px-Cosmos_pizza_and_donair_%285738318273%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Cosmos_pizza_and_donair_%285738318273%29.jpg/500px-Cosmos_pizza_and_donair_%285738318273%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cosmos_pizza_and_donair_(5738318273).jpg",
+    "author": "jasonwoodhead23",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Meat almost finished on spit",
+    "thumb": "thumbs/donair-halifax--5.jpg"
+   }
+  ]
+ },
+ "aguachile-sinaloa": {
+  "title": "Aguachile de Sinaloa (crevettes crues à la lime et piment)",
+  "original": "Aguachile",
+  "en": "Sinaloa aguachile (raw shrimp in chili-lime water)",
+  "country": "MX",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Aguachile de camarón, Sonora, México.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Aguachile_de_camar%C3%B3n%2C_Sonora%2C_M%C3%A9xico.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/d/de/Aguachile_de_camar%C3%B3n%2C_Sonora%2C_M%C3%A9xico.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aguachile_de_camar%C3%B3n,_Sonora,_M%C3%A9xico.jpg",
+    "author": "Betoknifes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Lemon-tanned shrimp with chiltepin chili, papinos and serrano peppers, special to enjoy with a few beers and an excellent view of the sea such as San Carlos sonora.",
+    "thumb": "thumbs/aguachile-sinaloa--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Aguachile.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Aguachile.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/7/72/Aguachile.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aguachile.jpg",
+    "author": "Ferfive",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Delicioso aguachile de camaron de baja california sur",
+    "thumb": "thumbs/aguachile-sinaloa--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Taco de Aguachile.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Taco_de_Aguachile.jpg/1280px-Taco_de_Aguachile.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Taco_de_Aguachile.jpg/500px-Taco_de_Aguachile.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Taco_de_Aguachile.jpg",
+    "author": "TulioLavin",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Este taco es un contraste perfecto: una base dorada de maíz rellena de frijoles refritos calientes, coronada con camarones curtidos en salsa de aguachile verde y chile serrano. Una explosión crujiente, fresca y artesanal de Tulio Lavín.",
+    "thumb": "thumbs/aguachile-sinaloa--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tostada de camarones (35130343265).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Tostada_de_camarones_%2835130343265%29.jpg/1280px-Tostada_de_camarones_%2835130343265%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Tostada_de_camarones_%2835130343265%29.jpg/500px-Tostada_de_camarones_%2835130343265%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tostada_de_camarones_(35130343265).jpg",
+    "author": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Los Aguachiles, Tulum, Quintana Roo, Mexico.",
+    "thumb": "thumbs/aguachile-sinaloa--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tostada de camarones (35090889896).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Tostada_de_camarones_%2835090889896%29.jpg/1280px-Tostada_de_camarones_%2835090889896%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Tostada_de_camarones_%2835090889896%29.jpg/500px-Tostada_de_camarones_%2835090889896%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tostada_de_camarones_(35090889896).jpg",
+    "author": "T.Tseng",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Los Aguachiles, Tulum, Quintana Roo, Mexico.",
+    "thumb": "thumbs/aguachile-sinaloa--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Aguachile en Molcajete.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Aguachile_en_Molcajete.jpg/1280px-Aguachile_en_Molcajete.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Aguachile_en_Molcajete.jpg/500px-Aguachile_en_Molcajete.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aguachile_en_Molcajete.jpg",
+    "author": "Kelpgreen.D",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Traditional Mexican dish typically made in tropical regions. Made with shrimp cooked in lemon juice and hot peppers, and other fresh ingredients. It is a tasty and fresh dish",
+    "thumb": "thumbs/aguachile-sinaloa--5.jpg"
+   }
+  ]
+ },
+ "sanuki-udon": {
+  "title": "Sanuki udon de Kagawa (nouilles de blé épaisses et fermes)",
+  "original": "Sanuki udon (讃岐うどん)",
+  "en": "Sanuki udon (Kagawa thick wheat noodles)",
+  "country": "JP",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Sanuki udon restaurant by nyaa birdies perch in Shibuya.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sanuki_udon_restaurant_by_nyaa_birdies_perch_in_Shibuya.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sanuki_udon_restaurant_by_nyaa_birdies_perch_in_Shibuya.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sanuki_udon_restaurant_by_nyaa_birdies_perch_in_Shibuya.jpg",
+    "author": "nyaa_birdies_perch from Sanuki Udon Restaurant Jabukama in Shibuya, Tokyo",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "@jabukama, shibuyajabukama",
+    "thumb": "thumbs/sanuki-udon--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Sanuki udon buffet by keyaki in Ebisu station, Tokyo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sanuki_udon_buffet_by_keyaki_in_Ebisu_station%2C_Tokyo.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sanuki_udon_buffet_by_keyaki_in_Ebisu_station%2C_Tokyo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sanuki_udon_buffet_by_keyaki_in_Ebisu_station,_Tokyo.jpg",
+    "author": "keyaki from Sanuki udon buffet Sanuki Udon NRE &amp; Meriken-ya in Ebisu Station, Ebisu, Shibuya, Tokyo",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "さぬきうどん店（東京・渋谷区恵比寿南1-5-5、恵比寿駅構内東口、さぬきうどんの店「さぬきうどん ＮＲＥ＆めりけんや」[1] 恵比寿駅構内）",
+    "thumb": "thumbs/sanuki-udon--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Sanuki udon restaurant by k14 in Tsuda, Sanuki, Kagawa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sanuki_udon_restaurant_by_k14_in_Tsuda%2C_Sanuki%2C_Kagawa.jpg/1280px-Sanuki_udon_restaurant_by_k14_in_Tsuda%2C_Sanuki%2C_Kagawa.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sanuki_udon_restaurant_by_k14_in_Tsuda%2C_Sanuki%2C_Kagawa.jpg/500px-Sanuki_udon_restaurant_by_k14_in_Tsuda%2C_Sanuki%2C_Kagawa.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sanuki_udon_restaurant_by_k14_in_Tsuda,_Sanuki,_Kagawa.jpg",
+    "author": "k14 from Sanuki udon restaurant Anabuki-ya at a rest area of the Takamatsu Expressway in Tsuda, Sanuki, Kagawa",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "サービスエリアの讃岐うどんコーナー（香川県さぬき市津田町鶴羽935-5、「セルフうどん あなぶき家 津田の松原SA 上り線うどんコーナー」）",
+    "thumb": "thumbs/sanuki-udon--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Sanuki udon by open-arms.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Sanuki_udon_by_open-arms.jpg/1280px-Sanuki_udon_by_open-arms.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Sanuki_udon_by_open-arms.jpg/500px-Sanuki_udon_by_open-arms.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sanuki_udon_by_open-arms.jpg",
+    "author": "open-arms",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "讃岐うどん。「大好きな讃岐うどん。仕事が半ドンで終わると時々食べに行きます。」",
+    "thumb": "thumbs/sanuki-udon--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Sanuki udon restaurant by keyaki in Yaizu, Shizuoka.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sanuki_udon_restaurant_by_keyaki_in_Yaizu%2C_Shizuoka.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sanuki_udon_restaurant_by_keyaki_in_Yaizu%2C_Shizuoka.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sanuki_udon_restaurant_by_keyaki_in_Yaizu,_Shizuoka.jpg",
+    "author": "keyaki",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "讃岐うどん店（静岡県焼津市小柳津536-1、西焼津駅最寄りの「本場さぬきうどん しん」[1]）",
+    "thumb": "thumbs/sanuki-udon--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kama-age sanuki udon by sekido in Takamatsu, Kagawa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Kama-age_sanuki_udon_by_sekido_in_Takamatsu%2C_Kagawa.jpg/1280px-Kama-age_sanuki_udon_by_sekido_in_Takamatsu%2C_Kagawa.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Kama-age_sanuki_udon_by_sekido_in_Takamatsu%2C_Kagawa.jpg/500px-Kama-age_sanuki_udon_by_sekido_in_Takamatsu%2C_Kagawa.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kama-age_sanuki_udon_by_sekido_in_Takamatsu,_Kagawa.jpg",
+    "author": "sekido",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "釜揚げの讃岐うどん（香川県高松市香川町川東下字高須899-1、仏生山駅から約5kmにある「池上製麺所 / るみ（瑠美子）ばあちゃんのうどん店」[1]）",
+    "thumb": "thumbs/sanuki-udon--5.jpg"
+   }
+  ]
+ },
+ "guoqiao-mixian": {
+  "title": "Nouilles « traversée du pont » du Yunnan (guoqiao mixian)",
+  "original": "Guòqiáo mǐxiàn (过桥米线)",
+  "en": "Yunnan crossing-the-bridge noodles",
+  "country": "CN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cross Bridge Noodles 过桥米线 (8605054559).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Cross_Bridge_Noodles_%E8%BF%87%E6%A1%A5%E7%B1%B3%E7%BA%BF_%288605054559%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/1/19/Cross_Bridge_Noodles_%E8%BF%87%E6%A1%A5%E7%B1%B3%E7%BA%BF_%288605054559%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cross_Bridge_Noodles_%E8%BF%87%E6%A1%A5%E7%B1%B3%E7%BA%BF_(8605054559).jpg",
+    "author": "Maxime Guilbot",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Cross Bridge Noodles 过桥米线",
+    "thumb": "thumbs/guoqiao-mixian--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mixian Rice Noodles Being Prepared in Copper Pots.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Mixian_Rice_Noodles_Being_Prepared_in_Copper_Pots.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/7/71/Mixian_Rice_Noodles_Being_Prepared_in_Copper_Pots.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mixian_Rice_Noodles_Being_Prepared_in_Copper_Pots.jpg",
+    "author": "Pratyeka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Mixian (米线) rice noodles being cooked in copper pots (铜锅) on gas elements at a noodle restaurant in Kunming (昆明), Yunnan (云南), China.",
+    "thumb": "thumbs/guoqiao-mixian--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mixian-condiments.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mixian-condiments.jpg/1280px-Mixian-condiments.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mixian-condiments.jpg/500px-Mixian-condiments.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mixian-condiments.jpg",
+    "author": "Pratyeka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A large serving of beef mixian noodles with available condiments, as served in a typical local restaurant in Kunming.",
+    "thumb": "thumbs/guoqiao-mixian--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mixian-broth-and-noodles.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Mixian-broth-and-noodles.jpg/1280px-Mixian-broth-and-noodles.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Mixian-broth-and-noodles.jpg/500px-Mixian-broth-and-noodles.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mixian-broth-and-noodles.jpg",
+    "author": "Pratyeka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A large serving of beef mixian noodles as received in a restaurant in Kunming Yunnan. Clockwise from top: shop's broth, received broth and condiments, noodle received separately.",
+    "thumb": "thumbs/guoqiao-mixian--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Beef-mixian.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Beef-mixian.jpg/1280px-Beef-mixian.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Beef-mixian.jpg/500px-Beef-mixian.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Beef-mixian.jpg",
+    "author": "Pratyeka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A large serving of beef mixian noodles with condiments added, as served in a typical local restaurant in Kunming.",
+    "thumb": "thumbs/guoqiao-mixian--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:201908 Rice Noodle Soup on Z287.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/201908_Rice_Noodle_Soup_on_Z287.jpg/1280px-201908_Rice_Noodle_Soup_on_Z287.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/201908_Rice_Noodle_Soup_on_Z287.jpg/500px-201908_Rice_Noodle_Soup_on_Z287.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:201908_Rice_Noodle_Soup_on_Z287.jpg",
+    "author": "MNXANL",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Served as breakfast, wish every train in China can serve this...",
+    "thumb": "thumbs/guoqiao-mixian--5.jpg"
+   }
+  ]
+ },
+ "dongnae-pajeon": {
+  "title": "Dongnae pajeon de Busan (galette à la ciboule et fruits de mer)",
+  "original": "Dongnae pajeon (동래파전)",
+  "en": "Busan dongnae pajeon (scallion and seafood pancake)",
+  "country": "KR",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Korean pan cake-Dongnae pajeon-01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Korean_pan_cake-Dongnae_pajeon-01.jpg/1280px-Korean_pan_cake-Dongnae_pajeon-01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Korean_pan_cake-Dongnae_pajeon-01.jpg/500px-Korean_pan_cake-Dongnae_pajeon-01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean_pan_cake-Dongnae_pajeon-01.jpg",
+    "author": "by Jinho Jung from South Korea",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "A plate of Dongnae pajeon, a Busan-style pancake made with whole scallions, sliced chili pepper, chopped seafood and wheat flour batter, served at a restaurant in [Gyeongju], North Gyeongsang province, South Korea It is usually eaten as an appetizer or snack in Korean cuisine",
+    "thumb": "thumbs/dongnae-pajeon--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Korean.pancake-Pajeon-01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Korean.pancake-Pajeon-01.jpg/1280px-Korean.pancake-Pajeon-01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Korean.pancake-Pajeon-01.jpg/500px-Korean.pancake-Pajeon-01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean.pancake-Pajeon-01.jpg",
+    "author": "by takaokun",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Pajeon, Korean pancake made with flour and scallions",
+    "thumb": "thumbs/dongnae-pajeon--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Korean.pancake-Pajeon-05.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Korean.pancake-Pajeon-05.jpg/1280px-Korean.pancake-Pajeon-05.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Korean.pancake-Pajeon-05.jpg/500px-Korean.pancake-Pajeon-05.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean.pancake-Pajeon-05.jpg",
+    "author": "by karendotcom127",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Pajeon (literally scallion pancake), a Korean pancake primarily made with wheat flour, scallions, eggs, and vegetables. If seafood is added in the batter, the pajeon would be called \"haemul pajeon\" (해물파전, haemul refers to seafood in Korean).",
+    "thumb": "thumbs/dongnae-pajeon--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Korean cuisine-Pajeon-drinks.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Korean_cuisine-Pajeon-drinks.jpg/1280px-Korean_cuisine-Pajeon-drinks.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Korean_cuisine-Pajeon-drinks.jpg/500px-Korean_cuisine-Pajeon-drinks.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Pajeon-drinks.jpg",
+    "author": "Timber Tank",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Pajeon (pancake made with scallion, and seafood), beers, dongdongju (rice wine)",
+    "thumb": "thumbs/dongnae-pajeon--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Korean pancake-Pajeon-01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Korean_pancake-Pajeon-01.jpg/1280px-Korean_pancake-Pajeon-01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Korean_pancake-Pajeon-01.jpg/500px-Korean_pancake-Pajeon-01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean_pancake-Pajeon-01.jpg",
+    "author": "Norris Wong",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Pajeon (literally scallion pancake) is a variety of jeon, or Korean pancake-like dishes, made with flour batter, scallion, beaten eggs and other vegetables. It is widely favored as a snack, or anju (dishes accompanied with alcoholic drinks) by Koreans.",
+    "thumb": "thumbs/dongnae-pajeon--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Korean pancake-Pajeon-02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Korean_pancake-Pajeon-02.jpg/1280px-Korean_pancake-Pajeon-02.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Korean_pancake-Pajeon-02.jpg/500px-Korean_pancake-Pajeon-02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean_pancake-Pajeon-02.jpg",
+    "author": "Norris Wong",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Pajeon (scallion pancake), banchan (small side dishes) including kimchi, namul (sauteed vegetables), two jorim (braised dishes in gochujang (chili peper condiment) and ganjang (soy sauce) in Korean cuisine.",
+    "thumb": "thumbs/dongnae-pajeon--5.jpg"
+   }
+  ]
+ },
+ "rogan-josh-kashmir": {
+  "title": "Rogan josh du Cachemire (agneau braisé au piment et yaourt)",
+  "original": "Rogan josh",
+  "en": "Kashmiri rogan josh (aromatic braised lamb)",
+  "country": "IN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Rogan josh01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Rogan_josh01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/d/da/Rogan_josh01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rogan_josh01.jpg",
+    "author": "jvree",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "curry: Rogan Josh",
+    "thumb": "thumbs/rogan-josh-kashmir--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Rogan josh02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Rogan_josh02.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Rogan_josh02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rogan_josh02.jpg",
+    "author": "gahdjun",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "curry: Rogan Josh(Commercial Modification)Poppadam presence signifies non-kashmiri preparation",
+    "thumb": "thumbs/rogan-josh-kashmir--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mutton rogan josh.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Mutton_rogan_josh.jpg/1280px-Mutton_rogan_josh.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Mutton_rogan_josh.jpg/500px-Mutton_rogan_josh.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mutton_rogan_josh.jpg",
+    "author": "stu_spivack",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Mutton Gosh",
+    "thumb": "thumbs/rogan-josh-kashmir--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Biryani Rice with Goat Masala and Lamb Rogan Josh - Zam Zam (415375255).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Biryani_Rice_with_Goat_Masala_and_Lamb_Rogan_Josh_-_Zam_Zam_%28415375255%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/4/43/Biryani_Rice_with_Goat_Masala_and_Lamb_Rogan_Josh_-_Zam_Zam_%28415375255%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Biryani_Rice_with_Goat_Masala_and_Lamb_Rogan_Josh_-_Zam_Zam_(415375255).jpg",
+    "author": "Alpha from Melbourne, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "\"Value Meal\" Biriyani Rice with Goat Masala and Lamb Rogan Josh - Zam Zam AUD8.70. With plain or pulao rice for AUD7.70. Bargain! The goat masala was quite spicy with a good balance of heat and spice, but could have done with a bit more braising to get the tendons a bit softer. The lamb rogan josh w",
+    "thumb": "thumbs/rogan-josh-kashmir--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Rogan Josh.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Rogan_Josh.JPG/1280px-Rogan_Josh.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Rogan_Josh.JPG/500px-Rogan_Josh.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Rogan_Josh.JPG",
+    "author": "Miansari66",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Rogan Josh is a Kashmiri Dish,",
+    "thumb": "thumbs/rogan-josh-kashmir--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Rogan josh-dal makhani-lacha parantha.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rogan_josh-dal_makhani-lacha_parantha.jpg/1280px-Rogan_josh-dal_makhani-lacha_parantha.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rogan_josh-dal_makhani-lacha_parantha.jpg/500px-Rogan_josh-dal_makhani-lacha_parantha.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rogan_josh-dal_makhani-lacha_parantha.jpg",
+    "author": "Aashita Kawatra",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A platter containing Rogan josh &amp; dal makhani with lacha parantha and onion-tomato-cucumber salad and papad",
+    "thumb": "thumbs/rogan-josh-kashmir--5.jpg"
+   }
+  ]
+ },
+ "vada-pav-mumbai": {
+  "title": "Vada pav de Mumbai (beignet de pomme de terre dans un petit pain)",
+  "original": "Vada pav",
+  "en": "Mumbai vada pav",
+  "country": "IN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Jumbo Vada Pav.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Jumbo_Vada_Pav.jpg/1280px-Jumbo_Vada_Pav.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Jumbo_Vada_Pav.jpg/500px-Jumbo_Vada_Pav.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jumbo_Vada_Pav.jpg",
+    "author": "Mayur.thakare at English Wikipedia",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "description": "",
+    "thumb": "thumbs/vada-pav-mumbai--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Goli vada pav logo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Goli_vada_pav_logo.jpg/1280px-Goli_vada_pav_logo.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Goli_vada_pav_logo.jpg/500px-Goli_vada_pav_logo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Goli_vada_pav_logo.jpg",
+    "author": "http://www.golivadapav.com/",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Goli Vada Pav",
+    "thumb": "thumbs/vada-pav-mumbai--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Indian Food snacks prasad-101.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Indian_Food_snacks_prasad-101.jpg/1280px-Indian_Food_snacks_prasad-101.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Indian_Food_snacks_prasad-101.jpg/500px-Indian_Food_snacks_prasad-101.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Indian_Food_snacks_prasad-101.jpg",
+    "author": "Prasad SR",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "This media file is uploaded with Malayalam loves Wikimedia event - 3.",
+    "thumb": "thumbs/vada-pav-mumbai--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Jumbo Vada Pav (dodged).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Jumbo_Vada_Pav_%28dodged%29.jpg/1280px-Jumbo_Vada_Pav_%28dodged%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Jumbo_Vada_Pav_%28dodged%29.jpg/500px-Jumbo_Vada_Pav_%28dodged%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jumbo_Vada_Pav_(dodged).jpg",
+    "author": "Uploader of original version was Mayur.thakare at en.wikipedia",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "description": "Jumbo Vada Pav",
+    "thumb": "thumbs/vada-pav-mumbai--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Hyderabadi vda pav.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hyderabadi_vda_pav.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hyderabadi_vda_pav.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hyderabadi_vda_pav.jpg",
+    "author": "Praneeth kannegolla",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "the vada pav is the mumbai based snack and tiffin item which is made of bun and potato curry surved with sweet chelli",
+    "thumb": "thumbs/vada-pav-mumbai--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Friendsof the Bombay Burger.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Friendsof_the_Bombay_Burger.JPG/1280px-Friendsof_the_Bombay_Burger.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Friendsof_the_Bombay_Burger.JPG/500px-Friendsof_the_Bombay_Burger.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Friendsof_the_Bombay_Burger.JPG",
+    "author": "Parth Chauhan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "The masala and the friend green chilies that are must with the Bombay burger - Vada Pav",
+    "thumb": "thumbs/vada-pav-mumbai--5.jpg"
+   }
+  ]
+ },
+ "pav-bhaji-mumbai": {
+  "title": "Pav bhaji de Mumbai (purée de légumes épicée et petits pains beurrés)",
+  "original": "Pav bhaji",
+  "en": "Mumbai pav bhaji",
+  "country": "IN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:A Pav Bhaji stand at Chandni Chowk, Delhi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/A_Pav_Bhaji_stand_at_Chandni_Chowk%2C_Delhi.jpg/1280px-A_Pav_Bhaji_stand_at_Chandni_Chowk%2C_Delhi.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/A_Pav_Bhaji_stand_at_Chandni_Chowk%2C_Delhi.jpg/500px-A_Pav_Bhaji_stand_at_Chandni_Chowk%2C_Delhi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Pav_Bhaji_stand_at_Chandni_Chowk,_Delhi.jpg",
+    "author": "Harsh Agrawal from New Delhi, India",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "An Evening at Chandni Chawk, New delhi. Feel free to use this image but give credit to denharsh.com",
+    "thumb": "thumbs/pav-bhaji-mumbai--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:A Pav Bhaji stand in Kolkata.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/A_Pav_Bhaji_stand_in_Kolkata.jpg/1280px-A_Pav_Bhaji_stand_in_Kolkata.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/A_Pav_Bhaji_stand_in_Kolkata.jpg/500px-A_Pav_Bhaji_stand_in_Kolkata.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Pav_Bhaji_stand_in_Kolkata.jpg",
+    "author": "Reuben Strayer from montreal, canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "or something like that. served with toasted bread. 30 cents.",
+    "thumb": "thumbs/pav-bhaji-mumbai--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Butter Pav Bhaji.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Butter_Pav_Bhaji.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/9/93/Butter_Pav_Bhaji.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Butter_Pav_Bhaji.jpg",
+    "author": "Ojas91196",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Mouth watering Pav Bhaji!!",
+    "thumb": "thumbs/pav-bhaji-mumbai--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bhaji.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Bhaji.jpg/1280px-Bhaji.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Bhaji.jpg/500px-Bhaji.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bhaji.jpg",
+    "author": "Felizpramod",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Indian Street Food Items Bhaji, VadaPav",
+    "thumb": "thumbs/pav-bhaji-mumbai--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bombay pav bhaji.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Bombay_pav_bhaji.jpg/1280px-Bombay_pav_bhaji.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Bombay_pav_bhaji.jpg/500px-Bombay_pav_bhaji.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bombay_pav_bhaji.jpg",
+    "author": "Shreya13jain",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Mumbai's famous street food.",
+    "thumb": "thumbs/pav-bhaji-mumbai--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bhaji Pauv.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Bhaji_Pauv.JPG/1280px-Bhaji_Pauv.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Bhaji_Pauv.JPG/500px-Bhaji_Pauv.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Bhaji_Pauv.JPG",
+    "author": "TriptaG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Bhaji made with boiled and mashed vegetables which is then fried with spices. Pauv made with flour.",
+    "thumb": "thumbs/pav-bhaji-mumbai--5.jpg"
+   }
+  ]
+ },
+ "masala-dosa-udupi": {
+  "title": "Masala dosa d’Udupi (crêpe fermentée garnie de pommes de terre)",
+  "original": "Masala dosa",
+  "en": "Udupi masala dosa",
+  "country": "IN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Masala Dosa 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Masala_Dosa_02.jpg/1280px-Masala_Dosa_02.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Masala_Dosa_02.jpg/500px-Masala_Dosa_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Masala_Dosa_02.jpg",
+    "author": "Saisumanth532",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Masala Dosa",
+    "thumb": "thumbs/masala-dosa-udupi--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Masala dosa 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Masala_dosa_01.jpg/1280px-Masala_dosa_01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Masala_dosa_01.jpg/500px-Masala_dosa_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Masala_dosa_01.jpg",
+    "author": "Marajozkee",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Masala dosa or masale dose is a variation of the popular South Indian food dosa, which has its origins in Tuluva Mangalorean cuisine. It is made from rice, lentils, potato, methi, and curry leaves, and served with chutneys and sambar. Though it was only popular in South India, it can be found in all",
+    "thumb": "thumbs/masala-dosa-udupi--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Masala Dosa from Kochi, Kerala, India -2069313.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Masala_Dosa_from_Kochi%2C_Kerala%2C_India_-2069313.jpg/1280px-Masala_Dosa_from_Kochi%2C_Kerala%2C_India_-2069313.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Masala_Dosa_from_Kochi%2C_Kerala%2C_India_-2069313.jpg/500px-Masala_Dosa_from_Kochi%2C_Kerala%2C_India_-2069313.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Masala_Dosa_from_Kochi,_Kerala,_India_-2069313.jpg",
+    "author": "Ranjithsiji",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Masala Dosa from Kochi, Kerala, India",
+    "thumb": "thumbs/masala-dosa-udupi--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Masala Dosa in Banana Leaf with Chutney.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Masala_Dosa_in_Banana_Leaf_with_Chutney.jpg/1280px-Masala_Dosa_in_Banana_Leaf_with_Chutney.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Masala_Dosa_in_Banana_Leaf_with_Chutney.jpg/500px-Masala_Dosa_in_Banana_Leaf_with_Chutney.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Masala_Dosa_in_Banana_Leaf_with_Chutney.jpg",
+    "author": "ideowl",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Masala Dosa in Banana Leaf with Chutney",
+    "thumb": "thumbs/masala-dosa-udupi--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Masala Dosa with sambhar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Masala_Dosa_with_sambhar.jpg/1280px-Masala_Dosa_with_sambhar.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Masala_Dosa_with_sambhar.jpg/500px-Masala_Dosa_with_sambhar.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Masala_Dosa_with_sambhar.jpg",
+    "author": "Sugupta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Dosa is a very common dish, which is eaten with coconut chutney and sambhar. There are several varieties of dosa, most of these are made of rice or rava.",
+    "thumb": "thumbs/masala-dosa-udupi--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Masala Dosa in Ballygunge, Kolkata.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Masala_Dosa_in_Ballygunge%2C_Kolkata.jpg/1280px-Masala_Dosa_in_Ballygunge%2C_Kolkata.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Masala_Dosa_in_Ballygunge%2C_Kolkata.jpg/500px-Masala_Dosa_in_Ballygunge%2C_Kolkata.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Masala_Dosa_in_Ballygunge,_Kolkata.jpg",
+    "author": "Billjones94",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Masala Dosa in Ballygunge, Kolkata. Photo taken on July 23, 2022.",
+    "thumb": "thumbs/masala-dosa-udupi--5.jpg"
+   }
+  ]
+ },
+ "haleem-hyderabadi": {
+  "title": "Haleem de Hyderabad (blé, lentilles et viande mijotés longuement)",
+  "original": "Hyderabadi haleem",
+  "en": "Hyderabadi haleem",
+  "country": "IN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bombay Haleem.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bombay_Haleem.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bombay_Haleem.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Bombay_Haleem.JPG",
+    "author": "Tomsamram",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Delicacy of Wheat, lentils,meat",
+    "thumb": "thumbs/haleem-hyderabadi--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Al haaj bundoo khan's haleem.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Al_haaj_bundoo_khan%27s_haleem.jpg/1280px-Al_haaj_bundoo_khan%27s_haleem.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Al_haaj_bundoo_khan%27s_haleem.jpg/500px-Al_haaj_bundoo_khan%27s_haleem.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Al_haaj_bundoo_khan%27s_haleem.jpg",
+    "author": "Krista",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "A plate of haleem",
+    "thumb": "thumbs/haleem-hyderabadi--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cooking forty Haleem pots in Hamedan 5 (Mehr, 2025).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cooking_forty_Haleem_pots_in_Hamedan_5_%28Mehr%2C_2025%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/1/10/Cooking_forty_Haleem_pots_in_Hamedan_5_%28Mehr%2C_2025%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cooking_forty_Haleem_pots_in_Hamedan_5_(Mehr,_2025).jpg",
+    "author": "Sajad Wathaq",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Translation of original description: This morning, November 24, 2025, the Seyyed al-Shuhada delegation of Hamedan, coinciding with the anniversary of the martyrdom of Hazrat Fatima (PBUH), cooked forty pots of haleem nazri in Imam Khomeini Square of this city and distributed it to the people. The pr",
+    "thumb": "thumbs/haleem-hyderabadi--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cooking forty Haleem pots in Hamedan 13 (Mehr, 2025).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Cooking_forty_Haleem_pots_in_Hamedan_13_%28Mehr%2C_2025%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Cooking_forty_Haleem_pots_in_Hamedan_13_%28Mehr%2C_2025%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cooking_forty_Haleem_pots_in_Hamedan_13_(Mehr,_2025).jpg",
+    "author": "Sajad Wathaq",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Translation of original description: This morning, November 24, 2025, the Seyyed al-Shuhada delegation of Hamedan, coinciding with the anniversary of the martyrdom of Hazrat Fatima (PBUH), cooked forty pots of haleem nazri in Imam Khomeini Square of this city and distributed it to the people. The pr",
+    "thumb": "thumbs/haleem-hyderabadi--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cooking forty Haleem pots in Hamedan 2 (Mehr, 2025).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Cooking_forty_Haleem_pots_in_Hamedan_2_%28Mehr%2C_2025%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Cooking_forty_Haleem_pots_in_Hamedan_2_%28Mehr%2C_2025%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cooking_forty_Haleem_pots_in_Hamedan_2_(Mehr,_2025).jpg",
+    "author": "Sajad Wathaq",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Translation of original description: This morning, November 24, 2025, the Seyyed al-Shuhada delegation of Hamedan, coinciding with the anniversary of the martyrdom of Hazrat Fatima (PBUH), cooked forty pots of haleem nazri in Imam Khomeini Square of this city and distributed it to the people. The pr",
+    "thumb": "thumbs/haleem-hyderabadi--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cooking forty Haleem pots in Hamedan 11 (Mehr, 2025).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Cooking_forty_Haleem_pots_in_Hamedan_11_%28Mehr%2C_2025%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Cooking_forty_Haleem_pots_in_Hamedan_11_%28Mehr%2C_2025%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cooking_forty_Haleem_pots_in_Hamedan_11_(Mehr,_2025).jpg",
+    "author": "Sajad Wathaq",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Translation of original description: This morning, November 24, 2025, the Seyyed al-Shuhada delegation of Hamedan, coinciding with the anniversary of the martyrdom of Hazrat Fatima (PBUH), cooked forty pots of haleem nazri in Imam Khomeini Square of this city and distributed it to the people. The pr",
+    "thumb": "thumbs/haleem-hyderabadi--5.jpg"
+   }
+  ]
+ },
+ "goan-fish-curry": {
+  "title": "Curry de poisson de Goa (xitt kodi au lait de coco et tamarin)",
+  "original": "Xitt kodi (Goan fish curry)",
+  "en": "Goan fish curry (xitt kodi)",
+  "country": "IN",
+  "candidates": []
+ },
+ "pork-vindaloo-goa": {
+  "title": "Vindaloo de porc de Goa (porc mariné au vinaigre, ail et piment)",
+  "original": "Vindalho (pork vindaloo)",
+  "en": "Goan pork vindaloo",
+  "country": "IN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Vindalho.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Vindalho.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/28/Vindalho.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vindalho.jpg",
+    "author": "Adriao",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "description": "Vindalho, an indo-portuguese dish from Goa, India.",
+    "thumb": "thumbs/pork-vindaloo-goa--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Vindalho em Algés.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Vindalho_em_Alg%C3%A9s.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/4/40/Vindalho_em_Alg%C3%A9s.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vindalho_em_Alg%C3%A9s.jpg",
+    "author": "Adrião",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Vindalho (Vindaloo) served at Algés, Portugal.",
+    "thumb": "thumbs/pork-vindaloo-goa--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Vindalho em Lisboa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Vindalho_em_Lisboa.jpg/1280px-Vindalho_em_Lisboa.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Vindalho_em_Lisboa.jpg/500px-Vindalho_em_Lisboa.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vindalho_em_Lisboa.jpg",
+    "author": "Adriao",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Vindaloo, photographed in Lisbon in a goan restaurant.",
+    "thumb": "thumbs/pork-vindaloo-goa--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Vindalho meat.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Vindalho_meat.jpg/1280px-Vindalho_meat.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Vindalho_meat.jpg/500px-Vindalho_meat.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vindalho_meat.jpg",
+    "author": "CNEcija12345",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Vindalho meat sauce",
+    "thumb": "thumbs/pork-vindaloo-goa--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Soup Stock Vindalho.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Soup_Stock_Vindalho.jpg/1280px-Soup_Stock_Vindalho.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Soup_Stock_Vindalho.jpg/500px-Soup_Stock_Vindalho.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Soup_Stock_Vindalho.jpg",
+    "author": "さえぼー",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Vindalho served at Soup Stock Tokyo, Japan",
+    "thumb": "thumbs/pork-vindaloo-goa--4.jpg"
+   }
+  ]
+ },
+ "litti-chokha-bihar": {
+  "title": "Litti chokha du Bihar (boules de blé farcies au sattu, purée d’aubergine)",
+  "original": "Litti chokha",
+  "en": "Bihari litti chokha",
+  "country": "IN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Litti chokha Stall.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Litti_chokha_Stall.jpg/1280px-Litti_chokha_Stall.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Litti_chokha_Stall.jpg/500px-Litti_chokha_Stall.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Litti_chokha_Stall.jpg",
+    "author": "Medhi jyoti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Litti chokha which is a famous dish of Bihar has a small outlet in dikhalipukhuri in Guwahati, Assam",
+    "thumb": "thumbs/litti-chokha-bihar--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Litti-Chokha-From-Bihar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Litti-Chokha-From-Bihar.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Litti-Chokha-From-Bihar.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Litti-Chokha-From-Bihar.jpg",
+    "author": "RAJ123SONY",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "it is favourite food of bihar (INDIA).",
+    "thumb": "thumbs/litti-chokha-bihar--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Litti chokha of bihar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Litti_chokha_of_bihar.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/9/93/Litti_chokha_of_bihar.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Litti_chokha_of_bihar.jpg",
+    "author": "ksandip",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Famous litti chokha of Bihar.",
+    "thumb": "thumbs/litti-chokha-bihar--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Litti Chokha 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Litti_Chokha_01.jpg/1280px-Litti_Chokha_01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Litti_Chokha_01.jpg/500px-Litti_Chokha_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Litti_Chokha_01.jpg",
+    "author": "Harshit Sharma",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "This is a Bihari dish, it is very well known in the band involcing Jharkhand,Uttar Pradesh,Bihar,West Bengal.This is a very healthy source of nutrition and it is totally oil free as it is cooked in one of the healthiest way i.e Baking as well as Roasting.",
+    "thumb": "thumbs/litti-chokha-bihar--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Litti chokha with soda.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Litti_chokha_with_soda.jpg/1280px-Litti_chokha_with_soda.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Litti_chokha_with_soda.jpg/500px-Litti_chokha_with_soda.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Litti_chokha_with_soda.jpg",
+    "author": "Shreya13jain",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Traditional dish of Bihar, made with wheat and sattu served with aloo and daal.",
+    "thumb": "thumbs/litti-chokha-bihar--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Litti-chokha.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Litti-chokha.jpg/1280px-Litti-chokha.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Litti-chokha.jpg/500px-Litti-chokha.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Litti-chokha.jpg",
+    "author": "HrichikHv",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "This delicacy of Bihar is called 'litti-chokha'. Generally it is eaten in the winter season because the spices used in delicacy keeps the body warm. Litti is made up of wheat flour, 'sattu' (baked gram flour) and various spices. Chokha is nothing but admixture of boiled potato and tomato mashed toge",
+    "thumb": "thumbs/litti-chokha-bihar--5.jpg"
+   }
+  ]
+ },
+ "dal-baati-churma": {
+  "title": "Dal baati churma du Rajasthan (boules de blé, dal et miettes sucrées)",
+  "original": "Dal baati churma",
+  "en": "Rajasthani dal baati churma",
+  "country": "IN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Baati.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Baati.jpg/1280px-Baati.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Baati.jpg/500px-Baati.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Baati.jpg",
+    "author": "No machine-readable author provided. Deeptrivia assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "",
+    "thumb": "thumbs/dal-baati-churma--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Daal Baati Choorma.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Daal_Baati_Choorma.jpg/1280px-Daal_Baati_Choorma.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Daal_Baati_Choorma.jpg/500px-Daal_Baati_Choorma.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Daal_Baati_Choorma.jpg",
+    "author": "Harshitdenovo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "This is a traditional Rajasthani dish had with popadoms and pulses. Considered to be a delicacy now, it once used to be quite common.",
+    "thumb": "thumbs/dal-baati-churma--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Daal Bati at Bikaner.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Daal_Bati_at_Bikaner.jpg/1280px-Daal_Bati_at_Bikaner.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Daal_Bati_at_Bikaner.jpg/500px-Daal_Bati_at_Bikaner.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Daal_Bati_at_Bikaner.jpg",
+    "author": "Deepak Giri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Daal Bati at Bikaner",
+    "thumb": "thumbs/dal-baati-churma--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Daal Baati.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Daal_Baati.jpg/1280px-Daal_Baati.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Daal_Baati.jpg/500px-Daal_Baati.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Daal_Baati.jpg",
+    "author": "Devuone",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "India food Daal Baati",
+    "thumb": "thumbs/dal-baati-churma--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Daal baati and gatte ki sabji.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Daal_baati_and_gatte_ki_sabji.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/4/41/Daal_baati_and_gatte_ki_sabji.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Daal_baati_and_gatte_ki_sabji.jpg",
+    "author": "Sahil tiwarie",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "rajasthani cuisine..spicy dal , baati soaked in ghee, and gatte ki sabji.. photo taken with my 3m.p. htc mobile phone camera",
+    "thumb": "thumbs/dal-baati-churma--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:A traditional Rajasthani Thali.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/A_traditional_Rajasthani_Thali.JPG/1280px-A_traditional_Rajasthani_Thali.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/A_traditional_Rajasthani_Thali.JPG/500px-A_traditional_Rajasthani_Thali.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:A_traditional_Rajasthani_Thali.JPG",
+    "author": "Mdsmds0",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A traditional Rajasthani Thali Daal Baati, Gatta Ka Subzi, Muttri, Rajashthani Dal.",
+    "thumb": "thumbs/dal-baati-churma--5.jpg"
+   }
+  ]
+ },
+ "laal-maas": {
+  "title": "Laal maas du Rajasthan (agneau rouge aux piments mathania)",
+  "original": "Laal maas",
+  "en": "Rajasthani laal maas (fiery red mutton curry)",
+  "country": "IN",
+  "candidates": []
+ },
+ "chole-bhature-delhi": {
+  "title": "Chole bhature de Delhi (pois chiches épicés et pains frits gonflés)",
+  "original": "Chole bhature",
+  "en": "Delhi chole bhature",
+  "country": "IN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chhole Bhature.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Chhole_Bhature.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/60/Chhole_Bhature.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chhole_Bhature.jpg",
+    "author": "MOUMITAPAL12061989",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Yummy Punjabi Chhole Bhature from Nagpal Chhole Bhature waala, Lajpat Nagar",
+    "thumb": "thumbs/chole-bhature-delhi--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chhole Kulche served with baked chick peas.PNG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Chhole_Kulche_served_with_baked_chick_peas.PNG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/3/30/Chhole_Kulche_served_with_baked_chick_peas.PNG",
+    "page": "https://commons.wikimedia.org/wiki/File:Chhole_Kulche_served_with_baked_chick_peas.PNG",
+    "author": "Soumya Mukherjee",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Curry made with chick peas and served with puffed kulcha bread- North Indian evening snack",
+    "thumb": "thumbs/chole-bhature-delhi--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chhole and Bhature.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Chhole_and_Bhature.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/8/88/Chhole_and_Bhature.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chhole_and_Bhature.jpg",
+    "author": "Neha Sonal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Indian snacks - Chhole Bhature",
+    "thumb": "thumbs/chole-bhature-delhi--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:A Plate of Chole Bhature.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/A_Plate_of_Chole_Bhature.JPG/1280px-A_Plate_of_Chole_Bhature.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/A_Plate_of_Chole_Bhature.JPG/500px-A_Plate_of_Chole_Bhature.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Plate_of_Chole_Bhature.JPG",
+    "author": "Lady adi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A popular north Indian snack comprising flat, thin, fried breads(chole) served with spicy gram. Pickle and onion are sides.",
+    "thumb": "thumbs/chole-bhature-delhi--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chhole Bathure- Bikanerwala, Faridabad.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Chhole_Bathure-_Bikanerwala%2C_Faridabad.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Chhole_Bathure-_Bikanerwala%2C_Faridabad.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chhole_Bathure-_Bikanerwala,_Faridabad.jpg",
+    "author": "Shivkumar Birnale",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A North Indian Brunch",
+    "thumb": "thumbs/chole-bhature-delhi--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chhole Bature.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Chhole_Bature.JPG/1280px-Chhole_Bature.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Chhole_Bature.JPG/500px-Chhole_Bature.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Chhole_Bature.JPG",
+    "author": "Samikshaprabhu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Chhole bature at Camp",
+    "thumb": "thumbs/chole-bhature-delhi--5.jpg"
+   }
+  ]
+ },
+ "kosha-mangsho": {
+  "title": "Kosha mangsho bengali (mouton longuement rissolé aux épices)",
+  "original": "Kosha mangsho",
+  "en": "Bengali kosha mangsho",
+  "country": "IN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kosha Mangsho.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Kosha_Mangsho.JPG/1280px-Kosha_Mangsho.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Kosha_Mangsho.JPG/500px-Kosha_Mangsho.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Kosha_Mangsho.JPG",
+    "author": "Miansari66",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Kosha Mangsho is a Bengali stir fry mutton dish",
+    "thumb": "thumbs/kosha-mangsho--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Odia Mutton Curry (Mansha Tarkari).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Odia_Mutton_Curry_%28Mansha_Tarkari%29.jpg/1280px-Odia_Mutton_Curry_%28Mansha_Tarkari%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Odia_Mutton_Curry_%28Mansha_Tarkari%29.jpg/500px-Odia_Mutton_Curry_%28Mansha_Tarkari%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Odia_Mutton_Curry_(Mansha_Tarkari).jpg",
+    "author": "Satwik Cuttack",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Mutton curry (also referred to as kosha mangsho / Kasa Mansha and lamb curry) is an Indian curry dish that is prepared from mutton and vegetables and originated in Odisha/Bengal. Railway mutton curry is a variation of the dish that originated during the British Raj colonial era. Primary ingredients ",
+    "thumb": "thumbs/kosha-mangsho--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Odia Mutton Curry (Mansha Tarkari) Rotated.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Odia_Mutton_Curry_%28Mansha_Tarkari%29_Rotated.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Odia_Mutton_Curry_%28Mansha_Tarkari%29_Rotated.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Odia_Mutton_Curry_(Mansha_Tarkari)_Rotated.jpg",
+    "author": "Satwik Cuttak",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Mutton curry (also referred to as kosha mangsho/ Kasa Mansha and lamb curry) is an Indian curry dish that is prepared from mutton and vegetables and originated in Odisha/Bengal.Railway mutton curry is a variation of the dish that originated during the British Raj colonial-era. Primary ingredients of",
+    "thumb": "thumbs/kosha-mangsho--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:KoshaMangsho.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/KoshaMangsho.JPG/1280px-KoshaMangsho.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/KoshaMangsho.JPG/500px-KoshaMangsho.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:KoshaMangsho.JPG",
+    "author": "Maccess Corporation",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Kosha Mangsho, Bengali Pulao, South Asian, East Indian Cuisine, Non-Vegetarian, New Delhi Sheraton Hotel Ballroom, 05 May 2007",
+    "thumb": "thumbs/kosha-mangsho--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Koshaa Mangsho.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Koshaa_Mangsho.JPG/1280px-Koshaa_Mangsho.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Koshaa_Mangsho.JPG/500px-Koshaa_Mangsho.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Koshaa_Mangsho.JPG",
+    "author": "Tulchi88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A classic Bengali dish.",
+    "thumb": "thumbs/kosha-mangsho--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kosha Mangsho.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kosha_Mangsho.jpg/1280px-Kosha_Mangsho.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kosha_Mangsho.jpg/500px-Kosha_Mangsho.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kosha_Mangsho.jpg",
+    "author": "Sumit Surai",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Kosha Mangsho, a spicy and popular Bengali gravy dish made with mutton (goat meat).",
+    "thumb": "thumbs/kosha-mangsho--5.jpg"
+   }
+  ]
+ },
+ "misal-pav-kolhapur": {
+  "title": "Misal pav de Kolhapur (curry de haricots germés très relevé)",
+  "original": "Misal pav",
+  "en": "Kolhapuri misal pav",
+  "country": "IN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Misal pav and Bhakri Pithla.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Misal_pav_and_Bhakri_Pithla.JPG/1280px-Misal_pav_and_Bhakri_Pithla.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Misal_pav_and_Bhakri_Pithla.JPG/500px-Misal_pav_and_Bhakri_Pithla.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Misal_pav_and_Bhakri_Pithla.JPG",
+    "author": "Ketan.wa",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Misal Pav is a daily snack. Bhakri Pithla is a daily staple diet for the local people.",
+    "thumb": "thumbs/misal-pav-kolhapur--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Misal Pav, a Maharashtrian snack.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Misal_Pav%2C_a_Maharashtrian_snack.JPG/1280px-Misal_Pav%2C_a_Maharashtrian_snack.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Misal_Pav%2C_a_Maharashtrian_snack.JPG/500px-Misal_Pav%2C_a_Maharashtrian_snack.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Misal_Pav,_a_Maharashtrian_snack.JPG",
+    "author": "Arundhati1312",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Misal Pav, a Maharashtrian snack. This Misal Pav, in particular, has been voted as the World's Tastiest Vegetarian Snack by Foodie Hub Global Awards in London.",
+    "thumb": "thumbs/misal-pav-kolhapur--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Misal Pav, an Indian snack.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Misal_Pav%2C_an_Indian_snack.JPG/1280px-Misal_Pav%2C_an_Indian_snack.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Misal_Pav%2C_an_Indian_snack.JPG/500px-Misal_Pav%2C_an_Indian_snack.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Misal_Pav,_an_Indian_snack.JPG",
+    "author": "Arundhati1312",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Misal Pav, a Maharashtrian snack. This Misal Pav, in particular, has been voted as the World's Tastiest Vegetarian Snack by Foodie Hub Global Awards in London.",
+    "thumb": "thumbs/misal-pav-kolhapur--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Misal Pav in India.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Misal_Pav_in_India.JPG/1280px-Misal_Pav_in_India.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Misal_Pav_in_India.JPG/500px-Misal_Pav_in_India.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Misal_Pav_in_India.JPG",
+    "author": "Arundhati1312",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Misal Pav, a Maharashtrian snack. This Misal Pav, in particular, has been voted as the World's Tastiest Vegetarian Snack by Foodie Hub Global Awards in London.",
+    "thumb": "thumbs/misal-pav-kolhapur--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kolhapuri Misal Pav.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Kolhapuri_Misal_Pav.jpg/1280px-Kolhapuri_Misal_Pav.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Kolhapuri_Misal_Pav.jpg/500px-Kolhapuri_Misal_Pav.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kolhapuri_Misal_Pav.jpg",
+    "author": "Ankushkr2020",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "'Misal-Pav' a spicy Maharastrian dish. Spices have attracted the world towards India since the time unknown. The theme Indian cuisine will always be incomplete without this spicy dish.Often served with chilled butter-milk or 'mattha or chhaas or taak'(local language) to nullify the spicy effect of t",
+    "thumb": "thumbs/misal-pav-kolhapur--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Misal Pav from Maharashtra.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Misal_Pav_from_Maharashtra.JPG/1280px-Misal_Pav_from_Maharashtra.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Misal_Pav_from_Maharashtra.JPG/500px-Misal_Pav_from_Maharashtra.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Misal_Pav_from_Maharashtra.JPG",
+    "author": "Dheerajk88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "{Wiki Loves Food 2015",
+    "thumb": "thumbs/misal-pav-kolhapur--5.jpg"
+   }
+  ]
+ },
+ "bun-cha-hanoi": {
+  "title": "Bún chả de Hanoï (porc grillé, vermicelles et sauce nuoc cham)",
+  "original": "Bún chả",
+  "en": "Hanoi bún chả (grilled pork with rice noodles)",
+  "country": "VN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bun cha gio by OpenCage.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Bun_cha_gio_by_OpenCage.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/9/95/Bun_cha_gio_by_OpenCage.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bun_cha_gio_by_OpenCage.jpg",
+    "author": "Daiju Azuma",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "description": "Bún Chả giò (Vietnamese noodle with deep spring rolls) Source: http://opencage.info/pics/large_9747.asp Location: Kobe, Japan Other photos: http://opencage.info/pics/s.asp?w=B%26%23250%3Bn+Ch%26%237843%3B+gi%26%23242%3B Copyright: User:OpenCage",
+    "thumb": "thumbs/bun-cha-hanoi--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bún chả giò.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/B%C3%BAn_ch%E1%BA%A3_gi%C3%B2.jpg/1280px-B%C3%BAn_ch%E1%BA%A3_gi%C3%B2.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/B%C3%BAn_ch%E1%BA%A3_gi%C3%B2.jpg/500px-B%C3%BAn_ch%E1%BA%A3_gi%C3%B2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_ch%E1%BA%A3_gi%C3%B2.jpg",
+    "author": "Ngô Trung",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Bún chả giò ăn kèm với dưa leo xắt nhỏ, giá, đậu phông rang, hành và đặc biệt là nước mắm ớt pha tí chanh với một ít đường.",
+    "thumb": "thumbs/bun-cha-hanoi--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bun cha.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Bun_cha.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/0/06/Bun_cha.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bun_cha.jpg",
+    "author": "tuhang",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Bún chả",
+    "thumb": "thumbs/bun-cha-hanoi--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bun-cha-hanoi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Bun-cha-hanoi.jpg/1280px-Bun-cha-hanoi.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Bun-cha-hanoi.jpg/500px-Bun-cha-hanoi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bun-cha-hanoi.jpg",
+    "author": "Valentin Orange",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Un plat de bún chả à Hanoï",
+    "thumb": "thumbs/bun-cha-hanoi--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bún chả cá, tháng 8 năm 2018.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/B%C3%BAn_ch%E1%BA%A3_c%C3%A1%2C_th%C3%A1ng_8_n%C4%83m_2018.JPG/1280px-B%C3%BAn_ch%E1%BA%A3_c%C3%A1%2C_th%C3%A1ng_8_n%C4%83m_2018.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/B%C3%BAn_ch%E1%BA%A3_c%C3%A1%2C_th%C3%A1ng_8_n%C4%83m_2018.JPG/500px-B%C3%BAn_ch%E1%BA%A3_c%C3%A1%2C_th%C3%A1ng_8_n%C4%83m_2018.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_ch%E1%BA%A3_c%C3%A1,_th%C3%A1ng_8_n%C4%83m_2018.JPG",
+    "author": "Phương Huy (thảo luận)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Bún chả cá, tháng 8 năm 2018",
+    "thumb": "thumbs/bun-cha-hanoi--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bún chả Hà Nội (thịt nướng) tại Nguyễn Sơn, Tân Phú (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/B%C3%BAn_ch%E1%BA%A3_H%C3%A0_N%E1%BB%99i_%28th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng%29_t%E1%BA%A1i_Nguy%E1%BB%85n_S%C6%A1n%2C_T%C3%A2n_Ph%C3%BA_%281%29.jpg/1280px-B%C3%BAn_ch%E1%BA%A3_H%C3%A0_N%E1%BB%99i_%28th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng%29_t%E1%BA%A1i_Nguy%E1%BB%85n_S%C6%A1n%2C_T%C3%A2n_Ph%C3%BA_%281%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/B%C3%BAn_ch%E1%BA%A3_H%C3%A0_N%E1%BB%99i_%28th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng%29_t%E1%BA%A1i_Nguy%E1%BB%85n_S%C6%A1n%2C_T%C3%A2n_Ph%C3%BA_%281%29.jpg/500px-B%C3%BAn_ch%E1%BA%A3_H%C3%A0_N%E1%BB%99i_%28th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng%29_t%E1%BA%A1i_Nguy%E1%BB%85n_S%C6%A1n%2C_T%C3%A2n_Ph%C3%BA_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:B%C3%BAn_ch%E1%BA%A3_H%C3%A0_N%E1%BB%99i_(th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng)_t%E1%BA%A1i_Nguy%E1%BB%85n_S%C6%A1n,_T%C3%A2n_Ph%C3%BA_(1).jpg",
+    "author": "Phương Huy (thảo luận)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Hình tự chụp bằng máy điện thoại cá nhân, có thông số kỹ thuật chứng minh (xem bên dưới)",
+    "thumb": "thumbs/bun-cha-hanoi--5.jpg"
+   }
+  ]
+ },
+ "bun-bo-hue": {
+  "title": "Bún bò Huế (soupe de nouilles au bœuf et à la citronnelle)",
+  "original": "Bún bò Huế",
+  "en": "Bún bò Huế (spicy lemongrass beef noodle soup)",
+  "country": "VN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bun Bo Hue.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bun_Bo_Hue.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bun_Bo_Hue.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bun_Bo_Hue.jpg",
+    "author": "Flickr.com user \"avlxyz\"",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Bún Bò Huế, a spicy Vietnamese soup noodle dish. This image is not of Bun Bo Hue proper. Rather, it shows the rice noodles used in Bun Bo Hue. The author of the image used a package of rice noodles and used chicken broth, tofu, beef and fish balls, and mint for this dish.",
+    "thumb": "thumbs/bun-bo-hue--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bun Bo Hue in Sai Gon.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bun_Bo_Hue_in_Sai_Gon.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bun_Bo_Hue_in_Sai_Gon.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bun_Bo_Hue_in_Sai_Gon.jpg",
+    "author": "* etoile from Ho Chi Minh City",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Yummy Bun Bo Hue from the junction of Tran Dinh Xu and Nguyen Cu Trinh streets in District 1, Sai Gon.Bun Bo Hue",
+    "thumb": "thumbs/bun-bo-hue--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bun Bo Hue - Pho Huang Bakao, Springvale.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Bun_Bo_Hue_-_Pho_Huang_Bakao%2C_Springvale.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Bun_Bo_Hue_-_Pho_Huang_Bakao%2C_Springvale.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bun_Bo_Hue_-_Pho_Huang_Bakao,_Springvale.jpg",
+    "author": "avlxyz",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Bun Bo Hue - Pho Huang Bakao, Springvale",
+    "thumb": "thumbs/bun-bo-hue--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bun Bo Hue and Bun Thit Nuong.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Bun_Bo_Hue_and_Bun_Thit_Nuong.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Bun_Bo_Hue_and_Bun_Thit_Nuong.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bun_Bo_Hue_and_Bun_Thit_Nuong.jpg",
+    "author": "bopuc",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Bun Bo Hue &amp; Bun Thit NuongTu Lan",
+    "thumb": "thumbs/bun-bo-hue--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bun Bo Hue in Glen Waverley.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bun_Bo_Hue_in_Glen_Waverley.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bun_Bo_Hue_in_Glen_Waverley.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bun_Bo_Hue_in_Glen_Waverley.jpg",
+    "author": "avlxyz from Glen Waverley, Melbourne",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Bun Bo Hue - Glen Waverley Not bad, but a bit pricey at AUD9 (i think), but hey, I don't have to drive to Springvale nor Richmond ot get my Bun Bo Hue fix! :)Can't remember the name of the shop, but it is next to Grand Tofu, facing the carpark! :)Bun Bo Hue - Glen Waverley",
+    "thumb": "thumbs/bun-bo-hue--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bun bo hue by bopuc in Montreal.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Bun_bo_hue_by_bopuc_in_Montreal.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Bun_bo_hue_by_bopuc_in_Montreal.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bun_bo_hue_by_bopuc_in_Montreal.jpg",
+    "author": "bopuc from Restaurant Phở Lâm du Parc, Montréal, Québec",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "@ Pho Lam, Ave. du Parc at rue Mt-Royalbùn bó hué",
+    "thumb": "thumbs/bun-bo-hue--5.jpg"
+   }
+  ]
+ },
+ "com-tam-saigon": {
+  "title": "Cơm tấm de Saïgon (riz brisé, côtelette de porc grillée)",
+  "original": "Cơm tấm",
+  "en": "Saigon cơm tấm (broken rice with grilled pork chop)",
+  "country": "VN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Com-Tam-2008.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Com-Tam-2008.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Com-Tam-2008.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Com-Tam-2008.jpg",
+    "author": "Kham Tran",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Vietnamese broken rice (cơm tấm) with grilled pork, shredded pork and pork skin, fried egg, pork meat loaf, picked carrot and sliced cucumber from Ha Long Bay restaurant in Richmond, Victoria, Australia.",
+    "thumb": "thumbs/com-tam-saigon--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Broken rice restaurant in Saigon.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Broken_rice_restaurant_in_Saigon.JPG/1280px-Broken_rice_restaurant_in_Saigon.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Broken_rice_restaurant_in_Saigon.JPG/500px-Broken_rice_restaurant_in_Saigon.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Broken_rice_restaurant_in_Saigon.JPG",
+    "author": "Peter Kauffner",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Com Tam Cali: Broken rice restaurant, 18 Nguyen Chi Thanh, P. 3, Q. 5, Ho Chi Minh City, Vietnam",
+    "thumb": "thumbs/com-tam-saigon--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cơm tấm bì chả.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/C%C6%A1m_t%E1%BA%A5m_b%C3%AC_ch%E1%BA%A3.jpg/1280px-C%C6%A1m_t%E1%BA%A5m_b%C3%AC_ch%E1%BA%A3.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/C%C6%A1m_t%E1%BA%A5m_b%C3%AC_ch%E1%BA%A3.jpg/500px-C%C6%A1m_t%E1%BA%A5m_b%C3%AC_ch%E1%BA%A3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_t%E1%BA%A5m_b%C3%AC_ch%E1%BA%A3.jpg",
+    "author": "Vietcuongdao",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Rice plate",
+    "thumb": "thumbs/com-tam-saigon--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cơm sườn miếng cọng ngày 2 tháng 11 năm 2018 (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/C%C6%A1m_s%C6%B0%E1%BB%9Dn_mi%E1%BA%BFng_c%E1%BB%8Dng_ng%C3%A0y_2_th%C3%A1ng_11_n%C4%83m_2018_%281%29.jpg/1280px-C%C6%A1m_s%C6%B0%E1%BB%9Dn_mi%E1%BA%BFng_c%E1%BB%8Dng_ng%C3%A0y_2_th%C3%A1ng_11_n%C4%83m_2018_%281%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/C%C6%A1m_s%C6%B0%E1%BB%9Dn_mi%E1%BA%BFng_c%E1%BB%8Dng_ng%C3%A0y_2_th%C3%A1ng_11_n%C4%83m_2018_%281%29.jpg/500px-C%C6%A1m_s%C6%B0%E1%BB%9Dn_mi%E1%BA%BFng_c%E1%BB%8Dng_ng%C3%A0y_2_th%C3%A1ng_11_n%C4%83m_2018_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_s%C6%B0%E1%BB%9Dn_mi%E1%BA%BFng_c%E1%BB%8Dng_ng%C3%A0y_2_th%C3%A1ng_11_n%C4%83m_2018_(1).jpg",
+    "author": "Phương Huy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Cuisine of Vietnam",
+    "thumb": "thumbs/com-tam-saigon--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cơm sườn miếng cọng ngày 2 tháng 11 năm 2018 (2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/C%C6%A1m_s%C6%B0%E1%BB%9Dn_mi%E1%BA%BFng_c%E1%BB%8Dng_ng%C3%A0y_2_th%C3%A1ng_11_n%C4%83m_2018_%282%29.jpg/1280px-C%C6%A1m_s%C6%B0%E1%BB%9Dn_mi%E1%BA%BFng_c%E1%BB%8Dng_ng%C3%A0y_2_th%C3%A1ng_11_n%C4%83m_2018_%282%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/C%C6%A1m_s%C6%B0%E1%BB%9Dn_mi%E1%BA%BFng_c%E1%BB%8Dng_ng%C3%A0y_2_th%C3%A1ng_11_n%C4%83m_2018_%282%29.jpg/500px-C%C6%A1m_s%C6%B0%E1%BB%9Dn_mi%E1%BA%BFng_c%E1%BB%8Dng_ng%C3%A0y_2_th%C3%A1ng_11_n%C4%83m_2018_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_s%C6%B0%E1%BB%9Dn_mi%E1%BA%BFng_c%E1%BB%8Dng_ng%C3%A0y_2_th%C3%A1ng_11_n%C4%83m_2018_(2).jpg",
+    "author": "Phương Huy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Cuisine of Vietnam",
+    "thumb": "thumbs/com-tam-saigon--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cơm Tấm Bì Sườn Chả.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/C%C6%A1m_T%E1%BA%A5m_B%C3%AC_S%C6%B0%E1%BB%9Dn_Ch%E1%BA%A3.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/b/b9/C%C6%A1m_T%E1%BA%A5m_B%C3%AC_S%C6%B0%E1%BB%9Dn_Ch%E1%BA%A3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_T%E1%BA%A5m_B%C3%AC_S%C6%B0%E1%BB%9Dn_Ch%E1%BA%A3.jpg",
+    "author": "Charles Haynes",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Broken Rice with shredded pork, grilled pork, and egg cake",
+    "thumb": "thumbs/com-tam-saigon--5.jpg"
+   }
+  ]
+ },
+ "banh-mi-saigon": {
+  "title": "Bánh mì de Saïgon (sandwich baguette au porc et pickles)",
+  "original": "Bánh mì",
+  "en": "Saigon bánh mì",
+  "country": "VN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Banh mi and cuon.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Banh_mi_and_cuon.jpg/1280px-Banh_mi_and_cuon.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Banh_mi_and_cuon.jpg/500px-Banh_mi_and_cuon.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Banh_mi_and_cuon.jpg",
+    "author": "stu_spivack",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Bánh mì (Vietnamese sandwich) and Bánh cuốn. Banh mi and banh cuon.",
+    "thumb": "thumbs/banh-mi-saigon--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Banh Mi Sao Mai po-boy.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Banh_Mi_Sao_Mai_po-boy.JPG/1280px-Banh_Mi_Sao_Mai_po-boy.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Banh_Mi_Sao_Mai_po-boy.JPG/500px-Banh_Mi_Sao_Mai_po-boy.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Banh_Mi_Sao_Mai_po-boy.JPG",
+    "author": "Infrogmation of New Orleans",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Vietnamese Pork Po-Boy sandwich, from Banh Mi Sao Mai in Little Vietnam, Eastern New Orleans",
+    "thumb": "thumbs/banh-mi-saigon--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Banh mi thit Nhu Lan.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Banh_mi_thit_Nhu_Lan.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Banh_mi_thit_Nhu_Lan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Banh_mi_thit_Nhu_Lan.jpg",
+    "author": "Charles Haynes",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Banh Mi Thit",
+    "thumb": "thumbs/banh-mi-saigon--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Banh mi sandwich.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Banh_mi_sandwich.jpg/1280px-Banh_mi_sandwich.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Banh_mi_sandwich.jpg/500px-Banh_mi_sandwich.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Banh_mi_sandwich.jpg",
+    "author": "jeffreyw",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "A banh mi sandwich whats4dinnersolutions.wordpress.com/2010/06/30/sammich-ad...",
+    "thumb": "thumbs/banh-mi-saigon--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Banh mi assemblage.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Banh_mi_assemblage.JPG/1280px-Banh_mi_assemblage.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Banh_mi_assemblage.JPG/500px-Banh_mi_assemblage.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Banh_mi_assemblage.JPG",
+    "author": "Candleabracadabra",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Banh mi assemblage",
+    "thumb": "thumbs/banh-mi-saigon--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Banh mi - flickr5607479129.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Banh_mi_-_flickr5607479129.jpg/1280px-Banh_mi_-_flickr5607479129.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Banh_mi_-_flickr5607479129.jpg/500px-Banh_mi_-_flickr5607479129.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Banh_mi_-_flickr5607479129.jpg",
+    "author": "Chris Conway, Hilleary Osheroff (flickr user \"chrisandhilleary\")",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Ban Mi – Vietnamesisches Baguette",
+    "thumb": "thumbs/banh-mi-saigon--5.jpg"
+   }
+  ]
+ },
+ "mi-quang": {
+  "title": "Mì Quảng (nouilles de riz jaunes au porc et crevettes, peu de bouillon)",
+  "original": "Mì Quảng",
+  "en": "Mì Quảng (Quảng Nam turmeric noodles)",
+  "country": "VN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mì Quảng.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/M%C3%AC_Qu%E1%BA%A3ng.jpg/1280px-M%C3%AC_Qu%E1%BA%A3ng.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/M%C3%AC_Qu%E1%BA%A3ng.jpg/500px-M%C3%AC_Qu%E1%BA%A3ng.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:M%C3%AC_Qu%E1%BA%A3ng.jpg",
+    "author": "SauceSupreme",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Mì Quảng is a Quang Nam style noodle soup with pork and shrimp. It's one of those regional specialties that I'm only just now getting to enjoy. This dish had a lot of great flavors going on, primarily from the tomato-tinged broth. Small dried shrimp gave a nice salty edge and the noodles were broad,",
+    "thumb": "thumbs/mi-quang--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mì Quảng, Da Nang, Vietnam.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/M%C3%AC_Qu%E1%BA%A3ng%2C_Da_Nang%2C_Vietnam.jpg/1280px-M%C3%AC_Qu%E1%BA%A3ng%2C_Da_Nang%2C_Vietnam.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/M%C3%AC_Qu%E1%BA%A3ng%2C_Da_Nang%2C_Vietnam.jpg/500px-M%C3%AC_Qu%E1%BA%A3ng%2C_Da_Nang%2C_Vietnam.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:M%C3%AC_Qu%E1%BA%A3ng,_Da_Nang,_Vietnam.jpg",
+    "author": "Christopher Crouzet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Vietnamese noodles.",
+    "thumb": "thumbs/mi-quang--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mi Quang - Quan Hat Mi Quang, Cao Lau VND2000.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mi_Quang_-_Quan_Hat_Mi_Quang%2C_Cao_Lau_VND2000.jpg/1280px-Mi_Quang_-_Quan_Hat_Mi_Quang%2C_Cao_Lau_VND2000.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mi_Quang_-_Quan_Hat_Mi_Quang%2C_Cao_Lau_VND2000.jpg/500px-Mi_Quang_-_Quan_Hat_Mi_Quang%2C_Cao_Lau_VND2000.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mi_Quang_-_Quan_Hat_Mi_Quang,_Cao_Lau_VND2000.jpg",
+    "author": "Alpha",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Mi Quang - Quan Hat Mi Quang, Cao Lau VND2000",
+    "thumb": "thumbs/mi-quang--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mi Quang at Ngoc Mai (with noodles uncovered).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mi_Quang_at_Ngoc_Mai_%28with_noodles_uncovered%29.jpg/1280px-Mi_Quang_at_Ngoc_Mai_%28with_noodles_uncovered%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mi_Quang_at_Ngoc_Mai_%28with_noodles_uncovered%29.jpg/500px-Mi_Quang_at_Ngoc_Mai_%28with_noodles_uncovered%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mi_Quang_at_Ngoc_Mai_(with_noodles_uncovered).jpg",
+    "author": "Gary Stevens",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Mi Quang at Ngoc Mai (with noodles uncovered)",
+    "thumb": "thumbs/mi-quang--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mì Quảng chay, tháng 9 năm 2018 (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/M%C3%AC_Qu%E1%BA%A3ng_chay%2C_th%C3%A1ng_9_n%C4%83m_2018_%281%29.jpg/1280px-M%C3%AC_Qu%E1%BA%A3ng_chay%2C_th%C3%A1ng_9_n%C4%83m_2018_%281%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/M%C3%AC_Qu%E1%BA%A3ng_chay%2C_th%C3%A1ng_9_n%C4%83m_2018_%281%29.jpg/500px-M%C3%AC_Qu%E1%BA%A3ng_chay%2C_th%C3%A1ng_9_n%C4%83m_2018_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:M%C3%AC_Qu%E1%BA%A3ng_chay,_th%C3%A1ng_9_n%C4%83m_2018_(1).jpg",
+    "author": "Phương Huy (thảo luận)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Mì Quảng chay, tháng 9 năm 2018",
+    "thumb": "thumbs/mi-quang--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mì Quảng chay, tháng 9 năm 2018 (2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/M%C3%AC_Qu%E1%BA%A3ng_chay%2C_th%C3%A1ng_9_n%C4%83m_2018_%282%29.jpg/1280px-M%C3%AC_Qu%E1%BA%A3ng_chay%2C_th%C3%A1ng_9_n%C4%83m_2018_%282%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/M%C3%AC_Qu%E1%BA%A3ng_chay%2C_th%C3%A1ng_9_n%C4%83m_2018_%282%29.jpg/500px-M%C3%AC_Qu%E1%BA%A3ng_chay%2C_th%C3%A1ng_9_n%C4%83m_2018_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:M%C3%AC_Qu%E1%BA%A3ng_chay,_th%C3%A1ng_9_n%C4%83m_2018_(2).jpg",
+    "author": "Phương Huy (thảo luận)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Mì Quảng chay, tháng 9 năm 2018",
+    "thumb": "thumbs/mi-quang--5.jpg"
+   }
+  ]
+ },
+ "cha-ca-la-vong": {
+  "title": "Chả cá Lã Vọng de Hanoï (poisson au curcuma et à l’aneth)",
+  "original": "Chả cá Lã Vọng",
+  "en": "Hanoi chả cá Lã Vọng (turmeric fish with dill)",
+  "country": "VN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chả cá Lã Vọng.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng.jpg/1280px-Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng.jpg/500px-Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng.jpg",
+    "author": "Lionel Ng from Singapore",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Fish filets that that are grilled then pan fried",
+    "thumb": "thumbs/cha-ca-la-vong--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Grilled fish @ Cha Ca La Vong.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Grilled_fish_%40_Cha_Ca_La_Vong.jpg/1280px-Grilled_fish_%40_Cha_Ca_La_Vong.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Grilled_fish_%40_Cha_Ca_La_Vong.jpg/500px-Grilled_fish_%40_Cha_Ca_La_Vong.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_fish_@_Cha_Ca_La_Vong.jpg",
+    "author": "Yun Huang Yong",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "At 14 Cha Ca Street. The dish is so famous and on so many tourist itineraries that imitation Cha Ca shops have popped up on the same street.",
+    "thumb": "thumbs/cha-ca-la-vong--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:ChaCaLaVongHanoi-vnd120000pp - k850i.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/ChaCaLaVongHanoi-vnd120000pp_-_k850i.jpg/1280px-ChaCaLaVongHanoi-vnd120000pp_-_k850i.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/ChaCaLaVongHanoi-vnd120000pp_-_k850i.jpg/500px-ChaCaLaVongHanoi-vnd120000pp_-_k850i.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:ChaCaLaVongHanoi-vnd120000pp_-_k850i.jpg",
+    "author": "avlxyz",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Chả cá Lã Vọng is a legendary, but over-priced shop selling only one dish, Turmeric Grilled Fish. So famous, they named the street after it! Service is gruff, and everyone is directed up steep stairs where people are huddled around a clay brazier topped with a pan sizzling with turmeric-stained fill",
+    "thumb": "thumbs/cha-ca-la-vong--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:MyPlate gov Cultural Food (20241025-USDA-FNS-UNK-0092).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/MyPlate_gov_Cultural_Food_%2820241025-USDA-FNS-UNK-0092%29.jpg/1280px-MyPlate_gov_Cultural_Food_%2820241025-USDA-FNS-UNK-0092%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/MyPlate_gov_Cultural_Food_%2820241025-USDA-FNS-UNK-0092%29.jpg/500px-MyPlate_gov_Cultural_Food_%2820241025-USDA-FNS-UNK-0092%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:MyPlate_gov_Cultural_Food_(20241025-USDA-FNS-UNK-0092).jpg",
+    "author": "USDAgov",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Turmeric Fish | Chả Cá Lã Vọng, Chả Cá Lã Vọng, also known as Chả Cá Thăng Long, is a Vietnamese grilled fish dish that originated in the capital city of Hanoi. It is traditionally made with white fish, such as catfish or tilapia, that has been marinated in turmeric, fish sauce, and galangal. It is ",
+    "thumb": "thumbs/cha-ca-la-vong--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:MyPlate gov Cultural Food (20241025-USDA-FNS-UNK-0093).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/MyPlate_gov_Cultural_Food_%2820241025-USDA-FNS-UNK-0093%29.jpg/1280px-MyPlate_gov_Cultural_Food_%2820241025-USDA-FNS-UNK-0093%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/MyPlate_gov_Cultural_Food_%2820241025-USDA-FNS-UNK-0093%29.jpg/500px-MyPlate_gov_Cultural_Food_%2820241025-USDA-FNS-UNK-0093%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:MyPlate_gov_Cultural_Food_(20241025-USDA-FNS-UNK-0093).jpg",
+    "author": "USDAgov",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Turmeric Fish | Chả Cá Lã Vọng, Chả Cá Lã Vọng, also known as Chả Cá Thăng Long, is a Vietnamese grilled fish dish that originated in the capital city of Hanoi. It is traditionally made with white fish, such as catfish or tilapia, that has been marinated in turmeric, fish sauce, and galangal. It is ",
+    "thumb": "thumbs/cha-ca-la-vong--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cha ca La Vong.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cha_ca_La_Vong.jpg",
+    "author": "tuhang",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Chả cá Lã Vọng",
+    "thumb": "thumbs/cha-ca-la-vong--5.jpg"
+   }
+  ]
+ },
+ "som-tam-isan": {
+  "title": "Som tam de l’Isan (salade de papaye verte pilée)",
+  "original": "Som tam (ส้มตำ)",
+  "en": "Isan som tam (green papaya salad)",
+  "country": "TH",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mittagessen.Thailand.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Mittagessen.Thailand.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Mittagessen.Thailand.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Mittagessen.Thailand.JPG",
+    "author": "User:Mattes",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Thai dishes for lunch",
+    "thumb": "thumbs/som-tam-isan--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:GreenIguanaMeals.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/GreenIguanaMeals.jpg/1280px-GreenIguanaMeals.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/GreenIguanaMeals.jpg/500px-GreenIguanaMeals.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:GreenIguanaMeals.jpg",
+    "author": "Marshall Astor",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "The finished green iguana lunch, ready to serve: In front and on the right - dishes with iguana meat and boiled iguana eggs In center - sort of glass noodle with fish sauce and leafy herb On the left and in most back - green papaya salad Behind the noodle dish - bowl of pumkin/squash beef soup",
+    "thumb": "thumbs/som-tam-isan--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Huay Kaew waterfall som tam.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Huay_Kaew_waterfall_som_tam.jpg/1280px-Huay_Kaew_waterfall_som_tam.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Huay_Kaew_waterfall_som_tam.jpg/500px-Huay_Kaew_waterfall_som_tam.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Huay_Kaew_waterfall_som_tam.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Dishing up som tam Thai (Thai papaya salad) from the earthenware mortar. At a small restaurant at the entrance of the Huay Kaew waterfall of Chiang Mai, Thailand.",
+    "thumb": "thumbs/som-tam-isan--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pounding somtam213.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Pounding_somtam213.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/5/52/Pounding_somtam213.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pounding_somtam213.jpg",
+    "author": "Xufanc",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Street vendor pounding som tam (green papaya salad) in Bangkok",
+    "thumb": "thumbs/som-tam-isan--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Krathon somtam818.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Krathon_somtam818.jpg/1280px-Krathon_somtam818.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Krathon_somtam818.jpg/500px-Krathon_somtam818.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Krathon_somtam818.jpg",
+    "author": "Xufanc",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Santol Som tam with raw leafy greens and caramelized dry fish on the plate on the left",
+    "thumb": "thumbs/som-tam-isan--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pla ra96.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Pla_ra96.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Pla_ra96.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pla_ra96.jpg",
+    "author": "Xufanc",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "A pot of Pla ra in a Som tam vendor's cart. Bangkok",
+    "thumb": "thumbs/som-tam-isan--5.jpg"
+   }
+  ]
+ },
+ "larb-isan": {
+  "title": "Larb de l’Isan (salade de viande hachée au riz grillé et herbes)",
+  "original": "Larb (ลาบ)",
+  "en": "Isan larb (minced meat salad with toasted rice)",
+  "country": "TH",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:LaoFood LarbNeua.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/LaoFood_LarbNeua.JPG/1280px-LaoFood_LarbNeua.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/LaoFood_LarbNeua.JPG/500px-LaoFood_LarbNeua.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:LaoFood_LarbNeua.JPG",
+    "author": "Jpatokal",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Larb neua (Lao-style beef salad). Taken at Dok Champa Restaurant, Vientiane, Laos.",
+    "thumb": "thumbs/larb-isan--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Lao laab.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lao_laab.jpg/1280px-Lao_laab.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lao_laab.jpg/500px-Lao_laab.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lao_laab.jpg",
+    "author": "Basil Strahm",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Lao laab, sticky rice and Laobeer.",
+    "thumb": "thumbs/larb-isan--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Day 224- Chicken Larb (7947748382).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Day_224-_Chicken_Larb_%287947748382%29.jpg/1280px-Day_224-_Chicken_Larb_%287947748382%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Day_224-_Chicken_Larb_%287947748382%29.jpg/500px-Day_224-_Chicken_Larb_%287947748382%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Day_224-_Chicken_Larb_(7947748382).jpg",
+    "author": "Sodanie Chea from Norwalk, Ca, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Larb or \"Laab\" is a semi salty and spicy dish. It's minced meat mixed with lots of different spices, and vegetables. One of my favorite dishes.",
+    "thumb": "thumbs/larb-isan--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Meal on a tray in Laos.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Meal_on_a_tray_in_Laos.jpg/1280px-Meal_on_a_tray_in_Laos.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Meal_on_a_tray_in_Laos.jpg/500px-Meal_on_a_tray_in_Laos.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Meal_on_a_tray_in_Laos.jpg",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Larb fish (traditional dish), grilled fish, soup and salad with sticky rice, in Laos",
+    "thumb": "thumbs/larb-isan--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Lao meat Larb.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Lao_meat_Larb.jpg/1280px-Lao_meat_Larb.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Lao_meat_Larb.jpg/500px-Lao_meat_Larb.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lao_meat_Larb.jpg",
+    "author": "Bounthy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "This dish is popular among Lao people who prefer Larb with a slightly bitter taste. It is also usually eaten with cucumber, and vegetables with a slight bitter taste.",
+    "thumb": "thumbs/larb-isan--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Lao beef nam tok (Lao ping sin nam tok).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Lao_beef_nam_tok_%28Lao_ping_sin_nam_tok%29.jpg/1280px-Lao_beef_nam_tok_%28Lao_ping_sin_nam_tok%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Lao_beef_nam_tok_%28Lao_ping_sin_nam_tok%29.jpg/500px-Lao_beef_nam_tok_%28Lao_ping_sin_nam_tok%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lao_beef_nam_tok_(Lao_ping_sin_nam_tok).jpg",
+    "author": "Bounthy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "This popular Lao dish is made with beef steak with a variety of herbs and spices. It is sometimes enjoyed as an appetizer with aperitif before a main meal course.",
+    "thumb": "thumbs/larb-isan--5.jpg"
+   }
+  ]
+ },
+ "gai-yang-isan": {
+  "title": "Gai yang de l’Isan (poulet grillé à la citronnelle)",
+  "original": "Gai yang (ไก่ย่าง)",
+  "en": "Isan gai yang (grilled chicken)",
+  "country": "TH",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Gaiyangtaladdonwai06.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Gaiyangtaladdonwai06.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Gaiyangtaladdonwai06.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gaiyangtaladdonwai06.jpg",
+    "author": "Heinrich Damm (User:Hdamm, Hdamm at de.wikipedia.org)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Gai Yang - barbecued chicken Thai style. Don Wai Market, Nakhon Pathom province, Thailand.",
+    "thumb": "thumbs/gai-yang-isan--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Somtam kaiyang khaoniaow.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Somtam_kaiyang_khaoniaow.jpg/1280px-Somtam_kaiyang_khaoniaow.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Somtam_kaiyang_khaoniaow.jpg/500px-Somtam_kaiyang_khaoniaow.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Somtam_kaiyang_khaoniaow.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Som Tam (papaya salad), Kai Yang (grilled chicken) and Khao Niaow (sticky rice): a combination of dishes from Isarn (North East Thailand) which has become extremely popular in the whole of Thailand. It is eaten as a snack or as a lunch time meal. This photo was made at a \"som tam restaurant\" in Bang",
+    "thumb": "thumbs/gai-yang-isan--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Huay Kaew waterfall grill.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Huay_Kaew_waterfall_grill.jpg/1280px-Huay_Kaew_waterfall_grill.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Huay_Kaew_waterfall_grill.jpg/500px-Huay_Kaew_waterfall_grill.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Huay_Kaew_waterfall_grill.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Chicken, pork and eggs being grilled at a small restaurant at the entrance of Huay Kaew waterfall, Chiang Mai, Thailand.",
+    "thumb": "thumbs/gai-yang-isan--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kai yang CM.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Kai_yang_CM.jpg/1280px-Kai_yang_CM.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Kai_yang_CM.jpg/500px-Kai_yang_CM.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kai_yang_CM.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Kai yang (Thai script: ไก่ย่าง): Thai style grilled chicken.",
+    "thumb": "thumbs/gai-yang-isan--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kai yang.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Kai_yang.JPG/1280px-Kai_yang.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Kai_yang.JPG/500px-Kai_yang.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Kai_yang.JPG",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Kai yang (Thai script: ไก่ย่าง) is a Thai style grilled chicken. This was a particularly good version.",
+    "thumb": "thumbs/gai-yang-isan--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kai yang and nam chim.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Kai_yang_and_nam_chim.jpg/1280px-Kai_yang_and_nam_chim.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Kai_yang_and_nam_chim.jpg/500px-Kai_yang_and_nam_chim.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kai_yang_and_nam_chim.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Kai yang (grilled chicken) with two types of nam chim (dipping sauces). One is nam chim chaeo, and the other nam chim kai (lit. \"dipping sauce for chicken\").",
+    "thumb": "thumbs/gai-yang-isan--5.jpg"
+   }
+  ]
+ },
+ "tom-yum-goong": {
+  "title": "Tom yum goong (soupe aigre-piquante aux crevettes)",
+  "original": "Tom yum goong (ต้มยำกุ้ง)",
+  "en": "Tom yum goong (hot and sour shrimp soup)",
+  "country": "TH",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tomyumgoongguys.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Tomyumgoongguys.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/25/Tomyumgoongguys.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tomyumgoongguys.jpg",
+    "author": "Curtis Winston",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "From left, Thai director/stunt choreographer Panna Rittikrai, director-producer Prachya Pinkaew, producer Somsak Techaratanaprasert and actor-martial artist Tony Jaa on stage for the press screening of Tom-Yum-Goong at Major Ratchayothin in Bangkok.",
+    "thumb": "thumbs/tom-yum-goong--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tom yum goong-01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tom_yum_goong-01.jpg/1280px-Tom_yum_goong-01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tom_yum_goong-01.jpg/500px-Tom_yum_goong-01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_yum_goong-01.jpg",
+    "author": "kisocci",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Tom Yum Goong (Scharf-saure Garnelensuppe) – Feuertopf-Gericht aus Thailand.",
+    "thumb": "thumbs/tom-yum-goong--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cup Noodle Tom yum goong noodle.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Cup_Noodle_Tom_yum_goong_noodle.jpg/1280px-Cup_Noodle_Tom_yum_goong_noodle.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Cup_Noodle_Tom_yum_goong_noodle.jpg/500px-Cup_Noodle_Tom_yum_goong_noodle.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cup_Noodle_Tom_yum_goong_noodle.jpg",
+    "author": "毒島みるく",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "カップヌードル トムヤムクンヌードル",
+    "thumb": "thumbs/tom-yum-goong--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tom Yum Goong Noodle Soup - Nok Nok Kitchen at The Cow 2024-03-28.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tom_Yum_Goong_Noodle_Soup_-_Nok_Nok_Kitchen_at_The_Cow_2024-03-28.jpg/1280px-Tom_Yum_Goong_Noodle_Soup_-_Nok_Nok_Kitchen_at_The_Cow_2024-03-28.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tom_Yum_Goong_Noodle_Soup_-_Nok_Nok_Kitchen_at_The_Cow_2024-03-28.jpg/500px-Tom_Yum_Goong_Noodle_Soup_-_Nok_Nok_Kitchen_at_The_Cow_2024-03-28.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_Yum_Goong_Noodle_Soup_-_Nok_Nok_Kitchen_at_The_Cow_2024-03-28.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "By Nok Nok Kitchen at The Cow. Description on menu: \"Prawns in spicy soup with the flavours of kaffir lime leaves and the sweet taste of lemon grass with rice noodles\"",
+    "thumb": "thumbs/tom-yum-goong--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Siam Garden Tom yum goong ac.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Siam_Garden_Tom_yum_goong_ac.jpg/1280px-Siam_Garden_Tom_yum_goong_ac.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Siam_Garden_Tom_yum_goong_ac.jpg/500px-Siam_Garden_Tom_yum_goong_ac.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Siam_Garden_Tom_yum_goong_ac.jpg",
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "愛知県名古屋市中区錦1丁目15-17 旧加藤商会ビルにあるタイ料理店「サイアムガーデン」。トムヤムクン。",
+    "thumb": "thumbs/tom-yum-goong--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tom yum goong at Thai Orchid Villa Kamppi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Tom_yum_goong_at_Thai_Orchid_Villa_Kamppi.jpg/1280px-Tom_yum_goong_at_Thai_Orchid_Villa_Kamppi.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Tom_yum_goong_at_Thai_Orchid_Villa_Kamppi.jpg/500px-Tom_yum_goong_at_Thai_Orchid_Villa_Kamppi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_yum_goong_at_Thai_Orchid_Villa_Kamppi.jpg",
+    "author": "JIP",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "\"Tom yum goong\", tiger prawns in a herb broth with shallots, lemon grass, galangal, kaffir lime, mushrooms and cilantro served at restaurant Thai Orchid Villa at the Kamppi shopping centre in Kamppi, Helsinki, Finland.",
+    "thumb": "thumbs/tom-yum-goong--5.jpg"
+   }
+  ]
+ },
+ "gaeng-keow-wan": {
+  "title": "Curry vert thaï au poulet (gaeng keow wan)",
+  "original": "Gaeng keow wan (แกงเขียวหวาน)",
+  "en": "Thai green curry with chicken",
+  "country": "TH",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Green curry ingredients.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Green_curry_ingredients.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Green_curry_ingredients.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Green_curry_ingredients.jpg",
+    "author": "FotoosVanRobin from Netherlands",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Ingredients for Thai green curry paste.",
+    "thumb": "thumbs/gaeng-keow-wan--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Curry pastes Thailand.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Curry_pastes_Thailand.JPG/1280px-Curry_pastes_Thailand.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Curry_pastes_Thailand.JPG/500px-Curry_pastes_Thailand.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Curry_pastes_Thailand.JPG",
+    "author": "Helge Høifødt",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Curry pastes from Thailand, product Agroy-D fra Agi Foods. From left: Red, green, yellow, Penang / Penaeng, mussaman / massaman Karripastaer produsert i Thailand (produkt Arpy-D fra Agri Foods). Fra venstre: Rød, grønn, gul, Penang, mussaman",
+    "thumb": "thumbs/gaeng-keow-wan--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Green curry fried rice with prawn (4448805768).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Green_curry_fried_rice_with_prawn_%284448805768%29.jpg/1280px-Green_curry_fried_rice_with_prawn_%284448805768%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Green_curry_fried_rice_with_prawn_%284448805768%29.jpg/500px-Green_curry_fried_rice_with_prawn_%284448805768%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Green_curry_fried_rice_with_prawn_(4448805768).jpg",
+    "author": "Andy Mitchell from Glasgow, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Green curry fried rice with prawn",
+    "thumb": "thumbs/gaeng-keow-wan--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Green curry wrapped by leaf.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Green_curry_wrapped_by_leaf.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/d/df/Green_curry_wrapped_by_leaf.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Green_curry_wrapped_by_leaf.JPG",
+    "author": "Tonbi ko",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "葉にくるまれたグリーンカレー。ラオス・パークセーにて。",
+    "thumb": "thumbs/gaeng-keow-wan--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Green Curry, Siam House, Paris 001.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Green_Curry%2C_Siam_House%2C_Paris_001.jpg/1280px-Green_Curry%2C_Siam_House%2C_Paris_001.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Green_Curry%2C_Siam_House%2C_Paris_001.jpg/500px-Green_Curry%2C_Siam_House%2C_Paris_001.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Green_Curry,_Siam_House,_Paris_001.jpg",
+    "author": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Green Curry @ Siam House @ Montparnasse @ Paris",
+    "thumb": "thumbs/gaeng-keow-wan--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Green Curry, Siam House, Paris 002.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Green_Curry%2C_Siam_House%2C_Paris_002.jpg/1280px-Green_Curry%2C_Siam_House%2C_Paris_002.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Green_Curry%2C_Siam_House%2C_Paris_002.jpg/500px-Green_Curry%2C_Siam_House%2C_Paris_002.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Green_Curry,_Siam_House,_Paris_002.jpg",
+    "author": "Guilhem Vellut from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Green Curry @ Siam House @ Montparnasse @ Paris",
+    "thumb": "thumbs/gaeng-keow-wan--5.jpg"
+   }
+  ]
+ },
+ "massaman-curry": {
+  "title": "Curry massaman (bœuf, pommes de terre et cacahuètes)",
+  "original": "Gaeng massaman (แกงมัสมั่น)",
+  "en": "Massaman curry with beef",
+  "country": "TH",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Curry pastes Thailand.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Curry_pastes_Thailand.JPG/1280px-Curry_pastes_Thailand.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Curry_pastes_Thailand.JPG/500px-Curry_pastes_Thailand.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Curry_pastes_Thailand.JPG",
+    "author": "Helge Høifødt",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Curry pastes from Thailand, product Agroy-D fra Agi Foods. From left: Red, green, yellow, Penang / Penaeng, mussaman / massaman Karripastaer produsert i Thailand (produkt Arpy-D fra Agri Foods). Fra venstre: Rød, grønn, gul, Penang, mussaman",
+    "thumb": "thumbs/massaman-curry--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kaeng matsaman kai.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kaeng_matsaman_kai.JPG/1280px-Kaeng_matsaman_kai.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Kaeng_matsaman_kai.JPG/500px-Kaeng_matsaman_kai.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaeng_matsaman_kai.JPG",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Kaeng matsaman kai: chicken and potato matsaman curry at a southern Thai eatery in Chiang Mai.",
+    "thumb": "thumbs/massaman-curry--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Matsaman nuea.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Matsaman_nuea.jpg/1280px-Matsaman_nuea.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Matsaman_nuea.jpg/500px-Matsaman_nuea.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Matsaman_nuea.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Matsaman nuea (Thai script: มัสมั่นเนื้อ) is matsaman/massaman curry with beef. The curry in this image also contains potatoes. It also shows the star anise, cinnamon and cloves needed for matsaman, spices which are not commonly used in Thai cuisine.",
+    "thumb": "thumbs/massaman-curry--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Gaeng massaman, restaurant tailandés, Xàbia.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Gaeng_massaman%2C_restaurant_tailand%C3%A9s%2C_X%C3%A0bia.jpg/1280px-Gaeng_massaman%2C_restaurant_tailand%C3%A9s%2C_X%C3%A0bia.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Gaeng_massaman%2C_restaurant_tailand%C3%A9s%2C_X%C3%A0bia.jpg/500px-Gaeng_massaman%2C_restaurant_tailand%C3%A9s%2C_X%C3%A0bia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gaeng_massaman,_restaurant_tailand%C3%A9s,_X%C3%A0bia.jpg",
+    "author": "Joanbanjo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Gaeng massaman, restaurant tailandés, Xàbia.",
+    "thumb": "thumbs/massaman-curry--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chicken Massaman Curry -Bangkok -Food (30363542667).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Chicken_Massaman_Curry_-Bangkok_-Food_%2830363542667%29.jpg/1280px-Chicken_Massaman_Curry_-Bangkok_-Food_%2830363542667%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Chicken_Massaman_Curry_-Bangkok_-Food_%2830363542667%29.jpg/500px-Chicken_Massaman_Curry_-Bangkok_-Food_%2830363542667%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_Massaman_Curry_-Bangkok_-Food_(30363542667).jpg",
+    "author": "Vee Satayamas from Bangkok, Thailand",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Chicken Massaman Curry #Bangkok #Food",
+    "thumb": "thumbs/massaman-curry--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Matsuya Foods Massaman with Curry Regular.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Matsuya_Foods_Massaman_with_Curry_Regular.jpg/1280px-Matsuya_Foods_Massaman_with_Curry_Regular.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Matsuya_Foods_Massaman_with_Curry_Regular.jpg/500px-Matsuya_Foods_Massaman_with_Curry_Regular.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Matsuya_Foods_Massaman_with_Curry_Regular.jpg",
+    "author": "Tokumeigakarinoaoshima",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "松屋フーズのマッサマンカレーを撮影。",
+    "thumb": "thumbs/massaman-curry--5.jpg"
+   }
+  ]
+ },
+ "khao-niao-mamuang": {
+  "title": "Riz gluant à la mangue (khao niao mamuang)",
+  "original": "Khao niao mamuang (ข้าวเหนียวมะม่วง)",
+  "en": "Mango sticky rice",
+  "country": "TH",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mango with glutinous rice.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mango_with_glutinous_rice.jpg/1280px-Mango_with_glutinous_rice.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mango_with_glutinous_rice.jpg/500px-Mango_with_glutinous_rice.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mango_with_glutinous_rice.jpg",
+    "author": "Terence Ong",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "description": "Thai mango with glutinous rice.",
+    "thumb": "thumbs/khao-niao-mamuang--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mango with Sticky Rice P1130096.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mango_with_Sticky_Rice_P1130096.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mango_with_Sticky_Rice_P1130096.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Mango_with_Sticky_Rice_P1130096.JPG",
+    "author": "deror_avi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Mango with Sticky Rice, May Kaidee's Cooking School, Bangkok, Thailand",
+    "thumb": "thumbs/khao-niao-mamuang--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cuisine of Thailand P1120983.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Cuisine_of_Thailand_P1120983.JPG/1280px-Cuisine_of_Thailand_P1120983.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Cuisine_of_Thailand_P1120983.JPG/500px-Cuisine_of_Thailand_P1120983.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuisine_of_Thailand_P1120983.JPG",
+    "author": "deror_avi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "May Kaidee's Cooking School, Bangkok, Thailand",
+    "thumb": "thumbs/khao-niao-mamuang--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mango with sticky rice .jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mango_with_sticky_rice_.jpg/1280px-Mango_with_sticky_rice_.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mango_with_sticky_rice_.jpg/500px-Mango_with_sticky_rice_.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mango_with_sticky_rice_.jpg",
+    "author": "techistoria",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Mango with Sticky Rice",
+    "thumb": "thumbs/khao-niao-mamuang--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Khao Niao Ma Muang.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Khao_Niao_Ma_Muang.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Khao_Niao_Ma_Muang.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Khao_Niao_Ma_Muang.jpg",
+    "author": "Coentor",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Postres d'arròs glutinós amb salsa de coco i Mango.",
+    "thumb": "thumbs/khao-niao-mamuang--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mango sticy rice (3859549574).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mango_sticy_rice_%283859549574%29.jpg/1280px-Mango_sticy_rice_%283859549574%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mango_sticy_rice_%283859549574%29.jpg/500px-Mango_sticy_rice_%283859549574%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mango_sticy_rice_(3859549574).jpg",
+    "author": "Dennis Wong from Hong Kong, Hong Kong",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Erawan Tea Room at Grand Hyatt Erawan Bangkok Hotel, Thailand",
+    "thumb": "thumbs/khao-niao-mamuang--5.jpg"
+   }
+  ]
+ },
+ "khao-man-gai": {
+  "title": "Khao man gai (poulet poché et riz au bouillon, sauce au soja fermenté)",
+  "original": "Khao man gai (ข้าวมันไก่)",
+  "en": "Khao man gai (Thai Hainanese chicken rice)",
+  "country": "TH",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Iwata Kenichi Kao Man Gai.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Iwata_Kenichi_Kao_Man_Gai.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Iwata_Kenichi_Kao_Man_Gai.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Iwata_Kenichi_Kao_Man_Gai.jpg",
+    "author": "IWATA Kenichi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "kao man gai, steamed chicken with rice, taken in Udonthani, Thailand. This is \"piset\" means special, the amount of chicken is more than \"tamada\" (normal).",
+    "thumb": "thumbs/khao-man-gai--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kao mun gai.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kao_mun_gai.jpg/1280px-Kao_mun_gai.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kao_mun_gai.jpg/500px-Kao_mun_gai.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kao_mun_gai.jpg",
+    "author": "Calliopejen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Kao mun gai, a Thai chicken dish with a ginger sauce, served over rice with cucumbers and blood tofu.",
+    "thumb": "thumbs/khao-man-gai--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Khao mun kai CM.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Khao_mun_kai_CM.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/21/Khao_mun_kai_CM.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Khao_mun_kai_CM.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Khao man kai is the Thai version of Hainanese chicken rice. It is rice boiled with garlic and oil in a light chicken broth, and which is served with slices of boiled chicken, a bowl of chicken broth, and, in the Thai version, a dipping sauce containing fermented yellow bean paste, chopped ginger, ch",
+    "thumb": "thumbs/khao-man-gai--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:2013 Khao man kai Chiang Mai.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2013_Khao_man_kai_Chiang_Mai.jpg/1280px-2013_Khao_man_kai_Chiang_Mai.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2013_Khao_man_kai_Chiang_Mai.jpg/500px-2013_Khao_man_kai_Chiang_Mai.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2013_Khao_man_kai_Chiang_Mai.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Khao man kai (Thai script: ข้าวมันไก่) is the Thai version of Hainanese chicken rice. It is rice boiled with garlic and oil in a light chicken broth, and which is served with slices of boiled chicken, a bowl of chicken broth, and, in the Thai version, a dipping sauce containing fermented yellow bean",
+    "thumb": "thumbs/khao-man-gai--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Khao man kai CM.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Khao_man_kai_CM.jpg/1280px-Khao_man_kai_CM.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Khao_man_kai_CM.jpg/500px-Khao_man_kai_CM.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Khao_man_kai_CM.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Khao man kai (Thai script: ข้าวมันไก่) is the Thai version of Hainanese chicken rice. It is rice boiled with garlic and oil in a light chicken broth, and which is served with slices of boiled chicken, a bowl of chicken broth, and, in the Thai version, a dipping sauce containing fermented yellow bean",
+    "thumb": "thumbs/khao-man-gai--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:2013 Khao man kai CM.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2013_Khao_man_kai_CM.jpg/1280px-2013_Khao_man_kai_CM.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2013_Khao_man_kai_CM.jpg/500px-2013_Khao_man_kai_CM.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2013_Khao_man_kai_CM.jpg",
+    "author": "Takeaway",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "'Khao man kai meal: top left is nam chim tauchiao (a dipping sauce made with fermented soy beans), top middle is a glass of very light ice tea, top right is nam kaeng hua chai thao (Chinese radish soup). The plate with chicken meat and rice also contains a slice of chicken liver, a few blocks of blo",
+    "thumb": "thumbs/khao-man-gai--5.jpg"
+   }
+  ]
+ }
+}

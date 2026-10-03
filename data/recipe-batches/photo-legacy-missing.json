@@ -1,0 +1,842 @@
+[
+ {
+  "slug": "truita-de-carreroles",
+  "country": "AD",
+  "original": "Truita de carreroles",
+  "en": "Andorran truita de carreroles (fairy ring mushroom omelette)",
+  "title": "Truita de carreroles andorrane (omelette aux mousserons)",
+  "openverse": true
+ },
+ {
+  "slug": "chebab-emirati",
+  "country": "AE",
+  "original": "Chebab",
+  "en": "Emirati chebab (saffron and cardamom pancakes)",
+  "title": "Chebab émiriens (crêpes épaisses au safran et cardamome)",
+  "openverse": true
+ },
+ {
+  "slug": "saloona-emirati",
+  "country": "AE",
+  "original": "Saloona",
+  "en": "Emirati saloona (chicken and vegetable stew)",
+  "title": "Saloona émirienne (ragoût de poulet aux légumes et bzar)",
+  "openverse": true
+ },
+ {
+  "slug": "shor-nakhod-kaboul",
+  "country": "AF",
+  "original": "Shor nakhod",
+  "en": "Kabul shor nakhod (chickpea and potato street salad)",
+  "title": "Shor nakhod de Kaboul (salade de pois chiches et pommes de terre à la coriandre)",
+  "openverse": true
+ },
+ {
+  "slug": "harissa-armenienne",
+  "country": "AM",
+  "original": "Harissa (Arménie)",
+  "en": "Armenian harissa (wheat and chicken porridge)",
+  "title": "Harissa arménienne (bouillie de blé et de poulet)",
+  "openverse": true
+ },
+ {
+  "slug": "bosanski-lonac",
+  "country": "BA",
+  "original": "Bosanski lonac",
+  "en": "Bosanski lonac (Bosnian meat and vegetable pot)",
+  "title": "Bosanski lonac (pot-au-feu bosnien de viandes et légumes)",
+  "openverse": true
+ },
+ {
+  "slug": "bajan-fish-cakes",
+  "country": "BB",
+  "original": "Bajan fish cakes",
+  "en": "Bajan fish cakes (salt cod fritters)",
+  "title": "Fish cakes de la Barbade (beignets de morue salée aux herbes)",
+  "openverse": true
+ },
+ {
+  "slug": "pudding-and-souse",
+  "country": "BB",
+  "original": "Pudding and souse",
+  "en": "Bajan pudding and souse",
+  "title": "Pudding and souse (porc mariné au citron et boudin de patate douce)",
+  "openverse": true
+ },
+ {
+  "slug": "halwa-bahreinie",
+  "country": "BH",
+  "original": "Halwa bahreïnie",
+  "en": "Bahraini halwa (saffron starch sweet with nuts)",
+  "title": "Halwa bahreïnie (confiserie à l’amidon, safran et fruits secs)",
+  "openverse": true
+ },
+ {
+  "slug": "muhammar-bahrein",
+  "country": "BH",
+  "original": "Muhammar",
+  "en": "Bahraini muhammar (sweet date-syrup rice)",
+  "title": "Muhammar bahreïni (riz sucré au sirop de dattes et safran)",
+  "openverse": true
+ },
+ {
+  "slug": "udang-sambal-serai-lada",
+  "country": "BN",
+  "original": "Udang sambal serai lada",
+  "en": "Bruneian udang sambal serai lada (lemongrass chili prawns)",
+  "title": "Udang sambal serai lada (crevettes à la citronnelle et piment de Brunei)",
+  "openverse": true
+ },
+ {
+  "slug": "chicken-souse-bahamas",
+  "country": "BS",
+  "original": "Chicken souse",
+  "en": "Bahamian chicken souse (lime and chicken soup)",
+  "title": "Chicken souse des Bahamas (soupe de poulet au citron vert)",
+  "openverse": true
+ },
+ {
+  "slug": "johnnycake-bahamas",
+  "country": "BS",
+  "original": "Johnnycake",
+  "en": "Bahamian johnnycake",
+  "title": "Johnnycake des Bahamas (pain de poêle au beurre)",
+  "openverse": true
+ },
+ {
+  "slug": "phaksha-paa",
+  "country": "BT",
+  "original": "Phaksha paa",
+  "en": "Bhutanese phaksha paa (pork with radish and dried chilies)",
+  "title": "Phaksha paa bhoutanais (porc aux radis et piments séchés)",
+  "openverse": true
+ },
+ {
+  "slug": "yuca-con-mojo",
+  "country": "CU",
+  "original": "Yuca con mojo",
+  "en": "Cuban yuca con mojo (cassava with garlic citrus sauce)",
+  "title": "Yuca con mojo cubaine (manioc à l’ail et aux agrumes)",
+  "openverse": true
+ },
+ {
+  "slug": "canja-cap-verdienne",
+  "country": "CV",
+  "original": "Canja",
+  "en": "Cape Verdean canja (chicken and rice soup)",
+  "title": "Canja cap-verdienne (soupe de poulet au riz)",
+  "openverse": true
+ },
+ {
+  "slug": "pastel-com-diabo-dentro",
+  "country": "CV",
+  "original": "Pastel com diabo dentro",
+  "en": "Mindelo pastel com diabo dentro (spicy tuna pasties)",
+  "title": "Pastel com diabo dentro de Mindelo (chaussons au thon pimenté)",
+  "openverse": true
+ },
+ {
+  "slug": "koupepia",
+  "country": "CY",
+  "original": "Koupepia",
+  "en": "Cypriot koupepia (stuffed vine leaves)",
+  "title": "Koupepia chypriotes (feuilles de vigne farcies viande et riz)",
+  "openverse": true
+ },
+ {
+  "slug": "fah-fah-djiboutien",
+  "country": "DJ",
+  "original": "Fah-fah",
+  "en": "Djiboutian fah-fah (spicy goat soup)",
+  "title": "Fah-fah djiboutien (soupe épicée de chevreau)",
+  "openverse": true
+ },
+ {
+  "slug": "poisson-yemenite-djibouti",
+  "country": "DJ",
+  "original": "Poisson à la yéménite (mukbasa)",
+  "en": "Djibouti Yemeni-style fish (tandoor-roasted fish with chili paste)",
+  "title": "Poisson à la yéménite de Djibouti (poisson rôti au four et sauce pimentée)",
+  "openverse": true
+ },
+ {
+  "slug": "rosolje-estonien",
+  "country": "EE",
+  "original": "Rosolje",
+  "en": "Estonian rosolje (beet and herring salad)",
+  "title": "Rosolje estonien (salade de betterave, hareng et pommes de terre)",
+  "openverse": true
+ },
+ {
+  "slug": "fijian-chicken-curry",
+  "country": "FJ",
+  "original": "Curry de poulet indo-fidjien",
+  "en": "Indo-Fijian chicken curry",
+  "title": "Curry de poulet indo-fidjien (masala et pommes de terre)",
+  "openverse": true
+ },
+ {
+  "slug": "vakalolo",
+  "country": "FJ",
+  "original": "Vakalolo",
+  "en": "Fijian vakalolo (cassava pudding with coconut caramel)",
+  "title": "Vakalolo fidjien (pudding de manioc au caramel de coco)",
+  "openverse": true
+ },
+ {
+  "slug": "benachin-gambien",
+  "country": "GM",
+  "original": "Benachin",
+  "en": "Gambian benachin (one-pot fish and rice)",
+  "title": "Benachin gambien (riz au poisson cuit dans la sauce)",
+  "openverse": true
+ },
+ {
+  "slug": "jocon-guatemalteque",
+  "country": "GT",
+  "original": "Jocón",
+  "en": "Guatemalan jocón (chicken in green tomatillo sauce)",
+  "title": "Jocón guatémaltèque (poulet en sauce verte au tomatillo)",
+  "openverse": true
+ },
+ {
+  "slug": "guyanese-chicken-curry",
+  "country": "GY",
+  "original": "Guyanese chicken curry",
+  "en": "Guyanese chicken curry",
+  "title": "Curry de poulet guyanien (masala grillé et pommes de terre)",
+  "openverse": true
+ },
+ {
+  "slug": "metemgee",
+  "country": "GY",
+  "original": "Metemgee",
+  "en": "Guyanese metemgee (coconut root vegetable stew)",
+  "title": "Metemgee guyanien (ragoût de tubercules au lait de coco et dumplings)",
+  "openverse": true
+ },
+ {
+  "slug": "salara-guyana",
+  "country": "GY",
+  "original": "Salara",
+  "en": "Guyanese salara (red coconut roll)",
+  "title": "Salara guyanien (brioche roulée à la noix de coco rouge)",
+  "openverse": true
+ },
+ {
+  "slug": "pastelitos-hondurenos",
+  "country": "HN",
+  "original": "Pastelitos de carne",
+  "en": "Honduran pastelitos de carne (corn masa meat turnovers)",
+  "title": "Pastelitos honduriens (chaussons de maïs à la viande)",
+  "openverse": true
+ },
+ {
+  "slug": "plato-tipico-hondureno",
+  "country": "HN",
+  "original": "Plato típico",
+  "en": "Honduran plato típico",
+  "title": "Plato típico hondurien (assiette de bœuf grillé, haricots et plantain)",
+  "openverse": true
+ },
+ {
+  "slug": "peka-dalmate",
+  "country": "HR",
+  "original": "Peka",
+  "en": "Dalmatian peka (lamb and potatoes under the bell)",
+  "title": "Peka dalmate (agneau et pommes de terre sous cloche)",
+  "openverse": true
+ },
+ {
+  "slug": "akra-haitien",
+  "country": "HT",
+  "original": "Akra",
+  "en": "Haitian akra (malanga fritters)",
+  "title": "Akra haïtiens (beignets de malanga aux épices)",
+  "openverse": true
+ },
+ {
+  "slug": "diri-djon-djon",
+  "country": "HT",
+  "original": "Diri ak djon djon",
+  "en": "Haitian diri ak djon djon (black mushroom rice)",
+  "title": "Diri ak djon djon haïtien (riz noir aux champignons djon djon)",
+  "openverse": true
+ },
+ {
+  "slug": "kofta-bi-tahini",
+  "country": "JO",
+  "original": "Kofta bi tahini",
+  "en": "Jordanian kofta bi tahini (baked kofta in tahini sauce)",
+  "title": "Kofta bi tahini jordanienne (boulettes d’agneau au four sauce tahini)",
+  "openverse": true
+ },
+ {
+  "slug": "bai-sach-chrouk",
+  "country": "KH",
+  "original": "Bai sach chrouk",
+  "en": "Cambodian bai sach chrouk (coconut grilled pork and rice)",
+  "title": "Bai sach chrouk cambodgien (porc grillé à la noix de coco et riz)",
+  "openverse": true
+ },
+ {
+  "slug": "kespe-kazakh",
+  "country": "KZ",
+  "original": "Kespe",
+  "en": "Kazakh kespe (homemade noodle soup)",
+  "title": "Kespe kazakh (soupe de nouilles maison au bœuf)",
+  "openverse": true
+ },
+ {
+  "slug": "sorpa-kazakh",
+  "country": "KZ",
+  "original": "Sorpa",
+  "en": "Kazakh sorpa (mutton broth)",
+  "title": "Sorpa kazakhe (bouillon de mouton aux herbes)",
+  "openverse": true
+ },
+ {
+  "slug": "hafalab",
+  "country": "LI",
+  "original": "Hafaläb",
+  "en": "Liechtenstein Hafaläb (cornmeal dumpling with bacon)",
+  "title": "Hafaläb du Liechtenstein (quenelle de maïs et blé au lard)",
+  "openverse": true
+ },
+ {
+  "slug": "parippu-sri-lankais",
+  "country": "LK",
+  "original": "Parippu",
+  "en": "Sri Lankan parippu (red lentil coconut dhal)",
+  "title": "Parippu sri-lankais (dhal de lentilles corail au lait de coco)",
+  "openverse": true
+ },
+ {
+  "slug": "cassava-leaf-liberia",
+  "country": "LR",
+  "original": "Cassava leaf",
+  "en": "Liberian cassava leaf stew",
+  "title": "Cassava leaf libérien (feuilles de manioc à l’huile de palme)",
+  "openverse": true
+ },
+ {
+  "slug": "potato-greens-liberia",
+  "country": "LR",
+  "original": "Potato greens",
+  "en": "Liberian potato greens",
+  "title": "Potato greens libériennes (feuilles de patate douce en sauce)",
+  "openverse": true
+ },
+ {
+  "slug": "rice-bread-liberia",
+  "country": "LR",
+  "original": "Rice bread",
+  "en": "Liberian rice bread (banana rice cake)",
+  "title": "Rice bread libérien (gâteau de riz à la banane)",
+  "openverse": true
+ },
+ {
+  "slug": "skabenu-zupa",
+  "country": "LV",
+  "original": "Skābeņu zupa",
+  "en": "Latvian sorrel soup (skābeņu zupa)",
+  "title": "Skābeņu zupa lettone (soupe à l’oseille et à l’œuf)",
+  "openverse": true
+ },
+ {
+  "slug": "coltunasi-moldaves",
+  "country": "MD",
+  "original": "Colțunași",
+  "en": "Moldovan colțunași (cheese dumplings)",
+  "title": "Colțunași moldaves (raviolis au fromage de brebis)",
+  "openverse": true
+ },
+ {
+  "slug": "buzara-boka",
+  "country": "ME",
+  "original": "Buzara",
+  "en": "Boka Kotorska buzara (mussels in white wine and garlic)",
+  "title": "Buzara des Bouches de Kotor (moules au vin blanc, ail et chapelure)",
+  "openverse": true
+ },
+ {
+  "slug": "akoho-sy-voanio",
+  "country": "MG",
+  "original": "Akoho sy voanio",
+  "en": "Malagasy akoho sy voanio (chicken in coconut milk)",
+  "title": "Akoho sy voanio malgache (poulet au lait de coco)",
+  "openverse": true
+ },
+ {
+  "slug": "kyet-thar-hin",
+  "country": "MM",
+  "original": "Kyet thar hin",
+  "en": "Burmese kyet thar hin (chicken curry)",
+  "title": "Kyet thar hin birman (curry de poulet à l’huile et au gingembre)",
+  "openverse": true
+ },
+ {
+  "slug": "torta-tal-lampuki",
+  "country": "MT",
+  "original": "Torta tal-lampuki",
+  "en": "Maltese lampuki pie (dorado fish pie)",
+  "title": "Torta tal-lampuki maltaise (tourte à la coryphène et aux légumes)",
+  "openverse": true
+ },
+ {
+  "slug": "bis-keemiya",
+  "country": "MV",
+  "original": "Bis keemiya",
+  "en": "Maldivian bis keemiya (tuna and cabbage pastries)",
+  "title": "Bis keemiya maldiviens (chaussons au thon, chou et œuf)",
+  "openverse": true
+ },
+ {
+  "slug": "kondowole-malawien",
+  "country": "MW",
+  "original": "Kondowole",
+  "en": "Malawian kondowole (cassava flour porridge)",
+  "title": "Kondowole malawien (pâte de manioc du lac Malawi)",
+  "openverse": true
+ },
+ {
+  "slug": "ndiwo-za-nkhwani",
+  "country": "MW",
+  "original": "Nkhwani",
+  "en": "Malawian nkhwani (pumpkin leaves with peanut flour)",
+  "title": "Nkhwani malawien (feuilles de courge à la pâte d’arachide)",
+  "openverse": true
+ },
+ {
+  "slug": "bolo-polana",
+  "country": "MZ",
+  "original": "Bolo polana",
+  "en": "Maputo bolo polana (cashew and potato cake)",
+  "title": "Bolo polana de Maputo (gâteau aux noix de cajou et pomme de terre)",
+  "openverse": true
+ },
+ {
+  "slug": "camarao-piri-piri",
+  "country": "MZ",
+  "original": "Camarão grelhado piri-piri",
+  "en": "Mozambican grilled piri-piri prawns",
+  "title": "Crevettes grillées piri-piri du Mozambique",
+  "openverse": true
+ },
+ {
+  "slug": "rondon-bluefields",
+  "country": "NI",
+  "original": "Rondón (run down)",
+  "en": "Bluefields rondón (coconut fish and root vegetable stew)",
+  "title": "Rondón de Bluefields (ragoût de poisson au lait de coco et tubercules)",
+  "openverse": true
+ },
+ {
+  "slug": "lapskaus-norvegien",
+  "country": "NO",
+  "original": "Lapskaus",
+  "en": "Norwegian lapskaus (meat and root vegetable stew)",
+  "title": "Lapskaus norvégien (ragoût épais de viande et légumes racines)",
+  "openverse": true
+ },
+ {
+  "slug": "mashuai-omanais",
+  "country": "OM",
+  "original": "Mashuai",
+  "en": "Omani mashuai (grilled kingfish with lemon rice)",
+  "title": "Mashuai omanais (poisson grillé au riz citronné)",
+  "openverse": true
+ },
+ {
+  "slug": "hojaldras-panamenas",
+  "country": "PA",
+  "original": "Hojaldras",
+  "en": "Panamanian hojaldras (fried dough)",
+  "title": "Hojaldras panaméennes (pâte frite gonflée du petit-déjeuner)",
+  "openverse": true
+ },
+ {
+  "slug": "aigir-east-new-britain",
+  "country": "PG",
+  "original": "Aigir",
+  "en": "East New Britain aigir (coconut chicken and vegetables cooked with hot stones)",
+  "title": "Aigir de Nouvelle-Bretagne (poulet et légumes au lait de coco aux pierres chaudes)",
+  "openverse": true
+ },
+ {
+  "slug": "kaukau-coco-png",
+  "country": "PG",
+  "original": "Kaukau",
+  "en": "Papua New Guinean kaukau (sweet potato in coconut milk)",
+  "title": "Kaukau de Papouasie (patates douces au lait de coco)",
+  "openverse": true
+ },
+ {
+  "slug": "saksak",
+  "country": "PG",
+  "original": "Saksak",
+  "en": "Sepik saksak (sago and banana dumplings)",
+  "title": "Saksak du Sepik (boulettes de sagou à la banane et coco)",
+  "openverse": true
+ },
+ {
+  "slug": "agatogo-rwandais",
+  "country": "RW",
+  "original": "Agatogo",
+  "en": "Rwandan agatogo (plantain and meat stew)",
+  "title": "Agatogo rwandais (bananes plantains et viande en sauce)",
+  "openverse": true
+ },
+ {
+  "slug": "ibiharage-rwandais",
+  "country": "RW",
+  "original": "Ibiharage",
+  "en": "Rwandan ibiharage (fried beans with onion)",
+  "title": "Ibiharage rwandais (haricots sautés à l’oignon)",
+  "openverse": true
+ },
+ {
+  "slug": "parene-buchty",
+  "country": "SK",
+  "original": "Parené buchty",
+  "en": "Slovak parené buchty (steamed plum-filled buns)",
+  "title": "Parené buchty slovaques (brioches vapeur fourrées aux prunes)",
+  "openverse": true
+ },
+ {
+  "slug": "pastels-senegalais",
+  "country": "SN",
+  "original": "Pastels",
+  "en": "Senegalese pastels (fish-filled fried pastries)",
+  "title": "Pastels sénégalais (chaussons frits au poisson et sauce tomate pimentée)",
+  "openverse": true
+ },
+ {
+  "slug": "thiakry",
+  "country": "SN",
+  "original": "Thiakry",
+  "en": "Senegalese thiakry (millet couscous with sweetened yogurt)",
+  "title": "Thiakry sénégalais (couscous de mil au lait caillé)",
+  "openverse": true
+ },
+ {
+  "slug": "cambuulo-somali",
+  "country": "SO",
+  "original": "Cambuulo",
+  "en": "Somali cambuulo (azuki beans with butter and sugar)",
+  "title": "Cambuulo somalien (haricots azuki au beurre et au sucre)",
+  "openverse": true
+ },
+ {
+  "slug": "muufo-somali",
+  "country": "SO",
+  "original": "Muufo",
+  "en": "Somali muufo (cornmeal flatbread)",
+  "title": "Muufo somalien (pains de maïs cuits au four)",
+  "openverse": true
+ },
+ {
+  "slug": "suqaar-somali",
+  "country": "SO",
+  "original": "Suqaar",
+  "en": "Somali suqaar (beef stir-fry with vegetables and xawaash)",
+  "title": "Suqaar somalien (bœuf sauté aux légumes et xawaash)",
+  "openverse": true
+ },
+ {
+  "slug": "moksi-alesi",
+  "country": "SR",
+  "original": "Moksi alesi",
+  "en": "Surinamese moksi alesi (mixed rice)",
+  "title": "Moksi alesi surinamien (riz mélangé aux viandes, poisson salé et haricots)",
+  "openverse": true
+ },
+ {
+  "slug": "saoto-soep",
+  "country": "SR",
+  "original": "Saoto soep",
+  "en": "Surinamese saoto soup (Javanese chicken soup)",
+  "title": "Saoto soep surinamienne (soupe javanaise au poulet)",
+  "openverse": true
+ },
+ {
+  "slug": "quesadilla-salvadorena",
+  "country": "SV",
+  "original": "Quesadilla salvadoreña",
+  "en": "Salvadoran quesadilla (cheese pound cake)",
+  "title": "Quesadilla salvadorienne (gâteau au fromage et farine de riz)",
+  "openverse": true
+ },
+ {
+  "slug": "aiysh-tchadien",
+  "country": "TD",
+  "original": "Aiysh (boule de mil)",
+  "en": "Chadian aiysh (millet boule with okra sauce)",
+  "title": "Aiysh tchadien (boule de mil et sauce gombo)",
+  "openverse": true
+ },
+ {
+  "slug": "daraba-tchadien",
+  "country": "TD",
+  "original": "Daraba",
+  "en": "Chadian daraba (okra and vegetable stew with peanut butter)",
+  "title": "Daraba tchadien (gombo, légumes et beurre de cacahuète)",
+  "openverse": true
+ },
+ {
+  "slug": "karkanji-tchadien",
+  "country": "TD",
+  "original": "Karkanji",
+  "en": "Chadian karkanji (hibiscus and ginger drink)",
+  "title": "Karkanji tchadien (boisson d’hibiscus au gingembre)",
+  "openverse": true
+ },
+ {
+  "slug": "mashwi-tchadien",
+  "country": "TD",
+  "original": "Mashwi",
+  "en": "Chadian mashwi (spiced beef skewers)",
+  "title": "Mashwi tchadien (brochettes de bœuf aux épices)",
+  "openverse": true
+ },
+ {
+  "slug": "shirchoy-tadjik",
+  "country": "TJ",
+  "original": "Shirchoy",
+  "en": "Tajik shirchoy (salted milk tea with butter)",
+  "title": "Shirchoy tadjik (thé au lait salé et beurre)",
+  "openverse": true
+ },
+ {
+  "slug": "curry-crab-and-dumpling",
+  "country": "TT",
+  "original": "Curry crab and dumpling",
+  "en": "Tobago curry crab and dumpling",
+  "title": "Curry crab and dumpling de Tobago (crabe au curry et quenelles)",
+  "openverse": true
+ },
+ {
+  "slug": "malewa-bugisu",
+  "country": "UG",
+  "original": "Malewa",
+  "en": "Bugisu malewa (smoked bamboo shoots in peanut sauce)",
+  "title": "Malewa du Bugisu (pousses de bambou fumées à l’arachide)",
+  "openverse": true
+ },
+ {
+  "slug": "nalot",
+  "country": "VU",
+  "original": "Nalot",
+  "en": "Vanuatu nalot (pounded taro or banana with coconut)",
+  "title": "Nalot du Vanuatu (taro ou banane pilés au lait de coco)",
+  "openverse": true
+ },
+ {
+  "slug": "simboro",
+  "country": "VU",
+  "original": "Simboro",
+  "en": "Vanuatu simboro (leaf rolls with cassava and coconut)",
+  "title": "Simboro du Vanuatu (rouleaux de feuilles farcis au manioc et coco)",
+  "openverse": true
+ },
+ {
+  "slug": "tuluk-vanuatu",
+  "country": "VU",
+  "original": "Tuluk",
+  "en": "Vanuatu tuluk (cassava parcels with pork)",
+  "title": "Tuluk du Vanuatu (pâte de manioc farcie au porc en feuille)",
+  "openverse": true
+ },
+ {
+  "slug": "koko-alaisa",
+  "country": "WS",
+  "original": "Koko alaisa",
+  "en": "Samoan koko alaisa (cocoa rice)",
+  "title": "Koko alaisa samoan (riz au cacao de Samoa)",
+  "openverse": true
+ },
+ {
+  "slug": "panipopo",
+  "country": "WS",
+  "original": "Panipopo",
+  "en": "Samoan panipopo (coconut caramel buns)",
+  "title": "Panipopo samoans (petits pains briochés au caramel de coco)",
+  "openverse": true
+ },
+ {
+  "slug": "sapasui",
+  "country": "WS",
+  "original": "Sapasui",
+  "en": "Samoan sapasui (chop suey)",
+  "title": "Sapasui samoan (vermicelles sautés au bœuf et soja)",
+  "openverse": true
+ },
+ {
+  "slug": "vitumbuwa-zambiens",
+  "country": "ZM",
+  "original": "Vitumbuwa",
+  "en": "Zambian vitumbuwa (small fritters)",
+  "title": "Vitumbuwa zambiens (petits beignets ronds)",
+  "openverse": true
+ },
+ {
+  "slug": "muriwo-une-dovi",
+  "country": "ZW",
+  "original": "Muriwo une dovi",
+  "en": "Zimbabwean muriwo une dovi (greens with peanut butter)",
+  "title": "Muriwo une dovi zimbabwéen (légumes verts au beurre de cacahuète)",
+  "openverse": true
+ },
+ {
+  "slug": "rupiza-zimbabween",
+  "country": "ZW",
+  "original": "Rupiza",
+  "en": "Zimbabwean rupiza (pea and bean mash)",
+  "title": "Rupiza zimbabwéen (purée de pois et haricots)",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-a51db881-68ba-4699-b4d7-22f6de617394",
+  "id": "a51db881-68ba-4699-b4d7-22f6de617394",
+  "country": "BB",
+  "original": "Cou-cou and flying fish",
+  "en": "Bajan cou-cou with flying fish",
+  "title": "Cou-cou and flying fish",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-964b4caa-3aca-49f9-96c8-829aa357d5f5",
+  "id": "964b4caa-3aca-49f9-96c8-829aa357d5f5",
+  "country": "DJ",
+  "original": "Skoudehkaris",
+  "en": "Djiboutian skoudehkaris spiced lamb rice",
+  "title": "Skoudehkaris",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-1226d66a-5b47-4de7-9990-0805b92e7dec",
+  "id": "1226d66a-5b47-4de7-9990-0805b92e7dec",
+  "country": "DO",
+  "original": "La Bandera Dominicana",
+  "en": "La Bandera Dominicana rice beans chicken",
+  "title": "La Bandera Dominicana",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-955b216e-a907-44a8-b1a4-4fb321a59627",
+  "id": "955b216e-a907-44a8-b1a4-4fb321a59627",
+  "country": "FJ",
+  "original": "Rourou",
+  "en": "Fijian rourou taro leaves coconut",
+  "title": "Rourou",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-721b8387-db58-4824-9baf-f2b7de07c5cf",
+  "id": "721b8387-db58-4824-9baf-f2b7de07c5cf",
+  "country": "GH",
+  "original": "Groundnut soup",
+  "en": "Ghanaian peanut soup chicken",
+  "title": "Groundnut soup",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-aadf33a9-e902-418e-9fba-2132a894a631",
+  "id": "aadf33a9-e902-418e-9fba-2132a894a631",
+  "country": "GY",
+  "original": "Cook-up rice",
+  "en": "Guyanese cook-up rice",
+  "title": "Cook-up rice",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-31d8fa58-d14e-4e10-b53d-6cb3f224330a",
+  "id": "31d8fa58-d14e-4e10-b53d-6cb3f224330a",
+  "country": "LK",
+  "original": "Ambul thiyal",
+  "en": "Sri Lankan fish ambul thiyal",
+  "title": "Ambul thiyal",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-1570f9e4-ca9f-4e3a-a9c6-f79e8f4e40e1",
+  "id": "1570f9e4-ca9f-4e3a-a9c6-f79e8f4e40e1",
+  "country": "ME",
+  "original": "Ispod sača",
+  "en": "lamb under sač peka",
+  "title": "Ispod sača",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-fc7b7793-6bd0-4ece-b90b-6d05899be036",
+  "id": "fc7b7793-6bd0-4ece-b90b-6d05899be036",
+  "country": "MT",
+  "original": "Ftira Għawdxija",
+  "en": "Gozitan ftira",
+  "title": "Ftira Għawdxija",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-84f45640-798c-4286-9ad3-bf2667643ede",
+  "id": "84f45640-798c-4286-9ad3-bf2667643ede",
+  "country": "PA",
+  "original": "Arroz con pollo",
+  "en": "Panamanian arroz con pollo",
+  "title": "Arroz con pollo",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-1a9d42d1-5a5c-496a-8dc2-f704f3548112",
+  "id": "1a9d42d1-5a5c-496a-8dc2-f704f3548112",
+  "country": "PA",
+  "original": "Sancocho panameño",
+  "en": "Panamanian sancocho",
+  "title": "Sancocho panameño",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-b6c01006-c894-4bef-a4e0-84c5ef6ddbfd",
+  "id": "b6c01006-c894-4bef-a4e0-84c5ef6ddbfd",
+  "country": "SV",
+  "original": "Yuca frita con chicharrón",
+  "en": "Salvadoran yuca frita chicharron",
+  "title": "Yuca frita con chicharrón",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-2bea7f7f-fe7d-465a-be7a-72a7cfd4be5d",
+  "id": "2bea7f7f-fe7d-465a-be7a-72a7cfd4be5d",
+  "country": "TL",
+  "original": "Ikan sabuko",
+  "en": "Timorese fish tamarind",
+  "title": "Ikan sabuko",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-bd364f0b-df78-45d5-ad5e-bacf23b136ea",
+  "id": "bd364f0b-df78-45d5-ad5e-bacf23b136ea",
+  "country": "US",
+  "original": "Ozark pudding",
+  "en": "Ozark pudding apple nut",
+  "title": "Ozark pudding",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-f38a85bd-1eab-4440-893e-d100c86d1f97",
+  "id": "f38a85bd-1eab-4440-893e-d100c86d1f97",
+  "country": "GB",
+  "original": "Shrewsbury cakes",
+  "en": "Shrewsbury biscuits",
+  "title": "Shrewsbury cakes",
+  "openverse": true
+ },
+ {
+  "slug": "legacy-d1d0857c-7040-4988-ac80-4fc1b36e5a9a",
+  "id": "d1d0857c-7040-4988-ac80-4fc1b36e5a9a",
+  "country": "AL",
+  "original": "Mish me arra",
+  "en": "Albanian meat with walnuts",
+  "title": "Mish me arra",
+  "openverse": true
+ }
+]

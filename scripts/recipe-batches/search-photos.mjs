@@ -184,7 +184,8 @@ for (const [index, r] of recipes.entries()) {
     await sleep(800);
   }
   const list = [...seen.values()].slice(0, MAX_COMMONS);
-  if (list.length < 2) {
+  // « openverse: true » (anciennes recettes déjà cherchées sur Commons) : on interroge aussi Flickr systématiquement.
+  if (list.length < 2 || r.openverse) {
     for (const c of await openverse(`${name} ${r.country === "US" ? "" : en}`.trim())) {
       if (list.filter((x) => x.source !== "Wikimedia Commons").length >= MAX_OPENVERSE) break;
       const hay = normalize(c.description);

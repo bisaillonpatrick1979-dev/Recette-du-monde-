@@ -1,6 +1,4 @@
-batch-12-france-regions.json
-batch-13-italie-espagne-regions.json
-batch-17-inde-vietnam-thailande.json
-batch-18-allemagne-mediterranee.json
-batch-19-canada-europe-est.json
-batch-20-asie-sud-est-iran.json
+batch-21-iles-britanniques-nord-alpes.json
+batch-22-ameriques-liban-afrique.json
+batch-23-etats-unis-regions.json
+photo-legacy-missing.json

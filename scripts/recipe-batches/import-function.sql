@@ -41,6 +41,20 @@ begin
     region_text := coalesce(r->>'region', place_name);
     rid := md5('spoontrotter:recipe:' || (r->>'slug'))::uuid;
     ph := r->'photo';
+    if jsonb_typeof(ph) is distinct from 'object'
+       or nullif(ph->>'url', '') is null or nullif(ph->>'page', '') is null
+       or nullif(ph->>'license', '') is null then
+      raise exception 'Photo vérifiée obligatoire pour %', r->>'slug';
+    end if;
+    -- Un nouveau slug ne doit pas recréer un plat déjà importé sous un autre nom.
+    if exists (
+      select 1 from public.recipes existing
+      where existing.id <> rid and existing.country_code = r->>'country'
+        and lower(regexp_replace(regexp_replace(coalesce(existing.original_title, existing.title), '\([^)]*\)', '', 'g'), '[^[:alnum:]]', '', 'g'))
+          = lower(regexp_replace(regexp_replace(r->>'original', '\([^)]*\)', '', 'g'), '[^[:alnum:]]', '', 'g'))
+    ) then
+      raise exception 'Doublon de plat détecté pour %', r->>'slug';
+    end if;
 
     insert into public.recipes (id, author_id, title, original_title, slug, description, excerpt, source_language, country_code, region,
       category, authenticity, status, difficulty, prep_minutes, cook_minutes, servings, published_at, primary_place_id,
@@ -48,7 +62,7 @@ begin
     values (rid, author, r->>'title', r->>'original', r->>'slug', r->>'desc', r->>'desc', 'fr', r->>'country', region_text,
       r->>'cat', coalesce(r->>'auth', 'adapted')::public.recipe_authenticity, 'published', (r->>'diff')::public.recipe_difficulty,
       (r->>'prep')::int, (r->>'cook')::int, (r->>'serv')::numeric, now(), place,
-      true, false, source_name, ph->>'page',
+      true, false, source_name, coalesce(r->>'reference', ph->>'page'),
       'Recette éditoriale rédigée pour l’application à partir de la composition traditionnelle documentée du plat.')
     on conflict (id) do update set title = excluded.title, original_title = excluded.original_title, description = excluded.description,
       excerpt = excluded.excerpt, country_code = excluded.country_code, region = excluded.region, category = excluded.category,

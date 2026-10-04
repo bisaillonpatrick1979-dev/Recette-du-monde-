@@ -20,7 +20,10 @@ import { join } from "node:path";
 
 const ROOT = new URL("../../", import.meta.url).pathname;
 const DATA_DIR = join(ROOT, "data/recipe-batches");
-const [OUT, ...files] = process.argv.slice(2);
+const args = process.argv.slice(2);
+const concurrencyArg = args.find((a) => a.startsWith("--concurrency="));
+const concurrency = Math.max(1, Math.min(6, Number(concurrencyArg?.split("=")[1]) || 1));
+const [OUT, ...files] = args.filter((a) => !a.startsWith("--concurrency="));
 if (!OUT) {
   console.error("Usage : node scripts/recipe-batches/search-photos.mjs <dossier-sortie> [lot.json ...]");
   process.exit(1);
@@ -55,8 +58,9 @@ let consecutiveFailures = 0;
 async function getJson(url) {
   // Les deux API limitent le débit (429) : on respecte Retry-After, sinon on attend de plus en plus longtemps.
   for (let attempt = 0; attempt < 7; attempt += 1) {
-    const res = await fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } });
+    const res = await fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" }, signal: AbortSignal.timeout(30000) });
     if (res.status === 404) return null;
+    if (res.status === 403) throw new Error(`Accès refusé : ${url}`);
     const text = await res.text();
     if (res.ok) {
       try {
@@ -76,11 +80,12 @@ async function getJson(url) {
     await sleep(retryAfter > 0 ? Math.min(retryAfter, 120) * 1000 : 4000 * 2 ** Math.min(attempt, 4));
   }
   console.warn(`Abandon : ${url}`);
-  return null;
+  throw new Error(`Source indisponible : ${url}`);
 }
 
 async function commons(params) {
   const data = await getJson(`${COMMONS}?${new URLSearchParams({ action: "query", format: "json", origin: "*", ...params })}`);
+  if (data?.error) throw new Error(`Commons : ${data.error.info ?? data.error.code}`);
   return Object.values(data?.query?.pages ?? {});
 }
 
@@ -144,7 +149,7 @@ async function openverse(query) {
 
 async function download(url, target) {
   for (let attempt = 0; attempt < 4; attempt += 1) {
-    const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
+    const res = await fetch(url, { headers: { "User-Agent": USER_AGENT }, signal: AbortSignal.timeout(30000) });
     if (res.ok) {
       writeFileSync(target, Buffer.from(await res.arrayBuffer()));
       return true;
@@ -165,36 +170,60 @@ const recipes = batchFiles.flatMap((f) => JSON.parse(readFileSync(f, "utf8"))).f
 
 const out = {};
 let withCandidates = 0;
-for (const [index, r] of recipes.entries()) {
-  const name = r.original.replace(/\(.*?\)/g, "").trim();
-  const en = r.en.replace(/\(.*?\)/g, "").trim();
-  const wanted = new Set(tokens(name).length ? tokens(name) : tokens(en));
-  const queries = [...new Set([...(extraQueries[r.slug] ?? []), name, en])];
-  const seen = new Map();
-  for (const query of queries) {
-    if (seen.size >= MAX_COMMONS * 2) break;
-    const fromCategory = /^category:/i.test(query);
-    for (const page of await commonsQuery(query)) {
-      const c = commonsCandidate(page, fromCategory, wanted);
-      if (c && !seen.has(c.file)) seen.set(c.file, c);
+async function processRecipe(r, index) {
+  try {
+    const name = r.original.replace(/\(.*?\)/g, "").trim();
+    const en = r.en.replace(/\(.*?\)/g, "").trim();
+    const wanted = new Set(tokens(name).length ? tokens(name) : tokens(en));
+    const queries = [...new Set([...(extraQueries[r.slug] ?? []), name, en])];
+    const seen = new Map();
+    for (const query of queries) {
+      if (seen.size >= MAX_COMMONS * 2) break;
+      const fromCategory = /^category:/i.test(query);
+      for (const page of await commonsQuery(query)) {
+        const c = commonsCandidate(page, fromCategory, wanted);
+        if (c && !seen.has(c.file)) seen.set(c.file, c);
+      }
+      await sleep(800);
     }
-    await sleep(800);
-  }
-  const list = [...seen.values()].slice(0, MAX_COMMONS);
-  if (list.length < 2) {
-    for (const c of await openverse(`${name} ${r.country === "US" ? "" : en}`.trim())) {
-      if (list.filter((x) => x.source !== "Wikimedia Commons").length >= MAX_OPENVERSE) break;
-      const hay = normalize(c.description);
-      if ([...wanted].some((t) => hay.includes(t))) list.push(c);
+    const list = [...seen.values()].slice(0, MAX_COMMONS);
+    let supplementaryError = null;
+    if (list.length < 2) {
+      try {
+        for (const c of await openverse(`${name} ${r.country === "US" ? "" : en}`.trim())) {
+          if (list.filter((x) => x.source !== "Wikimedia Commons").length >= MAX_OPENVERSE) break;
+          const hay = normalize(c.description);
+          if ([...wanted].some((t) => hay.includes(t))) list.push(c);
+        }
+      } catch (error) { supplementaryError = String(error); }
     }
+    for (const [i, c] of list.entries()) {
+      c.thumb = `thumbs/${r.slug}--${i}.jpg`;
+      if (!(await download(c.preview, join(OUT, c.thumb)))) c.thumb = null;
+    }
+    out[r.slug] = { title: r.title, original: r.original, en: r.en, country: r.country, supplementaryError, candidates: list.filter((c) => c.thumb), status: list.some((c) => c.thumb) ? "review_required" : (list.length || supplementaryError) ? "search_error" : "no_candidates", searchedAt: new Date().toISOString() };
+    if (out[r.slug].candidates.length) withCandidates += 1;
+    writeFileSync(join(OUT, "candidates.json"), JSON.stringify(out, null, 1));
+    console.log(`[${index + 1}/${recipes.length}] ${r.slug} : ${out[r.slug].candidates.length} candidate(s)`);
+  } catch (error) {
+    // Une panne réseau n'est jamais une preuve d'absence de photo.
+    out[r.slug] = { title: r.title, original: r.original, en: r.en, country: r.country,
+      candidates: [], status: "search_error", error: String(error), searchedAt: new Date().toISOString() };
+    writeFileSync(join(OUT, "candidates.json"), JSON.stringify(out, null, 1));
+    console.warn(`[${index + 1}/${recipes.length}] ${r.slug} : recherche à reprendre (${error})`);
   }
-  for (const [i, c] of list.entries()) {
-    c.thumb = `thumbs/${r.slug}--${i}.jpg`;
-    if (!(await download(c.preview, join(OUT, c.thumb)))) c.thumb = null;
-  }
-  out[r.slug] = { title: r.title, original: r.original, en: r.en, country: r.country, candidates: list.filter((c) => c.thumb) };
-  if (out[r.slug].candidates.length) withCandidates += 1;
-  writeFileSync(join(OUT, "candidates.json"), JSON.stringify(out, null, 1));
-  console.log(`[${index + 1}/${recipes.length}] ${r.slug} : ${out[r.slug].candidates.length} candidate(s)`);
 }
+let nextIndex = 0;
+await Promise.all(Array.from({ length: concurrency }, async () => {
+  while (nextIndex < recipes.length) {
+    const index = nextIndex++;
+    await processRecipe(recipes[index], index);
+  }
+}));
 console.log(`${withCandidates}/${recipes.length} recettes avec au moins une candidate · ${openverseCalls} requêtes Openverse`);
+
+const failed = Object.values(out).filter((r) => r.status === "search_error").length;
+if (failed) {
+  console.warn(`${failed} recherche(s) incomplète(s) à reprendre; aucune suppression définitive autorisée par ces résultats.`);
+  process.exitCode = 1;
+}

@@ -2,7 +2,7 @@
 //
 //   node scripts/recipe-batches/build.mjs <nom-de-migration> [--avec-photo] [lot.json ...]
 //
-// --avec-photo : ne publie que les recettes dont la photo a été validée dans photos.json;
+// Photo obligatoire : ne publie que les recettes dont la photo a été validée dans photos.json;
 // les autres restent dans les lots en attendant une photo exacte.
 //
 // Chaque recette suit data/editorial-batches/PIPELINE.md : pays ISO, lieu précis seulement
@@ -20,7 +20,8 @@ const PLACE_TYPES = new Set(["region", "city", "island", "locality"]);
 const REQUIRED = ["slug", "country", "original", "title", "en", "es", "desc", "cat", "diff", "prep", "cook", "serv", "ing", "steps"];
 
 const args = process.argv.slice(2);
-const requirePhoto = args.includes("--avec-photo");
+// Toute publication officielle exige désormais une photo validée.
+const requirePhoto = true;
 const [name, ...files] = args.filter((a) => a !== "--avec-photo");
 if (!name) {
   console.error("Usage : node scripts/recipe-batches/build.mjs <nom-de-migration> [lot.json ...]");
@@ -38,6 +39,15 @@ const errors = [];
 const recipes = [];
 const places = new Map();
 const slugs = new Set();
+const dishKey = (r) => `${r.country}:${(r.original ?? r.title ?? "").replace(/\([^)]*\)/g, "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "")}`;
+const catalogNames = new Map();
+for (const f of readdirSync(DATA_DIR).filter((f) => /^batch-.*\.json$/.test(f))) {
+  for (const r of JSON.parse(readFileSync(join(DATA_DIR, f), "utf8"))) {
+    const key = dishKey(r);
+    if (!catalogNames.has(key)) catalogNames.set(key, new Set());
+    catalogNames.get(key).add(r.slug);
+  }
+}
 const skipped = [];
 
 for (const file of batchFiles) {
@@ -46,6 +56,9 @@ for (const file of batchFiles) {
     for (const key of REQUIRED) if (r[key] === undefined || r[key] === null || r[key] === "") errors.push(`${where} : champ « ${key} » manquant`);
     if (slugs.has(r.slug)) errors.push(`${where} : slug en double`);
     slugs.add(r.slug);
+    if ([...(catalogNames.get(dishKey(r)) ?? [])].some((slug) => slug !== r.slug)) {
+      errors.push(`${where} : même plat et même pays déjà présents sous un autre slug`);
+    }
     if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(r.slug ?? "")) errors.push(`${where} : slug invalide`);
     if (!countries[r.country]) errors.push(`${where} : pays ${r.country} inconnu (countries.json)`);
     if (!DIFFICULTIES.has(r.diff)) errors.push(`${where} : difficulté invalide`);

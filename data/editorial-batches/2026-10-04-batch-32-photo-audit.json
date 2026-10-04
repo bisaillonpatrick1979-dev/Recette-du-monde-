@@ -1,0 +1,1534 @@
+{
+  "published": [
+    {
+      "slug": "sellou-ma",
+      "photo": {
+        "file": "File:Sellou.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sellou.JPG/500px-Sellou.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Sellou.JPG",
+        "author": "Lucyin",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 1,
+      "reference": "https://en.wikipedia.org/wiki/Sellou",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "briouat-ma",
+      "photo": {
+        "file": "File:Moroccan food-02.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Moroccan_food-02.jpg/500px-Moroccan_food-02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Moroccan_food-02.jpg",
+        "author": "Christian Muise",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Briouat",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "batbout-ma",
+      "photo": {
+        "file": "File:Batbout.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Batbout.jpg/500px-Batbout.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Batbout.jpg",
+        "author": "مصطفى ملو",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 2,
+      "reference": "https://en.wikipedia.org/wiki/Batbout",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "kesra-dz",
+      "photo": {
+        "file": "File:Kesra algérienne (pain maghrébin).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Kesra_alg%C3%A9rienne_%28pain_maghr%C3%A9bin%29.jpg/500px-Kesra_alg%C3%A9rienne_%28pain_maghr%C3%A9bin%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Kesra_alg%C3%A9rienne_(pain_maghr%C3%A9bin).jpg",
+        "author": "Indif",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Kesra",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "slata-mechouia-tn",
+      "photo": {
+        "file": "File:سلاطة مشوية، مع الزيتون الاخضر، تونس 2020.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/%D8%B3%D9%84%D8%A7%D8%B7%D8%A9_%D9%85%D8%B4%D9%88%D9%8A%D8%A9%D8%8C_%D9%85%D8%B9_%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86_%D8%A7%D9%84%D8%A7%D8%AE%D8%B6%D8%B1%D8%8C_%D8%AA%D9%88%D9%86%D8%B3_2020.jpg/500px-%D8%B3%D9%84%D8%A7%D8%B7%D8%A9_%D9%85%D8%B4%D9%88%D9%8A%D8%A9%D8%8C_%D9%85%D8%B9_%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86_%D8%A7%D9%84%D8%A7%D8%AE%D8%B6%D8%B1%D8%8C_%D8%AA%D9%88%D9%86%D8%B3_2020.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:%D8%B3%D9%84%D8%A7%D8%B7%D8%A9_%D9%85%D8%B4%D9%88%D9%8A%D8%A9%D8%8C_%D9%85%D8%B9_%D8%A7%D9%84%D8%B2%D9%8A%D8%AA%D9%88%D9%86_%D8%A7%D9%84%D8%A7%D8%AE%D8%B6%D8%B1%D8%8C_%D8%AA%D9%88%D9%86%D8%B3_2020.jpg",
+        "author": "Habib M'henni",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Slata_mechouia",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "bsissa-tn",
+      "photo": {
+        "file": "File:Bsissa 03.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bsissa_03.JPG/500px-Bsissa_03.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Bsissa_03.JPG",
+        "author": "Yamen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 1,
+      "reference": "https://en.wikipedia.org/wiki/Bsissa",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "mloukhia-tn",
+      "photo": {
+        "file": "File:Mloukhia.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Mloukhia.jpg/500px-Mloukhia.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mloukhia.jpg",
+        "author": "Meriemou",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Mloukhia",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "mbakbaka-ly",
+      "photo": {
+        "file": "File:مبكبكة Mbakbaka (Las Siete Orillas project).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/%D9%85%D8%A8%D9%83%D8%A8%D9%83%D8%A9_Mbakbaka_%28Las_Siete_Orillas_project%29.jpg/500px-%D9%85%D8%A8%D9%83%D8%A8%D9%83%D8%A9_Mbakbaka_%28Las_Siete_Orillas_project%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:%D9%85%D8%A8%D9%83%D8%A8%D9%83%D8%A9_Mbakbaka_(Las_Siete_Orillas_project).jpg",
+        "author": "El Mono Español",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Mbakbaka",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "kontomire-stew-gh",
+      "photo": {
+        "file": "File:Plantain and kontomire stew with pear and koobi(smoked tilapia)..jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Plantain_and_kontomire_stew_with_pear_and_koobi%28smoked_tilapia%29..jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Plantain_and_kontomire_stew_with_pear_and_koobi(smoked_tilapia)..jpg",
+        "author": "Isaacvysions",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Kontomire_stew",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "efo-riro-ng",
+      "photo": {
+        "file": "File:Efo riro and pounded yam.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Efo_riro_and_pounded_yam.jpg/500px-Efo_riro_and_pounded_yam.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Efo_riro_and_pounded_yam.jpg",
+        "author": "Atimukoh",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Efo_riro",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "edikang-ikong-ng",
+      "photo": {
+        "file": "File:Edikaikong.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Edikaikong.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Edikaikong.JPG",
+        "author": "Nne75",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Edikang_ikong",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "kachumbari-ke",
+      "photo": {
+        "file": "File:Kachumbari.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Kachumbari.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Kachumbari.jpg",
+        "author": "Charles Haynes",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Kachumbari",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "hertzoggies-za",
+      "photo": {
+        "file": "File:Hertzoggies for sale in a Cape Town bakery (22 July 2016).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Hertzoggies_for_sale_in_a_Cape_Town_bakery_%2822_July_2016%29.jpg/500px-Hertzoggies_for_sale_in_a_Cape_Town_bakery_%2822_July_2016%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Hertzoggies_for_sale_in_a_Cape_Town_bakery_(22_July_2016).jpg",
+        "author": "Discott",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Hertzoggie",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "vanilla-slice-au",
+      "photo": {
+        "file": "File:Aussie vanilla slice.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Aussie_vanilla_slice.jpg/500px-Aussie_vanilla_slice.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Aussie_vanilla_slice.jpg",
+        "author": "Finbar.concaig",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 3,
+      "reference": "https://en.wikipedia.org/wiki/Vanilla_slice",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "chocolate-crackles-au",
+      "photo": {
+        "file": "File:Chocolate crackles.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Chocolate_crackles.jpg/500px-Chocolate_crackles.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chocolate_crackles.jpg",
+        "author": "Finbar.concaig",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 1,
+      "reference": "https://en.wikipedia.org/wiki/Chocolate_crackles",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "australian-rissoles-au",
+      "photo": {
+        "file": "File:Meat rissoles. Easy as 1-2-3 (2179666929).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Meat_rissoles._Easy_as_1-2-3_%282179666929%29.jpg/500px-Meat_rissoles._Easy_as_1-2-3_%282179666929%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Meat_rissoles._Easy_as_1-2-3_(2179666929).jpg",
+        "author": "Tanya Dropbear from Adelaide, Australia",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Rissoles",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "lolly-cake-nz",
+      "photo": {
+        "file": "File:Lolly cake (2792116118).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Lolly_cake_%282792116118%29.jpg/500px-Lolly_cake_%282792116118%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Lolly_cake_(2792116118).jpg",
+        "author": "brent simpson from Auckland, New Zealand/Aotearoa",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 4,
+      "reference": "https://en.wikipedia.org/wiki/Lolly_cake",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "louise-cake-nz",
+      "photo": {
+        "file": "File:Louise Slice.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Louise_Slice.jpg/500px-Louise_Slice.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Louise_Slice.jpg",
+        "author": "Finbar.concaig",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Louise_cake",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "ginger-crunch-nz",
+      "photo": {
+        "file": "File:Ginger crunch Edmonds Cookery Book 1998.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ginger_crunch_Edmonds_Cookery_Book_1998.jpg/500px-Ginger_crunch_Edmonds_Cookery_Book_1998.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ginger_crunch_Edmonds_Cookery_Book_1998.jpg",
+        "author": "DrThneed",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 1,
+      "reference": "https://www.chelsea.co.nz/recipes/browse-recipes/ginger-crunch",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "flapper-pie-ca",
+      "photo": {
+        "file": "File:Blackfoot Truckstop Diner - Flapper Pie (16050866996).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Blackfoot_Truckstop_Diner_-_Flapper_Pie_%2816050866996%29.jpg/500px-Blackfoot_Truckstop_Diner_-_Flapper_Pie_%2816050866996%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Blackfoot_Truckstop_Diner_-_Flapper_Pie_(16050866996).jpg",
+        "author": "Elsie Hui",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://albertamilk.com/recipes/flapper-pie-an-old-prairie-favourite/",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "raisin-pie-ca",
+      "photo": {
+        "file": "File:Raisin pie with lattice crust.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Raisin_pie_with_lattice_crust.JPG/500px-Raisin_pie_with_lattice_crust.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Raisin_pie_with_lattice_crust.JPG",
+        "author": "Connormah",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://myislandbistrokitchen.com/2022/02/04/old-fashioned-raisin-pie-recipe/",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "ployes-ca",
+      "photo": {
+        "file": "File:Ployes with peaches.png",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ployes_with_peaches.png/500px-Ployes_with_peaches.png",
+        "page": "https://commons.wikimedia.org/wiki/File:Ployes_with_peaches.png",
+        "author": "Cnrowley",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 1,
+      "reference": "https://en.wikipedia.org/wiki/Ploye",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "peach-cobbler-us",
+      "photo": {
+        "file": "File:MP - peach cobbler 10.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/MP_-_peach_cobbler_10.jpg/500px-MP_-_peach_cobbler_10.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:MP_-_peach_cobbler_10.jpg",
+        "author": "Mark Pellegrini",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 2,
+      "reference": "https://en.wikipedia.org/wiki/Peach_cobbler",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "boston-cream-pie-us",
+      "photo": {
+        "file": "File:Bostoncreampie.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bostoncreampie.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Bostoncreampie.jpg",
+        "author": "cara fealy choate",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Boston_cream_pie",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "whoopie-pies-us",
+      "photo": {
+        "file": "File:Whoopie pie with dusting of confectioner's sugar.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Whoopie_pie_with_dusting_of_confectioner%27s_sugar.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Whoopie_pie_with_dusting_of_confectioner%27s_sugar.jpg",
+        "author": "Arnold Gatilao",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Whoopie_pie",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "pecan-pie-us",
+      "photo": {
+        "file": "File:Pecan pie, November 2010.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Pecan_pie%2C_November_2010.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Pecan_pie,_November_2010.jpg",
+        "author": "Joe Hakim",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Pecan_pie",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "shoofly-pie-us",
+      "photo": {
+        "file": "File:Shoofly pie.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Shoofly_pie.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Shoofly_pie.jpg",
+        "author": "Christine",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Shoofly_pie",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "snickerdoodles-us",
+      "photo": {
+        "file": "File:Snickerdoodles close-up.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Snickerdoodles_close-up.jpg/500px-Snickerdoodles_close-up.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Snickerdoodles_close-up.jpg",
+        "author": "Ginny from USA",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Snickerdoodle",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "chicken-and-dumplings-us",
+      "photo": {
+        "file": "File:Chicken and dumplings.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chicken_and_dumplings.JPG/500px-Chicken_and_dumplings.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Chicken_and_dumplings.JPG",
+        "author": "Amadscientist",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 3,
+      "reference": "https://en.wikipedia.org/wiki/Chicken_and_dumplings",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "fried-green-tomatoes-us",
+      "photo": {
+        "file": "File:Fried green tomatoes.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Fried_green_tomatoes.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Fried_green_tomatoes.jpg",
+        "author": "ninjapoodles",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Fried_green_tomatoes",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "corn-pudding-us",
+      "photo": {
+        "file": "File:Trader Joe's Corn Pudding Done (16237574939).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Trader_Joe%27s_Corn_Pudding_Done_%2816237574939%29.jpg/500px-Trader_Joe%27s_Corn_Pudding_Done_%2816237574939%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Trader_Joe%27s_Corn_Pudding_Done_(16237574939).jpg",
+        "author": "Willis Lam",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 4,
+      "reference": "https://en.wikipedia.org/wiki/Corn_pudding",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "cheese-grits-us",
+      "photo": {
+        "file": "File:Grits with cheese, bacon, green onion and poached egg.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Grits_with_cheese%2C_bacon%2C_green_onion_and_poached_egg.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Grits_with_cheese,_bacon,_green_onion_and_poached_egg.jpg",
+        "author": "Farther Along",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 3,
+      "reference": "https://en.wikipedia.org/wiki/Grits",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "syllabub-gb",
+      "photo": {
+        "file": "File:Syllabub.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Syllabub.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Syllabub.jpg",
+        "author": "Man vyi",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Syllabub",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "treacle-tart-gb",
+      "photo": {
+        "file": "File:Treacle Tart with clotted cream.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Treacle_Tart_with_clotted_cream.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Treacle_Tart_with_clotted_cream.jpg",
+        "author": "John Bracken",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Treacle_tart",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "bread-and-butter-pudding-gb",
+      "photo": {
+        "file": "File:Bread and Butter Pudding and Custard.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Bread_and_Butter_Pudding_and_Custard.jpg/500px-Bread_and_Butter_Pudding_and_Custard.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Bread_and_Butter_Pudding_and_Custard.jpg",
+        "author": "Nick Richards from London, UK",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Bread_and_butter_pudding",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "spotted-dick-gb",
+      "photo": {
+        "file": "File:Spotted Dick Wikimeet London 2005.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Spotted_Dick_Wikimeet_London_2005.jpg/500px-Spotted_Dick_Wikimeet_London_2005.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Spotted_Dick_Wikimeet_London_2005.jpg",
+        "author": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Spotted_dick",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "welsh-cakes-gb",
+      "photo": {
+        "file": "File:Welsh cakes2.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Welsh_cakes2.jpg/500px-Welsh_cakes2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Welsh_cakes2.jpg",
+        "author": "Moochocoogle at English Wikipedia",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://www.visitwales.com/things-do/food-and-drink/welsh-food-and-recipes/traditional-welsh-cakes-recipe",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "clapshot-gb",
+      "photo": {
+        "file": "File:Clapshot and oatcakes.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Clapshot_and_oatcakes.jpg/500px-Clapshot_and_oatcakes.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Clapshot_and_oatcakes.jpg",
+        "author": "Mutt Lunker",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Clapshot",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "rumbledethumps-gb",
+      "photo": {
+        "file": "File:Rumbledethumps.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Rumbledethumps.JPG/500px-Rumbledethumps.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Rumbledethumps.JPG",
+        "author": "Glane23",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Rumbledethumps",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "barmbrack-ie",
+      "photo": {
+        "file": "File:Commercial Barmbrack.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Commercial_Barmbrack.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Commercial_Barmbrack.jpg",
+        "author": "Solo Beckett",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Barmbrack",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "cougnou-be",
+      "photo": {
+        "file": "File:Queniole.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Queniole.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Queniole.jpg",
+        "author": "No machine-readable author provided. Mica assumed (based on copyright claims).",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Cougnou",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "boterkoek-nl",
+      "photo": {
+        "file": "File:Boterkoek.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Boterkoek.JPG/500px-Boterkoek.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Boterkoek.JPG",
+        "author": "JZ85",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://www.24kitchen.nl/recepten/klassieke-boterkoek",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "ontbijtkoek-nl",
+      "photo": {
+        "file": "File:Slice of ontbijtkoek.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Slice_of_ontbijtkoek.jpg/500px-Slice_of_ontbijtkoek.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Slice_of_ontbijtkoek.jpg",
+        "author": "Flanamsterdam",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 3,
+      "reference": "https://en.wikipedia.org/wiki/Ontbijtkoek",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "tompoes-nl",
+      "photo": {
+        "file": "File:Tompoes Belgie.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Tompoes_Belgie.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Tompoes_Belgie.JPG",
+        "author": "Kiekebanus at Dutch Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Tompoes",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "papet-vaudois-ch",
+      "photo": {
+        "file": "File:Papet et saucisse aux choux.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Papet_et_saucisse_aux_choux.jpg/500px-Papet_et_saucisse_aux_choux.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Papet_et_saucisse_aux_choux.jpg",
+        "author": "Clément Bucco-Lechat",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 2,
+      "reference": "https://en.wikipedia.org/wiki/Papet_vaudois",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "malakoffs-ch",
+      "photo": {
+        "file": "File:Deux malakoffs.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Deux_malakoffs.jpg/500px-Deux_malakoffs.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Deux_malakoffs.jpg",
+        "author": "Dzamlo",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Malakoff_%28food%29",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "rueblitorte-ch",
+      "photo": {
+        "file": "File:Rueblitorte.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Rueblitorte.jpg/500px-Rueblitorte.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Rueblitorte.jpg",
+        "author": "http://rezeptewiki.org/wiki/Benutzer:At_u",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/R%C3%BCeblitorte",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "bienenstich-de",
+      "photo": {
+        "file": "File:Bienenstich.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Bienenstich.jpg/500px-Bienenstich.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Bienenstich.jpg",
+        "author": "Mufi69",
+        "license": "CC BY-SA 2.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Bienenstich",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "quarkkeulchen-de",
+      "photo": {
+        "file": "File:Quarkkeulchen.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Quarkkeulchen.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Quarkkeulchen.jpg",
+        "author": "de:User:Schmidti",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Quarkkeulchen",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "semmelknodel-de",
+      "photo": {
+        "file": "File:Semmelknödel.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Semmelkn%C3%B6del.jpg/500px-Semmelkn%C3%B6del.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Semmelkn%C3%B6del.jpg",
+        "author": "Kobako",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Semmelkn%C3%B6del",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "zwiebelkuchen-de",
+      "photo": {
+        "file": "File:Zwiebelkuchen 1.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Zwiebelkuchen_1.JPG/500px-Zwiebelkuchen_1.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Zwiebelkuchen_1.JPG",
+        "author": "Biezl",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Zwiebelkuchen",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "dampfnudel-de",
+      "photo": {
+        "file": "File:BDampfnudeln WPB.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BDampfnudeln_WPB.jpg/500px-BDampfnudeln_WPB.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:BDampfnudeln_WPB.jpg",
+        "author": "Oliver s. at German Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Dampfnudel",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "kartoffelsalat-de",
+      "photo": {
+        "file": "File:Kartoffelsalat.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kartoffelsalat.jpg/500px-Kartoffelsalat.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Kartoffelsalat.jpg",
+        "author": "Kobako",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Kartoffelsalat",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "marillenknodel-at",
+      "photo": {
+        "file": "File:140802 Marillenknödel (14741213900).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/140802_Marillenkn%C3%B6del_%2814741213900%29.jpg/500px-140802_Marillenkn%C3%B6del_%2814741213900%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:140802_Marillenkn%C3%B6del_(14741213900).jpg",
+        "author": "weisserstier from Wien, Austria",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 2,
+      "reference": "https://en.wikipedia.org/wiki/Marillenkn%C3%B6del",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "linzer-torte-at",
+      "photo": {
+        "file": "File:Linzer Torte at Hawthorn, Victoria bakery.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Linzer_Torte_at_Hawthorn%2C_Victoria_bakery.jpg/500px-Linzer_Torte_at_Hawthorn%2C_Victoria_bakery.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Linzer_Torte_at_Hawthorn,_Victoria_bakery.jpg",
+        "author": "Alpha",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 4,
+      "reference": "https://en.wikipedia.org/wiki/Linzer_torte",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "buchteln-at",
+      "photo": {
+        "file": "File:Buchteln.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Buchteln.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Buchteln.jpg",
+        "author": "Gerhard Juengling at de.wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Buchteln",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "kluski-slaskie-pl",
+      "photo": {
+        "file": "File:Kluski śląskie 01.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Kluski_%C5%9Bl%C4%85skie_01.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Kluski_%C5%9Bl%C4%85skie_01.jpg",
+        "author": "Ewkaa",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Kluski_%C5%9Bl%C4%85skie",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "sernik-pl",
+      "photo": {
+        "file": "File:Sernik cheesecake (1).JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sernik_cheesecake_%281%29.JPG/500px-Sernik_cheesecake_%281%29.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Sernik_cheesecake_(1).JPG",
+        "author": "Alina Zienowicz (Ala_z)",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 4,
+      "reference": "https://en.wikipedia.org/wiki/Cheesecake#Poland",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "racuchy-pl",
+      "photo": {
+        "file": "File:Racuchy.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Racuchy.JPG/500px-Racuchy.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Racuchy.JPG",
+        "author": "Pilecka",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Racuchy",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "mizeria-pl",
+      "photo": {
+        "file": "File:Mizeria.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mizeria.jpg/500px-Mizeria.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mizeria.jpg",
+        "author": "Mariuszjbie",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Mizeria",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "mamaliga-ro",
+      "photo": {
+        "file": "File:Mamaliga.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Mamaliga.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mamaliga.jpg",
+        "author": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/M%C4%83m%C4%83lig%C4%83",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "chokladbollar-se",
+      "photo": {
+        "file": "File:Bollar.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bollar.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Bollar.JPG",
+        "author": "Stefan Weisenbacher",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Chokladboll",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "gubbrora-se",
+      "photo": {
+        "file": "File:Gubbröra.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Gubbr%C3%B6ra.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Gubbr%C3%B6ra.jpg",
+        "author": "Ascilto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 2,
+      "reference": "https://www.swedishfood.com/appetisers/gubbrora",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "rommegrot-no",
+      "photo": {
+        "file": "File:Römmegröt.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/R%C3%B6mmegr%C3%B6t.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:R%C3%B6mmegr%C3%B6t.jpg",
+        "author": "Tomas Eklund",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/R%C3%B8mmegr%C3%B8t",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "lihapiirakka-fi",
+      "photo": {
+        "file": "File:Lihapiirakka.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Lihapiirakka.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Lihapiirakka.jpg",
+        "author": "Mika (Mika83)",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Lihapiirakka",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "taiyaki-jp",
+      "photo": {
+        "file": "File:Taiyaki.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Taiyaki.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Taiyaki.jpg",
+        "author": "Toto-tarou",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Taiyaki",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "tangyuan-cn",
+      "photo": {
+        "file": "File:圓仔.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/%E5%9C%93%E4%BB%94.jpg/500px-%E5%9C%93%E4%BB%94.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:%E5%9C%93%E4%BB%94.jpg",
+        "author": "Sebastian Mary",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 2,
+      "reference": "https://en.wikipedia.org/wiki/Tangyuan",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "zongzi-cn",
+      "photo": {
+        "file": "File:Two Zongzi styles, inside.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Two_Zongzi_styles%2C_inside.jpg/500px-Two_Zongzi_styles%2C_inside.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Two_Zongzi_styles,_inside.jpg",
+        "author": "Dllu",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Zongzi",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "shumai-cn",
+      "photo": {
+        "file": "File:Shumai 20230613 095857.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Shumai_20230613_095857.jpg/500px-Shumai_20230613_095857.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Shumai_20230613_095857.jpg",
+        "author": "Franklin Rainier",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 1,
+      "reference": "https://en.wikipedia.org/wiki/Shumai",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "tteokguk-kr",
+      "photo": {
+        "file": "File:Tteokguk 2.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Tteokguk_2.jpg/500px-Tteokguk_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Tteokguk_2.jpg",
+        "author": "최광모",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Tteokguk",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "bossam-kr",
+      "photo": {
+        "file": "File:Korean.food-Bossam-02.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Korean.food-Bossam-02.jpg/500px-Korean.food-Bossam-02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Korean.food-Bossam-02.jpg",
+        "author": "by ayustety (a flickr user)",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Bossam",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "ven-pongal-in",
+      "photo": {
+        "file": "File:Aesthetic Ven Pongal.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Aesthetic_Ven_Pongal.jpg/500px-Aesthetic_Ven_Pongal.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Aesthetic_Ven_Pongal.jpg",
+        "author": "Thamizhpparithi Maari",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 2,
+      "reference": "https://en.wikipedia.org/wiki/Pongal_%28dish%29",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "ras-malai-in",
+      "photo": {
+        "file": "File:Ras Malai.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ras_Malai.JPG/500px-Ras_Malai.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Ras_Malai.JPG",
+        "author": "Miansari66",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Ras_malai",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "ketoprak-id",
+      "photo": {
+        "file": "File:Ketoprak Boplo.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ketoprak_Boplo.JPG/500px-Ketoprak_Boplo.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Ketoprak_Boplo.JPG",
+        "author": "Midori",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Ketoprak_%28food%29",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "sayur-asem-id",
+      "photo": {
+        "file": "File:Sayur asem vegetable soup.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sayur_asem_vegetable_soup.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Sayur_asem_vegetable_soup.jpg",
+        "author": "Sakurai Midori",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Sayur_asem",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "ayam-taliwang-id",
+      "photo": {
+        "file": "File:Ayam bakar khas Taliwang 2.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ayam_bakar_khas_Taliwang_2.JPG/500px-Ayam_bakar_khas_Taliwang_2.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Ayam_bakar_khas_Taliwang_2.JPG",
+        "author": "Midori",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Ayam_taliwang",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "serabi-id",
+      "photo": {
+        "file": "File:Serabi-01.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Serabi-01.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Serabi-01.jpg",
+        "author": "Ivan Lanin",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Serabi",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "pinakbet-ph",
+      "photo": {
+        "file": "File:Pinakbet.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pinakbet.JPG/500px-Pinakbet.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Pinakbet.JPG",
+        "author": "BrokenSphere",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Pinakbet",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "sisig-ph",
+      "photo": {
+        "file": "File:Authentic Kapampangan Sisig.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Authentic_Kapampangan_Sisig.jpg/500px-Authentic_Kapampangan_Sisig.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Authentic_Kapampangan_Sisig.jpg",
+        "author": "Joy L. Cruz",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 3,
+      "reference": "https://en.wikipedia.org/wiki/Sisig",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "puto-ph",
+      "photo": {
+        "file": "File:Puto (Filipino rice cake) with cheese.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Puto_%28Filipino_rice_cake%29_with_cheese.jpg/500px-Puto_%28Filipino_rice_cake%29_with_cheese.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Puto_(Filipino_rice_cake)_with_cheese.jpg",
+        "author": "Obsidian Soul",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 2,
+      "reference": "https://en.wikipedia.org/wiki/Puto",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "bibingka-ph",
+      "photo": {
+        "file": "File:Philippine Dessert Bibingka Galapong.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Philippine_Dessert_Bibingka_Galapong.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Philippine_Dessert_Bibingka_Galapong.jpg",
+        "author": "Tomwsulcer",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Bibingka",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "kuih-seri-muka-my",
+      "photo": {
+        "file": "File:Seri Muka1.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Seri_Muka1.JPG/500px-Seri_Muka1.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Seri_Muka1.JPG",
+        "author": "SimonLyall",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Kuih_seri_muka",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "roti-john-my",
+      "photo": {
+        "file": "File:Roti John - served.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Roti_John_-_served.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Roti_John_-_served.jpg",
+        "author": "stef yau from Seattle, USA",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Roti_john",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "ayam-percik-my",
+      "photo": {
+        "file": "File:Ayam Percik.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Ayam_Percik.jpg/500px-Ayam_Percik.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ayam_Percik.jpg",
+        "author": "Unilokman25",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://www.kara.com.my/recipes/ayam-percik-kelantan/",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "chilli-crab-sg",
+      "photo": {
+        "file": "File:Chilli Crab.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Chilli_Crab.JPG/500px-Chilli_Crab.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Chilli_Crab.JPG",
+        "author": "Terence Ong",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Chilli_crab",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "rabo-de-toro-es",
+      "photo": {
+        "file": "File:Rabo de toro.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Rabo_de_toro.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Rabo_de_toro.jpg",
+        "author": "Javier Lastras from España/Spain",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://www.cofradiarabodetorocordobes.es/index.php/organigrama/",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "gazpachuelo-es",
+      "photo": {
+        "file": "File:Gazpachuelo.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Gazpachuelo.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Gazpachuelo.jpg",
+        "author": "Juan Mejuto",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Gazpachuelo",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "gheymeh-ir",
+      "photo": {
+        "file": "File:Gheymeh Stew.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Gheymeh_Stew.jpg/500px-Gheymeh_Stew.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Gheymeh_Stew.jpg",
+        "author": "Sina Salimi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Gheymeh",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "tahchin-ir",
+      "photo": {
+        "file": "File:Tahchin (1).JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Tahchin_%281%29.JPG/500px-Tahchin_%281%29.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Tahchin_(1).JPG",
+        "author": "Maahmaah",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Tahchin",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "fatteh-lb",
+      "photo": {
+        "file": "File:Palestinian Hummus Fatteh.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Palestinian_Hummus_Fatteh.jpg/500px-Palestinian_Hummus_Fatteh.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Palestinian_Hummus_Fatteh.jpg",
+        "author": "Uwe a",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Fatteh",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "meghli-lb",
+      "photo": {
+        "file": "File:Мигли с добавками.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%D0%9C%D0%B8%D0%B3%D0%BB%D0%B8_%D1%81_%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BA%D0%B0%D0%BC%D0%B8.JPG/500px-%D0%9C%D0%B8%D0%B3%D0%BB%D0%B8_%D1%81_%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BA%D0%B0%D0%BC%D0%B8.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B8%D0%B3%D0%BB%D0%B8_%D1%81_%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BA%D0%B0%D0%BC%D0%B8.JPG",
+        "author": "حسين علي قرياني",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Meghli",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "aloo-gosht-pk",
+      "photo": {
+        "file": "File:Aaloo Gosht.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Aaloo_Gosht.JPG/500px-Aaloo_Gosht.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Aaloo_Gosht.JPG",
+        "author": "Miansari66",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Aloo_gosht",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "zarda-pk",
+      "photo": {
+        "file": "File:Shahi Zarda.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Shahi_Zarda.JPG/500px-Shahi_Zarda.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Shahi_Zarda.JPG",
+        "author": "Miansari66",
+        "license": "Public domain",
+        "licenseUrl": null,
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Zarda_%28food%29",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "mango-pudding-cn",
+      "photo": {
+        "file": "File:Mango pudding.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Mango_pudding.JPG/500px-Mango_pudding.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Mango_pudding.JPG",
+        "author": "Terence",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Mango_pudding",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "nasu-dengaku-jp",
+      "photo": {
+        "file": "File:Jin Kichi, Hampstead, London (3955079167).jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Jin_Kichi%2C_Hampstead%2C_London_%283955079167%29.jpg/500px-Jin_Kichi%2C_Hampstead%2C_London_%283955079167%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Jin_Kichi,_Hampstead,_London_(3955079167).jpg",
+        "author": "Ewan Munro from London, UK",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://www.justonecookbook.com/miso-dengaku/",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "tsukune-jp",
+      "photo": {
+        "file": "File:Seseri and Tsukune.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Seseri_and_Tsukune.jpg/500px-Seseri_and_Tsukune.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Seseri_and_Tsukune.jpg",
+        "author": "ayustety from Tokyo, Japan",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Tsukune",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "gyeran-mari-kr",
+      "photo": {
+        "file": "File:Korean cuisine-Gyeranmari, Kimchi stew, Myeolchi bokkeum.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Korean_cuisine-Gyeranmari%2C_Kimchi_stew%2C_Myeolchi_bokkeum.jpg/500px-Korean_cuisine-Gyeranmari%2C_Kimchi_stew%2C_Myeolchi_bokkeum.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Gyeranmari,_Kimchi_stew,_Myeolchi_bokkeum.jpg",
+        "author": "Jens Ohlig",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Gyeran-mari",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "gyeran-jjim-kr",
+      "photo": {
+        "file": "File:Korean.Banchan-Gyeran.jjim-01.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Korean.Banchan-Gyeran.jjim-01.jpg/500px-Korean.Banchan-Gyeran.jjim-01.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Korean.Banchan-Gyeran.jjim-01.jpg",
+        "author": "stuart_spivack (a flickr user)",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Gyeran-jjim",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "gamjajeon-kr",
+      "photo": {
+        "file": "File:Korean potato pancake-Gamjajeon-01.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Korean_potato_pancake-Gamjajeon-01.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Korean_potato_pancake-Gamjajeon-01.jpg",
+        "author": "User:Opencage",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Gamja-jeon",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    },
+    {
+      "slug": "bindaetteok-kr",
+      "photo": {
+        "file": "File:Korean.food-Bindaetteok-01.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Korean.food-Bindaetteok-01.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Korean.food-Bindaetteok-01.jpg",
+        "author": "jetalone (a flickr user)",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "source": "Wikimedia Commons"
+      },
+      "candidate_index": 0,
+      "reference": "https://en.wikipedia.org/wiki/Bindae-tteok",
+      "review": "Correspondance du plat vérifiée visuellement; les accompagnements ou variantes visibles sont précisés lorsque nécessaire."
+    }
+  ],
+  "excluded_drafts": [
+    "peppermint-crisp-tart-za",
+    "appeltaart-nl",
+    "vla-nl",
+    "astarpungar-is",
+    "ghriba-ma",
+    "tomato-bredie-za",
+    "tarte-au-sucre-ca",
+    "buckeye-candy-us",
+    "champ-ie",
+    "fozelek-hu",
+    "keftedes-gr",
+    "adas-polo-ir",
+    "watalappam-lk",
+    "shito-gh",
+    "laing-ph",
+    "vetkoek-za",
+    "kenchinjiru-jp",
+    "potjiekos-za"
+  ],
+  "missing_photo_drafts": [
+    "peppermint-crisp-tart-za",
+    "appeltaart-nl",
+    "vla-nl",
+    "astarpungar-is",
+    "adas-polo-ir",
+    "watalappam-lk"
+  ],
+  "catalog_compared": 1913,
+  "candidate_pool": 337
+}

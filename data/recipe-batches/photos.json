@@ -2999,5 +2999,41 @@
   "author": "Mith",
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "strapatsada-grecque": {
+  "source": "Wikimedia Commons",
+  "file": "File:Strapatsada.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Strapatsada.jpg/1280px-Strapatsada.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strapatsada.jpg",
+  "author": "Saintfevrier",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "spanakorizo-grec": {
+  "source": "Wikimedia Commons",
+  "file": "File:Spanakorizo.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Spanakorizo.jpg/1280px-Spanakorizo.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Spanakorizo.jpg",
+  "author": "KaterinaStrak",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "omurice-japonais": {
+  "source": "Wikimedia Commons",
+  "file": "File:Omurice by chechecherry in Nanba, Osaka.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Omurice_by_chechecherry_in_Nanba%2C_Osaka.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Omurice_by_chechecherry_in_Nanba,_Osaka.jpg",
+  "author": "紫貓物語 (chechecherry)",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "muhammara-syrienne": {
+  "source": "Wikimedia Commons",
+  "file": "File:Tanoreen muhammara.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Tanoreen_muhammara.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tanoreen_muhammara.jpg",
+  "author": "Krista",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
  }
 }

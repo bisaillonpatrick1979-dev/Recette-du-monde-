@@ -44,7 +44,7 @@ Règle stricte : une photo présentée comme photo de la recette doit représent
 Ordre de priorité :
 1. photo enregistrée et vérifiée dans `recipe_images`;
 2. photo Wikimedia Commons trouvée avec correspondance stricte du nom du plat;
-3. aucune photo : placeholder « Photo exacte à ajouter ».
+3. aucune photo validée après recherche : retirer la recette du catalogue public par archivage.
 
 Interdit :
 - utiliser une photo générique de cuisine du pays comme si elle représentait le plat;
@@ -69,8 +69,12 @@ Vérifier :
 - ingrédients et étapes présents;
 - trois titres localisés présents;
 - traduction complète quand le lot la prévoit;
-- photo exacte ou statut explicite à compléter;
+- photo exacte validée avant publication;
 - Build GitHub vert;
 - preview Vercel READY.
 
-Le pipeline privilégie la précision à la quantité : une recette sans photo exacte est acceptable temporairement; une mauvaise photo ne l'est pas.
+Une recette officielle sans photo exacte reste en attente et n’est pas publiée. Les erreurs réseau sont enregistrées séparément et ne justifient jamais une suppression définitive. L’archivage du catalogue public reste réversible.
+
+## 6. Import
+
+`build.mjs` exige une photo validée, même sans `--avec-photo`, et contrôle les noms de plats par pays dans tous les lots locaux. Le chargeur SQL refuse un nouveau slug reprenant le même nom original dans le même pays, ainsi que toute photo dépourvue d’URL, de page source ou de licence. La référence culinaire est conservée dans `source_url`; la source photo reste dans `recipe_images`.

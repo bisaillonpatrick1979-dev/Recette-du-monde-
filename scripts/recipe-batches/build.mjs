@@ -30,8 +30,14 @@ if (!name) {
 const batchFiles = (files.length ? files : readdirSync(DATA_DIR).filter((f) => /^batch-.*\.json$/.test(f)).sort()).map((f) =>
   f.includes("/") ? f : join(DATA_DIR, f),
 );
-const photosPath = join(DATA_DIR, "photos.json");
-const photos = existsSync(photosPath) ? JSON.parse(readFileSync(photosPath, "utf8")) : {};
+// Photos validées : photos.json + fichiers par lot (photos-lots-*.json), fusionnés.
+const photos = Object.assign(
+  {},
+  ...readdirSync(DATA_DIR)
+    .filter((f) => f === "photos.json" || /^photos-lots-.*\.json$/.test(f))
+    .sort()
+    .map((f) => JSON.parse(readFileSync(join(DATA_DIR, f), "utf8"))),
+);
 const countries = JSON.parse(readFileSync(join(DATA_DIR, "countries.json"), "utf8"));
 
 const errors = [];

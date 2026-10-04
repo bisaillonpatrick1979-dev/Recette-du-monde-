@@ -1,0 +1,2113 @@
+{
+ "nigiri-edomae-tokyo": {
+  "title": "Nigiri edomae de Tokyo (sushis au riz vinaigré et poisson)",
+  "original": "江戸前握り寿司 (Edomae nigiri-zushi)",
+  "en": "Tokyo Edomae nigiri sushi",
+  "country": "JP",
+  "candidates": []
+ },
+ "taameya-caire": {
+  "title": "Ta‘ameya du Caire (falafels égyptiens aux fèves et herbes)",
+  "original": "طعمية (Ta‘ameya)",
+  "en": "Cairo ta'ameya (Egyptian fava bean falafel)",
+  "country": "EG",
+  "candidates": []
+ },
+ "shawarma-damas": {
+  "title": "Shawarma de Damas (poulet mariné à la broche et toum)",
+  "original": "شاورما (Shawarma)",
+  "en": "Damascus chicken shawarma",
+  "country": "SY",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Shawarma closeup.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Shawarma_closeup.png",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Shawarma_closeup.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Shawarma_closeup.png",
+    "author": "cyclone bill",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "En shawarma.",
+    "thumb": "thumbs/shawarma-damas--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Shawarma in Sharjah, UAE.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Shawarma_in_Sharjah%2C_UAE.jpg/1280px-Shawarma_in_Sharjah%2C_UAE.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Shawarma_in_Sharjah%2C_UAE.jpg/500px-Shawarma_in_Sharjah%2C_UAE.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shawarma_in_Sharjah,_UAE.jpg",
+    "author": "Basil D Soufi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Shawarma being served at the annual AUS Global Day in 2008. Sharjah, United Arab Emirates (UAE).",
+    "thumb": "thumbs/shawarma-damas--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Shawarma-sandwich-01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Shawarma-sandwich-01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Shawarma-sandwich-01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shawarma-sandwich-01.jpg",
+    "author": "Vera Yu and David Li",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Shawarma sandwich at Golden Falafel in Menlo Park, California",
+    "thumb": "thumbs/shawarma-damas--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Shawarma-Kebab stand in central Aleppo, Syria.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Shawarma-Kebab_stand_in_central_Aleppo%2C_Syria.jpg/1280px-Shawarma-Kebab_stand_in_central_Aleppo%2C_Syria.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Shawarma-Kebab_stand_in_central_Aleppo%2C_Syria.jpg/500px-Shawarma-Kebab_stand_in_central_Aleppo%2C_Syria.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shawarma-Kebab_stand_in_central_Aleppo,_Syria.jpg",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Shawarma is the most popular street food in Syria and other countries of the Levant and the Arabian Peninsula. Thin cuts of seasoned marinated meat. Old city of Aleppo. Aleppo, Syria.",
+    "thumb": "thumbs/shawarma-damas--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Shawarma stand in central Aleppo, Syria.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Shawarma_stand_in_central_Aleppo%2C_Syria.jpg/1280px-Shawarma_stand_in_central_Aleppo%2C_Syria.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Shawarma_stand_in_central_Aleppo%2C_Syria.jpg/500px-Shawarma_stand_in_central_Aleppo%2C_Syria.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shawarma_stand_in_central_Aleppo,_Syria.jpg",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Shawarma is the most popular street food in Syria and other countries of the Levant and the Arabian Peninsula. Thin cuts of seasoned marinated meat. Old city of Aleppo. Aleppo, Syria.",
+    "thumb": "thumbs/shawarma-damas--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Shawarma in central Aleppo, Syria.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Shawarma_in_central_Aleppo%2C_Syria.jpg/1280px-Shawarma_in_central_Aleppo%2C_Syria.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Shawarma_in_central_Aleppo%2C_Syria.jpg/500px-Shawarma_in_central_Aleppo%2C_Syria.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Shawarma_in_central_Aleppo,_Syria.jpg",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Shawarma is the most popular street food in Syria and other countries of the Levant and the Arabian Peninsula. Thin cuts of seasoned marinated meat. Old city of Aleppo. Aleppo, Syria.",
+    "thumb": "thumbs/shawarma-damas--5.jpg"
+   }
+  ]
+ },
+ "kebab-karaz-alep": {
+  "title": "Kebab karaz d’Alep (boulettes d’agneau aux cerises acides)",
+  "original": "كباب كرز (Kabab karaz)",
+  "en": "Aleppo cherry kebab",
+  "country": "SY",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cherry Kebab.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cherry_Kebab.jpg/1280px-Cherry_Kebab.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cherry_Kebab.jpg/500px-Cherry_Kebab.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cherry_Kebab.jpg",
+    "author": "Elfenbeinturm",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Cherry Kebab",
+    "thumb": "thumbs/kebab-karaz-alep--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Oepsies braai.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Oepsies_braai.jpg/1280px-Oepsies_braai.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Oepsies_braai.jpg/500px-Oepsies_braai.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Oepsies_braai.jpg",
+    "author": "Ossewa",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Oepsies or Oopsies are South-African Bacon and Cherry Kebabs",
+    "thumb": "thumbs/kebab-karaz-alep--1.jpg"
+   }
+  ]
+ },
+ "croquetas-de-jamon": {
+  "title": "Croquetas de jamón (croquettes crémeuses au jambon ibérique)",
+  "original": "Croquetas de jamón",
+  "en": "Spanish ham croquettes",
+  "country": "ES",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Croquetas-Jamón-Riofrío.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Croquetas-Jam%C3%B3n-Riofr%C3%ADo.jpg/1280px-Croquetas-Jam%C3%B3n-Riofr%C3%ADo.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Croquetas-Jam%C3%B3n-Riofr%C3%ADo.jpg/500px-Croquetas-Jam%C3%B3n-Riofr%C3%ADo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Croquetas-Jam%C3%B3n-Riofr%C3%ADo.jpg",
+    "author": "Tamorlan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "croquetas de jamón - esféricas -riofrío",
+    "thumb": "thumbs/croquetas-de-jamon--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Croquetas de jamón - lacestabar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Croquetas_de_jam%C3%B3n_-_lacestabar.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Croquetas_de_jam%C3%B3n_-_lacestabar.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Croquetas_de_jam%C3%B3n_-_lacestabar.jpg",
+    "author": "La Cesta Bar Restaurante from Madrid, ES",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Croquetas de jamón.",
+    "thumb": "thumbs/croquetas-de-jamon--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Croquetas caseras de jamón en Salamanca.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Croquetas_caseras_de_jam%C3%B3n_en_Salamanca.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/29/Croquetas_caseras_de_jam%C3%B3n_en_Salamanca.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Croquetas_caseras_de_jam%C3%B3n_en_Salamanca.jpg",
+    "author": "deramaenrama",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Croquetas caseras de jamón, en una posada en Candelario (Salamanca, España).",
+    "thumb": "thumbs/croquetas-de-jamon--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Jamon ibérico y croquetas de la abuela.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Jamon_ib%C3%A9rico_y_croquetas_de_la_abuela.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/25/Jamon_ib%C3%A9rico_y_croquetas_de_la_abuela.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jamon_ib%C3%A9rico_y_croquetas_de_la_abuela.jpg",
+    "author": "demi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Jamon ibérico y croquetas caseras.",
+    "thumb": "thumbs/croquetas-de-jamon--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Barrica, Fitzrovia, London (4093408145).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Barrica%2C_Fitzrovia%2C_London_%284093408145%29.jpg/1280px-Barrica%2C_Fitzrovia%2C_London_%284093408145%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Barrica%2C_Fitzrovia%2C_London_%284093408145%29.jpg/500px-Barrica%2C_Fitzrovia%2C_London_%284093408145%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Barrica,_Fitzrovia,_London_(4093408145).jpg",
+    "author": "Ewan Munro from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Croqueta de jamon y pollo (croquettes of ham and chicken). At Barrica, Goodge Street.",
+    "thumb": "thumbs/croquetas-de-jamon--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Croquetas Caseras (7068664101).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Croquetas_Caseras_%287068664101%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Croquetas_Caseras_%287068664101%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Croquetas_Caseras_(7068664101).jpg",
+    "author": "Jonathan Pincas from Leon, Spain",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "De jamon si no me acuerdo mal. Las hacen de una forma distinta en el sur - con perejil creo. Tomada durante una comida fantastica en una venta en los montes de Malaga. I take photos for fun and for my business blog (Say No! to the Office), food company website (The Tapas Lunch Company) and Spanish f",
+    "thumb": "thumbs/croquetas-de-jamon--5.jpg"
+   }
+  ]
+ },
+ "kare-kare": {
+  "title": "Kare-kare (ragoût philippin de queue de bœuf à l’arachide)",
+  "original": "Kare-kare",
+  "en": "Kare-kare (Filipino oxtail peanut stew)",
+  "country": "PH",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kare-kare.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Kare-kare.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Kare-kare.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kare-kare.jpg",
+    "author": "GracinhaMarco Abundo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Beef oxtail in peanut sauce.",
+    "thumb": "thumbs/kare-kare--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Oxtail kare-kare 1.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Oxtail_kare-kare_1.JPG/1280px-Oxtail_kare-kare_1.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Oxtail_kare-kare_1.JPG/500px-Oxtail_kare-kare_1.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Oxtail_kare-kare_1.JPG",
+    "author": "BrokenSphere",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Kare-Kare",
+    "thumb": "thumbs/kare-kare--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Galeopsis tetrahit - kare kõrvik Keilas.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galeopsis_tetrahit_-_kare_k%C3%B5rvik_Keilas.jpg/1280px-Galeopsis_tetrahit_-_kare_k%C3%B5rvik_Keilas.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galeopsis_tetrahit_-_kare_k%C3%B5rvik_Keilas.jpg/500px-Galeopsis_tetrahit_-_kare_k%C3%B5rvik_Keilas.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Galeopsis_tetrahit_-_kare_k%C3%B5rvik_Keilas.jpg",
+    "author": "Ivar Leidus",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Galeopsis tetrahit - common Hemp-nettle in Keila, Northwestern Estonia.",
+    "thumb": "thumbs/kare-kare--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kare-Kare.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kare-Kare.jpg/1280px-Kare-Kare.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Kare-Kare.jpg/500px-Kare-Kare.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kare-Kare.jpg",
+    "author": "Maffeth.opiana",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Kare-Kare",
+    "thumb": "thumbs/kare-kare--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kare kare.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kare_kare.jpg/1280px-Kare_kare.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Kare_kare.jpg/500px-Kare_kare.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kare_kare.jpg",
+    "author": "Anißäb",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Special food used to served with fish sauce (alamang).",
+    "thumb": "thumbs/kare-kare--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kare-kare at La Herencia Comida.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Kare-kare_at_La_Herencia_Comida.jpg/1280px-Kare-kare_at_La_Herencia_Comida.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Kare-kare_at_La_Herencia_Comida.jpg/500px-Kare-kare_at_La_Herencia_Comida.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kare-kare_at_La_Herencia_Comida.jpg",
+    "author": "Ymirazudis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "The photo highlights a plate of Lechong Kawali, a mouthwatering Filipino dish featuring crispy and succulent deep-fried pork belly.",
+    "thumb": "thumbs/kare-kare--5.jpg"
+   }
+  ]
+ },
+ "pad-see-ew": {
+  "title": "Pad see ew (larges nouilles de riz sautées à la sauce soya)",
+  "original": "ผัดซีอิ๊ว (Phat si-io)",
+  "en": "Pad see ew (stir-fried wide rice noodles)",
+  "country": "TH",
+  "candidates": []
+ },
+ "tom-kha-gai": {
+  "title": "Tom kha gai (soupe de poulet au lait de coco et galanga)",
+  "original": "ต้มข่าไก่ (Tom kha kai)",
+  "en": "Tom kha gai (chicken coconut galangal soup)",
+  "country": "TH",
+  "candidates": []
+ },
+ "fish-and-chips-londres": {
+  "title": "Fish and chips (cabillaud en pâte à la bière et frites épaisses)",
+  "original": "Fish and chips",
+  "en": "Fish and chips",
+  "country": "GB",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Fish and chips.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Fish_and_chips.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/7/76/Fish_and_chips.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fish_and_chips.jpg",
+    "author": "Andrew Dunn",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Fish and chips on the seafront at Hunstanton, Norfolk UK. In this instance the fish is deep fried plaice.",
+    "thumb": "thumbs/fish-and-chips-londres--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Fish and chips with a pint of cider.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Fish_and_chips_with_a_pint_of_cider.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Fish_and_chips_with_a_pint_of_cider.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fish_and_chips_with_a_pint_of_cider.jpg",
+    "author": "Jon Sullivan",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Image title: Fish and chips with a pint of cider Image from Public domain images website, http://www.public-domain-image.com/full-image/food-and-drink-public-domain-images-pictures/fish-and-chips-with-a-pint-of-cider.jpg.html",
+    "thumb": "thumbs/fish-and-chips-londres--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Modern fish and chips (8368723726).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Modern_fish_and_chips_%288368723726%29.jpg/1280px-Modern_fish_and_chips_%288368723726%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Modern_fish_and_chips_%288368723726%29.jpg/500px-Modern_fish_and_chips_%288368723726%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Modern_fish_and_chips_(8368723726).jpg",
+    "author": "LearningLark from United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "These are dishes I made as part of a project for my eBook \"Cooks and Queens\" (www.CooksAndQueens.com). My goal was to cook through roughly 3,000 years of English history, and this was the tenth installment, for the Modern era.",
+    "thumb": "thumbs/fish-and-chips-londres--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Flaky fish and chips (17032281841).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Flaky_fish_and_chips_%2817032281841%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Flaky_fish_and_chips_%2817032281841%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Flaky_fish_and_chips_(17032281841).jpg",
+    "author": "Arnold Gatilao from Oakland, CA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Flaky fish and chips",
+    "thumb": "thumbs/fish-and-chips-londres--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mr. Fish and Chips combo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Mr._Fish_and_Chips_combo.jpg/1280px-Mr._Fish_and_Chips_combo.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Mr._Fish_and_Chips_combo.jpg/500px-Mr._Fish_and_Chips_combo.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mr._Fish_and_Chips_combo.jpg",
+    "author": "RightCowLeftCoast",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Two filets of fried fish with french fries and onion rings",
+    "thumb": "thumbs/fish-and-chips-londres--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Fish and chips blackpool.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fish_and_chips_blackpool.jpg/1280px-Fish_and_chips_blackpool.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fish_and_chips_blackpool.jpg/500px-Fish_and_chips_blackpool.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fish_and_chips_blackpool.jpg",
+    "author": "Matthias Meckel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Fish and Chips, photo taken in November 2018 in Blackpool",
+    "thumb": "thumbs/fish-and-chips-londres--5.jpg"
+   }
+  ]
+ },
+ "karadeniz-pidesi": {
+  "title": "Pide de la mer Noire (pain-bateau au fromage, œuf et beurre)",
+  "original": "Karadeniz pidesi",
+  "en": "Black Sea pide (boat-shaped cheese flatbread)",
+  "country": "TR",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pide - Ayran.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Pide_-_Ayran.jpg/1280px-Pide_-_Ayran.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Pide_-_Ayran.jpg/500px-Pide_-_Ayran.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pide_-_Ayran.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Karadeniz pidesi - ayran dos buenos aliados.",
+    "thumb": "thumbs/karadeniz-pidesi--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cantık pidesi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Cant%C4%B1k_pidesi.jpg/1280px-Cant%C4%B1k_pidesi.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Cant%C4%B1k_pidesi.jpg/500px-Cant%C4%B1k_pidesi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cant%C4%B1k_pidesi.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "\"Cantık pidesi\", con carne de ternera, es un pide (comida) de Bursa, y otra de las alternativas a Karadeniz pidesi (pide de la Region del Mar Negro).",
+    "thumb": "thumbs/karadeniz-pidesi--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kardeşler karadeniz pide - panoramio (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Karde%C5%9Fler_karadeniz_pide_-_panoramio_%281%29.jpg/1280px-Karde%C5%9Fler_karadeniz_pide_-_panoramio_%281%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Karde%C5%9Fler_karadeniz_pide_-_panoramio_%281%29.jpg/500px-Karde%C5%9Fler_karadeniz_pide_-_panoramio_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Karde%C5%9Fler_karadeniz_pide_-_panoramio_(1).jpg",
+    "author": "kardeşler karadeniz …",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "kardeşler karadeniz pide",
+    "thumb": "thumbs/karadeniz-pidesi--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kardeşler karadeniz pide - panoramio (2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Karde%C5%9Fler_karadeniz_pide_-_panoramio_%282%29.jpg/1280px-Karde%C5%9Fler_karadeniz_pide_-_panoramio_%282%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Karde%C5%9Fler_karadeniz_pide_-_panoramio_%282%29.jpg/500px-Karde%C5%9Fler_karadeniz_pide_-_panoramio_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Karde%C5%9Fler_karadeniz_pide_-_panoramio_(2).jpg",
+    "author": "kardeşler karadeniz …",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "kardeşler karadeniz pide",
+    "thumb": "thumbs/karadeniz-pidesi--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Karadeniz pide - panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Karadeniz_pide_-_panoramio.jpg/1280px-Karadeniz_pide_-_panoramio.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Karadeniz_pide_-_panoramio.jpg/500px-Karadeniz_pide_-_panoramio.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Karadeniz_pide_-_panoramio.jpg",
+    "author": "kardeşler karadeniz …",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "karadeniz pide",
+    "thumb": "thumbs/karadeniz-pidesi--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bafra pidesi.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Bafra_pidesi.jpg/1280px-Bafra_pidesi.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Bafra_pidesi.jpg/500px-Bafra_pidesi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bafra_pidesi.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Pide from Bafra, Samsun, at a restaurant in Ankara. \"Samsun pidesi\" is famous all over Turkey; pide-makers from Bafra and Çarşamba districts of Samsun compete for the best pide...",
+    "thumb": "thumbs/karadeniz-pidesi--5.jpg"
+   }
+  ]
+ },
+ "inegol-kofte": {
+  "title": "İnegöl köfte (petites saucisses de bœuf grillées)",
+  "original": "İnegöl köftesi",
+  "en": "İnegöl köfte (grilled meat fingers)",
+  "country": "TR",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Peynirli köfte from Bursa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Peynirli_k%C3%B6fte_from_Bursa.jpg/1280px-Peynirli_k%C3%B6fte_from_Bursa.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Peynirli_k%C3%B6fte_from_Bursa.jpg/500px-Peynirli_k%C3%B6fte_from_Bursa.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Peynirli_k%C3%B6fte_from_Bursa.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "İnegöl köftesi with \"kaşar\" cheese, fom Bursa.",
+    "thumb": "thumbs/inegol-kofte--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:İnegöl meatballs in Bursa..JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/%C4%B0neg%C3%B6l_meatballs_in_Bursa..JPG/1280px-%C4%B0neg%C3%B6l_meatballs_in_Bursa..JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/%C4%B0neg%C3%B6l_meatballs_in_Bursa..JPG/500px-%C4%B0neg%C3%B6l_meatballs_in_Bursa..JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:%C4%B0neg%C3%B6l_meatballs_in_Bursa..JPG",
+    "author": "Choi2451",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "This is İnegöl meatballs taken in Kapalı çarşı in Bursa.",
+    "thumb": "thumbs/inegol-kofte--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Inegöl köfte.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ineg%C3%B6l_k%C3%B6fte.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ineg%C3%B6l_k%C3%B6fte.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ineg%C3%B6l_k%C3%B6fte.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Inegöl köfte o mandonguilles d'Inegöl, de la cuina de Bursa, Turquia.",
+    "thumb": "thumbs/inegol-kofte--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Turkish restaurants.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Turkish_restaurants.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/4/40/Turkish_restaurants.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkish_restaurants.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "The name-sign of the Turkish restaurant \"Hacıbey\", specialized in \"Bursa kebabı\", \"İnegöl köfte\" and \"Çantık pide\", all dishes of Bursa province. The traditional restaurants (lokanta) in Turkey are classified as \"kebapçı\" (like this one), \"işkembeci\" (tripe soup and offal restaurant), \"esnaf lokanta",
+    "thumb": "thumbs/inegol-kofte--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:İnegöl köfte.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/%C4%B0neg%C3%B6l_k%C3%B6fte.jpg/1280px-%C4%B0neg%C3%B6l_k%C3%B6fte.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/%C4%B0neg%C3%B6l_k%C3%B6fte.jpg/500px-%C4%B0neg%C3%B6l_k%C3%B6fte.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%C4%B0neg%C3%B6l_k%C3%B6fte.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "İnegöl köfte or inegöl meatballs from Bursa, Turkey.",
+    "thumb": "thumbs/inegol-kofte--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Köfte and cacık.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/K%C3%B6fte_and_cac%C4%B1k.jpg/1280px-K%C3%B6fte_and_cac%C4%B1k.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/K%C3%B6fte_and_cac%C4%B1k.jpg/500px-K%C3%B6fte_and_cac%C4%B1k.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C3%B6fte_and_cac%C4%B1k.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "İnegöl köftes, cacık and a kind of eggplant purée, not exactly a \"patlıcan salatası\" nor Abugannuc (Turkish version of Baba Ghanush), but a simple attention on the house, a Turkish meal in an Ankara restaurant",
+    "thumb": "thumbs/inegol-kofte--5.jpg"
+   }
+  ]
+ },
+ "tamales-oaxaquenos": {
+  "title": "Tamales oaxaqueños (tamales au mole noir en feuille de bananier)",
+  "original": "Tamales oaxaqueños",
+  "en": "Oaxacan tamales (black mole in banana leaves)",
+  "country": "MX",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tamale Oaxaqueño.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tamale_Oaxaque%C3%B1o.jpg/1280px-Tamale_Oaxaque%C3%B1o.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tamale_Oaxaque%C3%B1o.jpg/500px-Tamale_Oaxaque%C3%B1o.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tamale_Oaxaque%C3%B1o.jpg",
+    "author": "Nsaum75",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Photo of wrapped and unwrapped Tamales Oaxaqueños. The tamales consists of masa, chicken and mole negro, wrapped in plantain leaves. Taken in Oaxaca, Mexico.",
+    "thumb": "thumbs/tamales-oaxaquenos--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tamales Mexicanos sweet corn tamales 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Tamales_Mexicanos_sweet_corn_tamales_01.jpg/1280px-Tamales_Mexicanos_sweet_corn_tamales_01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Tamales_Mexicanos_sweet_corn_tamales_01.jpg/500px-Tamales_Mexicanos_sweet_corn_tamales_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tamales_Mexicanos_sweet_corn_tamales_01.jpg",
+    "author": "Usernet123u",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Tamales Mexicanos sweet corn tamales made with young corn and milk",
+    "thumb": "thumbs/tamales-oaxaquenos--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tamales oaxaqueños, Mazatlán, 27 de marzo de 2023 08.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_08.jpg/1280px-Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_08.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_08.jpg/500px-Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_08.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tamales_oaxaque%C3%B1os,_Mazatl%C3%A1n,_27_de_marzo_de_2023_08.jpg",
+    "author": "El Nuevo Doge",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Dish: Oaxacan tamales. Location: Mazatlán. Date: March 27, 2023.",
+    "thumb": "thumbs/tamales-oaxaquenos--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tamales oaxaqueños, Mazatlán, 27 de marzo de 2023.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023.jpg/1280px-Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023.jpg/500px-Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tamales_oaxaque%C3%B1os,_Mazatl%C3%A1n,_27_de_marzo_de_2023.jpg",
+    "author": "El Nuevo Doge",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Dish: Oaxacan tamales. Location: Mazatlán. Date: March 27, 2023.",
+    "thumb": "thumbs/tamales-oaxaquenos--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tamales oaxaqueños, Mazatlán, 27 de marzo de 2023 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_02.jpg/1280px-Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_02.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_02.jpg/500px-Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tamales_oaxaque%C3%B1os,_Mazatl%C3%A1n,_27_de_marzo_de_2023_02.jpg",
+    "author": "El Nuevo Doge",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Dish: Oaxacan tamales. Location: Mazatlán. Date: March 27, 2023.",
+    "thumb": "thumbs/tamales-oaxaquenos--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tamales oaxaqueños, Mazatlán, 27 de marzo de 2023 03.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_03.jpg/1280px-Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_03.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_03.jpg/500px-Tamales_oaxaque%C3%B1os%2C_Mazatl%C3%A1n%2C_27_de_marzo_de_2023_03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tamales_oaxaque%C3%B1os,_Mazatl%C3%A1n,_27_de_marzo_de_2023_03.jpg",
+    "author": "El Nuevo Doge",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Dish: Oaxacan tamales. Location: Mazatlán. Date: March 27, 2023.",
+    "thumb": "thumbs/tamales-oaxaquenos--5.jpg"
+   }
+  ]
+ },
+ "chicken-kiev": {
+  "title": "Côtelette à la Kyiv (poulet pané farci au beurre aux herbes)",
+  "original": "Котлета по-київськи (Kotleta po-kyivsky)",
+  "en": "Chicken Kyiv",
+  "country": "UA",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chicken Kiev.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Chicken_Kiev.jpeg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Chicken_Kiev.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_Kiev.jpeg",
+    "author": "The original uploader was Kevin Saff at English Wikipedia. Later versions were uploaded by Iain at en.wikipedia.",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "From Jon Sullivan's pdphoto.org \"I made Chicken Kiev last night. I've wanted to make this for a long time. I never seem to pound the chicken thin enough though. One tip here: Don't grab the 400 degree pan you bake it in with your bare hand. This would be a bad thing.\" Camera: Sony FD-88",
+    "thumb": "thumbs/chicken-kiev--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chicken Kiev Parmigiana.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Chicken_Kiev_Parmigiana.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/4/41/Chicken_Kiev_Parmigiana.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_Kiev_Parmigiana.JPG",
+    "author": "Angusd84",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Chicken Kiev Parmigiana",
+    "thumb": "thumbs/chicken-kiev--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chicken Kiev Flickr.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Chicken_Kiev_Flickr.jpg/1280px-Chicken_Kiev_Flickr.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Chicken_Kiev_Flickr.jpg/500px-Chicken_Kiev_Flickr.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_Kiev_Flickr.jpg",
+    "author": "Bev Sykes from Davis, CA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Chicken kiev, which burst with butter when cut open.",
+    "thumb": "thumbs/chicken-kiev--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chicken kiev.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Chicken_kiev.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Chicken_kiev.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_kiev.jpg",
+    "author": "Jon Sullivan",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Image title: Chicken kiev Image from Public domain images website, http://www.public-domain-image.com/full-image/food-and-drink-public-domain-images-pictures/chicken-kiev.jpg.html",
+    "thumb": "thumbs/chicken-kiev--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chicken Kiev - Ukrainian East Village restaurant.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Chicken_Kiev_-_Ukrainian_East_Village_restaurant.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/0/08/Chicken_Kiev_-_Ukrainian_East_Village_restaurant.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicken_Kiev_-_Ukrainian_East_Village_restaurant.jpg",
+    "author": "Jason Lam",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Chicken Kiev from a Ukrainian East Village restaurant.",
+    "thumb": "thumbs/chicken-kiev--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kiyevski kotlet e-citizen.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Kiyevski_kotlet_e-citizen.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Kiyevski_kotlet_e-citizen.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kiyevski_kotlet_e-citizen.jpg",
+    "author": "Moonsun1981",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Chicken Kiev is a popular breaded cutlet dish of boneless chicken.",
+    "thumb": "thumbs/chicken-kiev--5.jpg"
+   }
+  ]
+ },
+ "gateau-de-kyiv": {
+  "title": "Gâteau de Kyiv (meringue aux noisettes et crème au beurre)",
+  "original": "Київський торт (Kyivskyi tort)",
+  "en": "Kyiv cake",
+  "country": "UA",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Київський торт без коробки.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%82%D0%BE%D1%80%D1%82_%D0%B1%D0%B5%D0%B7_%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG/1280px-%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%82%D0%BE%D1%80%D1%82_%D0%B1%D0%B5%D0%B7_%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%82%D0%BE%D1%80%D1%82_%D0%B1%D0%B5%D0%B7_%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG/500px-%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%82%D0%BE%D1%80%D1%82_%D0%B1%D0%B5%D0%B7_%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%82%D0%BE%D1%80%D1%82_%D0%B1%D0%B5%D0%B7_%D0%BA%D0%BE%D1%80%D0%BE%D0%B1%D0%BA%D0%B8.JPG",
+    "author": "Original uploader was Turzh at uk.wikipedia",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Kiev cake",
+    "thumb": "thumbs/gateau-de-kyiv--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kiev cake slice.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kiev_cake_slice.JPG/1280px-Kiev_cake_slice.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kiev_cake_slice.JPG/500px-Kiev_cake_slice.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Kiev_cake_slice.JPG",
+    "author": "Mrnotwo",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Slice of Kiev Cake",
+    "thumb": "thumbs/gateau-de-kyiv--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Київский торт.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%BE%D1%80%D1%82.JPG/1280px-%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%BE%D1%80%D1%82.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%BE%D1%80%D1%82.JPG/500px-%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%BE%D1%80%D1%82.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%82%D0%BE%D1%80%D1%82.JPG",
+    "author": "І.Туржанський",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Kiev cake",
+    "thumb": "thumbs/gateau-de-kyiv--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kiev cake.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Kiev_cake.jpg/1280px-Kiev_cake.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Kiev_cake.jpg/500px-Kiev_cake.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kiev_cake.jpg",
+    "author": "Maksym Kozlenko",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Kiev cake",
+    "thumb": "thumbs/gateau-de-kyiv--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kyiv cake (2024-01-01).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kyiv_cake_%282024-01-01%29.jpg/1280px-Kyiv_cake_%282024-01-01%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kyiv_cake_%282024-01-01%29.jpg/500px-Kyiv_cake_%282024-01-01%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kyiv_cake_(2024-01-01).jpg",
+    "author": "Vyacheslav Kirillin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Торт «Киевский».",
+    "thumb": "thumbs/gateau-de-kyiv--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Neujahrsempfang Zürich 2024 mit Kiewskii 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Neujahrsempfang_Z%C3%BCrich_2024_mit_Kiewskii_01.jpg/1280px-Neujahrsempfang_Z%C3%BCrich_2024_mit_Kiewskii_01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Neujahrsempfang_Z%C3%BCrich_2024_mit_Kiewskii_01.jpg/500px-Neujahrsempfang_Z%C3%BCrich_2024_mit_Kiewskii_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Neujahrsempfang_Z%C3%BCrich_2024_mit_Kiewskii_01.jpg",
+    "author": "Lantus",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Kyiv cake",
+    "thumb": "thumbs/gateau-de-kyiv--5.jpg"
+   }
+  ]
+ },
+ "peka-dalmate": {
+  "title": "Peka dalmate (agneau et pommes de terre sous la cloche)",
+  "original": "Peka (ispod peke)",
+  "en": "Dalmatian peka (lamb under the bell)",
+  "country": "HR",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ear pendant (peka peka), Maori people, Honolulu Museum of Art, 3351.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ear_pendant_%28peka_peka%29%2C_Maori_people%2C_Honolulu_Museum_of_Art%2C_3351.JPG/1280px-Ear_pendant_%28peka_peka%29%2C_Maori_people%2C_Honolulu_Museum_of_Art%2C_3351.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ear_pendant_%28peka_peka%29%2C_Maori_people%2C_Honolulu_Museum_of_Art%2C_3351.JPG/500px-Ear_pendant_%28peka_peka%29%2C_Maori_people%2C_Honolulu_Museum_of_Art%2C_3351.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Ear_pendant_(peka_peka),_Maori_people,_Honolulu_Museum_of_Art,_3351.JPG",
+    "author": "Hiart",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Ear pendant (peka peka), Maori people, New Zealand, 19th century, carved greenstone and red sealing wax, Honolulu Museum of Art, accession 3351",
+    "thumb": "thumbs/peka-dalmate--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Jan Peka (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Jan_Peka_%28cropped%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Jan_Peka_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jan_Peka_(cropped).jpg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "czech ice hockey player Jan Peka",
+    "thumb": "thumbs/peka-dalmate--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:PALMA PRIDE 2022 - Peka Mimosa.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/PALMA_PRIDE_2022_-_Peka_Mimosa.png/1280px-PALMA_PRIDE_2022_-_Peka_Mimosa.png",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/PALMA_PRIDE_2022_-_Peka_Mimosa.png/500px-PALMA_PRIDE_2022_-_Peka_Mimosa.png",
+    "page": "https://commons.wikimedia.org/wiki/File:PALMA_PRIDE_2022_-_Peka_Mimosa.png",
+    "author": "https://www.youtube.com/channel/UCvBAYc6FkV-WWd8bToV6hCQ",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Bienvenidxs al canal oficial de Youtube de PEKA MIMOSA 💝 En el reportaje de hoy, nos trasladamos hasta Palma de Mallorca, para asistir a la fiesta del Orgullo que ha organizado THE 2 PALMA, y estaremos entrevistando a varias de las protagonistas de MISS DRAG QUEEN MALLORCA 2022; Kendra Williams, De",
+    "thumb": "thumbs/peka-dalmate--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Autógrafo Peka Mimosa.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Aut%C3%B3grafo_Peka_Mimosa.png/1280px-Aut%C3%B3grafo_Peka_Mimosa.png",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Aut%C3%B3grafo_Peka_Mimosa.png/500px-Aut%C3%B3grafo_Peka_Mimosa.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3grafo_Peka_Mimosa.png",
+    "author": "Peka Mimosa",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Firma Peka Mimosa",
+    "thumb": "thumbs/peka-dalmate--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Buen viaje mamá 0-22 screenshot.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Buen_viaje_mam%C3%A1_0-22_screenshot.png",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/1/12/Buen_viaje_mam%C3%A1_0-22_screenshot.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Buen_viaje_mam%C3%A1_0-22_screenshot.png",
+    "author": "PekaTV",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "La artista mallorquina, Peka Mimosa, ha regresado a la isla para rendir un emotivo homenaje a su madre, Margarita Campaña Barraza, quien, lamentablemente, falleció el pasado 7 de abril. Acompañada del coro “Mallorca Gospel Choir”, dirigido por Bobby Escobar, Peka ha hecho realidad la última voluntad",
+    "thumb": "thumbs/peka-dalmate--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Peka Mimosa, Juani Ruiz y José Mola.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Peka_Mimosa%2C_Juani_Ruiz_y_Jos%C3%A9_Mola.jpg/1280px-Peka_Mimosa%2C_Juani_Ruiz_y_Jos%C3%A9_Mola.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Peka_Mimosa%2C_Juani_Ruiz_y_Jos%C3%A9_Mola.jpg/500px-Peka_Mimosa%2C_Juani_Ruiz_y_Jos%C3%A9_Mola.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Peka_Mimosa,_Juani_Ruiz_y_Jos%C3%A9_Mola.jpg",
+    "author": "Peka Mimosa",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Fotografía en el rodaje de Fantasmas del pasado.",
+    "thumb": "thumbs/peka-dalmate--5.jpg"
+   }
+  ]
+ },
+ "cozonac": {
+  "title": "Cozonac (brioche roumaine marbrée aux noix et cacao)",
+  "original": "Cozonac",
+  "en": "Romanian cozonac (walnut swirl sweet bread)",
+  "country": "RO",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cozonac2.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Cozonac2.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/1/18/Cozonac2.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Cozonac2.JPG",
+    "author": "L.Kenzel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Cozonac",
+    "thumb": "thumbs/cozonac--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cozonac.IMG 9803.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Cozonac.IMG_9803.JPG/1280px-Cozonac.IMG_9803.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Cozonac.IMG_9803.JPG/500px-Cozonac.IMG_9803.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Cozonac.IMG_9803.JPG",
+    "author": "Ave Maria Mõistlik",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Cozonac'i pakuti Euroopa telgis vabaduse väljakul Euroopa päeva tähistamisel 2011",
+    "thumb": "thumbs/cozonac--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cozonac cu nuca, rahat si stafide.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cozonac_cu_nuca%2C_rahat_si_stafide.JPG/1280px-Cozonac_cu_nuca%2C_rahat_si_stafide.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Cozonac_cu_nuca%2C_rahat_si_stafide.JPG/500px-Cozonac_cu_nuca%2C_rahat_si_stafide.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Cozonac_cu_nuca,_rahat_si_stafide.JPG",
+    "author": "Andcrislor",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Cozonac and walnut; Romanian traditional food",
+    "thumb": "thumbs/cozonac--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Paste for Cozonac.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Paste_for_Cozonac.jpg/1280px-Paste_for_Cozonac.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Paste_for_Cozonac.jpg/500px-Paste_for_Cozonac.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Paste_for_Cozonac.jpg",
+    "author": "Zeugma fr (talk) (Antoine FLEURY-GOBERT)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Paste for Cozonac brioche.",
+    "thumb": "thumbs/cozonac--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Half eaten cozonac.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Half_eaten_cozonac.jpg/1280px-Half_eaten_cozonac.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Half_eaten_cozonac.jpg/500px-Half_eaten_cozonac.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Half_eaten_cozonac.jpg",
+    "author": "E4024",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A Romanian cozonac, at Ankara, half eaten before I could take the pic.",
+    "thumb": "thumbs/cozonac--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cozonac-cu-nuca-103.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Cozonac-cu-nuca-103.jpg/1280px-Cozonac-cu-nuca-103.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Cozonac-cu-nuca-103.jpg/500px-Cozonac-cu-nuca-103.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cozonac-cu-nuca-103.jpg",
+    "author": "Vvssmmaann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Walnut filled cozonac",
+    "thumb": "thumbs/cozonac--5.jpg"
+   }
+  ]
+ },
+ "ciorba-de-burta": {
+  "title": "Ciorbă de burtă (soupe aigre aux tripes, crème et ail)",
+  "original": "Ciorbă de burtă",
+  "en": "Ciorbă de burtă (Romanian tripe soup)",
+  "country": "RO",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ciorba de Burta.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ciorba_de_Burta.png/1280px-Ciorba_de_Burta.png",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ciorba_de_Burta.png/500px-Ciorba_de_Burta.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Ciorba_de_Burta.png",
+    "author": "Sacha47",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Ciorbă de burtă, rumänische, säuerliche Kuttelsuppe",
+    "thumb": "thumbs/ciorba-de-burta--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ciorba de burta 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ciorba_de_burta_2.jpg/1280px-Ciorba_de_burta_2.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ciorba_de_burta_2.jpg/500px-Ciorba_de_burta_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ciorba_de_burta_2.jpg",
+    "author": "Sacha47",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Ciorba de burta",
+    "thumb": "thumbs/ciorba-de-burta--1.jpg"
+   }
+  ]
+ },
+ "proja": {
+  "title": "Proja (pain de maïs serbe au fromage frais)",
+  "original": "Проја (Proja)",
+  "en": "Serbian proja (cornbread)",
+  "country": "RS",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Zlatna proja (9040748578).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Zlatna_proja_%289040748578%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Zlatna_proja_%289040748578%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zlatna_proja_(9040748578).jpg",
+    "author": "amnezic",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "zlatna proja golden proya",
+    "thumb": "thumbs/proja--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Проја со спанаќ и сирење 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%D0%9F%D1%80%D0%BE%D1%98%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D0%B0%D0%BD%D0%B0%D1%9C_%D0%B8_%D1%81%D0%B8%D1%80%D0%B5%D1%9A%D0%B5_1.jpg/1280px-%D0%9F%D1%80%D0%BE%D1%98%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D0%B0%D0%BD%D0%B0%D1%9C_%D0%B8_%D1%81%D0%B8%D1%80%D0%B5%D1%9A%D0%B5_1.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/%D0%9F%D1%80%D0%BE%D1%98%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D0%B0%D0%BD%D0%B0%D1%9C_%D0%B8_%D1%81%D0%B8%D1%80%D0%B5%D1%9A%D0%B5_1.jpg/500px-%D0%9F%D1%80%D0%BE%D1%98%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D0%B0%D0%BD%D0%B0%D1%9C_%D0%B8_%D1%81%D0%B8%D1%80%D0%B5%D1%9A%D0%B5_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%BE%D1%98%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D0%B0%D0%BD%D0%B0%D1%9C_%D0%B8_%D1%81%D0%B8%D1%80%D0%B5%D1%9A%D0%B5_1.jpg",
+    "author": "Tashkoskim",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Proja with spinach and cheese.",
+    "thumb": "thumbs/proja--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Проја со спанаќ и сирење 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/%D0%9F%D1%80%D0%BE%D1%98%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D0%B0%D0%BD%D0%B0%D1%9C_%D0%B8_%D1%81%D0%B8%D1%80%D0%B5%D1%9A%D0%B5_2.jpg/1280px-%D0%9F%D1%80%D0%BE%D1%98%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D0%B0%D0%BD%D0%B0%D1%9C_%D0%B8_%D1%81%D0%B8%D1%80%D0%B5%D1%9A%D0%B5_2.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/%D0%9F%D1%80%D0%BE%D1%98%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D0%B0%D0%BD%D0%B0%D1%9C_%D0%B8_%D1%81%D0%B8%D1%80%D0%B5%D1%9A%D0%B5_2.jpg/500px-%D0%9F%D1%80%D0%BE%D1%98%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D0%B0%D0%BD%D0%B0%D1%9C_%D0%B8_%D1%81%D0%B8%D1%80%D0%B5%D1%9A%D0%B5_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%BE%D1%98%D0%B0_%D1%81%D0%BE_%D1%81%D0%BF%D0%B0%D0%BD%D0%B0%D1%9C_%D0%B8_%D1%81%D0%B8%D1%80%D0%B5%D1%9A%D0%B5_2.jpg",
+    "author": "Tashkoskim",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Proja with spinach and cheese.",
+    "thumb": "thumbs/proja--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Proja photo Moma SM.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Proja_photo_Moma_SM.jpg/1280px-Proja_photo_Moma_SM.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Proja_photo_Moma_SM.jpg/500px-Proja_photo_Moma_SM.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Proja_photo_Moma_SM.jpg",
+    "author": "photo Moma SM",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Proja photo Moma Sm",
+    "thumb": "thumbs/proja--3.jpg"
+   }
+  ]
+ },
+ "kebapche": {
+  "title": "Kebapche (saucisses grillées bulgares au cumin)",
+  "original": "Кебапче (Kebapche)",
+  "en": "Bulgarian kebapche",
+  "country": "BG",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kebapche bg.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Kebapche_bg.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/9/92/Kebapche_bg.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kebapche_bg.jpg",
+    "author": "Ikonact",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Kebapche - sort of grilled meal, made of minced meat and spices, typical for the Bulgarian cuisine Bulgarian:Кебапче",
+    "thumb": "thumbs/kebapche--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Raw kyufte and kebapche.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Raw_kyufte_and_kebapche.jpg/1280px-Raw_kyufte_and_kebapche.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Raw_kyufte_and_kebapche.jpg/500px-Raw_kyufte_and_kebapche.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Raw_kyufte_and_kebapche.jpg",
+    "author": "Иван",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Traditional Bulgarian meals of minced meat with spices - kyufte (meat balls) and kebapche (meat sticks) - intended for consumption after grill or barbecue.",
+    "thumb": "thumbs/kebapche--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kebapcheta.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kebapcheta.JPG/1280px-Kebapcheta.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kebapcheta.JPG/500px-Kebapcheta.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Kebapcheta.JPG",
+    "author": "Biso",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Kebapche - typical food for the Bulgarian and Balkanian cuisine, made of minced meat and spices.",
+    "thumb": "thumbs/kebapche--2.jpg"
+   }
+  ]
+ },
+ "lyutenitsa": {
+  "title": "Lyutenitsa (tartinade de poivrons rôtis et tomates)",
+  "original": "Лютеница (Lyutenitsa)",
+  "en": "Bulgarian lyutenitsa (roasted pepper relish)",
+  "country": "BG",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Lutenica.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Lutenica.jpg/1280px-Lutenica.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Lutenica.jpg/500px-Lutenica.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lutenica.jpg",
+    "author": "Off-shell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Lyutenitsa",
+    "thumb": "thumbs/lyutenitsa--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bulgarian cuisine Meat dish with garnish and lyutenitsa sauce (Cucina Bulgara) 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_02.jpg/1280px-Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_02.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_02.jpg/500px-Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_(Cucina_Bulgara)_02.jpg",
+    "author": "EvelinaRibarova",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Bulgarian cuisine - Meat dish with garnish and lyutenitsa sauce",
+    "thumb": "thumbs/lyutenitsa--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bulgarian cuisine Meat dish with garnish and lyutenitsa sauce (Cucina Bulgara) 03.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_03.jpg/1280px-Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_03.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_03.jpg/500px-Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_(Cucina_Bulgara)_03.jpg",
+    "author": "EvelinaRibarova",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Bulgarian cuisine - Meat dish with garnish and lyutenitsa sauce",
+    "thumb": "thumbs/lyutenitsa--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bulgarian cuisine Meat dish with garnish and lyutenitsa sauce (Cucina Bulgara) 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_01.jpg/1280px-Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_01.jpg/500px-Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_%28Cucina_Bulgara%29_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bulgarian_cuisine_Meat_dish_with_garnish_and_lyutenitsa_sauce_(Cucina_Bulgara)_01.jpg",
+    "author": "EvelinaRibarova",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Bulgarian cuisine - Meat dish with garnish and lyutenitsa sauce",
+    "thumb": "thumbs/lyutenitsa--3.jpg"
+   }
+  ]
+ },
+ "kranjska-klobasa": {
+  "title": "Kranjska klobasa (saucisse fumée de Carniole)",
+  "original": "Kranjska klobasa",
+  "en": "Carniolan sausage",
+  "country": "SI",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ptuj (4335044034).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ptuj_%284335044034%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ptuj_%284335044034%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ptuj_(4335044034).jpg",
+    "author": "Inovativna Fotografija",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Kranjska klobasa. Komentar ni potreben.",
+    "thumb": "thumbs/kranjska-klobasa--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kranjska klobasa.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kranjska_klobasa.jpg/1280px-Kranjska_klobasa.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kranjska_klobasa.jpg/500px-Kranjska_klobasa.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kranjska_klobasa.jpg",
+    "author": "J.O.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Traditional Slovenian sausage. Picture taken in Bohinj, Slovenia",
+    "thumb": "thumbs/kranjska-klobasa--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kranjska klobasa 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kranjska_klobasa_2.jpg/1280px-Kranjska_klobasa_2.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Kranjska_klobasa_2.jpg/500px-Kranjska_klobasa_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kranjska_klobasa_2.jpg",
+    "author": "Andrejj",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Kranjska klobasa",
+    "thumb": "thumbs/kranjska-klobasa--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kranjska klobasa 03.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Kranjska_klobasa_03.jpg/1280px-Kranjska_klobasa_03.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Kranjska_klobasa_03.jpg/500px-Kranjska_klobasa_03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kranjska_klobasa_03.jpg",
+    "author": "Hladnikm",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Kranjska klobasa",
+    "thumb": "thumbs/kranjska-klobasa--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Carniolian sausage - Kranjska klobasa - Klobasarna Ljubljana.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Carniolian_sausage_-_Kranjska_klobasa_-_Klobasarna_Ljubljana.jpg/1280px-Carniolian_sausage_-_Kranjska_klobasa_-_Klobasarna_Ljubljana.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Carniolian_sausage_-_Kranjska_klobasa_-_Klobasarna_Ljubljana.jpg/500px-Carniolian_sausage_-_Kranjska_klobasa_-_Klobasarna_Ljubljana.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Carniolian_sausage_-_Kranjska_klobasa_-_Klobasarna_Ljubljana.jpg",
+    "author": "ModriDirkac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Kranjska klobasa / karniolian sausage served in Klobasarna, Ljubljana",
+    "thumb": "thumbs/kranjska-klobasa--4.jpg"
+   }
+  ]
+ },
+ "sakotis": {
+  "title": "Šakotis (gâteau-arbre lituanien cuit à la broche)",
+  "original": "Šakotis",
+  "en": "Lithuanian šakotis (spit cake)",
+  "country": "LT",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Šakotis 3799.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/%C5%A0akotis_3799.jpg/1280px-%C5%A0akotis_3799.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/%C5%A0akotis_3799.jpg/500px-%C5%A0akotis_3799.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%C5%A0akotis_3799.jpg",
+    "author": "Sven Teschke",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "description": "Lithuanian traditional cake.",
+    "thumb": "thumbs/sakotis--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Šakotis - 1862.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/%C5%A0akotis_-_1862.jpg/1280px-%C5%A0akotis_-_1862.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/%C5%A0akotis_-_1862.jpg/500px-%C5%A0akotis_-_1862.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%C5%A0akotis_-_1862.jpg",
+    "author": "Maria A. Grunewald Diese Datei/Fotografie habe ich als Urheber unter einer „Creative-Commons-Lizenz“ in der Wikipedia veröffentlicht. Dies bedeutet, dass eine kostenlose, auch kommerzielle Nutzung auß",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "description": "Lithuanian traditional cake.",
+    "thumb": "thumbs/sakotis--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Šakotis - high angle.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/%C5%A0akotis_-_high_angle.JPG/1280px-%C5%A0akotis_-_high_angle.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/%C5%A0akotis_-_high_angle.JPG/500px-%C5%A0akotis_-_high_angle.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:%C5%A0akotis_-_high_angle.JPG",
+    "author": "Bearas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Šakotis",
+    "thumb": "thumbs/sakotis--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Šakotis 6867.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/%C5%A0akotis_6867.JPG/1280px-%C5%A0akotis_6867.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/%C5%A0akotis_6867.JPG/500px-%C5%A0akotis_6867.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:%C5%A0akotis_6867.JPG",
+    "author": "Bearas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Šakotis",
+    "thumb": "thumbs/sakotis--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Biržų Šakotis-Lithuania.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Bir%C5%BE%C5%B3_%C5%A0akotis-Lithuania.JPG/1280px-Bir%C5%BE%C5%B3_%C5%A0akotis-Lithuania.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Bir%C5%BE%C5%B3_%C5%A0akotis-Lithuania.JPG/500px-Bir%C5%BE%C5%B3_%C5%A0akotis-Lithuania.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Bir%C5%BE%C5%B3_%C5%A0akotis-Lithuania.JPG",
+    "author": "Bearas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Šakotis",
+    "thumb": "thumbs/sakotis--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Spettekaka Trdelník Prügelkrapfen Baumstriezel Kürtőskalács Raguolis Baumkuchen Kürtősfánk.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Spettekaka_Trdeln%C3%ADk_Pr%C3%BCgelkrapfen_Baumstriezel_K%C3%BCrt%C5%91skal%C3%A1cs_Raguolis_Baumkuchen_K%C3%BCrt%C5%91sf%C3%A1nk.jpg/1280px-Spettekaka_Trdeln%C3%ADk_Pr%C3%BCgelkrapfen_Baumstriezel_K%C3%BCrt%C5%91skal%C3%A1cs_Raguolis_Baumkuchen_K%C3%BCrt%C5%91sf%C3%A1nk.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Spettekaka_Trdeln%C3%ADk_Pr%C3%BCgelkrapfen_Baumstriezel_K%C3%BCrt%C5%91skal%C3%A1cs_Raguolis_Baumkuchen_K%C3%BCrt%C5%91sf%C3%A1nk.jpg/500px-Spettekaka_Trdeln%C3%ADk_Pr%C3%BCgelkrapfen_Baumstriezel_K%C3%BCrt%C5%91skal%C3%A1cs_Raguolis_Baumkuchen_K%C3%BCrt%C5%91sf%C3%A1nk.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spettekaka_Trdeln%C3%ADk_Pr%C3%BCgelkrapfen_Baumstriezel_K%C3%BCrt%C5%91skal%C3%A1cs_Raguolis_Baumkuchen_K%C3%BCrt%C5%91sf%C3%A1nk.jpg",
+    "author": "Sándor Háaz, International Kürtősh Kalách Trade Corporation",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Kürtősh Kalách family-Spettekaka Trdelník Prügelkrapfen Baumstriezel Kürtőskalács Šakotis Baumkuchen Kürtősfánk",
+    "thumb": "thumbs/sakotis--5.jpg"
+   }
+  ]
+ },
+ "haleem-lahore": {
+  "title": "Haleem de Lahore (bouillie de blé, lentilles et bœuf effiloché)",
+  "original": "حلیم (Haleem)",
+  "en": "Lahori haleem",
+  "country": "PK",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Haleem.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Haleem.JPG/1280px-Haleem.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Haleem.JPG/500px-Haleem.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Haleem.JPG",
+    "author": "Miansari66",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Haleem is a popular snack especiaaly in Muharram, the first month of Islamic calander",
+    "thumb": "thumbs/haleem-lahore--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Haleem at regal chowk.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Haleem_at_regal_chowk.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Haleem_at_regal_chowk.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Haleem_at_regal_chowk.jpg",
+    "author": "Hassanfmpk",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "",
+    "thumb": "thumbs/haleem-lahore--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Haleem in Bangladesh .jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Haleem_in_Bangladesh_.jpg/1280px-Haleem_in_Bangladesh_.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Haleem_in_Bangladesh_.jpg/500px-Haleem_in_Bangladesh_.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Haleem_in_Bangladesh_.jpg",
+    "author": "Ferdous",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Haleem in Bangladesh",
+    "thumb": "thumbs/haleem-lahore--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Haleem 2 by Monir.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Haleem_2_by_Monir.jpg/1280px-Haleem_2_by_Monir.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Haleem_2_by_Monir.jpg/500px-Haleem_2_by_Monir.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Haleem_2_by_Monir.jpg",
+    "author": "Shrabanmonir",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Bangladeshi Haleem",
+    "thumb": "thumbs/haleem-lahore--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Haleem - 14754897865.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Haleem_-_14754897865.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Haleem_-_14754897865.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Haleem_-_14754897865.jpg",
+    "author": "solarisgirl",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "A plate of haleem",
+    "thumb": "thumbs/haleem-lahore--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Haleem (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Haleem_%281%29.jpg/1280px-Haleem_%281%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Haleem_%281%29.jpg/500px-Haleem_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Haleem_(1).jpg",
+    "author": "Jeff",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "A plate of haleem",
+    "thumb": "thumbs/haleem-lahore--5.jpg"
+   }
+  ]
+ },
+ "sajji-balochi": {
+  "title": "Sajji balouche (agneau ou poulet entier rôti à la broche)",
+  "original": "سجی (Sajji)",
+  "en": "Balochi sajji (spit-roasted lamb or chicken)",
+  "country": "PK",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Sajji.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sajji.JPG/1280px-Sajji.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sajji.JPG/500px-Sajji.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Sajji.JPG",
+    "author": "Miansari66",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Sajji",
+    "thumb": "thumbs/sajji-balochi--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Sajji cooking.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sajji_cooking.JPG/1280px-Sajji_cooking.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sajji_cooking.JPG/500px-Sajji_cooking.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Sajji_cooking.JPG",
+    "author": "Khalid Mahmood",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Sajji cooking",
+    "thumb": "thumbs/sajji-balochi--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Sajji. A culture itself.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Sajji._A_culture_itself.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Sajji._A_culture_itself.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sajji._A_culture_itself.jpg",
+    "author": "Mustafa usman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Sajji, a delicacy of western part of pakistan. Originally, sajji was of mutton but today chicken is also used to prepare this famous dish. Sajji is basically a whole chicken or mutton rear leg skewered and placed around a wood fire and left to cook for almost 4-5 hours.",
+    "thumb": "thumbs/sajji-balochi--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Evening at Sajji Kot.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Evening_at_Sajji_Kot.jpg/1280px-Evening_at_Sajji_Kot.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Evening_at_Sajji_Kot.jpg/500px-Evening_at_Sajji_Kot.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Evening_at_Sajji_Kot.jpg",
+    "author": "Waseem Abbas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Sajjit Kot is a beautiful village near Havellia in Khyber Pakhtunkhwa province of Pakisan.",
+    "thumb": "thumbs/sajji-balochi--3.jpg"
+   }
+  ]
+ },
+ "halwa-puri-lahore": {
+  "title": "Halwa puri de Lahore (déjeuner de puris, pois chiches et halwa)",
+  "original": "حلوہ پوری (Halwa puri)",
+  "en": "Lahori halwa puri breakfast",
+  "country": "PK",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Nihari & Halwa Puri - Breakfast of every Lahori.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Nihari_%26_Halwa_Puri_-_Breakfast_of_every_Lahori.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Nihari_%26_Halwa_Puri_-_Breakfast_of_every_Lahori.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nihari_%26_Halwa_Puri_-_Breakfast_of_every_Lahori.jpg",
+    "author": "Robin Crusoe",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Nihari &amp; Halwa Puri - Breakfast of every Lahori",
+    "thumb": "thumbs/halwa-puri-lahore--0.jpg"
+   }
+  ]
+ },
+ "chatamari-katmandou": {
+  "title": "Chatamari de Katmandou (galette néwar de riz à la viande et à l’œuf)",
+  "original": "चतांमरि (Chatamari)",
+  "en": "Kathmandu chatamari (Newar rice crepe)",
+  "country": "NP",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Meat Chatamari.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Meat_Chatamari.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Meat_Chatamari.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Meat_Chatamari.jpg",
+    "author": "Raunak Maskay",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Newari Chatamari",
+    "thumb": "thumbs/chatamari-katmandou--0.jpg"
+   }
+  ]
+ },
+ "lamprais-colombo": {
+  "title": "Lamprais de Colombo (riz et currys cuits en feuille de bananier)",
+  "original": "Lamprais",
+  "en": "Colombo lamprais (rice and curries baked in banana leaf)",
+  "country": "LK",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Lamprais.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Lamprais.jpg/500px-Lamprais.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Lamprais.jpg/500px-Lamprais.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamprais.jpg",
+    "author": "Nirangunam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Lamprais cooked in banana leaf",
+    "thumb": "thumbs/lamprais-colombo--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Lamprais (SL).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Lamprais_%28SL%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Lamprais_%28SL%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamprais_(SL).jpg",
+    "author": "Dan arndt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A mixture of glutinous rice, curry, sambal and meatballs baked in banana leaf",
+    "thumb": "thumbs/lamprais-colombo--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Lamprais (Sri Lankan cuisine).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Lamprais_%28Sri_Lankan_cuisine%29.jpg/1280px-Lamprais_%28Sri_Lankan_cuisine%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Lamprais_%28Sri_Lankan_cuisine%29.jpg/500px-Lamprais_%28Sri_Lankan_cuisine%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamprais_(Sri_Lankan_cuisine).jpg",
+    "author": "AntanO",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Lamprais, a Sri Lankan cuisine that introduced by the Dutch Burgher community.",
+    "thumb": "thumbs/lamprais-colombo--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Lamprais (2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Lamprais_%282%29.jpg/1280px-Lamprais_%282%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Lamprais_%282%29.jpg/500px-Lamprais_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamprais_(2).jpg",
+    "author": "Dan arndt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A traditional Sri Lanka burgher dish, Lamprais, cooked in a banana leaf.",
+    "thumb": "thumbs/lamprais-colombo--3.jpg"
+   }
+  ]
+ },
+ "pol-sambol": {
+  "title": "Pol sambol (condiment de noix de coco au piment et lime)",
+  "original": "පොල් සම්බෝල (Pol sambol)",
+  "en": "Sri Lankan pol sambol (coconut relish)",
+  "country": "LK",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pol Sambola.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pol_Sambola.jpg/1280px-Pol_Sambola.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pol_Sambola.jpg/500px-Pol_Sambola.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pol_Sambola.jpg",
+    "author": "Rapa123",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Pol Sambola",
+    "thumb": "thumbs/pol-sambol--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Sri lanka food in usa (2252037176).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sri_lanka_food_in_usa_%282252037176%29.jpg/1280px-Sri_lanka_food_in_usa_%282252037176%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sri_lanka_food_in_usa_%282252037176%29.jpg/500px-Sri_lanka_food_in_usa_%282252037176%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sri_lanka_food_in_usa_(2252037176).jpg",
+    "author": "Reza",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "the white stuff is \"string hoppers\", made of rice flour. the orangish thing is \"pol sambol\", a hot coconut salady thing. The long elongated brown thing is, \"chinese roll\" sri lankan style! The yellowish gravy is \"kiri hodi\" soupy thing made of coconut milk.",
+    "thumb": "thumbs/pol-sambol--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pol Sambol.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Pol_Sambol.jpg/1280px-Pol_Sambol.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Pol_Sambol.jpg/500px-Pol_Sambol.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pol_Sambol.jpg",
+    "author": "Dan arndt",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A home made dish of Pol Sambol, comprising onions, desiccated coconut, chilli, paprika and lemon juice. It is served as an accompaniment to curry and rice.",
+    "thumb": "thumbs/pol-sambol--2.jpg"
+   }
+  ]
+ },
+ "bai-sach-chrouk": {
+  "title": "Bai sach chrouk (porc grillé au lait de coco sur riz)",
+  "original": "បាយសាច់ជ្រូក (Bai sach chrouk)",
+  "en": "Cambodian bai sach chrouk (grilled pork and rice)",
+  "country": "KH",
+  "candidates": []
+ },
+ "bak-kut-teh": {
+  "title": "Bak kut teh de Singapour (bouillon de côtes de porc au poivre et à l’ail)",
+  "original": "肉骨茶 (Bak kut teh)",
+  "en": "Singapore bak kut teh (peppery pork rib soup)",
+  "country": "SG",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bak Kut Teh, Singapore.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bak_Kut_Teh%2C_Singapore.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bak_Kut_Teh%2C_Singapore.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Bak_Kut_Teh,_Singapore.JPG",
+    "author": "User: (WT-shared) Shoestring at wts wikivoyage",
+    "license": "CC BY-SA 1.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+    "description": "Bak Kut Teh, one of the Singapore's local dishes.",
+    "thumb": "thumbs/bak-kut-teh--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bak Kut Teh in Singapore Chinatown.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bak_Kut_Teh_in_Singapore_Chinatown.jpg/1280px-Bak_Kut_Teh_in_Singapore_Chinatown.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bak_Kut_Teh_in_Singapore_Chinatown.jpg/500px-Bak_Kut_Teh_in_Singapore_Chinatown.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bak_Kut_Teh_in_Singapore_Chinatown.jpg",
+    "author": "Ypsilon from Finland",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Bak Kut Teh and Tiger beer at a restaurant in Singapore's Chinatown.",
+    "thumb": "thumbs/bak-kut-teh--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Song Fa Bak Kut Teh, New Bridge Rd, Singapore (2023) 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_01.jpg/1280px-Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_01.jpg/500px-Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Song_Fa_Bak_Kut_Teh,_New_Bridge_Rd,_Singapore_(2023)_01.jpg",
+    "author": "Chainwit.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Song Fa Bak Kut Teh, New Bridge Rd, Singapore",
+    "thumb": "thumbs/bak-kut-teh--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Song Fa Bak Kut Teh, New Bridge Rd, Singapore (2023) 04.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_04.jpg/1280px-Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_04.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_04.jpg/500px-Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Song_Fa_Bak_Kut_Teh,_New_Bridge_Rd,_Singapore_(2023)_04.jpg",
+    "author": "Chainwit.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Song Fa Bak Kut Teh, New Bridge Rd, Singapore",
+    "thumb": "thumbs/bak-kut-teh--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Song Fa Bak Kut Teh, New Bridge Rd, Singapore (2023) 06.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_06.jpg/1280px-Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_06.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_06.jpg/500px-Song_Fa_Bak_Kut_Teh%2C_New_Bridge_Rd%2C_Singapore_%282023%29_06.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Song_Fa_Bak_Kut_Teh,_New_Bridge_Rd,_Singapore_(2023)_06.jpg",
+    "author": "Chainwit.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "Song Fa Bak Kut Teh, New Bridge Rd, Singapore",
+    "thumb": "thumbs/bak-kut-teh--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Long Kee Bak Kut Teh, Geylang, Singapore.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Long_Kee_Bak_Kut_Teh%2C_Geylang%2C_Singapore.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/5/59/Long_Kee_Bak_Kut_Teh%2C_Geylang%2C_Singapore.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Long_Kee_Bak_Kut_Teh,_Geylang,_Singapore.JPG",
+    "author": "User: (WT-shared) Shoestring at wts wikivoyage",
+    "license": "CC BY-SA 1.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+    "description": "Long Kee Bak Kut Teh, Singapore.",
+    "thumb": "thumbs/bak-kut-teh--5.jpg"
+   }
+  ]
+ },
+ "zanzibar-pizza": {
+  "title": "Pizza de Zanzibar (crêpe pliée à la viande et à l’œuf de Forodhani)",
+  "original": "Zanzibar pizza",
+  "en": "Zanzibar pizza",
+  "country": "TZ",
+  "candidates": [
+   {
+    "source": "Flickr (via Openverse)",
+    "file": "Pizza at Mercury's - Stone Town - Zanzibar - Unguja island - Tanzania, Africa",
+    "url": "https://live.staticflickr.com/2681/5722766953_940571633f_b.jpg",
+    "preview": "https://live.staticflickr.com/2681/5722766953_940571633f_b.jpg",
+    "page": "https://www.flickr.com/photos/25897810@N00/5722766953",
+    "author": "David Berkowitz",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "description": "Pizza at Mercury's - Stone Town - Zanzibar - Unguja island - Tanzania, Africa · africa · island · tanzania · unguja · zanzibar",
+    "thumb": "thumbs/zanzibar-pizza--0.jpg"
+   },
+   {
+    "source": "Flickr (via Openverse)",
+    "file": "Zanzibar pizza",
+    "url": "https://live.staticflickr.com/65535/47677063661_53662543cd_b.jpg",
+    "preview": "https://live.staticflickr.com/65535/47677063661_53662543cd_b.jpg",
+    "page": "https://www.flickr.com/photos/30557460@N05/47677063661",
+    "author": "scotted400",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "description": "Zanzibar pizza · tanzania · zanzibar",
+    "thumb": "thumbs/zanzibar-pizza--1.jpg"
+   }
+  ]
+ },
+ "biltong": {
+  "title": "Biltong (bœuf séché à la coriandre et au vinaigre)",
+  "original": "Biltong",
+  "en": "South African biltong",
+  "country": "ZA",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:BiltongUKDried.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/BiltongUKDried.jpg/1280px-BiltongUKDried.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/BiltongUKDried.jpg/500px-BiltongUKDried.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BiltongUKDried.jpg",
+    "author": "Jamsta at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Author: Jamsta Summary Homemade biltong, based on a modified South African recipe. Made using: apple cider vinegar, ground coriander, table salt, ground black pepper, garlic pepper, ground chili pepper and white sugar. It was then hung on metal skewer in a fan-assisted electric oven at 60 C for 3 ho",
+    "thumb": "thumbs/biltong--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Biltong for sale.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Biltong_for_sale.jpg/1280px-Biltong_for_sale.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Biltong_for_sale.jpg/500px-Biltong_for_sale.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Biltong_for_sale.jpg",
+    "author": "Moongateclimber",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Biltong for sale in a Despar supermarket, Johannesburg",
+    "thumb": "thumbs/biltong--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Roast Butternut, Brown Rice and Biltong Salad.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Roast_Butternut%2C_Brown_Rice_and_Biltong_Salad.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/9/96/Roast_Butternut%2C_Brown_Rice_and_Biltong_Salad.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Roast_Butternut,_Brown_Rice_and_Biltong_Salad.jpg",
+    "author": "Cswreeve",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "description": "A versatile salad that is equally good as part of a main or a starter. Also online at my own web site: http://www.monkeylicious.net/recipes/Roast_Butternut__Biltong_and_Brown_Rice_Salad",
+    "thumb": "thumbs/biltong--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:BiltongStokkies.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/BiltongStokkies.jpg/1280px-BiltongStokkies.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/BiltongStokkies.jpg/500px-BiltongStokkies.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BiltongStokkies.jpg",
+    "author": "Jamsta at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Biltong Stokkies, Author: Jamsta",
+    "thumb": "thumbs/biltong--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Biltong Somerset Mall.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Biltong_Somerset_Mall.jpg/1280px-Biltong_Somerset_Mall.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Biltong_Somerset_Mall.jpg/500px-Biltong_Somerset_Mall.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Biltong_Somerset_Mall.jpg",
+    "author": "HelenOnline",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Droëwors (dried sausage) and biltong (dried meat) for sale at a biltong stand in Somerset Mall, South Africa",
+    "thumb": "thumbs/biltong--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Biltong vendor.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Biltong_vendor.jpg/1280px-Biltong_vendor.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Biltong_vendor.jpg/500px-Biltong_vendor.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Biltong_vendor.jpg",
+    "author": "Ossewa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Biltong vendor at the Midvaal Makiti in Meyerton, South Africa",
+    "thumb": "thumbs/biltong--5.jpg"
+   }
+  ]
+ },
+ "ftira-gozo": {
+  "title": "Ftira de Gozo (tourte-pizza maltaise aux pommes de terre et anchois)",
+  "original": "Ftira Għawdxija",
+  "en": "Gozitan ftira",
+  "country": "MT",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ftira.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ftira.JPG/1280px-Ftira.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ftira.JPG/500px-Ftira.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Ftira.JPG",
+    "author": "Slganado",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Maltese Ftira Bread",
+    "thumb": "thumbs/ftira-gozo--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ftira mit Thunfisch in Marsaxlokk Nov 2014.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ftira_mit_Thunfisch_in_Marsaxlokk_Nov_2014.JPG/1280px-Ftira_mit_Thunfisch_in_Marsaxlokk_Nov_2014.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ftira_mit_Thunfisch_in_Marsaxlokk_Nov_2014.JPG/500px-Ftira_mit_Thunfisch_in_Marsaxlokk_Nov_2014.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Ftira_mit_Thunfisch_in_Marsaxlokk_Nov_2014.JPG",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Ftira mit Thunfisch in Marsaxlokk Nov 2014",
+    "thumb": "thumbs/ftira-gozo--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ftira photo1 فطيرة.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Ftira_photo1_%D9%81%D8%B7%D9%8A%D8%B1%D8%A9.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/5/55/Ftira_photo1_%D9%81%D8%B7%D9%8A%D8%B1%D8%A9.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ftira_photo1_%D9%81%D8%B7%D9%8A%D8%B1%D8%A9.jpg",
+    "author": "Sami Mlouhi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Tunisia تونس",
+    "thumb": "thumbs/ftira-gozo--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ftira photo2 فطيرة.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ftira_photo2_%D9%81%D8%B7%D9%8A%D8%B1%D8%A9.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/1/13/Ftira_photo2_%D9%81%D8%B7%D9%8A%D8%B1%D8%A9.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ftira_photo2_%D9%81%D8%B7%D9%8A%D8%B1%D8%A9.jpg",
+    "author": "Sami Mlouhi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Tunisia تونس",
+    "thumb": "thumbs/ftira-gozo--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ftira with Tuna in Marsaxlokk 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Ftira_with_Tuna_in_Marsaxlokk_01.jpg/1280px-Ftira_with_Tuna_in_Marsaxlokk_01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Ftira_with_Tuna_in_Marsaxlokk_01.jpg/500px-Ftira_with_Tuna_in_Marsaxlokk_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ftira_with_Tuna_in_Marsaxlokk_01.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Ftira with Tuna in Marsaxlokk",
+    "thumb": "thumbs/ftira-gozo--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ftira with Tuna in Marsaxlokk 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Ftira_with_Tuna_in_Marsaxlokk_02.jpg/1280px-Ftira_with_Tuna_in_Marsaxlokk_02.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Ftira_with_Tuna_in_Marsaxlokk_02.jpg/500px-Ftira_with_Tuna_in_Marsaxlokk_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ftira_with_Tuna_in_Marsaxlokk_02.jpg",
+    "author": "Kritzolina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Ftira with Tuna in Marsaxlokk",
+    "thumb": "thumbs/ftira-gozo--5.jpg"
+   }
+  ]
+ },
+ "hobz-biz-zejt": {
+  "title": "Ħobż biż-żejt (pain maltais à l’huile, tomate et thon)",
+  "original": "Ħobż biż-żejt",
+  "en": "Maltese ħobż biż-żejt (bread with oil, tomato and tuna)",
+  "country": "MT",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cuisine of Malta, 2016.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Cuisine_of_Malta%2C_2016.jpg/1280px-Cuisine_of_Malta%2C_2016.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Cuisine_of_Malta%2C_2016.jpg/500px-Cuisine_of_Malta%2C_2016.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuisine_of_Malta,_2016.jpg",
+    "author": "Bryn Pinzgauer",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Ħobż biż-Żejt: Sauerteigbrot mit Belag; im Restaurant Cellini's in Naxxar auf Malta.",
+    "thumb": "thumbs/hobz-biz-zejt--0.jpg"
+   }
+  ]
+ },
+ "fergese-tirana": {
+  "title": "Fërgesë de Tirana (poivrons, tomates et fromage blanc au four)",
+  "original": "Fërgesë e Tiranës",
+  "en": "Tirana fërgesë (baked peppers, tomato and cottage cheese)",
+  "country": "AL",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Fërgesë dhe Tavë me oriz.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/F%C3%ABrges%C3%AB_dhe_Tav%C3%AB_me_oriz.jpg/1280px-F%C3%ABrges%C3%AB_dhe_Tav%C3%AB_me_oriz.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/F%C3%ABrges%C3%AB_dhe_Tav%C3%AB_me_oriz.jpg/500px-F%C3%ABrges%C3%AB_dhe_Tav%C3%AB_me_oriz.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:F%C3%ABrges%C3%AB_dhe_Tav%C3%AB_me_oriz.jpg",
+    "author": "Kj1595",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Fërgesë dhe Tavë me oriz",
+    "thumb": "thumbs/fergese-tirana--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Fergese with Kuqalashe Beer - Albanian cuisine in Berat.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Fergese_with_Kuqalashe_Beer_-_Albanian_cuisine_in_Berat.jpg/1280px-Fergese_with_Kuqalashe_Beer_-_Albanian_cuisine_in_Berat.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Fergese_with_Kuqalashe_Beer_-_Albanian_cuisine_in_Berat.jpg/500px-Fergese_with_Kuqalashe_Beer_-_Albanian_cuisine_in_Berat.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fergese_with_Kuqalashe_Beer_-_Albanian_cuisine_in_Berat.jpg",
+    "author": "my_cottage",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Fergese in Berat, Albanian cuisine",
+    "thumb": "thumbs/fergese-tirana--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Fergese-albanian-dish.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Fergese-albanian-dish.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/60/Fergese-albanian-dish.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fergese-albanian-dish.jpg",
+    "author": "Marcos Escudero Olano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Fërgesë, Albanian dish with meat, peppers, onions, tomatoes and gjizë (a kind of cottage cheese).",
+    "thumb": "thumbs/fergese-tirana--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Fergese.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Fergese.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/0/03/Fergese.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fergese.jpg",
+    "author": "Kela.dauti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Albanian Tradicional Food",
+    "thumb": "thumbs/fergese-tirana--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Fërgesë domatesh.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/F%C3%ABrges%C3%AB_domatesh.jpg/1280px-F%C3%ABrges%C3%AB_domatesh.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/F%C3%ABrges%C3%AB_domatesh.jpg/500px-F%C3%ABrges%C3%AB_domatesh.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:F%C3%ABrges%C3%AB_domatesh.jpg",
+    "author": "Berishasinan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Fërgesë with tomatoes.",
+    "thumb": "thumbs/fergese-tirana--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Fergese vere.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Fergese_vere.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Fergese_vere.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Fergese_vere.jpg",
+    "author": "Blerina.gica",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Fergese vere",
+    "thumb": "thumbs/fergese-tirana--5.jpg"
+   }
+  ]
+ },
+ "hakarl": {
+  "title": "Hákarl (requin du Groenland fermenté et séché)",
+  "original": "Hákarl",
+  "en": "Icelandic hákarl (fermented shark)",
+  "country": "IS",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Hakarl near Bjarnahöfn in Iceland.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hakarl_near_Bjarnah%C3%B6fn_in_Iceland.JPG/1280px-Hakarl_near_Bjarnah%C3%B6fn_in_Iceland.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hakarl_near_Bjarnah%C3%B6fn_in_Iceland.JPG/500px-Hakarl_near_Bjarnah%C3%B6fn_in_Iceland.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Hakarl_near_Bjarnah%C3%B6fn_in_Iceland.JPG",
+    "author": "Chris 73",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Hákarl (Icelandic for shark) or Greenlandic Shark is a food from Iceland. This picture was taken near Bjarnahöfn in 2005.",
+    "thumb": "thumbs/hakarl--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Hákarl in store.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/H%C3%A1karl_in_store.jpg/1280px-H%C3%A1karl_in_store.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/H%C3%A1karl_in_store.jpg/500px-H%C3%A1karl_in_store.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:H%C3%A1karl_in_store.jpg",
+    "author": "Xfigpower",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Hákarl dans un supermaché d'fr:Arkanes",
+    "thumb": "thumbs/hakarl--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Hákarl2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/H%C3%A1karl2.jpg/1280px-H%C3%A1karl2.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/H%C3%A1karl2.jpg/500px-H%C3%A1karl2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:H%C3%A1karl2.jpg",
+    "author": "Xfigpower",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Hákarl à déguster",
+    "thumb": "thumbs/hakarl--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Hákarl 2015-07-21.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/H%C3%A1karl_2015-07-21.JPG/1280px-H%C3%A1karl_2015-07-21.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/H%C3%A1karl_2015-07-21.JPG/500px-H%C3%A1karl_2015-07-21.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:H%C3%A1karl_2015-07-21.JPG",
+    "author": "Qaswed",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Hákarl produced at Bjarnahöfn.",
+    "thumb": "thumbs/hakarl--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Kæstur Hákarl (2687588405).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/K%C3%A6stur_H%C3%A1karl_%282687588405%29.jpg/1280px-K%C3%A6stur_H%C3%A1karl_%282687588405%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/K%C3%A6stur_H%C3%A1karl_%282687588405%29.jpg/500px-K%C3%A6stur_H%C3%A1karl_%282687588405%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C3%A6stur_H%C3%A1karl_(2687588405).jpg",
+    "author": "Audrey from Seattle, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Icelandic for \"fermented shark\") It is a Greenland or basking shark which has been cured with a particular fermentation process and hung to dry for 4-5 months. Hákarl has a very particular ammonia-rich smell and taste, similar to very strong cheese.",
+    "thumb": "thumbs/hakarl--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Hákarl hung to dry.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/H%C3%A1karl_hung_to_dry.jpg/1280px-H%C3%A1karl_hung_to_dry.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/H%C3%A1karl_hung_to_dry.jpg/500px-H%C3%A1karl_hung_to_dry.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:H%C3%A1karl_hung_to_dry.jpg",
+    "author": "Funky Tee from Alexandria, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Hákarl hung to dry",
+    "thumb": "thumbs/hakarl--5.jpg"
+   }
+  ]
+ },
+ "suya-kano": {
+  "title": "Suya (brochettes de bœuf épicées aux arachides)",
+  "original": "Suya",
+  "en": "Nigerian suya (spicy peanut beef skewers)",
+  "country": "NG",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:SuyavarietiesTX.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/SuyavarietiesTX.JPG/1280px-SuyavarietiesTX.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/SuyavarietiesTX.JPG/500px-SuyavarietiesTX.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:SuyavarietiesTX.JPG",
+    "author": "WhisperToMe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Varieties of Suya: Beef, Gizzard, and Chicken",
+    "thumb": "thumbs/suya-kano--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Suya Seller.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Suya_Seller.jpg/1280px-Suya_Seller.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Suya_Seller.jpg/500px-Suya_Seller.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Suya_Seller.jpg",
+    "author": "FischerFotos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "This is an image of \"African people at work\" from",
+    "thumb": "thumbs/suya-kano--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Suya with pepper sauce.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Suya_with_pepper_sauce.jpg/1280px-Suya_with_pepper_sauce.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Suya_with_pepper_sauce.jpg/500px-Suya_with_pepper_sauce.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Suya_with_pepper_sauce.jpg",
+    "author": "Bukky658",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "This is an image with the theme \"Health and Wellness in Africa\" from:",
+    "thumb": "thumbs/suya-kano--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Suya and Apples.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Suya_and_Apples.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Suya_and_Apples.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Suya_and_Apples.jpg",
+    "author": "Bukky658",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "This is an image with the theme \"Health and Wellness in Africa\" from:",
+    "thumb": "thumbs/suya-kano--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Nakatsugawa Suya 2021-10 ac (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Nakatsugawa_Suya_2021-10_ac_%281%29.jpg/1280px-Nakatsugawa_Suya_2021-10_ac_%281%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Nakatsugawa_Suya_2021-10_ac_%281%29.jpg/500px-Nakatsugawa_Suya_2021-10_ac_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nakatsugawa_Suya_2021-10_ac_(1).jpg",
+    "author": "Asturio Cantabrio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "岐阜県中津川市新町2-40にある和菓子店「すや」。栗きんとんで知られる。",
+    "thumb": "thumbs/suya-kano--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tope Ayodeji Asokere Asokeretope8 (The Northern SUYA Spot Collection).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tope_Ayodeji_Asokere_Asokeretope8_%28The_Northern_SUYA_Spot_Collection%29.jpg/1280px-Tope_Ayodeji_Asokere_Asokeretope8_%28The_Northern_SUYA_Spot_Collection%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tope_Ayodeji_Asokere_Asokeretope8_%28The_Northern_SUYA_Spot_Collection%29.jpg/500px-Tope_Ayodeji_Asokere_Asokeretope8_%28The_Northern_SUYA_Spot_Collection%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tope_Ayodeji_Asokere_Asokeretope8_(The_Northern_SUYA_Spot_Collection).jpg",
+    "author": "Tope Asokere",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "This is an image with the theme \"Home + Habitat in Africa\" from:",
+    "thumb": "thumbs/suya-kano--5.jpg"
+   }
+  ]
+ },
+ "siu-mai-cantonais": {
+  "title": "Siu mai cantonais (bouchées ouvertes au porc et crevettes)",
+  "original": "燒賣 (Siu mai)",
+  "en": "Cantonese siu mai",
+  "country": "CN",
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Lamb shumai from Cantonese restaurant in Shenzhen.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Lamb_shumai_from_Cantonese_restaurant_in_Shenzhen.jpg/1280px-Lamb_shumai_from_Cantonese_restaurant_in_Shenzhen.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Lamb_shumai_from_Cantonese_restaurant_in_Shenzhen.jpg/500px-Lamb_shumai_from_Cantonese_restaurant_in_Shenzhen.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamb_shumai_from_Cantonese_restaurant_in_Shenzhen.jpg",
+    "author": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A Lamb shumai at Cantonese restaurant in Shenzhen, China",
+    "thumb": "thumbs/siu-mai-cantonais--0.jpg"
+   }
+  ]
+ }
+}

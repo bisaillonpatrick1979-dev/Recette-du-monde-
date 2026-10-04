@@ -1,2 +1,1 @@
-batch-17-europe-mediterranee-regions.json
-batch-18-asie-sud-sud-est-regions.json
+batch-19-afrique-europe-nord-ameriques.json

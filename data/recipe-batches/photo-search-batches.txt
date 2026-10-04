@@ -1,5 +1,2 @@
-batch-12-france-regions.json
-batch-13-italie-espagne-regions.json
-batch-14-canada-etats-unis.json
-batch-15-amerique-latine-regions.json
-batch-16-japon-chine-coree.json
+batch-17-europe-mediterranee-regions.json
+batch-18-asie-sud-sud-est-regions.json

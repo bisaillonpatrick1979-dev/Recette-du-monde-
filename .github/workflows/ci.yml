@@ -2,9 +2,19 @@ name: Build
 
 on:
   pull_request:
+    # Les lots de traductions (données seulement) n'ont pas besoin d'un build.
+    paths-ignore:
+      - 'data/translations/**'
   push:
     branches:
       - main
+    paths-ignore:
+      - 'data/translations/**'
+
+# Un seul build à la fois par branche : le plus récent remplace les autres.
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:

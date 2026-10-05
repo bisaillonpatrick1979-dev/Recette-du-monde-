@@ -66,7 +66,7 @@ export default async function RecipePage({ params }: Props) {
       .limit(12),
   ]);
 
-  // Tant que la migration recipe_videos n'est pas appliquée, la section reste en lecture seule.
+  // Si la table des vidéos est inaccessible (erreur réseau ou de droits), la section reste en lecture seule.
   const videosAvailable = !videosResult.error;
   const videoRows = videosResult.data ?? [];
 
@@ -153,6 +153,8 @@ export default async function RecipePage({ params }: Props) {
     .filter((image): image is typeof image & { url: string } => Boolean(image.url));
 
   const isOwner = userId === recipe.author_id;
+  // Les recettes importées du Wikibooks Cookbook exigent l'attribution CC BY-SA.
+  const isWikibooks = /wikibooks/i.test(`${recipe.source_name ?? ""} ${recipe.source_url ?? ""}`);
   const primaryImage = images.find((image) => image.is_primary) ?? images[0] ?? null;
 
   return (
@@ -216,7 +218,21 @@ export default async function RecipePage({ params }: Props) {
               translations={recipe.recipe_title_translations ?? []}
             />
           </h1>
-          {recipe.is_editorial ? (
+          {recipe.is_editorial && isWikibooks ? (
+            <div className="editorial-provenance">
+              <span>Recette du Wikibooks Cookbook</span>
+              <p>
+                Texte d’origine en anglais rédigé par les contributeurs du Wikibooks Cookbook, sous licence{" "}
+                <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr" target="_blank" rel="noreferrer">CC BY-SA 4.0</a>.
+                Les traductions et la mise en forme de Spoontrotter sont partagées sous la même licence.
+              </p>
+              {recipe.source_url ? (
+                <a href={recipe.source_url} target="_blank" rel="noreferrer">
+                  Page d’origine et historique des auteurs ↗
+                </a>
+              ) : null}
+            </div>
+          ) : recipe.is_editorial ? (
             <div className="editorial-provenance">
               <span>Recette officielle · Spoontrotter</span>
               <p>
@@ -234,13 +250,6 @@ export default async function RecipePage({ params }: Props) {
               <Link href={`/cooks/${recipe.author_id}`}>{author?.display_name || author?.username || "un membre"}</Link>
             </p>
           )}
-          <div className="recipe-detail-meta">
-            <span>Préparation : {recipe.prep_minutes ?? "—"} min</span>
-            <span>Cuisson : {recipe.cook_minutes ?? "—"} min</span>
-            <span>Portions : {recipe.servings ?? "—"}</span>
-            <span>{recipe.authenticity}</span>
-          </div>
-
           {images.length > 1 ? (
             <section className="recipe-gallery" aria-label="Galerie de la recette">
               {images.slice(1, 7).map((image) => (
@@ -274,6 +283,11 @@ export default async function RecipePage({ params }: Props) {
           ) : null}
 
           <LocalizedRecipeContent
+            sourceLanguage={recipe.source_language}
+            prepMinutes={recipe.prep_minutes}
+            cookMinutes={recipe.cook_minutes}
+            difficulty={recipe.difficulty}
+            authenticity={recipe.authenticity}
             baseDescription={recipe.description}
             baseServings={recipe.servings}
             baseIngredients={ingredients.map((item) => ({

@@ -60,6 +60,8 @@ jobs:
         run: |
           cd "$RUNNER_TEMP/photo-review"
           echo "Source : ${GITHUB_REF_NAME} @ ${GITHUB_SHA}" > SOURCE.txt
+          # Branche de miniatures sans application : Vercel ne doit pas tenter de la déployer.
+          echo '{"git":{"deploymentEnabled":false}}' > vercel.json
           BR="photo-review/run-${GITHUB_RUN_NUMBER}"
           git init -q -b "$BR"
           git config user.name "spoontrotter-photo-bot"

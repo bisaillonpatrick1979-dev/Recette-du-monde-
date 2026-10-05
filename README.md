@@ -59,12 +59,8 @@ ou une nouvelle base, comparer avec `supabase migration list` plutôt que de rej
 ## Robot photo
 
 Le workflow « Recherche photos » publie les miniatures candidates sur des branches orphelines
-`photo-review/run-<n>`. Ces branches ne contiennent pas l'application, donc Vercel échoue en tentant
-de les construire. Correctif à appliquer dans `.github/workflows/photo-search.yml`, juste avant `git init` :
-
-```bash
-echo '{"git":{"deploymentEnabled":false}}' > vercel.json
-```
+`photo-review/run-<n>`. Ces branches ne contiennent pas l'application : le workflow y dépose un
+`vercel.json` (`deploymentEnabled: false`) pour que Vercel ne tente plus de les construire.
 
 ## Sécurité
 

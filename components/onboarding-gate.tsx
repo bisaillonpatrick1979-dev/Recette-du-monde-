@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import { PREFERENCES_STORAGE_KEY } from "@/lib/preferences";
+import { hasSavedPreferences } from "@/lib/use-preferences";
 
 export function OnboardingGate() {
   const pathname = usePathname();
@@ -11,8 +11,8 @@ export function OnboardingGate() {
   useEffect(() => {
     if (pathname === "/onboarding") return;
 
-    const saved = window.localStorage.getItem(PREFERENCES_STORAGE_KEY);
-    if (!saved) {
+    // Lecture protégée : un stockage bloqué ne fait plus planter la page.
+    if (!hasSavedPreferences()) {
       router.replace("/onboarding");
     }
   }, [pathname, router]);

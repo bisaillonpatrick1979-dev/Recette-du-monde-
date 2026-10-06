@@ -1,10 +1,11 @@
 -- Titres FR / ES pour les 634 recettes Wikibooks publiées qui n’avaient qu’un titre anglais.
 -- Appliquée en production le 2026-10-05 (version Supabase 20261005165301).
 -- Correspondance par rang (ordre des id) parmi les recettes publiées sans titre FR, avec garde-fou :
--- la migration échoue si le nombre ou les titres témoins ne correspondent pas.
--- Sans effet si toutes les recettes publiées ont déjà un titre FR.
+-- l’ajout n’a lieu que si le nombre et les titres témoins correspondent exactement à l’instantané de production.
+-- Sur une base créée à partir du dépôt (les 634 recettes n’y sont pas), la migration ne fait rien
+-- au lieu d’échouer, pour ne pas bloquer un « supabase db reset ».
 -- Retour arrière : delete from public.recipe_title_translations where model = 'claude-titres-2026-10-05';
-do $$
+do $migration$
 declare n_total int; t1 text; t320 text; t634 text;
 begin
   select count(*) into n_total from public.recipes r where r.status='published'
@@ -16,10 +17,12 @@ begin
     and not exists (select 1 from public.recipe_title_translations x where x.recipe_id=r.id and x.language_code='fr')) s where n=320;
   select title into t634 from (select title, row_number() over (order by r.id) n from public.recipes r where r.status='published'
     and not exists (select 1 from public.recipe_title_translations x where x.recipe_id=r.id and x.language_code='fr')) s where n=634;
-  if n_total <> 634 or t1 <> 'Palaver Sauce' or t320 <> 'Wakeup Sausage Casserole' or t634 <> 'Liberian Chicken Gravy' then
-    raise exception 'Ensemble inattendu (%, %, %, %) : migration annulée', n_total, t1, t320, t634;
+  if n_total <> 634 or t1 is distinct from 'Palaver Sauce' or t320 is distinct from 'Wakeup Sausage Casserole'
+     or t634 is distinct from 'Liberian Chicken Gravy' then
+    -- Ensemble différent de la production : on n’ajoute rien (aucune erreur).
+    raise notice 'Titres Wikibooks ignorés : ensemble inattendu (%, %, %, %)', n_total, t1, t320, t634;
+    return;
   end if;
-end $$;
 
 with t(n, fr, es) as (values
 (1,'Sauce palaver','Salsa palaver'),(2,'Pain taboon','Pan taboon'),(3,'Biscuits croquants au gingembre','Galletas crujientes de jengibre'),(4,'Pâte brisée','Masa quebrada'),(5,'Ekuru (pouding de haricots blancs)','Ekuru (pudin de alubias blancas)'),(6,'Œuf roulé nigérian','Rollo de huevo nigeriano'),(7,'Pâté jamaïcain','Empanada jamaicana'),(8,'Biscuits et sauce gravy','Biscuits con salsa gravy'),(9,'Arancini (boulettes de riz frites italiennes)','Arancini (bolas de arroz fritas italianas)'),(10,'Riz « concoction » nigérian','Arroz «concoction» nigeriano'),
@@ -98,3 +101,4 @@ select b.id, l.code, case l.code when 'fr' then t.fr else t.es end, 'claude-titr
 from t join base b using (n)
 cross join (values ('fr'), ('es')) l(code)
 on conflict do nothing;
+end $migration$;

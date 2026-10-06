@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ChefIaPanel } from "@/components/chef-ia-panel";
+import { CookAttempts, type CookAttempt } from "@/components/cook-attempts";
+import { FavoriteButton } from "@/components/favorite-button";
+import { NotificationBell } from "@/components/notification-bell";
 import { RecipePhotoUploader } from "@/components/recipe-photo-uploader";
+import { ReportDialog } from "@/components/report-dialog";
 import { RecipeSocialPanel } from "@/components/recipe-social-panel";
 import { RecipeVideos } from "@/components/recipe-videos";
 import { LocalizedRecipeContent } from "@/components/localized-recipe-content";
@@ -13,6 +18,13 @@ import type { RecipeVideo } from "@/lib/video";
 import { createClient } from "@/lib/supabase/server";
 
 type Props = { params: Promise<{ id: string }> };
+
+// Marqueur posé par l'import du Wikibooks Cookbook (663 recettes, texte d'origine en anglais).
+const WIKIBOOKS_IMPORT_SOURCE = "Wikibooks Cookbook · CC BY-SA 4.0";
+
+function isWikibooksImport(recipe: { source_name: string | null; source_language: string | null }) {
+  return recipe.source_language === "en" && recipe.source_name === WIKIBOOKS_IMPORT_SOURCE;
+}
 
 export default async function RecipePage({ params }: Props) {
   const { id } = await params;
@@ -37,6 +49,9 @@ export default async function RecipePage({ params }: Props) {
     { data: ratings },
     { data: comments },
     videosResult,
+    attemptsResult,
+    { data: favoriteRow },
+    { data: blockRows },
   ] = await Promise.all([
     supabase
       .from("profiles")
@@ -64,11 +79,30 @@ export default async function RecipePage({ params }: Props) {
       .eq("recipe_id", id)
       .order("created_at", { ascending: false })
       .limit(12),
+    supabase
+      .from("cook_attempts")
+      .select("id,user_id,note,created_at", { count: "exact" })
+      .eq("recipe_id", id)
+      .eq("visible", true)
+      .order("created_at", { ascending: false })
+      .limit(20),
+    userId
+      ? supabase.from("favorites").select("recipe_id").eq("recipe_id", id).eq("user_id", userId).maybeSingle()
+      : Promise.resolve({ data: null }),
+    userId
+      ? supabase.from("user_blocks").select("blocked_id").eq("blocker_id", userId)
+      : Promise.resolve({ data: [] as Array<{ blocked_id: string }> }),
   ]);
+
+  // Membres bloqués par la personne connectée : leurs contributions sont masquées pour elle.
+  const blockedIds = new Set((blockRows ?? []).map((row) => row.blocked_id));
+  const visibleComments = (comments ?? []).filter((comment) => !blockedIds.has(comment.user_id));
+  const attemptRows = (attemptsResult.data ?? []).filter((attempt) => !blockedIds.has(attempt.user_id));
+  const attemptsTotal = attemptsResult.count ?? attemptRows.length;
 
   // Si la table des vidéos est inaccessible (erreur réseau ou de droits), la section reste en lecture seule.
   const videosAvailable = !videosResult.error;
-  const videoRows = videosResult.data ?? [];
+  const videoRows = (videosResult.data ?? []).filter((video) => !blockedIds.has(video.user_id));
 
   // Fil d'Ariane du lieu d'origine : pays › région › ville
   const placePath: Array<{ id: string; slug: string; name: string; place_type: string }> = [];
@@ -93,8 +127,9 @@ export default async function RecipePage({ params }: Props) {
 
   const commentUserIds = [
     ...new Set([
-      ...(comments ?? []).map((comment) => comment.user_id),
+      ...visibleComments.map((comment) => comment.user_id),
       ...videoRows.map((video) => video.user_id),
+      ...attemptRows.map((attempt) => attempt.user_id),
     ]),
   ];
   const { data: commentProfiles } = commentUserIds.length
@@ -108,7 +143,7 @@ export default async function RecipePage({ params }: Props) {
     (commentProfiles ?? []).map((profile) => [profile.id, profile]),
   );
 
-  const socialComments = (comments ?? []).map((comment) => {
+  const socialComments = visibleComments.map((comment) => {
     const profile = profileById.get(comment.user_id);
     return {
       id: comment.id,
@@ -116,6 +151,17 @@ export default async function RecipePage({ params }: Props) {
       author: profile?.display_name || profile?.username || "Membre",
       body: comment.body,
       createdAt: comment.created_at,
+    };
+  });
+
+  const cookAttempts: CookAttempt[] = attemptRows.map((attempt) => {
+    const profile = profileById.get(attempt.user_id);
+    return {
+      id: attempt.id,
+      authorId: attempt.user_id,
+      author: profile?.display_name || profile?.username || "Membre",
+      note: attempt.note,
+      createdAt: attempt.created_at,
     };
   });
 
@@ -153,8 +199,10 @@ export default async function RecipePage({ params }: Props) {
     .filter((image): image is typeof image & { url: string } => Boolean(image.url));
 
   const isOwner = userId === recipe.author_id;
-  // Les recettes importées du Wikibooks Cookbook exigent l'attribution CC BY-SA.
-  const isWikibooks = /wikibooks/i.test(`${recipe.source_name ?? ""} ${recipe.source_url ?? ""}`);
+  // Seules les recettes dont le texte anglais a été importé tel quel du Wikibooks Cookbook exigent
+  // l'attribution CC BY-SA. Les recettes éditoriales qui citent simplement Wikibooks comme référence
+  // (texte réécrit en français) gardent la mention « Recette officielle ».
+  const isWikibooks = isWikibooksImport(recipe);
   const primaryImage = images.find((image) => image.is_primary) ?? images[0] ?? null;
 
   return (
@@ -168,6 +216,7 @@ export default async function RecipePage({ params }: Props) {
           <div className="recipe-top-actions">
             <Link href="/explore" className="ghost-button">🌍 Globe</Link>
             <Link href="/community" className="ghost-button">Communauté</Link>
+            <NotificationBell />
             <Link href="/profile" className="ghost-button">Mon profil</Link>
           </div>
         </div>
@@ -218,6 +267,12 @@ export default async function RecipePage({ params }: Props) {
               translations={recipe.recipe_title_translations ?? []}
             />
           </h1>
+          <div className="recipe-quick-actions">
+            <FavoriteButton recipeId={recipe.id} viewerId={userId} initialFavorite={Boolean(favoriteRow)} />
+            {!isOwner ? (
+              <ReportDialog target={{ kind: "recipe", id: recipe.id }} viewerId={userId} label="⚑ Signaler" />
+            ) : null}
+          </div>
           {recipe.is_editorial && isWikibooks ? (
             <div className="editorial-provenance">
               <span>Recette du Wikibooks Cookbook</span>
@@ -304,6 +359,15 @@ export default async function RecipePage({ params }: Props) {
               instruction: step.instruction,
             }))}
             translations={recipe.recipe_translations ?? []}
+          />
+
+          <ChefIaPanel recipeId={recipe.id} viewerId={userId} />
+
+          <CookAttempts
+            recipeId={recipe.id}
+            viewerId={userId}
+            initialAttempts={cookAttempts}
+            initialTotal={attemptsTotal}
           />
 
           <RecipeSocialPanel

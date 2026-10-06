@@ -1301,6 +1301,24 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      consommer_credit_ia: {
+        Args: {
+          p_fonction: string
+          p_jetons_entree?: number
+          p_jetons_sortie?: number
+          p_modele: string
+        }
+        Returns: number
+      }
+      credits_ia: {
+        Args: never
+        Returns: {
+          credits_mensuels: number
+          credits_restants: number
+          fin_periode: string
+          forfait: string
+        }[]
+      }
       create_recipe_with_content: {
         Args: {
           p_authenticity?: Database["public"]["Enums"]["recipe_authenticity"]

@@ -12,13 +12,14 @@ import type {
 } from "@/lib/home-data";
 import {
   defaultPreferences,
-  PREFERENCES_STORAGE_KEY,
   UserPreferences,
 } from "@/lib/preferences";
+import { readPreferences } from "@/lib/use-preferences";
 import { OpenCountryCard } from "@/components/open-place-image";
 import { ContinentRecipesModal } from "@/components/continent-recipes-modal";
 import { CountryRecipesModal } from "@/components/country-recipes-modal";
 import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
+import { NotificationBell } from "@/components/notification-bell";
 import { OpenRecipeImage } from "@/components/open-recipe-image";
 import { QUICK_FILTERS, SEARCH_CATEGORIES } from "@/lib/search-filters";
 import { BORDERLESS_KEY, BORDERLESS_LABEL, type ContinentKey } from "@/lib/continents";
@@ -118,16 +119,11 @@ export function HomeExperience({
   const [activeContinent, setActiveContinent] = useState<{ key: ContinentKey; label: string } | null>(null);
   const [activeCountry, setActiveCountry] = useState<{ code: string; name: string; flag: string } | null>(null);
   const featuredRef = useRef<HTMLDivElement | null>(null);
+  const [menuOpen, setMenuOpen] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
-    const saved = window.localStorage.getItem(PREFERENCES_STORAGE_KEY);
-    if (!saved) return;
-    try {
-      setPreferences(JSON.parse(saved) as UserPreferences);
-    } catch {
-      setPreferences(defaultPreferences);
-    }
+    setPreferences(readPreferences());
   }, []);
 
   const text = copy[preferences.language] ?? copy.fr;
@@ -161,16 +157,57 @@ export function HomeExperience({
   return (
     <main className="planet-home">
       <header className="planet-header">
-        <button className="planet-icon-button" type="button" aria-label="Menu">☰</button>
+        <button
+          className="planet-icon-button"
+          type="button"
+          aria-label="Menu"
+          aria-expanded={menuOpen}
+          aria-controls="planet-menu"
+          onClick={() => setMenuOpen(true)}
+        >
+          ☰
+        </button>
         <Link href="/" className="planet-brand">
           <span className="planet-brand-leaf">◒</span>
           <strong>Spoontrotter</strong>
         </Link>
         <div className="planet-header-actions">
           <Link href="/community" className="planet-icon-button" aria-label="Communauté">♡</Link>
+          <NotificationBell className="planet-icon-button" />
           <Link href="/profile" className="planet-icon-button" aria-label="Mon profil">●</Link>
         </div>
       </header>
+
+      {menuOpen ? (
+        <div className="planet-menu-backdrop" onClick={() => setMenuOpen(false)}>
+          <nav
+            id="planet-menu"
+            className="planet-menu"
+            aria-label="Menu principal"
+            onClick={(event) => event.stopPropagation()}
+            onKeyDown={(event) => {
+              if (event.key === "Escape") setMenuOpen(false);
+            }}
+          >
+            <div className="planet-menu-head">
+              <strong>Spoontrotter</strong>
+              <button type="button" className="planet-icon-button" aria-label="Fermer le menu" onClick={() => setMenuOpen(false)} autoFocus>
+                ✕
+              </button>
+            </div>
+            <Link href="/explore">🌍 Explorer le globe</Link>
+            <Link href="/search">🔎 Rechercher une recette</Link>
+            <Link href={`/continents/${BORDERLESS_KEY}`}>🌐 {BORDERLESS_LABEL}</Link>
+            <Link href="/community">👥 Communauté</Link>
+            <Link href="/publish">♨ Publier une recette</Link>
+            <hr />
+            <Link href="/profile#favoris">★ Mes favoris</Link>
+            <Link href="/notifications">🔔 Notifications</Link>
+            <Link href="/profile">👤 Mon espace</Link>
+            <Link href="/onboarding">⚙ Langue, mesures et pays</Link>
+          </nav>
+        </div>
+      ) : null}
 
       <section className="planet-hero">
         <Link href="/explore" className="earth-visual" aria-label="Explorer la planète culinaire">

@@ -8,9 +8,9 @@ import {
   defaultPreferences,
   LanguageCode,
   MeasurementSystem,
-  PREFERENCES_STORAGE_KEY,
   UserPreferences,
 } from "@/lib/preferences";
+import { savePreferences } from "@/lib/use-preferences";
 
 const countries = [
   { value: "CA", label: "Canada", currency: "CAD", language: "fr", temp: "c" },
@@ -78,7 +78,7 @@ export function OnboardingWizard() {
 
   async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    window.localStorage.setItem(PREFERENCES_STORAGE_KEY, JSON.stringify(preferences));
+    savePreferences(preferences);
 
     const supabase = createClient();
     const { data: { user } } = await supabase.auth.getUser();

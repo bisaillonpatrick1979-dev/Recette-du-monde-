@@ -34,6 +34,12 @@ Plateforme mondiale de recettes, communauté culinaire et chef IA.
   abonnements et fil « Mes abonnements »
 - Vidéos de recettes : table `recipe_videos` et bucket `recipe-videos` en production
 - Titres trilingues : chaque recette publiée a un titre FR, EN et ES dans `recipe_title_translations`
+- Favoris (`favorites`) et « Je l'ai cuisinée » (`cook_attempts`) sur chaque recette; section « Mes favoris » du profil
+- Chef IA sur chaque recette : route serveur `/api/chef` (OpenAI, `OPENAI_MODEL` facultatif, `gpt-4o-mini` par défaut).
+  Forfait gratuit de 10 questions par mois (`entitlements`), débité seulement après une réponse réussie
+  (`credits_ia()` puis `consommer_credit_ia()`), journalisé dans `ai_usage_events`
+- Notifications créées par déclencheurs SQL (j'aime, note, commentaire, abonnement, cuisinée), page `/notifications`
+- Modération : signalements (`content_reports`, à consulter dans Supabase) et blocage de membres (`user_blocks`)
 
 ## Catalogue (5 octobre 2026)
 
@@ -52,6 +58,9 @@ La base Supabase fait foi. L'historique du dépôt et celui de la base ne concor
   (`recipe_photos_third_pass` à `recipe_photos_seventh_pass`);
 - les lots 23 à 32 et les nettoyages photo ont des fichiers dans le dépôt, mais ont été exécutés
   hors de l'historique des migrations Supabase.
+
+La migration `20261006030000_notifications_et_credits_chef_ia` a été exécutée par morceaux (`execute_sql`)
+puis inscrite à la main dans `supabase_migrations.schema_migrations`.
 
 Le contenu est bien en production; c'est seulement l'historique qui diverge. Avant un `supabase db reset`
 ou une nouvelle base, comparer avec `supabase migration list` plutôt que de rejouer le dossier tel quel.

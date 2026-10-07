@@ -1,0 +1,793 @@
+[
+ {
+  "slug": "cat-cuisine-pg",
+  "country": "PG",
+  "original": "Cuisine PG",
+  "title": "Cuisine PG",
+  "en": "Cuisine of Papua New Guinea"
+ },
+ {
+  "slug": "cat-food-pg",
+  "country": "PG",
+  "original": "Food PG",
+  "title": "Food PG",
+  "en": "Food of Papua New Guinea"
+ },
+ {
+  "slug": "cat-cuisine-vu",
+  "country": "VU",
+  "original": "Cuisine VU",
+  "title": "Cuisine VU",
+  "en": "Cuisine of Vanuatu"
+ },
+ {
+  "slug": "cat-food-vu",
+  "country": "VU",
+  "original": "Food VU",
+  "title": "Food VU",
+  "en": "Food of Vanuatu"
+ },
+ {
+  "slug": "cat-cuisine-bs",
+  "country": "BS",
+  "original": "Cuisine BS",
+  "title": "Cuisine BS",
+  "en": "Cuisine of the Bahamas"
+ },
+ {
+  "slug": "cat-food-bs",
+  "country": "BS",
+  "original": "Food BS",
+  "title": "Food BS",
+  "en": "Food of the Bahamas"
+ },
+ {
+  "slug": "cat-cuisine-dj",
+  "country": "DJ",
+  "original": "Cuisine DJ",
+  "title": "Cuisine DJ",
+  "en": "Cuisine of Djibouti"
+ },
+ {
+  "slug": "cat-food-dj",
+  "country": "DJ",
+  "original": "Food DJ",
+  "title": "Food DJ",
+  "en": "Food of Djibouti"
+ },
+ {
+  "slug": "cat-cuisine-fj",
+  "country": "FJ",
+  "original": "Cuisine FJ",
+  "title": "Cuisine FJ",
+  "en": "Cuisine of Fiji"
+ },
+ {
+  "slug": "cat-food-fj",
+  "country": "FJ",
+  "original": "Food FJ",
+  "title": "Food FJ",
+  "en": "Food of Fiji"
+ },
+ {
+  "slug": "cat-cuisine-gy",
+  "country": "GY",
+  "original": "Cuisine GY",
+  "title": "Cuisine GY",
+  "en": "Cuisine of Guyana"
+ },
+ {
+  "slug": "cat-food-gy",
+  "country": "GY",
+  "original": "Food GY",
+  "title": "Food GY",
+  "en": "Food of Guyana"
+ },
+ {
+  "slug": "cat-cuisine-mw",
+  "country": "MW",
+  "original": "Cuisine MW",
+  "title": "Cuisine MW",
+  "en": "Cuisine of Malawi"
+ },
+ {
+  "slug": "cat-food-mw",
+  "country": "MW",
+  "original": "Food MW",
+  "title": "Food MW",
+  "en": "Food of Malawi"
+ },
+ {
+  "slug": "cat-cuisine-pa",
+  "country": "PA",
+  "original": "Cuisine PA",
+  "title": "Cuisine PA",
+  "en": "Cuisine of Panama"
+ },
+ {
+  "slug": "cat-food-pa",
+  "country": "PA",
+  "original": "Food PA",
+  "title": "Food PA",
+  "en": "Food of Panama"
+ },
+ {
+  "slug": "cat-cuisine-ad",
+  "country": "AD",
+  "original": "Cuisine AD",
+  "title": "Cuisine AD",
+  "en": "Cuisine of Andorra"
+ },
+ {
+  "slug": "cat-food-ad",
+  "country": "AD",
+  "original": "Food AD",
+  "title": "Food AD",
+  "en": "Food of Andorra"
+ },
+ {
+  "slug": "cat-cuisine-ae",
+  "country": "AE",
+  "original": "Cuisine AE",
+  "title": "Cuisine AE",
+  "en": "Cuisine of the United Arab Emirates"
+ },
+ {
+  "slug": "cat-food-ae",
+  "country": "AE",
+  "original": "Food AE",
+  "title": "Food AE",
+  "en": "Food of the United Arab Emirates"
+ },
+ {
+  "slug": "cat-cuisine-bb",
+  "country": "BB",
+  "original": "Cuisine BB",
+  "title": "Cuisine BB",
+  "en": "Cuisine of Barbados"
+ },
+ {
+  "slug": "cat-food-bb",
+  "country": "BB",
+  "original": "Food BB",
+  "title": "Food BB",
+  "en": "Food of Barbados"
+ },
+ {
+  "slug": "cat-cuisine-cv",
+  "country": "CV",
+  "original": "Cuisine CV",
+  "title": "Cuisine CV",
+  "en": "Cuisine of Cape Verde"
+ },
+ {
+  "slug": "cat-food-cv",
+  "country": "CV",
+  "original": "Food CV",
+  "title": "Food CV",
+  "en": "Food of Cape Verde"
+ },
+ {
+  "slug": "cat-cuisine-hn",
+  "country": "HN",
+  "original": "Cuisine HN",
+  "title": "Cuisine HN",
+  "en": "Cuisine of Honduras"
+ },
+ {
+  "slug": "cat-food-hn",
+  "country": "HN",
+  "original": "Food HN",
+  "title": "Food HN",
+  "en": "Food of Honduras"
+ },
+ {
+  "slug": "cat-cuisine-li",
+  "country": "LI",
+  "original": "Cuisine LI",
+  "title": "Cuisine LI",
+  "en": "Cuisine of Liechtenstein"
+ },
+ {
+  "slug": "cat-food-li",
+  "country": "LI",
+  "original": "Food LI",
+  "title": "Food LI",
+  "en": "Food of Liechtenstein"
+ },
+ {
+  "slug": "cat-cuisine-lr",
+  "country": "LR",
+  "original": "Cuisine LR",
+  "title": "Cuisine LR",
+  "en": "Cuisine of Liberia"
+ },
+ {
+  "slug": "cat-food-lr",
+  "country": "LR",
+  "original": "Food LR",
+  "title": "Food LR",
+  "en": "Food of Liberia"
+ },
+ {
+  "slug": "cat-cuisine-mz",
+  "country": "MZ",
+  "original": "Cuisine MZ",
+  "title": "Cuisine MZ",
+  "en": "Cuisine of Mozambique"
+ },
+ {
+  "slug": "cat-food-mz",
+  "country": "MZ",
+  "original": "Food MZ",
+  "title": "Food MZ",
+  "en": "Food of Mozambique"
+ },
+ {
+  "slug": "cat-cuisine-so",
+  "country": "SO",
+  "original": "Cuisine SO",
+  "title": "Cuisine SO",
+  "en": "Cuisine of Somalia"
+ },
+ {
+  "slug": "cat-food-so",
+  "country": "SO",
+  "original": "Food SO",
+  "title": "Food SO",
+  "en": "Food of Somalia"
+ },
+ {
+  "slug": "cat-cuisine-sr",
+  "country": "SR",
+  "original": "Cuisine SR",
+  "title": "Cuisine SR",
+  "en": "Cuisine of Suriname"
+ },
+ {
+  "slug": "cat-food-sr",
+  "country": "SR",
+  "original": "Food SR",
+  "title": "Food SR",
+  "en": "Food of Suriname"
+ },
+ {
+  "slug": "cat-cuisine-td",
+  "country": "TD",
+  "original": "Cuisine TD",
+  "title": "Cuisine TD",
+  "en": "Cuisine of Chad"
+ },
+ {
+  "slug": "cat-food-td",
+  "country": "TD",
+  "original": "Food TD",
+  "title": "Food TD",
+  "en": "Food of Chad"
+ },
+ {
+  "slug": "cat-cuisine-tl",
+  "country": "TL",
+  "original": "Cuisine TL",
+  "title": "Cuisine TL",
+  "en": "Cuisine of East Timor"
+ },
+ {
+  "slug": "cat-food-tl",
+  "country": "TL",
+  "original": "Food TL",
+  "title": "Food TL",
+  "en": "Food of East Timor"
+ },
+ {
+  "slug": "cat-cuisine-ws",
+  "country": "WS",
+  "original": "Cuisine WS",
+  "title": "Cuisine WS",
+  "en": "Cuisine of Samoa"
+ },
+ {
+  "slug": "cat-food-ws",
+  "country": "WS",
+  "original": "Food WS",
+  "title": "Food WS",
+  "en": "Food of Samoa"
+ },
+ {
+  "slug": "cat-cuisine-zm",
+  "country": "ZM",
+  "original": "Cuisine ZM",
+  "title": "Cuisine ZM",
+  "en": "Cuisine of Zambia"
+ },
+ {
+  "slug": "cat-food-zm",
+  "country": "ZM",
+  "original": "Food ZM",
+  "title": "Food ZM",
+  "en": "Food of Zambia"
+ },
+ {
+  "slug": "s2-pg-0",
+  "country": "PG",
+  "original": "Sago PNG",
+  "title": "Sago PNG",
+  "en": "Papua New Guinea sago food"
+ },
+ {
+  "slug": "s2-pg-1",
+  "country": "PG",
+  "original": "Kokonas",
+  "title": "Kokonas",
+  "en": "Papua New Guinea coconut dish"
+ },
+ {
+  "slug": "s2-pg-2",
+  "country": "PG",
+  "original": "Kaukau",
+  "title": "Kaukau",
+  "en": "Papua New Guinea sweet potato"
+ },
+ {
+  "slug": "s2-vu-3",
+  "country": "VU",
+  "original": "Tuluk",
+  "title": "Tuluk",
+  "en": "Vanuatu tuluk"
+ },
+ {
+  "slug": "s2-vu-4",
+  "country": "VU",
+  "original": "Nalot",
+  "title": "Nalot",
+  "en": "Vanuatu nalot"
+ },
+ {
+  "slug": "s2-vu-5",
+  "country": "VU",
+  "original": "Simboro",
+  "title": "Simboro",
+  "en": "Vanuatu simboro"
+ },
+ {
+  "slug": "s2-bs-6",
+  "country": "BS",
+  "original": "Stew fish",
+  "title": "Stew fish",
+  "en": "Bahamian stew fish"
+ },
+ {
+  "slug": "s2-bs-7",
+  "country": "BS",
+  "original": "Bahamian rum cake",
+  "title": "Bahamian rum cake",
+  "en": "Bahamian rum cake"
+ },
+ {
+  "slug": "s2-bs-8",
+  "country": "BS",
+  "original": "Johnnycake",
+  "title": "Johnnycake",
+  "en": "Bahamian johnnycake"
+ },
+ {
+  "slug": "s2-bs-9",
+  "country": "BS",
+  "original": "Chicken souse",
+  "title": "Chicken souse",
+  "en": "Bahamian souse"
+ },
+ {
+  "slug": "s2-dj-10",
+  "country": "DJ",
+  "original": "Skoudehkaris",
+  "title": "Skoudehkaris",
+  "en": "Djiboutian skoudehkaris"
+ },
+ {
+  "slug": "s2-dj-11",
+  "country": "DJ",
+  "original": "Bariis Djibouti",
+  "title": "Bariis Djibouti",
+  "en": "Djiboutian rice"
+ },
+ {
+  "slug": "s2-fj-12",
+  "country": "FJ",
+  "original": "Rourou",
+  "title": "Rourou",
+  "en": "Fijian rourou"
+ },
+ {
+  "slug": "s2-fj-13",
+  "country": "FJ",
+  "original": "Vakalolo",
+  "title": "Vakalolo",
+  "en": "Fijian vakalolo pudding"
+ },
+ {
+  "slug": "s2-fj-14",
+  "country": "FJ",
+  "original": "Fijian curry",
+  "title": "Fijian curry",
+  "en": "Indo-Fijian curry"
+ },
+ {
+  "slug": "s2-gy-15",
+  "country": "GY",
+  "original": "Dhal puri",
+  "title": "Dhal puri",
+  "en": "Guyanese dhal puri"
+ },
+ {
+  "slug": "s2-gy-16",
+  "country": "GY",
+  "original": "Metemgee",
+  "title": "Metemgee",
+  "en": "Guyanese metemgee"
+ },
+ {
+  "slug": "s2-gy-17",
+  "country": "GY",
+  "original": "Cheese roll",
+  "title": "Cheese roll",
+  "en": "Guyanese cheese roll"
+ },
+ {
+  "slug": "s2-gy-18",
+  "country": "GY",
+  "original": "Guyanese chow mein",
+  "title": "Guyanese chow mein",
+  "en": "Guyanese chow mein"
+ },
+ {
+  "slug": "s2-gy-19",
+  "country": "GY",
+  "original": "Salara",
+  "title": "Salara",
+  "en": "Guyanese salara"
+ },
+ {
+  "slug": "s2-mw-20",
+  "country": "MW",
+  "original": "Thobwa",
+  "title": "Thobwa",
+  "en": "Malawian thobwa"
+ },
+ {
+  "slug": "s2-mw-21",
+  "country": "MW",
+  "original": "Kondowole",
+  "title": "Kondowole",
+  "en": "Malawian kondowole"
+ },
+ {
+  "slug": "s2-mw-22",
+  "country": "MW",
+  "original": "Nkhwani",
+  "title": "Nkhwani",
+  "en": "Malawian pumpkin leaves"
+ },
+ {
+  "slug": "s2-mw-23",
+  "country": "MW",
+  "original": "Kachumbari Malawi",
+  "title": "Kachumbari Malawi",
+  "en": "Malawi tomato relish"
+ },
+ {
+  "slug": "s2-pa-24",
+  "country": "PA",
+  "original": "Sancocho panameño",
+  "title": "Sancocho panameño",
+  "en": "Panamanian sancocho"
+ },
+ {
+  "slug": "s2-pa-25",
+  "country": "PA",
+  "original": "Hojaldras",
+  "title": "Hojaldras",
+  "en": "Panamanian hojaldras"
+ },
+ {
+  "slug": "s2-pa-26",
+  "country": "PA",
+  "original": "Raspao",
+  "title": "Raspao",
+  "en": "Panamanian raspao"
+ },
+ {
+  "slug": "s2-pa-27",
+  "country": "PA",
+  "original": "Bollo de maíz",
+  "title": "Bollo de maíz",
+  "en": "Panamanian bollo"
+ },
+ {
+  "slug": "s2-ad-28",
+  "country": "AD",
+  "original": "Truita de carreroles",
+  "title": "Truita de carreroles",
+  "en": "Andorran mushroom omelette"
+ },
+ {
+  "slug": "s2-ad-29",
+  "country": "AD",
+  "original": "Coca andorrana",
+  "title": "Coca andorrana",
+  "en": "Andorran coca"
+ },
+ {
+  "slug": "s2-ae-30",
+  "country": "AE",
+  "original": "Chebab",
+  "title": "Chebab",
+  "en": "Emirati chebab pancakes"
+ },
+ {
+  "slug": "s2-ae-31",
+  "country": "AE",
+  "original": "Saloona",
+  "title": "Saloona",
+  "en": "Emirati saloona stew"
+ },
+ {
+  "slug": "s2-ae-32",
+  "country": "AE",
+  "original": "Balaleet",
+  "title": "Balaleet",
+  "en": "Emirati balaleet"
+ },
+ {
+  "slug": "s2-bb-33",
+  "country": "BB",
+  "original": "Cou-cou and flying fish",
+  "title": "Cou-cou and flying fish",
+  "en": "Barbados cou-cou flying fish"
+ },
+ {
+  "slug": "s2-bb-34",
+  "country": "BB",
+  "original": "Pudding and souse",
+  "title": "Pudding and souse",
+  "en": "Barbados pudding and souse"
+ },
+ {
+  "slug": "s2-bb-35",
+  "country": "BB",
+  "original": "Bajan pepper sauce",
+  "title": "Bajan pepper sauce",
+  "en": "Barbados pepper sauce"
+ },
+ {
+  "slug": "s2-cv-36",
+  "country": "CV",
+  "original": "Canja",
+  "title": "Canja",
+  "en": "Cape Verdean canja"
+ },
+ {
+  "slug": "s2-cv-37",
+  "country": "CV",
+  "original": "Pastel com diabo dentro",
+  "title": "Pastel com diabo dentro",
+  "en": "Cape Verdean pastel"
+ },
+ {
+  "slug": "s2-cv-38",
+  "country": "CV",
+  "original": "Pudim de queijo",
+  "title": "Pudim de queijo",
+  "en": "Cape Verdean cheese pudding"
+ },
+ {
+  "slug": "s2-hn-39",
+  "country": "HN",
+  "original": "Semita",
+  "title": "Semita",
+  "en": "Honduran semita"
+ },
+ {
+  "slug": "s2-hn-40",
+  "country": "HN",
+  "original": "Catrachas",
+  "title": "Catrachas",
+  "en": "Honduran catrachas"
+ },
+ {
+  "slug": "s2-hn-41",
+  "country": "HN",
+  "original": "Plato típico",
+  "title": "Plato típico",
+  "en": "Honduran plato típico"
+ },
+ {
+  "slug": "s2-hn-42",
+  "country": "HN",
+  "original": "Pastelitos de carne",
+  "title": "Pastelitos de carne",
+  "en": "Honduran pastelitos"
+ },
+ {
+  "slug": "s2-li-43",
+  "country": "LI",
+  "original": "Hafaläb",
+  "title": "Hafaläb",
+  "en": "Liechtenstein hafaläb"
+ },
+ {
+  "slug": "s2-lr-44",
+  "country": "LR",
+  "original": "Palm butter",
+  "title": "Palm butter",
+  "en": "Liberian palm butter"
+ },
+ {
+  "slug": "s2-lr-45",
+  "country": "LR",
+  "original": "Cassava leaf",
+  "title": "Cassava leaf",
+  "en": "Liberian cassava leaf"
+ },
+ {
+  "slug": "s2-lr-46",
+  "country": "LR",
+  "original": "Rice bread",
+  "title": "Rice bread",
+  "en": "Liberian rice bread"
+ },
+ {
+  "slug": "s2-mz-47",
+  "country": "MZ",
+  "original": "Frango piri-piri",
+  "title": "Frango piri-piri",
+  "en": "Mozambican piri-piri chicken"
+ },
+ {
+  "slug": "s2-mz-48",
+  "country": "MZ",
+  "original": "Camarão grelhado",
+  "title": "Camarão grelhado",
+  "en": "Mozambican grilled prawns"
+ },
+ {
+  "slug": "s2-mz-49",
+  "country": "MZ",
+  "original": "Bolo polana",
+  "title": "Bolo polana",
+  "en": "Mozambican bolo polana"
+ },
+ {
+  "slug": "s2-so-50",
+  "country": "SO",
+  "original": "Muufo",
+  "title": "Muufo",
+  "en": "Somali muufo"
+ },
+ {
+  "slug": "s2-so-51",
+  "country": "SO",
+  "original": "Suqaar",
+  "title": "Suqaar",
+  "en": "Somali suqaar"
+ },
+ {
+  "slug": "s2-so-52",
+  "country": "SO",
+  "original": "Sambuus",
+  "title": "Sambuus",
+  "en": "Somali sambuus"
+ },
+ {
+  "slug": "s2-so-53",
+  "country": "SO",
+  "original": "Cambuulo",
+  "title": "Cambuulo",
+  "en": "Somali cambuulo"
+ },
+ {
+  "slug": "s2-sr-54",
+  "country": "SR",
+  "original": "Moksi alesi",
+  "title": "Moksi alesi",
+  "en": "Surinamese moksi alesi"
+ },
+ {
+  "slug": "s2-sr-55",
+  "country": "SR",
+  "original": "Saoto soep",
+  "title": "Saoto soep",
+  "en": "Surinamese saoto soup"
+ },
+ {
+  "slug": "s2-sr-56",
+  "country": "SR",
+  "original": "Bami goreng Suriname",
+  "title": "Bami goreng Suriname",
+  "en": "Surinamese bami"
+ },
+ {
+  "slug": "s2-sr-57",
+  "country": "SR",
+  "original": "Bakkeljauw",
+  "title": "Bakkeljauw",
+  "en": "Surinamese salt cod"
+ },
+ {
+  "slug": "s2-td-58",
+  "country": "TD",
+  "original": "Daraba",
+  "title": "Daraba",
+  "en": "Chadian daraba"
+ },
+ {
+  "slug": "s2-td-59",
+  "country": "TD",
+  "original": "Karkanji",
+  "title": "Karkanji",
+  "en": "Chadian karkanji drink"
+ },
+ {
+  "slug": "s2-td-60",
+  "country": "TD",
+  "original": "Mashwi",
+  "title": "Mashwi",
+  "en": "Chadian grilled meat"
+ },
+ {
+  "slug": "s2-tl-61",
+  "country": "TL",
+  "original": "Ikan sabuko",
+  "title": "Ikan sabuko",
+  "en": "Timorese fish"
+ },
+ {
+  "slug": "s2-tl-62",
+  "country": "TL",
+  "original": "Tukir",
+  "title": "Tukir",
+  "en": "Timorese tukir"
+ },
+ {
+  "slug": "s2-ws-63",
+  "country": "WS",
+  "original": "Panipopo",
+  "title": "Panipopo",
+  "en": "Samoan panipopo"
+ },
+ {
+  "slug": "s2-ws-64",
+  "country": "WS",
+  "original": "Koko alaisa",
+  "title": "Koko alaisa",
+  "en": "Samoan koko rice"
+ },
+ {
+  "slug": "s2-ws-65",
+  "country": "WS",
+  "original": "Oka",
+  "title": "Oka",
+  "en": "Samoan oka"
+ },
+ {
+  "slug": "s2-zm-66",
+  "country": "ZM",
+  "original": "Vitumbuwa",
+  "title": "Vitumbuwa",
+  "en": "Zambian vitumbuwa"
+ },
+ {
+  "slug": "s2-zm-67",
+  "country": "ZM",
+  "original": "Ifisashi",
+  "title": "Ifisashi",
+  "en": "Zambian ifisashi"
+ },
+ {
+  "slug": "s2-zm-68",
+  "country": "ZM",
+  "original": "Kapenta",
+  "title": "Kapenta",
+  "en": "Zambian kapenta"
+ }
+]

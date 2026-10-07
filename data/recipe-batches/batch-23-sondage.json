@@ -1,0 +1,212 @@
+[
+ {
+  "slug": "s3-vu-0",
+  "country": "VU",
+  "original": "Kava",
+  "title": "Kava",
+  "en": "Vanuatu kava drink"
+ },
+ {
+  "slug": "s3-vu-1",
+  "country": "VU",
+  "original": "Island cabbage",
+  "title": "Island cabbage",
+  "en": "Vanuatu island cabbage coconut"
+ },
+ {
+  "slug": "s3-vu-2",
+  "country": "VU",
+  "original": "Santo beef",
+  "title": "Santo beef",
+  "en": "Vanuatu Santo beef steak"
+ },
+ {
+  "slug": "s3-vu-3",
+  "country": "VU",
+  "original": "Vanuatu food",
+  "title": "Vanuatu food",
+  "en": "Vanuatu food plate"
+ },
+ {
+  "slug": "s3-bs-4",
+  "country": "BS",
+  "original": "Crab and rice",
+  "title": "Crab and rice",
+  "en": "Bahamian crab and rice"
+ },
+ {
+  "slug": "s3-bs-5",
+  "country": "BS",
+  "original": "Sky juice",
+  "title": "Sky juice",
+  "en": "Bahamian sky juice"
+ },
+ {
+  "slug": "s3-bs-6",
+  "country": "BS",
+  "original": "Bahamian food",
+  "title": "Bahamian food",
+  "en": "Bahamian food plate"
+ },
+ {
+  "slug": "s3-bs-7",
+  "country": "BS",
+  "original": "Fire engine",
+  "title": "Fire engine",
+  "en": "Bahamian corned beef and rice"
+ },
+ {
+  "slug": "s3-dj-8",
+  "country": "DJ",
+  "original": "Djibouti food",
+  "title": "Djibouti food",
+  "en": "Djibouti food plate"
+ },
+ {
+  "slug": "s3-dj-9",
+  "country": "DJ",
+  "original": "Lahoh Djibouti",
+  "title": "Lahoh Djibouti",
+  "en": "Djibouti laxoox"
+ },
+ {
+  "slug": "s3-fj-10",
+  "country": "FJ",
+  "original": "Fiji food",
+  "title": "Fiji food",
+  "en": "Fijian food plate"
+ },
+ {
+  "slug": "s3-fj-11",
+  "country": "FJ",
+  "original": "Ika vakalolo",
+  "title": "Ika vakalolo",
+  "en": "Fijian fish in coconut"
+ },
+ {
+  "slug": "s3-fj-12",
+  "country": "FJ",
+  "original": "Fijian roti",
+  "title": "Fijian roti",
+  "en": "Fiji roti"
+ },
+ {
+  "slug": "s3-gy-13",
+  "country": "GY",
+  "original": "Guyana food",
+  "title": "Guyana food",
+  "en": "Guyanese food plate"
+ },
+ {
+  "slug": "s3-gy-14",
+  "country": "GY",
+  "original": "Guyanese black cake",
+  "title": "Guyanese black cake",
+  "en": "Guyanese black cake"
+ },
+ {
+  "slug": "s3-gy-15",
+  "country": "GY",
+  "original": "Bake and saltfish",
+  "title": "Bake and saltfish",
+  "en": "Guyanese bake"
+ },
+ {
+  "slug": "s3-pg-16",
+  "country": "PG",
+  "original": "PNG food",
+  "title": "PNG food",
+  "en": "Papua New Guinea food"
+ },
+ {
+  "slug": "s3-pg-17",
+  "country": "PG",
+  "original": "Kaukau roast",
+  "title": "Kaukau roast",
+  "en": "Papua New Guinea roasted sweet potato"
+ },
+ {
+  "slug": "s3-ws-18",
+  "country": "WS",
+  "original": "Fa'ausi",
+  "title": "Fa'ausi",
+  "en": "Samoan faausi taro"
+ },
+ {
+  "slug": "s3-ws-19",
+  "country": "WS",
+  "original": "Samoan food",
+  "title": "Samoan food",
+  "en": "Samoan food plate"
+ },
+ {
+  "slug": "s3-ws-20",
+  "country": "WS",
+  "original": "Koko Samoa",
+  "title": "Koko Samoa",
+  "en": "Samoan cocoa drink"
+ },
+ {
+  "slug": "s3-ws-21",
+  "country": "WS",
+  "original": "Panikeke",
+  "title": "Panikeke",
+  "en": "Samoan panikeke"
+ },
+ {
+  "slug": "s3-ad-22",
+  "country": "AD",
+  "original": "Cuina andorrana",
+  "title": "Cuina andorrana",
+  "en": "Andorran cuisine"
+ },
+ {
+  "slug": "s3-ad-23",
+  "country": "AD",
+  "original": "Bunyols",
+  "title": "Bunyols",
+  "en": "Andorran bunyols"
+ },
+ {
+  "slug": "s3-li-24",
+  "country": "LI",
+  "original": "Liechtenstein food",
+  "title": "Liechtenstein food",
+  "en": "Liechtenstein dish"
+ },
+ {
+  "slug": "s3-li-25",
+  "country": "LI",
+  "original": "Törkarebl",
+  "title": "Törkarebl",
+  "en": "Liechtenstein maize porridge"
+ },
+ {
+  "slug": "s3-td-26",
+  "country": "TD",
+  "original": "Cuisine tchadienne",
+  "title": "Cuisine tchadienne",
+  "en": "Chadian cuisine"
+ },
+ {
+  "slug": "s3-td-27",
+  "country": "TD",
+  "original": "Boule tchadienne",
+  "title": "Boule tchadienne",
+  "en": "Chadian boule millet"
+ },
+ {
+  "slug": "s3-tl-28",
+  "country": "TL",
+  "original": "Timor food",
+  "title": "Timor food",
+  "en": "Timorese food"
+ },
+ {
+  "slug": "s3-tl-29",
+  "country": "TL",
+  "original": "Ai-manas",
+  "title": "Ai-manas",
+  "en": "Timorese ai-manas"
+ }
+]

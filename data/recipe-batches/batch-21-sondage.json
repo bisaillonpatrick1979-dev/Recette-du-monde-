@@ -1,0 +1,1073 @@
+[
+ {
+  "slug": "salanga-tchad",
+  "country": "TD",
+  "original": "Salanga",
+  "title": "Salanga",
+  "en": "Chadian dried fish salanga"
+ },
+ {
+  "slug": "boule-de-mil-tchad",
+  "country": "TD",
+  "original": "Boule (mil)",
+  "title": "Boule (mil)",
+  "en": "Chadian millet boule"
+ },
+ {
+  "slug": "tchad-gombo-sauce",
+  "country": "TD",
+  "original": "Sauce gombo tchadienne",
+  "title": "Sauce gombo tchadienne",
+  "en": "Chadian okra sauce"
+ },
+ {
+  "slug": "sabaayad-dj",
+  "country": "DJ",
+  "original": "Sabaayad",
+  "title": "Sabaayad",
+  "en": "Djiboutian sabaayad flatbread"
+ },
+ {
+  "slug": "xalwo-dj",
+  "country": "DJ",
+  "original": "Xalwo",
+  "title": "Xalwo",
+  "en": "Djiboutian halwa"
+ },
+ {
+  "slug": "malawax-dj",
+  "country": "DJ",
+  "original": "Malawax",
+  "title": "Malawax",
+  "en": "Djiboutian malawax crepe"
+ },
+ {
+  "slug": "xalwo-so",
+  "country": "SO",
+  "original": "Xalwo",
+  "title": "Xalwo",
+  "en": "Somali halwa xalwo"
+ },
+ {
+  "slug": "sabaayad-so",
+  "country": "SO",
+  "original": "Sabaayad",
+  "title": "Sabaayad",
+  "en": "Somali sabaayad flatbread"
+ },
+ {
+  "slug": "bajiye-so",
+  "country": "SO",
+  "original": "Bajiye",
+  "title": "Bajiye",
+  "en": "Somali bajiye fritters"
+ },
+ {
+  "slug": "hilib-ari-so",
+  "country": "SO",
+  "original": "Hilib ari",
+  "title": "Hilib ari",
+  "en": "Somali goat meat"
+ },
+ {
+  "slug": "maraq-so",
+  "country": "SO",
+  "original": "Maraq",
+  "title": "Maraq",
+  "en": "Somali maraq stew"
+ },
+ {
+  "slug": "duruka-fj",
+  "country": "FJ",
+  "original": "Duruka",
+  "title": "Duruka",
+  "en": "Fijian duruka"
+ },
+ {
+  "slug": "babakau-fj",
+  "country": "FJ",
+  "original": "Babakau",
+  "title": "Babakau",
+  "en": "Fijian babakau fried bread"
+ },
+ {
+  "slug": "palusami-fj",
+  "country": "FJ",
+  "original": "Palusami fidjien",
+  "title": "Palusami fidjien",
+  "en": "Fijian palusami"
+ },
+ {
+  "slug": "cassava-cake-fj",
+  "country": "FJ",
+  "original": "Cassava cake fidjien",
+  "title": "Cassava cake fidjien",
+  "en": "Fijian cassava cake"
+ },
+ {
+  "slug": "pine-tarts-gy",
+  "country": "GY",
+  "original": "Pine tarts",
+  "title": "Pine tarts",
+  "en": "Guyanese pine tarts"
+ },
+ {
+  "slug": "black-cake-gy",
+  "country": "GY",
+  "original": "Black cake",
+  "title": "Black cake",
+  "en": "Guyanese black cake"
+ },
+ {
+  "slug": "garlic-pork-gy",
+  "country": "GY",
+  "original": "Garlic pork",
+  "title": "Garlic pork",
+  "en": "Guyanese garlic pork"
+ },
+ {
+  "slug": "bake-saltfish-gy",
+  "country": "GY",
+  "original": "Bake and saltfish",
+  "title": "Bake and saltfish",
+  "en": "Guyanese bake and saltfish"
+ },
+ {
+  "slug": "mithai-gy",
+  "country": "GY",
+  "original": "Mithai",
+  "title": "Mithai",
+  "en": "Guyanese mithai"
+ },
+ {
+  "slug": "dumboy-lr",
+  "country": "LR",
+  "original": "Dumboy",
+  "title": "Dumboy",
+  "en": "Liberian dumboy"
+ },
+ {
+  "slug": "kanya-lr",
+  "country": "LR",
+  "original": "Kanya",
+  "title": "Kanya",
+  "en": "Liberian kanya"
+ },
+ {
+  "slug": "jollof-lr",
+  "country": "LR",
+  "original": "Jollof rice libérien",
+  "title": "Jollof rice libérien",
+  "en": "Liberian jollof rice"
+ },
+ {
+  "slug": "pepper-soup-lr",
+  "country": "LR",
+  "original": "Pepper soup libérienne",
+  "title": "Pepper soup libérienne",
+  "en": "Liberian pepper soup"
+ },
+ {
+  "slug": "aibika-pg",
+  "country": "PG",
+  "original": "Aibika au lait de coco",
+  "title": "Aibika au lait de coco",
+  "en": "Papua New Guinea aibika in coconut milk"
+ },
+ {
+  "slug": "pitpit-pg",
+  "country": "PG",
+  "original": "Pitpit",
+  "title": "Pitpit",
+  "en": "Papua New Guinea pitpit"
+ },
+ {
+  "slug": "kaukau-coconut-pg",
+  "country": "PG",
+  "original": "Kaukau au coco",
+  "title": "Kaukau au coco",
+  "en": "Papua New Guinea kaukau coconut"
+ },
+ {
+  "slug": "coconut-crab-vu",
+  "country": "VU",
+  "original": "Crabe de cocotier",
+  "title": "Crabe de cocotier",
+  "en": "Vanuatu coconut crab dish"
+ },
+ {
+  "slug": "poisson-cru-vu",
+  "country": "VU",
+  "original": "Poisson cru",
+  "title": "Poisson cru",
+  "en": "Vanuatu raw fish in coconut"
+ },
+ {
+  "slug": "lap-lap-banane-vu",
+  "country": "VU",
+  "original": "Lap lap banane",
+  "title": "Lap lap banane",
+  "en": "Vanuatu banana lap lap"
+ },
+ {
+  "slug": "pani-keke-ws",
+  "country": "WS",
+  "original": "Pani keke",
+  "title": "Pani keke",
+  "en": "Samoan pani keke"
+ },
+ {
+  "slug": "lupulu-ws",
+  "country": "WS",
+  "original": "Lupulu",
+  "title": "Lupulu",
+  "en": "Samoan lupulu"
+ },
+ {
+  "slug": "faapapa-ws",
+  "country": "WS",
+  "original": "Fa'apapa",
+  "title": "Fa'apapa",
+  "en": "Samoan faapapa coconut bread"
+ },
+ {
+  "slug": "supo-esi-ws",
+  "country": "WS",
+  "original": "Supo esi",
+  "title": "Supo esi",
+  "en": "Samoan papaya soup"
+ },
+ {
+  "slug": "faalifu-fai-ws",
+  "country": "WS",
+  "original": "Fa'alifu fa'i",
+  "title": "Fa'alifu fa'i",
+  "en": "Samoan bananas in coconut cream"
+ },
+ {
+  "slug": "khameer-ae",
+  "country": "AE",
+  "original": "Khameer",
+  "title": "Khameer",
+  "en": "Emirati khameer bread"
+ },
+ {
+  "slug": "machboos-ae",
+  "country": "AE",
+  "original": "Machboos émirien",
+  "title": "Machboos émirien",
+  "en": "Emirati machboos"
+ },
+ {
+  "slug": "madrooba-ae",
+  "country": "AE",
+  "original": "Madrooba",
+  "title": "Madrooba",
+  "en": "Emirati madrooba"
+ },
+ {
+  "slug": "margoogat-ae",
+  "country": "AE",
+  "original": "Margoogat",
+  "title": "Margoogat",
+  "en": "Emirati margoogat"
+ },
+ {
+  "slug": "sweet-bread-bb",
+  "country": "BB",
+  "original": "Bajan sweet bread",
+  "title": "Bajan sweet bread",
+  "en": "Bajan coconut sweet bread"
+ },
+ {
+  "slug": "jug-jug-bb",
+  "country": "BB",
+  "original": "Jug-jug",
+  "title": "Jug-jug",
+  "en": "Barbadian jug jug"
+ },
+ {
+  "slug": "flying-fish-bb",
+  "country": "BB",
+  "original": "Flying fish frit",
+  "title": "Flying fish frit",
+  "en": "Barbados fried flying fish"
+ },
+ {
+  "slug": "cracked-conch-bs",
+  "country": "BS",
+  "original": "Cracked conch",
+  "title": "Cracked conch",
+  "en": "Bahamian cracked conch"
+ },
+ {
+  "slug": "conch-fritters-bs",
+  "country": "BS",
+  "original": "Conch fritters",
+  "title": "Conch fritters",
+  "en": "Bahamian conch fritters"
+ },
+ {
+  "slug": "boil-fish-bs",
+  "country": "BS",
+  "original": "Boil fish",
+  "title": "Boil fish",
+  "en": "Bahamian boil fish"
+ },
+ {
+  "slug": "xerem-cv",
+  "country": "CV",
+  "original": "Xerém",
+  "title": "Xerém",
+  "en": "Cape Verdean xerem"
+ },
+ {
+  "slug": "djagacida-cv",
+  "country": "CV",
+  "original": "Djagacida",
+  "title": "Djagacida",
+  "en": "Cape Verdean djagacida"
+ },
+ {
+  "slug": "cuscus-cv",
+  "country": "CV",
+  "original": "Cuscus cap-verdien",
+  "title": "Cuscus cap-verdien",
+  "en": "Cape Verdean corn couscous"
+ },
+ {
+  "slug": "pollo-tajadas-hn",
+  "country": "HN",
+  "original": "Pollo con tajadas",
+  "title": "Pollo con tajadas",
+  "en": "Honduran fried chicken with plantain chips"
+ },
+ {
+  "slug": "rosquillas-miel-hn",
+  "country": "HN",
+  "original": "Rosquillas en miel",
+  "title": "Rosquillas en miel",
+  "en": "Honduran rosquillas in syrup"
+ },
+ {
+  "slug": "sopa-frijoles-hn",
+  "country": "HN",
+  "original": "Sopa de frijoles",
+  "title": "Sopa de frijoles",
+  "en": "Honduran bean soup"
+ },
+ {
+  "slug": "pain-patate-ht",
+  "country": "HT",
+  "original": "Pain patate",
+  "title": "Pain patate",
+  "en": "Haitian sweet potato pudding"
+ },
+ {
+  "slug": "legim-ht",
+  "country": "HT",
+  "original": "Legim",
+  "title": "Legim",
+  "en": "Haitian legim"
+ },
+ {
+  "slug": "tasso-kabrit-ht",
+  "country": "HT",
+  "original": "Tasso kabrit",
+  "title": "Tasso kabrit",
+  "en": "Haitian fried goat"
+ },
+ {
+  "slug": "mayi-moulen-ht",
+  "country": "HT",
+  "original": "Mayi moulen",
+  "title": "Mayi moulen",
+  "en": "Haitian cornmeal mayi moulen"
+ },
+ {
+  "slug": "baursak-kz",
+  "country": "KZ",
+  "original": "Baursak",
+  "title": "Baursak",
+  "en": "Kazakh baursak"
+ },
+ {
+  "slug": "kazy-kz",
+  "country": "KZ",
+  "original": "Kazy",
+  "title": "Kazy",
+  "en": "Kazakh kazy horse sausage"
+ },
+ {
+  "slug": "shelpek-kz",
+  "country": "KZ",
+  "original": "Shelpek",
+  "title": "Shelpek",
+  "en": "Kazakh shelpek flatbread"
+ },
+ {
+  "slug": "crni-rizot-me",
+  "country": "ME",
+  "original": "Crni rižot",
+  "title": "Crni rižot",
+  "en": "Montenegrin black risotto"
+ },
+ {
+  "slug": "priganice-me",
+  "country": "ME",
+  "original": "Priganice",
+  "title": "Priganice",
+  "en": "Montenegrin priganice"
+ },
+ {
+  "slug": "njeguski-prsut-me",
+  "country": "ME",
+  "original": "Njeguški pršut",
+  "title": "Njeguški pršut",
+  "en": "Njeguši prosciutto"
+ },
+ {
+  "slug": "usipa-mw",
+  "country": "MW",
+  "original": "Usipa",
+  "title": "Usipa",
+  "en": "Malawian usipa fish"
+ },
+ {
+  "slug": "mbatata-mw",
+  "country": "MW",
+  "original": "Mbatata",
+  "title": "Mbatata",
+  "en": "Malawian sweet potato cookies"
+ },
+ {
+  "slug": "zitumbuwa-mw",
+  "country": "MW",
+  "original": "Zitumbuwa",
+  "title": "Zitumbuwa",
+  "en": "Malawian banana fritters"
+ },
+ {
+  "slug": "mucapata-mz",
+  "country": "MZ",
+  "original": "Mucapata",
+  "title": "Mucapata",
+  "en": "Mozambican mucapata"
+ },
+ {
+  "slug": "caril-caranguejo-mz",
+  "country": "MZ",
+  "original": "Caril de caranguejo",
+  "title": "Caril de caranguejo",
+  "en": "Mozambican crab curry"
+ },
+ {
+  "slug": "badjias-mz",
+  "country": "MZ",
+  "original": "Badjias",
+  "title": "Badjias",
+  "en": "Mozambican badjias"
+ },
+ {
+  "slug": "patacones-pa",
+  "country": "PA",
+  "original": "Patacones",
+  "title": "Patacones",
+  "en": "Panamanian patacones"
+ },
+ {
+  "slug": "ceviche-pa",
+  "country": "PA",
+  "original": "Ceviche panaméen",
+  "title": "Ceviche panaméen",
+  "en": "Panamanian ceviche"
+ },
+ {
+  "slug": "arroz-guandu-pa",
+  "country": "PA",
+  "original": "Arroz con guandú",
+  "title": "Arroz con guandú",
+  "en": "Panamanian rice with pigeon peas"
+ },
+ {
+  "slug": "tamal-olla-pa",
+  "country": "PA",
+  "original": "Tamal de olla",
+  "title": "Tamal de olla",
+  "en": "Panamanian tamal de olla"
+ },
+ {
+  "slug": "sambaza-rw",
+  "country": "RW",
+  "original": "Sambaza",
+  "title": "Sambaza",
+  "en": "Rwandan sambaza fried fish"
+ },
+ {
+  "slug": "mizuzu-rw",
+  "country": "RW",
+  "original": "Mizuzu",
+  "title": "Mizuzu",
+  "en": "Rwandan fried plantains"
+ },
+ {
+  "slug": "akabenz-rw",
+  "country": "RW",
+  "original": "Akabenz",
+  "title": "Akabenz",
+  "en": "Rwandan fried pork"
+ },
+ {
+  "slug": "ibihaza-rw",
+  "country": "RW",
+  "original": "Ibihaza",
+  "title": "Ibihaza",
+  "en": "Rwandan pumpkin with beans"
+ },
+ {
+  "slug": "bojo-sr",
+  "country": "SR",
+  "original": "Bojo",
+  "title": "Bojo",
+  "en": "Surinamese bojo cake"
+ },
+ {
+  "slug": "pindasoep-sr",
+  "country": "SR",
+  "original": "Pindasoep",
+  "title": "Pindasoep",
+  "en": "Surinamese peanut soup"
+ },
+ {
+  "slug": "pastei-sr",
+  "country": "SR",
+  "original": "Pastei",
+  "title": "Pastei",
+  "en": "Surinamese pastei"
+ },
+ {
+  "slug": "bakabana-sr",
+  "country": "SR",
+  "original": "Bakabana",
+  "title": "Bakabana",
+  "en": "Surinamese plantain fritters"
+ },
+ {
+  "slug": "empanadas-platano-sv",
+  "country": "SV",
+  "original": "Empanadas de plátano",
+  "title": "Empanadas de plátano",
+  "en": "Salvadoran plantain empanadas"
+ },
+ {
+  "slug": "tamales-elote-sv",
+  "country": "SV",
+  "original": "Tamales de elote",
+  "title": "Tamales de elote",
+  "en": "Salvadoran fresh corn tamales"
+ },
+ {
+  "slug": "riguas-sv",
+  "country": "SV",
+  "original": "Riguas",
+  "title": "Riguas",
+  "en": "Salvadoran riguas"
+ },
+ {
+  "slug": "mariscada-sv",
+  "country": "SV",
+  "original": "Mariscada",
+  "title": "Mariscada",
+  "en": "Salvadoran seafood soup"
+ },
+ {
+  "slug": "halawet-jibn-sy",
+  "country": "SY",
+  "original": "Halawet el jibn",
+  "title": "Halawet el jibn",
+  "en": "Syrian halawet el jibn"
+ },
+ {
+  "slug": "fatteh-sy",
+  "country": "SY",
+  "original": "Fatteh shamiyeh",
+  "title": "Fatteh shamiyeh",
+  "en": "Damascene fatteh"
+ },
+ {
+  "slug": "kebab-halabi-sy",
+  "country": "SY",
+  "original": "Kebab halabi",
+  "title": "Kebab halabi",
+  "en": "Aleppo kebab"
+ },
+ {
+  "slug": "shakriyeh-sy",
+  "country": "SY",
+  "original": "Shakriyeh",
+  "title": "Shakriyeh",
+  "en": "Syrian shakriyeh"
+ },
+ {
+  "slug": "kibbeh-sy",
+  "country": "SY",
+  "original": "Kibbeh",
+  "title": "Kibbeh",
+  "en": "Syrian kibbeh"
+ },
+ {
+  "slug": "huku-dovi-zw",
+  "country": "ZW",
+  "original": "Huku ne dovi",
+  "title": "Huku ne dovi",
+  "en": "Zimbabwean chicken peanut stew"
+ },
+ {
+  "slug": "bota-zw",
+  "country": "ZW",
+  "original": "Bota",
+  "title": "Bota",
+  "en": "Zimbabwean bota porridge"
+ },
+ {
+  "slug": "maputi-zw",
+  "country": "ZW",
+  "original": "Maputi",
+  "title": "Maputi",
+  "en": "Zimbabwean maputi puffed maize"
+ },
+ {
+  "slug": "girella-ad",
+  "country": "AD",
+  "original": "Girella",
+  "title": "Girella",
+  "en": "Andorran girella sausage"
+ },
+ {
+  "slug": "trucha-ad",
+  "country": "AD",
+  "original": "Truita a l'andorrana",
+  "title": "Truita a l'andorrana",
+  "en": "Andorran trout"
+ },
+ {
+  "slug": "borani-banjan-af",
+  "country": "AF",
+  "original": "Borani banjan",
+  "title": "Borani banjan",
+  "en": "Afghan borani banjan"
+ },
+ {
+  "slug": "firni-af",
+  "country": "AF",
+  "original": "Firni",
+  "title": "Firni",
+  "en": "Afghan firni"
+ },
+ {
+  "slug": "aush-af",
+  "country": "AF",
+  "original": "Aush",
+  "title": "Aush",
+  "en": "Afghan aush"
+ },
+ {
+  "slug": "lavash-am",
+  "country": "AM",
+  "original": "Lavash",
+  "title": "Lavash",
+  "en": "Armenian lavash"
+ },
+ {
+  "slug": "spas-am",
+  "country": "AM",
+  "original": "Spas",
+  "title": "Spas",
+  "en": "Armenian spas yogurt soup"
+ },
+ {
+  "slug": "khash-am",
+  "country": "AM",
+  "original": "Khash",
+  "title": "Khash",
+  "en": "Armenian khash"
+ },
+ {
+  "slug": "klepe-ba",
+  "country": "BA",
+  "original": "Klepe",
+  "title": "Klepe",
+  "en": "Bosnian klepe"
+ },
+ {
+  "slug": "sogan-dolma-ba",
+  "country": "BA",
+  "original": "Sogan-dolma",
+  "title": "Sogan-dolma",
+  "en": "Bosnian sogan dolma"
+ },
+ {
+  "slug": "hurmasice-ba",
+  "country": "BA",
+  "original": "Hurmašice",
+  "title": "Hurmašice",
+  "en": "Bosnian hurmasice"
+ },
+ {
+  "slug": "khanfaroosh-bh",
+  "country": "BH",
+  "original": "Khanfaroosh",
+  "title": "Khanfaroosh",
+  "en": "Bahraini khanfaroosh"
+ },
+ {
+  "slug": "ghuraiba-bh",
+  "country": "BH",
+  "original": "Ghuraiba",
+  "title": "Ghuraiba",
+  "en": "Bahraini ghuraiba"
+ },
+ {
+  "slug": "pulut-panggang-bn",
+  "country": "BN",
+  "original": "Pulut panggang",
+  "title": "Pulut panggang",
+  "en": "Bruneian pulut panggang"
+ },
+ {
+  "slug": "kuih-lapis-bn",
+  "country": "BN",
+  "original": "Kuih lapis",
+  "title": "Kuih lapis",
+  "en": "Bruneian kuih lapis"
+ },
+ {
+  "slug": "hoentay-bt",
+  "country": "BT",
+  "original": "Hoentay",
+  "title": "Hoentay",
+  "en": "Bhutanese hoentay"
+ },
+ {
+  "slug": "red-rice-bt",
+  "country": "BT",
+  "original": "Riz rouge bhoutanais",
+  "title": "Riz rouge bhoutanais",
+  "en": "Bhutanese red rice"
+ },
+ {
+  "slug": "chivo-liniero-do",
+  "country": "DO",
+  "original": "Chivo guisado liniero",
+  "title": "Chivo guisado liniero",
+  "en": "Dominican goat stew Montecristi"
+ },
+ {
+  "slug": "quipe-do",
+  "country": "DO",
+  "original": "Quipe",
+  "title": "Quipe",
+  "en": "Dominican quipe"
+ },
+ {
+  "slug": "locrio-do",
+  "country": "DO",
+  "original": "Locrio",
+  "title": "Locrio",
+  "en": "Dominican locrio"
+ },
+ {
+  "slug": "verivorst-ee",
+  "country": "EE",
+  "original": "Verivorst",
+  "title": "Verivorst",
+  "en": "Estonian blood sausage"
+ },
+ {
+  "slug": "kringel-ee",
+  "country": "EE",
+  "original": "Kringel",
+  "title": "Kringel",
+  "en": "Estonian kringel"
+ },
+ {
+  "slug": "leivasupp-ee",
+  "country": "EE",
+  "original": "Leivasupp",
+  "title": "Leivasupp",
+  "en": "Estonian bread soup"
+ },
+ {
+  "slug": "fiambre-gt",
+  "country": "GT",
+  "original": "Fiambre",
+  "title": "Fiambre",
+  "en": "Guatemalan fiambre"
+ },
+ {
+  "slug": "chuchitos-gt",
+  "country": "GT",
+  "original": "Chuchitos",
+  "title": "Chuchitos",
+  "en": "Guatemalan chuchitos"
+ },
+ {
+  "slug": "tapado-livingston-gt",
+  "country": "GT",
+  "original": "Tapado de Livingston",
+  "title": "Tapado de Livingston",
+  "en": "Garifuna tapado Livingston"
+ },
+ {
+  "slug": "shrak-jo",
+  "country": "JO",
+  "original": "Shrak",
+  "title": "Shrak",
+  "en": "Jordanian shrak bread"
+ },
+ {
+  "slug": "mujaddara-jo",
+  "country": "JO",
+  "original": "Mujaddara",
+  "title": "Mujaddara",
+  "en": "Jordanian mujaddara"
+ },
+ {
+  "slug": "kdam-chaa-kh",
+  "country": "KH",
+  "original": "Kdam chaa",
+  "title": "Kdam chaa",
+  "en": "Kep crab with Kampot pepper"
+ },
+ {
+  "slug": "samlor-korko-kh",
+  "country": "KH",
+  "original": "Samlor korko",
+  "title": "Samlor korko",
+  "en": "Cambodian samlor korko"
+ },
+ {
+  "slug": "num-ansom-kh",
+  "country": "KH",
+  "original": "Num ansom",
+  "title": "Num ansom",
+  "en": "Cambodian num ansom"
+ },
+ {
+  "slug": "sarmale-md",
+  "country": "MD",
+  "original": "Sarmale moldovenești",
+  "title": "Sarmale moldovenești",
+  "en": "Moldovan sarmale"
+ },
+ {
+  "slug": "racitura-md",
+  "country": "MD",
+  "original": "Răcitură",
+  "title": "Răcitură",
+  "en": "Moldovan meat jelly"
+ },
+ {
+  "slug": "vertuta-md",
+  "country": "MD",
+  "original": "Vărzare",
+  "title": "Vărzare",
+  "en": "Moldovan vărzare pie"
+ },
+ {
+  "slug": "vary-aminanana-mg",
+  "country": "MG",
+  "original": "Vary amin'anana",
+  "title": "Vary amin'anana",
+  "en": "Malagasy rice with greens"
+ },
+ {
+  "slug": "lasary-mg",
+  "country": "MG",
+  "original": "Lasary voatabia",
+  "title": "Lasary voatabia",
+  "en": "Malagasy tomato relish"
+ },
+ {
+  "slug": "sambos-mg",
+  "country": "MG",
+  "original": "Sambos malgaches",
+  "title": "Sambos malgaches",
+  "en": "Malagasy samosas"
+ },
+ {
+  "slug": "nan-gyi-thohk-mm",
+  "country": "MM",
+  "original": "Nan gyi thohk",
+  "title": "Nan gyi thohk",
+  "en": "Burmese nan gyi thohk"
+ },
+ {
+  "slug": "shwe-yin-aye-mm",
+  "country": "MM",
+  "original": "Shwe yin aye",
+  "title": "Shwe yin aye",
+  "en": "Burmese shwe yin aye"
+ },
+ {
+  "slug": "mont-lin-maya-mm",
+  "country": "MM",
+  "original": "Mont lin maya",
+  "title": "Mont lin maya",
+  "en": "Burmese mont lin maya"
+ },
+ {
+  "slug": "bragioli-mt",
+  "country": "MT",
+  "original": "Bragioli",
+  "title": "Bragioli",
+  "en": "Maltese bragioli"
+ },
+ {
+  "slug": "kapunata-mt",
+  "country": "MT",
+  "original": "Kapunata",
+  "title": "Kapunata",
+  "en": "Maltese kapunata"
+ },
+ {
+  "slug": "qaghaq-ghasel-mt",
+  "country": "MT",
+  "original": "Qagħaq tal-għasel",
+  "title": "Qagħaq tal-għasel",
+  "en": "Maltese honey rings"
+ },
+ {
+  "slug": "gulha-mv",
+  "country": "MV",
+  "original": "Gulha",
+  "title": "Gulha",
+  "en": "Maldivian gulha"
+ },
+ {
+  "slug": "kulhi-boakibaa-mv",
+  "country": "MV",
+  "original": "Kulhi boakibaa",
+  "title": "Kulhi boakibaa",
+  "en": "Maldivian fish cake"
+ },
+ {
+  "slug": "bondibaiy-mv",
+  "country": "MV",
+  "original": "Bondibaiy",
+  "title": "Bondibaiy",
+  "en": "Maldivian rice pudding"
+ },
+ {
+  "slug": "khubz-ragag-om",
+  "country": "OM",
+  "original": "Khubz ragag",
+  "title": "Khubz ragag",
+  "en": "Omani khubz ragag"
+ },
+ {
+  "slug": "harees-om",
+  "country": "OM",
+  "original": "Harees omanais",
+  "title": "Harees omanais",
+  "en": "Omani harees"
+ },
+ {
+  "slug": "non-tj",
+  "country": "TJ",
+  "original": "Non",
+  "title": "Non",
+  "en": "Tajik non bread"
+ },
+ {
+  "slug": "mastoba-tj",
+  "country": "TJ",
+  "original": "Mastoba",
+  "title": "Mastoba",
+  "en": "Tajik mastoba"
+ },
+ {
+  "slug": "fatir-tj",
+  "country": "TJ",
+  "original": "Fatir",
+  "title": "Fatir",
+  "en": "Tajik fatir"
+ },
+ {
+  "slug": "ai-manas-tl",
+  "country": "TL",
+  "original": "Ai-manas",
+  "title": "Ai-manas",
+  "en": "Timorese chili sauce"
+ },
+ {
+  "slug": "budu-tl",
+  "country": "TL",
+  "original": "Budu",
+  "title": "Budu",
+  "en": "Timorese budu"
+ },
+ {
+  "slug": "pholourie-tt",
+  "country": "TT",
+  "original": "Pholourie",
+  "title": "Pholourie",
+  "en": "Trinidadian pholourie"
+ },
+ {
+  "slug": "buss-up-shut-tt",
+  "country": "TT",
+  "original": "Buss up shut",
+  "title": "Buss up shut",
+  "en": "Trinidadian paratha roti"
+ },
+ {
+  "slug": "coconut-bake-tt",
+  "country": "TT",
+  "original": "Coconut bake",
+  "title": "Coconut bake",
+  "en": "Trinidadian coconut bake"
+ },
+ {
+  "slug": "kikomando-ug",
+  "country": "UG",
+  "original": "Kikomando",
+  "title": "Kikomando",
+  "en": "Ugandan kikomando"
+ },
+ {
+  "slug": "muchomo-ug",
+  "country": "UG",
+  "original": "Muchomo",
+  "title": "Muchomo",
+  "en": "Ugandan muchomo"
+ },
+ {
+  "slug": "ebinyebwa-ug",
+  "country": "UG",
+  "original": "Ebinyebwa",
+  "title": "Ebinyebwa",
+  "en": "Ugandan groundnut sauce"
+ },
+ {
+  "slug": "ifinkubala-zm",
+  "country": "ZM",
+  "original": "Ifinkubala",
+  "title": "Ifinkubala",
+  "en": "Zambian caterpillars"
+ },
+ {
+  "slug": "kalembula-zm",
+  "country": "ZM",
+  "original": "Kalembula",
+  "title": "Kalembula",
+  "en": "Zambian sweet potato leaves"
+ },
+ {
+  "slug": "chibwabwa-zm",
+  "country": "ZM",
+  "original": "Chibwabwa",
+  "title": "Chibwabwa",
+  "en": "Zambian pumpkin leaves"
+ }
+]

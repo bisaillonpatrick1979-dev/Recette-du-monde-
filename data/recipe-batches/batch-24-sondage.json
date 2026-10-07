@@ -1,0 +1,422 @@
+[
+ {
+  "slug": "s4-bg-0",
+  "country": "BG",
+  "original": "Kapama",
+  "title": "Kapama",
+  "en": "Bulgarian kapama"
+ },
+ {
+  "slug": "s4-bg-1",
+  "country": "BG",
+  "original": "Patatnik",
+  "title": "Patatnik",
+  "en": "Bulgarian patatnik"
+ },
+ {
+  "slug": "s4-bg-2",
+  "country": "BG",
+  "original": "Mekitsi",
+  "title": "Mekitsi",
+  "en": "Bulgarian mekitsi"
+ },
+ {
+  "slug": "s4-bg-3",
+  "country": "BG",
+  "original": "Smilyanski bob",
+  "title": "Smilyanski bob",
+  "en": "Smilyan beans"
+ },
+ {
+  "slug": "s4-ro-4",
+  "country": "RO",
+  "original": "Varză a la Cluj",
+  "title": "Varză a la Cluj",
+  "en": "Cluj-style cabbage"
+ },
+ {
+  "slug": "s4-ro-5",
+  "country": "RO",
+  "original": "Ciorbă rădăuțeană",
+  "title": "Ciorbă rădăuțeană",
+  "en": "Radauti soup"
+ },
+ {
+  "slug": "s4-ro-6",
+  "country": "RO",
+  "original": "Plăcintă dobrogeană",
+  "title": "Plăcintă dobrogeană",
+  "en": "Dobrogea pie"
+ },
+ {
+  "slug": "s4-ro-7",
+  "country": "RO",
+  "original": "Bulz",
+  "title": "Bulz",
+  "en": "Romanian bulz"
+ },
+ {
+  "slug": "s4-ir-8",
+  "country": "IR",
+  "original": "Beryani",
+  "title": "Beryani",
+  "en": "Isfahan beryani"
+ },
+ {
+  "slug": "s4-ir-9",
+  "country": "IR",
+  "original": "Sohan",
+  "title": "Sohan",
+  "en": "Qom sohan"
+ },
+ {
+  "slug": "s4-ir-10",
+  "country": "IR",
+  "original": "Faloodeh",
+  "title": "Faloodeh",
+  "en": "Shirazi faloodeh"
+ },
+ {
+  "slug": "s4-ir-11",
+  "country": "IR",
+  "original": "Salad Shirazi",
+  "title": "Salad Shirazi",
+  "en": "Shirazi salad"
+ },
+ {
+  "slug": "s4-ir-12",
+  "country": "IR",
+  "original": "Gaz",
+  "title": "Gaz",
+  "en": "Isfahan gaz nougat"
+ },
+ {
+  "slug": "s4-ru-13",
+  "country": "RU",
+  "original": "Tulsky pryanik",
+  "title": "Tulsky pryanik",
+  "en": "Tula gingerbread"
+ },
+ {
+  "slug": "s4-ru-14",
+  "country": "RU",
+  "original": "Pozharsky cutlet",
+  "title": "Pozharsky cutlet",
+  "en": "Pozharsky cutlet"
+ },
+ {
+  "slug": "s4-ru-15",
+  "country": "RU",
+  "original": "Ukha",
+  "title": "Ukha",
+  "en": "Russian ukha fish soup"
+ },
+ {
+  "slug": "s4-ru-16",
+  "country": "RU",
+  "original": "Olivier",
+  "title": "Olivier",
+  "en": "Olivier salad"
+ },
+ {
+  "slug": "s4-eg-17",
+  "country": "EG",
+  "original": "Kebda eskandarani",
+  "title": "Kebda eskandarani",
+  "en": "Alexandrian liver"
+ },
+ {
+  "slug": "s4-eg-18",
+  "country": "EG",
+  "original": "Molokhia",
+  "title": "Molokhia",
+  "en": "Egyptian molokhia"
+ },
+ {
+  "slug": "s4-eg-19",
+  "country": "EG",
+  "original": "Om Ali",
+  "title": "Om Ali",
+  "en": "Egyptian om ali"
+ },
+ {
+  "slug": "s4-eg-20",
+  "country": "EG",
+  "original": "Feteer meshaltet",
+  "title": "Feteer meshaltet",
+  "en": "Egyptian feteer"
+ },
+ {
+  "slug": "s4-ph-21",
+  "country": "PH",
+  "original": "Chicken inasal",
+  "title": "Chicken inasal",
+  "en": "Bacolod chicken inasal"
+ },
+ {
+  "slug": "s4-ph-22",
+  "country": "PH",
+  "original": "Bagnet",
+  "title": "Bagnet",
+  "en": "Ilocano bagnet"
+ },
+ {
+  "slug": "s4-ph-23",
+  "country": "PH",
+  "original": "Piaya",
+  "title": "Piaya",
+  "en": "Negros piaya"
+ },
+ {
+  "slug": "s4-ph-24",
+  "country": "PH",
+  "original": "Pancit habhab",
+  "title": "Pancit habhab",
+  "en": "Lucban pancit habhab"
+ },
+ {
+  "slug": "s4-ph-25",
+  "country": "PH",
+  "original": "Vigan empanada",
+  "title": "Vigan empanada",
+  "en": "Vigan empanada"
+ },
+ {
+  "slug": "s4-lb-26",
+  "country": "LB",
+  "original": "Knefeh",
+  "title": "Knefeh",
+  "en": "Tripoli knefeh"
+ },
+ {
+  "slug": "s4-lb-27",
+  "country": "LB",
+  "original": "Sfouf",
+  "title": "Sfouf",
+  "en": "Lebanese sfouf"
+ },
+ {
+  "slug": "s4-lb-28",
+  "country": "LB",
+  "original": "Kaak",
+  "title": "Kaak",
+  "en": "Beirut kaak"
+ },
+ {
+  "slug": "s4-no-29",
+  "country": "NO",
+  "original": "Rakfisk",
+  "title": "Rakfisk",
+  "en": "Norwegian rakfisk"
+ },
+ {
+  "slug": "s4-no-30",
+  "country": "NO",
+  "original": "Bacalao",
+  "title": "Bacalao",
+  "en": "Norwegian bacalao"
+ },
+ {
+  "slug": "s4-no-31",
+  "country": "NO",
+  "original": "Lutefisk",
+  "title": "Lutefisk",
+  "en": "Norwegian lutefisk"
+ },
+ {
+  "slug": "s4-gr-32",
+  "country": "GR",
+  "original": "Fava Santorinis",
+  "title": "Fava Santorinis",
+  "en": "Santorini fava"
+ },
+ {
+  "slug": "s4-gr-33",
+  "country": "GR",
+  "original": "Kalitsounia",
+  "title": "Kalitsounia",
+  "en": "Cretan kalitsounia"
+ },
+ {
+  "slug": "s4-gr-34",
+  "country": "GR",
+  "original": "Sfakianopita",
+  "title": "Sfakianopita",
+  "en": "Sfakian pie"
+ },
+ {
+  "slug": "s4-gr-35",
+  "country": "GR",
+  "original": "Kleftiko",
+  "title": "Kleftiko",
+  "en": "Greek kleftiko"
+ },
+ {
+  "slug": "s4-au-36",
+  "country": "AU",
+  "original": "Chiko roll",
+  "title": "Chiko roll",
+  "en": "Chiko roll"
+ },
+ {
+  "slug": "s4-au-37",
+  "country": "AU",
+  "original": "Moreton Bay bugs",
+  "title": "Moreton Bay bugs",
+  "en": "Moreton Bay bugs"
+ },
+ {
+  "slug": "s4-za-38",
+  "country": "ZA",
+  "original": "Sosaties",
+  "title": "Sosaties",
+  "en": "South African sosaties"
+ },
+ {
+  "slug": "s4-za-39",
+  "country": "ZA",
+  "original": "Bredie",
+  "title": "Bredie",
+  "en": "South African bredie"
+ },
+ {
+  "slug": "s4-za-40",
+  "country": "ZA",
+  "original": "Vetkoek",
+  "title": "Vetkoek",
+  "en": "South African vetkoek"
+ },
+ {
+  "slug": "s4-za-41",
+  "country": "ZA",
+  "original": "Potjiekos",
+  "title": "Potjiekos",
+  "en": "South African potjiekos"
+ },
+ {
+  "slug": "s4-cu-42",
+  "country": "CU",
+  "original": "Frita cubana",
+  "title": "Frita cubana",
+  "en": "Cuban frita"
+ },
+ {
+  "slug": "s4-cu-43",
+  "country": "CU",
+  "original": "Ajiaco cubano",
+  "title": "Ajiaco cubano",
+  "en": "Cuban ajiaco"
+ },
+ {
+  "slug": "s4-tw-44",
+  "country": "TW",
+  "original": "Ba-wan",
+  "title": "Ba-wan",
+  "en": "Changhua ba-wan"
+ },
+ {
+  "slug": "s4-tw-45",
+  "country": "TW",
+  "original": "Coffin bread",
+  "title": "Coffin bread",
+  "en": "Tainan coffin bread"
+ },
+ {
+  "slug": "s4-tw-46",
+  "country": "TW",
+  "original": "Stinky tofu",
+  "title": "Stinky tofu",
+  "en": "Taiwanese stinky tofu"
+ },
+ {
+  "slug": "s4-tw-47",
+  "country": "TW",
+  "original": "Pineapple cake",
+  "title": "Pineapple cake",
+  "en": "Taiwanese pineapple cake"
+ },
+ {
+  "slug": "s4-ua-48",
+  "country": "UA",
+  "original": "Halushky",
+  "title": "Halushky",
+  "en": "Poltava halushky"
+ },
+ {
+  "slug": "s4-ua-49",
+  "country": "UA",
+  "original": "Kapusniak",
+  "title": "Kapusniak",
+  "en": "Ukrainian kapusniak"
+ },
+ {
+  "slug": "s4-ua-50",
+  "country": "UA",
+  "original": "Nalysnyky",
+  "title": "Nalysnyky",
+  "en": "Ukrainian nalysnyky"
+ },
+ {
+  "slug": "s4-my-51",
+  "country": "MY",
+  "original": "Satay Kajang",
+  "title": "Satay Kajang",
+  "en": "Kajang satay"
+ },
+ {
+  "slug": "s4-my-52",
+  "country": "MY",
+  "original": "Nasi kerabu",
+  "title": "Nasi kerabu",
+  "en": "Kelantan nasi kerabu"
+ },
+ {
+  "slug": "s4-my-53",
+  "country": "MY",
+  "original": "Ayam pansuh",
+  "title": "Ayam pansuh",
+  "en": "Sarawak ayam pansuh"
+ },
+ {
+  "slug": "s4-ve-54",
+  "country": "VE",
+  "original": "Pisca andina",
+  "title": "Pisca andina",
+  "en": "Andean pisca"
+ },
+ {
+  "slug": "s4-ve-55",
+  "country": "VE",
+  "original": "Cachitos",
+  "title": "Cachitos",
+  "en": "Venezuelan cachitos"
+ },
+ {
+  "slug": "s4-ve-56",
+  "country": "VE",
+  "original": "Pastelitos andinos",
+  "title": "Pastelitos andinos",
+  "en": "Andean pastelitos"
+ },
+ {
+  "slug": "s4-gh-57",
+  "country": "GH",
+  "original": "Tuo zaafi",
+  "title": "Tuo zaafi",
+  "en": "Ghanaian tuo zaafi"
+ },
+ {
+  "slug": "s4-gh-58",
+  "country": "GH",
+  "original": "Jollof rice Ghana",
+  "title": "Jollof rice Ghana",
+  "en": "Ghanaian jollof"
+ },
+ {
+  "slug": "s4-gh-59",
+  "country": "GH",
+  "original": "Kokonte",
+  "title": "Kokonte",
+  "en": "Ghanaian kokonte"
+ }
+]

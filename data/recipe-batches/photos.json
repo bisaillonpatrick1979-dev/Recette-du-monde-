@@ -6662,5 +6662,23 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "Wikimedia Commons"
+ },
+ "hot-chicken-quebecois": {
+  "file": "File:HotChickenwFries.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/HotChickenwFries.jpg/1280px-HotChickenwFries.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:HotChickenwFries.jpg",
+  "author": "Jeanpetr",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "gateau-reine-elisabeth": {
+  "file": "File:Gâteau Reine Élisabeth - pointe.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/G%C3%A2teau_Reine_%C3%89lisabeth_-_pointe.jpg/1280px-G%C3%A2teau_Reine_%C3%89lisabeth_-_pointe.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:G%C3%A2teau_Reine_%C3%89lisabeth_-_pointe.jpg",
+  "author": "Cantons-de-l'Est",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "Wikimedia Commons"
  }
 }

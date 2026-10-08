@@ -126,7 +126,7 @@ function commonsCandidate(page, fromCategory, wanted) {
 
 let openverseCalls = 0;
 async function openverse(query) {
-  if (openverseCalls >= 180) return []; // garde-fou pour le quota anonyme quotidien
+  if (openverseCalls >= 400) return []; // garde-fou pour le quota anonyme quotidien
   openverseCalls += 1;
   const params = new URLSearchParams({ q: query, license: "by,by-sa,cc0,pdm", source: "flickr", page_size: "10", mature: "false" });
   const data = await getJson(`${OPENVERSE}?${params}`);
@@ -188,7 +188,7 @@ async function processRecipe(r, index) {
     }
     const list = [...seen.values()].slice(0, MAX_COMMONS);
     let supplementaryError = null;
-    if (list.length < 2) {
+    if (list.length < 2 || process.env.PHOTO_OPENVERSE === "always") {
       try {
         for (const c of await openverse(`${name} ${r.country === "US" ? "" : en}`.trim())) {
           if (list.filter((x) => x.source !== "Wikimedia Commons").length >= MAX_OPENVERSE) break;

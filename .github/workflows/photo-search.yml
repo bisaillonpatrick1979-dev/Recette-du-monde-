@@ -51,6 +51,8 @@ jobs:
             echo "list=" >> "$GITHUB_OUTPUT"
           fi
       - name: Chercher les photos
+        env:
+          PHOTO_OPENVERSE: always
         run: |
           mkdir -p "$RUNNER_TEMP/photo-review"
           set -o pipefail

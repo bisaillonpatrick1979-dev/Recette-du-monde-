@@ -1,0 +1,2170 @@
+[
+ {
+  "slug": "navarin-d-agneau",
+  "country": "FR",
+  "original": "Navarin d’agneau",
+  "title": "Navarin d’agneau printanier (ragoût d’agneau aux légumes nouveaux)",
+  "en": "Navarin of lamb (spring lamb stew)",
+  "es": "Navarin de cordero (guiso con verduras de primavera)",
+  "desc": "Ragoût bourgeois français : épaule et collier d’agneau saisis, singés à la farine et mijotés au fond blanc avec tomate, puis garnis au printemps de carottes, navets, petits pois et pommes de terre nouvelles.",
+  "cat": "Ragoût",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 120,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Navarin_d%27agneau",
+  "ing": [
+   [
+    "Épaule et collier d’agneau",
+    1.5,
+    "kg",
+    "en morceaux"
+   ],
+   [
+    "Huile",
+    2,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Oignons",
+    2,
+    null,
+    "émincés"
+   ],
+   [
+    "Ail",
+    2,
+    "gousses",
+    null
+   ],
+   [
+    "Farine",
+    2,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Concentré de tomate",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Bouillon ou eau",
+    1,
+    "l",
+    null
+   ],
+   [
+    "Bouquet garni",
+    1,
+    null,
+    null
+   ],
+   [
+    "Carottes nouvelles",
+    8,
+    null,
+    null
+   ],
+   [
+    "Navets nouveaux",
+    6,
+    null,
+    null
+   ],
+   [
+    "Petits pois",
+    250,
+    "g",
+    "écossés"
+   ],
+   [
+    "Pommes de terre nouvelles",
+    500,
+    "g",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Saisir les morceaux d’agneau dans l’huile en plusieurs fois jusqu’à ce qu’ils soient bien dorés; ajouter les oignons et l’ail.",
+   "Saupoudrer de farine et remuer 2 minutes, puis ajouter le concentré de tomate.",
+   "Mouiller avec le bouillon à hauteur, ajouter le bouquet garni, saler, poivrer et mijoter 1 heure à couvert.",
+   "Ajouter les carottes, les navets et les pommes de terre et cuire 30 minutes.",
+   "Ajouter les petits pois 10 minutes avant la fin, dégraisser la sauce et servir dans la cocotte."
+  ]
+ },
+ {
+  "slug": "aioli-provencal",
+  "country": "FR",
+  "place": "fr-provence",
+  "original": "Aïoli",
+  "title": "Grand aïoli provençal (morue, légumes et œufs à la sauce à l’ail)",
+  "en": "Provençal grand aïoli (salt cod and vegetables with garlic mayonnaise)",
+  "es": "Gran alioli provenzal (bacalao y verduras con salsa de ajo)",
+  "desc": "Repas collectif de Provence, servi traditionnellement le vendredi : morue dessalée pochée, légumes cuits à l’eau, œufs durs et escargots ou bulots, accompagnés d’une émulsion d’ail pilé et d’huile d’olive montée au mortier.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 40,
+  "cook": 40,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/A%C3%AFoli",
+  "ing": [
+   [
+    "Morue salée",
+    1,
+    "kg",
+    "dessalée 24 h"
+   ],
+   [
+    "Ail",
+    8,
+    "gousses",
+    "pour l’aïoli"
+   ],
+   [
+    "Jaunes d’œufs",
+    2,
+    null,
+    "pour l’aïoli"
+   ],
+   [
+    "Huile d’olive",
+    400,
+    "ml",
+    "pour l’aïoli"
+   ],
+   [
+    "Pommes de terre",
+    800,
+    "g",
+    null
+   ],
+   [
+    "Carottes",
+    6,
+    null,
+    null
+   ],
+   [
+    "Haricots verts",
+    400,
+    "g",
+    null
+   ],
+   [
+    "Chou-fleur",
+    1,
+    null,
+    "petit, en bouquets"
+   ],
+   [
+    "Œufs",
+    6,
+    null,
+    "durs"
+   ],
+   [
+    "Bulots ou escargots",
+    500,
+    "g",
+    "cuits, facultatif"
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Piler l’ail au mortier avec une pincée de sel jusqu’à obtenir une pâte, ajouter les jaunes d’œufs.",
+   "Verser l’huile d’olive en mince filet en tournant toujours dans le même sens jusqu’à obtenir une sauce ferme.",
+   "Cuire séparément à l’eau salée les pommes de terre, les carottes, les haricots verts et le chou-fleur, en les gardant fermes.",
+   "Pocher la morue 8 minutes dans l’eau frémissante sans la faire bouillir, puis l’effeuiller.",
+   "Disposer morue, légumes, œufs durs écalés et coquillages sur un grand plat et servir avec l’aïoli au centre de la table."
+  ]
+ },
+ {
+  "slug": "flamiche-picarde",
+  "country": "FR",
+  "place": {
+   "slug": "fr-picardie",
+   "name": "Picardie",
+   "type": "region",
+   "lat": 49.9,
+   "lng": 2.3,
+   "summary": "Région historique entre Somme, Oise et Aisne : ficelle picarde, flamiche aux poireaux et pâté de canard d’Amiens."
+  },
+  "original": "Flamiche aux poireaux",
+  "title": "Flamiche picarde aux poireaux (tourte crémeuse)",
+  "en": "Picardy leek flamiche (creamy leek pie)",
+  "es": "Flamiche picarda de puerros (tarta cubierta cremosa)",
+  "desc": "Tourte de Picardie : poireaux fondus au beurre, liés à la crème et aux œufs, enfermés entre deux abaisses de pâte feuilletée ou brisée et dorés au four.",
+  "cat": "Entrée",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 50,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Flamiche",
+  "ing": [
+   [
+    "Pâte feuilletée ou brisée",
+    2,
+    "abaisses",
+    null
+   ],
+   [
+    "Poireaux",
+    1,
+    "kg",
+    "le blanc et un peu de vert, émincés"
+   ],
+   [
+    "Beurre",
+    50,
+    "g",
+    null
+   ],
+   [
+    "Crème fraîche épaisse",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Œufs",
+    2,
+    null,
+    "plus 1 jaune pour la dorure"
+   ],
+   [
+    "Muscade",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire fondre doucement les poireaux dans le beurre 20 minutes à couvert, sans coloration, puis laisser tiédir.",
+   "Mélanger la crème, les œufs, la muscade, le sel et le poivre, puis ajouter les poireaux.",
+   "Foncer un moule avec une abaisse, verser la garniture et couvrir de la seconde abaisse en soudant les bords.",
+   "Faire une cheminée au centre, dorer au jaune d’œuf et rayer le dessus.",
+   "Cuire 35 à 40 minutes à 190 °C et servir chaud."
+  ]
+ },
+ {
+  "slug": "ficelle-picarde",
+  "country": "FR",
+  "place": {
+   "slug": "fr-picardie",
+   "name": "Picardie",
+   "type": "region",
+   "lat": 49.9,
+   "lng": 2.3,
+   "summary": "Région historique entre Somme, Oise et Aisne : ficelle picarde, flamiche aux poireaux et pâté de canard d’Amiens."
+  },
+  "original": "Ficelle picarde",
+  "title": "Ficelle picarde (crêpes roulées au jambon et champignons, gratinées)",
+  "en": "Ficelle picarde (gratinated ham and mushroom crêpes)",
+  "es": "Ficelle picarde (crepes gratinadas de jamón y champiñones)",
+  "desc": "Entrée créée à Amiens dans les années 1950 : crêpes garnies d’une tranche de jambon et d’une duxelles de champignons à la crème, roulées, nappées de crème et gratinées au fromage.",
+  "cat": "Entrée",
+  "diff": "medium",
+  "prep": 40,
+  "cook": 25,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Ficelle_picarde",
+  "ing": [
+   [
+    "Crêpes salées",
+    6,
+    null,
+    "de 24 cm"
+   ],
+   [
+    "Jambon blanc",
+    6,
+    "tranches",
+    null
+   ],
+   [
+    "Champignons de Paris",
+    400,
+    "g",
+    "hachés"
+   ],
+   [
+    "Échalotes",
+    2,
+    null,
+    "ciselées"
+   ],
+   [
+    "Beurre",
+    30,
+    "g",
+    null
+   ],
+   [
+    "Crème fraîche",
+    300,
+    "ml",
+    null
+   ],
+   [
+    "Gruyère râpé",
+    100,
+    "g",
+    null
+   ],
+   [
+    "Muscade",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire revenir les échalotes dans le beurre, ajouter les champignons et cuire jusqu’à évaporation de l’eau.",
+   "Lier la duxelles avec 100 ml de crème, saler, poivrer et muscader.",
+   "Poser une tranche de jambon sur chaque crêpe, étaler la duxelles et rouler.",
+   "Ranger les crêpes dans un plat beurré, napper du reste de crème et parsemer de gruyère.",
+   "Gratiner 20 à 25 minutes à 200 °C et servir bien chaud."
+  ]
+ },
+ {
+  "slug": "chicons-au-gratin",
+  "country": "FR",
+  "place": "fr-flandre",
+  "original": "Chicons au gratin",
+  "title": "Chicons au gratin (endives au jambon, sauce béchamel)",
+  "en": "Chicons au gratin (endives wrapped in ham with cheese sauce)",
+  "es": "Chicons al gratén (endibias con jamón y bechamel)",
+  "desc": "Plat familial du Nord : chicons (endives) braisés, roulés dans une tranche de jambon, nappés de béchamel au fromage — parfois au maroilles — et gratinés au four.",
+  "cat": "Plat principal",
+  "diff": "easy",
+  "prep": 25,
+  "cook": 50,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Endive_au_jambon",
+  "ing": [
+   [
+    "Chicons (endives)",
+    8,
+    null,
+    null
+   ],
+   [
+    "Jambon blanc",
+    8,
+    "tranches",
+    null
+   ],
+   [
+    "Beurre",
+    50,
+    "g",
+    null
+   ],
+   [
+    "Sucre",
+    1,
+    "c. à thé",
+    "pour ôter l’amertume"
+   ],
+   [
+    "Farine",
+    40,
+    "g",
+    null
+   ],
+   [
+    "Lait",
+    600,
+    "ml",
+    null
+   ],
+   [
+    "Gruyère ou maroilles",
+    120,
+    "g",
+    null
+   ],
+   [
+    "Muscade",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Retirer le cône amer à la base des chicons et les braiser 20 minutes à couvert avec 20 g de beurre, le sucre, le sel et un fond d’eau.",
+   "Les égoutter soigneusement en les pressant.",
+   "Préparer une béchamel avec le reste du beurre, la farine et le lait; ajouter la moitié du fromage et la muscade.",
+   "Rouler chaque chicon dans une tranche de jambon et les ranger dans un plat.",
+   "Napper de béchamel, parsemer du reste de fromage et gratiner 25 minutes à 200 °C."
+  ]
+ },
+ {
+  "slug": "gardiane-de-taureau",
+  "country": "FR",
+  "place": {
+   "slug": "fr-camargue",
+   "name": "Camargue",
+   "type": "region",
+   "lat": 43.55,
+   "lng": 4.5,
+   "summary": "Delta du Rhône entre Arles et la mer : taureaux de Camargue, riz et gardiane des gardians."
+  },
+  "original": "Gardiane de taureau",
+  "title": "Gardiane de taureau de Camargue (daube au vin rouge et aux olives)",
+  "en": "Camargue bull gardiane (red wine and olive stew)",
+  "es": "Gardiane de toro de la Camarga (estofado al vino tinto y aceitunas)",
+  "desc": "Plat des gardians de Camargue : viande de taureau AOP marinée au vin rouge avec aromates, puis mijotée longuement avec des olives noires et servie avec du riz de Camargue.",
+  "cat": "Ragoût",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 210,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Gardiane",
+  "ing": [
+   [
+    "Viande de taureau (paleron, macreuse)",
+    1.5,
+    "kg",
+    "en morceaux"
+   ],
+   [
+    "Vin rouge corsé",
+    750,
+    "ml",
+    null
+   ],
+   [
+    "Oignons",
+    3,
+    null,
+    "émincés"
+   ],
+   [
+    "Ail",
+    4,
+    "gousses",
+    null
+   ],
+   [
+    "Carottes",
+    2,
+    null,
+    "en rondelles"
+   ],
+   [
+    "Bouquet garni et zeste d’orange",
+    1,
+    null,
+    null
+   ],
+   [
+    "Olives noires",
+    150,
+    "g",
+    null
+   ],
+   [
+    "Huile d’olive",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Farine",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Riz de Camargue",
+    400,
+    "g",
+    "pour servir"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "La veille, faire mariner la viande avec le vin, les oignons, l’ail, les carottes et le bouquet garni.",
+   "Égoutter la viande en gardant la marinade, la saisir dans l’huile d’olive puis la saupoudrer de farine.",
+   "Ajouter les légumes et la marinade, saler, poivrer, couvrir et mijoter 3 heures à feu très doux.",
+   "Ajouter les olives noires 30 minutes avant la fin.",
+   "Servir avec le riz de Camargue cuit à part."
+  ]
+ },
+ {
+  "slug": "petits-farcis-nicois",
+  "country": "FR",
+  "place": "fr-nice",
+  "original": "Petits farcis niçois",
+  "title": "Petits farcis niçois (légumes du soleil farcis)",
+  "en": "Petits farcis niçois (Nice stuffed vegetables)",
+  "es": "Petits farcis niçois (verduras rellenas de Niza)",
+  "desc": "Spécialité de Nice : tomates, courgettes rondes, aubergines, poivrons et oignons évidés puis garnis d’une farce de viande, de chair des légumes, de parmesan et d’herbes, cuits au four à l’huile d’olive.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 45,
+  "cook": 60,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Petits_farcis",
+  "ing": [
+   [
+    "Tomates",
+    4,
+    null,
+    null
+   ],
+   [
+    "Courgettes rondes",
+    4,
+    null,
+    null
+   ],
+   [
+    "Aubergines",
+    2,
+    null,
+    "petites"
+   ],
+   [
+    "Poivrons",
+    2,
+    null,
+    null
+   ],
+   [
+    "Oignons",
+    4,
+    null,
+    null
+   ],
+   [
+    "Chair à saucisse ou veau haché",
+    400,
+    "g",
+    null
+   ],
+   [
+    "Mie de pain",
+    80,
+    "g",
+    "trempée dans du lait"
+   ],
+   [
+    "Parmesan râpé",
+    60,
+    "g",
+    null
+   ],
+   [
+    "Œufs",
+    2,
+    null,
+    null
+   ],
+   [
+    "Ail",
+    2,
+    "gousses",
+    null
+   ],
+   [
+    "Persil et basilic",
+    1,
+    "bouquet",
+    null
+   ],
+   [
+    "Huile d’olive",
+    5,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Couper un chapeau aux tomates, courgettes, aubergines, poivrons et oignons, puis les évider en gardant la chair.",
+   "Blanchir 5 minutes courgettes, aubergines et oignons; faire revenir la chair hachée des légumes dans l’huile d’olive.",
+   "Mélanger la viande, la chair des légumes, la mie essorée, le parmesan, les œufs, l’ail et les herbes; saler et poivrer.",
+   "Garnir les légumes de farce, poser les chapeaux et ranger dans un plat huilé.",
+   "Arroser d’huile d’olive et cuire 1 heure à 180 °C; servir chaud ou tiède."
+  ]
+ },
+ {
+  "slug": "poulet-au-vinaigre-lyonnais",
+  "country": "FR",
+  "place": "fr-lyon",
+  "original": "Poulet au vinaigre",
+  "title": "Poulet au vinaigre à la lyonnaise",
+  "en": "Lyon-style chicken in vinegar sauce",
+  "es": "Pollo al vinagre al estilo de Lyon",
+  "desc": "Classique des bouchons lyonnais : poulet fermier en morceaux doré au beurre, déglacé au vinaigre de vin et au vin blanc avec tomate et ail, puis lié à la crème.",
+  "cat": "Plat principal",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 50,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Poulet_au_vinaigre",
+  "ing": [
+   [
+    "Poulet fermier",
+    1,
+    null,
+    "découpé en 8 morceaux"
+   ],
+   [
+    "Beurre",
+    40,
+    "g",
+    null
+   ],
+   [
+    "Échalotes",
+    4,
+    null,
+    "ciselées"
+   ],
+   [
+    "Ail",
+    4,
+    "gousses",
+    null
+   ],
+   [
+    "Vinaigre de vin rouge",
+    150,
+    "ml",
+    null
+   ],
+   [
+    "Vin blanc",
+    150,
+    "ml",
+    null
+   ],
+   [
+    "Tomates",
+    2,
+    null,
+    "concassées"
+   ],
+   [
+    "Crème fraîche",
+    150,
+    "ml",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Saler et poivrer les morceaux de poulet, puis les dorer dans le beurre sur toutes les faces.",
+   "Ajouter les échalotes et l’ail et laisser fondre 3 minutes.",
+   "Déglacer avec le vinaigre, laisser réduire de moitié, puis ajouter le vin blanc et les tomates.",
+   "Couvrir et cuire 35 minutes à feu doux en retournant les morceaux.",
+   "Retirer le poulet, ajouter la crème à la sauce, réduire quelques minutes, filtrer et napper."
+  ]
+ },
+ {
+  "slug": "ravioles-du-dauphine",
+  "country": "FR",
+  "place": {
+   "slug": "fr-romans-sur-isere",
+   "name": "Romans-sur-Isère",
+   "type": "city",
+   "lat": 45.0433,
+   "lng": 5.0517,
+   "summary": "Ville de la Drôme, berceau de la pogne et des ravioles du Dauphiné."
+  },
+  "original": "Ravioles du Dauphiné",
+  "title": "Ravioles du Dauphiné gratinées à la crème",
+  "en": "Ravioles du Dauphiné (tiny cheese ravioli baked in cream)",
+  "es": "Ravioles del Delfinado (raviolis de queso gratinados con nata)",
+  "desc": "Spécialité de Romans-sur-Isère protégée par une IGP : minuscules ravioles de pâte fine garnies de comté, de fromage blanc et de persil, pochées quelques instants ou gratinées à la crème.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 60,
+  "cook": 15,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Raviole_du_Dauphin%C3%A9",
+  "ing": [
+   [
+    "Farine",
+    250,
+    "g",
+    "pour la pâte"
+   ],
+   [
+    "Œuf",
+    1,
+    null,
+    "pour la pâte"
+   ],
+   [
+    "Eau tiède",
+    80,
+    "ml",
+    null
+   ],
+   [
+    "Huile",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Comté râpé",
+    120,
+    "g",
+    "pour la farce"
+   ],
+   [
+    "Fromage blanc égoutté",
+    100,
+    "g",
+    null
+   ],
+   [
+    "Beurre mou",
+    20,
+    "g",
+    null
+   ],
+   [
+    "Persil",
+    3,
+    "c. à soupe",
+    "haché"
+   ],
+   [
+    "Crème liquide",
+    250,
+    "ml",
+    "pour le gratin"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Pétrir la farine, l’œuf, l’eau, l’huile et une pincée de sel en pâte lisse; reposer 30 minutes.",
+   "Mélanger le comté, le fromage blanc, le beurre et le persil; poivrer.",
+   "Étaler la pâte très finement, déposer de petites noisettes de farce tous les 3 cm, couvrir d’une seconde abaisse et découper en carrés.",
+   "Pocher les ravioles 1 à 2 minutes à l’eau frémissante salée jusqu’à ce qu’elles remontent.",
+   "Les disposer dans un plat, napper de crème, parsemer de comté et gratiner 8 minutes sous le gril."
+  ]
+ },
+ {
+  "slug": "boles-de-picolat",
+  "country": "FR",
+  "place": {
+   "slug": "fr-roussillon",
+   "name": "Roussillon",
+   "type": "region",
+   "lat": 42.6,
+   "lng": 2.6,
+   "summary": "Pays catalan de France autour de Perpignan : cargolade, boles de picolat et crème catalane."
+  },
+  "original": "Boles de picolat",
+  "title": "Boles de picolat (boulettes catalanes en sauce aux olives et haricots)",
+  "en": "Boles de picolat (Catalan meatballs with olives and white beans)",
+  "es": "Albóndigas de picolat (en salsa con aceitunas y alubias)",
+  "desc": "Plat catalan du Roussillon : boulettes de bœuf et de porc à l’ail et au persil, mijotées dans une sauce tomate aux olives vertes, souvent avec des haricots blancs ou des cèpes.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 40,
+  "cook": 60,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Boles_de_picolat",
+  "ing": [
+   [
+    "Bœuf haché",
+    400,
+    "g",
+    null
+   ],
+   [
+    "Chair à saucisse",
+    300,
+    "g",
+    null
+   ],
+   [
+    "Mie de pain",
+    80,
+    "g",
+    "trempée dans du lait"
+   ],
+   [
+    "Œuf",
+    1,
+    null,
+    null
+   ],
+   [
+    "Ail",
+    4,
+    "gousses",
+    null
+   ],
+   [
+    "Persil",
+    3,
+    "c. à soupe",
+    "haché"
+   ],
+   [
+    "Farine",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Huile d’olive",
+    4,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Oignon",
+    1,
+    null,
+    "haché"
+   ],
+   [
+    "Tomates concassées",
+    400,
+    "g",
+    null
+   ],
+   [
+    "Olives vertes",
+    150,
+    "g",
+    "dénoyautées"
+   ],
+   [
+    "Haricots blancs cuits",
+    400,
+    "g",
+    null
+   ],
+   [
+    "Bouillon",
+    300,
+    "ml",
+    null
+   ],
+   [
+    "Cannelle",
+    1,
+    "pincée",
+    null
+   ]
+  ],
+  "steps": [
+   "Mélanger les viandes, la mie essorée, l’œuf, la moitié de l’ail et le persil; saler, poivrer et former des boulettes de la taille d’une noix.",
+   "Rouler les boulettes dans la farine et les dorer dans l’huile d’olive; réserver.",
+   "Faire revenir l’oignon et le reste de l’ail, ajouter les tomates, la cannelle et le bouillon.",
+   "Blanchir les olives 2 minutes pour les dessaler, puis les ajouter à la sauce avec les boulettes.",
+   "Mijoter 40 minutes, ajouter les haricots blancs 10 minutes avant la fin et servir."
+  ]
+ },
+ {
+  "slug": "chipirons-basquaise",
+  "country": "FR",
+  "place": "fr-pays-basque",
+  "original": "Chipirons à la basquaise",
+  "title": "Chipirons à la basquaise (petits calamars aux piments et tomates)",
+  "en": "Basque-style baby squid with peppers and tomatoes",
+  "es": "Chipirones a la vasca (con pimientos y tomate)",
+  "desc": "Plat de la côte basque : petits calamars (chipirons) saisis à l’huile d’olive puis mijotés brièvement avec oignons, piments doux, tomates, ail et piment d’Espelette.",
+  "cat": "Fruits de mer",
+  "diff": "easy",
+  "prep": 25,
+  "cook": 30,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Chipiron",
+  "ing": [
+   [
+    "Chipirons nettoyés",
+    1,
+    "kg",
+    null
+   ],
+   [
+    "Huile d’olive",
+    4,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Oignons",
+    2,
+    null,
+    "émincés"
+   ],
+   [
+    "Poivrons verts doux",
+    3,
+    null,
+    "en lanières"
+   ],
+   [
+    "Tomates",
+    4,
+    null,
+    "concassées"
+   ],
+   [
+    "Ail",
+    4,
+    "gousses",
+    null
+   ],
+   [
+    "Piment d’Espelette",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Vin blanc sec",
+    100,
+    "ml",
+    null
+   ],
+   [
+    "Persil",
+    2,
+    "c. à soupe",
+    "haché"
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire fondre les oignons et les poivrons dans la moitié de l’huile d’olive 15 minutes.",
+   "Ajouter les tomates, l’ail et le piment d’Espelette et laisser compoter 10 minutes.",
+   "Dans une poêle très chaude, saisir les chipirons 2 à 3 minutes dans le reste d’huile, puis égoutter leur eau.",
+   "Déglacer au vin blanc, ajouter la piperade et mijoter 5 minutes seulement pour qu’ils restent tendres.",
+   "Parsemer de persil et servir avec du riz ou du pain."
+  ]
+ },
+ {
+  "slug": "pommes-sarladaises",
+  "country": "FR",
+  "place": {
+   "slug": "fr-perigord",
+   "name": "Périgord",
+   "type": "region",
+   "lat": 45.0,
+   "lng": 0.9,
+   "summary": "Pays de la Dordogne autour de Périgueux et Sarlat : canard gras, truffe, noix et pommes sarladaises."
+  },
+  "original": "Pommes sarladaises",
+  "title": "Pommes de terre sarladaises (sautées à la graisse de canard et à l’ail)",
+  "en": "Sarlat potatoes (sautéed in duck fat with garlic and parsley)",
+  "es": "Patatas a la sarladesa (salteadas en grasa de pato con ajo)",
+  "desc": "Accompagnement du Périgord noir : pommes de terre en rondelles rissolées dans la graisse de canard, couvertes en fin de cuisson d’ail et de persil hachés.",
+  "cat": "Accompagnement",
+  "diff": "easy",
+  "prep": 15,
+  "cook": 35,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Pommes_de_terre_sarladaises",
+  "ing": [
+   [
+    "Pommes de terre à chair ferme",
+    1,
+    "kg",
+    "en rondelles de 3 mm"
+   ],
+   [
+    "Graisse de canard",
+    4,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Ail",
+    4,
+    "gousses",
+    "hachées"
+   ],
+   [
+    "Persil plat",
+    4,
+    "c. à soupe",
+    "haché"
+   ],
+   [
+    "Fleur de sel",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Poivre",
+    0.5,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Rincer et éponger soigneusement les rondelles de pommes de terre.",
+   "Chauffer la graisse de canard dans une grande sauteuse et y mettre les pommes de terre.",
+   "Les faire dorer 15 minutes à feu vif en les retournant, puis couvrir et cuire 15 minutes à feu moyen.",
+   "Découvrir, parsemer d’ail et de persil, et cuire encore 5 minutes en remuant.",
+   "Saler à la fleur de sel, poivrer et servir avec un confit ou un magret."
+  ]
+ },
+ {
+  "slug": "poulet-vallee-d-auge",
+  "country": "FR",
+  "place": "fr-normandie",
+  "original": "Poulet vallée d’Auge",
+  "title": "Poulet vallée d’Auge (au calvados, au cidre et à la crème)",
+  "en": "Vallée d’Auge chicken (with calvados, cider and cream)",
+  "es": "Pollo del valle de Auge (con calvados, sidra y nata)",
+  "desc": "Plat normand : poulet doré au beurre, flambé au calvados, mijoté au cidre avec champignons, puis lié à la crème fraîche et accompagné de pommes poêlées.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 20,
+  "cook": 60,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Poulet_vall%C3%A9e_d%27Auge",
+  "ing": [
+   [
+    "Poulet fermier",
+    1,
+    null,
+    "découpé en morceaux"
+   ],
+   [
+    "Beurre",
+    50,
+    "g",
+    null
+   ],
+   [
+    "Échalotes",
+    3,
+    null,
+    "ciselées"
+   ],
+   [
+    "Calvados",
+    60,
+    "ml",
+    null
+   ],
+   [
+    "Cidre brut",
+    300,
+    "ml",
+    null
+   ],
+   [
+    "Champignons de Paris",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Crème fraîche épaisse",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Pommes",
+    2,
+    null,
+    "en quartiers, pour la garniture"
+   ],
+   [
+    "Thym",
+    2,
+    "branches",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Dorer les morceaux de poulet dans 30 g de beurre, ajouter les échalotes.",
+   "Arroser de calvados chaud et flamber.",
+   "Mouiller avec le cidre, ajouter le thym, saler, poivrer et cuire 35 minutes à couvert; ajouter les champignons à mi-cuisson.",
+   "Poêler les quartiers de pommes dans le reste du beurre.",
+   "Retirer le poulet, ajouter la crème à la sauce, réduire jusqu’à ce qu’elle nappe et servir avec les pommes."
+  ]
+ },
+ {
+  "slug": "poulet-marengo",
+  "country": "FR",
+  "original": "Poulet Marengo",
+  "title": "Poulet Marengo (sauté à la tomate, au vin blanc et aux champignons)",
+  "en": "Chicken Marengo",
+  "es": "Pollo Marengo",
+  "desc": "Sauté de poulet né, selon la tradition, après la bataille de Marengo (1800) et devenu un classique de la cuisine bourgeoise : poulet doré à l’huile d’olive, mijoté à la tomate, au vin blanc et à l’ail, garni de champignons et parfois d’œufs frits et d’écrevisses.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 25,
+  "cook": 50,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Poulet_Marengo",
+  "ing": [
+   [
+    "Poulet",
+    1,
+    null,
+    "découpé en morceaux"
+   ],
+   [
+    "Huile d’olive",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Oignon",
+    1,
+    null,
+    "haché"
+   ],
+   [
+    "Ail",
+    3,
+    "gousses",
+    null
+   ],
+   [
+    "Farine",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Vin blanc sec",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Tomates",
+    500,
+    "g",
+    "concassées"
+   ],
+   [
+    "Champignons de Paris",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Bouquet garni",
+    1,
+    null,
+    null
+   ],
+   [
+    "Persil",
+    2,
+    "c. à soupe",
+    "haché"
+   ],
+   [
+    "Œufs",
+    4,
+    null,
+    "frits, facultatif"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Dorer les morceaux de poulet dans l’huile d’olive, ajouter l’oignon et l’ail.",
+   "Saupoudrer de farine, mouiller avec le vin blanc et laisser réduire 2 minutes.",
+   "Ajouter les tomates et le bouquet garni, saler, poivrer, couvrir et mijoter 30 minutes.",
+   "Ajouter les champignons et cuire encore 15 minutes.",
+   "Parsemer de persil et servir, éventuellement avec un œuf frit par personne."
+  ]
+ },
+ {
+  "slug": "entrecote-bordelaise",
+  "country": "FR",
+  "place": "fr-bordeaux",
+  "original": "Entrecôte à la bordelaise",
+  "title": "Entrecôte à la bordelaise (sauce au vin rouge, échalotes et moelle)",
+  "en": "Entrecôte à la bordelaise (rib steak with red wine and marrow sauce)",
+  "es": "Entrecot a la bordelesa (con salsa de vino tinto y tuétano)",
+  "desc": "Plat de Bordeaux : entrecôte grillée ou poêlée nappée d’une sauce bordelaise au vin rouge réduit avec échalotes, thym et fond de veau, montée au beurre et garnie de rondelles de moelle pochée.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 20,
+  "cook": 40,
+  "serv": 2,
+  "reference": "https://fr.wikipedia.org/wiki/Sauce_bordelaise",
+  "ing": [
+   [
+    "Entrecôte",
+    1,
+    null,
+    "d’environ 600 g"
+   ],
+   [
+    "Échalotes",
+    4,
+    null,
+    "ciselées"
+   ],
+   [
+    "Vin rouge de Bordeaux",
+    300,
+    "ml",
+    null
+   ],
+   [
+    "Fond de veau",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Thym et laurier",
+    1,
+    "branche",
+    null
+   ],
+   [
+    "Os à moelle",
+    2,
+    null,
+    "tronçons"
+   ],
+   [
+    "Beurre",
+    40,
+    "g",
+    null
+   ],
+   [
+    "Huile",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Fleur de sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire réduire le vin rouge avec les échalotes, le thym et le laurier jusqu’aux trois quarts.",
+   "Ajouter le fond de veau et réduire jusqu’à ce que la sauce nappe la cuillère; filtrer ou garder les échalotes.",
+   "Pocher les os à moelle 5 minutes, extraire la moelle et la couper en rondelles.",
+   "Saisir l’entrecôte dans l’huile chaude 3 à 4 minutes par face, puis la laisser reposer 5 minutes.",
+   "Monter la sauce avec le beurre froid, ajouter la moelle et napper la viande tranchée."
+  ]
+ },
+ {
+  "slug": "cargolade-catalane",
+  "country": "FR",
+  "place": {
+   "slug": "fr-roussillon",
+   "name": "Roussillon",
+   "type": "region",
+   "lat": 42.6,
+   "lng": 2.6,
+   "summary": "Pays catalan de France autour de Perpignan : cargolade, boles de picolat et crème catalane."
+  },
+  "original": "Cargolade",
+  "title": "Cargolade catalane (escargots grillés sur la braise)",
+  "en": "Catalan cargolade (snails grilled over embers)",
+  "es": "Caracolada catalana (caracoles a la brasa)",
+  "desc": "Fête culinaire du Roussillon : centaines de petits-gris disposés sur une grille, assaisonnés de sel, poivre et herbes, arrosés de lard fondu et grillés sur les sarments de vigne, puis mangés avec de l’aïoli.",
+  "cat": "Plat principal",
+  "diff": "easy",
+  "prep": 30,
+  "cook": 25,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/Cargolade",
+  "ing": [
+   [
+    "Escargots petits-gris vivants, jeûnés",
+    2,
+    "kg",
+    null
+   ],
+   [
+    "Gros sel",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Poivre",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Herbes de Provence",
+    2,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Lard gras",
+    200,
+    "g",
+    "pour arroser"
+   ],
+   [
+    "Aïoli",
+    300,
+    "ml",
+    "pour servir"
+   ],
+   [
+    "Pain de campagne",
+    1,
+    null,
+    null
+   ],
+   [
+    "Sarments de vigne",
+    1,
+    "fagot",
+    "pour la braise"
+   ]
+  ],
+  "steps": [
+   "Laver les escargots à l’eau froide et les ranger côté ouverture vers le haut sur une grille à cargolade.",
+   "Saupoudrer de sel, de poivre et d’herbes.",
+   "Allumer les sarments et poser la grille sur la braise vive.",
+   "Faire fondre le lard au bout d’une pique flambée et en faire couler une goutte dans chaque coquille; griller 15 à 20 minutes jusqu’à ce que le jus cesse de bouillir.",
+   "Servir aussitôt avec l’aïoli et du pain, souvent avant les grillades d’agneau et de saucisse."
+  ]
+ },
+ {
+  "slug": "estofinado-aveyron",
+  "country": "FR",
+  "place": "fr-aveyron",
+  "original": "Estofinado",
+  "title": "Estofinado aveyronnais (stockfish écrasé aux pommes de terre, œufs et huile de noix)",
+  "en": "Aveyron estofinado (stockfish mashed with potatoes, eggs and walnut oil)",
+  "es": "Estofinado del Aveyron (bacalao seco con patatas, huevos y aceite de nuez)",
+  "desc": "Spécialité du bassin de Decazeville, née du commerce du stockfish sur le Lot : poisson séché réhydraté, poché puis écrasé avec des pommes de terre, de l’ail, du persil, des œufs et beaucoup d’huile de noix chaude.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 40,
+  "cook": 45,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Estofinado",
+  "ing": [
+   [
+    "Stockfish (morue séchée)",
+    500,
+    "g",
+    "réhydraté 5 à 7 jours"
+   ],
+   [
+    "Pommes de terre",
+    1,
+    "kg",
+    null
+   ],
+   [
+    "Œufs",
+    4,
+    null,
+    "dont 2 durs"
+   ],
+   [
+    "Ail",
+    4,
+    "gousses",
+    "hachées"
+   ],
+   [
+    "Persil",
+    4,
+    "c. à soupe",
+    "haché"
+   ],
+   [
+    "Huile de noix",
+    150,
+    "ml",
+    null
+   ],
+   [
+    "Crème fraîche",
+    100,
+    "ml",
+    "facultatif"
+   ],
+   [
+    "Poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Pocher le stockfish réhydraté 20 minutes dans l’eau frémissante, puis l’effeuiller en retirant peau et arêtes.",
+   "Cuire les pommes de terre à l’eau, les éplucher et les écraser grossièrement avec le poisson.",
+   "Ajouter l’ail, le persil, les œufs durs hachés et les œufs crus battus en mélangeant.",
+   "Faire chauffer l’huile de noix et la verser bouillante sur la préparation en remuant énergiquement.",
+   "Poivrer, ajouter un peu de crème si nécessaire et servir très chaud."
+  ]
+ },
+ {
+  "slug": "pate-lorrain",
+  "country": "FR",
+  "place": "fr-lorraine",
+  "original": "Pâté lorrain",
+  "title": "Pâté lorrain (porc et veau marinés en pâte feuilletée)",
+  "en": "Pâté lorrain (marinated pork and veal in puff pastry)",
+  "es": "Pâté lorrain (cerdo y ternera marinados en hojaldre)",
+  "desc": "Spécialité de Lorraine protégée par une IGP : lanières d’échine de porc et de veau marinées au vin blanc, aux échalotes et aux herbes, enfermées dans un rectangle de pâte feuilletée doré et rayé, servi chaud.",
+  "cat": "Entrée",
+  "diff": "medium",
+  "prep": 40,
+  "cook": 45,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/P%C3%A2t%C3%A9_lorrain",
+  "ing": [
+   [
+    "Échine de porc",
+    400,
+    "g",
+    "en lanières"
+   ],
+   [
+    "Noix de veau",
+    300,
+    "g",
+    "en lanières"
+   ],
+   [
+    "Vin blanc de Lorraine",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Échalotes",
+    3,
+    null,
+    "ciselées"
+   ],
+   [
+    "Persil",
+    3,
+    "c. à soupe",
+    "haché"
+   ],
+   [
+    "Thym et laurier",
+    1,
+    "branche",
+    null
+   ],
+   [
+    "Pâte feuilletée",
+    2,
+    "abaisses",
+    "rectangulaires"
+   ],
+   [
+    "Jaune d’œuf",
+    1,
+    null,
+    "pour la dorure"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire mariner une nuit les viandes avec le vin, les échalotes, le persil, le thym, le laurier, le sel et le poivre.",
+   "Égoutter soigneusement la viande.",
+   "Étaler la viande au centre d’une abaisse, couvrir de la seconde et souder les bords.",
+   "Dorer, rayer le dessus en épi et percer une cheminée.",
+   "Cuire 45 minutes à 190 °C et servir chaud avec une salade verte."
+  ]
+ },
+ {
+  "slug": "tourte-lorraine",
+  "country": "FR",
+  "place": "fr-lorraine",
+  "original": "Tourte lorraine",
+  "title": "Tourte lorraine (viandes marinées et migaine sous croûte)",
+  "en": "Lorraine meat pie (marinated meat and custard under pastry)",
+  "es": "Tourte lorraine (carnes marinadas y crema bajo hojaldre)",
+  "desc": "Grande tourte de Lorraine : porc et veau marinés au vin blanc, enfermés dans une pâte feuilletée haute, puis complétés en fin de cuisson d’une migaine d’œufs et de crème versée par la cheminée.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 40,
+  "cook": 60,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/Tourte_lorraine",
+  "ing": [
+   [
+    "Échine de porc",
+    500,
+    "g",
+    "en dés"
+   ],
+   [
+    "Épaule de veau",
+    400,
+    "g",
+    "en dés"
+   ],
+   [
+    "Vin blanc",
+    250,
+    "ml",
+    null
+   ],
+   [
+    "Oignon",
+    1,
+    null,
+    "émincé"
+   ],
+   [
+    "Échalotes",
+    2,
+    null,
+    null
+   ],
+   [
+    "Persil",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Pâte feuilletée",
+    2,
+    "abaisses",
+    null
+   ],
+   [
+    "Œufs",
+    3,
+    null,
+    "pour la migaine"
+   ],
+   [
+    "Crème fraîche",
+    250,
+    "ml",
+    "pour la migaine"
+   ],
+   [
+    "Muscade",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire mariner les viandes 12 heures avec le vin, l’oignon, les échalotes, le persil, le sel et le poivre.",
+   "Foncer un moule haut avec une abaisse, garnir de viande égouttée et couvrir de la seconde abaisse.",
+   "Souder, dorer et pratiquer une cheminée au centre.",
+   "Cuire 45 minutes à 190 °C.",
+   "Battre les œufs, la crème et la muscade, verser par la cheminée et poursuivre la cuisson 15 minutes; servir chaud."
+  ]
+ },
+ {
+  "slug": "spaetzle-alsaciens",
+  "country": "FR",
+  "place": "fr-alsace",
+  "original": "Spaetzle",
+  "title": "Spaetzle alsaciens (pâtes fraîches aux œufs poêlées au beurre)",
+  "en": "Alsatian spaetzle (fresh egg noodles tossed in butter)",
+  "es": "Spätzle alsacianos (pasta fresca al huevo salteada con mantequilla)",
+  "desc": "Pâtes fraîches d’Alsace et du pays de Bade : pâte molle aux œufs pressée ou raclée dans l’eau bouillante, puis rissolée au beurre; accompagnement classique du civet et des viandes en sauce.",
+  "cat": "Accompagnement",
+  "diff": "easy",
+  "prep": 15,
+  "cook": 15,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Spaetzle",
+  "ing": [
+   [
+    "Farine",
+    400,
+    "g",
+    null
+   ],
+   [
+    "Œufs",
+    4,
+    null,
+    null
+   ],
+   [
+    "Lait ou eau gazeuse",
+    150,
+    "ml",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Muscade",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Beurre",
+    40,
+    "g",
+    null
+   ],
+   [
+    "Persil",
+    1,
+    "c. à soupe",
+    "haché, facultatif"
+   ]
+  ],
+  "steps": [
+   "Battre la farine, les œufs, le lait, le sel et la muscade à la cuillère jusqu’à obtenir une pâte épaisse qui fait des bulles.",
+   "Laisser reposer 15 minutes.",
+   "Presser la pâte à travers une râpe à spaetzle ou la racler d’une planchette dans une grande casserole d’eau bouillante salée.",
+   "Retirer les spaetzle à l’écumoire dès qu’ils remontent, puis les rincer brièvement.",
+   "Les faire dorer dans le beurre mousseux, parsemer de persil et servir."
+  ]
+ },
+ {
+  "slug": "mouclade-charentaise",
+  "country": "FR",
+  "place": {
+   "slug": "fr-charente-maritime",
+   "name": "Charente-Maritime",
+   "type": "region",
+   "lat": 45.9,
+   "lng": -0.95,
+   "summary": "Côte atlantique de La Rochelle à Royan et au bassin de Marennes-Oléron : moules de bouchot, mouclade et éclade."
+  },
+  "original": "Mouclade",
+  "title": "Mouclade charentaise (moules à la crème, au safran et au curry)",
+  "en": "Charentes mouclade (mussels in saffron curry cream)",
+  "es": "Mouclade charentesa (mejillones con nata, azafrán y curry)",
+  "desc": "Plat de La Rochelle et du pays de Marennes : moules de bouchot ouvertes au vin blanc, nappées d’une sauce liée à la crème et au jaune d’œuf, parfumée au curry ou au safran rapportés par les navires.",
+  "cat": "Fruits de mer",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 20,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Mouclade",
+  "ing": [
+   [
+    "Moules de bouchot",
+    2,
+    "kg",
+    "grattées"
+   ],
+   [
+    "Vin blanc sec",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Échalotes",
+    3,
+    null,
+    "ciselées"
+   ],
+   [
+    "Beurre",
+    40,
+    "g",
+    null
+   ],
+   [
+    "Farine",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Curry doux",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Safran",
+    1,
+    "pincée",
+    "facultatif"
+   ],
+   [
+    "Crème fraîche",
+    250,
+    "ml",
+    null
+   ],
+   [
+    "Jaune d’œuf",
+    1,
+    null,
+    null
+   ],
+   [
+    "Ail",
+    2,
+    "gousses",
+    null
+   ],
+   [
+    "Persil",
+    2,
+    "c. à soupe",
+    "haché"
+   ]
+  ],
+  "steps": [
+   "Ouvrir les moules à feu vif avec le vin blanc et la moitié des échalotes; filtrer et réserver le jus.",
+   "Retirer la coquille vide de chaque moule et ranger les moules dans un plat chaud.",
+   "Faire fondre le reste des échalotes et l’ail dans le beurre, ajouter la farine, le curry et le safran.",
+   "Mouiller avec le jus des moules filtré et la crème, réduire 5 minutes, puis lier hors du feu au jaune d’œuf.",
+   "Napper les moules de sauce, parsemer de persil et servir aussitôt."
+  ]
+ },
+ {
+  "slug": "eclade-de-moules",
+  "country": "FR",
+  "place": {
+   "slug": "fr-charente-maritime",
+   "name": "Charente-Maritime",
+   "type": "region",
+   "lat": 45.9,
+   "lng": -0.95,
+   "summary": "Côte atlantique de La Rochelle à Royan et au bassin de Marennes-Oléron : moules de bouchot, mouclade et éclade."
+  },
+  "original": "Éclade de moules",
+  "title": "Éclade de moules charentaise (moules cuites sous les aiguilles de pin)",
+  "en": "Éclade (mussels cooked under burning pine needles)",
+  "es": "Éclade de mejillones (cocinados bajo agujas de pino)",
+  "desc": "Tradition de la côte charentaise : moules disposées en rosace serrée sur une planche, charnière vers le haut, puis couvertes d’aiguilles de pin sèches que l’on enflamme; elles cuisent en quelques minutes et prennent un goût fumé.",
+  "cat": "Fruits de mer",
+  "diff": "easy",
+  "prep": 30,
+  "cook": 5,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/%C3%89clade",
+  "ing": [
+   [
+    "Moules de bouchot",
+    3,
+    "kg",
+    "grattées et lavées"
+   ],
+   [
+    "Aiguilles de pin sèches",
+    1,
+    "grand sac",
+    null
+   ],
+   [
+    "Planche épaisse non traitée",
+    1,
+    null,
+    "mouillée"
+   ],
+   [
+    "Beurre demi-sel",
+    100,
+    "g",
+    "pour servir"
+   ],
+   [
+    "Pain de campagne",
+    1,
+    null,
+    null
+   ]
+  ],
+  "steps": [
+   "Planter 4 clous au centre de la planche mouillée et y caler 4 moules debout, charnière vers le haut.",
+   "Disposer toutes les autres moules en rosace serrée autour, toujours debout et pointe en haut, pour que les aiguilles ne tombent pas dans les coquilles.",
+   "Couvrir d’une épaisse couche d’aiguilles de pin sèches et y mettre le feu, à l’extérieur et loin de toute végétation.",
+   "Laisser brûler 3 à 5 minutes, puis chasser les cendres en éventant avec un carton.",
+   "Manger les moules aussitôt, avec du pain beurré et un vin blanc des Charentes."
+  ]
+ },
+ {
+  "slug": "pate-aux-pommes-de-terre-limousin",
+  "country": "FR",
+  "place": "fr-limousin",
+  "original": "Pâté aux pommes de terre",
+  "title": "Pâté aux pommes de terre du Limousin (tourte à la crème)",
+  "en": "Limousin potato pie (with cream)",
+  "es": "Pastel de patatas del Lemosín (con nata)",
+  "desc": "Tourte paysanne du Limousin et du Berry : fines rondelles de pommes de terre à l’ail, au persil et à l’oignon entre deux pâtes, dans laquelle on verse de la crème fraîche par la cheminée en fin de cuisson.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 75,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/P%C3%A2t%C3%A9_aux_pommes_de_terre",
+  "ing": [
+   [
+    "Pâte feuilletée ou brisée",
+    2,
+    "abaisses",
+    null
+   ],
+   [
+    "Pommes de terre",
+    1,
+    "kg",
+    "en rondelles très fines"
+   ],
+   [
+    "Oignon",
+    1,
+    null,
+    "émincé finement"
+   ],
+   [
+    "Ail",
+    2,
+    "gousses",
+    "hachées"
+   ],
+   [
+    "Persil",
+    3,
+    "c. à soupe",
+    "haché"
+   ],
+   [
+    "Crème fraîche épaisse",
+    250,
+    "ml",
+    null
+   ],
+   [
+    "Jaune d’œuf",
+    1,
+    null,
+    "pour la dorure"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Mélanger les rondelles de pommes de terre avec l’oignon, l’ail, le persil, le sel et le poivre.",
+   "Foncer un moule avec une abaisse et y ranger les pommes de terre en couches serrées.",
+   "Couvrir de la seconde abaisse, souder, faire une cheminée et dorer au jaune d’œuf.",
+   "Cuire 1 heure à 180 °C, jusqu’à ce qu’une lame traverse facilement les pommes de terre.",
+   "Verser la crème par la cheminée, remettre 10 minutes au four et servir chaud avec une salade."
+  ]
+ },
+ {
+  "slug": "croziflette",
+  "country": "FR",
+  "place": "fr-savoie",
+  "original": "Croziflette",
+  "title": "Croziflette savoyarde (crozets, lardons et reblochon gratinés)",
+  "en": "Savoyard croziflette (crozets pasta with bacon and reblochon)",
+  "es": "Croziflette saboyana (crozets con panceta y reblochon gratinados)",
+  "desc": "Variante savoyarde de la tartiflette où les pommes de terre sont remplacées par des crozets, petites pâtes carrées au sarrasin, mêlés aux oignons, aux lardons et à la crème, et couverts de reblochon fondant.",
+  "cat": "Plat principal",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 35,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Crozet_(p%C3%A2tes)",
+  "ing": [
+   [
+    "Crozets au sarrasin",
+    400,
+    "g",
+    null
+   ],
+   [
+    "Reblochon",
+    1,
+    null,
+    "entier"
+   ],
+   [
+    "Lardons fumés",
+    200,
+    "g",
+    null
+   ],
+   [
+    "Oignons",
+    2,
+    null,
+    "émincés"
+   ],
+   [
+    "Vin blanc de Savoie",
+    100,
+    "ml",
+    null
+   ],
+   [
+    "Crème fraîche",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Poivre",
+    0.5,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Cuire les crozets 15 à 20 minutes à l’eau bouillante salée et les égoutter.",
+   "Faire revenir les lardons et les oignons jusqu’à ce qu’ils soient dorés, puis déglacer au vin blanc.",
+   "Mélanger les crozets, les lardons, les oignons et la crème; poivrer.",
+   "Verser dans un plat, couvrir du reblochon coupé en deux dans l’épaisseur, croûte vers le haut.",
+   "Gratiner 20 minutes à 200 °C et servir avec une salade verte."
+  ]
+ },
+ {
+  "slug": "pompe-aux-grattons",
+  "country": "FR",
+  "place": "fr-auvergne",
+  "original": "Pompe aux grattons",
+  "title": "Pompe aux grattons (pain brioché aux grattons de porc)",
+  "en": "Pompe aux grattons (bread with pork cracklings)",
+  "es": "Pompe aux grattons (pan con chicharrones de cerdo)",
+  "desc": "Spécialité de l’Auvergne et du Bourbonnais : pâte levée feuilletée ou briochée garnie de grattons, résidus croustillants de la fonte du lard, servie tiède à l’apéritif.",
+  "cat": "Pain",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 40,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/Pompe_aux_grattons",
+  "ing": [
+   [
+    "Farine",
+    500,
+    "g",
+    null
+   ],
+   [
+    "Levure boulangère fraîche",
+    20,
+    "g",
+    null
+   ],
+   [
+    "Lait tiède",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Œufs",
+    2,
+    null,
+    "plus 1 jaune pour la dorure"
+   ],
+   [
+    "Beurre mou",
+    80,
+    "g",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Grattons de porc",
+    250,
+    "g",
+    "émiettés"
+   ],
+   [
+    "Poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Délayer la levure dans le lait tiède, puis pétrir avec la farine, les œufs, le sel et le beurre jusqu’à obtenir une pâte souple.",
+   "Laisser lever 1 h 30 jusqu’à ce qu’elle double.",
+   "Étaler la pâte, répartir les grattons et le poivre, puis la replier en trois et étaler à nouveau; recommencer une fois.",
+   "Former une couronne ou une boule, poser sur une plaque et laisser lever 45 minutes.",
+   "Dorer au jaune d’œuf et cuire 35 à 40 minutes à 190 °C; servir tiède."
+  ]
+ },
+ {
+  "slug": "souffle-au-fromage",
+  "country": "FR",
+  "original": "Soufflé au fromage",
+  "title": "Soufflé au fromage (béchamel au comté et blancs en neige)",
+  "en": "Cheese soufflé",
+  "es": "Suflé de queso",
+  "desc": "Classique de la cuisine française : béchamel épaisse enrichie de jaunes d’œufs et de comté ou de gruyère, allégée de blancs montés en neige et cuite au four jusqu’à ce qu’elle gonfle au-dessus du moule.",
+  "cat": "Entrée",
+  "diff": "medium",
+  "prep": 25,
+  "cook": 30,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Souffl%C3%A9",
+  "ing": [
+   [
+    "Beurre",
+    50,
+    "g",
+    "plus pour le moule"
+   ],
+   [
+    "Farine",
+    40,
+    "g",
+    null
+   ],
+   [
+    "Lait",
+    300,
+    "ml",
+    null
+   ],
+   [
+    "Œufs",
+    5,
+    null,
+    "séparés"
+   ],
+   [
+    "Comté ou gruyère râpé",
+    120,
+    "g",
+    null
+   ],
+   [
+    "Muscade",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Chapelure ou parmesan",
+    1,
+    "c. à soupe",
+    "pour chemiser le moule"
+   ]
+  ],
+  "steps": [
+   "Beurrer généreusement un moule à soufflé et le chemiser de chapelure ou de parmesan; préchauffer le four à 200 °C.",
+   "Préparer une béchamel épaisse avec le beurre, la farine et le lait; hors du feu, ajouter les jaunes un à un, le fromage, la muscade, le sel et le poivre.",
+   "Monter les blancs en neige ferme avec une pincée de sel.",
+   "Incorporer un quart des blancs vivement, puis le reste délicatement.",
+   "Remplir le moule, lisser, passer le pouce sur le bord et cuire 25 à 30 minutes sans ouvrir le four; servir immédiatement."
+  ]
+ }
+]

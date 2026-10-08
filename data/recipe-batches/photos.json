@@ -6608,5 +6608,59 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "Wikimedia Commons"
+ },
+ "ragout-boulettes-pattes-cochon": {
+  "file": "File:Ragout.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Ragout.jpg/1280px-Ragout.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ragout.jpg",
+  "author": "Idéalités",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "pate-au-saumon-quebec": {
+  "file": "File:Paté au saumon.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Pat%C3%A9_au_saumon.jpg/1280px-Pat%C3%A9_au_saumon.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pat%C3%A9_au_saumon.jpg",
+  "author": "StevenBjerke97",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "oreilles-de-crisse": {
+  "file": "File:Oreilles de Crisse 2.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Oreilles_de_Crisse_2.jpg/1280px-Oreilles_de_Crisse_2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Oreilles_de_Crisse_2.jpg",
+  "author": "Abxzo",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "gibelotte-sorel": {
+  "file": "File:Gibelotte-Sorel.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Gibelotte-Sorel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gibelotte-Sorel.jpg",
+  "author": "Frappier",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "Wikimedia Commons"
+ },
+ "hot-dog-steame": {
+  "file": "File:Montreal steamie hotdog.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Montreal_steamie_hotdog.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Montreal_steamie_hotdog.jpg",
+  "author": "Mindme",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "Wikimedia Commons"
+ },
+ "bouilli-quebecois": {
+  "file": "File:Bouilli quebecois.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bouilli_quebecois.jpg/1280px-Bouilli_quebecois.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bouilli_quebecois.jpg",
+  "author": "Marc-Lautenbacher",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
  }
 }

@@ -1,0 +1,268 @@
+[
+ {
+  "slug": "s14-ie-0",
+  "country": "IE",
+  "original": "Beef and Guinness stew",
+  "title": "Ragoût de bœuf à la Guinness",
+  "en": "Irish beef and Guinness stew"
+ },
+ {
+  "slug": "s14-ie-1",
+  "country": "IE",
+  "original": "Full Irish breakfast",
+  "title": "Petit-déjeuner irlandais complet",
+  "en": "Full Irish breakfast"
+ },
+ {
+  "slug": "s14-ie-2",
+  "country": "IE",
+  "original": "Champ",
+  "title": "Champ (purée aux oignons verts)",
+  "en": "Irish champ potatoes"
+ },
+ {
+  "slug": "s14-ie-3",
+  "country": "IE",
+  "original": "Seafood chowder",
+  "title": "Chaudrée de fruits de mer irlandaise",
+  "en": "Irish seafood chowder"
+ },
+ {
+  "slug": "s14-il-4",
+  "country": "IL",
+  "original": "Shakshuka",
+  "title": "Chakchouka israélienne",
+  "en": "Israeli shakshuka"
+ },
+ {
+  "slug": "s14-il-5",
+  "country": "IL",
+  "original": "Jachnun",
+  "title": "Jachnun",
+  "en": "Yemenite jachnun"
+ },
+ {
+  "slug": "s14-il-6",
+  "country": "IL",
+  "original": "Sufganiyah",
+  "title": "Soufganiyot (beignets de Hanoukka)",
+  "en": "Sufganiyah"
+ },
+ {
+  "slug": "s14-al-7",
+  "country": "AL",
+  "original": "Tavë dheu",
+  "title": "Tavë dheu (foies et fromage en terrine)",
+  "en": "Albanian tave dheu"
+ },
+ {
+  "slug": "s14-al-8",
+  "country": "AL",
+  "original": "Qofte të fërguara",
+  "title": "Qofte albanais",
+  "en": "Albanian qofte"
+ },
+ {
+  "slug": "s14-al-9",
+  "country": "AL",
+  "original": "Trileçe",
+  "title": "Trileçe (gâteau aux trois laits)",
+  "en": "Albanian trilece"
+ },
+ {
+  "slug": "s14-cv-10",
+  "country": "CV",
+  "original": "Pastel de milho",
+  "title": "Pastéis de milho",
+  "en": "Cape Verdean corn pastries"
+ },
+ {
+  "slug": "s14-do-11",
+  "country": "DO",
+  "original": "Chicharrón de pollo",
+  "title": "Chicharrón de pollo dominicain",
+  "en": "Dominican chicharron de pollo"
+ },
+ {
+  "slug": "s14-do-12",
+  "country": "DO",
+  "original": "Tostones",
+  "title": "Tostones dominicains",
+  "en": "Dominican tostones"
+ },
+ {
+  "slug": "s14-do-13",
+  "country": "DO",
+  "original": "Chimichurri dominicain",
+  "title": "Chimi dominicain",
+  "en": "Dominican chimi burger"
+ },
+ {
+  "slug": "s14-bd-14",
+  "country": "BD",
+  "original": "Fuchka",
+  "title": "Fuchka",
+  "en": "Bangladeshi fuchka"
+ },
+ {
+  "slug": "s14-bd-15",
+  "country": "BD",
+  "original": "Haleem",
+  "title": "Haleem de Dhaka",
+  "en": "Bangladeshi haleem"
+ },
+ {
+  "slug": "s14-bd-16",
+  "country": "BD",
+  "original": "Pitha",
+  "title": "Bhapa pitha",
+  "en": "Bangladeshi bhapa pitha"
+ },
+ {
+  "slug": "s14-mv-17",
+  "country": "MV",
+  "original": "Hedhikaa",
+  "title": "Hedhikaa (en-cas maldiviens)",
+  "en": "Maldivian hedhikaa"
+ },
+ {
+  "slug": "s14-mg-18",
+  "country": "MG",
+  "original": "Mofo baolina",
+  "title": "Mofo baolina",
+  "en": "Malagasy mofo"
+ },
+ {
+  "slug": "s14-mg-19",
+  "country": "MG",
+  "original": "Varanga",
+  "title": "Varanga (bœuf effiloché)",
+  "en": "Malagasy varanga"
+ },
+ {
+  "slug": "s14-mu-20",
+  "country": "MU",
+  "original": "Farata",
+  "title": "Farata mauricien",
+  "en": "Mauritian farata"
+ },
+ {
+  "slug": "s14-mu-21",
+  "country": "MU",
+  "original": "Bol renversé",
+  "title": "Bol renversé mauricien",
+  "en": "Mauritian bol renverse"
+ },
+ {
+  "slug": "s14-tj-22",
+  "country": "TJ",
+  "original": "Non",
+  "title": "Pain tadjik (non)",
+  "en": "Tajik non bread"
+ },
+ {
+  "slug": "s14-cy-23",
+  "country": "CY",
+  "original": "Halloumi",
+  "title": "Halloumi grillé",
+  "en": "Grilled halloumi Cyprus"
+ },
+ {
+  "slug": "s14-cy-24",
+  "country": "CY",
+  "original": "Loukoumades",
+  "title": "Loukoumades chypriotes",
+  "en": "Cypriot loukoumades"
+ },
+ {
+  "slug": "s14-cy-25",
+  "country": "CY",
+  "original": "Kolokasi",
+  "title": "Kolokasi (taro au porc)",
+  "en": "Cypriot kolokasi"
+ },
+ {
+  "slug": "s14-mt-26",
+  "country": "MT",
+  "original": "Bigilla",
+  "title": "Bigilla (purée de fèves)",
+  "en": "Maltese bigilla"
+ },
+ {
+  "slug": "s14-mt-27",
+  "country": "MT",
+  "original": "Kapunata",
+  "title": "Kapunata maltaise",
+  "en": "Maltese kapunata"
+ },
+ {
+  "slug": "s14-lk-28",
+  "country": "LK",
+  "original": "String hoppers",
+  "title": "String hoppers (idiyappam)",
+  "en": "Sri Lankan string hoppers"
+ },
+ {
+  "slug": "s14-lk-29",
+  "country": "LK",
+  "original": "Wattalappam",
+  "title": "Wattalappam",
+  "en": "Sri Lankan wattalappam"
+ },
+ {
+  "slug": "s14-tt-30",
+  "country": "TT",
+  "original": "Roti",
+  "title": "Roti trinidadien (dhalpuri)",
+  "en": "Trinidad dhalpuri roti"
+ },
+ {
+  "slug": "s14-tt-31",
+  "country": "TT",
+  "original": "Corn soup",
+  "title": "Soupe de maïs trinidadienne",
+  "en": "Trinidad corn soup"
+ },
+ {
+  "slug": "s14-bh-32",
+  "country": "BH",
+  "original": "Samboosa",
+  "title": "Samboosa bahreïnie",
+  "en": "Bahraini samboosa"
+ },
+ {
+  "slug": "s14-ae-33",
+  "country": "AE",
+  "original": "Margoogat",
+  "title": "Margoogat",
+  "en": "Emirati margoogat"
+ },
+ {
+  "slug": "s14-ci-34",
+  "country": "CI",
+  "original": "Foutou banane",
+  "title": "Foutou banane sauce graine",
+  "en": "Ivorian foutou"
+ },
+ {
+  "slug": "s14-ci-35",
+  "country": "CI",
+  "original": "Placali",
+  "title": "Placali sauce kopè",
+  "en": "Ivorian placali"
+ },
+ {
+  "slug": "s14-bb-36",
+  "country": "BB",
+  "original": "Bajan sweet bread",
+  "title": "Sweet bread de la Barbade",
+  "en": "Bajan coconut sweet bread"
+ },
+ {
+  "slug": "s14-fj-37",
+  "country": "FJ",
+  "original": "Palusami",
+  "title": "Palusami fidjien",
+  "en": "Fijian palusami"
+ }
+]

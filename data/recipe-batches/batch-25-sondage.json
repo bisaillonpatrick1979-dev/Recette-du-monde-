@@ -1,0 +1,366 @@
+[
+ {
+  "slug": "s5-is-0",
+  "country": "IS",
+  "original": "Plokkfiskur",
+  "title": "Plokkfiskur",
+  "en": "Icelandic fish stew"
+ },
+ {
+  "slug": "s5-is-1",
+  "country": "IS",
+  "original": "Pylsur",
+  "title": "Pylsur",
+  "en": "Icelandic hot dog"
+ },
+ {
+  "slug": "s5-is-2",
+  "country": "IS",
+  "original": "Hangikjöt",
+  "title": "Hangikjöt",
+  "en": "Icelandic smoked lamb"
+ },
+ {
+  "slug": "s5-ly-3",
+  "country": "LY",
+  "original": "Usban",
+  "title": "Usban",
+  "en": "Libyan usban sausage"
+ },
+ {
+  "slug": "s5-ie-4",
+  "country": "IE",
+  "original": "Dublin coddle",
+  "title": "Dublin coddle",
+  "en": "Dublin coddle"
+ },
+ {
+  "slug": "s5-ie-5",
+  "country": "IE",
+  "original": "Boxty",
+  "title": "Boxty",
+  "en": "Irish boxty"
+ },
+ {
+  "slug": "s5-ie-6",
+  "country": "IE",
+  "original": "Colcannon",
+  "title": "Colcannon",
+  "en": "Irish colcannon"
+ },
+ {
+  "slug": "s5-ke-7",
+  "country": "KE",
+  "original": "Pilau",
+  "title": "Pilau",
+  "en": "Kenyan Swahili pilau"
+ },
+ {
+  "slug": "s5-lt-8",
+  "country": "LT",
+  "original": "Šaltibarščiai",
+  "title": "Šaltibarščiai",
+  "en": "Lithuanian cold beet soup"
+ },
+ {
+  "slug": "s5-et-9",
+  "country": "ET",
+  "original": "Tibs",
+  "title": "Tibs",
+  "en": "Ethiopian tibs"
+ },
+ {
+  "slug": "s5-et-10",
+  "country": "ET",
+  "original": "Shiro",
+  "title": "Shiro",
+  "en": "Ethiopian shiro"
+ },
+ {
+  "slug": "s5-gr-11",
+  "country": "GR",
+  "original": "Souvlaki",
+  "title": "Souvlaki",
+  "en": "Greek souvlaki"
+ },
+ {
+  "slug": "s5-gr-12",
+  "country": "GR",
+  "original": "Kokoretsi",
+  "title": "Kokoretsi",
+  "en": "Greek kokoretsi"
+ },
+ {
+  "slug": "s5-gr-13",
+  "country": "GR",
+  "original": "Spetzofai",
+  "title": "Spetzofai",
+  "en": "Pelion spetzofai"
+ },
+ {
+  "slug": "s5-pl-14",
+  "country": "PL",
+  "original": "Rogal świętomarciński",
+  "title": "Rogal świętomarciński",
+  "en": "St. Martin's croissant Poznań"
+ },
+ {
+  "slug": "s5-pl-15",
+  "country": "PL",
+  "original": "Kartacze",
+  "title": "Kartacze",
+  "en": "Podlaskie kartacze"
+ },
+ {
+  "slug": "s5-pl-16",
+  "country": "PL",
+  "original": "Flaki",
+  "title": "Flaki",
+  "en": "Polish flaki tripe soup"
+ },
+ {
+  "slug": "s5-pl-17",
+  "country": "PL",
+  "original": "Barszcz z uszkami",
+  "title": "Barszcz z uszkami",
+  "en": "Polish barszcz with uszka"
+ },
+ {
+  "slug": "s5-lb-18",
+  "country": "LB",
+  "original": "Batata harra",
+  "title": "Batata harra",
+  "en": "Lebanese spicy potatoes"
+ },
+ {
+  "slug": "s5-lb-19",
+  "country": "LB",
+  "original": "Moghrabieh",
+  "title": "Moghrabieh",
+  "en": "Lebanese moghrabieh"
+ },
+ {
+  "slug": "s5-lb-20",
+  "country": "LB",
+  "original": "Rakakat",
+  "title": "Rakakat",
+  "en": "Lebanese rakakat"
+ },
+ {
+  "slug": "s5-dz-21",
+  "country": "DZ",
+  "original": "Makroud",
+  "title": "Makroud",
+  "en": "Algerian makroud"
+ },
+ {
+  "slug": "s5-dz-22",
+  "country": "DZ",
+  "original": "Tlitli",
+  "title": "Tlitli",
+  "en": "Algerian tlitli"
+ },
+ {
+  "slug": "s5-dz-23",
+  "country": "DZ",
+  "original": "Bourek",
+  "title": "Bourek",
+  "en": "Algerian bourek"
+ },
+ {
+  "slug": "s5-dz-24",
+  "country": "DZ",
+  "original": "Mthewem",
+  "title": "Mthewem",
+  "en": "Algerian mthewem"
+ },
+ {
+  "slug": "s5-in-25",
+  "country": "IN",
+  "original": "Puttu",
+  "title": "Puttu",
+  "en": "Kerala puttu"
+ },
+ {
+  "slug": "s5-in-26",
+  "country": "IN",
+  "original": "Pitha",
+  "title": "Pitha",
+  "en": "Assamese pitha"
+ },
+ {
+  "slug": "s5-in-27",
+  "country": "IN",
+  "original": "Appam",
+  "title": "Appam",
+  "en": "Kerala appam"
+ },
+ {
+  "slug": "s5-in-28",
+  "country": "IN",
+  "original": "Laal maas",
+  "title": "Laal maas",
+  "en": "Rajasthani laal maas"
+ },
+ {
+  "slug": "s5-mx-29",
+  "country": "MX",
+  "original": "Pozole",
+  "title": "Pozole",
+  "en": "Mexican pozole"
+ },
+ {
+  "slug": "s5-mx-30",
+  "country": "MX",
+  "original": "Enchiladas potosinas",
+  "title": "Enchiladas potosinas",
+  "en": "San Luis Potosí enchiladas"
+ },
+ {
+  "slug": "s5-tr-31",
+  "country": "TR",
+  "original": "Kumpir",
+  "title": "Kumpir",
+  "en": "Istanbul kumpir"
+ },
+ {
+  "slug": "s5-br-32",
+  "country": "BR",
+  "original": "Barreado",
+  "title": "Barreado",
+  "en": "Paraná barreado"
+ },
+ {
+  "slug": "s5-br-33",
+  "country": "BR",
+  "original": "Brigadeiro",
+  "title": "Brigadeiro",
+  "en": "Brazilian brigadeiro"
+ },
+ {
+  "slug": "s5-pe-34",
+  "country": "PE",
+  "original": "Anticuchos",
+  "title": "Anticuchos",
+  "en": "Peruvian anticuchos"
+ },
+ {
+  "slug": "s5-pe-35",
+  "country": "PE",
+  "original": "Ají de gallina",
+  "title": "Ají de gallina",
+  "en": "Peruvian aji de gallina"
+ },
+ {
+  "slug": "s5-cn-36",
+  "country": "CN",
+  "original": "Gongbao jiding",
+  "title": "Gongbao jiding",
+  "en": "Kung pao chicken"
+ },
+ {
+  "slug": "s5-cn-37",
+  "country": "CN",
+  "original": "Re gan mian",
+  "title": "Re gan mian",
+  "en": "Wuhan hot dry noodles"
+ },
+ {
+  "slug": "s5-th-38",
+  "country": "TH",
+  "original": "Pad thai",
+  "title": "Pad thai",
+  "en": "Thai pad thai"
+ },
+ {
+  "slug": "s5-vn-39",
+  "country": "VN",
+  "original": "Bánh xèo",
+  "title": "Bánh xèo",
+  "en": "Vietnamese banh xeo"
+ },
+ {
+  "slug": "s5-jp-40",
+  "country": "JP",
+  "original": "Kishimen",
+  "title": "Kishimen",
+  "en": "Nagoya kishimen"
+ },
+ {
+  "slug": "s5-jp-41",
+  "country": "JP",
+  "original": "Ishikari nabe",
+  "title": "Ishikari nabe",
+  "en": "Hokkaido ishikari nabe"
+ },
+ {
+  "slug": "s5-jp-42",
+  "country": "JP",
+  "original": "Gyūtan",
+  "title": "Gyūtan",
+  "en": "Sendai gyutan"
+ },
+ {
+  "slug": "s5-jp-43",
+  "country": "JP",
+  "original": "Hōtō",
+  "title": "Hōtō",
+  "en": "Yamanashi hoto"
+ },
+ {
+  "slug": "s5-it-44",
+  "country": "IT",
+  "original": "Arancini",
+  "title": "Arancini",
+  "en": "Sicilian arancini"
+ },
+ {
+  "slug": "s5-it-45",
+  "country": "IT",
+  "original": "Pizzoccheri",
+  "title": "Pizzoccheri",
+  "en": "Valtellina pizzoccheri"
+ },
+ {
+  "slug": "s5-it-46",
+  "country": "IT",
+  "original": "Cannoli",
+  "title": "Cannoli",
+  "en": "Sicilian cannoli"
+ },
+ {
+  "slug": "s5-it-47",
+  "country": "IT",
+  "original": "Frico",
+  "title": "Frico",
+  "en": "Friulian frico"
+ },
+ {
+  "slug": "s5-es-48",
+  "country": "ES",
+  "original": "Escalivada",
+  "title": "Escalivada",
+  "en": "Catalan escalivada"
+ },
+ {
+  "slug": "s5-es-49",
+  "country": "ES",
+  "original": "Michirones",
+  "title": "Michirones",
+  "en": "Murcia michirones"
+ },
+ {
+  "slug": "s5-es-50",
+  "country": "ES",
+  "original": "Papas arrugadas",
+  "title": "Papas arrugadas",
+  "en": "Canarian wrinkled potatoes"
+ },
+ {
+  "slug": "s5-es-51",
+  "country": "ES",
+  "original": "Calçots",
+  "title": "Calçots",
+  "en": "Valls calçots"
+ }
+]

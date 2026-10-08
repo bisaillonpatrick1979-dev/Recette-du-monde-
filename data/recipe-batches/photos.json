@@ -6752,5 +6752,59 @@
   "license": "CC BY-SA 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "source": "Wikimedia Commons"
+ },
+ "club-sandwich-quebecois": {
+  "file": "File:Club Sandwich from Quebec.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Club_Sandwich_from_Quebec.jpg/1280px-Club_Sandwich_from_Quebec.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Club_Sandwich_from_Quebec.jpg",
+  "author": "Kreddible Trout",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "pizza-toute-garnie": {
+  "file": "File:Pointe de pizza.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Pointe_de_pizza.jpg/1280px-Pointe_de_pizza.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pointe_de_pizza.jpg",
+  "author": "Jeangagnon",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "poutine-dejeuner": {
+  "file": "File:Poutine déjeuner.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Poutine_d%C3%A9jeuner.jpg/1280px-Poutine_d%C3%A9jeuner.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Poutine_d%C3%A9jeuner.jpg",
+  "author": "Safyrr",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "poutine-action-de-grace": {
+  "file": "File:Poutine Action de Grace.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Poutine_Action_de_Grace.jpg/1280px-Poutine_Action_de_Grace.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Poutine_Action_de_Grace.jpg",
+  "author": "Safyrr",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "croustade-aux-pommes": {
+  "file": "File:Apple-crisp.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Apple-crisp.jpg/1280px-Apple-crisp.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple-crisp.jpg",
+  "author": "Contributeur Wikimedia Commons (voir la page du fichier)",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "gateau-des-anges": {
+  "file": "File:Angel food cake 1.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Angel_food_cake_1.jpg/1280px-Angel_food_cake_1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Angel_food_cake_1.jpg",
+  "author": "Kimberly Vardeman",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
  }
 }

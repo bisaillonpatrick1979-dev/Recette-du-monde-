@@ -1,0 +1,1255 @@
+{
+ "s11-ca-0": {
+  "title": "Tarte au sucre québécoise",
+  "original": "Tarte au sucre",
+  "en": "Quebec sugar pie",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Recette tarte sucre complet cannelle 4.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Recette_tarte_sucre_complet_cannelle_4.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Recette_tarte_sucre_complet_cannelle_4.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Recette_tarte_sucre_complet_cannelle_4.jpg",
+    "author": "Romain Behar",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Raw cane sugar and cinnamon tart recipe, step 4",
+    "thumb": "thumbs/s11-ca-0--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tarte au sucre de Pérouges (2010).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Tarte_au_sucre_de_P%C3%A9rouges_%282010%29.jpg/1280px-Tarte_au_sucre_de_P%C3%A9rouges_%282010%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Tarte_au_sucre_de_P%C3%A9rouges_%282010%29.jpg/500px-Tarte_au_sucre_de_P%C3%A9rouges_%282010%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarte_au_sucre_de_P%C3%A9rouges_(2010).jpg",
+    "author": "Arnaud 25",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Tarte au sucre de Pérouges.",
+    "thumb": "thumbs/s11-ca-0--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tarte au sucre de Pérouges.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tarte_au_sucre_de_P%C3%A9rouges.JPG/1280px-Tarte_au_sucre_de_P%C3%A9rouges.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tarte_au_sucre_de_P%C3%A9rouges.JPG/500px-Tarte_au_sucre_de_P%C3%A9rouges.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarte_au_sucre_de_P%C3%A9rouges.JPG",
+    "author": "Benoît Prieur",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Tarte au sucre de Pérouges à l'Hostellerie du Vieux Pérouges.",
+    "thumb": "thumbs/s11-ca-0--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Jielbeaumadier tarte au sucre 2011.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jielbeaumadier_tarte_au_sucre_2011.jpg/1280px-Jielbeaumadier_tarte_au_sucre_2011.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Jielbeaumadier_tarte_au_sucre_2011.jpg/500px-Jielbeaumadier_tarte_au_sucre_2011.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jielbeaumadier_tarte_au_sucre_2011.jpg",
+    "author": "Jiel Beaumadier",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Sugar pie from Nord departement, France.",
+    "thumb": "thumbs/s11-ca-0--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tarte au sucre.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tarte_au_sucre.jpeg/1280px-Tarte_au_sucre.jpeg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tarte_au_sucre.jpeg/500px-Tarte_au_sucre.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarte_au_sucre.jpeg",
+    "author": "Popo le Chien",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "une tarte au sucre (gros plan)",
+    "thumb": "thumbs/s11-ca-0--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tarte à rien et boule de glace au yaourt .jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tarte_%C3%A0_rien_et_boule_de_glace_au_yaourt_.jpg/1280px-Tarte_%C3%A0_rien_et_boule_de_glace_au_yaourt_.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Tarte_%C3%A0_rien_et_boule_de_glace_au_yaourt_.jpg/500px-Tarte_%C3%A0_rien_et_boule_de_glace_au_yaourt_.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarte_%C3%A0_rien_et_boule_de_glace_au_yaourt_.jpg",
+    "author": "Exilexi",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Tarte à rien et boule de glace au yaourt dans un restaurant parisien (le Lobster Bar)",
+    "thumb": "thumbs/s11-ca-0--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:03:37.259Z"
+ },
+ "s11-ca-1": {
+  "title": "Tarte à la ferlouche",
+  "original": "Tarte à la ferlouche",
+  "en": "Quebec molasses pie",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T22:03:48.132Z"
+ },
+ "s11-ca-2": {
+  "title": "Fromage en grains (squeaky cheese)",
+  "original": "Fromage en grains",
+  "en": "Quebec cheese curds",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cheese curds-Minnesota.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Cheese_curds-Minnesota.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/1/16/Cheese_curds-Minnesota.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cheese_curds-Minnesota.jpg",
+    "author": "Amy Mingo from Minnetonka, MN, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Cheese curds for sale, Minnesota State Fair, Falcon Heights, Minnesota",
+    "thumb": "thumbs/s11-ca-2--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:CheeseCurdBatter.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/CheeseCurdBatter.JPG/1280px-CheeseCurdBatter.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/CheeseCurdBatter.JPG/500px-CheeseCurdBatter.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:CheeseCurdBatter.JPG",
+    "author": "Jonathunder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Cheese curds covered in beer batter in preparation for deep frying at the Gopher Count annual community festival in Viola, Minnesota",
+    "thumb": "thumbs/s11-ca-2--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cheese curds floating.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Cheese_curds_floating.jpg/1280px-Cheese_curds_floating.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Cheese_curds_floating.jpg/500px-Cheese_curds_floating.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cheese_curds_floating.jpg",
+    "author": "U.S. Department of Agriculture",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Agriculture Under Secretary for Rural Development (RD) Dallas Tonsager visited the Wisconsin Farmers Union Specialty Cheese Company in Montfort, WI on Mar. 1, 2013. The WI Farmers Union Specialty Cheese Company facility adds value to the output of surrounding Wisconsin dairy farms. USDA photo.",
+    "thumb": "thumbs/s11-ca-2--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cheese curds 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Cheese_curds_2.jpg/1280px-Cheese_curds_2.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Cheese_curds_2.jpg/500px-Cheese_curds_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cheese_curds_2.jpg",
+    "author": "TShilo12 at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Cheese curds.",
+    "thumb": "thumbs/s11-ca-2--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cheese curds 3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Cheese_curds_3.jpg/1280px-Cheese_curds_3.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Cheese_curds_3.jpg/500px-Cheese_curds_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cheese_curds_3.jpg",
+    "author": "littlerayovsun",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Making chese curds from homogenized milk",
+    "thumb": "thumbs/s11-ca-2--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Crispy Cheese Curds (14492269187).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Crispy_Cheese_Curds_%2814492269187%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Crispy_Cheese_Curds_%2814492269187%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Crispy_Cheese_Curds_(14492269187).jpg",
+    "author": "Arnold Gatilao from Oakland, CA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Crispy Cheese Curds",
+    "thumb": "thumbs/s11-ca-2--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:03:50.383Z"
+ },
+ "s11-ca-3": {
+  "title": "Pouding au pain",
+  "original": "Pouding au pain",
+  "en": "Quebec bread pudding",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bread and butter pudding-01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Bread_and_butter_pudding-01.jpg/1280px-Bread_and_butter_pudding-01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Bread_and_butter_pudding-01.jpg/500px-Bread_and_butter_pudding-01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bread_and_butter_pudding-01.jpg",
+    "author": "codepo8",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Ein Stück britischer Bread and butter pudding.",
+    "thumb": "thumbs/s11-ca-3--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Brown Bread and Butter Pudding.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Brown_Bread_and_Butter_Pudding.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/28/Brown_Bread_and_Butter_Pudding.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brown_Bread_and_Butter_Pudding.jpg",
+    "author": "DuncanHarris",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Ginger Brown Bread and Butter Pudding with Rum Sozzled Sultanas",
+    "thumb": "thumbs/s11-ca-3--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ingredients for a bread pudding.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ingredients_for_a_bread_pudding.jpg/1280px-Ingredients_for_a_bread_pudding.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ingredients_for_a_bread_pudding.jpg/500px-Ingredients_for_a_bread_pudding.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ingredients_for_a_bread_pudding.jpg",
+    "author": "Marc-Lautenbacher",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Kitchen table with ingredients for a bread pudding and cookbook: milk, eggs, sugar, raisins, lemon and stale bread.",
+    "thumb": "thumbs/s11-ca-3--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bread and butter pudding Fresh Buffet Solaire 23 January 2025 Filipinas3.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bread_and_butter_pudding_Fresh_Buffet_Solaire_23_January_2025_Filipinas3.jpg/1280px-Bread_and_butter_pudding_Fresh_Buffet_Solaire_23_January_2025_Filipinas3.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bread_and_butter_pudding_Fresh_Buffet_Solaire_23_January_2025_Filipinas3.jpg/500px-Bread_and_butter_pudding_Fresh_Buffet_Solaire_23_January_2025_Filipinas3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bread_and_butter_pudding_Fresh_Buffet_Solaire_23_January_2025_Filipinas3.jpg",
+    "author": "",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "",
+    "thumb": "thumbs/s11-ca-3--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bread and butter pudding 23 January 2025 Filipinas4.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bread_and_butter_pudding_23_January_2025_Filipinas4.jpg/1280px-Bread_and_butter_pudding_23_January_2025_Filipinas4.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bread_and_butter_pudding_23_January_2025_Filipinas4.jpg/500px-Bread_and_butter_pudding_23_January_2025_Filipinas4.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bread_and_butter_pudding_23_January_2025_Filipinas4.jpg",
+    "author": "",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "",
+    "thumb": "thumbs/s11-ca-3--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bread and butter pudding hotel dish.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bread_and_butter_pudding_hotel_dish.jpg/1280px-Bread_and_butter_pudding_hotel_dish.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bread_and_butter_pudding_hotel_dish.jpg/500px-Bread_and_butter_pudding_hotel_dish.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bread_and_butter_pudding_hotel_dish.jpg",
+    "author": "CNEcija12345",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Marriott Café lunch Bread and butter pudding",
+    "thumb": "thumbs/s11-ca-3--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:03:55.529Z"
+ },
+ "s11-ca-4": {
+  "title": "Pain de viande québécois",
+  "original": "Pain de viande",
+  "en": "Quebec meatloaf",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Brochette de viande aussi appelé \"pain chien\" en Côte d'Ivoire.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Brochette_de_viande_aussi_appel%C3%A9_%22pain_chien%22_en_C%C3%B4te_d%27Ivoire.jpg/1280px-Brochette_de_viande_aussi_appel%C3%A9_%22pain_chien%22_en_C%C3%B4te_d%27Ivoire.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Brochette_de_viande_aussi_appel%C3%A9_%22pain_chien%22_en_C%C3%B4te_d%27Ivoire.jpg/500px-Brochette_de_viande_aussi_appel%C3%A9_%22pain_chien%22_en_C%C3%B4te_d%27Ivoire.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brochette_de_viande_aussi_appel%C3%A9_%22pain_chien%22_en_C%C3%B4te_d%27Ivoire.jpg",
+    "author": "Cyriac Gbogou",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Beaucoup prisée lors du goûter en Côte d'Ivoire. Le lien avec avec le mot \"pain chien\" vient du fait que de la viande de chien utilisée en lieu et place des viandes ordinaires.",
+    "thumb": "thumbs/s11-ca-4--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pain de viande 20.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Pain_de_viande_20.jpg/1280px-Pain_de_viande_20.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Pain_de_viande_20.jpg/500px-Pain_de_viande_20.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pain_de_viande_20.jpg",
+    "author": "Weekend2",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Pain de viande 20 Meatloaves",
+    "thumb": "thumbs/s11-ca-4--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Projet des moulins, boucheries et autres travaux pour la diminution du prix du pain, de la viande et pour purger l'air et l'eau à Paris - btv1b53064591h.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Projet_des_moulins%2C_boucheries_et_autres_travaux_pour_la_diminution_du_prix_du_pain%2C_de_la_viande_et_pour_purger_l%27air_et_l%27eau_%C3%A0_Paris_-_btv1b53064591h.jpg/1280px-Projet_des_moulins%2C_boucheries_et_autres_travaux_pour_la_diminution_du_prix_du_pain%2C_de_la_viande_et_pour_purger_l%27air_et_l%27eau_%C3%A0_Paris_-_btv1b53064591h.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Projet_des_moulins%2C_boucheries_et_autres_travaux_pour_la_diminution_du_prix_du_pain%2C_de_la_viande_et_pour_purger_l%27air_et_l%27eau_%C3%A0_Paris_-_btv1b53064591h.jpg/500px-Projet_des_moulins%2C_boucheries_et_autres_travaux_pour_la_diminution_du_prix_du_pain%2C_de_la_viande_et_pour_purger_l%27air_et_l%27eau_%C3%A0_Paris_-_btv1b53064591h.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Projet_des_moulins,_boucheries_et_autres_travaux_pour_la_diminution_du_prix_du_pain,_de_la_viande_et_pour_purger_l%27air_et_l%27eau_%C3%A0_Paris_-_btv1b53064591h.jpg",
+    "author": "",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Sujet : Seine (cours d'eau) -- Paris -- 18e s. Couverture : France Langue : français Éditeur : [s.n.]",
+    "thumb": "thumbs/s11-ca-4--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Hudson (Québec)-Pain, viande, vin Furley-2022-09-22.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hudson_%28Qu%C3%A9bec%29-Pain%2C_viande%2C_vin_Furley-2022-09-22.jpg/1280px-Hudson_%28Qu%C3%A9bec%29-Pain%2C_viande%2C_vin_Furley-2022-09-22.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Hudson_%28Qu%C3%A9bec%29-Pain%2C_viande%2C_vin_Furley-2022-09-22.jpg/500px-Hudson_%28Qu%C3%A9bec%29-Pain%2C_viande%2C_vin_Furley-2022-09-22.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hudson_(Qu%C3%A9bec)-Pain,_viande,_vin_Furley-2022-09-22.jpg",
+    "author": "Veillg1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Furley store offering bread, meat and wine, near the Cour St-Thomas, in the center of the village of Hudson (Quebec).",
+    "thumb": "thumbs/s11-ca-4--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Vendeur ambulant de pain et viande.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Vendeur_ambulant_de_pain_et_viande.jpg/1280px-Vendeur_ambulant_de_pain_et_viande.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Vendeur_ambulant_de_pain_et_viande.jpg/500px-Vendeur_ambulant_de_pain_et_viande.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vendeur_ambulant_de_pain_et_viande.jpg",
+    "author": "Dadrik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Vendeur ambulant de pain et viande en Côte d'Ivoire",
+    "thumb": "thumbs/s11-ca-4--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pain traditionnel accompagné par de viande (Tchad)1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Pain_traditionnel_accompagn%C3%A9_par_de_viande_%28Tchad%291.jpg/1280px-Pain_traditionnel_accompagn%C3%A9_par_de_viande_%28Tchad%291.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Pain_traditionnel_accompagn%C3%A9_par_de_viande_%28Tchad%291.jpg/500px-Pain_traditionnel_accompagn%C3%A9_par_de_viande_%28Tchad%291.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pain_traditionnel_accompagn%C3%A9_par_de_viande_(Tchad)1.jpg",
+    "author": "Abdeldjelil Souleyman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "This is an image with the theme \"Farm to Plate\" from:",
+    "thumb": "thumbs/s11-ca-4--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:04:04.523Z"
+ },
+ "s11-ca-5": {
+  "title": "Macaroni chinois",
+  "original": "Macaroni chinois",
+  "en": "Quebec Chinese macaroni",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T22:04:13.863Z"
+ },
+ "s11-ca-6": {
+  "title": "Galettes de sarrasin au sirop d'érable",
+  "original": "Galette de sarrasin",
+  "en": "Buckwheat pancakes with maple syrup",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Galette de sarrasin (blé noir).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Galette_de_sarrasin_%28bl%C3%A9_noir%29.jpg/1280px-Galette_de_sarrasin_%28bl%C3%A9_noir%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Galette_de_sarrasin_%28bl%C3%A9_noir%29.jpg/500px-Galette_de_sarrasin_%28bl%C3%A9_noir%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Galette_de_sarrasin_(bl%C3%A9_noir).jpg",
+    "author": "JeanLed11",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Galette de sarrasin (ou de blénoir) complète (jambon, oeuf, fromage, tomate, salade)",
+    "thumb": "thumbs/s11-ca-6--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Galette de sarrasin, Saint-Gervais-les-Bains (P1070980).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Galette_de_sarrasin%2C_Saint-Gervais-les-Bains_%28P1070980%29.jpg/1280px-Galette_de_sarrasin%2C_Saint-Gervais-les-Bains_%28P1070980%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Galette_de_sarrasin%2C_Saint-Gervais-les-Bains_%28P1070980%29.jpg/500px-Galette_de_sarrasin%2C_Saint-Gervais-les-Bains_%28P1070980%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Galette_de_sarrasin,_Saint-Gervais-les-Bains_(P1070980).jpg",
+    "author": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Galette de sarrasin with different meats and cheese",
+    "thumb": "thumbs/s11-ca-6--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Galette de sarrasin.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Galette_de_sarrasin.jpg/1280px-Galette_de_sarrasin.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Galette_de_sarrasin.jpg/500px-Galette_de_sarrasin.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Galette_de_sarrasin.jpg",
+    "author": "Melinda Legendre",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Galette de sarrasin avec fromage, œuf miroir, champignon à la crème, accompagnée de salade verte",
+    "thumb": "thumbs/s11-ca-6--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Galette de sarrasin complète bretonne.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Galette_de_sarrasin_compl%C3%A8te_bretonne.jpg/1280px-Galette_de_sarrasin_compl%C3%A8te_bretonne.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Galette_de_sarrasin_compl%C3%A8te_bretonne.jpg/500px-Galette_de_sarrasin_compl%C3%A8te_bretonne.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Galette_de_sarrasin_compl%C3%A8te_bretonne.jpg",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Galette de sarrasin complète bretonne",
+    "thumb": "thumbs/s11-ca-6--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Galette de sarrasin garnie de Soubise (crème, oignon, vin blanc).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Galette_de_sarrasin_garnie_de_Soubise_%28cr%C3%A8me%2C_oignon%2C_vin_blanc%29.jpg/1280px-Galette_de_sarrasin_garnie_de_Soubise_%28cr%C3%A8me%2C_oignon%2C_vin_blanc%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Galette_de_sarrasin_garnie_de_Soubise_%28cr%C3%A8me%2C_oignon%2C_vin_blanc%29.jpg/500px-Galette_de_sarrasin_garnie_de_Soubise_%28cr%C3%A8me%2C_oignon%2C_vin_blanc%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Galette_de_sarrasin_garnie_de_Soubise_(cr%C3%A8me,_oignon,_vin_blanc).jpg",
+    "author": "Assassas77",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Galette de sarrasin garnie de Soubise (crème, oignon, vin blanc)",
+    "thumb": "thumbs/s11-ca-6--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Galette Crêperie de Pontivy.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Galette_Cr%C3%AAperie_de_Pontivy.jpg/1280px-Galette_Cr%C3%AAperie_de_Pontivy.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Galette_Cr%C3%AAperie_de_Pontivy.jpg/500px-Galette_Cr%C3%AAperie_de_Pontivy.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Galette_Cr%C3%AAperie_de_Pontivy.jpg",
+    "author": "Benreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Buchweizenpfannkuchen, CASSIUS CLAY, Hackfleisch, Cheddar, rote Zwiebeln, Comté, frische Tomaten, Chili, Ei, Salat. Fotografiert in der Crêperie de Pontivy 29 Av. du Maine, 75015 Paris.",
+    "thumb": "thumbs/s11-ca-6--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:04:19.811Z"
+ },
+ "s11-ca-7": {
+  "title": "Jambon à l'érable",
+  "original": "Jambon à l'érable",
+  "en": "Maple glazed ham",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:The book of household management by Mrs Beeton. Wellcome L0045066.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/The_book_of_household_management_by_Mrs_Beeton._Wellcome_L0045066.jpg/1280px-The_book_of_household_management_by_Mrs_Beeton._Wellcome_L0045066.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/The_book_of_household_management_by_Mrs_Beeton._Wellcome_L0045066.jpg/500px-The_book_of_household_management_by_Mrs_Beeton._Wellcome_L0045066.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_book_of_household_management_by_Mrs_Beeton._Wellcome_L0045066.jpg",
+    "author": "",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "The book of household management. A selection of meat dishes: N) Boiled calf's head. O) Boiled saddle of mutton. P) Cold ham, glazed. General Collections Keywords: Cooking; Domestic; Cookery; Housekeeping",
+    "thumb": "thumbs/s11-ca-7--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Sink & mop duty LOC 26385511633.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sink_%26_mop_duty_LOC_26385511633.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sink_%26_mop_duty_LOC_26385511633.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sink_%26_mop_duty_LOC_26385511633.jpg",
+    "author": "The Library of Congress",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Bain News Service,, publisher. Sink &amp; mop duty [between ca. 1915 and ca. 1920] 1 negative : glass ; 5 x 7 in. or smaller. Notes: Title from unverified data provided by the Bain News Service on the negatives or caption cards. Forms part of: George Grantham Bain Collection (Library of Congress). F",
+    "thumb": "thumbs/s11-ca-7--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Honey glazed ham.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Honey_glazed_ham.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Honey_glazed_ham.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Honey_glazed_ham.jpg",
+    "author": "Shardayyy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Homemade honey glazed ham",
+    "thumb": "thumbs/s11-ca-7--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Glazed and sliced ham.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Glazed_and_sliced_ham.jpg/1280px-Glazed_and_sliced_ham.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Glazed_and_sliced_ham.jpg/500px-Glazed_and_sliced_ham.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Glazed_and_sliced_ham.jpg",
+    "author": "Michael Coté from Austin, Texas, Texas",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Glazed and sliced ham",
+    "thumb": "thumbs/s11-ca-7--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Glazing a ham.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Glazing_a_ham.jpg/1280px-Glazing_a_ham.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Glazing_a_ham.jpg/500px-Glazing_a_ham.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Glazing_a_ham.jpg",
+    "author": "Michael Coté from Austin, Texas, Texas",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Glazing a ham",
+    "thumb": "thumbs/s11-ca-7--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Spiral glazed ham.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Spiral_glazed_ham.jpg/1280px-Spiral_glazed_ham.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Spiral_glazed_ham.jpg/500px-Spiral_glazed_ham.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spiral_glazed_ham.jpg",
+    "author": "@joefoodie from USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Spiral glazed ham",
+    "thumb": "thumbs/s11-ca-7--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:04:39.356Z"
+ },
+ "s11-ca-8": {
+  "title": "Beignes de grand-mère",
+  "original": "Beignes",
+  "en": "Old-fashioned doughnuts",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Variety of doughnuts with cinnamon roll.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Variety_of_doughnuts_with_cinnamon_roll.jpg/1280px-Variety_of_doughnuts_with_cinnamon_roll.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Variety_of_doughnuts_with_cinnamon_roll.jpg/500px-Variety_of_doughnuts_with_cinnamon_roll.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Variety_of_doughnuts_with_cinnamon_roll.jpg",
+    "author": "Arnold Gatilao",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "From left: Valley Girl Lemon, old fashioned doughnuts (cinnamon sugar, chocolate glazed, maple), Pershing (cinnamon roll).",
+    "thumb": "thumbs/s11-ca-8--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Sour cream glazed,2011-11-28.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sour_cream_glazed%2C2011-11-28.jpg/1280px-Sour_cream_glazed%2C2011-11-28.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sour_cream_glazed%2C2011-11-28.jpg/500px-Sour_cream_glazed%2C2011-11-28.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sour_cream_glazed,2011-11-28.jpg",
+    "author": "Pbj2199",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "This donut is crispy and sweet but not as sweeter as the other donuts.",
+    "thumb": "thumbs/s11-ca-8--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Old fashioned doughnuts.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Old_fashioned_doughnuts.jpg/1280px-Old_fashioned_doughnuts.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Old_fashioned_doughnuts.jpg/500px-Old_fashioned_doughnuts.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_fashioned_doughnuts.jpg",
+    "author": "Arnold Gatilao",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Old fashioned doughnuts (top)",
+    "thumb": "thumbs/s11-ca-8--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Old fashioned doughnut.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Old_fashioned_doughnut.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/68/Old_fashioned_doughnut.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_fashioned_doughnut.jpg",
+    "author": "BrokenSphere",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "A plain old fashioned doughnut",
+    "thumb": "thumbs/s11-ca-8--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Old fashioned doughnut1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Old_fashioned_doughnut1.jpg/1280px-Old_fashioned_doughnut1.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Old_fashioned_doughnut1.jpg/500px-Old_fashioned_doughnut1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_fashioned_doughnut1.jpg",
+    "author": "Kenny Louie from Burnaby, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Old fashioned doughnut with coffee",
+    "thumb": "thumbs/s11-ca-8--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Old-fashioned doughnuts from Lucky's.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Old-fashioned_doughnuts_from_Lucky%27s.jpg/1280px-Old-fashioned_doughnuts_from_Lucky%27s.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Old-fashioned_doughnuts_from_Lucky%27s.jpg/500px-Old-fashioned_doughnuts_from_Lucky%27s.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Old-fashioned_doughnuts_from_Lucky%27s.jpg",
+    "author": "Ruth Hartnup from Vancouver, Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Old-fashioned doughnuts from Lucky's",
+    "thumb": "thumbs/s11-ca-8--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:04:46.929Z"
+ },
+ "s11-ca-9": {
+  "title": "Tarte aux fraises de l'Île d'Orléans",
+  "original": "Tarte aux fraises",
+  "en": "Strawberry pie",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Charlotte aux fraises.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Charlotte_aux_fraises.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Charlotte_aux_fraises.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Charlotte_aux_fraises.JPG",
+    "author": "Antoinel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Strawberry Charlotte",
+    "thumb": "thumbs/s11-ca-9--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pie with strawberries.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pie_with_strawberries.jpg/1280px-Pie_with_strawberries.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pie_with_strawberries.jpg/500px-Pie_with_strawberries.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pie_with_strawberries.jpg",
+    "author": "No machine-readable author provided. Nevermind2 assumed (based on copyright claims).",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Pie with strawberries",
+    "thumb": "thumbs/s11-ca-9--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:N2 Dessert.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/N2_Dessert.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/6/64/N2_Dessert.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:N2_Dessert.jpg",
+    "author": "Venkat Raman",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "A strawberry pie.Dessert",
+    "thumb": "thumbs/s11-ca-9--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Strawberries pie.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Strawberries_pie.jpg/1280px-Strawberries_pie.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Strawberries_pie.jpg/500px-Strawberries_pie.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Strawberries_pie.jpg",
+    "author": "Leinadehc",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Pie made by me,lol random xD",
+    "thumb": "thumbs/s11-ca-9--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:One must ask children and birds how cherries and strawberries taste.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/One_must_ask_children_and_birds_how_cherries_and_strawberries_taste.jpg/1280px-One_must_ask_children_and_birds_how_cherries_and_strawberries_taste.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/One_must_ask_children_and_birds_how_cherries_and_strawberries_taste.jpg/500px-One_must_ask_children_and_birds_how_cherries_and_strawberries_taste.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:One_must_ask_children_and_birds_how_cherries_and_strawberries_taste.jpg",
+    "author": "Nancy ~ back in a few..... held captive by Norton Anti-Virus thingy",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "\"One must ask children and birds how cherries and strawberries taste\" - Johann Wolfgang von Goethe (German Playwright, Poet, Novelist and Dramatist. 1749-1832) I made a Strawberry Glace Pie.",
+    "thumb": "thumbs/s11-ca-9--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Erdbeer-Pudding-Kuchen 2013-04-01-2677.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Erdbeer-Pudding-Kuchen_2013-04-01-2677.jpg/1280px-Erdbeer-Pudding-Kuchen_2013-04-01-2677.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Erdbeer-Pudding-Kuchen_2013-04-01-2677.jpg/500px-Erdbeer-Pudding-Kuchen_2013-04-01-2677.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Erdbeer-Pudding-Kuchen_2013-04-01-2677.jpg",
+    "author": "Slick",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Erdbeer-Pudding-Kuchen (fertiger Tortenboden, Vanillepudding, frische Erdbeeren)",
+    "thumb": "thumbs/s11-ca-9--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:04:49.007Z"
+ },
+ "s11-ca-10": {
+  "title": "Chaudrée de palourdes gaspésienne",
+  "original": "Chaudrée de palourdes",
+  "en": "Gaspé clam chowder",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:ManhattanClamChowder.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/ManhattanClamChowder.jpg/1280px-ManhattanClamChowder.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/ManhattanClamChowder.jpg/500px-ManhattanClamChowder.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:ManhattanClamChowder.jpg",
+    "author": "stu_spivack",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Manhattan clam chowderManhattan clam chowder",
+    "thumb": "thumbs/s11-ca-10--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bobby has Ben's new england clam chowder.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bobby_has_Ben%27s_new_england_clam_chowder.jpg/1280px-Bobby_has_Ben%27s_new_england_clam_chowder.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bobby_has_Ben%27s_new_england_clam_chowder.jpg/500px-Bobby_has_Ben%27s_new_england_clam_chowder.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bobby_has_Ben%27s_new_england_clam_chowder.jpg",
+    "author": "Joshua Dickens",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Bobby Flay has Ben's new england clam chowder in Williamsburg.",
+    "thumb": "thumbs/s11-ca-10--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Boudin Bakery, Fisherman's Wharf Chowder Express.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Boudin_Bakery%2C_Fisherman%27s_Wharf_Chowder_Express.JPG/1280px-Boudin_Bakery%2C_Fisherman%27s_Wharf_Chowder_Express.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Boudin_Bakery%2C_Fisherman%27s_Wharf_Chowder_Express.JPG/500px-Boudin_Bakery%2C_Fisherman%27s_Wharf_Chowder_Express.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Boudin_Bakery,_Fisherman%27s_Wharf_Chowder_Express.JPG",
+    "author": "BrokenSphere",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "The Chowder Express on the ground floor of the Boudin Bakery in Fisherman's Wharf, San Francisco.",
+    "thumb": "thumbs/s11-ca-10--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Clam chowder.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Clam_chowder.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/8/83/Clam_chowder.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Clam_chowder.jpg",
+    "author": "Jon Sullivan",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "New England clam chowder",
+    "thumb": "thumbs/s11-ca-10--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Clam chowder with beer and sour dough bread.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Clam_chowder_with_beer_and_sour_dough_bread.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Clam_chowder_with_beer_and_sour_dough_bread.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Clam_chowder_with_beer_and_sour_dough_bread.jpg",
+    "author": "Jon Sullivan",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Image title: Clam chowder with beer and sour dough bread Image from Public domain images website, http://www.public-domain-image.com/full-image/food-and-drink-public-domain-images-pictures/clam-chowder-with-beer-and-sour-dough-bread.jpg.html",
+    "thumb": "thumbs/s11-ca-10--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Clam chowder (11030850154).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Clam_chowder_%2811030850154%29.jpg/1280px-Clam_chowder_%2811030850154%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Clam_chowder_%2811030850154%29.jpg/500px-Clam_chowder_%2811030850154%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Clam_chowder_(11030850154).jpg",
+    "author": "Takashi Hososhima from Tokyo, Japan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Danbo and Domo are thrilled to see a clam chowder in San Francisco. ダンボーくんとどーもくんはクラムチャウダーを目の前にして興奮気味です。 [ Nikon D5200, Sigma 18-35mm f/1.8 DC HSM, 19mm, f/4.5, 1/80sec, ISO400, Lightroom 5 ]",
+    "thumb": "thumbs/s11-ca-10--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:05:09.450Z"
+ },
+ "s11-ca-11": {
+  "title": "Pot-en-pot des Îles-de-la-Madeleine",
+  "original": "Pot-en-pot",
+  "en": "Magdalen Islands seafood pie",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T22:05:21.991Z"
+ },
+ "s11-ca-12": {
+  "title": "Guédille au homard",
+  "original": "Guédille au homard",
+  "en": "Lobster roll",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T22:05:33.651Z"
+ },
+ "s11-ca-13": {
+  "title": "Chiard",
+  "original": "Chiard",
+  "en": "Acadian chiard hash",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ile de Chiard et Village de Chatou pont chemin de fer Hussenot 1871.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Ile_de_Chiard_et_Village_de_Chatou_pont_chemin_de_fer_Hussenot_1871.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Ile_de_Chiard_et_Village_de_Chatou_pont_chemin_de_fer_Hussenot_1871.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ile_de_Chiard_et_Village_de_Chatou_pont_chemin_de_fer_Hussenot_1871.jpg",
+    "author": "Ernest Hussenot",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Vue des ponts du chemin de fer détruits à Chatou avec l'île de Chiard entre les deux.",
+    "thumb": "thumbs/s11-ca-13--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Feuille 37Ile de Chiard et Village de Chatou.Pont d'Asnières. Paris Musées 20230914080718.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Feuille_37Ile_de_Chiard_et_Village_de_Chatou.Pont_d%27Asni%C3%A8res._Paris_Mus%C3%A9es_20230914080718.jpg/1280px-Feuille_37Ile_de_Chiard_et_Village_de_Chatou.Pont_d%27Asni%C3%A8res._Paris_Mus%C3%A9es_20230914080718.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Feuille_37Ile_de_Chiard_et_Village_de_Chatou.Pont_d%27Asni%C3%A8res._Paris_Mus%C3%A9es_20230914080718.jpg/500px-Feuille_37Ile_de_Chiard_et_Village_de_Chatou.Pont_d%27Asni%C3%A8res._Paris_Mus%C3%A9es_20230914080718.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Feuille_37Ile_de_Chiard_et_Village_de_Chatou.Pont_d%27Asni%C3%A8res._Paris_Mus%C3%A9es_20230914080718.jpg",
+    "author": "Hussenot, Ernest, dessinateur-lithographe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Auteur(s): Hussenot, Ernest, dessinateur-lithographe Lith. Grégoire, imprimeur-lithographe Em. Lejeune &amp; Cie, editeur Autre titre: Album des deux sièges de Paris, 1870-1871. Croquis militaires par Ernest Hussenot. (Titre de l'ensemble) Date de production: En 1871 Datation en siècle: 19e siècle T",
+    "thumb": "thumbs/s11-ca-13--1.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:05:42.316Z"
+ },
+ "s11-ca-14": {
+  "title": "Poutine râpée",
+  "original": "Poutine râpée",
+  "en": "Acadian poutine râpée",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Rappie pie.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Rappie_pie.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Rappie_pie.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rappie_pie.jpg",
+    "author": "Rappie Pie",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Rappie pie is a traditional Acadian meal. Its name is derived from the French \"patates râpées\" meaning \"grated potatoes\". Potatoes are grated and the water removed, a hot broth made from chicken or pork is then added along with meat and onions and then layered over with more of the grated potatoes t",
+    "thumb": "thumbs/s11-ca-14--0.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:05:52.587Z"
+ },
+ "s11-ca-15": {
+  "title": "Fondues au parmesan",
+  "original": "Fondue parmesan",
+  "en": "Fried parmesan fondue squares",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T22:06:03.343Z"
+ },
+ "s11-ca-16": {
+  "title": "Bleuets enrobés de chocolat",
+  "original": "Bleuets enrobés de chocolat",
+  "en": "Chocolate covered blueberries",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:KS chocolate and blueberry muffins.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/KS_chocolate_and_blueberry_muffins.JPG/1280px-KS_chocolate_and_blueberry_muffins.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/KS_chocolate_and_blueberry_muffins.JPG/500px-KS_chocolate_and_blueberry_muffins.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:KS_chocolate_and_blueberry_muffins.JPG",
+    "author": "BrokenSphere",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Chocolate and blueberry muffins baked in-house from Costco.",
+    "thumb": "thumbs/s11-ca-16--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chocolat blanc avec pépites de myrtilles.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chocolat_blanc_avec_p%C3%A9pites_de_myrtilles.jpg/1280px-Chocolat_blanc_avec_p%C3%A9pites_de_myrtilles.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chocolat_blanc_avec_p%C3%A9pites_de_myrtilles.jpg/500px-Chocolat_blanc_avec_p%C3%A9pites_de_myrtilles.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolat_blanc_avec_p%C3%A9pites_de_myrtilles.jpg",
+    "author": "Lionel Allorge",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "This document was produced using the photo studio lent by Wikimedia France.",
+    "thumb": "thumbs/s11-ca-16--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chocolate Cake Roll with Berry Cream Filling (15653895623).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Chocolate_Cake_Roll_with_Berry_Cream_Filling_%2815653895623%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Chocolate_Cake_Roll_with_Berry_Cream_Filling_%2815653895623%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolate_Cake_Roll_with_Berry_Cream_Filling_(15653895623).jpg",
+    "author": "Willis Lam",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Roll covered in cream topped with pineapple, blueberry, strawberry, mandarin orange and grape",
+    "thumb": "thumbs/s11-ca-16--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:2022-10-01 14 45 43 Chocolate covered blueberries from the Chocolate Barn in Shaftsbury, Bennington County, Vermont.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/2022-10-01_14_45_43_Chocolate_covered_blueberries_from_the_Chocolate_Barn_in_Shaftsbury%2C_Bennington_County%2C_Vermont.jpg/1280px-2022-10-01_14_45_43_Chocolate_covered_blueberries_from_the_Chocolate_Barn_in_Shaftsbury%2C_Bennington_County%2C_Vermont.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/2022-10-01_14_45_43_Chocolate_covered_blueberries_from_the_Chocolate_Barn_in_Shaftsbury%2C_Bennington_County%2C_Vermont.jpg/500px-2022-10-01_14_45_43_Chocolate_covered_blueberries_from_the_Chocolate_Barn_in_Shaftsbury%2C_Bennington_County%2C_Vermont.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2022-10-01_14_45_43_Chocolate_covered_blueberries_from_the_Chocolate_Barn_in_Shaftsbury,_Bennington_County,_Vermont.jpg",
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Chocolate covered blueberries from the Chocolate Barn in Shaftsbury, Bennington County, Vermont",
+    "thumb": "thumbs/s11-ca-16--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chocolate cake at the office.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Chocolate_cake_at_the_office.jpg/1280px-Chocolate_cake_at_the_office.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Chocolate_cake_at_the_office.jpg/500px-Chocolate_cake_at_the_office.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolate_cake_at_the_office.jpg",
+    "author": "JIP",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A chocolate cake topped with chocolate chips, blueberries and blackberries served at an office building in Martinlaakso, Vantaa, Finland.",
+    "thumb": "thumbs/s11-ca-16--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chocolaterie des Pères trappistes à Dolbeau-Mistassini, Québec, Canada.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Chocolaterie_des_P%C3%A8res_trappistes_%C3%A0_Dolbeau-Mistassini%2C_Qu%C3%A9bec%2C_Canada.jpg/1280px-Chocolaterie_des_P%C3%A8res_trappistes_%C3%A0_Dolbeau-Mistassini%2C_Qu%C3%A9bec%2C_Canada.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Chocolaterie_des_P%C3%A8res_trappistes_%C3%A0_Dolbeau-Mistassini%2C_Qu%C3%A9bec%2C_Canada.jpg/500px-Chocolaterie_des_P%C3%A8res_trappistes_%C3%A0_Dolbeau-Mistassini%2C_Qu%C3%A9bec%2C_Canada.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolaterie_des_P%C3%A8res_trappistes_%C3%A0_Dolbeau-Mistassini,_Qu%C3%A9bec,_Canada.jpg",
+    "author": "Simon Villeneuve",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Chocolaterie des Pères trappistes à Dolbeau-Mistassini, Québec, Canada",
+    "thumb": "thumbs/s11-ca-16--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:06:10.119Z"
+ },
+ "s11-ca-17": {
+  "title": "Cuisine du Québec",
+  "original": "Cuisine du Québec",
+  "en": "Cuisine of Quebec",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Binnes.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Binnes.JPG/1280px-Binnes.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Binnes.JPG/500px-Binnes.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Binnes.JPG",
+    "author": "Amqui",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Plat de fèves au lard, recette traditionnelle québécoise.",
+    "thumb": "thumbs/s11-ca-17--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Creton du Porc.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Creton_du_Porc.jpg/1280px-Creton_du_Porc.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Creton_du_Porc.jpg/500px-Creton_du_Porc.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Creton_du_Porc.jpg",
+    "author": "snowpea&amp;bokchoi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Creton is a pork spread containing onions and spices. Due to its fatty texture and taste, it resembles French rillettes. Cretons are usually served on toast as part of a traditional Quebec breakfast.",
+    "thumb": "thumbs/s11-ca-17--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Cree bannock.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cree_bannock.jpg/1280px-Cree_bannock.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cree_bannock.jpg/500px-Cree_bannock.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cree_bannock.jpg",
+    "author": "Emdx",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Bannock cooking in pans on a wood stove in a traditional Cree lodge at Mistissini, Québec.",
+    "thumb": "thumbs/s11-ca-17--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Bouilli quebecois.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bouilli_quebecois.jpg/1280px-Bouilli_quebecois.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bouilli_quebecois.jpg/500px-Bouilli_quebecois.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bouilli_quebecois.jpg",
+    "author": "Marc-Lautenbacher",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Si la tradition du bouilli demeure bien présente dans les familles dès la fin de l'été en région, il existe autant de recettes pour ce plat que pour les tourtières du Lac-Saint-Jean. Le chou, les carottes, les pommes de terre, les navets, les oignons et les petites fèves sont la base d'un bon bouill",
+    "thumb": "thumbs/s11-ca-17--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Betteraves marinées.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Betteraves_marin%C3%A9es.jpg/1280px-Betteraves_marin%C3%A9es.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Betteraves_marin%C3%A9es.jpg/500px-Betteraves_marin%C3%A9es.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Betteraves_marin%C3%A9es.jpg",
+    "author": "Safyrr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Marinated beets. They can stay preserved in these jars for years.",
+    "thumb": "thumbs/s11-ca-17--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Josée di Stasio - Salon du livre de Québec 2012.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Jos%C3%A9e_di_Stasio_-_Salon_du_livre_de_Qu%C3%A9bec_2012.jpg/1280px-Jos%C3%A9e_di_Stasio_-_Salon_du_livre_de_Qu%C3%A9bec_2012.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Jos%C3%A9e_di_Stasio_-_Salon_du_livre_de_Qu%C3%A9bec_2012.jpg/500px-Jos%C3%A9e_di_Stasio_-_Salon_du_livre_de_Qu%C3%A9bec_2012.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9e_di_Stasio_-_Salon_du_livre_de_Qu%C3%A9bec_2012.jpg",
+    "author": "Boréal; Ewe Aya",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Quebec author and cooking television series host Josée di Stasio at the Salon international du livre de Québec 2012 (2012 Quebec City international book fair). Photo taken by fr:User:Ewe Aya.",
+    "thumb": "thumbs/s11-ca-17--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:06:17.434Z"
+ },
+ "s11-ca-18": {
+  "title": "Repas de cabane à sucre",
+  "original": "Repas de cabane à sucre",
+  "en": "Sugar shack meal",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Mt-St-Gregoire-Repas de cabane-sucre.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Mt-St-Gregoire-Repas_de_cabane-sucre.jpg/1280px-Mt-St-Gregoire-Repas_de_cabane-sucre.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Mt-St-Gregoire-Repas_de_cabane-sucre.jpg/500px-Mt-St-Gregoire-Repas_de_cabane-sucre.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mt-St-Gregoire-Repas_de_cabane-sucre.jpg",
+    "author": "Pierre Bona",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Mont-Saint-Grégoire - Repas de cabane à sucre",
+    "thumb": "thumbs/s11-ca-18--0.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:06:32.814Z"
+ },
+ "s11-ca-19": {
+  "title": "Crêpes au sirop d'érable",
+  "original": "Crêpes au sirop d'érable",
+  "en": "Pancakes with maple syrup",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:PancakesWithSyrup.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/PancakesWithSyrup.jpg/1280px-PancakesWithSyrup.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/PancakesWithSyrup.jpg/500px-PancakesWithSyrup.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:PancakesWithSyrup.jpg",
+    "author": "Renee Comet (photographer)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "two single pancakes with maple syrup on a plate",
+    "thumb": "thumbs/s11-ca-19--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:AFAF Pancake feed.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/AFAF_Pancake_feed.jpg/1280px-AFAF_Pancake_feed.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/AFAF_Pancake_feed.jpg/500px-AFAF_Pancake_feed.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:AFAF_Pancake_feed.jpg",
+    "author": "U.S. Air Force Photo/Dan Rohan",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Team Offutt kicked off the Air Force Assistance Fund campaign Monday with a pancake feed breakfast at the Patriot Club.",
+    "thumb": "thumbs/s11-ca-19--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Eggs and Pancakes.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Eggs_and_Pancakes.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/4/43/Eggs_and_Pancakes.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Eggs_and_Pancakes.jpg",
+    "author": "Michael Dorausch from Venice",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Two eggs over medium on top of two crispy edged fluffy panckaes soaked in maple syrup.",
+    "thumb": "thumbs/s11-ca-19--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pancakes (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Pancakes_%281%29.jpg/1280px-Pancakes_%281%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Pancakes_%281%29.jpg/500px-Pancakes_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pancakes_(1).jpg",
+    "author": "Renee Comet (Photographer)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Title Pancakes Description Two single pancakes with maple syrup on a plate. Topics/Categories Food and Drink Type Color, Photo Source National Cancer Institute",
+    "thumb": "thumbs/s11-ca-19--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Piacere, Temple Fortune, London (5955505631).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Piacere%2C_Temple_Fortune%2C_London_%285955505631%29.jpg/1280px-Piacere%2C_Temple_Fortune%2C_London_%285955505631%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Piacere%2C_Temple_Fortune%2C_London_%285955505631%29.jpg/500px-Piacere%2C_Temple_Fortune%2C_London_%285955505631%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Piacere,_Temple_Fortune,_London_(5955505631).jpg",
+    "author": "Ewan Munro from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "The American-style blueberry pancakes, served with maple syrup. I thought they were pretty good. At Piacere, Finchley Road.",
+    "thumb": "thumbs/s11-ca-19--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pancakes with Maple Syrup.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pancakes_with_Maple_Syrup.JPG/1280px-Pancakes_with_Maple_Syrup.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pancakes_with_Maple_Syrup.JPG/500px-Pancakes_with_Maple_Syrup.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Pancakes_with_Maple_Syrup.JPG",
+    "author": "CoveyHill",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Pancakes served with maple syrup in a sugar house",
+    "thumb": "thumbs/s11-ca-19--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:06:34.525Z"
+ },
+ "s11-ca-20": {
+  "title": "Omelette soufflée à l'érable",
+  "original": "Omelette soufflée",
+  "en": "Sugar shack baked omelette",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T22:06:46.851Z"
+ },
+ "s11-ca-21": {
+  "title": "Pouding au riz",
+  "original": "Pouding au riz",
+  "en": "Rice pudding",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T22:06:57.029Z"
+ },
+ "s11-ca-22": {
+  "title": "Tarte au sirop d'érable",
+  "original": "Tarte au sirop d'érable",
+  "en": "Maple syrup pie",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tarte Flamiche at Church & State restaurant in Los Angeles, 2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Tarte_Flamiche_at_Church_%26_State_restaurant_in_Los_Angeles%2C_2009.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/d/df/Tarte_Flamiche_at_Church_%26_State_restaurant_in_Los_Angeles%2C_2009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarte_Flamiche_at_Church_%26_State_restaurant_in_Los_Angeles,_2009.jpg",
+    "author": "Eric Chan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Their famous tart, with caramelized onion, cheese, and bacon chunks.. A must-try.",
+    "thumb": "thumbs/s11-ca-22--0.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:07:09.492Z"
+ },
+ "s11-ca-23": {
+  "title": "Spaghetti sauce à la viande",
+  "original": "Spaghetti sauce à la viande",
+  "en": "Meat sauce spaghetti",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:2007 12 11 - Laurel - Meat sauce on spaghetti.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/2007_12_11_-_Laurel_-_Meat_sauce_on_spaghetti.JPG/1280px-2007_12_11_-_Laurel_-_Meat_sauce_on_spaghetti.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/2007_12_11_-_Laurel_-_Meat_sauce_on_spaghetti.JPG/500px-2007_12_11_-_Laurel_-_Meat_sauce_on_spaghetti.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:2007_12_11_-_Laurel_-_Meat_sauce_on_spaghetti.JPG",
+    "author": "Andrew Bossi",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "description": "A meat sauce on spaghetti. The sauce contains tomato puree, diced tomatoes, diced beef, and bell peppers (red, yellow, and green) with the seeds included. A portion of the beef is intentionally over-cooked. The sauce is seasoned with fresh garlic, basil, oregano, paprika, onion powder, cajun seasoni",
+    "thumb": "thumbs/s11-ca-23--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Spaghetti served with meat sauce.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Spaghetti_served_with_meat_sauce.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Spaghetti_served_with_meat_sauce.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Spaghetti_served_with_meat_sauce.jpg",
+    "author": "Original uploader was 酒池肉林 at zh.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "​番茄肉醬意大利麵",
+    "thumb": "thumbs/s11-ca-23--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:04666 Polish spaghetti pasta with sauce made of pork meat, tomatoes, garlic and olive.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/04666_Polish_spaghetti_pasta_with_sauce_made_of_pork_meat%2C_tomatoes%2C_garlic_and_olive.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/8/82/04666_Polish_spaghetti_pasta_with_sauce_made_of_pork_meat%2C_tomatoes%2C_garlic_and_olive.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:04666_Polish_spaghetti_pasta_with_sauce_made_of_pork_meat,_tomatoes,_garlic_and_olive.JPG",
+    "author": "Silar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Polish spaghetti pasta with sauce",
+    "thumb": "thumbs/s11-ca-23--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:04668 Polish spaghetti pasta with sauce made of pork meat, tomatoes, garlic and olive.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/04668_Polish_spaghetti_pasta_with_sauce_made_of_pork_meat%2C_tomatoes%2C_garlic_and_olive.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/1/13/04668_Polish_spaghetti_pasta_with_sauce_made_of_pork_meat%2C_tomatoes%2C_garlic_and_olive.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:04668_Polish_spaghetti_pasta_with_sauce_made_of_pork_meat,_tomatoes,_garlic_and_olive.JPG",
+    "author": "Silar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Polish spaghetti pasta with tomato sauce",
+    "thumb": "thumbs/s11-ca-23--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Spaghetti with Ground meat.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Spaghetti_with_Ground_meat.JPG/1280px-Spaghetti_with_Ground_meat.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Spaghetti_with_Ground_meat.JPG/500px-Spaghetti_with_Ground_meat.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Spaghetti_with_Ground_meat.JPG",
+    "author": "Neogeolegend",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Spaghetti with Ground meat by Neogeolegend",
+    "thumb": "thumbs/s11-ca-23--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:HK Lunch Box Oil deep fried white bread n Minced Beef Spaghetti served with meat sauce Aug-2012.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/HK_Lunch_Box_Oil_deep_fried_white_bread_n_Minced_Beef_Spaghetti_served_with_meat_sauce_Aug-2012.JPG/1280px-HK_Lunch_Box_Oil_deep_fried_white_bread_n_Minced_Beef_Spaghetti_served_with_meat_sauce_Aug-2012.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/HK_Lunch_Box_Oil_deep_fried_white_bread_n_Minced_Beef_Spaghetti_served_with_meat_sauce_Aug-2012.JPG/500px-HK_Lunch_Box_Oil_deep_fried_white_bread_n_Minced_Beef_Spaghetti_served_with_meat_sauce_Aug-2012.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:HK_Lunch_Box_Oil_deep_fried_white_bread_n_Minced_Beef_Spaghetti_served_with_meat_sauce_Aug-2012.JPG",
+    "author": "Fongeliksamtosa",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Lunch box with oil deep fried white bread",
+    "thumb": "thumbs/s11-ca-23--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T22:07:14.997Z"
+ }
+}

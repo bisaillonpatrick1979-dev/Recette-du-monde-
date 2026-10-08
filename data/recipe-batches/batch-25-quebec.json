@@ -1,0 +1,202 @@
+[
+ {
+  "slug": "pets-de-soeur",
+  "country": "CA",
+  "place": "ca-quebec",
+  "original": "Pets de sœur",
+  "title": "Pets de sœur (roulés de pâte à la cassonade et au beurre)",
+  "en": "Pets de sœur (Québec brown sugar pastry pinwheels)",
+  "es": "Pets de sœur (rollitos de masa con azúcar morena de Quebec)",
+  "desc": "Retailles de pâte à tarte abaissées, couvertes de beurre et de cassonade, roulées puis tranchées et cuites dans un sirop qui caramélise : la petite douceur que les grands-mères québécoises faisaient avec les restes de pâte.",
+  "cat": "Dessert",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 25,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Pet-de-sœur",
+  "ing": [
+   ["Pâte brisée (ou retailles de pâte à tarte)", 300, "g", null],
+   ["Beurre", 60, "g", "ramolli"],
+   ["Cassonade", 150, "g", null],
+   ["Cannelle moulue", 1, "c. à thé", "facultatif"],
+   ["Crème 35 %", 125, "ml", null],
+   ["Sirop d’érable", 2, "c. à soupe", "facultatif"]
+  ],
+  "steps": [
+   "Préchauffer le four à 190 °C et beurrer un moule carré ou rond.",
+   "Abaisser la pâte en un rectangle d’environ 3 mm d’épaisseur.",
+   "Tartiner de beurre ramolli, puis couvrir de cassonade et d’un peu de cannelle, en laissant une bande libre sur un long côté.",
+   "Rouler serré à partir du long côté garni et souder la bande libre en la mouillant légèrement.",
+   "Couper en tranches de 2 cm et les poser à plat dans le moule, sans trop les serrer.",
+   "Verser la crème (et le sirop d’érable) autour des roulés, puis cuire 25 minutes jusqu’à ce que la pâte soit dorée et le sirop caramélisé.",
+   "Laisser tiédir quelques minutes avant de démouler : le caramel épaissit en refroidissant."
+  ]
+ },
+ {
+  "slug": "betteraves-marinees-quebec",
+  "country": "CA",
+  "place": "ca-quebec",
+  "original": "Betteraves marinées",
+  "title": "Betteraves marinées québécoises (conserve maison au vinaigre)",
+  "en": "Québec pickled beets",
+  "es": "Remolachas encurtidas de Quebec",
+  "desc": "Betteraves cuites, tranchées et mises en pots dans un vinaigre sucré aux épices à marinade : la conserve d’automne des familles québécoises, servie avec la tourtière, le pâté chinois ou les fèves au lard.",
+  "cat": "Accompagnement",
+  "diff": "easy",
+  "prep": 30,
+  "cook": 60,
+  "serv": 12,
+  "reference": "https://fr.wikipedia.org/wiki/Cuisine_québécoise",
+  "ing": [
+   ["Petites betteraves", 2, "kg", "brossées, tiges coupées à 2 cm"],
+   ["Vinaigre blanc", 500, "ml", null],
+   ["Eau", 250, "ml", null],
+   ["Sucre", 250, "g", null],
+   ["Sel", 1, "c. à thé", null],
+   ["Épices à marinade", 1, "c. à soupe", "dans un nouet de coton"],
+   ["Oignon", 1, null, "en fines rondelles, facultatif"]
+  ],
+  "steps": [
+   "Cuire les betteraves entières dans l’eau bouillante 35 à 50 minutes, jusqu’à ce qu’un couteau les traverse facilement.",
+   "Les refroidir à l’eau froide, retirer la peau en la frottant, puis les trancher ou les couper en quartiers.",
+   "Porter à ébullition le vinaigre, l’eau, le sucre, le sel et le nouet d’épices; laisser frémir 5 minutes.",
+   "Répartir les betteraves (et l’oignon) dans des pots stérilisés chauds.",
+   "Retirer le nouet et verser le liquide bouillant jusqu’à 1 cm du bord.",
+   "Fermer et traiter 30 minutes à l’eau bouillante, ou garder au réfrigérateur jusqu’à un mois. Attendre une semaine avant de servir."
+  ]
+ },
+ {
+  "slug": "pizza-ghetti",
+  "country": "CA",
+  "place": "ca-quebec",
+  "original": "Pizza-ghetti",
+  "title": "Pizza-ghetti (pointe de pizza garnie et spaghetti sauce à la viande)",
+  "en": "Pizza-ghetti (Québec pizza and spaghetti combo)",
+  "es": "Pizza-ghetti (pizza y espaguetis al estilo de Quebec)",
+  "desc": "Le classique des pizzerias et casse-croûte du Québec : une pointe de pizza « garnie » (pepperoni, poivron, champignons) servie dans la même assiette qu’une portion de spaghetti à la sauce à la viande.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 40,
+  "cook": 60,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Cuisine_québécoise",
+  "ing": [
+   ["Pâte à pizza", 500, "g", null],
+   ["Sauce tomate à pizza", 125, "ml", null],
+   ["Pepperoni tranché", 100, "g", null],
+   ["Poivron vert", 1, null, "en lanières"],
+   ["Champignons blancs", 150, "g", "tranchés"],
+   ["Mozzarella râpée", 250, "g", null],
+   ["Spaghetti", 300, "g", null],
+   ["Bœuf haché", 400, "g", null],
+   ["Oignon", 1, null, "haché"],
+   ["Tomates broyées", 796, "ml", "1 boîte"],
+   ["Origan séché", 1, "c. à thé", null],
+   ["Sel et poivre", 1, "c. à thé", null]
+  ],
+  "steps": [
+   "Sauce à la viande : dorer le bœuf haché et l’oignon, ajouter les tomates broyées, l’origan, sel et poivre, puis mijoter 45 minutes à feu doux.",
+   "Préchauffer le four à 230 °C. Abaisser la pâte sur une plaque huilée.",
+   "Étaler la sauce à pizza, ajouter pepperoni, poivron et champignons, puis couvrir de mozzarella.",
+   "Cuire la pizza 12 à 15 minutes, jusqu’à ce que le fromage soit doré et la croûte croustillante.",
+   "Pendant ce temps, cuire les spaghetti al dente dans l’eau salée et les égoutter.",
+   "Servir dans chaque assiette une pointe de pizza à côté d’une portion de spaghetti nappée de sauce à la viande."
+  ]
+ },
+ {
+  "slug": "wilensky-special-montreal",
+  "country": "CA",
+  "place": "ca-montreal",
+  "original": "Wilensky Special",
+  "title": "Wilensky Special de Montréal (sandwich pressé au salami et à la mortadelle)",
+  "en": "Montreal Wilensky Special (pressed salami and bologna sandwich)",
+  "es": "Wilensky Special de Montreal (sándwich prensado de salami y mortadela)",
+  "desc": "Sandwich grillé et pressé servi depuis 1932 au comptoir Wilensky’s du Mile End : petit pain kaiser, salami de bœuf, mortadelle de bœuf et moutarde, toujours avec la moutarde et jamais coupé.",
+  "cat": "Street food",
+  "diff": "easy",
+  "prep": 5,
+  "cook": 5,
+  "serv": 2,
+  "reference": "https://en.wikipedia.org/wiki/Wilensky%27s",
+  "ing": [
+   ["Petits pains kaiser", 2, null, null],
+   ["Salami de bœuf tranché", 4, "tranches", null],
+   ["Mortadelle (bologne) de bœuf", 2, "tranches", null],
+   ["Moutarde jaune", 2, "c. à thé", null],
+   ["Fromage cheddar", 2, "tranches", "facultatif"],
+   ["Cornichons à l’aneth", 2, null, "pour servir"]
+  ],
+  "steps": [
+   "Ouvrir les pains et tartiner l’intérieur de moutarde.",
+   "Superposer le salami puis la mortadelle sur la base (et le cheddar si désiré).",
+   "Refermer et cuire sur une plaque ou un presse-sandwich chaud 2 à 3 minutes par côté, en pressant fermement.",
+   "Le sandwich est prêt quand le pain est doré et croustillant et la charcuterie bien chaude.",
+   "Servir entier, sans le couper, avec un cornichon à l’aneth."
+  ]
+ },
+ {
+  "slug": "carres-aux-dattes",
+  "country": "CA",
+  "original": "Carrés aux dattes",
+  "title": "Carrés aux dattes (date squares à l’avoine)",
+  "en": "Canadian date squares",
+  "es": "Cuadrados de dátiles canadienses",
+  "desc": "Deux couches croustillantes d’avoine, de farine et de cassonade autour d’une purée de dattes cuites : un incontournable des boîtes à lunch et des boulangeries canadiennes, appelé matrimonial cake dans l’Ouest.",
+  "cat": "Dessert",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 35,
+  "serv": 16,
+  "reference": "https://en.wikipedia.org/wiki/Date_square",
+  "ing": [
+   ["Dattes dénoyautées", 375, "g", "hachées"],
+   ["Eau", 250, "ml", null],
+   ["Jus de citron", 1, "c. à soupe", null],
+   ["Flocons d’avoine", 200, "g", null],
+   ["Farine tout usage", 150, "g", null],
+   ["Cassonade", 150, "g", null],
+   ["Beurre", 175, "g", "fondu"],
+   ["Bicarbonate de soude", 0.5, "c. à thé", null],
+   ["Sel", 1, "pincée", null]
+  ],
+  "steps": [
+   "Cuire les dattes avec l’eau à feu moyen 8 à 10 minutes en remuant, jusqu’à obtenir une purée épaisse; ajouter le jus de citron et laisser tiédir.",
+   "Préchauffer le four à 180 °C et beurrer un moule carré de 20 cm.",
+   "Mélanger l’avoine, la farine, la cassonade, le bicarbonate et le sel, puis incorporer le beurre fondu jusqu’à obtenir un mélange grumeleux.",
+   "Presser un peu plus de la moitié du mélange au fond du moule.",
+   "Étaler la purée de dattes, puis parsemer le reste du mélange d’avoine en pressant légèrement.",
+   "Cuire 30 à 35 minutes jusqu’à ce que le dessus soit doré. Laisser refroidir complètement avant de couper en carrés."
+  ]
+ },
+ {
+  "slug": "sucre-a-la-creme",
+  "country": "CA",
+  "place": "ca-quebec",
+  "original": "Sucre à la crème",
+  "title": "Sucre à la crème québécois (fondant à la cassonade et à la crème)",
+  "en": "Québec sucre à la crème (brown sugar cream fudge)",
+  "es": "Sucre à la crème de Quebec (dulce de azúcar morena y nata)",
+  "desc": "Confiserie fondante de cassonade, de crème et de beurre, cuite jusqu’au stade de la boule molle puis battue avant de figer : la gâterie des Fêtes et des ventes de charité au Québec.",
+  "cat": "Dessert",
+  "diff": "medium",
+  "prep": 10,
+  "cook": 20,
+  "serv": 24,
+  "reference": "https://fr.wikipedia.org/wiki/Sucre_à_la_crème",
+  "ing": [
+   ["Cassonade", 400, "g", null],
+   ["Crème 35 %", 250, "ml", null],
+   ["Beurre", 30, "g", null],
+   ["Vanille", 1, "c. à thé", null],
+   ["Sel", 1, "pincée", null]
+  ],
+  "steps": [
+   "Beurrer un moule carré de 20 cm et le tapisser de papier parchemin.",
+   "Dans une casserole à fond épais, porter la cassonade, la crème et le beurre à ébullition en remuant jusqu’à dissolution du sucre.",
+   "Cuire à feu moyen sans remuer jusqu’à 113–115 °C au thermomètre (une goutte forme une boule molle dans l’eau froide), environ 10 à 15 minutes.",
+   "Retirer du feu, ajouter la vanille et le sel, et laisser tiédir 10 minutes sans remuer.",
+   "Battre à la cuillère de bois ou au batteur jusqu’à ce que le mélange perde son brillant et commence à épaissir.",
+   "Verser aussitôt dans le moule, lisser, laisser figer puis couper en carrés."
+  ]
+ }
+]

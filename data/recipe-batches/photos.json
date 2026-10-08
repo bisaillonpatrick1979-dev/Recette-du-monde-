@@ -6481,5 +6481,69 @@
   "author": "Joshua Heller",
   "license": "CC BY 2.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "pets-de-soeur": {
+  "file": "File:PetDeSoeur.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/PetDeSoeur.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PetDeSoeur.jpg",
+  "author": "Twin1995",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "soupe-aux-pois-quebec": {
+  "file": "File:Quebecois Pea Soup.png",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Quebecois_Pea_Soup.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Quebecois_Pea_Soup.png",
+  "author": "Cnrowley",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "tourtiere-du-lac-saint-jean": {
+  "file": "File:Tourtiere Fin.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Tourtiere_Fin.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tourtiere_Fin.jpg",
+  "author": "Dominic Genest",
+  "license": "Public domain",
+  "licenseUrl": null
+ },
+ "betteraves-marinees-quebec": {
+  "file": "File:Betteraves marinées.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Betteraves_marin%C3%A9es.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Betteraves_marin%C3%A9es.jpg",
+  "author": "Safyrr",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "pizza-ghetti": {
+  "file": "File:Pizza and spaghetti.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Pizza_and_spaghetti.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pizza_and_spaghetti.jpg",
+  "author": "Patrick Donovan",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+ },
+ "wilensky-special-montreal": {
+  "file": "File:Wilensky's - 1.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Wilensky%27s_-_1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wilensky%27s_-_1.jpg",
+  "author": "Anna Frodesiak",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "carres-aux-dattes": {
+  "file": "File:Date Squares.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Date_Squares.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Date_Squares.jpg",
+  "author": "Marchije",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "sucre-a-la-creme": {
+  "file": "File:Sucre a la creme.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Sucre_a_la_creme.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Sucre_a_la_creme.JPG",
+  "author": "Jeangagnon",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
  }
 }

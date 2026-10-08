@@ -1,0 +1,910 @@
+[
+ {
+  "slug": "alplermagronen",
+  "country": "CH",
+  "original": "Älplermagronen",
+  "title": "Älplermagronen (macaronis des alpages aux pommes de terre, fromage et oignons)",
+  "en": "Älplermagronen (Swiss Alpine macaroni)",
+  "es": "Älplermagronen (macarrones alpinos suizos)",
+  "desc": "Plat des chalets d’alpage de Suisse centrale : macaronis cuits avec des pommes de terre, liés à la crème et au fromage fondu, couverts d’oignons frits et servis avec de la compote de pommes.",
+  "cat": "Plat principal",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 30,
+  "serv": 4,
+  "reference": "https://de.wikipedia.org/wiki/%C3%84lplermagronen",
+  "ing": [
+   [
+    "Macaronis (Hörnli ou cornettes)",
+    300,
+    "g",
+    null
+   ],
+   [
+    "Pommes de terre à chair ferme",
+    300,
+    "g",
+    "en dés"
+   ],
+   [
+    "Crème",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Lait",
+    100,
+    "ml",
+    null
+   ],
+   [
+    "Fromage d’alpage ou gruyère râpé",
+    150,
+    "g",
+    null
+   ],
+   [
+    "Oignons",
+    2,
+    null,
+    "émincés"
+   ],
+   [
+    "Beurre",
+    40,
+    "g",
+    null
+   ],
+   [
+    "Lardons",
+    100,
+    "g",
+    "facultatif"
+   ],
+   [
+    "Compote de pommes",
+    300,
+    "g",
+    "pour servir"
+   ],
+   [
+    "Sel, poivre et muscade",
+    1,
+    "pincée",
+    null
+   ]
+  ],
+  "steps": [
+   "Cuire les pommes de terre 5 minutes à l’eau salée, ajouter les macaronis et cuire ensemble jusqu’à ce que les pâtes soient al dente; égoutter.",
+   "Chauffer la crème et le lait, saler, poivrer et muscader.",
+   "Dans un plat, alterner pâtes, pommes de terre et fromage, puis arroser de crème chaude.",
+   "Faire dorer les oignons et les lardons dans le beurre jusqu’à ce qu’ils soient croustillants.",
+   "Passer le plat 10 minutes au four à 200 °C, couvrir d’oignons frits et servir avec la compote de pommes."
+  ]
+ },
+ {
+  "slug": "berner-platte",
+  "country": "CH",
+  "place": "ch-bern",
+  "original": "Berner Platte",
+  "title": "Berner Platte (choucroute bernoise aux viandes et saucisses)",
+  "en": "Berner Platte (Bernese platter of meats and sauerkraut)",
+  "es": "Berner Platte (fuente bernesa de carnes y chucrut)",
+  "desc": "Grand plat de fête bernois, servi en souvenir de la victoire de Neuenegg en 1798 : choucroute et haricots secs accompagnés de lard, palette fumée, langue, saucisse bernoise et Zungenwurst, avec pommes de terre et moutarde.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 150,
+  "serv": 8,
+  "reference": "https://de.wikipedia.org/wiki/Berner_Platte",
+  "ing": [
+   [
+    "Choucroute crue",
+    1.5,
+    "kg",
+    null
+   ],
+   [
+    "Haricots secs (Dörrbohnen)",
+    200,
+    "g",
+    "trempés une nuit"
+   ],
+   [
+    "Lard fumé",
+    500,
+    "g",
+    null
+   ],
+   [
+    "Palette ou côtelettes fumées",
+    800,
+    "g",
+    null
+   ],
+   [
+    "Langue de bœuf salée",
+    1,
+    null,
+    "facultatif"
+   ],
+   [
+    "Saucisses bernoises ou à cuire",
+    4,
+    null,
+    null
+   ],
+   [
+    "Oignon",
+    1,
+    null,
+    "piqué de clous de girofle"
+   ],
+   [
+    "Vin blanc",
+    300,
+    "ml",
+    null
+   ],
+   [
+    "Baies de genièvre",
+    6,
+    null,
+    null
+   ],
+   [
+    "Pommes de terre",
+    1,
+    "kg",
+    null
+   ],
+   [
+    "Moutarde",
+    1,
+    "pot",
+    "pour servir"
+   ]
+  ],
+  "steps": [
+   "Pocher la langue et la palette 1 heure à l’eau frémissante.",
+   "Rincer la choucroute, la mettre en cocotte avec l’oignon piqué, le genièvre, le vin blanc et le lard; ajouter la palette et cuire 1 heure à couvert.",
+   "Cuire les haricots secs à part avec un morceau de lard, 1 heure.",
+   "Ajouter les saucisses sur la choucroute pour les 20 dernières minutes et cuire les pommes de terre à la vapeur.",
+   "Dresser la choucroute et les haricots sur un grand plat, les viandes tranchées par-dessus, avec les pommes de terre et la moutarde."
+  ]
+ },
+ {
+  "slug": "cholera-valaisan",
+  "country": "CH",
+  "place": "ch-valais",
+  "original": "Cholera",
+  "title": "Cholera valaisan (tourte aux pommes de terre, poireaux, pommes et fromage)",
+  "en": "Valais cholera (potato, leek, apple and cheese pie)",
+  "es": "Cholera valesana (tarta de patatas, puerros, manzana y queso)",
+  "desc": "Tourte du Valais au nom attribué à l’épidémie de 1830, quand on cuisait ce qui restait à la maison : pommes de terre, poireaux, oignons, pommes et fromage à raclette entre deux pâtes.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 40,
+  "cook": 50,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Cholera_(cuisine)",
+  "ing": [
+   [
+    "Pâte feuilletée ou brisée",
+    2,
+    "abaisses",
+    null
+   ],
+   [
+    "Pommes de terre",
+    500,
+    "g",
+    "cuites, en rondelles"
+   ],
+   [
+    "Poireaux",
+    2,
+    null,
+    "émincés"
+   ],
+   [
+    "Oignon",
+    1,
+    null,
+    "émincé"
+   ],
+   [
+    "Pommes acidulées",
+    2,
+    null,
+    "en lamelles"
+   ],
+   [
+    "Fromage à raclette du Valais",
+    250,
+    "g",
+    "en tranches"
+   ],
+   [
+    "Beurre",
+    30,
+    "g",
+    null
+   ],
+   [
+    "Muscade",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Œuf",
+    1,
+    null,
+    "pour la dorure"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire fondre les poireaux et l’oignon dans le beurre 10 minutes; saler, poivrer et muscader.",
+   "Foncer un moule haut avec une abaisse.",
+   "Alterner couches de pommes de terre, de poireaux, de pommes et de fromage.",
+   "Couvrir de la seconde abaisse, souder, faire une cheminée et dorer à l’œuf.",
+   "Cuire 45 à 50 minutes à 190 °C et servir chaud ou tiède avec une salade."
+  ]
+ },
+ {
+  "slug": "croute-au-fromage",
+  "country": "CH",
+  "place": "ch-vaud",
+  "original": "Croûte au fromage",
+  "title": "Croûte au fromage vaudoise (pain au vin blanc gratiné, œuf au plat)",
+  "en": "Swiss croûte au fromage (cheese-topped bread with fried egg)",
+  "es": "Croûte au fromage suiza (pan gratinado con queso y huevo)",
+  "desc": "Plat de cantine et de chalet de Suisse romande : tranches de pain rassis imbibées de vin blanc, couvertes de gruyère fondu ou de mélange à fondue, gratinées au four et souvent coiffées d’un œuf au plat; servies avec cornichons et oignons au vinaigre.",
+  "cat": "Plat principal",
+  "diff": "easy",
+  "prep": 10,
+  "cook": 15,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Cro%C3%BBte_au_fromage",
+  "ing": [
+   [
+    "Pain rassis",
+    8,
+    "tranches",
+    null
+   ],
+   [
+    "Vin blanc sec (chasselas)",
+    150,
+    "ml",
+    null
+   ],
+   [
+    "Gruyère ou vacherin fribourgeois râpé",
+    300,
+    "g",
+    null
+   ],
+   [
+    "Ail",
+    1,
+    "gousse",
+    null
+   ],
+   [
+    "Kirsch",
+    1,
+    "c. à soupe",
+    "facultatif"
+   ],
+   [
+    "Œufs",
+    4,
+    null,
+    null
+   ],
+   [
+    "Poivre et paprika",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Cornichons et petits oignons au vinaigre",
+    1,
+    "bocal",
+    "pour servir"
+   ]
+  ],
+  "steps": [
+   "Frotter les tranches de pain d’ail et les ranger dans un plat à gratin ou des poêlons.",
+   "Les arroser de vin blanc et de kirsch pour les imbiber.",
+   "Couvrir généreusement de fromage, poivrer et saupoudrer de paprika.",
+   "Gratiner 10 à 15 minutes à 220 °C jusqu’à ce que le fromage bouillonne.",
+   "Poser un œuf au plat sur chaque portion et servir avec cornichons et petits oignons."
+  ]
+ },
+ {
+  "slug": "gateau-du-vully",
+  "country": "CH",
+  "place": {
+   "slug": "ch-vully",
+   "name": "Vully",
+   "type": "locality",
+   "lat": 46.95,
+   "lng": 7.08,
+   "summary": "Coteau viticole entre les lacs de Morat et de Neuchâtel, à cheval sur Vaud et Fribourg : gâteau du Vully salé ou sucré."
+  },
+  "original": "Gâteau du Vully",
+  "title": "Gâteau du Vully (pâte levée à la crème et au sucre)",
+  "en": "Gâteau du Vully (Swiss sugar and cream cake)",
+  "es": "Gâteau du Vully (pastel suizo de nata y azúcar)",
+  "desc": "Spécialité du Vully, entre les lacs de Morat et de Neuchâtel : pâte levée briochée entaillée en croisillons, garnie de crème double, de sucre et de beurre qui caramélisent au four; il existe aussi une version salée au lard et au cumin.",
+  "cat": "Dessert",
+  "diff": "easy",
+  "prep": 30,
+  "cook": 25,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/G%C3%A2teau_du_Vully",
+  "ing": [
+   [
+    "Farine",
+    300,
+    "g",
+    null
+   ],
+   [
+    "Levure boulangère fraîche",
+    15,
+    "g",
+    null
+   ],
+   [
+    "Lait tiède",
+    150,
+    "ml",
+    null
+   ],
+   [
+    "Beurre mou",
+    50,
+    "g",
+    "pour la pâte"
+   ],
+   [
+    "Œuf",
+    1,
+    null,
+    null
+   ],
+   [
+    "Sucre",
+    30,
+    "g",
+    "pour la pâte"
+   ],
+   [
+    "Sel",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Crème double",
+    150,
+    "ml",
+    null
+   ],
+   [
+    "Sucre",
+    80,
+    "g",
+    "pour la garniture"
+   ],
+   [
+    "Beurre",
+    40,
+    "g",
+    "en noisettes"
+   ]
+  ],
+  "steps": [
+   "Délayer la levure dans le lait, puis pétrir avec la farine, l’œuf, le sucre, le sel et le beurre; laisser lever 1 heure.",
+   "Étaler la pâte en disque de 1 cm dans un moule beurré et laisser lever 30 minutes.",
+   "Entailler la surface en croisillons profonds avec un couteau.",
+   "Napper de crème double, saupoudrer de sucre et parsemer de noisettes de beurre.",
+   "Cuire 20 à 25 minutes à 200 °C jusqu’à ce que le dessus soit caramélisé; servir tiède."
+  ]
+ },
+ {
+  "slug": "filets-de-perche-du-leman",
+  "country": "CH",
+  "place": {
+   "slug": "ch-leman",
+   "name": "Lac Léman",
+   "type": "region",
+   "lat": 46.45,
+   "lng": 6.55,
+   "summary": "Rives suisses du Léman, de Genève à Montreux : filets de perche, vins de Lavaux et malakoffs."
+  },
+  "original": "Filets de perche",
+  "title": "Filets de perche du Léman meunière (au beurre et au citron)",
+  "en": "Lake Geneva perch fillets meunière",
+  "es": "Filetes de perca del Lemán a la meunière",
+  "desc": "Plat incontournable des terrasses du Léman : petits filets de perche farinés et dorés au beurre, arrosés de beurre noisette citronné et persillé, servis avec des frites et une sauce tartare.",
+  "cat": "Poisson",
+  "diff": "easy",
+  "prep": 15,
+  "cook": 10,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Perche_commune",
+  "ing": [
+   [
+    "Filets de perche",
+    600,
+    "g",
+    "avec la peau"
+   ],
+   [
+    "Farine",
+    50,
+    "g",
+    null
+   ],
+   [
+    "Beurre",
+    80,
+    "g",
+    null
+   ],
+   [
+    "Huile",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Citron",
+    1,
+    null,
+    "jus et quartiers"
+   ],
+   [
+    "Persil",
+    2,
+    "c. à soupe",
+    "haché"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Frites",
+    600,
+    "g",
+    "pour servir"
+   ]
+  ],
+  "steps": [
+   "Saler, poivrer les filets et les passer dans la farine en tapotant l’excédent.",
+   "Chauffer l’huile et 30 g de beurre dans une grande poêle.",
+   "Dorer les filets 1 minute côté peau puis 30 secondes de l’autre côté, par petites quantités; réserver au chaud.",
+   "Faire mousser le reste du beurre jusqu’à la couleur noisette, ajouter le jus de citron et le persil.",
+   "Napper les filets de beurre citronné et servir aussitôt avec frites et quartiers de citron."
+  ]
+ },
+ {
+  "slug": "meringues-double-creme",
+  "country": "CH",
+  "place": {
+   "slug": "ch-gruyere",
+   "name": "Gruyère",
+   "type": "region",
+   "lat": 46.58,
+   "lng": 7.08,
+   "summary": "District fribourgeois des Préalpes : fromage de Gruyère, double crème et meringues."
+  },
+  "original": "Meringues à la double crème",
+  "title": "Meringues à la double crème de la Gruyère",
+  "en": "Meringues with Gruyère double cream",
+  "es": "Merengues con doble crema de Gruyère",
+  "desc": "Dessert de la Gruyère fribourgeoise : grosses meringues sèches et croquantes servies avec une épaisse double crème crue de la région, souvent accompagnées de fruits rouges.",
+  "cat": "Dessert",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 120,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Double_cr%C3%A8me_de_la_Gruy%C3%A8re",
+  "ing": [
+   [
+    "Blancs d’œufs",
+    4,
+    null,
+    null
+   ],
+   [
+    "Sucre",
+    120,
+    "g",
+    null
+   ],
+   [
+    "Sucre glace",
+    120,
+    "g",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Double crème de la Gruyère",
+    400,
+    "ml",
+    null
+   ],
+   [
+    "Fruits rouges",
+    250,
+    "g",
+    "facultatif"
+   ]
+  ],
+  "steps": [
+   "Monter les blancs en neige avec le sel, puis ajouter le sucre en pluie et fouetter jusqu’à obtenir une meringue ferme et brillante.",
+   "Incorporer délicatement le sucre glace tamisé à la spatule.",
+   "Former de grosses coques à la cuillère ou à la poche sur une plaque couverte de papier.",
+   "Sécher 2 heures au four à 100 °C, puis laisser refroidir dans le four éteint.",
+   "Servir deux meringues par personne avec une généreuse portion de double crème et des fruits rouges."
+  ]
+ },
+ {
+  "slug": "zopf",
+  "country": "CH",
+  "original": "Zopf",
+  "title": "Zopf (pain tressé du dimanche au beurre)",
+  "en": "Zopf (Swiss braided Sunday bread)",
+  "es": "Zopf (pan trenzado suizo del domingo)",
+  "desc": "Pain du dimanche matin en Suisse alémanique et romande (tresse) : pâte au lait et au beurre, tressée à deux ou quatre brins, dorée à l’œuf, à la mie légère et filante, servie avec beurre et confiture.",
+  "cat": "Pain",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 40,
+  "serv": 8,
+  "reference": "https://de.wikipedia.org/wiki/Zopf_(Brot)",
+  "ing": [
+   [
+    "Farine de tresse ou farine blanche",
+    500,
+    "g",
+    null
+   ],
+   [
+    "Levure boulangère fraîche",
+    20,
+    "g",
+    null
+   ],
+   [
+    "Lait tiède",
+    300,
+    "ml",
+    null
+   ],
+   [
+    "Beurre mou",
+    60,
+    "g",
+    null
+   ],
+   [
+    "Sucre",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Sel",
+    1.5,
+    "c. à thé",
+    null
+   ],
+   [
+    "Jaune d’œuf",
+    1,
+    null,
+    "pour la dorure"
+   ]
+  ],
+  "steps": [
+   "Délayer la levure et le sucre dans le lait tiède, puis pétrir 10 minutes avec la farine, le sel et le beurre jusqu’à obtenir une pâte lisse.",
+   "Laisser lever 1 h 30 jusqu’à ce qu’elle double.",
+   "Diviser en deux, rouler deux longs boudins effilés et les tresser en croix pour former une tresse à deux brins.",
+   "Poser sur une plaque, dorer et laisser lever 30 minutes; dorer une seconde fois.",
+   "Cuire 35 à 40 minutes à 200 °C, jusqu’à ce que la tresse sonne creux."
+  ]
+ },
+ {
+  "slug": "luzerner-chuegelipastete",
+  "country": "CH",
+  "place": {
+   "slug": "ch-lucerne",
+   "name": "Lucerne",
+   "type": "city",
+   "lat": 47.0502,
+   "lng": 8.3093,
+   "summary": "Ville de Suisse centrale au bord du lac des Quatre-Cantons, célèbre pour sa Chügelipastete."
+  },
+  "original": "Luzerner Chügelipastete",
+  "title": "Luzerner Chügelipastete (vol-au-vent lucernois aux quenelles de veau)",
+  "en": "Lucerne Chügelipastete (vol-au-vent with veal dumplings)",
+  "es": "Chügelipastete de Lucerna (volován con albóndigas de ternera)",
+  "desc": "Spécialité de Lucerne : grande croûte de pâte feuilletée garnie de petites boulettes de veau, d’émincé de veau et de champignons dans une sauce crémeuse au vin blanc, parfois relevée de raisins secs macérés.",
+  "cat": "Plat principal",
+  "diff": "hard",
+  "prep": 60,
+  "cook": 45,
+  "serv": 6,
+  "reference": "https://de.wikipedia.org/wiki/Luzerner_Ch%C3%BCgelipastete",
+  "ing": [
+   [
+    "Pâte feuilletée",
+    500,
+    "g",
+    null
+   ],
+   [
+    "Veau haché",
+    300,
+    "g",
+    "pour les boulettes"
+   ],
+   [
+    "Émincé de veau",
+    300,
+    "g",
+    null
+   ],
+   [
+    "Champignons de Paris",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Beurre",
+    40,
+    "g",
+    null
+   ],
+   [
+    "Farine",
+    30,
+    "g",
+    null
+   ],
+   [
+    "Vin blanc",
+    150,
+    "ml",
+    null
+   ],
+   [
+    "Bouillon de veau",
+    400,
+    "ml",
+    null
+   ],
+   [
+    "Crème",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Raisins secs",
+    50,
+    "g",
+    "facultatif, macérés"
+   ],
+   [
+    "Œuf",
+    1,
+    null,
+    "pour la dorure"
+   ],
+   [
+    "Sel, poivre et muscade",
+    1,
+    "pincée",
+    null
+   ]
+  ],
+  "steps": [
+   "Former une grande croûte de pâte feuilletée sur une boule de papier, avec un couvercle; dorer et cuire 30 minutes à 200 °C, puis retirer le papier.",
+   "Assaisonner le veau haché et former de petites boulettes; les pocher 5 minutes dans le bouillon.",
+   "Saisir l’émincé de veau et les champignons dans le beurre, saupoudrer de farine et mouiller avec le vin blanc et le bouillon.",
+   "Ajouter la crème, les boulettes et les raisins et mijoter 10 minutes.",
+   "Remplir la croûte chaude de garniture, poser le couvercle et servir avec du riz ou des petits pois."
+  ]
+ },
+ {
+  "slug": "totche-jurassien",
+  "country": "CH",
+  "place": {
+   "slug": "ch-jura",
+   "name": "Canton du Jura",
+   "type": "region",
+   "lat": 47.35,
+   "lng": 7.15,
+   "summary": "Canton francophone du nord-ouest suisse : totché, damassine et fête de la Saint-Martin en Ajoie."
+  },
+  "original": "Totché",
+  "title": "Totché jurassien (galette à la crème acidulée)",
+  "en": "Totché (Jura sour cream tart)",
+  "es": "Totché del Jura (tarta de nata agria)",
+  "desc": "Spécialité salée du canton du Jura, servie à la Saint-Martin : fond de pâte levée garni d’un appareil de crème acidulée, d’œufs et de farine, cuit jusqu’à ce qu’il soit doré et marbré.",
+  "cat": "Entrée",
+  "diff": "easy",
+  "prep": 30,
+  "cook": 25,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/Totch%C3%A9",
+  "ing": [
+   [
+    "Farine",
+    250,
+    "g",
+    "pour la pâte"
+   ],
+   [
+    "Levure boulangère fraîche",
+    10,
+    "g",
+    null
+   ],
+   [
+    "Lait tiède",
+    120,
+    "ml",
+    null
+   ],
+   [
+    "Beurre mou",
+    40,
+    "g",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Crème acidulée (crème aigre)",
+    400,
+    "ml",
+    null
+   ],
+   [
+    "Œufs",
+    2,
+    null,
+    null
+   ],
+   [
+    "Farine",
+    2,
+    "c. à soupe",
+    "pour l’appareil"
+   ],
+   [
+    "Poivre",
+    0.5,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Pétrir la farine, la levure délayée dans le lait, le beurre et le sel; laisser lever 1 heure.",
+   "Étaler la pâte finement sur une plaque à gâteau beurrée en relevant les bords.",
+   "Fouetter la crème acidulée, les œufs, la farine, le sel et le poivre.",
+   "Verser l’appareil sur la pâte.",
+   "Cuire 20 à 25 minutes à 220 °C jusqu’à ce que la surface soit dorée par endroits; servir chaud."
+  ]
+ },
+ {
+  "slug": "cuchaule",
+  "country": "CH",
+  "place": "ch-fribourg",
+  "original": "Cuchaule",
+  "title": "Cuchaule fribourgeoise (brioche au safran)",
+  "en": "Cuchaule (Fribourg saffron brioche)",
+  "es": "Cuchaule (brioche de azafrán de Friburgo)",
+  "desc": "Brioche au safran du canton de Fribourg, protégée par une AOP et indissociable de la Bénichon : pâte au lait, au beurre et au safran, rayée en losanges, servie avec la moutarde de Bénichon douce et épicée.",
+  "cat": "Pain",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 30,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/Cuchaule",
+  "ing": [
+   [
+    "Farine",
+    500,
+    "g",
+    null
+   ],
+   [
+    "Levure boulangère fraîche",
+    20,
+    "g",
+    null
+   ],
+   [
+    "Lait tiède",
+    250,
+    "ml",
+    null
+   ],
+   [
+    "Safran",
+    0.5,
+    "g",
+    null
+   ],
+   [
+    "Beurre mou",
+    80,
+    "g",
+    null
+   ],
+   [
+    "Œuf",
+    1,
+    null,
+    "plus 1 jaune pour la dorure"
+   ],
+   [
+    "Sucre",
+    60,
+    "g",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Moutarde de Bénichon",
+    1,
+    "pot",
+    "pour servir"
+   ]
+  ],
+  "steps": [
+   "Infuser le safran 10 minutes dans le lait tiède, puis y délayer la levure.",
+   "Pétrir avec la farine, l’œuf, le sucre, le sel et le beurre jusqu’à obtenir une pâte souple et jaune.",
+   "Laisser lever 1 h 30.",
+   "Former une grosse boule légèrement aplatie, laisser lever 45 minutes, dorer et rayer en losanges.",
+   "Cuire 30 minutes à 190 °C et servir avec la moutarde de Bénichon."
+  ]
+ }
+]

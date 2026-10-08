@@ -1,0 +1,815 @@
+[
+ {
+  "slug": "anguilles-au-vert",
+  "country": "BE",
+  "place": "be-flanders",
+  "original": "Anguilles au vert",
+  "title": "Anguilles au vert (paling in ’t groen)",
+  "en": "Eels in green sauce (paling in ’t groen)",
+  "es": "Anguilas en salsa verde (paling in ’t groen)",
+  "desc": "Spécialité flamande de l’Escaut : tronçons d’anguille de rivière cuits au beurre et au vin blanc dans une sauce verte d’oseille, d’épinards, de cerfeuil, de persil et d’herbes, liée au jaune d’œuf; servie avec des frites ou du pain.",
+  "cat": "Poisson",
+  "diff": "medium",
+  "prep": 40,
+  "cook": 25,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Anguilles_au_vert",
+  "ing": [
+   [
+    "Anguilles dépouillées",
+    1,
+    "kg",
+    "en tronçons de 5 cm"
+   ],
+   [
+    "Beurre",
+    50,
+    "g",
+    null
+   ],
+   [
+    "Échalotes",
+    2,
+    null,
+    "ciselées"
+   ],
+   [
+    "Vin blanc sec",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Oseille",
+    100,
+    "g",
+    null
+   ],
+   [
+    "Épinards",
+    150,
+    "g",
+    null
+   ],
+   [
+    "Cerfeuil, persil, estragon et sauge",
+    1,
+    "grand bouquet",
+    "hachés"
+   ],
+   [
+    "Citron",
+    1,
+    null,
+    "jus"
+   ],
+   [
+    "Jaunes d’œufs",
+    2,
+    null,
+    null
+   ],
+   [
+    "Fécule de maïs",
+    1,
+    "c. à thé",
+    "facultatif"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire raidir les tronçons d’anguille 3 minutes dans le beurre avec les échalotes.",
+   "Mouiller avec le vin blanc et un peu d’eau à hauteur, saler, poivrer et cuire 10 minutes à frémissement.",
+   "Ajouter l’oseille, les épinards et les herbes hachés et cuire encore 5 minutes.",
+   "Hors du feu, lier la sauce avec les jaunes battus avec le jus de citron, sans faire bouillir.",
+   "Servir chaud ou froid, avec des frites ou du pain beurré."
+  ]
+ },
+ {
+  "slug": "croquettes-aux-crevettes",
+  "country": "BE",
+  "place": "be-flanders",
+  "original": "Croquettes aux crevettes",
+  "title": "Croquettes aux crevettes grises (garnaalkroketten)",
+  "en": "Belgian grey shrimp croquettes",
+  "es": "Croquetas de camarón gris belgas",
+  "desc": "Entrée phare de la côte belge : béchamel épaisse au fumet et au gruyère garnie de crevettes grises de la mer du Nord, refroidie, panée et frite; servie avec persil frit et citron.",
+  "cat": "Entrée",
+  "diff": "medium",
+  "prep": 60,
+  "cook": 15,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Croquette_aux_crevettes",
+  "ing": [
+   [
+    "Crevettes grises décortiquées",
+    300,
+    "g",
+    null
+   ],
+   [
+    "Beurre",
+    80,
+    "g",
+    null
+   ],
+   [
+    "Farine",
+    100,
+    "g",
+    null
+   ],
+   [
+    "Lait",
+    250,
+    "ml",
+    null
+   ],
+   [
+    "Fumet de poisson ou de crevettes",
+    250,
+    "ml",
+    null
+   ],
+   [
+    "Gruyère râpé",
+    50,
+    "g",
+    null
+   ],
+   [
+    "Jaunes d’œufs",
+    2,
+    null,
+    null
+   ],
+   [
+    "Gélatine",
+    2,
+    "feuilles",
+    "facultatif"
+   ],
+   [
+    "Œufs",
+    2,
+    null,
+    "pour la panure"
+   ],
+   [
+    "Chapelure fine",
+    150,
+    "g",
+    null
+   ],
+   [
+    "Huile de friture",
+    1,
+    "l",
+    null
+   ],
+   [
+    "Persil plat et citron",
+    1,
+    null,
+    "pour servir"
+   ]
+  ],
+  "steps": [
+   "Préparer un roux avec le beurre et la farine, mouiller avec le lait et le fumet chauds et cuire 5 minutes en fouettant jusqu’à obtenir une sauce très épaisse.",
+   "Hors du feu, ajouter le fromage, les jaunes, la gélatine essorée puis les crevettes; saler, poivrer.",
+   "Étaler dans un plat filmé au contact et réfrigérer une nuit.",
+   "Façonner des cylindres, les passer dans la farine, l’œuf battu puis la chapelure, deux fois.",
+   "Frire 3 minutes à 180 °C jusqu’à ce qu’elles soient dorées; servir avec du persil frit et un quartier de citron."
+  ]
+ },
+ {
+  "slug": "tomate-crevettes",
+  "country": "BE",
+  "original": "Tomate-crevettes",
+  "title": "Tomate-crevettes (tomate farcie aux crevettes grises)",
+  "en": "Tomate-crevettes (tomato stuffed with grey shrimp)",
+  "es": "Tomate con camarones grises",
+  "desc": "Entrée emblématique des brasseries belges : tomate crue évidée et garnie de crevettes grises de la mer du Nord liées à la mayonnaise, servie sur un lit de salade.",
+  "cat": "Entrée",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 0,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Tomate-crevettes",
+  "ing": [
+   [
+    "Tomates moyennes et fermes",
+    4,
+    null,
+    null
+   ],
+   [
+    "Crevettes grises décortiquées",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Mayonnaise",
+    4,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Ketchup",
+    1,
+    "c. à thé",
+    "facultatif"
+   ],
+   [
+    "Citron",
+    0.5,
+    null,
+    "jus"
+   ],
+   [
+    "Persil",
+    1,
+    "c. à soupe",
+    "haché"
+   ],
+   [
+    "Laitue",
+    4,
+    "feuilles",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "pincée",
+    null
+   ]
+  ],
+  "steps": [
+   "Couper un chapeau aux tomates, les évider délicatement à la cuillère et les saler à l’intérieur.",
+   "Les retourner sur une grille 15 minutes pour qu’elles rendent leur eau.",
+   "Mélanger les crevettes avec la mayonnaise, le ketchup, le jus de citron et le persil.",
+   "Garnir généreusement les tomates et reposer les chapeaux.",
+   "Servir bien frais sur une feuille de laitue, avec du pain ou des frites."
+  ]
+ },
+ {
+  "slug": "cramique",
+  "country": "BE",
+  "original": "Cramique",
+  "title": "Cramique (pain brioché aux raisins)",
+  "en": "Cramique (Belgian raisin brioche loaf)",
+  "es": "Cramique (pan brioche belga con pasas)",
+  "desc": "Pain brioché de Belgique et du nord de la France, riche en lait, beurre et œufs, généreusement garni de raisins secs et dégusté au petit-déjeuner tartiné de beurre.",
+  "cat": "Pain",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 35,
+  "serv": 10,
+  "reference": "https://fr.wikipedia.org/wiki/Cramique",
+  "ing": [
+   [
+    "Farine",
+    500,
+    "g",
+    null
+   ],
+   [
+    "Levure boulangère fraîche",
+    20,
+    "g",
+    null
+   ],
+   [
+    "Lait tiède",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Œufs",
+    2,
+    null,
+    "plus 1 pour la dorure"
+   ],
+   [
+    "Beurre mou",
+    100,
+    "g",
+    null
+   ],
+   [
+    "Sucre",
+    50,
+    "g",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Raisins secs",
+    200,
+    "g",
+    "gonflés à l’eau tiède"
+   ]
+  ],
+  "steps": [
+   "Délayer la levure dans le lait tiède, puis pétrir avec la farine, les œufs, le sucre et le sel; incorporer le beurre peu à peu.",
+   "Ajouter les raisins égouttés en fin de pétrissage.",
+   "Laisser lever 1 h 30 jusqu’à ce que la pâte double.",
+   "Façonner un pain, le placer dans un moule à cake beurré et laisser lever 1 heure.",
+   "Dorer à l’œuf et cuire 35 minutes à 180 °C."
+  ]
+ },
+ {
+  "slug": "mitraillette",
+  "country": "BE",
+  "place": "be-brussels",
+  "original": "Mitraillette",
+  "title": "Mitraillette bruxelloise (demi-baguette, viande, frites et sauce)",
+  "en": "Mitraillette (Belgian baguette with meat, fries and sauce)",
+  "es": "Mitraillette (media baguette con carne, patatas fritas y salsa)",
+  "desc": "Sandwich des friteries de Bruxelles et de Wallonie : demi-baguette garnie d’une viande frite ou grillée — fricadelle, burger, boulettes ou mexicano — couverte de frites et d’une sauce comme l’andalouse ou la samouraï, parfois de crudités.",
+  "cat": "Cuisine de rue",
+  "diff": "easy",
+  "prep": 15,
+  "cook": 15,
+  "serv": 2,
+  "reference": "https://fr.wikipedia.org/wiki/Mitraillette_(sandwich)",
+  "ing": [
+   [
+    "Demi-baguette",
+    2,
+    null,
+    null
+   ],
+   [
+    "Fricadelles ou steaks hachés",
+    2,
+    null,
+    null
+   ],
+   [
+    "Pommes de terre bintje",
+    500,
+    "g",
+    "pour les frites"
+   ],
+   [
+    "Graisse de bœuf ou huile",
+    1,
+    "l",
+    null
+   ],
+   [
+    "Sauce andalouse ou samouraï",
+    4,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Laitue, tomate et oignon",
+    1,
+    "poignée",
+    "facultatif"
+   ],
+   [
+    "Sel",
+    1,
+    "pincée",
+    null
+   ]
+  ],
+  "steps": [
+   "Couper les pommes de terre en frites de 1 cm et les cuire une première fois 6 minutes à 150 °C; égoutter.",
+   "Frire ou griller la viande.",
+   "Ouvrir les demi-baguettes et les réchauffer brièvement.",
+   "Repasser les frites 2 minutes à 180 °C et les saler.",
+   "Garnir chaque pain de crudités, de viande, puis d’une grosse poignée de frites, et napper de sauce."
+  ]
+ },
+ {
+  "slug": "gaufre-de-bruxelles",
+  "country": "BE",
+  "place": "be-brussels",
+  "original": "Gaufre de Bruxelles",
+  "title": "Gaufre de Bruxelles (gaufre rectangulaire légère et croustillante)",
+  "en": "Brussels waffle",
+  "es": "Gofre de Bruselas",
+  "desc": "Gaufre belge à pâte levée et blancs en neige, cuite dans un fer à grands carreaux profonds : rectangulaire, légère, croustillante dehors et aérienne dedans, servie au sucre glace, à la chantilly ou aux fruits.",
+  "cat": "Dessert",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 20,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/Gaufre_de_Bruxelles",
+  "ing": [
+   [
+    "Farine",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Levure boulangère fraîche",
+    10,
+    "g",
+    null
+   ],
+   [
+    "Lait tiède",
+    250,
+    "ml",
+    null
+   ],
+   [
+    "Eau gazeuse",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Beurre fondu",
+    100,
+    "g",
+    null
+   ],
+   [
+    "Œufs",
+    3,
+    null,
+    "séparés"
+   ],
+   [
+    "Sucre vanillé",
+    1,
+    "sachet",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Sucre glace",
+    2,
+    "c. à soupe",
+    "pour servir"
+   ]
+  ],
+  "steps": [
+   "Délayer la levure dans le lait tiède.",
+   "Mélanger la farine, le sel, le sucre vanillé, les jaunes, le lait levuré, l’eau gazeuse et le beurre fondu en une pâte lisse; laisser reposer 1 heure.",
+   "Monter les blancs en neige et les incorporer délicatement.",
+   "Cuire dans un gaufrier à gaufres de Bruxelles bien chaud et graissé, 4 à 5 minutes, jusqu’à ce qu’elles soient dorées.",
+   "Servir aussitôt saupoudrées de sucre glace, ou avec chantilly et fruits."
+  ]
+ },
+ {
+  "slug": "couque-de-dinant",
+  "country": "BE",
+  "place": {
+   "slug": "be-dinant",
+   "name": "Dinant",
+   "type": "city",
+   "lat": 50.2606,
+   "lng": 4.9122,
+   "summary": "Ville wallonne sur la Meuse, connue pour ses couques moulées dans des formes en bois."
+  },
+  "original": "Couque de Dinant",
+  "title": "Couque de Dinant (biscuit au miel moulé)",
+  "en": "Couque de Dinant (hard honey biscuit)",
+  "es": "Couque de Dinant (galleta dura de miel)",
+  "desc": "Biscuit très dur de Dinant fait seulement de farine de froment et de miel, pressé dans des moules en bois sculpté de scènes et de motifs, et cuit à très haute température; il se déguste en petits morceaux que l’on laisse fondre en bouche.",
+  "cat": "Dessert",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 10,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/Couque_de_Dinant",
+  "ing": [
+   [
+    "Miel liquide",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Farine de froment",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Farine",
+    30,
+    "g",
+    "pour fariner les moules et le plan de travail"
+   ]
+  ],
+  "steps": [
+   "Chauffer le miel jusqu’à ce qu’il soit très fluide, sans le faire bouillir.",
+   "Mélanger le miel chaud et la farine pour obtenir une pâte ferme et lisse; laisser reposer 1 heure.",
+   "Étaler la pâte sur 5 mm et la presser dans des moules en bois farinés, ou découper des formes.",
+   "Démouler sur une plaque et cuire 6 à 8 minutes à 300 °C, ou au maximum du four, jusqu’à ce qu’elle soit brun doré.",
+   "Laisser refroidir et durcir; conserver plusieurs mois dans une boîte."
+  ]
+ },
+ {
+  "slug": "lacquemant",
+  "country": "BE",
+  "place": "be-liege",
+  "original": "Lacquemant",
+  "title": "Lacquemant liégeois (fine gaufre fourrée au sirop de candi)",
+  "en": "Lacquemant (thin Liège waffle with candi syrup)",
+  "es": "Lacquemant (gofre fino relleno de jarabe de candi)",
+  "desc": "Friandise des foires de Liège et de Gand : fine gaufrette ovale à pâte levée, fendue dans l’épaisseur et nappée d’un sirop de sucre candi parfumé à la fleur d’oranger.",
+  "cat": "Dessert",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 20,
+  "serv": 10,
+  "reference": "https://fr.wikipedia.org/wiki/Lacquemant",
+  "ing": [
+   [
+    "Farine",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Levure boulangère fraîche",
+    10,
+    "g",
+    null
+   ],
+   [
+    "Lait tiède",
+    150,
+    "ml",
+    null
+   ],
+   [
+    "Œuf",
+    1,
+    null,
+    null
+   ],
+   [
+    "Beurre fondu",
+    80,
+    "g",
+    null
+   ],
+   [
+    "Sucre",
+    20,
+    "g",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Sucre candi brun",
+    200,
+    "g",
+    "pour le sirop"
+   ],
+   [
+    "Eau",
+    80,
+    "ml",
+    null
+   ],
+   [
+    "Eau de fleur d’oranger",
+    1,
+    "c. à soupe",
+    null
+   ]
+  ],
+  "steps": [
+   "Délayer la levure dans le lait, puis mélanger avec la farine, l’œuf, le beurre, le sucre et le sel; laisser lever 1 heure.",
+   "Cuire des petites boules de pâte aplaties dans un gaufrier fin, 1 à 2 minutes.",
+   "Fendre chaque gaufrette encore chaude en deux dans l’épaisseur.",
+   "Faire fondre le sucre candi avec l’eau jusqu’à obtenir un sirop épais, puis ajouter la fleur d’oranger.",
+   "Napper l’intérieur de sirop, refermer et napper aussi le dessus; déguster tiède."
+  ]
+ },
+ {
+  "slug": "bouquettes-liegeoises",
+  "country": "BE",
+  "place": "be-liege",
+  "original": "Bouquettes",
+  "title": "Bouquettes liégeoises (crêpes épaisses de sarrasin aux raisins)",
+  "en": "Liège bouquettes (buckwheat pancakes with raisins)",
+  "es": "Bouquettes de Lieja (tortitas de trigo sarraceno con pasas)",
+  "desc": "Crêpes épaisses de la tradition liégeoise, servies au Nouvel An : pâte levée à la farine de sarrasin et de froment garnie de raisins secs, cuite au beurre et servie avec de la cassonade ou du sirop de Liège.",
+  "cat": "Dessert",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 30,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Boûkète",
+  "ing": [
+   [
+    "Farine de sarrasin",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Farine de froment",
+    100,
+    "g",
+    null
+   ],
+   [
+    "Levure boulangère fraîche",
+    15,
+    "g",
+    null
+   ],
+   [
+    "Lait tiède",
+    500,
+    "ml",
+    null
+   ],
+   [
+    "Œufs",
+    2,
+    null,
+    null
+   ],
+   [
+    "Raisins de Corinthe",
+    150,
+    "g",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Beurre",
+    50,
+    "g",
+    "pour la cuisson"
+   ],
+   [
+    "Cassonade ou sirop de Liège",
+    100,
+    "g",
+    "pour servir"
+   ]
+  ],
+  "steps": [
+   "Délayer la levure dans un peu de lait tiède.",
+   "Mélanger les farines, le sel, les œufs, le reste du lait et la levure en pâte épaisse; ajouter les raisins.",
+   "Laisser lever 1 heure au chaud.",
+   "Cuire des louches de pâte dans une poêle beurrée, 3 minutes de chaque côté, pour obtenir des crêpes épaisses.",
+   "Servir chaudes saupoudrées de cassonade ou nappées de sirop de Liège."
+  ]
+ },
+ {
+  "slug": "frites-belges",
+  "country": "BE",
+  "original": "Frites belges",
+  "title": "Frites belges (double cuisson à la graisse de bœuf)",
+  "en": "Belgian fries",
+  "es": "Patatas fritas belgas",
+  "desc": "Fierté nationale belge vendue dans les friteries : bâtonnets de pommes de terre bintje cuits deux fois, de préférence dans la graisse de bœuf, servis en cornet avec mayonnaise, andalouse ou sauce samouraï.",
+  "cat": "Cuisine de rue",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 15,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Frite",
+  "ing": [
+   [
+    "Pommes de terre bintje",
+    1.2,
+    "kg",
+    null
+   ],
+   [
+    "Graisse de bœuf (blanc de bœuf) ou huile",
+    2,
+    "l",
+    null
+   ],
+   [
+    "Sel fin",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Mayonnaise ou sauce andalouse",
+    150,
+    "ml",
+    "pour servir"
+   ]
+  ],
+  "steps": [
+   "Éplucher les pommes de terre et les couper en bâtonnets de 1 cm de section.",
+   "Les rincer, puis les sécher soigneusement dans un torchon.",
+   "Première cuisson : 6 à 7 minutes à 150 °C, jusqu’à ce qu’elles soient tendres mais pâles; égoutter et laisser refroidir au moins 30 minutes.",
+   "Seconde cuisson : 2 à 3 minutes à 180 °C jusqu’à ce qu’elles soient dorées et croustillantes.",
+   "Égoutter, saler aussitôt et servir en cornet avec la sauce."
+  ]
+ },
+ {
+  "slug": "pain-a-la-grecque",
+  "country": "BE",
+  "place": "be-brussels",
+  "original": "Pain à la grecque",
+  "title": "Pain à la grecque bruxellois (biscuit au sucre perlé et à la cannelle)",
+  "en": "Pain à la grecque (Brussels sugar and cinnamon biscuit)",
+  "es": "Pain à la grecque (galleta bruselense de azúcar y canela)",
+  "desc": "Biscuit allongé de Bruxelles dont le nom vient du « pain de la gracht », le fossé près duquel des moines le distribuaient : pâte levée à la cannelle et à la cassonade, roulée dans le sucre perlé et cuite jusqu’à ce qu’elle soit croquante et caramélisée.",
+  "cat": "Dessert",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 25,
+  "serv": 12,
+  "reference": "https://fr.wikipedia.org/wiki/Pain_%C3%A0_la_grecque",
+  "ing": [
+   [
+    "Farine",
+    500,
+    "g",
+    null
+   ],
+   [
+    "Levure boulangère fraîche",
+    15,
+    "g",
+    null
+   ],
+   [
+    "Lait tiède",
+    200,
+    "ml",
+    null
+   ],
+   [
+    "Beurre mou",
+    80,
+    "g",
+    null
+   ],
+   [
+    "Cassonade brune",
+    100,
+    "g",
+    null
+   ],
+   [
+    "Cannelle",
+    2,
+    "c. à thé",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Sucre perlé",
+    200,
+    "g",
+    null
+   ]
+  ],
+  "steps": [
+   "Délayer la levure dans le lait tiède, puis pétrir avec la farine, le beurre, la cassonade, la cannelle et le sel.",
+   "Laisser lever 1 heure.",
+   "Étaler la pâte sur 1 cm, la couper en bandes de 4 × 15 cm.",
+   "Rouler chaque bande dans le sucre perlé en pressant pour qu’il adhère.",
+   "Cuire 20 à 25 minutes à 180 °C jusqu’à ce qu’elles soient dorées et caramélisées; laisser durcir sur grille."
+  ]
+ }
+]

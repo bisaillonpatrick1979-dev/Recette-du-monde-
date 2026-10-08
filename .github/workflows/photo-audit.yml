@@ -20,7 +20,7 @@ concurrency:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 110
     env:
       # Clé publique (déjà embarquée dans le site) : lecture des recettes publiées uniquement.
       SUPABASE_URL: https://lnrmcubcxtnzqynfzghv.supabase.co

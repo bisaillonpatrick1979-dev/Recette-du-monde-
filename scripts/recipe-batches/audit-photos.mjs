@@ -49,9 +49,9 @@ function thumbUrl(url) {
 }
 
 async function download(url, target) {
-  for (let attempt = 0; attempt < 4; attempt += 1) {
+  for (let attempt = 0; attempt < 3; attempt += 1) {
     try {
-      const res = await fetch(url, { headers: { "User-Agent": USER_AGENT }, signal: AbortSignal.timeout(30000) });
+      const res = await fetch(url, { headers: { "User-Agent": USER_AGENT }, signal: AbortSignal.timeout(20000) });
       if (res.ok) {
         writeFileSync(target, Buffer.from(await res.arrayBuffer()));
         return res.status;
@@ -67,15 +67,13 @@ async function download(url, target) {
 
 const recipes = await loadRecipes();
 console.log(`${recipes.length} recettes publiées`);
-const index = [];
-let n = 0;
-let failures = 0;
-for (const r of recipes) {
+// Budget de temps : on s'arrête proprement avant la limite du job et on publie ce qui est prêt.
+const deadline = Date.now() + Number(process.env.AUDIT_BUDGET_MINUTES || 95) * 60_000;
+const index = recipes.map((r, k) => {
   const images = (r.recipe_images ?? []).filter((i) => i.status === "ready");
   const image = images.find((i) => i.is_primary) ?? images[0];
-  n += 1;
-  const entry = {
-    n,
+  return {
+    n: k + 1,
     id: r.id,
     slug: r.slug,
     title: r.original_title || r.title,
@@ -87,20 +85,32 @@ for (const r of recipes) {
     page: image?.source_page_url ?? null,
     thumb: null,
   };
-  const src = thumbUrl(image?.external_url);
-  if (src) {
-    let status = await download(src, join(THUMBS, `${n}.jpg`));
-    // Certaines miniatures ne sont pas générées en 330 px : repli sur l'URL enregistrée.
-    if (status !== 200 && src !== image.external_url) status = await download(image.external_url, join(THUMBS, `${n}.jpg`));
-    if (status === 200) entry.thumb = `thumbs/${n}.jpg`;
-    else {
-      entry.error = String(status);
-      failures += 1;
+});
+const save = () => writeFileSync(join(OUT, "index.json"), JSON.stringify(index, null, 1));
+let next = 0;
+let done = 0;
+let failures = 0;
+async function worker() {
+  while (next < index.length && Date.now() < deadline) {
+    const entry = index[next++];
+    const src = thumbUrl(entry.url);
+    if (src) {
+      const target = join(THUMBS, `${entry.n}.jpg`);
+      let status = await download(src, target);
+      if (status !== 200 && src !== entry.url) status = await download(entry.url, target);
+      if (status === 200) entry.thumb = `thumbs/${entry.n}.jpg`;
+      else {
+        entry.error = String(status);
+        failures += 1;
+      }
     }
-    await sleep(150);
+    done += 1;
+    if (done % 100 === 0) {
+      save();
+      console.log(`${done} / ${index.length} (${failures} échecs)`);
+    }
   }
-  index.push(entry);
-  if (n % 100 === 0) console.log(`${n} / ${recipes.length} (${failures} échecs)`);
 }
-writeFileSync(join(OUT, "index.json"), JSON.stringify(index, null, 1));
-console.log(`Terminé : ${index.length} recettes, ${index.filter((e) => e.thumb).length} miniatures, ${failures} échecs.`);
+await Promise.all(Array.from({ length: 4 }, worker));
+save();
+console.log(`Terminé : ${done} recettes traitées sur ${index.length}, ${index.filter((e) => e.thumb).length} miniatures, ${failures} échecs.`);

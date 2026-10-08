@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { FormEvent, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import { BlockButton } from "@/components/block-button";
+import { ReportDialog } from "@/components/report-dialog";
 import { createClient } from "@/lib/supabase/client";
 
 type SocialComment = {
@@ -264,7 +266,21 @@ export function RecipeSocialPanel({
                 <button type="button" className="link-button" onClick={() => void deleteComment(item.id)} disabled={busy}>
                   Supprimer
                 </button>
-              ) : null}
+              ) : (
+                <>
+                  <ReportDialog target={{ kind: "comment", id: item.id }} viewerId={currentUserId} />
+                  {currentUserId ? (
+                    <BlockButton
+                      profileId={item.authorId}
+                      viewerId={currentUserId}
+                      initialBlocked={false}
+                      onBlocked={(blockedId) =>
+                        setComments((items) => items.filter((entry) => entry.authorId !== blockedId))
+                      }
+                    />
+                  ) : null}
+                </>
+              )}
             </div>
             <p>{item.body}</p>
           </article>

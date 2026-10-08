@@ -30,7 +30,7 @@ for (const [slug, p] of Object.entries(photos)) {
   const r = recipes.get(slug);
   if (!r) errors.push(`${slug} : recette absente des lots`);
   for (const key of ["url", "page", "license"]) if (!p[key]) errors.push(`${slug} : champ « ${key} » manquant`);
-  if (p.url && !p.url.startsWith("https://upload.wikimedia.org/")) errors.push(`${slug} : URL hors upload.wikimedia.org`);
+  if (p.url && !/^https:\/\/(upload\.wikimedia\.org|live\.staticflickr\.com)\//.test(p.url)) errors.push(`${slug} : URL hors des hôtes autorisés (Commons, Flickr)`);
   if (r) rows.push({ slug, title: r.title, ...p });
 }
 if (errors.length) {
@@ -42,7 +42,7 @@ const payload = JSON.stringify(rows);
 if (payload.includes("$photos$")) throw new Error("Le délimiteur $photos$ apparaît dans les données.");
 
 const sql = `-- Photos Spoontrotter générées par scripts/recipe-batches/build-photos.mjs : ${rows.length} recettes des lots.
--- Photos Wikimedia Commons vérifiées une à une (le fichier représente ce plat), auteur et licence conservés.
+-- Photos libres (Wikimedia Commons, Flickr) vérifiées une à une (le fichier représente ce plat), auteur et licence conservés.
 create temporary table spoontrotter_photos as
 select r.id as rid, e
 from jsonb_array_elements($photos$${payload}$photos$::jsonb) as e
@@ -52,10 +52,10 @@ delete from public.recipe_images i using spoontrotter_photos p where i.recipe_id
 
 insert into public.recipe_images (recipe_id, source_type, status, external_url, alt_text, source_name, source_page_url,
   photographer_name, license_name, license_url, attribution_text, is_primary, is_representative, moderation_notes)
-select rid, 'external_licensed', 'ready', e->>'url', e->>'title', 'Wikimedia Commons', e->>'page',
+select rid, 'external_licensed', 'ready', e->>'url', e->>'title', coalesce(e->>'source', 'Wikimedia Commons'), e->>'page',
   nullif(e->>'author', ''), e->>'license', nullif(e->>'licenseUrl', ''),
-  'Photo : ' || coalesce(nullif(e->>'author', ''), 'auteur inconnu') || ' · ' || (e->>'license') || ' · Wikimedia Commons',
-  true, true, 'Photo Wikimedia Commons vérifiée : le fichier représente ce plat.'
+  'Photo : ' || coalesce(nullif(e->>'author', ''), 'auteur inconnu') || ' · ' || (e->>'license') || ' · ' || coalesce(e->>'source', 'Wikimedia Commons'),
+  true, true, 'Photo libre vérifiée à l’œil : le fichier représente ce plat.'
 from spoontrotter_photos;
 
 update public.recipes r set source_url = p.e->>'page', updated_at = now() from spoontrotter_photos p where r.id = p.rid;

@@ -9,6 +9,7 @@ export type WikimediaPlaceImage = {
   attribution: string;
   width: number;
   height: number;
+  description?: string | null;
 };
 
 type CommonsMetadata = Record<string, { value?: string } | undefined>;
@@ -33,7 +34,22 @@ const USER_AGENT =
   "Spoontrotter/1.0 (https://github.com/bisaillonpatrick1979-dev/Recette-du-monde-)";
 
 const REJECT_TITLE =
-  /\b(flag|map|locator|coat[ _-]?of[ _-]?arms|emblem|seal|logo|passport|currency|banknote|stamp|diagram|icon|blank|outline)\b/i;
+  /\b(flag|map|locator|coat[ _-]?of[ _-]?arms|emblem|seal|logo|passport|currency|banknote|stamp|diagram|icon|blank|outline|camera[ _-]?photo|ambox|book[ _-]?cover|catalog|catalogue|manual|brochure|poster|packaging|label|advertisement)\b/i;
+
+const DISH_TYPE_TERMS = new Set([
+  "pizza", "burger", "sandwich", "milkshake", "candy", "smoothie",
+  "muffin", "muffins", "cupcake", "cupcakes", "cookie", "cookies",
+  "brownie", "brownies", "bundt", "pie", "tart", "popsicle", "sundae",
+  "schnitzel", "wrap", "wraps",
+]);
+
+const FOOD_CONTEXT_TERMS = new Set([
+  "food", "dish", "cuisine", "meal", "recipe", "breakfast", "lunch", "dinner",
+  "dessert", "pastry", "pancake", "pancakes", "bread", "cake", "soup", "stew",
+  "rice", "noodle", "noodles", "dumpling", "dumplings", "meat", "chicken",
+  "beef", "pork", "fish", "seafood", "salad", "sauce", "curry", "fried",
+  "baked", "grilled", "roasted", "sweet", "savory", "traditional",
+]);
 
 const RECIPE_MATCH_STOPWORDS = new Set([
   "classic","traditional","style","with","and","the","from","food","dish","recipe",
@@ -60,18 +76,41 @@ function recipeMatchTokens(value: string) {
 }
 
 function recipeImageMatchesTitle(image: WikimediaPlaceImage, recipeTitle: string) {
-  const imageText = normalizedRecipeText(image.title);
+  const imageBaseTitle = image.title.replace(/\.[a-z0-9]{2,5}$/i, "");
+  const imageText = normalizedRecipeText(imageBaseTitle);
   const titleText = normalizedRecipeText(recipeTitle);
+  const descriptionText = normalizedRecipeText(image.description ?? "");
+  const imageWords = new Set(imageText.split(" ").filter(Boolean));
+  const titleWords = new Set(titleText.split(" ").filter(Boolean));
+  const contextWords = new Set(
+    `${imageText} ${descriptionText}`.split(" ").filter(Boolean),
+  );
 
-  if (titleText && imageText.includes(titleText)) return true;
+  const conflictingDishType = [...DISH_TYPE_TERMS].some(
+    (term) => imageWords.has(term) && !titleWords.has(term),
+  );
+  if (conflictingDishType) return false;
+
+  // An exact file name is strong evidence, e.g. "Kedjenou.jpg".
+  if (titleText && imageText === titleText) return true;
 
   const tokens = recipeMatchTokens(recipeTitle);
   if (!tokens.length) return false;
 
-  const matches = tokens.filter((token) => imageText.includes(token));
-  const minimumMatches = Math.max(1, Math.ceil(tokens.length * 0.5));
+  const matches = tokens.filter((token) => imageWords.has(token));
+  const hasFoodContext = [...FOOD_CONTEXT_TERMS].some((term) => contextWords.has(term));
 
-  return matches.length >= minimumMatches;
+  // A single rare name is ambiguous on Commons (e.g. Chebab can name a place).
+  // Do not accept it merely because the same word appears in an unrelated file.
+  if (tokens.length === 1) {
+    return matches.length === 1 && hasFoodContext;
+  }
+
+  const minimumMatches = tokens.length <= 3 ? tokens.length : Math.ceil(tokens.length * 0.75);
+  if (matches.length < minimumMatches) return false;
+
+  // For a non-exact partial match, require culinary context in title/description.
+  return hasFoodContext;
 }
 
 function decodeEntities(value: string) {
@@ -210,6 +249,7 @@ async function searchCommons(term: string): Promise<WikimediaPlaceImage[]> {
       metadataValue(metadata, "Credit") ||
       null;
     const licenseUrl = metadataValue(metadata, "LicenseUrl") || null;
+    const description = metadataValue(metadata, "ImageDescription") || null;
     const shortTitle = title.replace(/^File:/i, "");
 
     return [{
@@ -226,6 +266,7 @@ async function searchCommons(term: string): Promise<WikimediaPlaceImage[]> {
           .join(" · "),
         width,
         height,
+        description,
       } satisfies WikimediaPlaceImage,
       score: scoreCandidate(page, info),
     }];

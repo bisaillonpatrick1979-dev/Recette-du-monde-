@@ -1,7 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { LanguageCode } from "@/lib/preferences";
+import type { LanguageCode, MeasurementSystem } from "@/lib/preferences";
+import { convertQuantity, type TemperatureUnit } from "@/lib/units";
 
 type Ingredient = {
   id: number;
@@ -63,6 +64,11 @@ const labels = {
     quick: "Choix rapides de portions",
     original: "Recette originale pour",
     recalculated: "Les quantités sont recalculées automatiquement pour",
+    units: "Unités",
+    metric: "Métrique",
+    imperial: "Impérial",
+    cups: "Tasses",
+    temperature: "Température du four",
     locale: "fr-CA",
   },
   en: {
@@ -76,6 +82,11 @@ const labels = {
     quick: "Quick serving choices",
     original: "Original recipe for",
     recalculated: "Quantities are automatically recalculated for",
+    units: "Units",
+    metric: "Metric",
+    imperial: "Imperial",
+    cups: "Cups",
+    temperature: "Oven temperature",
     locale: "en-CA",
   },
   es: {
@@ -89,6 +100,11 @@ const labels = {
     quick: "Selección rápida de porciones",
     original: "Receta original para",
     recalculated: "Las cantidades se recalculan automáticamente para",
+    units: "Unidades",
+    metric: "Métrico",
+    imperial: "Imperial",
+    cups: "Tazas",
+    temperature: "Temperatura del horno",
     locale: "es",
   },
 } satisfies Record<LanguageCode, {
@@ -102,17 +118,32 @@ const labels = {
   quick: string;
   original: string;
   recalculated: string;
+  units: string;
+  metric: string;
+  imperial: string;
+  cups: string;
+  temperature: string;
   locale: string;
 }>;
+
+const SYSTEMS: MeasurementSystem[] = ["metric", "imperial", "cups"];
 
 export function RecipeServingScaler({
   baseServings,
   ingredients,
   language = "fr",
+  measurements = "metric",
+  temperature = "c",
+  onMeasurementsChange,
+  onTemperatureChange,
 }: {
   baseServings: number | string | null;
   ingredients: Ingredient[];
   language?: LanguageCode;
+  measurements?: MeasurementSystem;
+  temperature?: TemperatureUnit;
+  onMeasurementsChange?: (system: MeasurementSystem) => void;
+  onTemperatureChange?: (unit: TemperatureUnit) => void;
 }) {
   const parsedBase = numericQuantity(baseServings);
   const normalizedBase = parsedBase == null ? null : Math.max(1, Math.round(parsedBase));
@@ -123,12 +154,20 @@ export function RecipeServingScaler({
     const ratio = normalizedBase == null ? 1 : servings / normalizedBase;
     return ingredients.map((ingredient) => {
       const baseQuantity = numericQuantity(ingredient.quantity);
+      // Portions d'abord, puis conversion vers le système d'unités choisi.
+      const converted = convertQuantity(
+        baseQuantity == null ? null : baseQuantity * ratio,
+        ingredient.unit,
+        measurements,
+        language,
+      );
       return {
         ...ingredient,
-        displayQuantity: baseQuantity == null ? null : formatQuantity(baseQuantity * ratio, text.locale),
+        unit: converted.unit,
+        displayQuantity: converted.value == null ? null : formatQuantity(converted.value, text.locale),
       };
     });
-  }, [ingredients, normalizedBase, servings, text.locale]);
+  }, [ingredients, language, measurements, normalizedBase, servings, text.locale]);
 
   function updateServings(value: number) {
     if (normalizedBase == null) return;
@@ -183,6 +222,39 @@ export function RecipeServingScaler({
           {text.original} {normalizedBase} {normalizedBase > 1 ? text.many : text.one}.
           {text.recalculated} {servings}.
         </p>
+      ) : null}
+
+      {onMeasurementsChange ? (
+        <div className="unit-toggles">
+          <div className="unit-toggle" role="group" aria-label={text.units}>
+            {SYSTEMS.map((system) => (
+              <button
+                type="button"
+                key={system}
+                className={measurements === system ? "active" : ""}
+                aria-pressed={measurements === system}
+                onClick={() => onMeasurementsChange(system)}
+              >
+                {text[system]}
+              </button>
+            ))}
+          </div>
+          {onTemperatureChange ? (
+            <div className="unit-toggle" role="group" aria-label={text.temperature}>
+              {(["c", "f"] as const).map((unit) => (
+                <button
+                  type="button"
+                  key={unit}
+                  className={temperature === unit ? "active" : ""}
+                  aria-pressed={temperature === unit}
+                  onClick={() => onTemperatureChange(unit)}
+                >
+                  °{unit.toUpperCase()}
+                </button>
+              ))}
+            </div>
+          ) : null}
+        </div>
       ) : null}
 
       <ul className="ingredient-list scaled-ingredient-list">

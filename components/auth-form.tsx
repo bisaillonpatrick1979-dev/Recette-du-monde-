@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import { login, resendConfirmation, signup } from "@/app/auth/actions";
 import {
   defaultPreferences,
-  PREFERENCES_STORAGE_KEY,
   type UserPreferences,
 } from "@/lib/preferences";
+import { readPreferences } from "@/lib/use-preferences";
 
 type Props = {
   error?: string;
@@ -17,13 +17,7 @@ export function AuthForm({ error, message }: Props) {
   const [preferences, setPreferences] = useState<UserPreferences>(defaultPreferences);
 
   useEffect(() => {
-    const saved = window.localStorage.getItem(PREFERENCES_STORAGE_KEY);
-    if (!saved) return;
-    try {
-      setPreferences(JSON.parse(saved) as UserPreferences);
-    } catch {
-      setPreferences(defaultPreferences);
-    }
+    setPreferences(readPreferences());
   }, []);
 
   return (

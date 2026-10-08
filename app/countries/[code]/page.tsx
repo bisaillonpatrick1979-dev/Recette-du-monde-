@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { DifficultyBadge, SpiceBadge } from "@/components/recipe-level-badges";
 import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import { OpenRecipeImage } from "@/components/open-recipe-image";
 import { notFound } from "next/navigation";
@@ -12,12 +13,6 @@ type Props = {
 
 function validCountryCode(value: string) {
   return /^[A-Z]{2}$/.test(value);
-}
-
-function difficultyLabel(value: "easy" | "medium" | "hard" | null) {
-  if (value === "hard") return "Difficile";
-  if (value === "medium") return "Moyen";
-  return "Facile";
 }
 
 export default async function CountryPage({ params }: Props) {
@@ -47,7 +42,7 @@ export default async function CountryPage({ params }: Props) {
       supabase
         .from("recipes")
         .select(
-          "id,title,original_title,description,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
+          "id,title,original_title,description,country_code,region,category,difficulty,spice_level,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status)",
         )
         .eq("status", "published")
         .eq("is_editorial", true)
@@ -259,7 +254,10 @@ export default async function CountryPage({ params }: Props) {
                   <div className="continent-page-card-meta">
                     <span>{recipe.category || "Recette"}</span>
                     {recipe.minutes ? <span>{recipe.minutes} min</span> : null}
-                    <span>{difficultyLabel(recipe.difficulty)}</span>
+                    <span className="recipe-level-row">
+                      <DifficultyBadge difficulty={recipe.difficulty} compact />
+                      <SpiceBadge level={recipe.spice_level} compact />
+                    </span>
                   </div>
                   <div className="continent-page-card-rating">
                     <span>♥ {recipe.likes}</span>

@@ -1,0 +1,1582 @@
+{
+ "date": "2026-10-03",
+ "reviewed": 119,
+ "photo_validated": 1,
+ "archived": 118,
+ "notes": "Recherche Commons achevée pour les 119 recettes; Openverse a refusé l’accès. Les recettes sans photo validée sont retirées du catalogue de façon réversible. Aucune suppression définitive de données.",
+ "recipes": [
+  {
+   "id": "00197081-ebbe-90ab-6722-c0403d1bb552",
+   "slug": "simboro",
+   "title": "Simboro du Vanuatu (rouleaux de feuilles farcis au manioc et coco)",
+   "country": "VU",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:04.408Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Rangas,_Simboro_Dan_Kepulauan,_Mamuju_Regency,_West_Sulawesi,_Indonesia_-_panoramio.jpg",
+    "https://commons.wikimedia.org/wiki/File:Rangas,_Simboro_Dan_Kepulauan,_Mamuju_Regency,_West_Sulawesi,_Indonesia_-_panoramio_(1).jpg",
+    "https://commons.wikimedia.org/wiki/File:Daouda_Simboro_2017.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "0063521d-83cd-4e64-ac95-05c5dbb02eda",
+   "slug": null,
+   "title": "Cream Cheese Mints",
+   "country": "US",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:14.178Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Syllabub.jpg",
+    "https://commons.wikimedia.org/wiki/File:Sage,_Brown,_and_Ivory_Wedding_Cupcakes_(4005354826).jpg",
+    "https://commons.wikimedia.org/wiki/File:Moto_kiwi_mango_%22nachos%22.jpg",
+    "https://commons.wikimedia.org/wiki/File:Mystic_Ice_Cream_flavor_selection_sign.jpg",
+    "https://commons.wikimedia.org/wiki/File:A_Carrot_cream_cheese_cake_and_Moroccan_mint_tea_form_Mandarin_Oriental_Hong_Kong.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "0203132f-315d-2e3f-e8b7-82edd236a15b",
+   "slug": "mashuai-omanais",
+   "title": "Mashuai omanais (poisson grillé au riz citronné)",
+   "country": "OM",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:06.085Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Mashuai+Omani+mashuai&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "04b9e231-f451-4878-829b-1b8e741c52c5",
+   "slug": null,
+   "title": "Betty's Salad",
+   "country": "US",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:16.090Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Eruca_vesicaria._Big_Bend_National_Park,_Hwy_1776._March_2004_(120F52FB2F4943A7A74E8AFDF978982B).JPG",
+    "https://commons.wikimedia.org/wiki/File:Eruca_vesicaria._Big_Bend_National_Park,_Hwy_1776._March_2004_(14F25298DB6D412790DF898725DB24BD).JPG",
+    "https://commons.wikimedia.org/wiki/File:Eruca_vesicaria._Big_Bend_National_Park,_Hwy_1776._March_2004_(2436C40FC96A4499BA9FB7CDC300A8BC).JPG",
+    "https://commons.wikimedia.org/wiki/File:Eruca_vesicaria._Big_Bend_National_Park,_Hwy_1776._March_2004_(49A15BEC92014D7D8D7C401B4C201BB5).JPG",
+    "https://commons.wikimedia.org/wiki/File:Eruca_vesicaria._Big_Bend_National_Park,_Hwy_1776._March_2004_(7B3BEFEBE4DE432AABD48CF43ABD5E8D).JPG",
+    "https://commons.wikimedia.org/wiki/File:Eruca_vesicaria._Big_Bend_National_Park,_Hwy_1776._March_2004_(7B5AA37F434C4A70A2D557E9F1206F94).JPG"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "079d54e0-a03a-f6aa-79ff-e87eddafac82",
+   "slug": "kaukau-coco-png",
+   "title": "Kaukau de Papouasie (patates douces au lait de coco)",
+   "country": "PG",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:35.041Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Wellington_from_Mt_Kaukau_-_Flickr_-_111_Emergency_(5).jpg",
+    "https://commons.wikimedia.org/wiki/File:Kordia_TV_mast,_Mount_Kaukau,_New_Zealand.jpg",
+    "https://commons.wikimedia.org/wiki/File:Kordia_TV_mast,_Mt_Kaukau_-_Flickr_-_asgw.jpg",
+    "https://commons.wikimedia.org/wiki/File:Kordia_TV_mast,_Mt_Kaukau_-_Flickr_-_asgw_(1).jpg",
+    "https://commons.wikimedia.org/wiki/File:Kordia_TV_mast,_Mt_Kaukau_-_Flickr_-_asgw_(2).jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "0a713cc2-39c6-8c83-7370-b93bea5c5e05",
+   "slug": "kyet-thar-hin",
+   "title": "Kyet thar hin birman (curry de poulet à l’huile et au gingembre)",
+   "country": "MM",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:06.066Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Kyet+thar+hin+Burmese+kyet+thar+hin&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "0c2079a6-cb4e-d317-c0cd-2091272a4c8e",
+   "slug": "coltunasi-moldaves",
+   "title": "Colțunași moldaves (raviolis au fromage de brebis)",
+   "country": "MD",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:12.126Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Col%C8%9Buna%C8%99i+Moldovan+col%C8%9Buna%C8%99i&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "0f60aa1c-5139-f517-a026-2e495d34cab3",
+   "slug": "sapasui",
+   "title": "Sapasui samoan (vermicelles sautés au bœuf et soja)",
+   "country": "WS",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:15.950Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Sapasui+Samoan+sapasui&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "0fb23929-c664-4ecc-6486-6541b3227278",
+   "slug": "rupiza-zimbabween",
+   "title": "Rupiza zimbabwéen (purée de pois et haricots)",
+   "country": "ZW",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:19.265Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Rupiza+Zimbabwean+rupiza&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "1226d66a-5b47-4de7-9990-0805b92e7dec",
+   "slug": null,
+   "title": "La Bandera Dominicana - riz, haricots et poulet",
+   "country": "DO",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:46.692Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Arco_de_la_plaza_de_la_bandera.jpg",
+    "https://commons.wikimedia.org/wiki/File:Protestas_Plaza_Bandera_Santo_Domingo.jpg",
+    "https://commons.wikimedia.org/wiki/File:Protestas_Plaza_de_la_Bandera_d%C3%ADa_uno.jpg",
+    "https://commons.wikimedia.org/wiki/File:Protestas_Plaza_de_la_Bandera_d%C3%ADa_uno_2.jpg",
+    "https://commons.wikimedia.org/wiki/File:Protestas_Plaza_de_la_Bandera_d%C3%ADa_uno_3.jpg",
+    "https://commons.wikimedia.org/wiki/File:Protestas_Plaza_de_la_Bandera_d%C3%ADa_uno_4.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "1445ab49-a3f2-32f4-6c18-dc0f773924c5",
+   "slug": "moksi-alesi",
+   "title": "Moksi alesi surinamien (riz mélangé aux viandes, poisson salé et haricots)",
+   "country": "SR",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:19.314Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Moksi+alesi+Surinamese+moksi+alesi&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "14d52093-e45c-424f-8567-57598ff65532",
+   "slug": null,
+   "title": "Cottage Cheese Eggs",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:29.545Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Cheddar_soup_prepared_with_white_cheddar.jpg",
+    "https://commons.wikimedia.org/wiki/File:Svetlana_Humphreys_Easter_cakes_painted_eggs_and_Easter_cottage_cheese_02.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "14d60851-e402-1fcc-6651-b2ae487c34a5",
+   "slug": "rice-bread-liberia",
+   "title": "Rice bread libérien (gâteau de riz à la banane)",
+   "country": "LR",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:27.209Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Enriched_bread_flour_cornmeal_rice_and_pasta.jpg",
+    "https://commons.wikimedia.org/wiki/File:Egg_and_rice_bread_in_Poznan.JPG",
+    "https://commons.wikimedia.org/wiki/File:Chicken_rice_soup_(15904843314).jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "1539fe85-f692-73ce-f4da-97ac5005bc52",
+   "slug": "malewa-bugisu",
+   "title": "Malewa du Bugisu (pousses de bambou fumées à l’arachide)",
+   "country": "UG",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:20:21.045Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Malewa.JPG",
+    "https://commons.wikimedia.org/wiki/File:Malewa_1.JPG",
+    "https://commons.wikimedia.org/wiki/File:Rede_Malewa,_Bestanddeelnr_902-1430.jpg",
+    "https://commons.wikimedia.org/wiki/File:Rede_Malewa,_Bestanddeelnr_902-1430_(cropped).jpg",
+    "https://commons.wikimedia.org/wiki/File:Tomson_plus_cuisse.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "1570f9e4-ca9f-4e3a-a9c6-f79e8f4e40e1",
+   "slug": null,
+   "title": "Agneau monténégrin sous sač avec pommes de terre",
+   "country": "ME",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:24.814Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Jagnjetina+ispod+sa%C4%8Da+Jagnjetina+ispod+sa%C4%8Da&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "1916d9e7-f3e9-b641-fe79-fa33ad49e937",
+   "slug": "torta-tal-lampuki",
+   "title": "Torta tal-lampuki maltaise (tourte à la coryphène et aux légumes)",
+   "country": "MT",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:30.603Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Torta+tal-lampuki+Maltese+lampuki+pie&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "1a3b76cf-e0cc-ccb3-5c51-241a879443c9",
+   "slug": "peka-dalmate",
+   "title": "Peka dalmate (agneau et pommes de terre sous cloche)",
+   "country": "HR",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:20:38.598Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Ear_pendant_(peka_peka),_Maori_people,_Honolulu_Museum_of_Art,_3351.JPG",
+    "https://commons.wikimedia.org/wiki/File:Jan_Peka_(cropped).jpg",
+    "https://commons.wikimedia.org/wiki/File:PALMA_PRIDE_2022_-_Peka_Mimosa.png",
+    "https://commons.wikimedia.org/wiki/File:Aut%C3%B3grafo_Peka_Mimosa.png",
+    "https://commons.wikimedia.org/wiki/File:Buen_viaje_mam%C3%A1_0-22_screenshot.png",
+    "https://commons.wikimedia.org/wiki/File:Peka_Mimosa,_Juani_Ruiz_y_Jos%C3%A9_Mola.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "1a9d42d1-5a5c-496a-8dc2-f704f3548112",
+   "slug": null,
+   "title": "Sancocho panaméen de poulet, igname et culantro",
+   "country": "PA",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:19:40.801Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Sancocho+de+gallina+paname%C3%B1o+Sancocho+de+gallina+paname%C3%B1o&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "1e50dad1-6c27-8bd5-3e80-bc3cb624d8de",
+   "slug": "tuluk-vanuatu",
+   "title": "Tuluk du Vanuatu (pâte de manioc farcie au porc en feuille)",
+   "country": "VU",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:20:57.991Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:River_Tuluk.jpg",
+    "https://commons.wikimedia.org/wiki/File:River_Tuluk,_ford.jpg",
+    "https://commons.wikimedia.org/wiki/File:Source_R._Tuluk.jpg",
+    "https://commons.wikimedia.org/wiki/File:Valley_R._Tuluk.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "20b0205d-735b-1581-7371-3156c519bf64",
+   "slug": "potato-greens-liberia",
+   "title": "Potato greens libériennes (feuilles de patate douce en sauce)",
+   "country": "LR",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:20.581Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Sweet_potato_-_32916790297.jpg",
+    "https://commons.wikimedia.org/wiki/File:Sweet_potato_-_Kato.jpg",
+    "https://commons.wikimedia.org/wiki/File:Sweet_Potato_Sauteed_With_Honey.jpg",
+    "https://commons.wikimedia.org/wiki/File:Sweet_Potato_Curry.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "244fcde4-e7fe-10dd-089f-c4d7907bc6fb",
+   "slug": "fah-fah-djiboutien",
+   "title": "Fah-fah djiboutien (soupe épicée de chevreau)",
+   "country": "DJ",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:20:35.293Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Fah-fah+Djiboutian+fah-fah&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "24bffc68-8746-4e16-8656-e2311fae2ce2",
+   "slug": null,
+   "title": "Mexican Seasoning",
+   "country": "MX",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:22:48.490Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:MinilladeAnguila02.JPG",
+    "https://commons.wikimedia.org/wiki/File:HEB_Taco_seasoning_mix.jpg",
+    "https://commons.wikimedia.org/wiki/File:MyPlate_gov_Cultural_Food_(20241025-USDA-FNS-UNK-0030).jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "26282ed8-e56c-010f-5532-e886ee16fd46",
+   "slug": "pudding-and-souse",
+   "title": "Pudding and souse (porc mariné au citron et boudin de patate douce)",
+   "country": "BB",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:11.646Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Court_cookery-_or,_the_compleat_English_cook_Fleuron_T091555-2.png",
+    "https://commons.wikimedia.org/wiki/File:Court_cookery-_or,_the_compleat_English_cook_Fleuron_T091555-3.png",
+    "https://commons.wikimedia.org/wiki/File:Court_cookery-_or,_the_compleat_English_cook_Fleuron_T091555-4.png",
+    "https://commons.wikimedia.org/wiki/File:Court_cookery-_or,_the_compleat_English_cook_Fleuron_T091555-6.png",
+    "https://commons.wikimedia.org/wiki/File:Court_cookery-_or,_the_compleat_English_cook_Fleuron_T091555-8.png"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "281e4c9a-6535-6b20-1780-8534f45d4400",
+   "slug": "salara-guyana",
+   "title": "Salara guyanien (brioche roulée à la noix de coco rouge)",
+   "country": "GY",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:43.329Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:San_Valentino_e_Via_Roma_(Salara,_comune,_Italy).JPG",
+    "https://commons.wikimedia.org/wiki/File:Piazza_dei_Martiri_(Salara).JPG",
+    "https://commons.wikimedia.org/wiki/File:Cartello_informazioni_turistiche_(Salara).JPG",
+    "https://commons.wikimedia.org/wiki/File:Monumento_ai_caduti_(Salara).JPG",
+    "https://commons.wikimedia.org/wiki/File:Vista_sulla_campagna_dall%27ex_Monastero_di_Santa_Croce_(Salara,_comune,_Italy).JPG",
+    "https://commons.wikimedia.org/wiki/File:Elllllena,_La_Salara_di_Bologna.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "2833625a-eb6b-e02c-3bc4-7e9f46c1b6ff",
+   "slug": "diri-djon-djon",
+   "title": "Diri ak djon djon haïtien (riz noir aux champignons djon djon)",
+   "country": "HT",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:23.481Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Diri+ak+djon+djon+Haitian+diri+ak+djon+djon&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "2b584549-9e6b-a5e5-8f33-2fb2eac11664",
+   "slug": "pastelitos-hondurenos",
+   "title": "Pastelitos honduriens (chaussons de maïs à la viande)",
+   "country": "HN",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:27.741Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Pastelito_de_Carne_de_Ricomini,_una_panader%C3%ADa_en_Mayag%C3%BCez,_Puerto_Rico.jpg",
+    "https://commons.wikimedia.org/wiki/File:Pastelitos_andinos.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "2bea7f7f-fe7d-465a-be7a-72a7cfd4be5d",
+   "slug": null,
+   "title": "Ikan sabuko timorais au tamarin et basilic",
+   "country": "TL",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:28.812Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Ikan+sabuko+Ikan+sabuko&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "2c2b49ce-28d9-e576-fd58-60aefcc02415",
+   "slug": "suqaar-somali",
+   "title": "Suqaar somalien (bœuf sauté aux légumes et xawaash)",
+   "country": "SO",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:34.635Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Suqaar+Somali+suqaar&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "31d8fa58-d14e-4e10-b53d-6cb3f224330a",
+   "slug": null,
+   "title": "Fish ambul thiyal sri-lankais",
+   "country": "LK",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:34.551Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Fish+ambul+thiyal+sri-lankais+Fish+ambul+thiyal+sri-lankais&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "32c17549-045d-6cc7-85fd-e9ef72f52689",
+   "slug": "cambuulo-somali",
+   "title": "Cambuulo somalien (haricots azuki au beurre et au sucre)",
+   "country": "SO",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:34.622Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Cambuulo+Somali+cambuulo&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "3581fcde-a6da-93a2-3f50-433c9c67c302",
+   "slug": "kofta-bi-tahini",
+   "title": "Kofta bi tahini jordanienne (boulettes d’agneau au four sauce tahini)",
+   "country": "JO",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:34.619Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Kofta+bi+tahini+Jordanian+kofta+bi+tahini&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "3ab6f805-1064-6e3a-2129-127acbace17a",
+   "slug": "aigir-east-new-britain",
+   "title": "Aigir de Nouvelle-Bretagne (poulet et légumes au lait de coco aux pierres chaudes)",
+   "country": "PG",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:40.677Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Aigir+East+New+Britain+aigir&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "416b379c-94c1-4d6d-b867-f6ae73569f45",
+   "slug": null,
+   "title": "Potato Castle",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:22:45.645Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Potato_field_and_Mausoleum_-_geograph.org.uk_-_175984.jpg",
+    "https://commons.wikimedia.org/wiki/File:Derryleamleary_Castle_-_geograph.org.uk_-_537647.jpg",
+    "https://commons.wikimedia.org/wiki/File:Castle_Menzies_-_geograph.org.uk_-_632999.jpg",
+    "https://commons.wikimedia.org/wiki/File:Kellie_Castle_farm_-_geograph.org.uk_-_1212244.jpg",
+    "https://commons.wikimedia.org/wiki/File:Castle_Ward,_June_2011_(21).JPG"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "475adb16-86e0-cca7-567f-11ac37571279",
+   "slug": "phaksha-paa",
+   "title": "Phaksha paa bhoutanais (porc aux radis et piments séchés)",
+   "country": "BT",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:44.811Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Phaksha+paa+Bhutanese+phaksha+paa&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "4b002912-7e44-4d36-9ec2-811ebd43c138",
+   "slug": null,
+   "title": "'Out of Salad Dressing' Salad Dressing",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:22:14.965Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Yam_wun_sen.JPG",
+    "https://commons.wikimedia.org/wiki/File:The_Food_at_Davids_Kitchen_011.jpg",
+    "https://commons.wikimedia.org/wiki/File:Lunch_sandwich.jpg",
+    "https://commons.wikimedia.org/wiki/File:On_my_bike_trip,_I_was_eating_some_high_calorie_foods;_like_cheeseburgers,_but_burning_lots_of_calories_(36867877196).jpg",
+    "https://commons.wikimedia.org/wiki/File:Practical_Receipts_-_Salad_Dressing.png"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "4d2aa42b-864f-4533-f230-b46c54b06517",
+   "slug": "panipopo",
+   "title": "Panipopo samoans (petits pains briochés au caramel de coco)",
+   "country": "WS",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:44.891Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Panipopo+Samoan+panipopo&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "4dd567c7-aac6-5941-ae55-15e355519624",
+   "slug": "truita-de-carreroles",
+   "title": "Truita de carreroles andorrane (omelette aux mousserons)",
+   "country": "AD",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:52.819Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Truita+de+carreroles+Andorran+truita+de+carreroles&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "4f5746b0-41cd-43fc-92d2-8ef7a168f5d2",
+   "slug": null,
+   "title": "Acid Drops",
+   "country": "GB",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:18.795Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Sulfuric_acid_burning_tissue_paper.jpg",
+    "https://commons.wikimedia.org/wiki/File:Alkaptonuria.jpg",
+    "https://commons.wikimedia.org/wiki/File:LiquidLSDBottle.jpg",
+    "https://commons.wikimedia.org/wiki/File:Acidic_drain_cleaner_containing_sulfuric_acid_(sulphuric_acid).jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "5196f6a1-0059-f657-3ffd-86be25e273f4",
+   "slug": "yuca-con-mojo",
+   "title": "Yuca con mojo cubaine (manioc à l’ail et aux agrumes)",
+   "country": "CU",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:59.612Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Yuca+con+mojo+Cuban+yuca+con+mojo&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "55df7cda-cd2c-2329-1981-85243148cf49",
+   "slug": "ibiharage-rwandais",
+   "title": "Ibiharage rwandais (haricots sautés à l’oignon)",
+   "country": "RW",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:21:59.691Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Ibiharage+Rwandan+ibiharage&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "5912b8ba-320a-4ae9-5f77-17be9bd33ab6",
+   "slug": "harissa-armenienne",
+   "title": "Harissa arménienne (bouillie de blé et de poulet)",
+   "country": "AM",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:22:48.539Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Harissa,_Lebanon_2010.jpg",
+    "https://commons.wikimedia.org/wiki/File:Harissa_Sauce.JPG",
+    "https://commons.wikimedia.org/wiki/File:Harissa_5.jpg",
+    "https://commons.wikimedia.org/wiki/File:Harissa_4.jpg",
+    "https://commons.wikimedia.org/wiki/File:Harissa_3.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "59a19513-fb12-68c4-0e97-b3158f438b1a",
+   "slug": "saksak",
+   "title": "Saksak du Sepik (boulettes de sagou à la banane et coco)",
+   "country": "PG",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:22:06.266Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Saksak+Sepik+saksak&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "5cd3a3d3-6a01-ccb7-195e-63ac8ab08703",
+   "slug": "karkanji-tchadien",
+   "title": "Karkanji tchadien (boisson d’hibiscus au gingembre)",
+   "country": "TD",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:22:17.010Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Karkanji+Chadian+karkanji&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "60b6f8d4-f26c-400e-befa-56a2d776ff5f",
+   "slug": null,
+   "title": "Italian Seasoning",
+   "country": "US",
+   "decision": "photo_validated",
+   "searched_at": "2026-10-04T01:23:19.078Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Italian_sausage_on_the_grill.jpg",
+    "https://commons.wikimedia.org/wiki/File:Nessuna_immagine_autorizzata_-_Cucina.png",
+    "https://commons.wikimedia.org/wiki/File:Italian_Herb_Mix,_Penzeys_Spices,_Arlington_Heights_MA.jpg",
+    "https://commons.wikimedia.org/wiki/File:Campanelle_Bolognese.jpg",
+    "https://commons.wikimedia.org/wiki/File:Pappa_al_pomodoro_(8695992495).png"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "61ef8c3a-1cab-4904-b8b5-f3d5bf7470ea",
+   "slug": null,
+   "title": "Avocado Relish",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:20.501Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:%27Baa_Baa%27_burger_meal,_Grill%27d_William_Street,_2026_(01).jpg",
+    "https://commons.wikimedia.org/wiki/File:%27Baa_Baa%27_burger_meal,_Grill%27d_William_Street,_2026_(02).jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "6318c123-a38e-4598-8c56-bd04062b2acc",
+   "slug": null,
+   "title": "Lemon Icing",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:22.426Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Snowflake_Christmas_sugar_cookies,_December_2008.jpg",
+    "https://commons.wikimedia.org/wiki/File:Lemon_shortbread_cookies_with_lemon_royal_icing.jpg",
+    "https://commons.wikimedia.org/wiki/File:Glazed_Lemon_Bundt_Cake.jpg",
+    "https://commons.wikimedia.org/wiki/File:Lemon_bundt_cake_(3),_January_2010.jpg",
+    "https://commons.wikimedia.org/wiki/File:Lemon_bundt_cake_(2),_January_2010.jpg",
+    "https://commons.wikimedia.org/wiki/File:Lemon_bundt_cake,_January_2010.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "63c4f98d-dc56-d3d9-f00b-ff07d040d9d0",
+   "slug": "lapskaus-norvegien",
+   "title": "Lapskaus norvégien (ragoût épais de viande et légumes racines)",
+   "country": "NO",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:18.817Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Lapskaus_stand.JPG",
+    "https://commons.wikimedia.org/wiki/File:Labskaus_Lapskaus_0315.jpg",
+    "https://commons.wikimedia.org/wiki/File:Labskaus_Lapskaus_0316.JPG",
+    "https://commons.wikimedia.org/wiki/File:Labskaus_Lapskaus_0315-optimiert.jpg",
+    "https://commons.wikimedia.org/wiki/File:Lapskaus_stand_cropped.JPG",
+    "https://commons.wikimedia.org/wiki/File:Lapskaus1.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "64ba966a-e05c-553e-7651-2d00e4f731bd",
+   "slug": "bis-keemiya",
+   "title": "Bis keemiya maldiviens (chaussons au thon, chou et œuf)",
+   "country": "MV",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:22:56.381Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Bis+keemiya+Maldivian+bis+keemiya&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "65f10ec4-1fd0-734f-8437-8fefcd3a7fae",
+   "slug": "ndiwo-za-nkhwani",
+   "title": "Nkhwani malawien (feuilles de courge à la pâte d’arachide)",
+   "country": "MW",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:09.181Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Nkhwani+Malawian+nkhwani&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "6f1ddcfe-ce8a-4116-582e-775f51439c69",
+   "slug": "akoho-sy-voanio",
+   "title": "Akoho sy voanio malgache (poulet au lait de coco)",
+   "country": "MG",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:22.489Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Akoho+sy+voanio+Malagasy+akoho+sy+voanio&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "72a9084c-3c60-6599-94cd-12b1f368bf5d",
+   "slug": "bai-sach-chrouk",
+   "title": "Bai sach chrouk cambodgien (porc grillé à la noix de coco et riz)",
+   "country": "KH",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:30.615Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Bai+sach+chrouk+Cambodian+bai+sach+chrouk&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "73b9ca27-7713-dd86-3472-a27d34aae27f",
+   "slug": "vakalolo",
+   "title": "Vakalolo fidjien (pudding de manioc au caramel de coco)",
+   "country": "FJ",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:30.624Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Vakalolo+Fijian+vakalolo&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "7473f352-944c-309e-3c87-d3b76371123a",
+   "slug": "canja-cap-verdienne",
+   "title": "Canja cap-verdienne (soupe de poulet au riz)",
+   "country": "CV",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:33.727Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Canja_de_galinha.jpg",
+    "https://commons.wikimedia.org/wiki/File:James_Heath_-_Canja_Undersail_-_B1977.14.8617_-_Yale_Center_for_British_Art.jpg",
+    "https://commons.wikimedia.org/wiki/File:Canja_under_sail.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "749ffc39-d926-41ed-af9d-5aba5ab969a5",
+   "slug": null,
+   "title": "Cherry Delight",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:34.393Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Bosch,_Hieronymus_-_The_Garden_of_Earthly_Delights,_central_panel_-_Detai_Man_eating_a_strawberry,_Man_eating_a_cherry,_and_a_man_bending_over_a_fictional_fruit.jpg",
+    "https://commons.wikimedia.org/wiki/File:File-Bosch,_Hieronymus_-_The_Garden_of_Earthly_Delights,_center_panel_-_Detail_camel_(mid-right).jpg",
+    "https://commons.wikimedia.org/wiki/File:Field_boundary,_autumn,_North_of_Cherry_Wilingham,_Lincs._-_geograph.org.uk_-_656871.jpg",
+    "https://commons.wikimedia.org/wiki/File:Cherry_Point_Chefs_show_off_culinary_skills_at_Chef_of_Quarter_competition_120621-M-EG384-216.jpg",
+    "https://commons.wikimedia.org/wiki/File:CBG_Heritage_Gdn_Figwort_Fam_Bed_-_Penstemon_%27Husker_Red%27,_Phygelius_x_rectus_Cherry_Ripe,_Buddleia_%27Pink_Delight%27,_Angelonia_Angelface%C2%AE_Wedgwood_Blue,_Sutera_grandiflora_Big_Falls%E2%84%A2_Dark_Blue_150620_(20335561951).jpg",
+    "https://commons.wikimedia.org/wiki/File:ECBG_Heritage_Gdn_Figwort_Fam_Bed_-_Penstemon_%27Huskr_Red%27,_Phygelius_x_rectus_Cherry_Ripe,_Buddleia_%27Pink_Delight%27_Butterfly_Bush,_Antirrhinum_%27Rocket_Red%27_Snapdragon_150620_(20329529275).jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "787b5e77-cff1-208e-4225-eff3940978fb",
+   "slug": "koko-alaisa",
+   "title": "Koko alaisa samoan (riz au cacao de Samoa)",
+   "country": "WS",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:30.610Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Koko+alaisa+Samoan+koko+alaisa&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "78b57d81-d722-37f2-72e2-82c227c9a619",
+   "slug": "parippu-sri-lankais",
+   "title": "Parippu sri-lankais (dhal de lentilles corail au lait de coco)",
+   "country": "LK",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:07.308Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Dal_packet_20230704.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "791b1511-b0ac-e74c-d711-e84ded477636",
+   "slug": "vitumbuwa-zambiens",
+   "title": "Vitumbuwa zambiens (petits beignets ronds)",
+   "country": "ZM",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:40.055Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Vitumbuwa+Zambian+vitumbuwa&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "79d2cdd7-18e2-d558-a452-f2688e6b9f8c",
+   "slug": "muhammar-bahrein",
+   "title": "Muhammar bahreïni (riz sucré au sirop de dattes et safran)",
+   "country": "BH",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:40.045Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Muhammar+Bahraini+muhammar&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "7ac5b33a-7263-5b74-6659-28ad9acff144",
+   "slug": "fijian-chicken-curry",
+   "title": "Curry de poulet indo-fidjien (masala et pommes de terre)",
+   "country": "FJ",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:40.079Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Curry+de+poulet+indo-fidjien+Indo-Fijian+chicken+curry&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "7b1bfe59-06f5-ba8a-44b4-0214680d4ce1",
+   "slug": "aiysh-tchadien",
+   "title": "Aiysh tchadien (boule de mil et sauce gombo)",
+   "country": "TD",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:36.834Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:The_new_council_building_of_Bney_Aiysh.jpeg",
+    "https://commons.wikimedia.org/wiki/File:Merekaz_meshari_bney_aiysh.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "7b85093a-7296-be95-a420-3b28e0f65d82",
+   "slug": "muriwo-une-dovi",
+   "title": "Muriwo une dovi zimbabwéen (légumes verts au beurre de cacahuète)",
+   "country": "ZW",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:47.430Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Muriwo+une+dovi+Zimbabwean+muriwo+une+dovi&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "7c1f0010-fcb4-2379-75c8-bc16883849eb",
+   "slug": "metemgee",
+   "title": "Metemgee guyanien (ragoût de tubercules au lait de coco et dumplings)",
+   "country": "GY",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:40.061Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Metemgee+Guyanese+metemgee&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "7e1d58b4-c8bf-7242-317b-d6652e6965f7",
+   "slug": "bolo-polana",
+   "title": "Bolo polana de Maputo (gâteau aux noix de cajou et pomme de terre)",
+   "country": "MZ",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:47.644Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Horn%C3%BD_Smokovec_za%C4%8Diatok_20._storo%C4%8Dia_(5).jpg"
+   ],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Bolo+polana+Maputo+bolo+polana&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "7e6d4e8e-a29f-40f6-95fe-039746467e3c",
+   "slug": null,
+   "title": "Potato and Cabbage Soup",
+   "country": "AL",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:44.736Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:KOCIS_Gamjatang,_pork-on-the-bone_soup_with_potatoes_(5029033968).jpg",
+    "https://commons.wikimedia.org/wiki/File:KOCIS_Gamjatang,_pork-on-the-bone_soup_with_potatoes_(5029033934).jpg",
+    "https://commons.wikimedia.org/wiki/File:9644Home_cooking_in_the_Philippines_11.jpg",
+    "https://commons.wikimedia.org/wiki/File:9644Home_cooking_in_the_Philippines_12.jpg",
+    "https://commons.wikimedia.org/wiki/File:9644Home_cooking_in_the_Philippines_16.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "7ff7b501-5ab3-4847-9fc2-3f1478623526",
+   "slug": null,
+   "title": "Cocoa Mix",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:46.268Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Cocoa_Cake_2012.9.jpg",
+    "https://commons.wikimedia.org/wiki/File:Industries_of_War_-_Candy_-_MAKING_CHOCOLATE_FOR_THE_AMERICAN_SOLIDER._Mixing_Cocoa_at_the_Pirika_chocolate_Company_Plant_in_Brooklyn_-_NARA_-_31486470.jpg",
+    "https://commons.wikimedia.org/wiki/File:Industries_of_War_-_Cocoa_-_INDUSTRIES_OF_WAR._Mixing_room_in_a_big_chocolate_factory_-_NARA_-_31487947.jpg",
+    "https://commons.wikimedia.org/wiki/File:Industries_of_War_-_Cocoa_-_INDUSTRIES_OF_WAR._Ground_cocoa_ready_for_the_mixing_machines_in_a_big_chocolate_factory._Huge_quantities_of_chocolate_are_put_into_the_field_rations_of_our_men_in_France_-_NARA_-_31487951.jpg",
+    "https://commons.wikimedia.org/wiki/File:Industries_of_War_-_Cocoa_-_MANUFACTURE_OF_CHOCOLATE_AND_COCOA._White_room,_mixing_and_grinding._Rockwood_and_Company,_Brooklyn,_New_York_-_NARA_-_31487987.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "802845c5-cff5-e4e3-c54c-1840f7e0dd71",
+   "slug": "jocon-guatemalteque",
+   "title": "Jocón guatémaltèque (poulet en sauce verte au tomatillo)",
+   "country": "GT",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:53.919Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Joc%C3%B3n+Guatemalan+joc%C3%B3n&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "88349009-077e-1b4e-ba29-38da114746aa",
+   "slug": "pastel-com-diabo-dentro",
+   "title": "Pastel com diabo dentro de Mindelo (chaussons au thon pimenté)",
+   "country": "CV",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:53.909Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Pastel+com+diabo+dentro+Mindelo+pastel+com+diabo+dentro&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "8bf3d79b-5799-487c-9bca-d7b4c1378b40",
+   "slug": null,
+   "title": "Spiced Oysters",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:23:54.930Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:The_Rochester_address_or_the_corporation_going_to_eat_roast_pork_and_oysters_with_the_r-g-t._(BM_1851,0901.457).jpg",
+    "https://commons.wikimedia.org/wiki/File:The_Rochester_address_or_the_corporation_going_to_eat_roast_pork_and_oysters_with_the_r-g-t._(BM_1851,0901.457_1).jpg",
+    "https://commons.wikimedia.org/wiki/File:Callected_Oysters_From_Kopai_Riverbed_-_Traditional_Santal_Food_Mela_-_11th_Museum_Day_Celebration_-_Museum_Of_Santal_Culture_-_Birbhum_2024-12-07_00650.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "8c2a4adf-8fee-1d5a-235a-4e8577ccd947",
+   "slug": "nalot",
+   "title": "Nalot du Vanuatu (taro ou banane pilés au lait de coco)",
+   "country": "VU",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:51.720Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Nalot_niemczyzny_1910_1931.jpg",
+    "https://commons.wikimedia.org/wiki/File:Szczecin,_ul._Klemensa_Janickiego_(nalot_nielota).jpg",
+    "https://commons.wikimedia.org/wiki/File:St%C3%A8le_du_Colonel_Samuel_Nalot.jpg",
+    "https://commons.wikimedia.org/wiki/File:Nalot_samolot%C3%B3w_niemieckich_na_Warszaw%C4%99_(2-70).jpg",
+    "https://commons.wikimedia.org/wiki/File:Nalot_bombowy_samolot%C3%B3w_na_pozycje_niemieckie_(2-667).jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "8d7914ec-3ca3-5369-a2c3-3fc4597dd058",
+   "slug": "kespe-kazakh",
+   "title": "Kespe kazakh (soupe de nouilles maison au bœuf)",
+   "country": "KZ",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:05.788Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Nieuwjaarsreceptie_van_de_Commissaris_der_Koning_in_Zuid-Holland,_mr._L.A._Kespe,_Bestanddeelnr_093-1132.jpg"
+   ],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Kespe+Kazakh+kespe&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "93dc0204-c79b-c4c1-ad0d-537bd210b738",
+   "slug": "camarao-piri-piri",
+   "title": "Crevettes grillées piri-piri du Mozambique",
+   "country": "MZ",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:01.870Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Camar%C3%A3o+grelhado+piri-piri+Mozambican+grilled+piri-piri+prawns&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "944fedd6-4030-4965-8513-00433e417867",
+   "slug": null,
+   "title": "Venetian Soup",
+   "country": "IT",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:29.796Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Tolnai_Lajos_Stra%C3%9Fe_25,_2025_Csarnoknegyed.jpg"
+   ],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Venetian+Soup+Venetian+Soup&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "9521b151-6db0-ed0b-214b-d64c9181b518",
+   "slug": "buzara-boka",
+   "title": "Buzara des Bouches de Kotor (moules au vin blanc, ail et chapelure)",
+   "country": "ME",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:48.413Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Buzara_onelia.JPG",
+    "https://commons.wikimedia.org/wiki/File:A50-20150416-014_(19544205221).jpg",
+    "https://commons.wikimedia.org/wiki/File:A50-20150416-013_(19352019978).jpg",
+    "https://commons.wikimedia.org/wiki/File:Ann_Mus_StorNat_Genova15Plate4.jpg",
+    "https://commons.wikimedia.org/wiki/File:Moth,Buzara_onelia.jpg",
+    "https://commons.wikimedia.org/wiki/File:Buzara_onelia_(10.3897-BDJ.9.e73997)_Figure_13d.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "955b216e-a907-44a8-b1a4-4fb321a59627",
+   "slug": null,
+   "title": "Rourou fidjien aux feuilles de taro et coco",
+   "country": "FJ",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:14.552Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Windsor,_vrcholov%C3%A1_partie_s_okapovou_rourou.JPG",
+    "https://commons.wikimedia.org/wiki/File:Funeraire_stela_van_Rourou,_GDE002960.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "964b4caa-3aca-49f9-96c8-829aa357d5f5",
+   "slug": null,
+   "title": "Skoudehkaris djiboutien à l’agneau et riz épicé",
+   "country": "DJ",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:20.541Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Skoudehkaris+Skoudehkaris&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "99699beb-de07-bad4-d99e-175e08f439b0",
+   "slug": "mashwi-tchadien",
+   "title": "Mashwi tchadien (brochettes de bœuf aux épices)",
+   "country": "TD",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:48.487Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Dajaj_Mashwi.jpg",
+    "https://commons.wikimedia.org/wiki/File:Samak_mashwi.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "9c12e4ca-d7e3-06fb-a17f-39d951cdd9b8",
+   "slug": "cassava-leaf-liberia",
+   "title": "Cassava leaf libérien (feuilles de manioc à l’huile de palme)",
+   "country": "LR",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:15.951Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Purple_leaf_cassava_(5107346180).jpg",
+    "https://commons.wikimedia.org/wiki/File:Cassava_Bread_-_cassava_cooked_in_leaf_wrap_(Kwanga,_Chikwangue).jpg",
+    "https://commons.wikimedia.org/wiki/File:Kerala_Cassava_plant_2.jpg",
+    "https://commons.wikimedia.org/wiki/File:Cassava_flour_-_roll_of_dough_on_leaf_wrap.jpg",
+    "https://commons.wikimedia.org/wiki/File:Cassava_Leaf.jpg",
+    "https://commons.wikimedia.org/wiki/File:Cassava_plant_leaf.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "a51db881-68ba-4699-b4d7-22f6de617394",
+   "slug": null,
+   "title": "Cou-cou bajan au poisson volant",
+   "country": "BB",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:56.457Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Cou-cou+and+flying+fish+Cou-cou+and+flying+fish&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "a58365d5-ceee-4d96-bea6-05d264c1d742",
+   "slug": null,
+   "title": "Ham Sauce (Modern)",
+   "country": "IT",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:24:56.493Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Ham+Sauce+Ham+Sauce&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "aee32804-d3ad-fd88-7d67-8596707c1760",
+   "slug": "pastels-senegalais",
+   "title": "Pastels sénégalais (chaussons frits au poisson et sauce tomate pimentée)",
+   "country": "SN",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:43.058Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:The_Pastels.jpg",
+    "https://commons.wikimedia.org/wiki/File:Pastels_at_Corcoran_-_Stierch.jpg",
+    "https://commons.wikimedia.org/wiki/File:Oil-pastels-media.jpg",
+    "https://commons.wikimedia.org/wiki/File:Oil-pastels-media-box-0002.jpg",
+    "https://commons.wikimedia.org/wiki/File:Oil-pastels-media-box-0001.jpg",
+    "https://commons.wikimedia.org/wiki/File:Soft-pastels-pencils-green.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "af23a0d3-3232-f8b3-ee23-11f67b8c8f3d",
+   "slug": "akra-haitien",
+   "title": "Akra haïtiens (beignets de malanga aux épices)",
+   "country": "HT",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:29.024Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Akra_Mound_from_canal_side.jpg",
+    "https://commons.wikimedia.org/wiki/File:Akra_Mound_from_Canal_side_and_Afghan_Refugees_settlement_inside_Akra_premises.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "b21dccf4-b62e-b094-244f-bb3cbc0aa492",
+   "slug": "hojaldras-panamenas",
+   "title": "Hojaldras panaméennes (pâte frite gonflée du petit-déjeuner)",
+   "country": "PA",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:15.777Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:HOJALDRAS_KING.JPG",
+    "https://commons.wikimedia.org/wiki/File:M%C3%BAsica_en_pante%C3%B3n.jpg",
+    "https://commons.wikimedia.org/wiki/File:Hojaldra_rellena_de_mole_con_pollo.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "b2eb7629-fdc8-4fd4-bf67-f08c1207c618",
+   "slug": null,
+   "title": "Herbal Iced Tea",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:28.331Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Staff_Amanzi_Tea_Rooms_Marylebone_London_(55775632).jpeg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "b6c01006-c894-4bef-a4e0-84c5ef6ddbfd",
+   "slug": null,
+   "title": "Yuca frita salvadorienne au chicharrón",
+   "country": "SV",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:07.523Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Yuca+frita+con+chicharr%C3%B3n+Yuca+frita+con+chicharr%C3%B3n&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "b888c211-8773-784f-8fc1-4ad937d060a9",
+   "slug": "shirchoy-tadjik",
+   "title": "Shirchoy tadjik (thé au lait salé et beurre)",
+   "country": "TJ",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:21.204Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Shirchoy+Tajik+shirchoy&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "bd364f0b-df78-45d5-ad5e-bacf23b136ea",
+   "slug": null,
+   "title": "Ozark Pudding",
+   "country": "US",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:21.189Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Ozark+Pudding&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "bf97285a-fe83-1212-8358-fd19e4307a2f",
+   "slug": "shor-nakhod-kaboul",
+   "title": "Shor nakhod de Kaboul (salade de pois chiches et pommes de terre à la coriandre)",
+   "country": "AF",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:30.334Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Shor+nakhod+Kabul+shor+nakhod&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "c025d210-de6e-1c92-c003-089c16dadfdd",
+   "slug": "muufo-somali",
+   "title": "Muufo somalien (pains de maïs cuits au four)",
+   "country": "SO",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:30.339Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Muufo+Somali+muufo&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "c5c01050-88ce-8fb6-7742-90630cde5cf3",
+   "slug": "daraba-tchadien",
+   "title": "Daraba tchadien (gombo, légumes et beurre de cacahuète)",
+   "country": "TD",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:30.351Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Daraba+Chadian+daraba&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "c817cca1-1348-6d4b-be31-22dc610ceb24",
+   "slug": "guyanese-chicken-curry",
+   "title": "Curry de poulet guyanien (masala grillé et pommes de terre)",
+   "country": "GY",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:30.354Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Guyanese+chicken+curry+Guyanese+chicken+curry&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "d1d0857c-7040-4988-ac80-4fc1b36e5a9a",
+   "slug": null,
+   "title": "Albanian Meat with Walnuts",
+   "country": "AL",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:36.864Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Albanian+Meat+with+Walnuts+Albanian+Meat+with+Walnuts&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "d30c12e8-107d-433a-abc6-59de0106dad9",
+   "slug": null,
+   "title": "Ham Sauce (Historic)",
+   "country": "IT",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:36.916Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Ham+Sauce+Ham+Sauce&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "d32df6a0-e7f7-4d7a-aefb-3e40220aa45f",
+   "slug": null,
+   "title": "Italian Crispy Chicken",
+   "country": "IT",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:38.807Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Fried_chicken_Burger_in_Milan,_Italy.jpg",
+    "https://commons.wikimedia.org/wiki/File:%22_15_-_ITALY_-_fried_chicken_Burger_crispy_in_Via_Carlo_Farini_(Milan)_front_view_.jpg",
+    "https://commons.wikimedia.org/wiki/File:Golden_Chicken_Milanesa_with_Crisp_Breadcrumb_Coating.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "d40ee095-264b-64b9-38ef-74a389d39470",
+   "slug": "rosolje-estonien",
+   "title": "Rosolje estonien (salade de betterave, hareng et pommes de terre)",
+   "country": "EE",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:44.306Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Rosolje+Estonian+rosolje&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "d5459cd0-da46-c92e-ee71-b7764c852b11",
+   "slug": "quesadilla-salvadorena",
+   "title": "Quesadilla salvadorienne (gâteau au fromage et farine de riz)",
+   "country": "SV",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:44.329Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Quesadilla+salvadore%C3%B1a+Salvadoran+quesadilla&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "d94f3589-06c3-c04d-01d4-9d6b0c6cede1",
+   "slug": "kondowole-malawien",
+   "title": "Kondowole malawien (pâte de manioc du lac Malawi)",
+   "country": "MW",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:44.325Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Kondowole+Malawian+kondowole&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "daa572fe-2f84-cac8-1bd7-d50b50abe879",
+   "slug": "curry-crab-and-dumpling",
+   "title": "Curry crab and dumpling de Tobago (crabe au curry et quenelles)",
+   "country": "TT",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:44.487Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Steamed_floral-shaped_Butterfly_Dumpling_with_Charcoal_Bun_(Surath_Thani_Blue_Swimmer_Crab_Stir-Fried_in_Yellow_Curry).jpg"
+   ],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Curry+crab+and+dumpling+Tobago+curry+crab+and+dumpling&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "dea03034-20b1-8dd8-0dbe-3d59370c55ba",
+   "slug": "johnnycake-bahamas",
+   "title": "Johnnycake des Bahamas (pain de poêle au beurre)",
+   "country": "BS",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:42.285Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Jonnycakes_01.jpg",
+    "https://commons.wikimedia.org/wiki/File:Johnnycakes.jpg",
+    "https://commons.wikimedia.org/wiki/File:Johnnycakes_(cropped).jpg",
+    "https://commons.wikimedia.org/wiki/File:Johnnycake.jpg",
+    "https://commons.wikimedia.org/wiki/File:Johnnycake,_West_Indies_01.jpg",
+    "https://commons.wikimedia.org/wiki/File:Johnnycake,_West_Indies_02.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "df4e66c7-8b0d-7d08-27c7-887fbe437f2e",
+   "slug": "udang-sambal-serai-lada",
+   "title": "Udang sambal serai lada (crevettes à la citronnelle et piment de Brunei)",
+   "country": "BN",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:59.087Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Udang+sambal+serai+lada+Bruneian+udang+sambal+serai+lada&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "df9a9e72-7ab5-2d2f-4b7e-05cc71c2b087",
+   "slug": "chicken-souse-bahamas",
+   "title": "Chicken souse des Bahamas (soupe de poulet au citron vert)",
+   "country": "BS",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:02.316Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Chicken_feet_souse,_2012.jpg",
+    "https://commons.wikimedia.org/wiki/File:02024_2112_Latkes_bar,_boiled_chicken_in_mashrooms_souse.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "e04caf4b-c3a7-3cd8-82bd-2beee1897bc4",
+   "slug": "poisson-yemenite-djibouti",
+   "title": "Poisson à la yéménite de Djibouti (poisson rôti au four et sauce pimentée)",
+   "country": "DJ",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:59.132Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Poisson+%C3%A0+la+y%C3%A9m%C3%A9nite+Djibouti+Yemeni-style+fish&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "e072c006-a36f-9b82-4c55-ad0d5e9fa206",
+   "slug": "hafalab",
+   "title": "Hafaläb du Liechtenstein (quenelle de maïs et blé au lard)",
+   "country": "LI",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:59.127Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Hafal%C3%A4b+Liechtenstein+Hafal%C3%A4b&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "e1184977-e39b-f41c-b0d1-4f8ecc7324ce",
+   "slug": "agatogo-rwandais",
+   "title": "Agatogo rwandais (bananes plantains et viande en sauce)",
+   "country": "RW",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:59.102Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Agatogo+Rwandan+agatogo&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "e2f61ad2-14cb-4cb6-a128-28302506ed5a",
+   "slug": null,
+   "title": "Oven-Fried Chicken Breasts",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:25:59.092Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Oven-Fried+Chicken+Breasts+Oven-Fried+Chicken+Breasts&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "e4ecc09f-2688-1f58-fa9e-74705c4d8290",
+   "slug": "plato-tipico-hondureno",
+   "title": "Plato típico hondurien (assiette de bœuf grillé, haricots et plantain)",
+   "country": "HN",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:27:00.150Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Cachapa_Plato_T%C3%ADpico_Venezolano.jpg",
+    "https://commons.wikimedia.org/wiki/File:Ajicero_-_Plato_t%C3%ADpico_del_Guain%C3%ADa.jpg",
+    "https://commons.wikimedia.org/wiki/File:Plato_tipico.JPG",
+    "https://commons.wikimedia.org/wiki/File:Plato_de_noche_buena.jpg",
+    "https://commons.wikimedia.org/wiki/File:Plato_pace%C3%B1o_a_lo_gourmet.jpg",
+    "https://commons.wikimedia.org/wiki/File:Plato_pace%C3%B1o_rectificado.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "eb1d18a6-8123-4d7c-b042-39cfc982d398",
+   "slug": null,
+   "title": "Mediterranean Green Chicken",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:16.901Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Mediterranean+Green+Chicken+Mediterranean+Green+Chicken&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "eb745829-a657-40fc-b432-37a028940484",
+   "slug": null,
+   "title": "Banana Cream II",
+   "country": "GB",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:16.897Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Banana+Cream+II+Banana+Cream+II&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "ebc7a530-e1bb-21b6-e56d-724f59415ed9",
+   "slug": "chebab-emirati",
+   "title": "Chebab émiriens (crêpes épaisses au safran et cardamome)",
+   "country": "AE",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:17.292Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Agdz_Dar_Chebab.jpg"
+   ],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Chebab+Emirati+chebab&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "ebc833fb-078b-4704-a559-bf22a765010b",
+   "slug": null,
+   "title": "Veal Stock",
+   "country": "FR",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:16.616Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Farmer%27s_cyclopedia_of_live_stock_(Page_407)_BHL23726711.jpg",
+    "https://commons.wikimedia.org/wiki/File:Veal_chart_-_wholesale_and_retail_cuts_of_veal_-_United_States_-_American_-_National_Live_Stock_and_Meat_Board_-_1927_Chicago_04.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "ece4ba2f-ab83-16ea-146b-7e015bac5291",
+   "slug": "parene-buchty",
+   "title": "Parené buchty slovaques (brioches vapeur fourrées aux prunes)",
+   "country": "SK",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:16.907Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Paren%C3%A9+buchty+Slovak+paren%C3%A9+buchty&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "ef10a010-c6cd-4a14-a73b-ed787a5f3813",
+   "slug": null,
+   "title": "Pork Pot Pie",
+   "country": "US",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:36.435Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:HK_WC_%E7%81%A3%E4%BB%94_Wan_Chai_%E8%BB%92%E5%B0%BC%E8%A9%A9%E9%81%93_263_Hennessy_Road_September_2022_Px3_03.jpg"
+   ],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Pork+Pot+Pie&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "f1435b90-66c0-4c97-b869-440d1660e089",
+   "slug": null,
+   "title": "Egg in a Mist",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:22.754Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Dusky_indigobird,_Vidua_funerea,_on_the_lower_slopes_of_Mariepskop,_Hoedspruit,_Limpopo,_South_Africa.jpg",
+    "https://commons.wikimedia.org/wiki/File:Dusky_indigobird,_Vidua_funerea,_on_the_lower_slopes_of_Mariepskop,_Hoedspruit,_Limpopo,_South_Africa._-_51838438084.jpg",
+    "https://commons.wikimedia.org/wiki/File:Dusky_indigobird,_Vidua_funerea,_on_the_lower_slopes_of_Mariepskop,_Hoedspruit,_Limpopo,_South_Africa._-_51837132047.jpg",
+    "https://commons.wikimedia.org/wiki/File:Philipp_Egger_beim_Vulkanaufstieg.jpg",
+    "https://commons.wikimedia.org/wiki/File:Poland_2025_353_Czarna_G%C3%B3ra_-_Giant_Easter_Egg.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "f2e275af-b352-2a6a-4fa9-e73710daebb0",
+   "slug": "sorpa-kazakh",
+   "title": "Sorpa kazakhe (bouillon de mouton aux herbes)",
+   "country": "KZ",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:54.273Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Sorpa_03.jpg",
+    "https://commons.wikimedia.org/wiki/File:Sorpa_05.jpg",
+    "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%BA%D0%B0%D0%BD%D0%B4,_%D1%81%D0%BE%D1%80%D0%BF%D0%B0_%D0%B2_%D1%83%D0%BB%D0%B8%D1%87%D0%BD%D0%BE%D0%BC_%D0%BA%D0%B0%D1%84%D0%B5.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "f4c03ee8-41a9-a3c0-92a1-26a7d6440b82",
+   "slug": "bosanski-lonac",
+   "title": "Bosanski lonac (pot-au-feu bosnien de viandes et légumes)",
+   "country": "BA",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:27.062Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Bosanski+lonac+Bosanski+lonac&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  },
+  {
+   "id": "f62537a0-d8c4-b063-8c9c-447928852230",
+   "slug": "saloona-emirati",
+   "title": "Saloona émirienne (ragoût de poulet aux légumes et bzar)",
+   "country": "AE",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:23.233Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Saloonay_Chawal..JPG",
+    "https://commons.wikimedia.org/wiki/File:Maraq.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "f7cddc3a-9f89-4e81-8605-601f344911e8",
+   "slug": null,
+   "title": "Beurre Monté",
+   "country": "FR",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:59.024Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Lettre_Willette_Assiette_au_beurre.png",
+    "https://commons.wikimedia.org/wiki/File:Les_voisins_de_campagne_-_le_cours_des_oeufs_et_du_beurre,_conversations_oiseuses_nouvelles_de_l%27endroit_-_estampe_-_Henry_Monnier_-_btv1b10534531x.jpg",
+    "https://commons.wikimedia.org/wiki/File:Les_voisins_de_campagne_-_le_cours_des_oeufs_et_du_beurre,_conversations_oiseuses_nouvelles_de_l%27endroit_-_estampe_-_Henry_Monnier_-_btv1b10534825f.jpg",
+    "https://commons.wikimedia.org/wiki/File:Vall%C3%A9e_de_la_Tarentaise_@_Homme_de_Beurre.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "fc7b7793-6bd0-4ece-b90b-6d05899be036",
+   "slug": null,
+   "title": "Ftira gozitaine aux pommes de terre, tomate et anchois",
+   "country": "MT",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:56.776Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:Ftira.JPG",
+    "https://commons.wikimedia.org/wiki/File:Ftira_photo1_%D9%81%D8%B7%D9%8A%D8%B1%D8%A9.jpg",
+    "https://commons.wikimedia.org/wiki/File:Ftira_photo2_%D9%81%D8%B7%D9%8A%D8%B1%D8%A9.jpg",
+    "https://commons.wikimedia.org/wiki/File:Ftira_with_Tuna_in_Marsaxlokk_01.jpg",
+    "https://commons.wikimedia.org/wiki/File:Ftira_with_Tuna_in_Marsaxlokk_02.jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "feba461a-1040-4d98-a720-c96d63a6d575",
+   "slug": null,
+   "title": "Cheese Spread on French Bread",
+   "country": null,
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:54.213Z",
+   "commons_candidates": [
+    "https://commons.wikimedia.org/wiki/File:A_Meat_Stall_with_the_Holy_Family_Giving_Alms_-_Pieter_Aertsen_-_Google_Cultural_Institute.jpg",
+    "https://commons.wikimedia.org/wiki/File:WILMETTE_FRENCH_MARKET_(7410174892).jpg",
+    "https://commons.wikimedia.org/wiki/File:Grilled_Brie_with_Ginger_Horseradish_Baste_%26_Fruit_Nut_ToFu_Honey_Drizzle_Yogurt_%26_Bugles_(147934104).jpg"
+   ],
+   "supplementary_error": null,
+   "source_error": null
+  },
+  {
+   "id": "ff884323-70b5-3cf5-bfc5-17d6557f583f",
+   "slug": "saoto-soep",
+   "title": "Saoto soep surinamienne (soupe javanaise au poulet)",
+   "country": "SR",
+   "decision": "archived_pending_exact_photo",
+   "searched_at": "2026-10-04T01:26:48.395Z",
+   "commons_candidates": [],
+   "supplementary_error": "Error: Accès refusé : https://api.openverse.org/v1/images/?q=Saoto+soep+Surinamese+saoto+soup&license=by%2Cby-sa%2Ccc0%2Cpdm&source=flickr&page_size=10&mature=false",
+   "source_error": null
+  }
+ ]
+}

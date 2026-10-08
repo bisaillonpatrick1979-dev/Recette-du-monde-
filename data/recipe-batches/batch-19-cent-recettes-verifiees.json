@@ -1,0 +1,7379 @@
+[
+  {
+    "slug": "tonkatsu-jp",
+    "country": "JP",
+    "original": "Tonkatsu",
+    "title": "Tonkatsu (porc pané japonais)",
+    "en": "Tonkatsu (Japanese breaded pork)",
+    "es": "Tonkatsu (cerdo empanado japonés)",
+    "desc": "Côtelettes de porc japonaises en croûte de panko, servies avec chou et sauce tonkatsu.",
+    "cat": "Plat principal",
+    "diff": "medium",
+    "prep": 20,
+    "cook": 12,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Tonkatsu",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Porc désossé",
+        600.0,
+        "g",
+        "4 côtelettes de 1/2 pouce"
+      ],
+      [
+        "Farine",
+        50.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Panko",
+        120.0,
+        "g",
+        null
+      ],
+      [
+        "Huile de friture",
+        750.0,
+        "ml",
+        null
+      ],
+      [
+        "Chou",
+        250.0,
+        "g",
+        "émincé"
+      ],
+      [
+        "Sauce tonkatsu",
+        4.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Entailler les bordures grasses des côtelettes et les aplatir légèrement. Saler, puis préparer farine, œufs battus et panko dans trois assiettes.",
+      "Fariner la viande, la tremper dans les œufs puis presser le panko sur les deux faces.",
+      "Chauffer l’huile à 170 °C. Frire deux côtelettes à la fois, environ 5 à 7 minutes, jusqu’à croûte dorée et porc entièrement cuit, 71 °C au centre.",
+      "Égoutter sur une grille, laisser reposer 3 minutes et couper en lanières. Servir avec chou cru et sauce."
+    ]
+  },
+  {
+    "slug": "nikujaga-jp",
+    "country": "JP",
+    "original": "Nikujaga",
+    "title": "Nikujaga (bœuf et pommes de terre)",
+    "en": "Nikujaga (beef and potato stew)",
+    "es": "Nikujaga (estofado de ternera y patatas)",
+    "desc": "Mijoté familial japonais de fines tranches de bœuf, pommes de terre et oignon au dashi.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 30,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Nikujaga",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Bœuf en fines tranches",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Pommes de terre",
+        700.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Carotte",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Dashi",
+        500.0,
+        "ml",
+        null
+      ],
+      [
+        "Sauce soja",
+        4.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Mirin",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sucre",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Couper les pommes de terre et la carotte en morceaux de 1 pouce; émincer l’oignon.",
+      "Faire revenir l’oignon et le bœuf dans l’huile 3 minutes, puis ajouter les légumes.",
+      "Verser dashi, soja, mirin et sucre. Écumer, couvrir partiellement et mijoter 20 à 25 minutes, jusqu’à pommes de terre tendres.",
+      "Découvrir et réduire le bouillon 5 minutes; les morceaux doivent garder leur forme. Servir chaud avec du riz."
+    ]
+  },
+  {
+    "slug": "chawanmushi-jp",
+    "country": "JP",
+    "original": "Chawanmushi",
+    "title": "Chawanmushi (flan salé vapeur)",
+    "en": "Chawanmushi (steamed egg custard)",
+    "es": "Chawanmushi (flan salado al vapor)",
+    "desc": "Flan salé japonais au dashi, avec crevettes cuites et shiitakés. Cuisson douce pour éviter les bulles.",
+    "cat": "Entrée",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 20,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Chawanmushi",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Œufs",
+        3.0,
+        null,
+        null
+      ],
+      [
+        "Dashi froid",
+        450.0,
+        "ml",
+        null
+      ],
+      [
+        "Sauce soja claire",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Mirin",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Crevettes cuites",
+        8.0,
+        null,
+        null
+      ],
+      [
+        "Shiitakés",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Mitsuba",
+        4.0,
+        "feuilles",
+        null
+      ],
+      [
+        "Sel",
+        0.25,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Émincer les shiitakés et répartir avec les crevettes dans quatre petits ramequins résistant à la chaleur.",
+      "Battre doucement les œufs avec dashi, soja, mirin et sel, sans faire mousser. Passer au tamis.",
+      "Verser dans les ramequins et couvrir chacun d’un couvercle ou de papier aluminium. Déposer dans un panier vapeur au-dessus d’eau frémissante.",
+      "Cuire à petite vapeur 18 à 20 minutes : le centre doit être pris mais souple. Ajouter le mitsuba et servir chaud."
+    ]
+  },
+  {
+    "slug": "tamagoyaki-jp",
+    "country": "JP",
+    "original": "Tamagoyaki",
+    "title": "Tamagoyaki (omelette roulée)",
+    "en": "Tamagoyaki (rolled omelette)",
+    "es": "Tamagoyaki (tortilla enrollada)",
+    "desc": "Omelette japonaise roulée par couches, légèrement sucrée. Une petite poêle rectangulaire facilite le façonnage.",
+    "cat": "Petit-déjeuner",
+    "diff": "medium",
+    "prep": 10,
+    "cook": 10,
+    "serv": 2,
+    "reference": "https://www.maff.go.jp/e/policies/market/k_ryouri/search_menu/3533/index.html",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Œufs",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Dashi",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sucre",
+        2.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sauce soja",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Battre les œufs avec dashi, sucre et soja; passer au tamis pour homogénéiser.",
+      "Huiler une petite poêle et chauffer à feu moyen doux. Verser une fine couche d’œufs et laisser presque prendre.",
+      "Rouler vers un bord. Huiler la surface libre, ajouter une nouvelle couche en soulevant le rouleau pour que le liquide passe dessous, puis rouler à nouveau.",
+      "Répéter avec tout le mélange et cuire jusqu’à œufs pris. Laisser reposer 2 minutes, puis trancher."
+    ],
+    "place": "jp-tokyo"
+  },
+  {
+    "slug": "yakisoba-jp",
+    "country": "JP",
+    "original": "Yakisoba",
+    "title": "Yakisoba (nouilles sautées japonaises)",
+    "en": "Yakisoba (Japanese stir-fried noodles)",
+    "es": "Yakisoba (fideos japoneses salteados)",
+    "desc": "Nouilles de blé sautées au porc et au chou, assaisonnées d’une sauce douce et acidulée; ce ne sont pas des nouilles de sarrasin.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 15,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Yakisoba",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Nouilles yakisoba précuites",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Porc en fines lamelles",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Chou",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Carotte",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Huile",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sauce Worcestershire",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sauce soja",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Ketchup",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sucre",
+        1.0,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Mélanger Worcestershire, soja, ketchup et sucre. Délier les nouilles avec un peu d’eau chaude si nécessaire.",
+      "Sauter le porc dans l’huile 4 minutes, puis ajouter oignon, carotte en julienne et chou émincé.",
+      "Cuire 5 minutes en remuant, jusqu’à porc cuit et légumes encore légèrement croquants.",
+      "Ajouter nouilles et sauce. Sauter 3 à 4 minutes, jusqu’à ensemble très chaud et sauce répartie; servir aussitôt."
+    ]
+  },
+  {
+    "slug": "dorayaki-jp",
+    "country": "JP",
+    "original": "Dorayaki",
+    "title": "Dorayaki (crêpes à la pâte azuki)",
+    "en": "Dorayaki (red bean pancakes)",
+    "es": "Dorayaki (tortitas de judías rojas)",
+    "desc": "Deux petites crêpes japonaises moelleuses entourant une garniture de pâte sucrée de haricots azuki.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 15,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Dorayaki",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Sucre",
+        70.0,
+        "g",
+        null
+      ],
+      [
+        "Miel",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Levure chimique",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Eau",
+        60.0,
+        "ml",
+        null
+      ],
+      [
+        "Pâte azuki sucrée anko",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Battre œufs, sucre et miel. Incorporer farine et levure, puis l’eau; obtenir une pâte épaisse qui coule lentement. Reposer 15 minutes.",
+      "Huiler très légèrement une poêle antiadhésive et chauffer à feu moyen doux.",
+      "Verser de petits disques; cuire environ 2 minutes, jusqu’aux bulles, puis 30 à 60 secondes sur l’autre face. Réaliser 12 disques et refroidir.",
+      "Répartir l’anko sur six crêpes, fermer avec les six autres et presser les bords. Couvrir pour garder le moelleux."
+    ]
+  },
+  {
+    "slug": "daifuku-jp",
+    "country": "JP",
+    "original": "Daifuku",
+    "title": "Daifuku (mochi à la pâte azuki)",
+    "en": "Daifuku (red bean mochi)",
+    "es": "Daifuku (mochi de judías rojas)",
+    "desc": "Petits mochi japonais garnis d’anko. Adaptation au micro-ondes; la photo montre des versions blanche et rose.",
+    "cat": "Dessert",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 5,
+    "serv": 8,
+    "reference": "https://en.wikipedia.org/wiki/Daifuku",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine de riz gluant mochiko",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Eau",
+        180.0,
+        "ml",
+        null
+      ],
+      [
+        "Sucre",
+        50.0,
+        "g",
+        null
+      ],
+      [
+        "Pâte azuki sucrée anko",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Fécule de maïs",
+        40.0,
+        "g",
+        null
+      ]
+    ],
+    "steps": [
+      "Façonner huit boules d’anko. Mélanger farine, sucre et eau dans un bol résistant au micro-ondes.",
+      "Couvrir sans sceller. Cuire à puissance élevée 1 minute, remuer, puis recommencer par tranches de 30 secondes jusqu’à pâte translucide, collante et entièrement cuite, environ 3 à 4 minutes au total.",
+      "Déposer sur un plateau largement saupoudré de fécule. Tiédir juste assez pour manipuler, puis diviser en huit.",
+      "Aplatir chaque morceau, enfermer une boule d’anko et pincer pour fermer. Dépoussiérer; déguster le jour même."
+    ]
+  },
+  {
+    "slug": "mantou-cn",
+    "country": "CN",
+    "original": "Mantou",
+    "title": "Mantou (pains blancs vapeur)",
+    "en": "Mantou (steamed white buns)",
+    "es": "Mantou (panecillos al vapor)",
+    "desc": "Pains de blé chinois nature, sans farce, cuits à la vapeur. Prévoir environ 90 minutes de levée.",
+    "cat": "Accompagnement",
+    "diff": "medium",
+    "prep": 20,
+    "cook": 15,
+    "serv": 8,
+    "reference": "https://en.wikipedia.org/wiki/Mantou",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine",
+        400.0,
+        "g",
+        null
+      ],
+      [
+        "Eau tiède",
+        220.0,
+        "ml",
+        null
+      ],
+      [
+        "Levure sèche",
+        5.0,
+        "g",
+        null
+      ],
+      [
+        "Sucre",
+        20.0,
+        "g",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Mélanger farine, levure et sucre; ajouter eau et huile. Pétrir 10 minutes jusqu’à pâte lisse.",
+      "Couvrir et laisser doubler de volume, environ 1 heure. Dégazer et rouler en un boudin régulier.",
+      "Découper huit portions et poser sur des carrés de papier cuisson. Laisser lever 30 minutes dans le panier vapeur, sans serrer.",
+      "Cuire 15 minutes au-dessus d’eau bouillante. Éteindre, attendre 5 minutes avant d’ouvrir progressivement pour limiter l’affaissement."
+    ]
+  },
+  {
+    "slug": "youtiao-cn",
+    "country": "CN",
+    "original": "Youtiao",
+    "title": "Youtiao (beignets chinois allongés)",
+    "en": "Youtiao (Chinese fried dough sticks)",
+    "es": "Youtiao (buñuelos chinos alargados)",
+    "desc": "Bâtonnets de pâte frits, salés et gonflés, servis au petit-déjeuner chinois. Prévoir une nuit de repos au frais.",
+    "cat": "Petit-déjeuner",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 15,
+    "serv": 8,
+    "reference": "https://en.wikipedia.org/wiki/Youtiao",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Levure chimique",
+        6.0,
+        "g",
+        null
+      ],
+      [
+        "Bicarbonate",
+        1.0,
+        "g",
+        null
+      ],
+      [
+        "Sel",
+        4.0,
+        "g",
+        null
+      ],
+      [
+        "Œuf",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Eau",
+        150.0,
+        "ml",
+        null
+      ],
+      [
+        "Huile",
+        750.0,
+        "ml",
+        "plus 1 c. à soupe pour la pâte"
+      ]
+    ],
+    "steps": [
+      "Mélanger farine, levure, bicarbonate et sel. Ajouter œuf, eau et une cuillère d’huile; pétrir doucement en pâte souple. Couvrir et réfrigérer une nuit.",
+      "Sortir une heure avant cuisson. Étaler en rectangle de 1/4 pouce d’épaisseur, sans fariner excessivement.",
+      "Découper 16 bandes, les superposer deux par deux et presser leur milieu avec une baguette légèrement humide. Étirer chaque paire.",
+      "Frire à 180 °C en tournant continuellement, 2 à 3 minutes jusqu’à dorure et gonflement. Égoutter; servir frais."
+    ]
+  },
+  {
+    "slug": "cong-you-bing-cn",
+    "country": "CN",
+    "original": "Cong you bing",
+    "title": "Cong you bing (galettes aux oignons verts)",
+    "en": "Cong you bing (scallion pancakes)",
+    "es": "Cong you bing (tortitas de cebolleta)",
+    "desc": "Galettes chinoises de pâte de blé feuilletée aux oignons verts; adaptation roulée et poêlée.",
+    "cat": "Accompagnement",
+    "diff": "medium",
+    "prep": 30,
+    "cook": 15,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Cong_you_bing",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Eau très chaude",
+        180.0,
+        "ml",
+        null
+      ],
+      [
+        "Oignons verts",
+        5.0,
+        null,
+        null
+      ],
+      [
+        "Huile de sésame",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile neutre",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Mélanger farine et eau chaude à la cuillère; tiédir, pétrir 5 minutes et reposer couvert 30 minutes.",
+      "Diviser en quatre et abaisser finement. Badigeonner de sésame, parsemer d’oignons émincés et de sel.",
+      "Rouler chaque disque en boudin, puis en spirale. Reposer 10 minutes et aplatir doucement en galette.",
+      "Poêler dans l’huile neutre 3 à 4 minutes par face, à feu moyen, jusqu’à dorure et pâte cuite. Couper en quartiers."
+    ]
+  },
+  {
+    "slug": "lion-s-head-meatballs-cn",
+    "country": "CN",
+    "original": "Lion's head meatballs",
+    "title": "Têtes de lion (boulettes chinoises)",
+    "en": "Lion’s head pork meatballs",
+    "es": "Albóndigas chinas cabeza de león",
+    "desc": "Grosses boulettes de porc de tradition huaiyang, mijotées avec chou. Version brune à la sauce soja.",
+    "cat": "Plat principal",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 45,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Lion%27s_head_%28food%29",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Porc haché",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Chou napa",
+        500.0,
+        "g",
+        null
+      ],
+      [
+        "Châtaignes d’eau",
+        80.0,
+        "g",
+        "hachées"
+      ],
+      [
+        "Œuf",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Gingembre",
+        15.0,
+        "g",
+        null
+      ],
+      [
+        "Oignons verts",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Sauce soja",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Vin Shaoxing",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Fécule",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Bouillon",
+        600.0,
+        "ml",
+        null
+      ],
+      [
+        "Huile",
+        2.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Mélanger porc, châtaignes, œuf, gingembre râpé, oignons hachés, une cuillère de soja, le vin et la fécule. Façonner quatre grosses boulettes.",
+      "Les dorer délicatement dans l’huile, sans chercher à cuire le centre.",
+      "Tapisser une casserole de chou coupé. Poser les boulettes, verser bouillon et soja restant, puis couvrir.",
+      "Frémir doucement 35 à 40 minutes, jusqu’à boulettes à 71 °C au centre et chou tendre. Servir avec le jus."
+    ]
+  },
+  {
+    "slug": "turnip-cake-cn",
+    "country": "CN",
+    "original": "Turnip cake",
+    "title": "Luobo gao (gâteau de radis chinois)",
+    "en": "Luobo gao (Chinese radish cake)",
+    "es": "Luobo gao (pastel chino de rábano)",
+    "desc": "Gâteau vapeur cantonais de radis blanc et farine de riz, ensuite tranché et poêlé; le radis utilisé est le daikon.",
+    "cat": "Accompagnement",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 65,
+    "serv": 8,
+    "reference": "https://en.wikipedia.org/wiki/Turnip_cake",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Daikon",
+        800.0,
+        "g",
+        "râpé"
+      ],
+      [
+        "Farine de riz non gluant",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Eau",
+        300.0,
+        "ml",
+        null
+      ],
+      [
+        "Saucisse chinoise lap cheong",
+        70.0,
+        "g",
+        null
+      ],
+      [
+        "Crevettes séchées",
+        20.0,
+        "g",
+        null
+      ],
+      [
+        "Shiitakés séchés",
+        10.0,
+        "g",
+        null
+      ],
+      [
+        "Huile",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Poivre blanc",
+        0.25,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Réhydrater crevettes et champignons 20 minutes; égoutter, hacher et sauter avec la saucisse dans une cuillère d’huile.",
+      "Cuire le daikon avec l’eau 10 minutes. Mélanger la farine à un peu de liquide tiédi, puis incorporer au daikon avec garnitures et assaisonnements.",
+      "Verser dans un moule huilé de 8 pouces. Cuire à la vapeur 45 à 50 minutes, jusqu’à pâte prise. Refroidir complètement, puis réfrigérer 2 heures.",
+      "Trancher et dorer les portions dans l’huile restante, environ 3 minutes par face."
+    ]
+  },
+  {
+    "slug": "wonton-soup-cn",
+    "country": "CN",
+    "original": "Wonton soup",
+    "title": "Soupe wonton au porc et crevettes",
+    "en": "Pork and shrimp wonton soup",
+    "es": "Sopa wonton de cerdo y gambas",
+    "desc": "Soupe chinoise de raviolis à enveloppe fine, garnis de porc et de crevettes; version cantonaisée domestique.",
+    "cat": "Soupe",
+    "diff": "medium",
+    "prep": 35,
+    "cook": 15,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Wonton",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Feuilles wonton",
+        28.0,
+        null,
+        null
+      ],
+      [
+        "Porc haché",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Crevettes crues décortiquées",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Gingembre",
+        10.0,
+        "g",
+        null
+      ],
+      [
+        "Sauce soja",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile de sésame",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Fécule",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Bouillon de poulet",
+        1400.0,
+        "ml",
+        null
+      ],
+      [
+        "Bok choy",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Oignons verts",
+        2.0,
+        null,
+        null
+      ]
+    ],
+    "steps": [
+      "Hacher les crevettes et mélanger au porc, gingembre râpé, soja, huile de sésame et fécule.",
+      "Déposer une cuillère à thé de farce au centre de chaque feuille. Humidifier les bords, plier et presser en chassant l’air.",
+      "Pocher les raviolis dans une grande casserole d’eau frémissante 5 à 7 minutes, jusqu’à farce cuite à 71 °C; vérifier un ravioli coupé.",
+      "Chauffer le bouillon et y cuire le bok choy 3 minutes. Ajouter raviolis égouttés et oignons verts; servir."
+    ]
+  },
+  {
+    "slug": "japchae-kr",
+    "country": "KR",
+    "original": "Japchae",
+    "title": "Japchae (vermicelles coréens au bœuf)",
+    "en": "Japchae (Korean beef glass noodles)",
+    "es": "Japchae (fideos coreanos de ternera)",
+    "desc": "Vermicelles de patate douce coréens avec légumes, shiitakés et bœuf, légèrement sucrés et parfumés au sésame.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 25,
+    "cook": 20,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Japchae",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Dangmyeon",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Bœuf en fines lamelles",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Épinards",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Carotte",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Shiitakés",
+        100.0,
+        "g",
+        null
+      ],
+      [
+        "Sauce soja",
+        4.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sucre",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile de sésame",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile neutre",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Ail",
+        2.0,
+        "gousses",
+        null
+      ]
+    ],
+    "steps": [
+      "Cuire les nouilles selon le paquet, égoutter et couper aux ciseaux. Blanchir les épinards 30 secondes, refroidir et presser.",
+      "Émincer les légumes. Sauter séparément carotte, oignon et champignons dans un peu d’huile pour conserver leurs textures.",
+      "Sauter le bœuf avec ail, une cuillère de soja et un peu de sucre, jusqu’à cuisson complète.",
+      "Mélanger nouilles, légumes et bœuf avec soja, sucre et sésame restants. Réchauffer 2 minutes et ajuster l’assaisonnement."
+    ]
+  },
+  {
+    "slug": "kimchijeon-kr",
+    "country": "KR",
+    "original": "Kimchijeon",
+    "title": "Kimchijeon (galettes au kimchi)",
+    "en": "Kimchijeon (kimchi pancakes)",
+    "es": "Kimchijeon (tortitas de kimchi)",
+    "desc": "Galettes coréennes croustillantes au kimchi mûr; le jus du kimchi colore et assaisonne la pâte.",
+    "cat": "Entrée",
+    "diff": "easy",
+    "prep": 10,
+    "cook": 15,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Kimchi-buchimgae",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Kimchi",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Farine",
+        140.0,
+        "g",
+        null
+      ],
+      [
+        "Fécule",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Jus de kimchi",
+        60.0,
+        "ml",
+        null
+      ],
+      [
+        "Eau froide",
+        140.0,
+        "ml",
+        null
+      ],
+      [
+        "Oignons verts",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Huile",
+        4.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Hacher le kimchi et émincer les oignons. Mélanger farine, fécule, eau et jus en pâte fluide.",
+      "Incorporer kimchi et oignons sans trop travailler la pâte.",
+      "Chauffer une cuillère d’huile dans une poêle. Étaler un quart du mélange en une galette fine.",
+      "Cuire 3 à 4 minutes par face, jusqu’à bords croustillants et centre cuit; recommencer pour les autres galettes. Servir chaud."
+    ]
+  },
+  {
+    "slug": "sundubu-jjigae-kr",
+    "country": "KR",
+    "original": "Sundubu jjigae",
+    "title": "Sundubu jjigae (soupe épicée au tofu)",
+    "en": "Sundubu jjigae (spicy soft tofu stew)",
+    "es": "Sundubu jjigae (sopa picante de tofu)",
+    "desc": "Mijoté coréen au tofu très tendre, crevettes et piment. Les œufs ajoutés sont cuits dans cette adaptation.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 15,
+    "serv": 2,
+    "reference": "https://en.wikipedia.org/wiki/Sundubu-jjigae",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Tofu sundubu",
+        350.0,
+        "g",
+        null
+      ],
+      [
+        "Crevettes crues décortiquées",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Bouillon",
+        450.0,
+        "ml",
+        null
+      ],
+      [
+        "Oignon",
+        0.5,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        2.0,
+        "gousses",
+        null
+      ],
+      [
+        "Gochugaru",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile de sésame",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sauce soja",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Œufs",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Oignons verts",
+        2.0,
+        null,
+        null
+      ]
+    ],
+    "steps": [
+      "Faire revenir oignon et ail hachés dans l’huile 3 minutes. Ajouter le gochugaru et remuer 20 secondes sans brûler.",
+      "Verser le bouillon et le soja; frémir 5 minutes.",
+      "Déposer le tofu en grosses cuillerées et les crevettes; cuire 4 à 5 minutes jusqu’à crevettes opaques.",
+      "Casser les œufs dans la soupe, couvrir et cuire jusqu’à blancs et jaunes pris. Garnir d’oignons verts; accompagner de riz."
+    ]
+  },
+  {
+    "slug": "doenjang-jjigae-kr",
+    "country": "KR",
+    "original": "Doenjang jjigae",
+    "title": "Doenjang jjigae (mijoté au soja fermenté)",
+    "en": "Doenjang jjigae (soybean paste stew)",
+    "es": "Doenjang jjigae (guiso de soja fermentada)",
+    "desc": "Soupe épaisse coréenne au doenjang, tofu, courgette et pommes de terre; la pâte de soja fermentée donne son goût principal.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 25,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Doenjang-jjigae",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Doenjang",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Bouillon d’anchois ou légumes",
+        800.0,
+        "ml",
+        null
+      ],
+      [
+        "Tofu ferme",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Pomme de terre",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Courgette",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        2.0,
+        "gousses",
+        null
+      ],
+      [
+        "Oignons verts",
+        2.0,
+        null,
+        null
+      ]
+    ],
+    "steps": [
+      "Couper pomme de terre et courgette en petits dés, le tofu en cubes et l’oignon en lamelles.",
+      "Délayer le doenjang dans le bouillon chaud. Ajouter pomme de terre, oignon et ail haché; mijoter 12 minutes.",
+      "Ajouter courgette et tofu; poursuivre 8 à 10 minutes jusqu’à légumes tendres.",
+      "Parsemer d’oignons verts. Goûter avant d’ajouter du sel, car le doenjang est déjà salé; servir avec du riz."
+    ]
+  },
+  {
+    "slug": "kimchi-jjigae-kr",
+    "country": "KR",
+    "original": "Kimchi jjigae",
+    "title": "Kimchi jjigae (mijoté au kimchi et porc)",
+    "en": "Kimchi jjigae (pork and kimchi stew)",
+    "es": "Kimchi jjigae (guiso de kimchi y cerdo)",
+    "desc": "Mijoté coréen préparé avec du kimchi bien fermenté, du porc et du tofu.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 35,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Kimchi-jjigae",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Kimchi mûr",
+        400.0,
+        "g",
+        null
+      ],
+      [
+        "Poitrine de porc",
+        300.0,
+        "g",
+        "en lamelles"
+      ],
+      [
+        "Tofu ferme",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Bouillon",
+        700.0,
+        "ml",
+        null
+      ],
+      [
+        "Jus de kimchi",
+        100.0,
+        "ml",
+        null
+      ],
+      [
+        "Gochugaru",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Ail",
+        2.0,
+        "gousses",
+        null
+      ],
+      [
+        "Oignons verts",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Faire revenir le porc dans l’huile 5 minutes, puis ajouter oignon, ail et kimchi hachés.",
+      "Remuer 5 minutes pour cuire le kimchi, puis ajouter bouillon, jus et gochugaru.",
+      "Mijoter à couvert 20 minutes, jusqu’à porc cuit et saveurs fondues.",
+      "Ajouter tofu en tranches et oignons verts; réchauffer 5 minutes et servir avec du riz."
+    ]
+  },
+  {
+    "slug": "gimbap-kr",
+    "country": "KR",
+    "original": "Gimbap",
+    "title": "Gimbap (rouleaux coréens de riz)",
+    "en": "Gimbap (Korean rice rolls)",
+    "es": "Gimbap (rollos coreanos de arroz)",
+    "desc": "Rouleaux coréens au riz assaisonné de sésame, légumes, omelette et radis mariné. Version végétarienne, sans vinaigre à sushi.",
+    "cat": "Plat principal",
+    "diff": "medium",
+    "prep": 35,
+    "cook": 15,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Gimbap",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Riz rond sec",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Eau",
+        360.0,
+        "ml",
+        null
+      ],
+      [
+        "Feuilles gim ou nori",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Œufs",
+        3.0,
+        null,
+        null
+      ],
+      [
+        "Carotte",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Épinards",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Danmuji",
+        120.0,
+        "g",
+        "radis jaune mariné en bâtonnets"
+      ],
+      [
+        "Huile de sésame",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile neutre",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Rincer le riz et cuire avec l’eau à couvert, selon sa variété. Tiédir et mélanger avec sésame et sel.",
+      "Cuire les œufs battus en omelette et découper en lanières. Sauter la carotte en julienne et blanchir puis presser les épinards.",
+      "Étaler le riz sur chaque feuille d’algue, en laissant 1 pouce libre au bord. Aligner les garnitures au centre.",
+      "Rouler fermement à l’aide d’une natte, humidifier le bord pour fermer et trancher avec un couteau légèrement huilé."
+    ]
+  },
+  {
+    "slug": "galbi-jjim-kr",
+    "country": "KR",
+    "original": "Galbi jjim",
+    "title": "Galbi jjim (côtes de bœuf braisées)",
+    "en": "Galbi jjim (Korean braised short ribs)",
+    "es": "Galbi jjim (costillas coreanas estofadas)",
+    "desc": "Côtes courtes de bœuf mijotées dans une sauce coréenne à l’ail, au soja et à la poire.",
+    "cat": "Plat principal",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 120,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Galbi-jjim",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Côtes courtes de bœuf avec os",
+        1200.0,
+        "g",
+        null
+      ],
+      [
+        "Sauce soja",
+        100.0,
+        "ml",
+        null
+      ],
+      [
+        "Eau",
+        700.0,
+        "ml",
+        null
+      ],
+      [
+        "Poire",
+        1.0,
+        null,
+        "pelée et râpée"
+      ],
+      [
+        "Sucre",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Ail",
+        5.0,
+        "gousses",
+        null
+      ],
+      [
+        "Gingembre",
+        15.0,
+        "g",
+        null
+      ],
+      [
+        "Carottes",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Daikon",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Huile de sésame",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Blanchir les côtes 5 minutes dans de l’eau bouillante, puis égoutter et rincer la cocotte.",
+      "Remettre la viande avec soja, eau, poire, sucre, ail et gingembre hachés. Couvrir et mijoter 90 minutes.",
+      "Ajouter carottes et daikon en gros morceaux; cuire 25 à 30 minutes supplémentaires, jusqu’à viande très tendre.",
+      "Découvrir, dégraisser la surface et réduire légèrement la sauce. Ajouter le sésame et servir."
+    ]
+  },
+  {
+    "slug": "rajma-in",
+    "country": "IN",
+    "original": "Rajma",
+    "title": "Rajma (haricots rouges indiens)",
+    "en": "Rajma (Indian kidney bean curry)",
+    "es": "Rajma (curry indio de judías rojas)",
+    "desc": "Haricots rouges mijotés à la tomate et aux épices, populaires dans le nord de l’Inde. Version avec haricots en conserve rincés.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 30,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Rajma",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Haricots rouges cuits égouttés",
+        650.0,
+        "g",
+        null
+      ],
+      [
+        "Tomates concassées",
+        400.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Gingembre",
+        15.0,
+        "g",
+        null
+      ],
+      [
+        "Huile",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Cumin",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Coriandre moulue",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Garam masala",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Eau",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Faire revenir cumin et oignon haché dans l’huile 7 minutes.",
+      "Ajouter ail, gingembre et coriandre moulue; remuer 1 minute. Ajouter tomates et sel, puis réduire 10 minutes.",
+      "Incorporer haricots et eau. Mijoter 15 minutes; écraser quelques haricots pour épaissir la sauce.",
+      "Ajouter le garam masala, goûter et servir avec du riz. Ne pas utiliser de haricots secs simplement trempés à la place des haricots déjà cuits."
+    ]
+  },
+  {
+    "slug": "palak-paneer-in",
+    "country": "IN",
+    "original": "Palak paneer",
+    "title": "Palak paneer (fromage aux épinards)",
+    "en": "Palak paneer (spinach and cheese curry)",
+    "es": "Palak paneer (queso con espinacas)",
+    "desc": "Préparation indienne de paneer dans une sauce d’épinards; elle se distingue des mélanges saag utilisant plusieurs légumes feuilles.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 20,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Palak_paneer",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Épinards",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Paneer",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Tomate",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Gingembre",
+        15.0,
+        "g",
+        null
+      ],
+      [
+        "Ghee",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Cumin",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Garam masala",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Crème",
+        60.0,
+        "ml",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Blanchir les épinards 1 minute, refroidir, égoutter et mixer avec 100 ml d’eau.",
+      "Faire revenir cumin et oignon dans le ghee 7 minutes; ajouter ail, gingembre et tomate hachés, puis cuire 5 minutes.",
+      "Ajouter la purée d’épinards et le sel; frémir 5 minutes, sans longue cuisson qui ternirait la couleur.",
+      "Ajouter paneer en cubes, crème et garam masala. Réchauffer doucement 3 minutes et servir avec pain ou riz."
+    ]
+  },
+  {
+    "slug": "aloo-paratha-in",
+    "country": "IN",
+    "original": "Aloo paratha",
+    "title": "Aloo paratha (pain farci aux pommes de terre)",
+    "en": "Aloo paratha (potato stuffed flatbread)",
+    "es": "Aloo paratha (pan relleno de patatas)",
+    "desc": "Pain indien complet farci de pommes de terre épicées, poêlé au ghee. Prévoir 20 minutes de repos de pâte.",
+    "cat": "Accompagnement",
+    "diff": "medium",
+    "prep": 35,
+    "cook": 25,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Aloo_paratha",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine complète atta",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Eau",
+        180.0,
+        "ml",
+        null
+      ],
+      [
+        "Pommes de terre",
+        500.0,
+        "g",
+        null
+      ],
+      [
+        "Ghee",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Cumin",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Garam masala",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Piment moulu",
+        0.25,
+        "c. à thé",
+        null
+      ],
+      [
+        "Coriandre fraîche",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Pétrir farine, eau et moitié du sel en pâte souple; couvrir et reposer 20 minutes.",
+      "Cuire les pommes de terre à l’eau, égoutter et écraser très finement avec épices, coriandre et sel restant; refroidir.",
+      "Diviser pâte et farce en huit. Enfermer une boule de farce dans chaque disque de pâte, fermer et abaisser doucement sans déchirer.",
+      "Cuire sur une poêle chaude 2 à 3 minutes par face en badigeonnant de ghee, jusqu’à taches dorées et pâte cuite."
+    ]
+  },
+  {
+    "slug": "kheer-in",
+    "country": "IN",
+    "original": "Kheer",
+    "title": "Kheer (riz au lait indien)",
+    "en": "Kheer (Indian rice pudding)",
+    "es": "Kheer (arroz con leche indio)",
+    "desc": "Riz au lait du sous-continent indien, ici parfumé à la cardamome et garni d’amandes et de raisins.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 10,
+    "cook": 50,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Kheer",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Riz basmati",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Lait entier",
+        1000.0,
+        "ml",
+        null
+      ],
+      [
+        "Sucre",
+        70.0,
+        "g",
+        null
+      ],
+      [
+        "Cardamome moulue",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Amandes",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Raisins secs",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Safran",
+        0.1,
+        "g",
+        null
+      ]
+    ],
+    "steps": [
+      "Rincer le riz et le tremper 20 minutes; égoutter.",
+      "Porter le lait à frémissement dans une casserole épaisse. Ajouter riz et safran.",
+      "Cuire à feu doux 40 à 50 minutes, en remuant souvent le fond, jusqu’à riz tendre et lait épaissi.",
+      "Ajouter sucre, cardamome, amandes et raisins; cuire 5 minutes. Servir tiède ou réfrigéré; le mélange épaissit en refroidissant."
+    ]
+  },
+  {
+    "slug": "kulfi-in",
+    "country": "IN",
+    "original": "Kulfi",
+    "title": "Kulfi (glace indienne à la pistache)",
+    "en": "Kulfi (Indian pistachio ice cream)",
+    "es": "Kulfi (helado indio de pistacho)",
+    "desc": "Dessert glacé indien dense, obtenu sans turbinage à partir de lait réduit. Prévoir 8 heures de congélation.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 50,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Kulfi",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Lait entier",
+        1000.0,
+        "ml",
+        null
+      ],
+      [
+        "Crème",
+        150.0,
+        "ml",
+        null
+      ],
+      [
+        "Sucre",
+        90.0,
+        "g",
+        null
+      ],
+      [
+        "Pistaches",
+        50.0,
+        "g",
+        "non salées"
+      ],
+      [
+        "Cardamome moulue",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Safran",
+        0.1,
+        "g",
+        null
+      ]
+    ],
+    "steps": [
+      "Frémir le lait dans une casserole large 40 à 50 minutes, en remuant et en raclant les côtés, jusqu’à réduction à environ 600 ml.",
+      "Ajouter crème, sucre, cardamome et safran. Cuire 5 minutes pour dissoudre le sucre.",
+      "Incorporer les pistaches finement hachées. Refroidir rapidement, puis réfrigérer jusqu’à mélange froid.",
+      "Verser dans six moules à glace et congeler au moins 8 heures. Passer brièvement les moules sous l’eau tiède pour démouler."
+    ]
+  },
+  {
+    "slug": "panang-curry-th",
+    "country": "TH",
+    "original": "Panang curry",
+    "title": "Panang (curry thaï de bœuf)",
+    "en": "Panang (Thai beef curry)",
+    "es": "Panang (curry tailandés de ternera)",
+    "desc": "Curry thaï épais au bœuf, noix de coco et pâte panang aux arachides, avec feuilles de combava.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 20,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Phanaeng",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Bœuf tendre en fines tranches",
+        500.0,
+        "g",
+        null
+      ],
+      [
+        "Crème de coco",
+        400.0,
+        "ml",
+        null
+      ],
+      [
+        "Pâte panang",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sauce de poisson",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sucre de palme",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Feuilles de combava",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Arachides grillées",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Basilic thaï",
+        10.0,
+        "feuilles",
+        null
+      ],
+      [
+        "Poivron rouge",
+        0.5,
+        null,
+        "émincé"
+      ]
+    ],
+    "steps": [
+      "Chauffer la moitié de la crème de coco dans une casserole 4 minutes. Ajouter la pâte panang et remuer 2 minutes.",
+      "Ajouter le poivron, cuire 2 minutes puis ajouter le bœuf et l’enrober. Verser la crème restante et les feuilles de combava déchirées.",
+      "Frémir 8 à 10 minutes jusqu’à viande cuite. Ajouter poisson, sucre et arachides finement pilées; obtenir une sauce épaisse.",
+      "Retirer les feuilles dures, ajouter basilic et servir avec du riz. Vérifier les arachides et crustacés présents dans la pâte achetée."
+    ]
+  },
+  {
+    "slug": "pad-prik-khing-th",
+    "country": "TH",
+    "original": "Pad prik khing",
+    "title": "Pad prik khing (porc et haricots au curry)",
+    "en": "Pad prik khing (pork and green bean curry)",
+    "es": "Pad prik khing (cerdo y judías al curry)",
+    "desc": "Curry sauté thaï assez sec, au porc et aux haricots verts; cette version ne contient pas de lait de coco. Le plat est visible au premier plan de la photographie.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 15,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Pad_prik_khing",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Porc en fines lamelles",
+        450.0,
+        "g",
+        null
+      ],
+      [
+        "Haricots verts",
+        350.0,
+        "g",
+        null
+      ],
+      [
+        "Pâte prik khing",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sauce de poisson",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sucre de palme",
+        2.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Feuilles de combava",
+        4.0,
+        null,
+        null
+      ]
+    ],
+    "steps": [
+      "Équeuter les haricots et les couper en tronçons de 2 pouces. Émincer très finement les feuilles de combava.",
+      "Chauffer l’huile et faire revenir la pâte 1 minute, sans brûler.",
+      "Ajouter le porc et sauter 5 minutes. Ajouter haricots et 60 ml d’eau; cuire 5 à 7 minutes, jusqu’à porc cuit et haricots encore fermes.",
+      "Ajouter poisson, sucre et combava. Réduire le liquide pour enrober les ingrédients d’une sauce courte; servir avec du riz."
+    ]
+  },
+  {
+    "slug": "nasi-uduk-id",
+    "country": "ID",
+    "original": "Nasi uduk",
+    "title": "Nasi uduk (riz indonésien à la noix de coco)",
+    "en": "Nasi uduk (Indonesian coconut rice)",
+    "es": "Nasi uduk (arroz indonesio con coco)",
+    "desc": "Riz parfumé au lait de coco et aux aromates, associé aux traditions betawi de Jakarta et javanaises. Les garnitures du repas photographié sont facultatives.",
+    "cat": "Accompagnement",
+    "diff": "easy",
+    "prep": 10,
+    "cook": 25,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Nasi_uduk",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Riz jasmin",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Lait de coco",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Eau",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Citronnelle",
+        1.0,
+        "tige",
+        null
+      ],
+      [
+        "Feuilles de pandan",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Feuilles de salam",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Rincer le riz jusqu’à eau presque claire, puis égoutter.",
+      "Mettre dans une casserole avec lait de coco, eau, citronnelle écrasée, pandan noué, salam et sel.",
+      "Porter à ébullition, couvrir et cuire au feu le plus doux 15 à 18 minutes, jusqu’à riz tendre; ajuster un peu l’eau selon la variété.",
+      "Laisser reposer couvert 10 minutes. Retirer les aromates et égrener; accompagner éventuellement de tofu, œuf et sambal."
+    ],
+    "place": "id-jakarta"
+  },
+  {
+    "slug": "nasi-kuning-id",
+    "country": "ID",
+    "original": "Nasi kuning",
+    "title": "Nasi kuning (riz jaune indonésien)",
+    "en": "Nasi kuning (Indonesian turmeric rice)",
+    "es": "Nasi kuning (arroz amarillo indonesio)",
+    "desc": "Riz jaune indonésien au curcuma et lait de coco, souvent présenté avec plusieurs garnitures lors des fêtes.",
+    "cat": "Accompagnement",
+    "diff": "easy",
+    "prep": 10,
+    "cook": 25,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Nasi_kuning",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Riz jasmin",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Lait de coco",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Eau",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Curcuma",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Citronnelle",
+        1.0,
+        "tige",
+        null
+      ],
+      [
+        "Feuilles de salam",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Feuille de pandan",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Rincer et égoutter le riz. Écraser la citronnelle et nouer le pandan.",
+      "Mélanger riz, coco, eau, curcuma, sel et aromates dans une casserole.",
+      "Porter à petite ébullition, couvrir et cuire au feu doux 15 à 18 minutes. Ajouter quelques cuillères d’eau si le riz est encore dur.",
+      "Reposer couvert 10 minutes, retirer les feuilles et égrener. Pour une forme conique, tasser dans un moule légèrement huilé puis démouler."
+    ]
+  },
+  {
+    "slug": "sayur-lodeh-id",
+    "country": "ID",
+    "original": "Sayur lodeh",
+    "title": "Sayur lodeh (légumes au lait de coco)",
+    "en": "Sayur lodeh (coconut vegetable soup)",
+    "es": "Sayur lodeh (sopa de verduras con coco)",
+    "desc": "Soupe de légumes javanaise au lait de coco, ici avec aubergine, chayote, haricots et tofu.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 25,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Sayur_lodeh",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Aubergine",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Chayote",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Haricots longs ou verts",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Tofu",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Lait de coco",
+        400.0,
+        "ml",
+        null
+      ],
+      [
+        "Eau",
+        600.0,
+        "ml",
+        null
+      ],
+      [
+        "Échalotes",
+        3.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Galanga",
+        20.0,
+        "g",
+        null
+      ],
+      [
+        "Coriandre moulue",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Couper les légumes et le tofu en morceaux. Hacher échalotes et ail, puis les faire revenir dans l’huile 3 minutes.",
+      "Ajouter coriandre et galanga écrasé, puis eau et chayote. Frémir 10 minutes.",
+      "Ajouter aubergine, haricots, tofu et lait de coco. Cuire doucement 12 à 15 minutes, sans forte ébullition.",
+      "Retirer le galanga et ajuster le sel. Servir avec du riz; les légumes doivent rester identifiables."
+    ]
+  },
+  {
+    "slug": "opor-ayam-id",
+    "country": "ID",
+    "original": "Opor ayam",
+    "title": "Opor ayam (poulet javanais au coco)",
+    "en": "Opor ayam (Javanese coconut chicken)",
+    "es": "Opor ayam (pollo javanés con coco)",
+    "desc": "Poulet de tradition javanaise centrale, mijoté dans un lait de coco aromatique. Adaptation remplaçant les noix de bancoul par des noix de macadamia.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 25,
+    "cook": 40,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Opor_ayam",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Poulet en morceaux avec os",
+        1000.0,
+        "g",
+        null
+      ],
+      [
+        "Lait de coco",
+        600.0,
+        "ml",
+        null
+      ],
+      [
+        "Eau",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Échalotes",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Macadamias",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Coriandre moulue",
+        2.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Cumin",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Galanga",
+        20.0,
+        "g",
+        null
+      ],
+      [
+        "Citronnelle",
+        2.0,
+        "tiges",
+        null
+      ],
+      [
+        "Feuilles de salam",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Huile",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Mixer échalotes, ail, macadamias, coriandre et cumin avec un peu d’eau pour former une pâte.",
+      "Faire revenir cette pâte dans l’huile 5 minutes. Ajouter poulet, galanga, citronnelle et salam, puis remuer.",
+      "Verser eau et lait de coco. Mijoter doucement 30 à 40 minutes, jusqu’à poulet à 74 °C au centre.",
+      "Saler, retirer les aromates durs et laisser épaissir légèrement la sauce. Servir avec riz ou ketupat."
+    ],
+    "place": "id-central-java"
+  },
+  {
+    "slug": "perkedel-id",
+    "country": "ID",
+    "original": "Perkedel",
+    "title": "Perkedel (croquettes indonésiennes de pommes de terre)",
+    "en": "Perkedel (Indonesian potato fritters)",
+    "es": "Perkedel (croquetas indonesias de patata)",
+    "desc": "Galettes indonésiennes de pommes de terre, parfumées aux échalotes et enrobées d’œuf avant friture.",
+    "cat": "Accompagnement",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 25,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Perkedel",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Pommes de terre",
+        700.0,
+        "g",
+        null
+      ],
+      [
+        "Échalotes",
+        3.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        2.0,
+        "gousses",
+        null
+      ],
+      [
+        "Œufs",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Céleri feuille",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Poivre",
+        0.25,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        500.0,
+        "ml",
+        null
+      ]
+    ],
+    "steps": [
+      "Peler les pommes de terre, couper en morceaux et frire à 170 °C jusqu’à tendreté et légère dorure; égoutter et écraser.",
+      "Faire revenir échalotes et ail hachés dans un peu d’huile. Incorporer à la purée avec céleri, sel, poivre et un œuf.",
+      "Tiédir puis former 12 petites galettes fermes. Battre le second œuf.",
+      "Tremper les galettes dans l’œuf et frire à 170 °C environ 2 minutes par face, jusqu’à dorure. Égoutter et servir."
+    ]
+  },
+  {
+    "slug": "klepon-id",
+    "country": "ID",
+    "original": "Klepon",
+    "title": "Klepon (boules de riz au sucre de palme)",
+    "en": "Klepon (palm sugar rice balls)",
+    "es": "Klepon (bolitas de arroz y azúcar de palma)",
+    "desc": "Petites douceurs de riz gluant appréciées en Indonésie et dans les pays voisins, garnies de sucre de palme et roulées dans la noix de coco.",
+    "cat": "Dessert",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 10,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Klepon",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine de riz gluant",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Farine de riz non gluant",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Eau au pandan",
+        180.0,
+        "ml",
+        "verte, obtenue par mixage et filtrage de feuilles"
+      ],
+      [
+        "Sucre de palme",
+        100.0,
+        "g",
+        "finement haché"
+      ],
+      [
+        "Noix de coco râpée fraîche",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Sel",
+        0.25,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Cuire la noix de coco avec le sel à la vapeur 10 minutes, puis tiédir.",
+      "Mélanger les farines et ajouter progressivement l’eau au pandan; obtenir une pâte souple, non fissurée.",
+      "Former 18 disques. Enfermer un peu de sucre dans chacun et rouler en boule bien fermée.",
+      "Pocher dans l’eau frémissante. Après remontée, cuire encore 2 minutes, égoutter et rouler dans la coco. Laisser tiédir avant de manger, car le sucre intérieur est très chaud."
+    ]
+  },
+  {
+    "slug": "arroz-caldo-ph",
+    "country": "PH",
+    "original": "Arroz caldo",
+    "title": "Arroz caldo (bouillie philippine au poulet)",
+    "en": "Arroz caldo (Filipino chicken rice porridge)",
+    "es": "Arroz caldo (gachas filipinas de pollo)",
+    "desc": "Bouillie de riz philippine au poulet et au gingembre, garnie d’ail doré et d’œufs durs.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 45,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Arroz_caldo",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Riz",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Poulet avec os",
+        700.0,
+        "g",
+        null
+      ],
+      [
+        "Bouillon",
+        1600.0,
+        "ml",
+        null
+      ],
+      [
+        "Gingembre",
+        40.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        5.0,
+        "gousses",
+        null
+      ],
+      [
+        "Sauce de poisson",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Œufs durs",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Oignons verts",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Calamansi ou citron",
+        2.0,
+        null,
+        null
+      ]
+    ],
+    "steps": [
+      "Dorer trois gousses d’ail émincées dans l’huile; réserver l’ail. Faire revenir oignon, gingembre en lamelles et ail restant.",
+      "Ajouter le poulet et saisir 5 minutes. Incorporer riz rincé, bouillon et sauce de poisson.",
+      "Mijoter 35 à 40 minutes en remuant souvent, jusqu’à riz crémeux et poulet à 74 °C. Désosser si désiré; ajouter du bouillon pour détendre.",
+      "Servir avec œufs durs, ail doré, oignons verts et agrumes."
+    ]
+  },
+  {
+    "slug": "pancit-bihon-ph",
+    "country": "PH",
+    "original": "Pancit bihon",
+    "title": "Pancit bihon (vermicelles philippins)",
+    "en": "Pancit bihon (Filipino rice noodles)",
+    "es": "Pancit bihon (fideos filipinos de arroz)",
+    "desc": "Vermicelles de riz sautés aux légumes et au poulet, avec une touche de calamansi au service.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 20,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Pancit",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Vermicelles bihon",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Poulet en petits morceaux",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Chou",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Carotte",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Bouillon",
+        500.0,
+        "ml",
+        null
+      ],
+      [
+        "Sauce soja",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Calamansi ou citron",
+        2.0,
+        null,
+        null
+      ]
+    ],
+    "steps": [
+      "Tremper les vermicelles selon le paquet puis égoutter. Émincer les légumes.",
+      "Faire revenir ail et oignon dans l’huile, ajouter le poulet et cuire jusqu’à cuisson complète à 74 °C.",
+      "Ajouter carotte et chou; sauter 3 minutes, puis verser bouillon et soja.",
+      "Ajouter les vermicelles et remuer délicatement jusqu’à absorption du liquide, environ 5 minutes. Ajuster l’eau selon les nouilles; servir avec calamansi."
+    ]
+  },
+  {
+    "slug": "lumpiang-shanghai-ph",
+    "country": "PH",
+    "original": "Lumpiang Shanghai",
+    "title": "Lumpiang Shanghai (rouleaux frits au porc)",
+    "en": "Lumpiang Shanghai (Filipino pork spring rolls)",
+    "es": "Lumpiang Shanghai (rollitos filipinos de cerdo)",
+    "desc": "Petits rouleaux philippins au porc et légumes. Malgré leur nom, ils sont rattachés aux Philippines.",
+    "cat": "Entrée",
+    "diff": "medium",
+    "prep": 35,
+    "cook": 15,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Lumpiang_Shanghai",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Porc haché",
+        500.0,
+        "g",
+        null
+      ],
+      [
+        "Feuilles à lumpia",
+        24.0,
+        null,
+        null
+      ],
+      [
+        "Carotte",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Œuf",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Sauce soja",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Poivre",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        750.0,
+        "ml",
+        null
+      ]
+    ],
+    "steps": [
+      "Mélanger porc, carotte râpée, oignon et ail finement hachés, œuf, soja et poivre.",
+      "Déposer une petite ligne de farce sur chaque feuille. Replier les côtés puis rouler serré; fermer avec un peu d’eau.",
+      "Frire par petites fournées dans l’huile à 170 °C, 5 à 7 minutes, jusqu’à dorure et farce à 71 °C au centre.",
+      "Égoutter sur grille et servir chaud avec une sauce aigre-douce. Ne pas surcharger la friteuse."
+    ]
+  },
+  {
+    "slug": "tinola-ph",
+    "country": "PH",
+    "original": "Tinola",
+    "title": "Tinola (soupe philippine au poulet)",
+    "en": "Tinola (Filipino chicken soup)",
+    "es": "Tinola (sopa filipina de pollo)",
+    "desc": "Soupe philippine au poulet, gingembre et papaye verte. La chayote et les épinards sont utilisés ici comme variantes domestiques.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 40,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Tinola",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Poulet avec os",
+        900.0,
+        "g",
+        null
+      ],
+      [
+        "Chayotes",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Épinards",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Gingembre",
+        40.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Sauce de poisson",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Eau",
+        1500.0,
+        "ml",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Faire revenir oignon, ail et gingembre émincés dans l’huile 4 minutes.",
+      "Ajouter les morceaux de poulet et la sauce de poisson; cuire 5 minutes, puis verser l’eau.",
+      "Couvrir et mijoter 25 minutes. Ajouter la chayote pelée en quartiers; cuire 12 minutes de plus, jusqu’à poulet à 74 °C et légumes tendres.",
+      "Ajouter les épinards 1 minute avant de servir. Ajuster l’assaisonnement; accompagner de riz."
+    ]
+  },
+  {
+    "slug": "tortang-talong-ph",
+    "country": "PH",
+    "original": "Tortang talong",
+    "title": "Tortang talong (omelette d’aubergine)",
+    "en": "Tortang talong (eggplant omelette)",
+    "es": "Tortang talong (tortilla de berenjena)",
+    "desc": "Aubergines entières grillées puis aplaties et poêlées dans l’œuf, un classique familial philippin.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 25,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Tortang_talong",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Aubergines longues",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Œufs",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Sauce de poisson",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Poivre",
+        0.25,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        3.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Griller les aubergines en les tournant jusqu’à peau noircie et chair complètement tendre, 15 à 20 minutes.",
+      "Tiédir puis retirer la peau en conservant la queue. Aplatir chaque aubergine en éventail à la fourchette.",
+      "Battre les œufs avec sauce de poisson et poivre. Tremper chaque aubergine dans ce mélange.",
+      "Poêler dans l’huile à feu moyen 2 à 3 minutes par face, jusqu’à œufs pris et dorés. Servir avec riz et sauce au choix."
+    ]
+  },
+  {
+    "slug": "lechon-kawali-ph",
+    "country": "PH",
+    "original": "Lechon kawali",
+    "title": "Lechon kawali (poitrine de porc croustillante)",
+    "en": "Lechon kawali (crispy pork belly)",
+    "es": "Lechon kawali (panceta crujiente)",
+    "desc": "Poitrine de porc philippine précuite puis frite. Prévoir une nuit de séchage au réfrigérateur pour rendre la peau croustillante.",
+    "cat": "Plat principal",
+    "diff": "hard",
+    "prep": 20,
+    "cook": 110,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Lechon_kawali",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Poitrine de porc avec peau",
+        1000.0,
+        "g",
+        null
+      ],
+      [
+        "Ail",
+        6.0,
+        "gousses",
+        null
+      ],
+      [
+        "Laurier",
+        3.0,
+        "feuilles",
+        null
+      ],
+      [
+        "Poivre en grains",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sel",
+        2.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        1500.0,
+        "ml",
+        null
+      ]
+    ],
+    "steps": [
+      "Mettre le porc dans une casserole avec ail, laurier, poivre et sel; couvrir d’eau. Mijoter 75 à 90 minutes jusqu’à tendreté.",
+      "Égoutter, refroidir rapidement puis réfrigérer découvert, peau vers le haut, une nuit. Sécher soigneusement.",
+      "Dans une friteuse ou cocotte profonde, chauffer l’huile à 175 °C. Ajouter prudemment le porc sec en portions; frire 8 à 12 minutes jusqu’à peau boursouflée.",
+      "Égoutter sur grille, reposer 5 minutes et découper. Utiliser un écran anti-éclaboussures; servir avec sauce au vinaigre."
+    ]
+  },
+  {
+    "slug": "che-chuoi-vn",
+    "country": "VN",
+    "original": "Che chuoi",
+    "title": "Chè chuối (bananes au coco et tapioca)",
+    "en": "Chè chuối (banana coconut tapioca pudding)",
+    "es": "Chè chuối (postre de plátano, coco y tapioca)",
+    "desc": "Dessert vietnamien de bananes mijotées dans le lait de coco avec petites perles de tapioca.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 25,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Ch%C3%A8_chu%E1%BB%91i",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Bananes fermes",
+        5.0,
+        null,
+        null
+      ],
+      [
+        "Petites perles de tapioca",
+        50.0,
+        "g",
+        null
+      ],
+      [
+        "Lait de coco",
+        400.0,
+        "ml",
+        null
+      ],
+      [
+        "Eau",
+        400.0,
+        "ml",
+        null
+      ],
+      [
+        "Sucre",
+        60.0,
+        "g",
+        null
+      ],
+      [
+        "Sel",
+        0.25,
+        "c. à thé",
+        null
+      ],
+      [
+        "Arachides grillées",
+        30.0,
+        "g",
+        null
+      ]
+    ],
+    "steps": [
+      "Tremper le tapioca 20 minutes puis égoutter. Couper les bananes en rondelles épaisses.",
+      "Porter eau, coco, sucre et sel à petit frémissement. Ajouter le tapioca.",
+      "Cuire en remuant 15 à 20 minutes, jusqu’à perles translucides; ajuster un peu d’eau si nécessaire.",
+      "Ajouter les bananes et cuire 5 minutes. Tiédir, répartir dans des bols et garnir d’arachides concassées."
+    ]
+  },
+  {
+    "slug": "roti-jala-my",
+    "country": "MY",
+    "original": "Roti jala",
+    "title": "Roti jala (crêpes malaisiennes en dentelle)",
+    "en": "Roti jala (Malaysian lace pancakes)",
+    "es": "Roti jala (crepes malasias de encaje)",
+    "desc": "Crêpes de tradition malaise au motif ajouré, aussi présentes en Indonésie et à Singapour; accompagnement de curry.",
+    "cat": "Accompagnement",
+    "diff": "medium",
+    "prep": 20,
+    "cook": 15,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Roti_jala",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Œuf",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Lait de coco",
+        200.0,
+        "ml",
+        null
+      ],
+      [
+        "Eau",
+        200.0,
+        "ml",
+        null
+      ],
+      [
+        "Curcuma",
+        0.25,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Fouetter tous les ingrédients sauf l’huile; filtrer pour obtenir une pâte sans grumeaux.",
+      "Verser dans un flacon alimentaire à petit embout ou une tasse à roti jala.",
+      "Huiler légèrement une poêle à feu moyen doux. Tracer un réseau de fines lignes qui se croisent pour former un disque ajouré.",
+      "Cuire 1 à 2 minutes, jusqu’à pâte prise sans beaucoup de coloration. Plier en quartiers ou rouler; servir avec un curry."
+    ]
+  },
+  {
+    "slug": "cilbir-tr",
+    "country": "TR",
+    "original": "Cilbir",
+    "title": "Çılbır (œufs au yogourt)",
+    "en": "Çılbır (Turkish eggs with yogurt)",
+    "es": "Çılbır (huevos turcos con yogur)",
+    "desc": "Œufs turcs pochés sur yogourt à l’ail, nappés de beurre au piment. Utiliser des œufs pasteurisés pour conserver un jaune coulant.",
+    "cat": "Petit-déjeuner",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 10,
+    "serv": 2,
+    "reference": "https://en.wikipedia.org/wiki/%C3%87%C4%B1lb%C4%B1r",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Œufs pasteurisés",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Yogourt grec",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Ail",
+        1.0,
+        "gousse",
+        null
+      ],
+      [
+        "Beurre",
+        40.0,
+        "g",
+        null
+      ],
+      [
+        "Piment d’Alep",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Vinaigre",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.25,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Mélanger le yogourt avec ail écrasé et sel; le laisser perdre un peu de froid pendant la préparation.",
+      "Chauffer une casserole d’eau avec le vinaigre jusqu’au frémissement, sans gros bouillons.",
+      "Pocher les œufs un à un 3 à 4 minutes pour un jaune souple, ou plus longtemps pour une cuisson ferme; égoutter.",
+      "Fondre le beurre, retirer du feu et ajouter le piment. Répartir yogourt et œufs, napper de beurre et servir immédiatement."
+    ]
+  },
+  {
+    "slug": "kisir-tr",
+    "country": "TR",
+    "original": "Kisir",
+    "title": "Kısır (salade turque de boulgour)",
+    "en": "Kısır (Turkish bulgur salad)",
+    "es": "Kısır (ensalada turca de bulgur)",
+    "desc": "Salade turque de boulgour fin, tomate, herbes et mélasse de grenade. Prévoir 20 minutes de repos.",
+    "cat": "Salade",
+    "diff": "easy",
+    "prep": 25,
+    "cook": 0,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/K%C4%B1s%C4%B1r",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Boulgour fin",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Eau bouillante",
+        220.0,
+        "ml",
+        null
+      ],
+      [
+        "Concentré de tomate",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Pâte de poivron",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Persil",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Oignons verts",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Concombre",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Huile d’olive",
+        4.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Mélasse de grenade",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Citron",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Verser l’eau bouillante sur le boulgour, couvrir 15 minutes puis égrener.",
+      "Mélanger concentré de tomate et pâte de poivron avec huile, mélasse, jus de citron et sel.",
+      "Incorporer au boulgour tiédi, puis ajouter concombre en petits dés, persil et oignons hachés.",
+      "Reposer 20 minutes au frais. Goûter, ajuster citron ou sel et servir avec des feuilles de laitue."
+    ]
+  },
+  {
+    "slug": "piyaz-tr",
+    "country": "TR",
+    "original": "Piyaz",
+    "title": "Piyaz (salade turque de haricots)",
+    "en": "Piyaz (Turkish bean salad)",
+    "es": "Piyaz (ensalada turca de alubias)",
+    "desc": "Salade de haricots blancs, oignon et persil de tradition turque et persane; version sans sauce au tahini.",
+    "cat": "Salade",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 0,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Piyaz",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Haricots blancs cuits égouttés",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon rouge",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Persil",
+        25.0,
+        "g",
+        null
+      ],
+      [
+        "Tomates",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Huile d’olive",
+        4.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Vinaigre de vin",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sumac",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Rincer et égoutter soigneusement les haricots cuits.",
+      "Émincer très finement l’oignon. Le frotter avec sel et sumac, puis laisser reposer 5 minutes.",
+      "Couper les tomates en dés et hacher le persil. Mélanger avec les haricots et l’oignon.",
+      "Ajouter huile et vinaigre, remuer délicatement et laisser reposer 15 minutes avant de servir."
+    ]
+  },
+  {
+    "slug": "mucver-tr",
+    "country": "TR",
+    "original": "Mucver",
+    "title": "Mücver (galettes turques de courgette)",
+    "en": "Mücver (Turkish zucchini fritters)",
+    "es": "Mücver (buñuelos turcos de calabacín)",
+    "desc": "Galettes de courgette turques aux herbes et à la feta, poêlées jusqu’à dorure. La photo présente les mücver avec des rouleaux de börek; la recette porte sur les beignets de courgette.",
+    "cat": "Entrée",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 15,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/M%C3%BCcver",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Courgettes",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Farine",
+        100.0,
+        "g",
+        null
+      ],
+      [
+        "Feta",
+        100.0,
+        "g",
+        null
+      ],
+      [
+        "Oignons verts",
+        3.0,
+        null,
+        null
+      ],
+      [
+        "Aneth",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Persil",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        4.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Râper les courgettes, saler et laisser dégorger 10 minutes. Presser très fermement dans un linge propre.",
+      "Mélanger avec œufs, farine, feta émiettée, oignons et herbes hachés.",
+      "Chauffer l’huile à feu moyen. Déposer des cuillerées et aplatir en galettes de 1/2 pouce d’épaisseur.",
+      "Cuire 3 à 4 minutes par face, jusqu’à dorure et œufs pris au centre. Égoutter; accompagner de yogourt."
+    ]
+  },
+  {
+    "slug": "ezogelin-corbasi-tr",
+    "country": "TR",
+    "original": "Ezogelin corbasi",
+    "title": "Ezogelin (soupe de lentilles et boulgour)",
+    "en": "Ezogelin (lentil and bulgur soup)",
+    "es": "Ezogelin (sopa de lentejas y bulgur)",
+    "desc": "Soupe turque de lentilles rouges et boulgour, associée à Gaziantep, parfumée à la menthe séchée.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 35,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Ezogelin_soup",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Lentilles rouges",
+        180.0,
+        "g",
+        null
+      ],
+      [
+        "Boulgour fin",
+        40.0,
+        "g",
+        null
+      ],
+      [
+        "Riz",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        2.0,
+        "gousses",
+        null
+      ],
+      [
+        "Concentré de tomate",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Beurre",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Bouillon de légumes",
+        1400.0,
+        "ml",
+        null
+      ],
+      [
+        "Menthe séchée",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Paprika",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Citron",
+        1.0,
+        null,
+        null
+      ]
+    ],
+    "steps": [
+      "Faire fondre l’oignon et l’ail hachés dans la moitié du beurre 5 minutes.",
+      "Ajouter concentré, lentilles rincées, boulgour, riz et bouillon. Mijoter 30 minutes en remuant, jusqu’à céréales tendres.",
+      "Chauffer le beurre restant et y remuer menthe et paprika quelques secondes. Verser dans la soupe.",
+      "Ajuster sel et consistance avec de l’eau chaude. Servir avec citron; garder une texture rustique ou mixer partiellement."
+    ]
+  },
+  {
+    "slug": "skordalia-gr",
+    "country": "GR",
+    "original": "Skordalia",
+    "title": "Skordalia (purée grecque à l’ail)",
+    "en": "Skordalia (Greek garlic potato dip)",
+    "es": "Skordalia (puré griego de ajo)",
+    "desc": "Purée grecque épaisse à l’ail; cette variante utilise des pommes de terre, huile d’olive et vinaigre.",
+    "cat": "Accompagnement",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 25,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Skordalia",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Pommes de terre farineuses",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Ail",
+        4.0,
+        "gousses",
+        null
+      ],
+      [
+        "Huile d’olive",
+        100.0,
+        "ml",
+        null
+      ],
+      [
+        "Vinaigre de vin",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Peler et couper les pommes de terre; cuire dans l’eau salée environ 20 minutes, jusqu’à tendreté.",
+      "Piler l’ail avec le sel dans un mortier, puis ajouter le vinaigre.",
+      "Égoutter les pommes de terre et les écraser à la main, sans mixeur électrique.",
+      "Incorporer ail puis huile progressivement. Détendre avec un peu d’eau de cuisson si nécessaire et servir tiède ou froid."
+    ]
+  },
+  {
+    "slug": "pappa-al-pomodoro-it",
+    "country": "IT",
+    "original": "Pappa al pomodoro",
+    "title": "Pappa al pomodoro (soupe toscane au pain)",
+    "en": "Pappa al pomodoro (Tuscan tomato bread soup)",
+    "es": "Pappa al pomodoro (sopa toscana de pan)",
+    "desc": "Soupe toscane épaisse aux tomates, pain rassis et basilic, issue de la cuisine de récupération.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 30,
+    "serv": 4,
+    "reference": "https://www.visittuscany.com/en/ideas/10-dishes-to-taste-in-tuscany/",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Tomates mûres",
+        900.0,
+        "g",
+        null
+      ],
+      [
+        "Pain rassis",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Bouillon de légumes",
+        600.0,
+        "ml",
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Huile d’olive",
+        4.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Basilic",
+        15.0,
+        "feuilles",
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Couper les tomates et le pain en morceaux. Faire revenir l’ail émincé dans la moitié de l’huile 1 minute.",
+      "Ajouter tomates, sel et quelques feuilles de basilic; cuire 10 minutes.",
+      "Verser le bouillon et ajouter le pain. Frémir 15 à 20 minutes en remuant, jusqu’à pain défait et soupe épaisse.",
+      "Retirer du feu, reposer 10 minutes et ajouter huile et basilic restants. Servir chaud ou tiède."
+    ],
+    "place": "it-toscana"
+  },
+  {
+    "slug": "pasta-e-fagioli-it",
+    "country": "IT",
+    "original": "Pasta e fagioli",
+    "title": "Pasta e fagioli (pâtes et haricots)",
+    "en": "Pasta e fagioli (pasta and bean soup)",
+    "es": "Pasta e fagioli (pasta y alubias)",
+    "desc": "Soupe italienne de petites pâtes et haricots blancs; adaptation végétarienne sans attribution à une seule région.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 30,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Pasta_e_fagioli",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Haricots blancs cuits",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Petites pâtes",
+        180.0,
+        "g",
+        null
+      ],
+      [
+        "Tomates concassées",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Carotte",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Céleri",
+        1.0,
+        "branche",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        2.0,
+        "gousses",
+        null
+      ],
+      [
+        "Bouillon",
+        1000.0,
+        "ml",
+        null
+      ],
+      [
+        "Huile d’olive",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Romarin",
+        1.0,
+        "branche",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Faire revenir oignon, carotte et céleri en petits dés dans l’huile 7 minutes.",
+      "Ajouter ail, tomates et romarin; cuire 5 minutes, puis verser bouillon et haricots.",
+      "Mijoter 10 minutes. Écraser environ un tiers des haricots dans la casserole pour lier.",
+      "Ajouter les pâtes et cuire selon leur paquet, en remuant et en ajoutant du bouillon si nécessaire. Retirer le romarin, saler et servir."
+    ]
+  },
+  {
+    "slug": "pasta-e-ceci-it",
+    "country": "IT",
+    "original": "Pasta e ceci",
+    "title": "Pasta e ceci (pâtes et pois chiches)",
+    "en": "Pasta e ceci (pasta and chickpea soup)",
+    "es": "Pasta e ceci (pasta y garbanzos)",
+    "desc": "Préparation rustique italienne de pâtes et pois chiches. Version épaisse au romarin et à la tomate.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 25,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Pasta_e_ceci",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Pois chiches cuits",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Petites pâtes",
+        180.0,
+        "g",
+        null
+      ],
+      [
+        "Concentré de tomate",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Romarin",
+        1.0,
+        "branche",
+        null
+      ],
+      [
+        "Bouillon",
+        1000.0,
+        "ml",
+        null
+      ],
+      [
+        "Huile d’olive",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Faire revenir l’ail émincé et le romarin dans l’huile 1 minute.",
+      "Ajouter concentré, pois chiches et bouillon. Mijoter 10 minutes.",
+      "Mixer ou écraser environ un tiers des pois chiches, puis remettre dans la casserole.",
+      "Ajouter les pâtes; cuire selon le paquet en remuant. Ajuster liquide et sel, retirer la branche de romarin et servir."
+    ]
+  },
+  {
+    "slug": "gnocchi-alla-romana-it",
+    "country": "IT",
+    "original": "Gnocchi alla romana",
+    "title": "Gnocchi alla romana (palets de semoule)",
+    "en": "Gnocchi alla romana (semolina gratin)",
+    "es": "Gnocchi alla romana (discos de sémola gratinados)",
+    "desc": "Palets italiens de semoule au lait et parmesan, gratinés au beurre; ils ne sont pas faits de pommes de terre.",
+    "cat": "Plat principal",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 35,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Gnocchi_alla_romana",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Semoule fine de blé",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Lait entier",
+        1000.0,
+        "ml",
+        null
+      ],
+      [
+        "Beurre",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Parmesan",
+        100.0,
+        "g",
+        null
+      ],
+      [
+        "Jaunes d’œufs",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ],
+      [
+        "Muscade",
+        0.25,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Frémir le lait avec sel, muscade et 30 g de beurre. Verser la semoule en pluie en fouettant.",
+      "Cuire 8 à 10 minutes jusqu’à pâte épaisse. Hors du feu, incorporer jaunes et moitié du parmesan.",
+      "Étaler sur un plateau humide à 1/2 pouce d’épaisseur et refroidir. Découper des disques et les chevaucher dans un plat beurré.",
+      "Répartir beurre et parmesan restants. Gratiner à 200 °C pendant 20 à 25 minutes, jusqu’à dessus doré."
+    ],
+    "place": "it-rome"
+  },
+  {
+    "slug": "panzanella-it",
+    "country": "IT",
+    "original": "Panzanella",
+    "title": "Panzanella (salade toscane de pain)",
+    "en": "Panzanella (Tuscan bread salad)",
+    "es": "Panzanella (ensalada toscana de pan)",
+    "desc": "Salade de pain rassis, tomates et légumes, associée notamment à la Toscane et à l’Ombrie.",
+    "cat": "Salade",
+    "diff": "easy",
+    "prep": 25,
+    "cook": 0,
+    "serv": 4,
+    "reference": "https://www.visittuscany.com/es/recetas/panzanella/",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Pain rassis",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Tomates",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Concombre",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Oignon rouge",
+        0.5,
+        null,
+        null
+      ],
+      [
+        "Basilic",
+        15.0,
+        "feuilles",
+        null
+      ],
+      [
+        "Huile d’olive",
+        4.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Vinaigre de vin",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Eau",
+        100.0,
+        "ml",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Humidifier le pain avec l’eau et une cuillère de vinaigre, puis laisser reposer 10 minutes.",
+      "Presser doucement et déchirer en morceaux. Couper tomates et concombre, émincer l’oignon.",
+      "Mélanger pain et légumes, puis ajouter huile, vinaigre restant et sel.",
+      "Reposer 20 minutes pour absorber le jus des tomates. Ajouter basilic déchiré et rectifier l’assaisonnement."
+    ],
+    "place": "it-toscana"
+  },
+  {
+    "slug": "panna-cotta-it",
+    "country": "IT",
+    "original": "Panna cotta",
+    "title": "Panna cotta (crème prise à la vanille)",
+    "en": "Panna cotta (vanilla cream dessert)",
+    "es": "Panna cotta (crema cuajada de vainilla)",
+    "desc": "Dessert italien associé au Piémont : crème légèrement gélifiée, servie ici avec fruits rouges. Prévoir 6 heures au frais.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 5,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Panna_cotta",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Crème 35 %",
+        500.0,
+        "ml",
+        null
+      ],
+      [
+        "Lait",
+        150.0,
+        "ml",
+        null
+      ],
+      [
+        "Sucre",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Gélatine en poudre",
+        7.0,
+        "g",
+        null
+      ],
+      [
+        "Eau froide",
+        35.0,
+        "ml",
+        null
+      ],
+      [
+        "Vanille",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Fruits rouges",
+        200.0,
+        "g",
+        null
+      ]
+    ],
+    "steps": [
+      "Saupoudrer la gélatine sur l’eau froide et laisser gonfler 5 minutes.",
+      "Chauffer crème, lait et sucre jusqu’au frémissement, puis retirer du feu.",
+      "Ajouter gélatine hydratée et vanille; remuer jusqu’à dissolution complète, sans faire bouillir.",
+      "Répartir dans six petits ramequins, refroidir puis réfrigérer 6 heures. Servir avec fruits rouges ou coulis."
+    ],
+    "place": "it-piemonte"
+  },
+  {
+    "slug": "zabaglione-it",
+    "country": "IT",
+    "original": "Zabaglione",
+    "title": "Zabaglione (sabayon italien au vin)",
+    "en": "Zabaglione (Italian wine custard)",
+    "es": "Zabaglione (crema italiana al vino)",
+    "desc": "Crème italienne mousseuse aux jaunes d’œufs et vin doux. Version au marsala, servie aussitôt.",
+    "cat": "Dessert",
+    "diff": "medium",
+    "prep": 10,
+    "cook": 10,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Zabaglione",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Jaunes d’œufs",
+        6.0,
+        null,
+        null
+      ],
+      [
+        "Sucre",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Marsala doux",
+        100.0,
+        "ml",
+        null
+      ],
+      [
+        "Fraises",
+        250.0,
+        "g",
+        null
+      ]
+    ],
+    "steps": [
+      "Mettre une casserole d’eau à frémir. Placer jaunes et sucre dans un bol métallique qui ne touche pas l’eau.",
+      "Fouetter jusqu’à pâlissement, ajouter le marsala, puis poser au bain-marie.",
+      "Fouetter continuellement 8 à 10 minutes, jusqu’à crème très mousseuse et épaissie; contrôler qu’elle atteint 71 °C sans coaguler.",
+      "Retirer du bain-marie, fouetter encore 1 minute et répartir sur les fraises. Servir immédiatement."
+    ]
+  },
+  {
+    "slug": "ajoblanco-es",
+    "country": "ES",
+    "original": "Ajoblanco",
+    "title": "Ajoblanco (soupe froide aux amandes)",
+    "en": "Ajoblanco (chilled almond soup)",
+    "es": "Ajoblanco (sopa fría de almendras)",
+    "desc": "Soupe froide andalouse aux amandes, pain et ail, souvent accompagnée de raisins. Prévoir 2 heures de réfrigération.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 0,
+    "serv": 4,
+    "reference": "https://www.spain.info/es/receta/ajoblanco/",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Amandes mondées",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Mie de pain rassis",
+        120.0,
+        "g",
+        null
+      ],
+      [
+        "Ail",
+        2.0,
+        "gousses",
+        null
+      ],
+      [
+        "Eau froide",
+        800.0,
+        "ml",
+        null
+      ],
+      [
+        "Huile d’olive",
+        80.0,
+        "ml",
+        null
+      ],
+      [
+        "Vinaigre de xérès",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ],
+      [
+        "Raisins",
+        150.0,
+        "g",
+        null
+      ]
+    ],
+    "steps": [
+      "Faire tremper la mie dans une partie de l’eau 10 minutes.",
+      "Mixer amandes et ail, puis ajouter mie, vinaigre et sel pour obtenir une pâte fine.",
+      "Incorporer eau restante et huile progressivement en mixant. Ajuster la consistance; filtrer si une texture très lisse est souhaitée.",
+      "Réfrigérer au moins 2 heures. Goûter à froid et servir avec les raisins coupés."
+    ],
+    "place": "es-andalucia"
+  },
+  {
+    "slug": "leche-frita-es",
+    "country": "ES",
+    "original": "Leche frita",
+    "title": "Leche frita (lait frit espagnol)",
+    "en": "Leche frita (Spanish fried milk custard)",
+    "es": "Leche frita",
+    "desc": "Crème au lait épaissie, refroidie, découpée puis frite, appréciée dans le nord de l’Espagne. Prévoir 4 heures au frais.",
+    "cat": "Dessert",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 20,
+    "serv": 8,
+    "reference": "https://en.wikipedia.org/wiki/Leche_frita",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Lait",
+        600.0,
+        "ml",
+        null
+      ],
+      [
+        "Sucre",
+        100.0,
+        "g",
+        null
+      ],
+      [
+        "Fécule de maïs",
+        70.0,
+        "g",
+        null
+      ],
+      [
+        "Cannelle",
+        1.0,
+        "bâton",
+        null
+      ],
+      [
+        "Zeste de citron",
+        2.0,
+        "lanières",
+        null
+      ],
+      [
+        "Œufs",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Farine",
+        60.0,
+        "g",
+        null
+      ],
+      [
+        "Huile",
+        500.0,
+        "ml",
+        null
+      ],
+      [
+        "Cannelle moulue",
+        1.0,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Chauffer 450 ml de lait avec 80 g de sucre, cannelle et citron; infuser 10 minutes, puis retirer les aromates.",
+      "Délayer la fécule dans le lait froid restant. Incorporer au lait chaud et cuire 3 à 5 minutes en remuant, jusqu’à crème très épaisse.",
+      "Étaler sur 3/4 pouce dans un petit plat huilé. Refroidir puis réfrigérer 4 heures; couper en carrés.",
+      "Passer dans farine puis œufs battus. Frire à 170 °C jusqu’à dorure; rouler dans sucre restant et cannelle moulue."
+    ]
+  },
+  {
+    "slug": "huevos-rotos-es",
+    "country": "ES",
+    "original": "Huevos rotos",
+    "title": "Huevos rotos (œufs et pommes de terre)",
+    "en": "Huevos rotos (eggs and fried potatoes)",
+    "es": "Huevos rotos",
+    "desc": "Œufs espagnols servis sur pommes de terre frites avec jambon. Utiliser des œufs pasteurisés si les jaunes restent coulants.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 25,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Huevos_rotos",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Pommes de terre",
+        900.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs pasteurisés",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Jambon serrano",
+        120.0,
+        "g",
+        null
+      ],
+      [
+        "Huile d’olive",
+        500.0,
+        "ml",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Couper les pommes de terre en bâtonnets et les sécher soigneusement.",
+      "Les frire à 160 °C jusqu’à tendreté, puis terminer à 180 °C pour les dorer. Égoutter et saler.",
+      "Cuire les œufs dans un peu d’huile, jusqu’à blancs pris et jaunes selon préférence.",
+      "Répartir les pommes de terre, jambon et œufs dans un plat. Rompre les œufs au moment de servir pour répartir le jaune."
+    ]
+  },
+  {
+    "slug": "cocido-montanes-es",
+    "country": "ES",
+    "original": "Cocido montanes",
+    "title": "Cocido montañés (mijoté cantabrique)",
+    "en": "Cocido montañés (Cantabrian bean stew)",
+    "es": "Cocido montañés",
+    "desc": "Mijoté de Cantabrie aux haricots blancs, chou et porc. Version domestique avec haricots déjà cuits.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 90,
+    "serv": 6,
+    "reference": "https://www.spain.info/es/receta/cocido-montanes/",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Haricots blancs cuits",
+        900.0,
+        "g",
+        null
+      ],
+      [
+        "Chou vert",
+        500.0,
+        "g",
+        null
+      ],
+      [
+        "Côtes de porc",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Poitrine fumée",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Chorizo à cuire",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Eau",
+        1500.0,
+        "ml",
+        null
+      ],
+      [
+        "Paprika",
+        1.0,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Mettre côtes, poitrine, oignon et ail dans l’eau. Porter à ébullition, écumer et mijoter 60 minutes.",
+      "Ajouter le chou émincé, chorizo en gros morceaux et paprika; cuire 20 minutes.",
+      "Incorporer les haricots rincés et mijoter encore 10 minutes, jusqu’à viande tendre et cuite.",
+      "Goûter avant de saler, dégraisser la surface et servir très chaud. Écraser quelques haricots si un bouillon plus lié est souhaité."
+    ],
+    "place": {
+      "slug": "es-cantabria",
+      "name": "Cantabrie",
+      "type": "region",
+      "lat": 43.333,
+      "lng": -4.0,
+      "summary": "Région du nord de l’Espagne, associée au cocido montañés."
+    }
+  },
+  {
+    "slug": "zarangollo-es",
+    "country": "ES",
+    "original": "Zarangollo",
+    "title": "Zarangollo (œufs à la courgette de Murcie)",
+    "en": "Zarangollo (Murcian zucchini scrambled eggs)",
+    "es": "Zarangollo murciano",
+    "desc": "Préparation de Murcie aux courgettes et oignons fondants, liés par des œufs brouillés.",
+    "cat": "Accompagnement",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 25,
+    "serv": 4,
+    "reference": "https://www.spain.info/es/top/que-comer-en-region-de-murcia/",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Courgettes",
+        700.0,
+        "g",
+        null
+      ],
+      [
+        "Oignons",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Œufs",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Huile d’olive",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Poivre",
+        0.25,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Émincer très finement les oignons et les courgettes.",
+      "Faire fondre l’oignon dans l’huile 8 minutes à feu moyen doux, sans forte coloration.",
+      "Ajouter les courgettes et le sel; cuire 12 à 15 minutes pour attendrir et évaporer l’eau.",
+      "Ajouter les œufs légèrement battus. Remuer doucement jusqu’à œufs pris, poivrer et servir chaud."
+    ],
+    "place": {
+      "slug": "es-murcia",
+      "name": "Région de Murcie",
+      "type": "region",
+      "lat": 38.0,
+      "lng": -1.833,
+      "summary": "Région du sud-est de l’Espagne, associée au zarangollo."
+    }
+  },
+  {
+    "slug": "sopa-castellana-es",
+    "country": "ES",
+    "original": "Sopa castellana",
+    "title": "Sopa castellana (soupe à l’ail et pain)",
+    "en": "Sopa castellana (Spanish garlic bread soup)",
+    "es": "Sopa castellana",
+    "desc": "Soupe espagnole à l’ail, pain rassis, paprika et jambon. La photo montre la version sans œuf; l’œuf poché est proposé en option.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 20,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Sopa_de_ajo",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Pain rassis",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Ail",
+        6.0,
+        "gousses",
+        null
+      ],
+      [
+        "Jambon serrano",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs",
+        4.0,
+        null,
+        "facultatifs"
+      ],
+      [
+        "Bouillon de poulet",
+        1200.0,
+        "ml",
+        null
+      ],
+      [
+        "Huile d’olive",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Paprika fumé",
+        1.0,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Dorer doucement l’ail émincé dans l’huile, puis ajouter jambon en dés et pain déchiré.",
+      "Retirer brièvement du feu pour incorporer le paprika sans le brûler, puis verser le bouillon.",
+      "Mijoter 15 minutes et goûter avant de saler.",
+      "Servir sans attendre. Pour la variante aux œufs, les casser dans la soupe, couvrir et cuire 4 à 6 minutes, jusqu’à blanc pris et jaune à la cuisson souhaitée."
+    ]
+  },
+  {
+    "slug": "financiers-fr",
+    "country": "FR",
+    "original": "Financiers",
+    "title": "Financiers (petits gâteaux aux amandes)",
+    "en": "Financiers (French almond cakes)",
+    "es": "Financiers (pastelitos franceses de almendra)",
+    "desc": "Petits gâteaux français aux amandes, blancs d’œufs et beurre noisette, cuits en moules rectangulaires.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 18,
+    "serv": 12,
+    "reference": "https://en.wikipedia.org/wiki/Financier_%28cake%29",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Beurre",
+        120.0,
+        "g",
+        null
+      ],
+      [
+        "Sucre glace",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Poudre d’amandes",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Farine",
+        50.0,
+        "g",
+        null
+      ],
+      [
+        "Blancs d’œufs",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Sel",
+        1.0,
+        "pincée",
+        null
+      ]
+    ],
+    "steps": [
+      "Chauffer le beurre jusqu’à couleur noisette et odeur de noix; filtrer et tiédir.",
+      "Mélanger sucre glace, amandes, farine et sel. Ajouter les blancs non montés, puis le beurre.",
+      "Répartir dans 12 petits moules beurrés en les remplissant aux trois quarts.",
+      "Cuire à 190 °C pendant 15 à 18 minutes, jusqu’à bords dorés et centre cuit. Tiédir avant démoulage."
+    ]
+  },
+  {
+    "slug": "gougeres-fr",
+    "country": "FR",
+    "original": "Gougeres",
+    "title": "Gougères (choux au fromage)",
+    "en": "Gougères (French cheese puffs)",
+    "es": "Gougères (buñuelos franceses de queso al horno)",
+    "desc": "Choux salés au fromage associés à la Bourgogne, servis tièdes à l’apéritif.",
+    "cat": "Entrée",
+    "diff": "medium",
+    "prep": 20,
+    "cook": 30,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Goug%C3%A8re",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Eau",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Beurre",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Farine",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Comté râpé",
+        130.0,
+        "g",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Poivre",
+        0.25,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Porter eau, beurre et sel à ébullition. Ajouter la farine d’un coup et remuer vigoureusement.",
+      "Dessécher la pâte 2 minutes à feu doux; tiédir 5 minutes, puis ajouter les œufs un par un.",
+      "Incorporer fromage et poivre. Déposer 24 petits tas espacés sur papier cuisson.",
+      "Cuire à 190 °C 25 à 30 minutes, jusqu’à choux gonflés, dorés et secs. Ne pas ouvrir le four pendant les 20 premières minutes."
+    ],
+    "place": "fr-bourgogne-franche-comte"
+  },
+  {
+    "slug": "palmiers-fr",
+    "country": "FR",
+    "original": "Palmiers",
+    "title": "Palmiers (biscuits feuilletés)",
+    "en": "Palmiers (puff pastry cookies)",
+    "es": "Palmiers (galletas de hojaldre)",
+    "desc": "Biscuits français en forme de cœur, faits de pâte feuilletée et sucre. Adaptation avec pâte prête à cuire.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 18,
+    "serv": 12,
+    "reference": "https://en.wikipedia.org/wiki/Palmier",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Pâte feuilletée pur beurre",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Sucre",
+        100.0,
+        "g",
+        null
+      ],
+      [
+        "Cannelle moulue",
+        0.25,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Mélanger sucre et cannelle. Saupoudrer la moitié sur le plan de travail et étaler la pâte froide en rectangle.",
+      "Saupoudrer le reste sur la pâte; rouler les deux grands côtés vers le milieu, puis réunir les deux rouleaux.",
+      "Réfrigérer 20 minutes. Trancher en 12 morceaux de 1/2 pouce et les espacer sur une plaque.",
+      "Cuire à 200 °C environ 15 à 18 minutes, en retournant à mi-cuisson, jusqu’à caramel doré. Refroidir sur grille."
+    ]
+  },
+  {
+    "slug": "ile-flottante-fr",
+    "country": "FR",
+    "original": "Ile flottante",
+    "title": "Île flottante (meringue et crème anglaise)",
+    "en": "Floating island (meringue and custard)",
+    "es": "Isla flotante (merengue y crema inglesa)",
+    "desc": "Dessert français de meringue cuite sur crème anglaise. Version en petits dômes pochés, avec caramel.",
+    "cat": "Dessert",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 20,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/%C3%8Ele_flottante",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Œufs",
+        4.0,
+        null,
+        null
+      ],
+      [
+        "Lait",
+        600.0,
+        "ml",
+        null
+      ],
+      [
+        "Sucre",
+        160.0,
+        "g",
+        "60 g crème, 40 g blancs, 60 g caramel"
+      ],
+      [
+        "Vanille",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Eau",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        1.0,
+        "pincée",
+        null
+      ]
+    ],
+    "steps": [
+      "Séparer les œufs. Chauffer le lait avec vanille. Fouetter jaunes et 60 g de sucre, ajouter un peu de lait chaud puis reverser en casserole.",
+      "Cuire en remuant à feu doux jusqu’à 82 °C et texture nappante, sans bouillir. Filtrer, refroidir et réfrigérer.",
+      "Monter les blancs avec sel et 40 g de sucre. Pocher six portions dans de l’eau frémissante, environ 2 minutes par face; égoutter.",
+      "Caraméliser les 60 g de sucre restants avec l’eau. Répartir crème, meringues et un filet de caramel; refroidir avant service."
+    ]
+  },
+  {
+    "slug": "arroz-doce-pt",
+    "country": "PT",
+    "original": "Arroz doce",
+    "title": "Arroz doce (riz au lait portugais)",
+    "en": "Arroz doce (Portuguese rice pudding)",
+    "es": "Arroz doce (arroz con leche portugués)",
+    "desc": "Riz au lait portugais parfumé au citron et à la cannelle, lié avec des jaunes d’œufs.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 40,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Arroz_doce",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Riz rond",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Eau",
+        300.0,
+        "ml",
+        null
+      ],
+      [
+        "Lait",
+        900.0,
+        "ml",
+        null
+      ],
+      [
+        "Sucre",
+        120.0,
+        "g",
+        null
+      ],
+      [
+        "Jaunes d’œufs",
+        3.0,
+        null,
+        null
+      ],
+      [
+        "Zeste de citron",
+        3.0,
+        "lanières",
+        null
+      ],
+      [
+        "Cannelle",
+        1.0,
+        "bâton",
+        null
+      ],
+      [
+        "Cannelle moulue",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sel",
+        1.0,
+        "pincée",
+        null
+      ]
+    ],
+    "steps": [
+      "Cuire le riz avec eau et sel 10 minutes, jusqu’à absorption.",
+      "Ajouter lait, citron et bâton de cannelle. Mijoter doucement 25 à 30 minutes en remuant, jusqu’à riz tendre et mélange crémeux.",
+      "Ajouter sucre. Délayer les jaunes avec quelques cuillères de crème chaude, puis incorporer à feu doux en remuant jusqu’à 82 °C, sans bouillir.",
+      "Retirer les aromates, répartir dans des coupelles et refroidir. Décorer de cannelle moulue."
+    ]
+  },
+  {
+    "slug": "bacalhau-com-natas-pt",
+    "country": "PT",
+    "original": "Bacalhau com natas",
+    "title": "Bacalhau com natas (morue gratinée à la crème)",
+    "en": "Bacalhau com natas (creamy cod gratin)",
+    "es": "Bacalhau com natas (bacalao gratinado con nata)",
+    "desc": "Gratin portugais de morue salée dessalée, pommes de terre, oignon et crème. Prévoir 24 à 48 heures de dessalage selon l’épaisseur.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 25,
+    "cook": 45,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Bacalhau_com_natas",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Morue salée",
+        500.0,
+        "g",
+        "dessalée au frais, eau changée plusieurs fois"
+      ],
+      [
+        "Pommes de terre",
+        700.0,
+        "g",
+        null
+      ],
+      [
+        "Oignons",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Crème",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Lait",
+        300.0,
+        "ml",
+        null
+      ],
+      [
+        "Farine",
+        25.0,
+        "g",
+        null
+      ],
+      [
+        "Beurre",
+        25.0,
+        "g",
+        null
+      ],
+      [
+        "Huile d’olive",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Muscade",
+        0.25,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Pocher la morue dessalée dans de l’eau frémissante 8 minutes; égoutter, retirer peau et arêtes et effeuiller.",
+      "Cuire les pommes de terre en cubes à l’eau 12 minutes. Faire fondre les oignons dans l’huile 10 minutes, puis ajouter la morue.",
+      "Faire un roux avec beurre et farine; ajouter lait puis crème en fouettant. Épaissir 5 minutes et parfumer de muscade.",
+      "Mélanger poisson, pommes de terre et sauce dans un plat. Gratiner à 200 °C 20 à 25 minutes; goûter avant de saler."
+    ]
+  },
+  {
+    "slug": "kladdkaka-se",
+    "country": "SE",
+    "original": "Kladdkaka",
+    "title": "Kladdkaka (gâteau suédois fondant au cacao)",
+    "en": "Kladdkaka (Swedish sticky chocolate cake)",
+    "es": "Kladdkaka (pastel sueco de chocolate)",
+    "desc": "Gâteau suédois dense au cacao, sans levure chimique, avec centre fondant. Prévoir une heure de refroidissement.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 20,
+    "serv": 8,
+    "reference": "https://en.wikipedia.org/wiki/Kladdkaka",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Beurre",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Sucre",
+        220.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs",
+        3.0,
+        null,
+        null
+      ],
+      [
+        "Farine",
+        100.0,
+        "g",
+        null
+      ],
+      [
+        "Cacao non sucré",
+        40.0,
+        "g",
+        null
+      ],
+      [
+        "Vanille",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sel",
+        1.0,
+        "pincée",
+        null
+      ]
+    ],
+    "steps": [
+      "Fondre le beurre et tiédir. Chauffer le four à 175 °C et chemiser un moule de 8 pouces.",
+      "Mélanger œufs et sucre sans les monter fortement. Ajouter beurre et vanille.",
+      "Incorporer farine, cacao et sel tamisés, juste assez pour homogénéiser.",
+      "Cuire 18 à 22 minutes : bords pris, centre encore souple. Refroidir une heure avant découpe; servir avec crème fouettée."
+    ]
+  },
+  {
+    "slug": "risalamande-dk",
+    "country": "DK",
+    "original": "Risalamande",
+    "title": "Risalamande (riz danois aux amandes)",
+    "en": "Risalamande (Danish almond rice dessert)",
+    "es": "Risalamande (postre danés de arroz y almendras)",
+    "desc": "Dessert danois de riz au lait froid mélangé à de la crème fouettée et des amandes, accompagné de cerises.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 25,
+    "cook": 40,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Risalamande",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Riz rond",
+        120.0,
+        "g",
+        null
+      ],
+      [
+        "Lait",
+        750.0,
+        "ml",
+        null
+      ],
+      [
+        "Sucre",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Vanille",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Crème 35 %",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Amandes mondées",
+        70.0,
+        "g",
+        null
+      ],
+      [
+        "Cerises dénoyautées",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Fécule",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Eau",
+        100.0,
+        "ml",
+        null
+      ]
+    ],
+    "steps": [
+      "Mijoter le riz dans le lait avec vanille 35 à 40 minutes en remuant; ajouter 50 g de sucre et refroidir complètement au réfrigérateur.",
+      "Hacher les amandes. Fouetter la crème en pics souples et l’incorporer délicatement au riz froid avec les amandes.",
+      "Cuire cerises, eau et sucre restant 5 minutes. Délayer la fécule dans un peu d’eau froide, ajouter et faire épaissir 1 minute.",
+      "Servir le riz froid avec sauce aux cerises tiède ou froide."
+    ]
+  },
+  {
+    "slug": "germknodel-at",
+    "country": "AT",
+    "original": "Germknodel",
+    "title": "Germknödel (brioche vapeur à la prune)",
+    "en": "Germknödel (steamed plum dumplings)",
+    "es": "Germknödel (bollos al vapor con ciruela)",
+    "desc": "Brioche vapeur autrichienne fourrée au powidl, couverte de pavot sucré et de beurre. Prévoir 90 minutes de levée.",
+    "cat": "Dessert",
+    "diff": "medium",
+    "prep": 30,
+    "cook": 20,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Germkn%C3%B6del",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Lait tiède",
+        150.0,
+        "ml",
+        null
+      ],
+      [
+        "Levure sèche",
+        5.0,
+        "g",
+        null
+      ],
+      [
+        "Œuf",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Sucre",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Beurre",
+        80.0,
+        "g",
+        "30 g pâte, 50 g service"
+      ],
+      [
+        "Powidl ou confiture épaisse de prune",
+        120.0,
+        "g",
+        null
+      ],
+      [
+        "Pavot moulu",
+        40.0,
+        "g",
+        null
+      ],
+      [
+        "Sucre glace",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Sel",
+        1.0,
+        "pincée",
+        null
+      ]
+    ],
+    "steps": [
+      "Pétrir farine, lait, levure, œuf, sucre, 30 g de beurre et sel en pâte souple. Couvrir et laisser doubler environ 1 heure.",
+      "Diviser en quatre. Aplatir, enfermer la confiture et pincer soigneusement les bords.",
+      "Poser sur papier cuisson dans un panier vapeur et lever encore 30 minutes. Cuire à la vapeur 18 à 20 minutes, en espaçant les brioches.",
+      "Napper de beurre restant fondu et parsemer de pavot mélangé au sucre glace. Servir immédiatement."
+    ]
+  },
+  {
+    "slug": "konigsberger-klopse-de",
+    "country": "DE",
+    "original": "Konigsberger Klopse",
+    "title": "Königsberger Klopse (boulettes aux câpres)",
+    "en": "Königsberger Klopse (meatballs in caper sauce)",
+    "es": "Königsberger Klopse (albóndigas con alcaparras)",
+    "desc": "Spécialité allemande issue de la cuisine historique de Prusse orientale; boulettes pochées en sauce blanche aux câpres. Aucun rattachement à une ville allemande actuelle.",
+    "cat": "Plat principal",
+    "diff": "medium",
+    "prep": 30,
+    "cook": 30,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/K%C3%B6nigsberger_Klopse",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Veau ou bœuf haché",
+        500.0,
+        "g",
+        null
+      ],
+      [
+        "Pain rassis",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Lait",
+        100.0,
+        "ml",
+        null
+      ],
+      [
+        "Œuf",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Anchois",
+        2.0,
+        "filets",
+        null
+      ],
+      [
+        "Bouillon",
+        1000.0,
+        "ml",
+        null
+      ],
+      [
+        "Beurre",
+        40.0,
+        "g",
+        null
+      ],
+      [
+        "Farine",
+        35.0,
+        "g",
+        null
+      ],
+      [
+        "Crème",
+        100.0,
+        "ml",
+        null
+      ],
+      [
+        "Câpres",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Jus de citron",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Tremper le pain dans le lait puis presser. Mélanger avec viande, œuf, oignon et anchois finement hachés; façonner 12 boulettes.",
+      "Pocher dans le bouillon frémissant 15 à 20 minutes, jusqu’à viande à 71 °C; retirer et garder au chaud.",
+      "Faire un roux avec beurre et farine. Incorporer progressivement 500 ml de bouillon de pochage, puis crème; cuire 5 minutes.",
+      "Ajouter câpres et citron, goûter avant de saler et réchauffer les boulettes dans la sauce."
+    ]
+  },
+  {
+    "slug": "chkmeruli-ge",
+    "country": "GE",
+    "original": "Chkmeruli",
+    "title": "Chkmeruli (poulet géorgien à l’ail)",
+    "en": "Chkmeruli (Georgian garlic chicken)",
+    "es": "Chkmeruli (pollo georgiano al ajo)",
+    "desc": "Poulet géorgien en sauce à l’ail, associé à Shkmeri dans la région de Racha. Version domestique au lait.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 45,
+    "serv": 4,
+    "reference": "https://georgia.travel/shkmeruli",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Poulet découpé",
+        1200.0,
+        "g",
+        null
+      ],
+      [
+        "Ail",
+        10.0,
+        "gousses",
+        null
+      ],
+      [
+        "Lait entier",
+        350.0,
+        "ml",
+        null
+      ],
+      [
+        "Beurre",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ],
+      [
+        "Poivre",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Sécher le poulet et l’assaisonner. Dorer dans beurre et huile 8 minutes par face dans une grande poêle.",
+      "Réduire le feu, couvrir et cuire 20 à 25 minutes, jusqu’à 74 °C au cœur des morceaux.",
+      "Réserver le poulet. Ajouter ail écrasé dans la poêle, remuer 1 minute puis verser le lait et décoller les sucs.",
+      "Remettre le poulet et frémir doucement 5 à 10 minutes. Servir avec du pain pour la sauce."
+    ]
+  },
+  {
+    "slug": "baghali-polo-ir",
+    "country": "IR",
+    "original": "Baghali polo",
+    "title": "Baghali polo (riz iranien aux fèves)",
+    "en": "Baghali polo (Iranian dill and fava rice)",
+    "es": "Baghali polo (arroz iraní con habas y eneldo)",
+    "desc": "Riz iranien aux fèves et à l’aneth, cuit en couches pour obtenir un fond légèrement croustillant. Sur la photo, le riz est servi avec de la viande en accompagnement; la recette décrit le riz seul.",
+    "cat": "Accompagnement",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 45,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Baghali_polo",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Riz basmati",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Fèves pelées",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Aneth frais",
+        50.0,
+        "g",
+        null
+      ],
+      [
+        "Beurre",
+        40.0,
+        "g",
+        null
+      ],
+      [
+        "Huile",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Eau",
+        60.0,
+        "ml",
+        null
+      ],
+      [
+        "Safran",
+        0.1,
+        "g",
+        null
+      ],
+      [
+        "Sel",
+        1.0,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Tremper le riz rincé 30 minutes. Infuser séparément le safran dans 2 cuillères à soupe d’eau chaude.",
+      "Précuire le riz 5 à 6 minutes dans beaucoup d’eau salée, ajouter les fèves les 2 dernières minutes, puis égoutter.",
+      "Huiler une casserole antiadhésive. Disposer riz et fèves en couches alternées avec l’aneth haché; verser eau, beurre et safran.",
+      "Couvrir, chauffer 5 minutes à feu moyen puis 30 à 35 minutes au feu très doux. Égrener délicatement; servir le fond doré à part."
+    ]
+  },
+  {
+    "slug": "mirza-ghassemi-ir",
+    "country": "IR",
+    "original": "Mirza ghassemi",
+    "title": "Mirza ghassemi (aubergines iraniennes aux œufs)",
+    "en": "Mirza ghassemi (Iranian eggplant and eggs)",
+    "es": "Mirza ghassemi (berenjenas iraníes con huevos)",
+    "desc": "Aubergines grillées à l’ail, tomate et œufs, spécialité du Gilan au nord de l’Iran.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 40,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Mirza_ghassemi",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Aubergines",
+        800.0,
+        "g",
+        null
+      ],
+      [
+        "Tomates",
+        400.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs",
+        3.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        6.0,
+        "gousses",
+        null
+      ],
+      [
+        "Huile",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Curcuma",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Griller les aubergines en tournant jusqu’à peau noircie et chair tendre, environ 25 minutes. Peler et hacher.",
+      "Faire revenir l’ail écrasé dans l’huile 1 minute, ajouter curcuma et tomates hachées.",
+      "Réduire 10 minutes, puis incorporer aubergines et sel; cuire 5 minutes.",
+      "Ajouter les œufs légèrement battus et remuer doucement jusqu’à prise. Servir avec pain ou riz."
+    ]
+  },
+  {
+    "slug": "tlacoyos-mx",
+    "country": "MX",
+    "original": "Tlacoyos",
+    "title": "Tlacoyos (galettes mexicaines farcies)",
+    "en": "Tlacoyos (Mexican stuffed masa cakes)",
+    "es": "Tlacoyos mexicanos",
+    "desc": "Galettes ovales de masa, farcies de haricots et cuites sur plaque; tradition mexicaine préhispanique.",
+    "cat": "Plat principal",
+    "diff": "medium",
+    "prep": 30,
+    "cook": 20,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Tlacoyo",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Masa harina bleue ou blanche",
+        300.0,
+        "g",
+        "masa harina de maïs blanc ou bleu; la photo montre des tlacoyos bleus sans garniture"
+      ],
+      [
+        "Eau tiède",
+        380.0,
+        "ml",
+        null
+      ],
+      [
+        "Haricots noirs cuits égouttés",
+        350.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        0.5,
+        null,
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Queso fresco",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Salsa",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Coriandre",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Faire revenir l’oignon haché dans l’huile. Ajouter haricots et sel; écraser et réduire jusqu’à farce épaisse, puis refroidir.",
+      "Mélanger masa et eau en pâte souple. Diviser en huit; creuser chaque portion et ajouter une cuillerée de farce.",
+      "Refermer et aplatir doucement en ovale épais, sans laisser sortir les haricots.",
+      "Cuire sur plaque à feu moyen 4 à 5 minutes par face, jusqu’à pâte cuite. Garnir de salsa, fromage et coriandre; servir frais."
+    ]
+  },
+  {
+    "slug": "caldo-tlalpeno-mx",
+    "country": "MX",
+    "original": "Caldo tlalpeno",
+    "title": "Caldo tlalpeño (soupe mexicaine au poulet)",
+    "en": "Caldo tlalpeño (Mexican chicken soup)",
+    "es": "Caldo tlalpeño",
+    "desc": "Soupe mexicaine de poulet, pois chiches et légumes, relevée au chipotle et servie avec avocat et lime.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 40,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Caldo_tlalpe%C3%B1o",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Poulet désossé",
+        500.0,
+        "g",
+        null
+      ],
+      [
+        "Bouillon de poulet",
+        1500.0,
+        "ml",
+        null
+      ],
+      [
+        "Pois chiches cuits",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Carottes",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Haricots verts",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Chipotle en adobo",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Avocat",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Lime",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Faire revenir oignon et ail hachés dans l’huile 4 minutes.",
+      "Ajouter bouillon, poulet et chipotle; frémir 20 minutes jusqu’à poulet à 74 °C, puis retirer et effilocher.",
+      "Ajouter carottes en dés et pois chiches; cuire 10 minutes. Ajouter haricots verts et poulet, puis cuire 5 minutes.",
+      "Servir avec avocat en tranches et quartiers de lime. Ajuster la quantité de chipotle selon le goût."
+    ]
+  },
+  {
+    "slug": "carnitas-mx",
+    "country": "MX",
+    "original": "Carnitas",
+    "title": "Carnitas (porc mexicain confit)",
+    "en": "Carnitas (Mexican tender pork)",
+    "es": "Carnitas mexicanas",
+    "desc": "Porc mexicain cuit lentement puis doré dans sa graisse. Adaptation domestique avec une quantité réduite de saindoux.",
+    "cat": "Plat principal",
+    "diff": "medium",
+    "prep": 20,
+    "cook": 180,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Carnitas",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Épaule de porc",
+        1500.0,
+        "g",
+        "en gros morceaux"
+      ],
+      [
+        "Saindoux",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Orange",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        5.0,
+        "gousses",
+        null
+      ],
+      [
+        "Laurier",
+        2.0,
+        "feuilles",
+        null
+      ],
+      [
+        "Eau",
+        500.0,
+        "ml",
+        null
+      ],
+      [
+        "Sel",
+        1.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Mettre porc, saindoux, jus d’orange, oignon en quartiers, ail, laurier, eau et sel dans une cocotte.",
+      "Couvrir et frémir très doucement 2 h 30 à 3 heures, jusqu’à viande qui s’effiloche; ajouter un peu d’eau si le fond sèche trop tôt.",
+      "Retirer aromates, découvrir et laisser évaporer le liquide. Dorer les morceaux dans la graisse restante, en les retournant.",
+      "Effilocher grossièrement et servir avec tortillas, oignon, coriandre et salsa."
+    ]
+  },
+  {
+    "slug": "quindim-br",
+    "country": "BR",
+    "original": "Quindim",
+    "title": "Quindim (flans brésiliens à la noix de coco)",
+    "en": "Quindim (Brazilian coconut egg custards)",
+    "es": "Quindim (flanes brasileños de coco)",
+    "desc": "Petits flans brésiliens très jaunes, faits de jaunes d’œufs, sucre et noix de coco, retournés après cuisson.",
+    "cat": "Dessert",
+    "diff": "medium",
+    "prep": 20,
+    "cook": 45,
+    "serv": 8,
+    "reference": "https://en.wikipedia.org/wiki/Quindim",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Jaunes d’œufs",
+        8.0,
+        null,
+        null
+      ],
+      [
+        "Sucre",
+        180.0,
+        "g",
+        null
+      ],
+      [
+        "Noix de coco râpée sèche",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Eau tiède",
+        80.0,
+        "ml",
+        null
+      ],
+      [
+        "Beurre fondu",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Beurre pour moules",
+        10.0,
+        "g",
+        null
+      ]
+    ],
+    "steps": [
+      "Réhydrater la coco avec l’eau 15 minutes. Passer les jaunes au tamis sans presser les membranes.",
+      "Mélanger jaunes, sucre, coco et beurre fondu sans faire mousser. Beurrer huit petits moules et répartir la préparation.",
+      "Placer dans un bain-marie d’eau chaude arrivant à mi-hauteur. Cuire à 180 °C 40 à 45 minutes, jusqu’à flans pris.",
+      "Tiédir, réfrigérer au moins 2 heures puis passer une lame sur le bord et démouler en retournant."
+    ]
+  },
+  {
+    "slug": "escondidinho-br",
+    "country": "BR",
+    "original": "Escondidinho",
+    "title": "Escondidinho (gratin brésilien au manioc)",
+    "en": "Escondidinho (Brazilian cassava and beef bake)",
+    "es": "Escondidinho (gratinado brasileño de yuca)",
+    "desc": "Gratin brésilien associant purée de manioc et viande. Adaptation utilisant du bœuf braisé déjà cuit plutôt que de la viande séchée salée.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 25,
+    "cook": 45,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Escondidinho",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Manioc alimentaire préparé surgelé",
+        1000.0,
+        "g",
+        null
+      ],
+      [
+        "Bœuf braisé cuit effiloché",
+        500.0,
+        "g",
+        null
+      ],
+      [
+        "Lait",
+        200.0,
+        "ml",
+        null
+      ],
+      [
+        "Beurre",
+        40.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Tomates",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        2.0,
+        "gousses",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Fromage râpé",
+        120.0,
+        "g",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Cuire le manioc préparé dans de l’eau bouillante selon le paquet, généralement 25 à 30 minutes, jusqu’à très tendre; égoutter et retirer les fibres centrales.",
+      "Écraser avec lait et beurre pour une purée souple, puis saler.",
+      "Faire revenir oignon et ail dans l’huile, ajouter tomates hachées et réduire 8 minutes; incorporer le bœuf cuit.",
+      "Étaler viande puis purée dans un plat, parsemer de fromage et gratiner à 200 °C 20 minutes, jusqu’à centre bien chaud et dessus doré."
+    ]
+  },
+  {
+    "slug": "bolinho-de-chuva-br",
+    "country": "BR",
+    "original": "Bolinho de chuva",
+    "title": "Bolinhos de chuva (beignets brésiliens)",
+    "en": "Bolinhos de chuva (Brazilian dough fritters)",
+    "es": "Bolinhos de chuva (buñuelos brasileños)",
+    "desc": "Petits beignets de pâte molle, populaires au Brésil et au Portugal, roulés dans le sucre à la cannelle.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 20,
+    "serv": 8,
+    "reference": "https://en.wikipedia.org/wiki/Bolinho_de_chuva",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Lait",
+        150.0,
+        "ml",
+        null
+      ],
+      [
+        "Sucre",
+        100.0,
+        "g",
+        "60 g pâte, 40 g finition"
+      ],
+      [
+        "Levure chimique",
+        2.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sel",
+        1.0,
+        "pincée",
+        null
+      ],
+      [
+        "Cannelle moulue",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        750.0,
+        "ml",
+        null
+      ]
+    ],
+    "steps": [
+      "Battre œufs, lait et 60 g de sucre. Ajouter farine, levure et sel pour une pâte épaisse qui tombe de la cuillère.",
+      "Chauffer l’huile à 170 °C. Mélanger sucre restant et cannelle dans une assiette.",
+      "Déposer de petites cuillerées dans l’huile, en peu de portions à la fois. Frire 3 à 4 minutes, en tournant, jusqu’à dorure et centre cuit.",
+      "Égoutter puis rouler encore tièdes dans le sucre à la cannelle. Vérifier un beignet ouvert pour ajuster taille et cuisson."
+    ]
+  },
+  {
+    "slug": "carapulcra-pe",
+    "country": "PE",
+    "original": "Carapulcra",
+    "title": "Carapulcra (mijoté péruvien de pommes de terre sèches)",
+    "en": "Carapulcra (Peruvian dried potato stew)",
+    "es": "Carapulcra peruana",
+    "desc": "Mijoté péruvien de papa seca, porc, arachides et ají panca. La pomme de terre déshydratée donne sa texture particulière.",
+    "cat": "Plat principal",
+    "diff": "medium",
+    "prep": 25,
+    "cook": 75,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Carapulcra",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Papa seca",
+        250.0,
+        "g",
+        "pommes de terre déshydratées péruviennes"
+      ],
+      [
+        "Porc à mijoter",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        3.0,
+        "gousses",
+        null
+      ],
+      [
+        "Pâte d’ají panca",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Arachides grillées",
+        60.0,
+        "g",
+        null
+      ],
+      [
+        "Bouillon",
+        1000.0,
+        "ml",
+        null
+      ],
+      [
+        "Huile",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Cumin",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Clou de girofle",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Griller la papa seca à sec 3 minutes puis la tremper dans l’eau chaude 1 heure; égoutter.",
+      "Dorer le porc en cubes dans l’huile. Ajouter oignon et ail hachés, puis ají panca et cumin; cuire 5 minutes.",
+      "Ajouter papa seca, bouillon et clou de girofle. Couvrir et mijoter 60 à 75 minutes, jusqu’à porc très tendre; ajouter du liquide au besoin.",
+      "Incorporer les arachides finement pilées, cuire 5 minutes et ajuster le sel. Retirer le clou avant de servir."
+    ]
+  },
+  {
+    "slug": "arroz-chaufa-pe",
+    "country": "PE",
+    "original": "Arroz chaufa",
+    "title": "Arroz chaufa (riz sauté péruvien)",
+    "en": "Arroz chaufa (Peruvian fried rice)",
+    "es": "Arroz chaufa peruano",
+    "desc": "Riz sauté de tradition chifa, né de l’influence chinoise au Pérou; version au poulet, œufs et oignons verts.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 15,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Arroz_chaufa",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Riz cuit refroidi",
+        700.0,
+        "g",
+        null
+      ],
+      [
+        "Poulet",
+        300.0,
+        "g",
+        "en petits dés"
+      ],
+      [
+        "Œufs",
+        3.0,
+        null,
+        null
+      ],
+      [
+        "Oignons verts",
+        5.0,
+        null,
+        null
+      ],
+      [
+        "Poivron rouge",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Gingembre",
+        15.0,
+        "g",
+        null
+      ],
+      [
+        "Sauce soja",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile de sésame",
+        1.0,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Faire une omelette avec les œufs dans un peu d’huile; réserver et couper en morceaux.",
+      "Sauter poulet et gingembre dans l’huile restante jusqu’à poulet cuit à 74 °C.",
+      "Ajouter poivron en dés et riz; sauter 4 minutes à feu vif, en séparant les grains.",
+      "Ajouter soja, omelette, oignons verts et sésame. Remuer 2 minutes jusqu’à ensemble très chaud puis servir."
+    ]
+  },
+  {
+    "slug": "chocotorta-ar",
+    "country": "AR",
+    "original": "Chocotorta",
+    "title": "Chocotorta (gâteau argentin sans cuisson)",
+    "en": "Chocotorta (Argentine no-bake chocolate cake)",
+    "es": "Chocotorta argentina",
+    "desc": "Gâteau argentin de biscuits chocolatés, dulce de leche et fromage frais. Prévoir au moins 6 heures au réfrigérateur.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 25,
+    "cook": 0,
+    "serv": 10,
+    "reference": "https://en.wikipedia.org/wiki/Chocotorta",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Biscuits Chocolinas ou biscuits chocolatés secs",
+        400.0,
+        "g",
+        null
+      ],
+      [
+        "Dulce de leche",
+        400.0,
+        "g",
+        null
+      ],
+      [
+        "Fromage à la crème",
+        400.0,
+        "g",
+        null
+      ],
+      [
+        "Lait ou café refroidi",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Cacao",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Fouetter le fromage à température ambiante avec le dulce de leche pour une crème homogène.",
+      "Tremper très brièvement les biscuits dans le lait ou café froid, sans les détremper.",
+      "Alterner biscuits et crème dans un plat carré de 8 pouces, en terminant par une couche de crème.",
+      "Couvrir et réfrigérer au moins 6 heures, idéalement une nuit. Saupoudrer de cacao et servir bien froid."
+    ]
+  },
+  {
+    "slug": "charquican-cl",
+    "country": "CL",
+    "original": "Charquican",
+    "title": "Charquicán (mijoté chilien de légumes et bœuf)",
+    "en": "Charquicán (Chilean beef and vegetable stew)",
+    "es": "Charquicán chileno",
+    "desc": "Mijoté chilien de pommes de terre, courge et maïs. Adaptation moderne au bœuf frais, plutôt qu’au charqui séché.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 35,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Charquic%C3%A1n",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Bœuf haché",
+        350.0,
+        "g",
+        null
+      ],
+      [
+        "Pommes de terre",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Courge",
+        400.0,
+        "g",
+        null
+      ],
+      [
+        "Maïs",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        2.0,
+        "gousses",
+        null
+      ],
+      [
+        "Bouillon",
+        600.0,
+        "ml",
+        null
+      ],
+      [
+        "Huile",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Paprika",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Origan",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Cumin",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Œufs",
+        4,
+        null,
+        "facultatifs, pour servir"
+      ]
+    ],
+    "steps": [
+      "Faire revenir oignon et ail hachés dans l’huile, puis dorer le bœuf jusqu’à disparition de la couleur rosée.",
+      "Ajouter épices, pommes de terre et courge en dés, puis bouillon.",
+      "Couvrir et mijoter 25 à 30 minutes, jusqu’à légumes tendres et viande cuite. Ajouter le maïs les 5 dernières minutes.",
+      "Écraser grossièrement quelques légumes pour lier le mélange, ajuster le sel et servir chaud. Si désiré, cuire les œufs à la poêle et en déposer un sur chaque portion, comme sur la photo."
+    ]
+  },
+  {
+    "slug": "cachapas-ve",
+    "country": "VE",
+    "original": "Cachapas",
+    "title": "Cachapas (galettes vénézuéliennes de maïs)",
+    "en": "Cachapas (Venezuelan sweet corn pancakes)",
+    "es": "Cachapas venezolanas",
+    "desc": "Galettes épaisses vénézuéliennes de maïs frais, traditionnellement garnies de queso de mano. La mozzarella fraîche est proposée en remplacement.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 20,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Cachapa",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Maïs frais égrené",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Farine de maïs précuite",
+        40.0,
+        "g",
+        null
+      ],
+      [
+        "Lait",
+        80.0,
+        "ml",
+        null
+      ],
+      [
+        "Œuf",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Sucre",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Beurre",
+        30.0,
+        "g",
+        null
+      ],
+      [
+        "Queso de mano ou mozzarella fraîche",
+        250.0,
+        "g",
+        null
+      ]
+    ],
+    "steps": [
+      "Mixer le maïs avec lait, œuf, farine, sucre et sel, en conservant une légère texture. Reposer 10 minutes; la pâte doit être épaisse.",
+      "Beurrer une poêle antiadhésive et chauffer à feu moyen doux.",
+      "Déposer un quart de la pâte, étaler en disque de 6 pouces et cuire 4 à 5 minutes par face, jusqu’à cœur cuit.",
+      "Ajouter le fromage sur une moitié de la galette chaude, replier et chauffer encore 1 minute pour fondre. Servir frais."
+    ]
+  },
+  {
+    "slug": "hush-puppies-us",
+    "country": "US",
+    "original": "Hush puppies",
+    "title": "Hush puppies (beignets américains de maïs)",
+    "en": "Hush puppies (Southern cornmeal fritters)",
+    "es": "Hush puppies (buñuelos de maíz)",
+    "desc": "Petits beignets salés du sud des États-Unis à la semoule de maïs et à l’oignon.",
+    "cat": "Accompagnement",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 20,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Hushpuppy",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Semoule de maïs fine",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Farine",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Levure chimique",
+        2.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Œuf",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Babeurre",
+        220.0,
+        "ml",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        "petit, très finement haché"
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        750.0,
+        "ml",
+        null
+      ]
+    ],
+    "steps": [
+      "Mélanger semoule, farine, levure et sel. À part, battre œuf et babeurre.",
+      "Réunir les mélanges, ajouter l’oignon et reposer 10 minutes. La pâte doit tenir sur une cuillère.",
+      "Chauffer l’huile à 175 °C et déposer de petites cuillerées par fournées.",
+      "Frire 3 à 4 minutes en tournant, jusqu’à dorure et intérieur cuit. Égoutter et servir chaud."
+    ]
+  },
+  {
+    "slug": "red-velvet-cake-us",
+    "country": "US",
+    "original": "Red velvet cake",
+    "title": "Red velvet (gâteau rouge américain)",
+    "en": "Red velvet cake",
+    "es": "Red velvet (pastel rojo americano)",
+    "desc": "Gâteau américain au cacao léger et babeurre, avec glaçage au fromage à la crème. Son origine précise est discutée; aucune ville attribuée.",
+    "cat": "Dessert",
+    "diff": "medium",
+    "prep": 35,
+    "cook": 30,
+    "serv": 12,
+    "reference": "https://en.wikipedia.org/wiki/Red_velvet_cake",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine",
+        280.0,
+        "g",
+        null
+      ],
+      [
+        "Sucre",
+        280.0,
+        "g",
+        null
+      ],
+      [
+        "Cacao",
+        15.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Huile",
+        180.0,
+        "ml",
+        null
+      ],
+      [
+        "Babeurre",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Vinaigre",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Bicarbonate",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Vanille",
+        2.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Colorant rouge alimentaire",
+        1.0,
+        "c. à thé",
+        "ajuster selon le produit"
+      ],
+      [
+        "Fromage à la crème",
+        350.0,
+        "g",
+        null
+      ],
+      [
+        "Beurre mou",
+        80.0,
+        "g",
+        null
+      ],
+      [
+        "Sucre glace",
+        180.0,
+        "g",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Chemiser deux moules de 8 pouces; chauffer à 175 °C. Mélanger farine, cacao, bicarbonate et sel.",
+      "Battre œufs, sucre, huile, babeurre, vinaigre, moitié de la vanille et colorant. Incorporer les ingrédients secs sans trop battre.",
+      "Répartir dans les moules et cuire 25 à 30 minutes, jusqu’à pique sèche. Refroidir complètement.",
+      "Battre beurre et sucre glace, ajouter fromage et vanille restante, puis glacer entre les deux couches et autour du gâteau. Réfrigérer 1 heure."
+    ]
+  },
+  {
+    "slug": "eton-mess-gb",
+    "country": "GB",
+    "original": "Eton mess",
+    "title": "Eton mess (fraises, meringue et crème)",
+    "en": "Eton mess (strawberry meringue dessert)",
+    "es": "Eton mess (fresas, merengue y nata)",
+    "desc": "Dessert anglais de fraises, meringue cassée et crème fouettée, traditionnellement associé à Eton.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 0,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Eton_mess",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Fraises",
+        500.0,
+        "g",
+        null
+      ],
+      [
+        "Meringues cuites",
+        100.0,
+        "g",
+        null
+      ],
+      [
+        "Crème 35 %",
+        300.0,
+        "ml",
+        null
+      ],
+      [
+        "Sucre glace",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Vanille",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Équeuter et couper les fraises. En écraser environ un tiers à la fourchette.",
+      "Fouetter la crème avec sucre glace et vanille en pics souples.",
+      "Casser les meringues en morceaux et les incorporer à la crème avec les fraises coupées.",
+      "Répartir dans quatre coupes avec la purée de fraises. Servir aussitôt pour garder une partie du croquant."
+    ]
+  },
+  {
+    "slug": "sticky-toffee-pudding-gb",
+    "country": "GB",
+    "original": "Sticky toffee pudding",
+    "title": "Sticky toffee pudding (gâteau aux dattes et caramel)",
+    "en": "Sticky toffee pudding",
+    "es": "Sticky toffee pudding (pastel de dátiles y caramelo)",
+    "desc": "Dessert anglais aux dattes couvert de sauce caramel, particulièrement associé au Lake District.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 25,
+    "cook": 35,
+    "serv": 8,
+    "reference": "https://en.wikipedia.org/wiki/Sticky_toffee_pudding",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Dattes dénoyautées",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Eau bouillante",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Bicarbonate",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Beurre",
+        130.0,
+        "g",
+        "60 g gâteau, 70 g sauce"
+      ],
+      [
+        "Cassonade",
+        240.0,
+        "g",
+        "100 g gâteau, 140 g sauce"
+      ],
+      [
+        "Œufs",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Farine",
+        180.0,
+        "g",
+        null
+      ],
+      [
+        "Levure chimique",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Crème",
+        200.0,
+        "ml",
+        null
+      ],
+      [
+        "Vanille",
+        1.0,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Tremper les dattes hachées dans l’eau bouillante avec le bicarbonate 10 minutes, puis écraser.",
+      "Crémer 60 g de beurre et 100 g de cassonade; ajouter œufs et vanille, puis farine, levure et dattes avec leur liquide.",
+      "Verser dans un moule de 8 pouces et cuire à 180 °C 30 à 35 minutes, jusqu’à centre cuit.",
+      "Frémir beurre et cassonade restants avec la crème 5 minutes pour la sauce. Napper le gâteau tiède et servir."
+    ]
+  },
+  {
+    "slug": "toad-in-the-hole-gb",
+    "country": "GB",
+    "original": "Toad in the hole",
+    "title": "Toad in the hole (saucisses en pâte au four)",
+    "en": "Toad in the hole (sausages in Yorkshire batter)",
+    "es": "Toad in the hole (salchichas en masa al horno)",
+    "desc": "Plat britannique de saucisses cuites dans une pâte de type Yorkshire pudding, gonflée au four.",
+    "cat": "Plat principal",
+    "diff": "easy",
+    "prep": 15,
+    "cook": 40,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Toad_in_the_hole",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Saucisses de porc",
+        8.0,
+        null,
+        null
+      ],
+      [
+        "Farine",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs",
+        3.0,
+        null,
+        null
+      ],
+      [
+        "Lait",
+        250.0,
+        "ml",
+        null
+      ],
+      [
+        "Huile",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Fouetter farine, œufs, lait et sel en pâte lisse. Laisser reposer 20 minutes.",
+      "Chauffer le four à 220 °C. Mettre saucisses et huile dans un plat métallique; cuire 15 minutes pour les dorer.",
+      "Sortir prudemment le plat très chaud et verser la pâte autour des saucisses; remettre aussitôt au four.",
+      "Cuire 25 à 30 minutes sans ouvrir, jusqu’à pâte gonflée et saucisses à 71 °C au centre. Servir immédiatement."
+    ]
+  },
+  {
+    "slug": "staffordshire-oatcakes-gb",
+    "country": "GB",
+    "original": "Staffordshire oatcakes",
+    "title": "Oatcakes du Staffordshire (crêpes d’avoine)",
+    "en": "Staffordshire oatcakes",
+    "es": "Oatcakes de Staffordshire (crepes de avena)",
+    "desc": "Crêpes souples d’avoine et farine à la levure, spécialité du Staffordshire; différentes des biscuits d’avoine écossais.",
+    "cat": "Petit-déjeuner",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 20,
+    "serv": 6,
+    "reference": "https://staffordshireoatcakes.com/pages/oatcakes",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine d’avoine fine",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Farine complète",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Levure sèche",
+        5.0,
+        "g",
+        null
+      ],
+      [
+        "Lait tiède",
+        300.0,
+        "ml",
+        null
+      ],
+      [
+        "Eau tiède",
+        300.0,
+        "ml",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Mélanger les farines, levure et sel. Ajouter lait et eau tièdes en fouettant; obtenir une pâte à crêpes.",
+      "Couvrir et laisser fermenter environ 1 heure à température ambiante, jusqu’à petites bulles.",
+      "Huiler légèrement une poêle chaude. Verser une louche et étaler en crêpe fine.",
+      "Cuire 2 minutes puis retourner pour 1 minute. Garnir éventuellement de fromage ou bacon cuit et replier."
+    ],
+    "place": {
+      "slug": "gb-staffordshire",
+      "name": "Staffordshire",
+      "type": "region",
+      "lat": 52.80694,
+      "lng": -2.11611,
+      "summary": "Comté anglais dont les galettes souples d’avoine sont une spécialité, particulièrement au nord."
+    }
+  },
+  {
+    "slug": "dal-makhani-in",
+    "country": "IN",
+    "original": "Dal makhani",
+    "title": "Dal makhani (lentilles indiennes crémeuses)",
+    "en": "Dal makhani (creamy Indian black lentils)",
+    "es": "Dal makhani (lentejas negras cremosas)",
+    "desc": "Lentilles urad entières mijotées, associées à la cuisine du Pendjab, enrichies de beurre et crème. Prévoir une nuit de trempage.",
+    "cat": "Plat principal",
+    "diff": "medium",
+    "prep": 20,
+    "cook": 150,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Dal_makhani",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Urad noir entier sec",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Haricots rouges cuits",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Tomates concassées",
+        400.0,
+        "g",
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Ail",
+        4.0,
+        "gousses",
+        null
+      ],
+      [
+        "Gingembre",
+        20.0,
+        "g",
+        null
+      ],
+      [
+        "Beurre",
+        50.0,
+        "g",
+        null
+      ],
+      [
+        "Crème",
+        100.0,
+        "ml",
+        null
+      ],
+      [
+        "Cumin",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Garam masala",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Eau",
+        1500.0,
+        "ml",
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Tremper l’urad une nuit puis égoutter. Bouillir dans l’eau 10 minutes, réduire et mijoter jusqu’à très tendre, environ 90 minutes.",
+      "Faire revenir oignon, cumin, ail et gingembre dans la moitié du beurre. Ajouter tomates et réduire 10 minutes.",
+      "Réunir sauce, urad avec son liquide et haricots rouges déjà cuits. Mijoter 40 minutes en remuant, jusqu’à consistance crémeuse.",
+      "Ajouter beurre restant, crème, garam masala et sel; chauffer 5 minutes. Servir avec riz ou pain."
+    ]
+  },
+  {
+    "slug": "idli-in",
+    "country": "IN",
+    "original": "Idli",
+    "title": "Idli (petits pains de riz vapeur)",
+    "en": "Idli (steamed fermented rice cakes)",
+    "es": "Idli (pastelitos de arroz al vapor)",
+    "desc": "Petits gâteaux salés de riz et urad fermentés, du sud de l’Inde. Prévoir 6 heures de trempage et 8 à 12 heures de fermentation.",
+    "cat": "Petit-déjeuner",
+    "diff": "medium",
+    "prep": 30,
+    "cook": 15,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Idli",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Riz à idli",
+        300.0,
+        "g",
+        null
+      ],
+      [
+        "Urad décortiqué",
+        100.0,
+        "g",
+        null
+      ],
+      [
+        "Fenugrec",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Eau",
+        300.0,
+        "ml",
+        "ajuster au mixage"
+      ],
+      [
+        "Sel",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Rincer puis tremper séparément le riz et l’urad avec le fenugrec pendant 6 heures.",
+      "Égoutter. Mixer l’urad avec une partie de l’eau en pâte mousseuse, puis le riz avec l’eau restante en pâte légèrement granuleuse.",
+      "Réunir, couvrir sans sceller et fermenter 8 à 12 heures dans un endroit tiède, jusqu’à pâte gonflée et légèrement acidulée. Ajouter le sel.",
+      "Huiler les moules à idli, remplir aux trois quarts et cuire à la vapeur 12 à 15 minutes. Reposer 3 minutes avant démoulage."
+    ]
+  },
+  {
+    "slug": "uttapam-in",
+    "country": "IN",
+    "original": "Uttapam",
+    "title": "Uttapam (galettes indiennes fermentées)",
+    "en": "Uttapam (Indian fermented rice pancakes)",
+    "es": "Uttapam (tortitas indias fermentadas)",
+    "desc": "Galettes épaisses du sud de l’Inde à base de pâte fermentée de riz et urad, garnies de légumes.",
+    "cat": "Petit-déjeuner",
+    "diff": "easy",
+    "prep": 25,
+    "cook": 20,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Uttapam",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Pâte à idli ou dosa fermentée",
+        700.0,
+        "g",
+        "achetée prête ou préparée selon la recette idli"
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Tomate",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Carotte",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Coriandre fraîche",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Huile",
+        3.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.25,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Hacher très finement oignon, tomate et coriandre; râper la carotte. Goûter la pâte avant d’ajouter le sel.",
+      "Chauffer une poêle huilée à feu moyen doux et verser une louche de pâte en disque épais.",
+      "Parsemer immédiatement de légumes et les presser légèrement. Cuire à couvert 3 à 4 minutes, jusqu’à base dorée.",
+      "Retourner délicatement et cuire 2 minutes, jusqu’à intérieur entièrement pris. Répéter et servir avec chutney."
+    ]
+  },
+  {
+    "slug": "medu-vada-in",
+    "country": "IN",
+    "original": "Medu vada",
+    "title": "Medu vada (beignets indiens d’urad)",
+    "en": "Medu vada (Indian lentil doughnuts)",
+    "es": "Medu vada (buñuelos indios de lentejas)",
+    "desc": "Beignets salés du sud de l’Inde en forme d’anneau, préparés avec de l’urad décortiqué. Prévoir 4 heures de trempage.",
+    "cat": "Entrée",
+    "diff": "hard",
+    "prep": 30,
+    "cook": 20,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Medu_vada",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Urad décortiqué",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Eau froide",
+        60.0,
+        "ml",
+        "ajouter très progressivement"
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Gingembre",
+        15.0,
+        "g",
+        null
+      ],
+      [
+        "Feuilles de curry",
+        8.0,
+        null,
+        null
+      ],
+      [
+        "Poivre",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sel",
+        0.75,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        750.0,
+        "ml",
+        null
+      ]
+    ],
+    "steps": [
+      "Tremper l’urad 4 heures, égoutter puis mixer finement avec le minimum d’eau; obtenir une pâte épaisse et aérée.",
+      "Battre la pâte à la cuillère 3 minutes. Ajouter oignon, gingembre et curry finement hachés, sel et poivre.",
+      "Avec les mains humides, former de petits disques épais et percer le centre; déposer prudemment dans l’huile à 170 °C.",
+      "Frire 3 à 4 minutes par face, jusqu’à croûte dorée et cœur cuit. Égoutter et servir frais."
+    ]
+  },
+  {
+    "slug": "gulab-jamun-in",
+    "country": "IN",
+    "original": "Gulab jamun",
+    "title": "Gulab jamun (beignets au sirop)",
+    "en": "Gulab jamun (milk doughnuts in syrup)",
+    "es": "Gulab jamun (buñuelos de leche en almíbar)",
+    "desc": "Douceur du sous-continent indien de petites boules frites imbibées de sirop. Adaptation au lait en poudre.",
+    "cat": "Dessert",
+    "diff": "medium",
+    "prep": 30,
+    "cook": 20,
+    "serv": 8,
+    "reference": "https://en.wikipedia.org/wiki/Gulab_jamun",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Lait en poudre entier",
+        120.0,
+        "g",
+        null
+      ],
+      [
+        "Farine",
+        35.0,
+        "g",
+        null
+      ],
+      [
+        "Levure chimique",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Ghee",
+        20.0,
+        "g",
+        null
+      ],
+      [
+        "Lait",
+        70.0,
+        "ml",
+        "ajuster pour pâte souple"
+      ],
+      [
+        "Sucre",
+        250.0,
+        "g",
+        null
+      ],
+      [
+        "Eau",
+        400.0,
+        "ml",
+        null
+      ],
+      [
+        "Cardamome",
+        4.0,
+        "gousses",
+        null
+      ],
+      [
+        "Eau de rose",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Huile",
+        750.0,
+        "ml",
+        null
+      ]
+    ],
+    "steps": [
+      "Frémir sucre, eau et cardamome 5 minutes pour un sirop léger; ajouter eau de rose et garder tiède.",
+      "Mélanger lait en poudre, farine, levure et ghee. Ajouter progressivement le lait; reposer 5 minutes et former 16 petites boules lisses, sans fissures.",
+      "Frire à 150–160 °C en tournant régulièrement 6 à 8 minutes, jusqu’à brun doré et cœur cuit.",
+      "Égoutter puis déposer dans le sirop tiède, non bouillant. Laisser imbiber au moins 2 heures avant de servir."
+    ]
+  },
+  {
+    "slug": "melonpan-jp",
+    "country": "JP",
+    "original": "Melonpan",
+    "title": "Melonpan (brioche japonaise à croûte biscuitée)",
+    "en": "Melonpan (Japanese cookie-crust buns)",
+    "es": "Melonpan (bollos japoneses con corteza de galleta)",
+    "desc": "Brioche japonaise sous une croûte quadrillée de biscuit, traditionnellement sans goût de melon. Prévoir environ 2 heures de levée.",
+    "cat": "Dessert",
+    "diff": "hard",
+    "prep": 40,
+    "cook": 20,
+    "serv": 8,
+    "reference": "https://en.wikipedia.org/wiki/Melonpan",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine",
+        440.0,
+        "g",
+        "280 g brioche, 160 g biscuit"
+      ],
+      [
+        "Sucre",
+        120.0,
+        "g",
+        "40 g brioche, 60 g biscuit, 20 g finition"
+      ],
+      [
+        "Lait",
+        120.0,
+        "ml",
+        null
+      ],
+      [
+        "Œufs",
+        2.0,
+        null,
+        "un par pâte"
+      ],
+      [
+        "Levure sèche",
+        5.0,
+        "g",
+        null
+      ],
+      [
+        "Beurre",
+        75.0,
+        "g",
+        "25 g brioche, 50 g biscuit"
+      ],
+      [
+        "Levure chimique",
+        0.5,
+        "c. à thé",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Pétrir 280 g de farine, 40 g de sucre, lait, un œuf, levure sèche, sel et 25 g de beurre. Laisser doubler 1 heure.",
+      "Crémer beurre et sucre réservés au biscuit; ajouter l’autre œuf, puis farine restante et levure chimique. Réfrigérer 30 minutes.",
+      "Diviser les deux pâtes en huit. Former les brioches et les couvrir d’un disque de biscuit, sans enfermer leur base; quadriller et poudrer de sucre.",
+      "Lever 45 minutes puis cuire à 180 °C 18 à 20 minutes, jusqu’à brioche cuite et croûte légèrement dorée."
+    ]
+  },
+  {
+    "slug": "dango-jp",
+    "country": "JP",
+    "original": "Dango",
+    "title": "Hanami dango (brochettes de riz tricolores)",
+    "en": "Hanami dango (three-color rice dumplings)",
+    "es": "Hanami dango (bolitas tricolores de arroz)",
+    "desc": "Douceurs japonaises de riz en trois couleurs, associées à la saison des cerisiers. Adaptation avec matcha et colorant alimentaire rose.",
+    "cat": "Dessert",
+    "diff": "medium",
+    "prep": 30,
+    "cook": 12,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Dango",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine de riz non gluant",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Farine de riz gluant",
+        150.0,
+        "g",
+        null
+      ],
+      [
+        "Sucre",
+        60.0,
+        "g",
+        null
+      ],
+      [
+        "Eau chaude",
+        220.0,
+        "ml",
+        "ajuster selon les farines"
+      ],
+      [
+        "Matcha",
+        1.0,
+        "c. à thé",
+        null
+      ],
+      [
+        "Colorant alimentaire rose",
+        1.0,
+        "goutte",
+        null
+      ]
+    ],
+    "steps": [
+      "Mélanger farines et sucre puis ajouter progressivement l’eau chaude; former une pâte souple et non collante.",
+      "Diviser en trois; laisser une portion blanche, ajouter matcha à la seconde et colorant à la troisième. Former 18 petites boules, six par couleur.",
+      "Pocher dans l’eau frémissante jusqu’à remontée, puis encore 2 à 3 minutes. Rafraîchir brièvement dans l’eau froide et égoutter.",
+      "Enfiler trois boules de couleurs différentes sur chaque brochette. Servir le jour même."
+    ]
+  },
+  {
+    "slug": "dadar-gulung-id",
+    "country": "ID",
+    "original": "Dadar gulung",
+    "title": "Dadar gulung (crêpes indonésiennes au coco)",
+    "en": "Dadar gulung (Indonesian coconut pancakes)",
+    "es": "Dadar gulung (crepes indonesias de coco)",
+    "desc": "Crêpes vertes au pandan garnies de noix de coco au sucre de palme, une douceur indonésienne également connue dans les pays voisins.",
+    "cat": "Dessert",
+    "diff": "easy",
+    "prep": 25,
+    "cook": 20,
+    "serv": 6,
+    "reference": "https://en.wikipedia.org/wiki/Dadar_gulung",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Farine",
+        160.0,
+        "g",
+        null
+      ],
+      [
+        "Œufs",
+        2.0,
+        null,
+        null
+      ],
+      [
+        "Lait de coco",
+        150.0,
+        "ml",
+        null
+      ],
+      [
+        "Eau au pandan",
+        200.0,
+        "ml",
+        "mixée et filtrée"
+      ],
+      [
+        "Noix de coco râpée fraîche",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Sucre de palme",
+        100.0,
+        "g",
+        null
+      ],
+      [
+        "Eau",
+        80.0,
+        "ml",
+        null
+      ],
+      [
+        "Huile",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.25,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Chauffer sucre de palme et eau, puis ajouter la coco et une pincée de sel. Cuire 8 minutes jusqu’à garniture humide mais sans liquide libre; refroidir.",
+      "Fouetter farine, œufs, coco liquide, eau au pandan et sel restant. Filtrer.",
+      "Huiler légèrement une poêle et cuire 12 crêpes fines environ 1 minute par face, jusqu’à pâte prise.",
+      "Déposer la garniture sur chaque crêpe, rabattre les côtés et rouler en petits paquets."
+    ]
+  },
+  {
+    "slug": "bubur-ayam-id",
+    "country": "ID",
+    "original": "Bubur ayam",
+    "title": "Bubur ayam (bouillie indonésienne au poulet)",
+    "en": "Bubur ayam (Indonesian chicken rice porridge)",
+    "es": "Bubur ayam (gachas indonesias de pollo)",
+    "desc": "Bouillie de riz indonésienne au poulet effiloché, servie avec oignons verts, échalotes frites et kecap manis.",
+    "cat": "Soupe",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 50,
+    "serv": 4,
+    "reference": "https://en.wikipedia.org/wiki/Bubur_ayam",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Riz",
+        200.0,
+        "g",
+        null
+      ],
+      [
+        "Poulet désossé",
+        400.0,
+        "g",
+        null
+      ],
+      [
+        "Bouillon de poulet",
+        1800.0,
+        "ml",
+        null
+      ],
+      [
+        "Gingembre",
+        20.0,
+        "g",
+        null
+      ],
+      [
+        "Sauce soja",
+        1.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Kecap manis",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Oignons verts",
+        3.0,
+        null,
+        null
+      ],
+      [
+        "Échalotes frites",
+        3.0,
+        "c. à soupe",
+        null
+      ]
+    ],
+    "steps": [
+      "Rincer le riz. Le mettre dans le bouillon avec gingembre et poulet; porter au frémissement.",
+      "Cuire le poulet jusqu’à 74 °C, environ 20 minutes, puis le retirer et l’effilocher.",
+      "Poursuivre la cuisson du riz 25 à 30 minutes en remuant régulièrement, jusqu’à bouillie souple; ajouter de l’eau si nécessaire.",
+      "Répartir dans les bols, ajouter poulet, soja, kecap manis, oignons verts et échalotes frites."
+    ]
+  },
+  {
+    "slug": "pipirrana-es",
+    "country": "ES",
+    "original": "Pipirrana",
+    "title": "Pipirrana (salade espagnole de légumes)",
+    "en": "Pipirrana (Spanish chopped vegetable salad)",
+    "es": "Pipirrana",
+    "desc": "Salade espagnole de tomates, poivrons, concombre et oignon. Version végétale; les compositions varient selon les régions.",
+    "cat": "Salade",
+    "diff": "easy",
+    "prep": 20,
+    "cook": 0,
+    "serv": 4,
+    "reference": "https://es.wikipedia.org/wiki/Pipirrana",
+    "auth": "adapted",
+    "ing": [
+      [
+        "Tomates",
+        600.0,
+        "g",
+        null
+      ],
+      [
+        "Poivron vert",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Concombre",
+        1.0,
+        null,
+        null
+      ],
+      [
+        "Oignon",
+        1.0,
+        null,
+        "petit"
+      ],
+      [
+        "Ail",
+        1.0,
+        "gousse",
+        null
+      ],
+      [
+        "Huile d’olive",
+        4.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Vinaigre de vin",
+        2.0,
+        "c. à soupe",
+        null
+      ],
+      [
+        "Sel",
+        0.5,
+        "c. à thé",
+        null
+      ]
+    ],
+    "steps": [
+      "Laver les légumes et retirer graines et parties dures des poivrons.",
+      "Couper tomates, poivron, concombre et oignon en très petits dés.",
+      "Écraser l’ail et fouetter avec huile, vinaigre et sel. Mélanger aux légumes.",
+      "Réfrigérer 30 minutes, remuer et goûter avant de servir avec du pain."
+    ]
+  }
+]

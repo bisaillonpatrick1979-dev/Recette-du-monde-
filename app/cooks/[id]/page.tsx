@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { BlockButton } from "@/components/block-button";
 import { FollowButton } from "@/components/follow-button";
+import { ReportDialog } from "@/components/report-dialog";
 import { resolveMediaUrl } from "@/lib/media";
 import { fetchAllRows } from "@/lib/supabase/fetch-all";
 import { createClient } from "@/lib/supabase/server";
@@ -32,7 +34,7 @@ export default async function CookProfilePage({ params }: Props) {
 
   const viewerId = typeof claimsData?.claims?.sub === "string" ? claimsData.claims.sub : null;
 
-  const [recipesResult, followersResult, followingResult, viewerFollowResult, likeTotals] = await Promise.all([
+  const [recipesResult, followersResult, followingResult, viewerFollowResult, likeTotals, viewerBlockResult] = await Promise.all([
     supabase
       .from("recipes")
       .select("id,title,country_code,region,published_at,recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status),recipe_likes(count)")
@@ -57,6 +59,9 @@ export default async function CookProfilePage({ params }: Props) {
         .order("id")
         .range(from, to),
     ),
+    viewerId && viewerId !== id
+      ? supabase.from("user_blocks").select("blocked_id").eq("blocker_id", viewerId).eq("blocked_id", id).maybeSingle()
+      : Promise.resolve({ data: null }),
   ]);
 
   const recipes = recipesResult.data ?? [];
@@ -90,6 +95,12 @@ export default async function CookProfilePage({ params }: Props) {
             initialFollowing={Boolean(viewerFollowResult.data)}
             initialFollowers={followersResult.count ?? 0}
           />
+          {viewerId && viewerId !== profile.id ? (
+            <div className="profile-safety-actions">
+              <BlockButton profileId={profile.id} viewerId={viewerId} initialBlocked={Boolean(viewerBlockResult.data)} />
+              <ReportDialog target={{ kind: "user", id: profile.id }} viewerId={viewerId} label="Signaler ce profil" />
+            </div>
+          ) : null}
         </section>
 
         {recipes.length ? (

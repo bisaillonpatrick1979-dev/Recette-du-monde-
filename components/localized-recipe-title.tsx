@@ -1,12 +1,8 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import {
-  defaultPreferences,
-  PREFERENCES_STORAGE_KEY,
-  type LanguageCode,
-  type UserPreferences,
-} from "@/lib/preferences";
+import { useMemo } from "react";
+import type { LanguageCode } from "@/lib/preferences";
+import { usePreferences } from "@/lib/use-preferences";
 
 type TranslationMap = Partial<Record<LanguageCode, string>>;
 type TranslationRow = { language_code: string; title: string };
@@ -20,18 +16,9 @@ export function LocalizedRecipeTitle({
   translations?: TranslationMap | TranslationRow[] | null;
   className?: string;
 }) {
-  const [language, setLanguage] = useState<LanguageCode>(defaultPreferences.language);
-
-  useEffect(() => {
-    const saved = window.localStorage.getItem(PREFERENCES_STORAGE_KEY);
-    if (!saved) return;
-    try {
-      const parsed = JSON.parse(saved) as UserPreferences;
-      setLanguage(parsed.language ?? defaultPreferences.language);
-    } catch {
-      setLanguage(defaultPreferences.language);
-    }
-  }, []);
+  // Langue choisie à l'onboarding (lecture protégée, mise à jour en direct si elle change).
+  const [preferences] = usePreferences();
+  const language = preferences.language;
 
   const translatedTitle = useMemo(() => {
     const value = Array.isArray(translations)

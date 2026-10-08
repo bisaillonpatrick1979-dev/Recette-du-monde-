@@ -1,0 +1,149 @@
+[
+ {
+  "slug": "s7-ar-0",
+  "country": "AR",
+  "original": "Carbonada criolla",
+  "title": "Carbonada criolla",
+  "en": "Argentine carbonada stew"
+ },
+ {
+  "slug": "s7-br-1",
+  "country": "BR",
+  "original": "Tutu de feijão",
+  "title": "Tutu de feijão",
+  "en": "Minas Gerais bean tutu"
+ },
+ {
+  "slug": "s7-br-2",
+  "country": "BR",
+  "original": "Cuscuz paulista",
+  "title": "Cuscuz paulista",
+  "en": "São Paulo couscous"
+ },
+ {
+  "slug": "s7-cl-3",
+  "country": "CL",
+  "original": "Pebre",
+  "title": "Pebre",
+  "en": "Chilean pebre salsa"
+ },
+ {
+  "slug": "s7-co-4",
+  "country": "CO",
+  "original": "Sobrebarriga",
+  "title": "Sobrebarriga",
+  "en": "Colombian flank steak sobrebarriga"
+ },
+ {
+  "slug": "s7-co-5",
+  "country": "CO",
+  "original": "Tamal tolimense",
+  "title": "Tamal tolimense",
+  "en": "Tolima tamale"
+ },
+ {
+  "slug": "s7-et-6",
+  "country": "ET",
+  "original": "Firfir",
+  "title": "Firfir",
+  "en": "Ethiopian firfir"
+ },
+ {
+  "slug": "s7-id-7",
+  "country": "ID",
+  "original": "Papeda",
+  "title": "Papeda",
+  "en": "Papuan sago porridge"
+ },
+ {
+  "slug": "s7-id-8",
+  "country": "ID",
+  "original": "Sate lilit",
+  "title": "Sate lilit",
+  "en": "Balinese sate lilit"
+ },
+ {
+  "slug": "s7-mx-9",
+  "country": "MX",
+  "original": "Carne asada",
+  "title": "Carne asada",
+  "en": "Sonora carne asada"
+ },
+ {
+  "slug": "s7-mx-10",
+  "country": "MX",
+  "original": "Gorditas",
+  "title": "Gorditas",
+  "en": "Mexican gorditas"
+ },
+ {
+  "slug": "s7-mx-11",
+  "country": "MX",
+  "original": "Huarache",
+  "title": "Huarache",
+  "en": "Mexico City huarache"
+ },
+ {
+  "slug": "s7-mx-12",
+  "country": "MX",
+  "original": "Pambazo",
+  "title": "Pambazo",
+  "en": "Mexican pambazo"
+ },
+ {
+  "slug": "s7-mx-13",
+  "country": "MX",
+  "original": "Panuchos",
+  "title": "Panuchos",
+  "en": "Yucatán panuchos"
+ },
+ {
+  "slug": "s7-mx-14",
+  "country": "MX",
+  "original": "Salbutes",
+  "title": "Salbutes",
+  "en": "Yucatán salbutes"
+ },
+ {
+  "slug": "s7-ng-15",
+  "country": "NG",
+  "original": "Ofada stew",
+  "title": "Ofada stew",
+  "en": "Nigerian ofada rice and stew"
+ },
+ {
+  "slug": "s7-ng-16",
+  "country": "NG",
+  "original": "Pounded yam",
+  "title": "Pounded yam",
+  "en": "Nigerian pounded yam with egusi"
+ },
+ {
+  "slug": "s7-pe-17",
+  "country": "PE",
+  "original": "Cuy chactado",
+  "title": "Cuy chactado",
+  "en": "Arequipa fried guinea pig"
+ },
+ {
+  "slug": "s7-th-18",
+  "country": "TH",
+  "original": "Kuaitiao ruea",
+  "title": "Kuaitiao ruea",
+  "en": "Thai boat noodles"
+ },
+ {
+  "slug": "s7-th-19",
+  "country": "TH",
+  "original": "Kaeng hang le",
+  "title": "Kaeng hang le",
+  "en": "Chiang Mai hang lay curry"
+ },
+ {
+  "slug": "s7-za-20",
+  "country": "ZA",
+  "original": "Potjiekos",
+  "title": "Potjiekos",
+  "en": "South African potjiekos"
+ }
+]

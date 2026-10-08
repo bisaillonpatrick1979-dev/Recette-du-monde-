@@ -1,0 +1,1624 @@
+[
+ {
+  "slug": "thiou-poisson",
+  "country": "SN",
+  "original": "Thiou",
+  "title": "Thiou au poisson (ragoût sénégalais de poisson et légumes à la tomate)",
+  "en": "Senegalese thiou (fish and vegetable tomato stew)",
+  "es": "Thiou senegalés (guiso de pescado y verduras con tomate)",
+  "desc": "Ragoût sénégalais du quotidien : poisson frit puis mijoté dans une sauce tomate aux oignons, poivrons, carottes, pommes de terre et piment, relevée de nététou et d’ail; servi sur du riz blanc.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 50,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Cuisine_s%C3%A9n%C3%A9galaise",
+  "ing": [
+   [
+    "Poisson (thiof, dorade ou capitaine)",
+    1,
+    "kg",
+    "en darnes"
+   ],
+   [
+    "Ail et persil (roff)",
+    1,
+    "bouquet",
+    "pilés pour farcir"
+   ],
+   [
+    "Huile",
+    100,
+    "ml",
+    null
+   ],
+   [
+    "Oignons",
+    3,
+    null,
+    "émincés"
+   ],
+   [
+    "Concentré de tomate",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Tomates",
+    2,
+    null,
+    null
+   ],
+   [
+    "Carottes",
+    3,
+    null,
+    null
+   ],
+   [
+    "Pommes de terre",
+    3,
+    null,
+    null
+   ],
+   [
+    "Poivron",
+    1,
+    null,
+    null
+   ],
+   [
+    "Piment",
+    1,
+    null,
+    "entier"
+   ],
+   [
+    "Nététou ou bouillon",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Riz brisé",
+    600,
+    "g",
+    "pour servir"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Entailler les darnes de poisson et les farcir du roff (ail, persil, poivre et piment pilés), puis les frire à l’huile; réserver.",
+   "Dans la même huile, faire revenir les oignons, ajouter le concentré dilué et les tomates et laisser cuire 10 minutes.",
+   "Ajouter 1 litre d’eau, le nététou, les carottes, les pommes de terre, le poivron et le piment; cuire 20 minutes.",
+   "Remettre le poisson et mijoter 15 minutes jusqu’à ce que la sauce épaississe.",
+   "Servir sur le riz cuit à part."
+  ]
+ },
+ {
+  "slug": "caldou",
+  "country": "SN",
+  "place": {
+   "slug": "sn-casamance",
+   "name": "Casamance",
+   "type": "region",
+   "lat": 12.58,
+   "lng": -16.27,
+   "summary": "Région du sud du Sénégal autour de Ziguinchor, pays diola de rizières et de mangroves : caldou, riz et huîtres."
+  },
+  "original": "Caldou",
+  "title": "Caldou casamançais (poisson au citron et à l’oignon)",
+  "en": "Caldou (Casamance fish in lemon and onion broth)",
+  "es": "Caldou (pescado de Casamance con limón y cebolla)",
+  "desc": "Plat léger de Casamance, d’origine diola et cap-verdienne : poisson poché dans un bouillon citronné aux oignons, gombos et piment, servi sur du riz blanc avec une sauce verte.",
+  "cat": "Poisson",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 35,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Cuisine_s%C3%A9n%C3%A9galaise",
+  "ing": [
+   [
+    "Poisson (capitaine, mulet ou thiof)",
+    1,
+    "kg",
+    "en darnes"
+   ],
+   [
+    "Oignons",
+    3,
+    null,
+    "émincés"
+   ],
+   [
+    "Citrons verts",
+    4,
+    null,
+    "jus et quartiers"
+   ],
+   [
+    "Gombos",
+    10,
+    null,
+    null
+   ],
+   [
+    "Ail",
+    4,
+    "gousses",
+    null
+   ],
+   [
+    "Piment",
+    1,
+    null,
+    "entier"
+   ],
+   [
+    "Huile de palme ou d’arachide",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Laurier",
+    2,
+    "feuilles",
+    null
+   ],
+   [
+    "Riz",
+    600,
+    "g",
+    "pour servir"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire mariner le poisson 30 minutes avec le jus de deux citrons, l’ail pilé, le sel et le poivre.",
+   "Faire revenir doucement les oignons dans l’huile sans les colorer.",
+   "Ajouter 1 litre d’eau, le laurier, le piment et les gombos et cuire 10 minutes.",
+   "Déposer le poisson et sa marinade, pocher 15 minutes à petit feu et ajouter le jus des citrons restants.",
+   "Servir le poisson et le bouillon sur le riz blanc, avec des quartiers de citron."
+  ]
+ },
+ {
+  "slug": "dibi",
+  "country": "SN",
+  "original": "Dibi",
+  "title": "Dibi sénégalais (agneau grillé aux oignons et à la moutarde)",
+  "en": "Senegalese dibi (grilled lamb with onions and mustard)",
+  "es": "Dibi senegalés (cordero a la parrilla con cebolla y mostaza)",
+  "desc": "Viande grillée des dibiteries de Dakar : morceaux de mouton marinés puis grillés au feu de bois, servis sur papier avec des oignons crus, de la moutarde et du piment, accompagnés de pain.",
+  "cat": "Grillade",
+  "diff": "easy",
+  "prep": 20,
+  "cook": 20,
+  "serv": 4,
+  "reference": "https://fr.wikipedia.org/wiki/Dibiterie",
+  "ing": [
+   [
+    "Côtelettes ou gigot de mouton",
+    1,
+    "kg",
+    "en morceaux"
+   ],
+   [
+    "Oignons",
+    3,
+    null,
+    "en rondelles"
+   ],
+   [
+    "Moutarde",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Ail",
+    3,
+    "gousses",
+    null
+   ],
+   [
+    "Poivre noir",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Bouillon en poudre",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Citron",
+    1,
+    null,
+    "jus"
+   ],
+   [
+    "Piment",
+    1,
+    null,
+    "facultatif"
+   ],
+   [
+    "Pain baguette",
+    2,
+    null,
+    "pour servir"
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Mariner la viande 1 heure avec l’ail pilé, le poivre, le bouillon, le sel et le citron.",
+   "Griller la viande sur des braises bien chaudes 15 à 20 minutes en la retournant.",
+   "Pendant ce temps, mélanger les oignons crus avec la moutarde et un peu de poivre.",
+   "Couper la viande en petits morceaux.",
+   "Servir sur du papier avec les oignons à la moutarde, le piment et le pain."
+  ]
+ },
+ {
+  "slug": "ndambe",
+  "country": "SN",
+  "original": "Ndambé",
+  "title": "Ndambé (ragoût de niébé épicé du petit-déjeuner sénégalais)",
+  "en": "Ndambé (Senegalese spicy black-eyed pea stew)",
+  "es": "Ndambé (guiso senegalés de frijoles de carita)",
+  "desc": "Ragoût de haricots niébé à la tomate, aux oignons et au piment, servi au petit-déjeuner dans une demi-baguette par les vendeuses des rues de Dakar.",
+  "cat": "Petit-déjeuner",
+  "diff": "easy",
+  "prep": 15,
+  "cook": 60,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Ndamb%C3%A9",
+  "ing": [
+   [
+    "Haricots niébé secs",
+    500,
+    "g",
+    "trempés une nuit"
+   ],
+   [
+    "Oignons",
+    3,
+    null,
+    "émincés"
+   ],
+   [
+    "Huile",
+    80,
+    "ml",
+    null
+   ],
+   [
+    "Concentré de tomate",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Ail",
+    3,
+    "gousses",
+    null
+   ],
+   [
+    "Piment",
+    1,
+    null,
+    null
+   ],
+   [
+    "Poivre noir",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Bouillon en poudre",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Baguettes",
+    3,
+    null,
+    "pour servir"
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Cuire les niébés trempés à l’eau 40 minutes jusqu’à ce qu’ils soient tendres; égoutter en gardant un peu d’eau.",
+   "Faire revenir les oignons dans l’huile, ajouter l’ail pilé et le concentré dilué.",
+   "Ajouter les haricots, le piment, le poivre, le bouillon et un peu d’eau de cuisson.",
+   "Mijoter 20 minutes en écrasant légèrement une partie des haricots.",
+   "Servir chaud dans des demi-baguettes ouvertes."
+  ]
+ },
+ {
+  "slug": "thiere-agneau",
+  "country": "SN",
+  "original": "Thiéré",
+  "title": "Thiéré (couscous de mil sénégalais à la sauce d’agneau)",
+  "en": "Thiéré (Senegalese millet couscous with lamb sauce)",
+  "es": "Thiéré (cuscús senegalés de mijo con salsa de cordero)",
+  "desc": "Couscous de mil roulé à la main et cuit à la vapeur avec du lalo (poudre de feuilles de baobab), servi avec une sauce de mouton aux légumes; plat de fête de la Tamkharit et des cérémonies.",
+  "cat": "Plat principal",
+  "diff": "hard",
+  "prep": 60,
+  "cook": 120,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/Couscous_de_mil",
+  "ing": [
+   [
+    "Couscous de mil (thiéré)",
+    1,
+    "kg",
+    null
+   ],
+   [
+    "Lalo (poudre de feuilles de baobab)",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Viande de mouton",
+    1.2,
+    "kg",
+    "en morceaux"
+   ],
+   [
+    "Oignons",
+    4,
+    null,
+    null
+   ],
+   [
+    "Concentré de tomate",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Carottes",
+    4,
+    null,
+    null
+   ],
+   [
+    "Navets",
+    3,
+    null,
+    null
+   ],
+   [
+    "Chou",
+    0.5,
+    null,
+    null
+   ],
+   [
+    "Niébé cuit",
+    200,
+    "g",
+    "facultatif"
+   ],
+   [
+    "Huile",
+    100,
+    "ml",
+    null
+   ],
+   [
+    "Piment et poivre",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Humidifier le couscous de mil, le cuire 30 minutes à la vapeur, l’égrener, ajouter le lalo et le cuire encore 30 minutes.",
+   "Faire dorer la viande dans l’huile avec les oignons.",
+   "Ajouter le concentré de tomate, 1,5 litre d’eau, le piment et le poivre; cuire 45 minutes.",
+   "Ajouter les légumes et le niébé et poursuivre 30 minutes.",
+   "Servir le couscous en dôme dans un grand plat, arrosé de sauce et entouré de viande et de légumes."
+  ]
+ },
+ {
+  "slug": "domoda",
+  "country": "SN",
+  "original": "Domoda",
+  "title": "Domoda (ragoût sénégalais à la tomate et au potiron)",
+  "en": "Domoda (Senegalese tomato and squash meat stew)",
+  "es": "Domoda (guiso senegalés de carne con tomate y calabaza)",
+  "desc": "Sauce mijotée de viande ou de boulettes de poisson à la tomate, épaissie de potiron ou de farine de riz et parfumée au nététou et au citron; servie sur du riz blanc.",
+  "cat": "Ragoût",
+  "diff": "medium",
+  "prep": 25,
+  "cook": 75,
+  "serv": 6,
+  "reference": "https://en.wikipedia.org/wiki/Domoda",
+  "ing": [
+   [
+    "Viande de bœuf ou boulettes de poisson",
+    800,
+    "g",
+    null
+   ],
+   [
+    "Oignons",
+    3,
+    null,
+    "émincés"
+   ],
+   [
+    "Huile",
+    80,
+    "ml",
+    null
+   ],
+   [
+    "Concentré de tomate",
+    4,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Potiron",
+    400,
+    "g",
+    "en dés"
+   ],
+   [
+    "Pommes de terre",
+    3,
+    null,
+    null
+   ],
+   [
+    "Ail",
+    4,
+    "gousses",
+    null
+   ],
+   [
+    "Nététou",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Citron",
+    1,
+    null,
+    "jus"
+   ],
+   [
+    "Piment",
+    1,
+    null,
+    null
+   ],
+   [
+    "Riz",
+    600,
+    "g",
+    "pour servir"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire revenir la viande et les oignons dans l’huile.",
+   "Ajouter le concentré de tomate dilué, l’ail pilé avec le nététou, et 1 litre d’eau; cuire 40 minutes.",
+   "Ajouter le potiron, les pommes de terre et le piment.",
+   "Mijoter 30 minutes jusqu’à ce que le potiron se défasse et épaississe la sauce.",
+   "Ajouter le jus de citron, rectifier l’assaisonnement et servir sur le riz."
+  ]
+ },
+ {
+  "slug": "ceebu-yapp",
+  "country": "SN",
+  "original": "Ceebu yapp",
+  "title": "Ceebu yapp (riz à la viande sénégalais)",
+  "en": "Ceebu yapp (Senegalese rice with meat)",
+  "es": "Ceebu yapp (arroz senegalés con carne)",
+  "desc": "Variante du ceebu jen à la viande : mouton ou bœuf mariné et frit, mijoté avec beaucoup d’oignons, puis riz cuit dans le jus de cuisson; servi dans un grand plat garni d’oignons, de carottes et d’œufs durs.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 90,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/Cuisine_s%C3%A9n%C3%A9galaise",
+  "ing": [
+   [
+    "Viande de mouton ou de bœuf",
+    1.2,
+    "kg",
+    "en morceaux"
+   ],
+   [
+    "Oignons",
+    6,
+    null,
+    "émincés"
+   ],
+   [
+    "Ail",
+    6,
+    "gousses",
+    null
+   ],
+   [
+    "Moutarde",
+    2,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Huile",
+    120,
+    "ml",
+    null
+   ],
+   [
+    "Riz brisé",
+    1,
+    "kg",
+    "lavé"
+   ],
+   [
+    "Carottes",
+    3,
+    null,
+    "en bâtonnets"
+   ],
+   [
+    "Petits pois",
+    150,
+    "g",
+    null
+   ],
+   [
+    "Œufs durs",
+    4,
+    null,
+    "pour garnir"
+   ],
+   [
+    "Poivre et bouillon",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Mariner la viande avec l’ail pilé, la moutarde, le poivre et le sel, puis la faire dorer dans l’huile.",
+   "Ajouter les oignons et les laisser fondre et caraméliser 20 minutes.",
+   "Mouiller d’1,5 litre d’eau et cuire la viande 45 minutes; retirer viande et oignons.",
+   "Cuire le riz à couvert dans le jus restant jusqu’à absorption, en ajoutant les carottes et petits pois.",
+   "Dresser le riz, couvrir de viande, d’oignons, de légumes et d’œufs durs."
+  ]
+ },
+ {
+  "slug": "cafe-touba",
+  "country": "SN",
+  "place": {
+   "slug": "sn-touba",
+   "name": "Touba",
+   "type": "city",
+   "lat": 14.8667,
+   "lng": -15.8833,
+   "summary": "Ville sainte de la confrérie mouride, qui a donné son nom au café Touba épicé au poivre de Guinée."
+  },
+  "original": "Café Touba",
+  "title": "Café Touba (café au poivre de Guinée)",
+  "en": "Café Touba (Senegalese spiced coffee)",
+  "es": "Café Touba (café senegalés con pimienta de Guinea)",
+  "desc": "Café emblématique des mourides, vendu partout au Sénégal dans des bouilloires : grains de café torréfiés avec du djar (poivre de Selim), moulus, filtrés à travers un tissu et servis très sucrés.",
+  "cat": "Boisson",
+  "diff": "easy",
+  "prep": 10,
+  "cook": 15,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Caf%C3%A9_Touba",
+  "ing": [
+   [
+    "Café vert ou torréfié moulu",
+    100,
+    "g",
+    null
+   ],
+   [
+    "Djar (poivre de Selim)",
+    15,
+    "g",
+    null
+   ],
+   [
+    "Clous de girofle",
+    3,
+    null,
+    "facultatif"
+   ],
+   [
+    "Eau",
+    1,
+    "l",
+    null
+   ],
+   [
+    "Sucre",
+    100,
+    "g",
+    null
+   ]
+  ],
+  "steps": [
+   "Torréfier le café et le djar ensemble dans une poêle à sec, en remuant, jusqu’à ce qu’ils soient bien bruns et parfumés.",
+   "Les moudre finement.",
+   "Placer la mouture dans un filtre en tissu au-dessus d’une bouilloire.",
+   "Verser lentement l’eau bouillante sur la mouture.",
+   "Sucrer et servir brûlant dans de petits gobelets."
+  ]
+ },
+ {
+  "slug": "dakhine",
+  "country": "SN",
+  "original": "Dakhine",
+  "title": "Dakhine (riz à la viande et à la pâte d’arachide)",
+  "en": "Dakhine (Senegalese rice with meat and peanut)",
+  "es": "Dakhine (arroz senegalés con carne y cacahuete)",
+  "desc": "Plat de riz sénégalais cuit dans une sauce de viande à la pâte d’arachide, au tamarin et au piment, pour un riz brun fondant; servi avec du citron.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 20,
+  "cook": 75,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Cuisine_s%C3%A9n%C3%A9galaise",
+  "ing": [
+   [
+    "Viande de bœuf ou de mouton",
+    800,
+    "g",
+    "en petits morceaux"
+   ],
+   [
+    "Pâte d’arachide",
+    200,
+    "g",
+    null
+   ],
+   [
+    "Riz",
+    600,
+    "g",
+    null
+   ],
+   [
+    "Oignons",
+    2,
+    null,
+    null
+   ],
+   [
+    "Concentré de tomate",
+    2,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Tamarin",
+    1,
+    "c. à soupe",
+    "en pulpe"
+   ],
+   [
+    "Huile",
+    60,
+    "ml",
+    null
+   ],
+   [
+    "Ail",
+    3,
+    "gousses",
+    null
+   ],
+   [
+    "Piment",
+    1,
+    null,
+    null
+   ],
+   [
+    "Citron vert",
+    2,
+    null,
+    "pour servir"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire revenir la viande et les oignons dans l’huile avec l’ail pilé.",
+   "Ajouter le concentré de tomate et 1,5 litre d’eau, et cuire 40 minutes.",
+   "Délayer la pâte d’arachide et le tamarin dans un peu de bouillon et les ajouter avec le piment.",
+   "Verser le riz lavé dans la sauce et cuire à couvert à feu doux 25 minutes jusqu’à absorption.",
+   "Servir avec des quartiers de citron vert."
+  ]
+ },
+ {
+  "slug": "mbakhal-saloum",
+  "country": "SN",
+  "place": {
+   "slug": "sn-saloum",
+   "name": "Sine-Saloum",
+   "type": "region",
+   "lat": 14.0,
+   "lng": -16.4,
+   "summary": "Région du centre-ouest sénégalais, entre bassin arachidier et delta du Saloum : mbakhal, niélé et poissons séchés."
+  },
+  "original": "Mbakhalou Saloum",
+  "title": "Mbakhalou Saloum (riz à l’arachide et au poisson séché du Saloum)",
+  "en": "Mbakhalou Saloum (Saloum rice with peanuts and dried fish)",
+  "es": "Mbakhalou Saloum (arroz con cacahuete y pescado seco)",
+  "desc": "Plat du Saloum : riz cuit avec de l’arachide fraîche ou pilée, du poisson séché (guedj ou kéthiakh), des niébés et du piment, pour un riz brun et fondant servi avec du piment.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 60,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Cuisine_s%C3%A9n%C3%A9galaise",
+  "ing": [
+   [
+    "Riz",
+    600,
+    "g",
+    null
+   ],
+   [
+    "Arachides crues décortiquées",
+    250,
+    "g",
+    "pilées ou en pâte"
+   ],
+   [
+    "Poisson séché (guedj ou kéthiakh)",
+    200,
+    "g",
+    "nettoyé"
+   ],
+   [
+    "Niébé",
+    150,
+    "g",
+    "cuit"
+   ],
+   [
+    "Oignons",
+    2,
+    null,
+    null
+   ],
+   [
+    "Huile",
+    60,
+    "ml",
+    null
+   ],
+   [
+    "Nététou",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Piment",
+    2,
+    null,
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire tremper et nettoyer le poisson séché, puis l’émietter.",
+   "Faire revenir les oignons dans l’huile, ajouter le poisson, le nététou et le piment.",
+   "Ajouter 1,5 litre d’eau et les arachides pilées et cuire 20 minutes.",
+   "Ajouter le riz lavé et le niébé, couvrir et cuire 30 minutes à feu doux en remuant de temps en temps.",
+   "Servir chaud avec une pointe de piment au centre."
+  ]
+ },
+ {
+  "slug": "attaya",
+  "country": "SN",
+  "original": "Attaya",
+  "title": "Attaya (thé vert à la menthe sénégalais en trois services)",
+  "en": "Attaya (Senegalese green tea ceremony)",
+  "es": "Attaya (té verde senegalés en tres servicios)",
+  "desc": "Rituel de convivialité sénégalais : thé vert de Chine bouilli longuement avec du sucre et de la menthe sur un petit fourneau, mousseux à force d’être transvasé, servi en trois tournées de plus en plus douces.",
+  "cat": "Boisson",
+  "diff": "easy",
+  "prep": 10,
+  "cook": 60,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Ataya",
+  "ing": [
+   [
+    "Thé vert gunpowder",
+    30,
+    "g",
+    null
+   ],
+   [
+    "Sucre",
+    200,
+    "g",
+    "réparti en trois services"
+   ],
+   [
+    "Menthe fraîche",
+    1,
+    "bouquet",
+    null
+   ],
+   [
+    "Eau",
+    600,
+    "ml",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire bouillir le thé dans une petite théière avec 200 ml d’eau sur un fourneau à charbon, 10 minutes.",
+   "Ajouter le sucre et un peu de menthe, puis faire mousser en versant le thé de très haut d’un verre à l’autre.",
+   "Servir le premier thé, le plus fort et amer, dans de petits verres.",
+   "Remettre de l’eau et du sucre sur les mêmes feuilles pour le deuxième service, plus sucré et mentholé.",
+   "Préparer de même le troisième service, le plus doux, en prenant le temps de la discussion."
+  ]
+ },
+ {
+  "slug": "fataya",
+  "country": "SN",
+  "original": "Fataya",
+  "title": "Fatayas au poisson (chaussons frits sénégalais)",
+  "en": "Fataya (Senegalese fried fish turnovers)",
+  "es": "Fatayas (empanadillas fritas senegalesas de pescado)",
+  "desc": "Chaussons frits d’origine libanaise devenus un en-cas incontournable au Sénégal : pâte levée garnie de poisson ou de viande hachée aux oignons et au piment, servis avec une sauce tomate-oignon pimentée.",
+  "cat": "Cuisine de rue",
+  "diff": "medium",
+  "prep": 60,
+  "cook": 20,
+  "serv": 20,
+  "reference": "https://fr.wikipedia.org/wiki/Fataya",
+  "ing": [
+   [
+    "Farine",
+    500,
+    "g",
+    null
+   ],
+   [
+    "Levure boulangère sèche",
+    7,
+    "g",
+    null
+   ],
+   [
+    "Eau tiède",
+    250,
+    "ml",
+    null
+   ],
+   [
+    "Huile",
+    2,
+    "c. à soupe",
+    "pour la pâte"
+   ],
+   [
+    "Poisson cuit émietté ou viande hachée",
+    400,
+    "g",
+    null
+   ],
+   [
+    "Oignons",
+    2,
+    null,
+    "hachés"
+   ],
+   [
+    "Ail et persil",
+    1,
+    "poignée",
+    null
+   ],
+   [
+    "Concentré de tomate",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Piment",
+    1,
+    null,
+    null
+   ],
+   [
+    "Huile de friture",
+    1,
+    "l",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Pétrir la farine, la levure, l’eau, l’huile et le sel; laisser lever 1 heure.",
+   "Faire revenir les oignons, l’ail, le persil, le concentré et le piment, puis ajouter le poisson et laisser refroidir.",
+   "Étaler la pâte finement et découper des disques de 10 cm.",
+   "Garnir chaque disque de farce, replier en demi-lune et souder les bords à la fourchette.",
+   "Frire 3 à 4 minutes dans l’huile à 175 °C jusqu’à ce qu’ils soient dorés; servir avec une sauce oignon-tomate pimentée."
+  ]
+ },
+ {
+  "slug": "lakh-neuteuri",
+  "country": "SN",
+  "original": "Lakh",
+  "title": "Lakh (bouillie de mil au lait caillé et au pain de singe)",
+  "en": "Lakh (Senegalese millet porridge with curd and baobab)",
+  "es": "Lakh (gachas senegalesas de mijo con leche cuajada y baobab)",
+  "desc": "Dessert et goûter sénégalais : granules de mil (arraw) cuits en bouillie épaisse, servis froids nappés de lait caillé sucré ou de neteri, une crème de pain de singe à l’arachide, parfumée à la vanille et à la muscade.",
+  "cat": "Dessert",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 40,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/Cuisine_s%C3%A9n%C3%A9galaise",
+  "ing": [
+   [
+    "Arraw (granules de farine de mil)",
+    500,
+    "g",
+    null
+   ],
+   [
+    "Eau",
+    1.5,
+    "l",
+    null
+   ],
+   [
+    "Lait caillé",
+    1,
+    "l",
+    null
+   ],
+   [
+    "Sucre",
+    150,
+    "g",
+    null
+   ],
+   [
+    "Pulpe de pain de singe (bouye)",
+    100,
+    "g",
+    "pour la version neteri"
+   ],
+   [
+    "Pâte d’arachide",
+    100,
+    "g",
+    "pour la version neteri"
+   ],
+   [
+    "Vanille",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Noix de muscade",
+    1,
+    "pincée",
+    null
+   ],
+   [
+    "Raisins secs",
+    50,
+    "g",
+    "facultatif"
+   ]
+  ],
+  "steps": [
+   "Porter l’eau à ébullition et y verser l’arraw en pluie en remuant.",
+   "Cuire 30 à 40 minutes à feu doux en remuant souvent jusqu’à obtenir une bouillie épaisse; laisser refroidir.",
+   "Battre le lait caillé avec le sucre, la vanille et la muscade.",
+   "Pour le neteri, délayer le pain de singe et la pâte d’arachide avec un peu d’eau et de sucre.",
+   "Servir la bouillie froide nappée de lait caillé ou de neteri, avec des raisins secs."
+  ]
+ },
+ {
+  "slug": "ngalax",
+  "country": "SN",
+  "original": "Ngalax",
+  "title": "Ngalax (dessert de Pâques au mil, pain de singe et arachide)",
+  "en": "Ngalax (Senegalese Easter millet, baobab and peanut dessert)",
+  "es": "Ngalax (postre senegalés de Pascua con mijo, baobab y cacahuete)",
+  "desc": "Dessert que les chrétiens du Sénégal préparent pour le Vendredi saint et partagent avec leurs voisins musulmans : granules de mil nappés d’une crème de pâte d’arachide et de pain de singe, sucrée et parfumée.",
+  "cat": "Dessert",
+  "diff": "medium",
+  "prep": 40,
+  "cook": 30,
+  "serv": 10,
+  "reference": "https://fr.wikipedia.org/wiki/Ngalax",
+  "ing": [
+   [
+    "Thiakry ou arraw de mil",
+    500,
+    "g",
+    null
+   ],
+   [
+    "Pâte d’arachide",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Pulpe de pain de singe (bouye)",
+    200,
+    "g",
+    null
+   ],
+   [
+    "Sucre",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Eau",
+    1,
+    "l",
+    null
+   ],
+   [
+    "Vanille",
+    2,
+    "c. à thé",
+    null
+   ],
+   [
+    "Eau de fleur d’oranger",
+    1,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Raisins secs",
+    80,
+    "g",
+    null
+   ],
+   [
+    "Noix de muscade",
+    1,
+    "pincée",
+    null
+   ]
+  ],
+  "steps": [
+   "Cuire les granules de mil à la vapeur 30 minutes, puis les laisser refroidir en les égrenant.",
+   "Délayer le pain de singe dans l’eau, puis passer au tamis pour obtenir un jus épais.",
+   "Mélanger la pâte d’arachide avec le jus de bouye, le sucre, la vanille, la fleur d’oranger et la muscade jusqu’à obtenir une crème lisse.",
+   "Incorporer les granules de mil et les raisins.",
+   "Réfrigérer quelques heures et servir très frais."
+  ]
+ },
+ {
+  "slug": "yassa-poisson",
+  "country": "SN",
+  "original": "Yassa djën",
+  "title": "Yassa au poisson (poisson grillé et sauce aux oignons citronnés)",
+  "en": "Fish yassa (grilled fish with lemon onion sauce)",
+  "es": "Yassa de pescado (pescado a la parrilla con salsa de cebolla y limón)",
+  "desc": "Version au poisson du yassa de Casamance : poisson mariné au citron et à la moutarde, grillé, puis servi sur une montagne d’oignons fondus au citron et aux olives, avec du riz blanc.",
+  "cat": "Poisson",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 50,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Yassa",
+  "ing": [
+   [
+    "Poisson (thiof, dorade ou capitaine)",
+    1.2,
+    "kg",
+    "entier ou en darnes"
+   ],
+   [
+    "Oignons",
+    8,
+    null,
+    "émincés"
+   ],
+   [
+    "Citrons verts",
+    6,
+    null,
+    "jus"
+   ],
+   [
+    "Moutarde",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Ail",
+    4,
+    "gousses",
+    null
+   ],
+   [
+    "Huile",
+    100,
+    "ml",
+    null
+   ],
+   [
+    "Olives vertes",
+    100,
+    "g",
+    null
+   ],
+   [
+    "Piment",
+    1,
+    null,
+    null
+   ],
+   [
+    "Bouillon en poudre",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Riz",
+    600,
+    "g",
+    "pour servir"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Mariner le poisson et les oignons 2 heures avec le citron, la moutarde, l’ail pilé, le sel et le poivre.",
+   "Égoutter le poisson et le griller au barbecue ou au four jusqu’à ce qu’il soit doré.",
+   "Faire fondre les oignons égouttés dans l’huile 20 minutes jusqu’à ce qu’ils soient tendres et blonds.",
+   "Ajouter la marinade, le bouillon, le piment, les olives et un peu d’eau, puis mijoter 10 minutes.",
+   "Servir le poisson sur le riz, recouvert de sauce aux oignons."
+  ]
+ },
+ {
+  "slug": "thiebou-kethiakh",
+  "country": "SN",
+  "original": "Ceebu kéthiakh",
+  "title": "Ceebu kéthiakh (riz au poisson fumé et aux fruits de mer)",
+  "en": "Ceebu kéthiakh (Senegalese rice with smoked fish)",
+  "es": "Ceebu kéthiakh (arroz senegalés con pescado ahumado)",
+  "desc": "Riz rouge cuit avec du kéthiakh, petit poisson braisé, salé et séché de la Petite-Côte, relevé de niébé, de piment et d’oignons; parfois enrichi de crevettes et d’huîtres.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 60,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Cuisine_s%C3%A9n%C3%A9galaise",
+  "ing": [
+   [
+    "Kéthiakh (poisson fumé-séché)",
+    300,
+    "g",
+    "nettoyé et émietté"
+   ],
+   [
+    "Riz brisé",
+    600,
+    "g",
+    null
+   ],
+   [
+    "Oignons",
+    3,
+    null,
+    null
+   ],
+   [
+    "Concentré de tomate",
+    3,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Huile",
+    100,
+    "ml",
+    null
+   ],
+   [
+    "Niébé cuit",
+    200,
+    "g",
+    null
+   ],
+   [
+    "Crevettes",
+    300,
+    "g",
+    "facultatif"
+   ],
+   [
+    "Ail",
+    3,
+    "gousses",
+    null
+   ],
+   [
+    "Piment",
+    1,
+    null,
+    null
+   ],
+   [
+    "Nététou",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Faire tremper le kéthiakh 30 minutes, puis retirer peau et arêtes.",
+   "Faire revenir les oignons dans l’huile, ajouter l’ail, le nététou, le concentré dilué et le piment.",
+   "Ajouter le kéthiakh et 1,2 litre d’eau; cuire 15 minutes.",
+   "Verser le riz lavé et le niébé, couvrir et cuire 25 minutes à feu doux; ajouter les crevettes pour les 5 dernières minutes.",
+   "Servir dans un grand plat commun."
+  ]
+ },
+ {
+  "slug": "mboum",
+  "country": "SN",
+  "original": "Mboum",
+  "title": "Mboum (sauce aux feuilles de nébéday et à l’arachide)",
+  "en": "Mboum (Senegalese moringa leaf and peanut sauce)",
+  "es": "Mboum (salsa senegalesa de hojas de moringa y cacahuete)",
+  "desc": "Sauce sénégalaise aux feuilles de nébéday (moringa) pilées, cuite avec de la pâte d’arachide, du kéthiakh et du nététou, servie avec du couscous de mil ou du riz.",
+  "cat": "Ragoût",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 45,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Moringa_oleifera",
+  "ing": [
+   [
+    "Feuilles de nébéday (moringa) fraîches",
+    300,
+    "g",
+    "équeutées"
+   ],
+   [
+    "Pâte d’arachide",
+    150,
+    "g",
+    null
+   ],
+   [
+    "Kéthiakh (poisson fumé-séché)",
+    150,
+    "g",
+    "émietté"
+   ],
+   [
+    "Oignons",
+    2,
+    null,
+    null
+   ],
+   [
+    "Huile",
+    50,
+    "ml",
+    null
+   ],
+   [
+    "Nététou",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Piment",
+    1,
+    null,
+    null
+   ],
+   [
+    "Couscous de mil ou riz",
+    600,
+    "g",
+    "pour servir"
+   ],
+   [
+    "Sel",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Laver les feuilles de nébéday et les blanchir 5 minutes, puis les piler ou les hacher finement.",
+   "Faire revenir les oignons dans l’huile, ajouter le kéthiakh, le nététou et le piment.",
+   "Ajouter 800 ml d’eau et la pâte d’arachide délayée; cuire 15 minutes.",
+   "Incorporer les feuilles et mijoter 20 minutes jusqu’à obtenir une sauce épaisse et verte.",
+   "Servir avec du couscous de mil ou du riz."
+  ]
+ },
+ {
+  "slug": "ceebu-jen-bu-weex",
+  "country": "SN",
+  "original": "Céep bu wéex",
+  "title": "Céep bu wéex (riz blanc au poisson, sans tomate)",
+  "en": "Ceebu jen bu weex (white Senegalese fish rice)",
+  "es": "Ceebu jen bu weex (arroz blanco senegalés con pescado)",
+  "desc": "Version « blanche » du plat national sénégalais, préparée sans tomate : poisson farci au roff et légumes cuits dans un bouillon parfumé au nététou et au yet, dans lequel on cuit ensuite le riz.",
+  "cat": "Plat principal",
+  "diff": "hard",
+  "prep": 45,
+  "cook": 90,
+  "serv": 8,
+  "reference": "https://fr.wikipedia.org/wiki/Thi%C3%A9boudienne",
+  "ing": [
+   [
+    "Poisson (thiof ou mérou)",
+    1.5,
+    "kg",
+    "en darnes"
+   ],
+   [
+    "Roff (persil, ail, piment, poivre pilés)",
+    1,
+    "bol",
+    null
+   ],
+   [
+    "Riz brisé",
+    1,
+    "kg",
+    null
+   ],
+   [
+    "Huile",
+    150,
+    "ml",
+    null
+   ],
+   [
+    "Oignons",
+    3,
+    null,
+    null
+   ],
+   [
+    "Carottes",
+    3,
+    null,
+    null
+   ],
+   [
+    "Chou",
+    0.5,
+    null,
+    null
+   ],
+   [
+    "Manioc",
+    1,
+    null,
+    "en tronçons"
+   ],
+   [
+    "Aubergines",
+    2,
+    null,
+    null
+   ],
+   [
+    "Yet (mollusque séché) et kéthiakh",
+    1,
+    "morceau",
+    null
+   ],
+   [
+    "Nététou",
+    1,
+    "c. à thé",
+    null
+   ],
+   [
+    "Tamarin et citron",
+    1,
+    null,
+    "pour servir"
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Farcir les darnes de roff et les faire dorer légèrement dans l’huile.",
+   "Faire revenir les oignons, ajouter 2,5 litres d’eau, le nététou, le yet et le kéthiakh, puis les légumes.",
+   "Ajouter le poisson et cuire jusqu’à ce que poisson et légumes soient tendres; les retirer au chaud.",
+   "Mesurer le bouillon, y cuire le riz lavé à couvert et à feu doux jusqu’à absorption.",
+   "Dresser le riz dans un grand plat, le poisson et les légumes au centre; servir avec tamarin et citron."
+  ]
+ },
+ {
+  "slug": "niele-saloum",
+  "country": "SN",
+  "place": {
+   "slug": "sn-saloum",
+   "name": "Sine-Saloum",
+   "type": "region",
+   "lat": 14.0,
+   "lng": -16.4,
+   "summary": "Région du centre-ouest sénégalais, entre bassin arachidier et delta du Saloum : mbakhal, niélé et poissons séchés."
+  },
+  "original": "Niélé",
+  "title": "Niélé peul (mil concassé à la sauce d’arachide)",
+  "en": "Niélé (Fula millet with peanut sauce)",
+  "es": "Niélé (mijo triturado con salsa de cacahuete)",
+  "desc": "Plat traditionnel des Peuls du Saloum : brisures de mil cuites à la vapeur, nappées d’une sauce à la pâte d’arachide (mafé) épaisse, parfois avec un peu de viande ou de poisson séché.",
+  "cat": "Plat principal",
+  "diff": "medium",
+  "prep": 30,
+  "cook": 60,
+  "serv": 6,
+  "reference": "https://fr.wikipedia.org/wiki/Cuisine_s%C3%A9n%C3%A9galaise",
+  "ing": [
+   [
+    "Mil concassé",
+    600,
+    "g",
+    null
+   ],
+   [
+    "Pâte d’arachide",
+    250,
+    "g",
+    null
+   ],
+   [
+    "Oignons",
+    2,
+    null,
+    null
+   ],
+   [
+    "Concentré de tomate",
+    2,
+    "c. à soupe",
+    null
+   ],
+   [
+    "Huile",
+    50,
+    "ml",
+    null
+   ],
+   [
+    "Viande ou poisson séché",
+    300,
+    "g",
+    "facultatif"
+   ],
+   [
+    "Piment",
+    1,
+    null,
+    null
+   ],
+   [
+    "Bouillon",
+    1,
+    "l",
+    null
+   ],
+   [
+    "Sel et poivre",
+    1,
+    "c. à thé",
+    null
+   ]
+  ],
+  "steps": [
+   "Humidifier le mil concassé et le cuire 40 minutes à la vapeur en l’égrenant à mi-cuisson.",
+   "Faire revenir les oignons et la viande dans l’huile, ajouter le concentré de tomate.",
+   "Délayer la pâte d’arachide dans le bouillon chaud et l’ajouter avec le piment.",
+   "Mijoter 30 minutes en remuant jusqu’à ce que l’huile remonte en surface.",
+   "Dresser le mil en couronne et verser la sauce au centre."
+  ]
+ }
+]

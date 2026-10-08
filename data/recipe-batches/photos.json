@@ -6707,5 +6707,50 @@
   "license": "CC BY-SA 3.0",
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "source": "Wikimedia Commons"
+ },
+ "poutine-smoked-meat": {
+  "file": "Smoked meat poutine",
+  "url": "https://live.staticflickr.com/8232/8392258439_a6aab8c232_b.jpg",
+  "page": "https://www.flickr.com/photos/51035707449@N01/8392258439",
+  "author": "Matt Biddulph",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "source": "Flickr (via Openverse)"
+ },
+ "michigan-quebecois": {
+  "file": "File:Michigan hot dogs with and without onions 01.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Michigan_hot_dogs_with_and_without_onions_01.jpg/1280px-Michigan_hot_dogs_with_and_without_onions_01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Michigan_hot_dogs_with_and_without_onions_01.jpg",
+  "author": "William Graham",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "pouding-au-riz-quebecois": {
+  "file": "File:Bol de riz au lait.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bol_de_riz_au_lait.jpg/1280px-Bol_de_riz_au_lait.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bol_de_riz_au_lait.jpg",
+  "author": "anonyme",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "pate-au-poulet-quebecois": {
+  "file": "File:Chickenpie1.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Chickenpie1.JPG/1280px-Chickenpie1.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Chickenpie1.JPG",
+  "author": "Thecopse",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "Wikimedia Commons"
+ },
+ "pain-dore-au-sirop-derable": {
+  "file": "File:Breakfast on The Canadian.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Breakfast_on_The_Canadian.jpg/1280px-Breakfast_on_The_Canadian.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Breakfast_on_The_Canadian.jpg",
+  "author": "Martin Cathrae",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "Wikimedia Commons"
  }
 }

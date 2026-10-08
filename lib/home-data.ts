@@ -11,7 +11,8 @@ export type HomeRecipe = {
   flag: string;
   image: string | null;
   time: string;
-  difficulty: "Facile" | "Moyen" | "Difficile";
+  difficulty: "easy" | "medium" | "hard" | null;
+  spiceLevel: number;
   category: string;
 };
 

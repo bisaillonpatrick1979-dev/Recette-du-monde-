@@ -302,6 +302,22 @@ button { cursor: pointer; }
 .recipe-lead { color: var(--ink-soft); font-size: 18px; line-height: 1.7; max-width: 850px; }
 .recipe-detail-meta { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0; }
 .recipe-detail-meta span { border: 1px solid var(--line); border-radius: 999px; padding: 9px 12px; background: #fffaf3; }
+.level-badge { display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; }
+/* Classe doublée : neutralise les styles « pastille » des conteneurs (.recipe-detail-meta span, .continent-page-card-meta span…). */
+.level-badge.level-badge span { padding: 0; border: 0; border-radius: 0; background: none; min-height: 0; }
+.level-badge .level-icons { display: inline-flex; align-items: center; gap: 3px; }
+.level-badge.level-badge .level-dot { width: 8px; height: 8px; border-radius: 999px; border: 1.5px solid var(--forest); }
+.level-badge.level-badge .level-dot.on { background: var(--forest); }
+.level-badge.level-badge.difficulty-hard .level-dot { border-color: var(--terracotta); }
+.level-badge.level-badge.difficulty-hard .level-dot.on { background: var(--terracotta); }
+.level-badge .chili { font-size: 13px; line-height: 1; opacity: .22; filter: grayscale(1); }
+.level-badge .chili.on { opacity: 1; filter: none; }
+.level-badge.compact { gap: 4px; font-size: 12px; }
+.level-badge.level-badge.compact .level-dot { width: 7px; height: 7px; }
+.level-badge.compact .chili { font-size: 11px; }
+.recipe-level-row { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.continent-modal-recipe-body p.recipe-level-row { display: flex; min-height: 0; margin-top: 4px; }
+.planet-recipe-body small.recipe-level-row { display: flex; margin-top: 4px; }
 .recipe-columns { display: grid; grid-template-columns: .8fr 1.2fr; gap: 40px; margin-top: 34px; }
 .recipe-columns h2 { font-family: Georgia, serif; font-size: 30px; }
 .ingredient-list, .step-list { padding-left: 22px; }

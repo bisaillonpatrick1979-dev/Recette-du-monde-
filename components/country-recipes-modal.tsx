@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { DifficultyBadge, SpiceBadge } from "@/components/recipe-level-badges";
 import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import { OpenRecipeImage } from "@/components/open-recipe-image";
 
@@ -14,6 +15,7 @@ type CountryRecipe = {
   region: string | null;
   category: string;
   difficulty: "easy" | "medium" | "hard" | null;
+  spiceLevel: number;
   minutes: number | null;
   image: string | null;
   likes: number;
@@ -36,12 +38,6 @@ type Payload = {
   places: CountryPlace[];
   recipes: CountryRecipe[];
 };
-
-function difficultyLabel(value: CountryRecipe["difficulty"]) {
-  if (value === "hard") return "Difficile";
-  if (value === "medium") return "Moyen";
-  return "Facile";
-}
 
 export function CountryRecipesModal({
   countryCode,
@@ -291,7 +287,10 @@ export function CountryRecipesModal({
                       <p>
                         {recipe.category}
                         {recipe.minutes ? " · " + recipe.minutes + " min" : ""}
-                        {" · " + difficultyLabel(recipe.difficulty)}
+                      </p>
+                      <p className="recipe-level-row">
+                        <DifficultyBadge difficulty={recipe.difficulty} compact />
+                        <SpiceBadge level={recipe.spiceLevel} compact />
                       </p>
                       <div className="continent-modal-metrics">
                         <span>♥ {recipe.likes}</span>

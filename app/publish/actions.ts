@@ -62,6 +62,8 @@ export async function createRecipe(formData: FormData) {
     difficultyRaw === "easy" || difficultyRaw === "medium" || difficultyRaw === "hard"
       ? difficultyRaw
       : undefined;
+  const spiceRaw = textValue(formData, "spice_level");
+  const spiceLevel = ["0", "1", "2", "3"].includes(spiceRaw) ? Number(spiceRaw) : null;
 
   const { data, error } = await supabase.rpc("create_recipe_with_content", {
     p_title: title,
@@ -83,6 +85,14 @@ export async function createRecipe(formData: FormData) {
 
   if (error || !data) {
     redirect(`/publish?error=${encodeURIComponent(error?.message || "Impossible de créer la recette.")}`);
+  }
+
+  if (spiceLevel !== null) {
+    // Le choix de l’auteur remplace l’estimation automatique et n’est plus recalculé.
+    await supabase
+      .from("recipes")
+      .update({ spice_level: spiceLevel, spice_level_source: "author" })
+      .eq("id", data);
   }
 
   redirect(`/recipes/${data}`);

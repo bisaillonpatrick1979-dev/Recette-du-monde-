@@ -18,6 +18,7 @@ import { readPreferences } from "@/lib/use-preferences";
 import { OpenCountryCard } from "@/components/open-place-image";
 import { ContinentRecipesModal } from "@/components/continent-recipes-modal";
 import { CountryRecipesModal } from "@/components/country-recipes-modal";
+import { DifficultyBadge, SpiceBadge } from "@/components/recipe-level-badges";
 import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import { NotificationBell } from "@/components/notification-bell";
 import { OpenRecipeImage } from "@/components/open-recipe-image";
@@ -391,7 +392,11 @@ export function HomeExperience({
                     translations={recipe.titleTranslations}
                   />
                 </h3>
-                <small>{recipe.category} · {recipe.time} · {recipe.difficulty}</small>
+                <small>{recipe.category} · {recipe.time}</small>
+                <small className="recipe-level-row">
+                  <DifficultyBadge difficulty={recipe.difficulty} compact />
+                  <SpiceBadge level={recipe.spiceLevel} compact />
+                </small>
               </div>
             </Link>
           ))}

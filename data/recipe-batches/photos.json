@@ -6680,5 +6680,32 @@
   "license": "CC0",
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "source": "Wikimedia Commons"
+ },
+ "jambon-a-lerable": {
+  "file": "File:Glazed and sliced ham.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Glazed_and_sliced_ham.jpg/1280px-Glazed_and_sliced_ham.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Glazed_and_sliced_ham.jpg",
+  "author": "Michael Coté from Austin, Texas, Texas",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
+ "beignes-de-grand-mere": {
+  "file": "File:Old fashioned doughnut.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Old_fashioned_doughnut.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Old_fashioned_doughnut.jpg",
+  "author": "BrokenSphere",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "fromage-en-grains-maison": {
+  "file": "File:Cheese curds 2.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Cheese_curds_2.jpg/1280px-Cheese_curds_2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cheese_curds_2.jpg",
+  "author": "TShilo12 at English Wikipedia",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "Wikimedia Commons"
  }
 }

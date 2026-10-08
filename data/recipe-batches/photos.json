@@ -6032,5 +6032,230 @@
   "license": "CC BY-SA 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "source": "Wikimedia Commons"
+ },
+ "pylsur-reykjavik": {
+  "file": "File:Hot dog from Bæjarins Beztu Pylsur.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Hot_dog_from_B%C3%A6jarins_Beztu_Pylsur.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hot_dog_from_B%C3%A6jarins_Beztu_Pylsur.jpg",
+  "author": "Jschildk",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "hangikjot-islande": {
+  "file": "File:Hangikjöt.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Hangikj%C3%B6t.jpg/1280px-Hangikj%C3%B6t.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hangikj%C3%B6t.jpg",
+  "author": "Martin Sønderlev Christensen",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "Wikimedia Commons"
+ },
+ "kokoretsi-grece": {
+  "file": "File:Kokoretsi.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Kokoretsi.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kokoretsi.jpg",
+  "author": "Alexandros Kostibas (user Akostibas of English Wikipedia)",
+  "license": "CC BY-SA 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "source": "Wikimedia Commons"
+ },
+ "rogal-swietomarcinski-poznan": {
+  "file": "File:Rogal świętomarciński 18-05-2014.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Rogal_%C5%9Bwi%C4%99tomarci%C5%84ski_18-05-2014.JPG/1280px-Rogal_%C5%9Bwi%C4%99tomarci%C5%84ski_18-05-2014.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Rogal_%C5%9Bwi%C4%99tomarci%C5%84ski_18-05-2014.JPG",
+  "author": "Kapsuglan",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "flaki-po-polsku": {
+  "file": "File:Flaki (1).JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flaki_%281%29.JPG/1280px-Flaki_%281%29.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Flaki_(1).JPG",
+  "author": "Alina Zienowicz Ala z",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "Wikimedia Commons"
+ },
+ "barszcz-z-uszkami": {
+  "file": "File:Barszcz z uszkami.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Barszcz_z_uszkami.jpg/1280px-Barszcz_z_uszkami.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Barszcz_z_uszkami.jpg",
+  "author": "Michał Lech",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source": "Wikimedia Commons"
+ },
+ "batata-harra-beyrouth": {
+  "file": "File:Batata harra.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Batata_harra.jpg/1280px-Batata_harra.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Batata_harra.jpg",
+  "author": "secretlondon123 from London, England",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "source": "Wikimedia Commons"
+ },
+ "makroud-constantine": {
+  "file": "File:Makroud algérie.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Makroud_alg%C3%A9rie.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Makroud_alg%C3%A9rie.jpg",
+  "author": "Waran18",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "bourek-oranais": {
+  "file": "File:Bourek algérie Oran.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bourek_alg%C3%A9rie_Oran.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bourek_alg%C3%A9rie_Oran.jpg",
+  "author": "Waran18",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "puttu-kadala-kerala": {
+  "file": "File:GKN Puttu Kadala DSC 0555.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/GKN_Puttu_Kadala_DSC_0555.JPG/1280px-GKN_Puttu_Kadala_DSC_0555.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:GKN_Puttu_Kadala_DSC_0555.JPG",
+  "author": "Pranchiyettan",
+  "license": "CC BY-SA 2.5 in",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/in/deed.en",
+  "source": "Wikimedia Commons"
+ },
+ "pitha-assam": {
+  "file": "File:Assamese pitha.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Assamese_pitha.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Assamese_pitha.jpg",
+  "author": "Deepdlight",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "laal-maas-rajasthan": {
+  "file": "File:Lal Maas.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Lal_Maas.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lal_Maas.jpg",
+  "author": "Aakash Singh Chauhan",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "enchiladas-potosinas": {
+  "file": "File:EnchiladasPotosinas.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/EnchiladasPotosinas.JPG/1280px-EnchiladasPotosinas.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:EnchiladasPotosinas.JPG",
+  "author": "AlejandroLinaresGarcia",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "kumpir-istanbul": {
+  "file": "File:Kumpir.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Kumpir.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Kumpir.JPG",
+  "author": "Timea Baksa",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "Wikimedia Commons"
+ },
+ "barreado-morretes": {
+  "file": "File:Barreado.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Barreado.jpg/1280px-Barreado.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Barreado.jpg",
+  "author": "Kevinklop at Dutch Wikipedia (Original text: Kevin Klop)",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "Wikimedia Commons"
+ },
+ "shiro-ethiopien": {
+  "file": "File:Taita and shiro.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Taita_and_shiro.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Taita_and_shiro.jpg",
+  "author": "Temesgen Woldezion; edited by Merhawie Woldezion",
+  "license": "CC BY-SA 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+  "source": "Wikimedia Commons"
+ },
+ "kishimen-nagoya": {
+  "file": "File:2014-03-09 10.27.13 Kishimen (13055349005).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/2014-03-09_10.27.13_Kishimen_%2813055349005%29.jpg/1280px-2014-03-09_10.27.13_Kishimen_%2813055349005%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2014-03-09_10.27.13_Kishimen_(13055349005).jpg",
+  "author": "Yuya Tamai from Gifu, Japan",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
+ "ishikari-nabe-hokkaido": {
+  "file": "File:Ishikari nabe by naotakem.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ishikari_nabe_by_naotakem.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ishikari_nabe_by_naotakem.jpg",
+  "author": "naotakem",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
+ "gyutan-sendai": {
+  "file": "File:Sendai gyutan.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Sendai_gyutan.JPG/1280px-Sendai_gyutan.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Sendai_gyutan.JPG",
+  "author": "Sakurai Midori",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "source": "Wikimedia Commons"
+ },
+ "pizzoccheri-valtellina": {
+  "file": "File:Pizzoccheri alla Valtellinese3.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Pizzoccheri_alla_Valtellinese3.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pizzoccheri_alla_Valtellinese3.jpg",
+  "author": "FakirNL",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "frico-friuli": {
+  "file": "File:Frico1.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Frico1.jpg/1280px-Frico1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Frico1.jpg",
+  "author": "DorothyP61N1",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "source": "Wikimedia Commons"
+ },
+ "escalivada-catalana": {
+  "file": "File:Escalivada 2.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Escalivada_2.jpg/1280px-Escalivada_2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Escalivada_2.jpg",
+  "author": "Slastic",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "Wikimedia Commons"
+ },
+ "michirones-murcia": {
+  "file": "File:Michirones.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Michirones.JPG/1280px-Michirones.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Michirones.JPG",
+  "author": "Avicentegil",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source": "Wikimedia Commons"
+ },
+ "papas-arrugadas-mojo": {
+  "file": "File:Papasarrugadas.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Papasarrugadas.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Papasarrugadas.jpg",
+  "author": "Fer..",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "source": "Wikimedia Commons"
+ },
+ "calcots-valls": {
+  "file": "File:Calçots 01.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Cal%C3%A7ots_01.jpg/1280px-Cal%C3%A7ots_01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ots_01.jpg",
+  "author": "Wamito",
+  "license": "Public domain",
+  "licenseUrl": null,
+  "source": "Wikimedia Commons"
  }
 }

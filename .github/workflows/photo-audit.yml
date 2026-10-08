@@ -25,6 +25,8 @@ jobs:
       # Clé publique (déjà embarquée dans le site) : lecture des recettes publiées uniquement.
       SUPABASE_URL: https://lnrmcubcxtnzqynfzghv.supabase.co
       SUPABASE_PUBLISHABLE_KEY: sb_publishable_AUpLIpSZrNnAILatCvPv2w_7UGLZa66
+      # Audit partiel : seulement les recettes créées depuis cette date (vide = toutes).
+      AUDIT_SINCE: "2026-10-08T17:00:00Z"
     steps:
       - name: Checkout
         uses: actions/checkout@v4

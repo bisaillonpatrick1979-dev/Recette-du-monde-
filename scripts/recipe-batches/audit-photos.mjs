@@ -28,7 +28,8 @@ async function loadRecipes() {
     "recipe_images!recipe_images_recipe_id_fkey(id,external_url,storage_path,status,is_primary,source_page_url,photographer_name)";
   const all = [];
   for (let from = 0; ; from += 1000) {
-    const url = `${SUPABASE_URL}/rest/v1/recipes?select=${encodeURIComponent(select)}&status=eq.published&order=created_at.asc,id.asc`;
+    const since = process.env.AUDIT_SINCE ? `&created_at=gte.${encodeURIComponent(process.env.AUDIT_SINCE)}` : "";
+    const url = `${SUPABASE_URL}/rest/v1/recipes?select=${encodeURIComponent(select)}&status=eq.published${since}&order=created_at.asc,id.asc`;
     const res = await fetch(url, {
       headers: { apikey: SUPABASE_PUBLISHABLE_KEY, Authorization: `Bearer ${SUPABASE_PUBLISHABLE_KEY}`, Range: `${from}-${from + 999}` },
     });

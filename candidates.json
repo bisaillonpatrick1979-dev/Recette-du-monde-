@@ -1,0 +1,1011 @@
+{
+ "s10-ca-0": {
+  "title": "Hot chicken québécois",
+  "original": "Hot chicken",
+  "en": "Quebec hot chicken sandwich",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:HotChickenwFries.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/HotChickenwFries.jpg/1280px-HotChickenwFries.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/HotChickenwFries.jpg/500px-HotChickenwFries.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:HotChickenwFries.jpg",
+    "author": "Jeanpetr",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Hot Chicken sandwich and sides from Les Rôtisseries St-Hubert",
+    "thumb": "thumbs/s10-ca-0--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Hot chicken out of the fryer (2547763369).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Hot_chicken_out_of_the_fryer_%282547763369%29.jpg/1280px-Hot_chicken_out_of_the_fryer_%282547763369%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Hot_chicken_out_of_the_fryer_%282547763369%29.jpg/500px-Hot_chicken_out_of_the_fryer_%282547763369%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hot_chicken_out_of_the_fryer_(2547763369).jpg",
+    "author": "Southern Foodways Alliance/Amy C. Evans",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "A piece of hot chicken on a stick is removed from the fryer at Bolton's Spicy Chicken &amp; Fish in Nashville, Tennessee.",
+    "thumb": "thumbs/s10-ca-0--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Hot Chicken Takeover.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Hot_Chicken_Takeover.JPG/1280px-Hot_Chicken_Takeover.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Hot_Chicken_Takeover.JPG/500px-Hot_Chicken_Takeover.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Hot_Chicken_Takeover.JPG",
+    "author": "North Market",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Hot Chicken takeover has become a local sensation. What started out as a pop-up in the East Columbus neighborhood of Old Towne East is now a full service restaurant in North Market.",
+    "thumb": "thumbs/s10-ca-0--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Nashville Hot Chicken Drumsticks.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nashville_Hot_Chicken_Drumsticks.jpg/1280px-Nashville_Hot_Chicken_Drumsticks.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nashville_Hot_Chicken_Drumsticks.jpg/500px-Nashville_Hot_Chicken_Drumsticks.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nashville_Hot_Chicken_Drumsticks.jpg",
+    "author": "Myspiritanimalisamanatee",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Nashville-style hot chicken with a double serving of Ma's Mac and cheese. Hot Chicken Takeover drumsticks served in the infamous Hot heat-level spice.",
+    "thumb": "thumbs/s10-ca-0--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Hot Chicken Roll.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Hot_Chicken_Roll.jpg/1280px-Hot_Chicken_Roll.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Hot_Chicken_Roll.jpg/500px-Hot_Chicken_Roll.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hot_Chicken_Roll.jpg",
+    "author": "Finbar Concaig",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A Hot Chicken Roll with Gravy",
+    "thumb": "thumbs/s10-ca-0--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Hot Chicken Roll (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hot_Chicken_Roll_%28cropped%29.jpg/1280px-Hot_Chicken_Roll_%28cropped%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hot_Chicken_Roll_%28cropped%29.jpg/500px-Hot_Chicken_Roll_%28cropped%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hot_Chicken_Roll_(cropped).jpg",
+    "author": "Finbar Concaig",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A Hot Chicken Roll with Gravy",
+    "thumb": "thumbs/s10-ca-0--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:23:33.889Z"
+ },
+ "s10-ca-1": {
+  "title": "Poutine galvaude",
+  "original": "Galvaude",
+  "en": "Galvaude poutine with chicken and peas",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T18:23:44.020Z"
+ },
+ "s10-ca-2": {
+  "title": "Poutine italienne",
+  "original": "Poutine italienne",
+  "en": "Italian poutine with meat sauce",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Gianchetti and poutine.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Gianchetti_and_poutine.jpg/1280px-Gianchetti_and_poutine.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Gianchetti_and_poutine.jpg/500px-Gianchetti_and_poutine.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Gianchetti_and_poutine.jpg",
+    "author": "Elisa Prato from Firenze, Italy",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Alevins de sardines et d'anchois pêchés sur la côte d'azur. I \"novellame\" del pesce azzurro del Mar Mediterraneo (sardine e acciughe).",
+    "thumb": "thumbs/s10-ca-2--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Poutine-Vancouver-Downtown-Eastside.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Poutine-Vancouver-Downtown-Eastside.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/8/89/Poutine-Vancouver-Downtown-Eastside.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Poutine-Vancouver-Downtown-Eastside.jpg",
+    "author": "Gates of Ale",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Sign of Italian Job Pizza on 915 Main St., Vancouver, British Columbia, Canada, advertisin­g roasted chicken, poutine and ribs. This is in Downtown Eastside, next to Cobalt Motor Hotel.",
+    "thumb": "thumbs/s10-ca-2--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Poutine-Vancouver-Italian-Job-Pizza-cropped.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Poutine-Vancouver-Italian-Job-Pizza-cropped.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Poutine-Vancouver-Italian-Job-Pizza-cropped.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Poutine-Vancouver-Italian-Job-Pizza-cropped.jpg",
+    "author": "Gates of Ale",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Sign of Italian Job Pizza on 915 Main St., Vancouver, British Columbia, Canada, advertising roasted chicken, poutine and ribs. This is in Downtown Eastside, next to Cobalt Motor Hotel.",
+    "thumb": "thumbs/s10-ca-2--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Italian Day 2010 IMG 1467 (5102834978).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Italian_Day_2010_IMG_1467_%285102834978%29.jpg/1280px-Italian_Day_2010_IMG_1467_%285102834978%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Italian_Day_2010_IMG_1467_%285102834978%29.jpg/500px-Italian_Day_2010_IMG_1467_%285102834978%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Italian_Day_2010_IMG_1467_(5102834978).jpg",
+    "author": "Andy L",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "i think poutine is easily one of top 3 of my favorite food",
+    "thumb": "thumbs/s10-ca-2--3.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:23:50.803Z"
+ },
+ "s10-ca-3": {
+  "title": "Tête fromagée",
+  "original": "Tête fromagée",
+  "en": "Quebec head cheese",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Jellied meat Huspenina sulc.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Jellied_meat_Huspenina_sulc.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Jellied_meat_Huspenina_sulc.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Jellied_meat_Huspenina_sulc.jpg",
+    "author": "Ervín Pospíšil",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "Jellied meat (pork in aspic, head cheese)",
+    "thumb": "thumbs/s10-ca-3--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Head cheese.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Head_cheese.jpg/1280px-Head_cheese.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Head_cheese.jpg/500px-Head_cheese.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Head_cheese.jpg",
+    "author": "Augustgrahl",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "head cheese",
+    "thumb": "thumbs/s10-ca-3--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Head cheese-2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Head_cheese-2009.jpg/1280px-Head_cheese-2009.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Head_cheese-2009.jpg/500px-Head_cheese-2009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Head_cheese-2009.jpg",
+    "author": "Tamorlan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Head cheese",
+    "thumb": "thumbs/s10-ca-3--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Ash camembert, head cheese, terrine de campagne.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Ash_camembert%2C_head_cheese%2C_terrine_de_campagne.jpg/1280px-Ash_camembert%2C_head_cheese%2C_terrine_de_campagne.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Ash_camembert%2C_head_cheese%2C_terrine_de_campagne.jpg/500px-Ash_camembert%2C_head_cheese%2C_terrine_de_campagne.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ash_camembert,_head_cheese,_terrine_de_campagne.jpg",
+    "author": "Kent Wang from Austin, TX, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Ash camembert, head cheese, terrine de campagne",
+    "thumb": "thumbs/s10-ca-3--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Headcheese Elizabeths.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Headcheese_Elizabeths.jpg/1280px-Headcheese_Elizabeths.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Headcheese_Elizabeths.jpg/500px-Headcheese_Elizabeths.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Headcheese_Elizabeths.jpg",
+    "author": "Kent Wang",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Headcheese at Elizabeth's Restaurant, Bywater, New Orleans. Pretty good. A little too much gelatin.",
+    "thumb": "thumbs/s10-ca-3--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chicharros - Spain.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Chicharros_-_Spain.JPG/1280px-Chicharros_-_Spain.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Chicharros_-_Spain.JPG/500px-Chicharros_-_Spain.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Chicharros_-_Spain.JPG",
+    "author": "Tamorlan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Embutido de chicharros - España",
+    "thumb": "thumbs/s10-ca-3--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:23:54.415Z"
+ },
+ "s10-ca-4": {
+  "title": "Boudin québécois",
+  "original": "Boudin",
+  "en": "Quebec blood sausage",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Black pudding in Boquerón.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Black_pudding_in_Boquer%C3%B3n.JPG/1280px-Black_pudding_in_Boquer%C3%B3n.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Black_pudding_in_Boquer%C3%B3n.JPG/500px-Black_pudding_in_Boquer%C3%B3n.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_pudding_in_Boquer%C3%B3n.JPG",
+    "author": "Wilfredor",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Black pudding in Boquerón, Margarita Island, Venezuela",
+    "thumb": "thumbs/s10-ca-4--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:FamHis050.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/FamHis050.png/1280px-FamHis050.png",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/FamHis050.png/500px-FamHis050.png",
+    "page": "https://commons.wikimedia.org/wiki/File:FamHis050.png",
+    "author": "Harold Nelson",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "A historiated F featuring Miles, Roger Bacon's servant, with a black pudding. \"...he was deceived, for having put one end in his mouth, he could neither get it out againe, nor bite it off, so that hee stamped out for helpe: his maister hearing him, came; and finding him in that manner, tooke hold of",
+    "thumb": "thumbs/s10-ca-4--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Black pdding.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Black_pdding.jpg/1280px-Black_pdding.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Black_pdding.jpg/500px-Black_pdding.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_pdding.jpg",
+    "author": "Jay Cross",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Black Pudding ingredients: water, pork blood, pork fat.",
+    "thumb": "thumbs/s10-ca-4--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Morcilla Black Pudding.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Morcilla_Black_Pudding.jpg/1280px-Morcilla_Black_Pudding.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Morcilla_Black_Pudding.jpg/500px-Morcilla_Black_Pudding.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Morcilla_Black_Pudding.jpg",
+    "author": "Alpha",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Morcilla Black Pudding, Spanish Olives, Pulpo Galego Galician Squid Various Spanish tapa piled onto a plate. The Spanish olives and morcilla were from Casa Iberico, Johnston St, Fitzroy.",
+    "thumb": "thumbs/s10-ca-4--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Black pudding (383613761).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Black_pudding_%28383613761%29.jpg/1280px-Black_pudding_%28383613761%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Black_pudding_%28383613761%29.jpg/500px-Black_pudding_%28383613761%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_pudding_(383613761).jpg",
+    "author": "erik forsberg from Helsingborg, Sweden",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "blodkorv",
+    "thumb": "thumbs/s10-ca-4--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Full-English-North-Wales.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Full-English-North-Wales.jpg/1280px-Full-English-North-Wales.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Full-English-North-Wales.jpg/500px-Full-English-North-Wales.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Full-English-North-Wales.jpg",
+    "author": "Jakednb",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "description": "A full English Breakfast",
+    "thumb": "thumbs/s10-ca-4--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:23:59.306Z"
+ },
+ "s10-ca-5": {
+  "title": "Fondue parmesan",
+  "original": "Fondue parmesan",
+  "en": "Quebec fried parmesan fondue squares",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T18:24:09.864Z"
+ },
+ "s10-ca-6": {
+  "title": "Gâteau Reine-Élisabeth",
+  "original": "Gâteau Reine-Élisabeth",
+  "en": "Queen Elizabeth cake",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Petit gâteau Reine Élisabeth - 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Petit_g%C3%A2teau_Reine_%C3%89lisabeth_-_2.jpg/1280px-Petit_g%C3%A2teau_Reine_%C3%89lisabeth_-_2.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Petit_g%C3%A2teau_Reine_%C3%89lisabeth_-_2.jpg/500px-Petit_g%C3%A2teau_Reine_%C3%89lisabeth_-_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Petit_g%C3%A2teau_Reine_%C3%89lisabeth_-_2.jpg",
+    "author": "Cantons-de-l'Est",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Petit gâteau Reine Élisabeth",
+    "thumb": "thumbs/s10-ca-6--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Petit gâteau Reine Élisabeth - 1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Petit_g%C3%A2teau_Reine_%C3%89lisabeth_-_1.jpg/1280px-Petit_g%C3%A2teau_Reine_%C3%89lisabeth_-_1.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Petit_g%C3%A2teau_Reine_%C3%89lisabeth_-_1.jpg/500px-Petit_g%C3%A2teau_Reine_%C3%89lisabeth_-_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Petit_g%C3%A2teau_Reine_%C3%89lisabeth_-_1.jpg",
+    "author": "Cantons-de-l'Est",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Petit gâteau Reine Élisabeth",
+    "thumb": "thumbs/s10-ca-6--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Gâteau Reine Élisabeth - pointe.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/G%C3%A2teau_Reine_%C3%89lisabeth_-_pointe.jpg/1280px-G%C3%A2teau_Reine_%C3%89lisabeth_-_pointe.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/G%C3%A2teau_Reine_%C3%89lisabeth_-_pointe.jpg/500px-G%C3%A2teau_Reine_%C3%89lisabeth_-_pointe.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%A2teau_Reine_%C3%89lisabeth_-_pointe.jpg",
+    "author": "Cantons-de-l'Est",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Pointe d'un gâteau Reine Élisabeth",
+    "thumb": "thumbs/s10-ca-6--2.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:24:15.767Z"
+ },
+ "s10-ca-7": {
+  "title": "Œufs pochés dans le sirop d'érable",
+  "original": "Œufs dans le sirop",
+  "en": "Eggs poached in maple syrup",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T18:24:28.274Z"
+ },
+ "s10-ca-8": {
+  "title": "Bleuets enrobés de chocolat",
+  "original": "Bleuets enrobés de chocolat",
+  "en": "Chocolate-covered blueberries",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:KS chocolate and blueberry muffins.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/KS_chocolate_and_blueberry_muffins.JPG/1280px-KS_chocolate_and_blueberry_muffins.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/KS_chocolate_and_blueberry_muffins.JPG/500px-KS_chocolate_and_blueberry_muffins.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:KS_chocolate_and_blueberry_muffins.JPG",
+    "author": "BrokenSphere",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Chocolate and blueberry muffins baked in-house from Costco.",
+    "thumb": "thumbs/s10-ca-8--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chocolat blanc avec pépites de myrtilles.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chocolat_blanc_avec_p%C3%A9pites_de_myrtilles.jpg/1280px-Chocolat_blanc_avec_p%C3%A9pites_de_myrtilles.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Chocolat_blanc_avec_p%C3%A9pites_de_myrtilles.jpg/500px-Chocolat_blanc_avec_p%C3%A9pites_de_myrtilles.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolat_blanc_avec_p%C3%A9pites_de_myrtilles.jpg",
+    "author": "Lionel Allorge",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "This document was produced using the photo studio lent by Wikimedia France.",
+    "thumb": "thumbs/s10-ca-8--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chocolate Cake Roll with Berry Cream Filling (15653895623).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Chocolate_Cake_Roll_with_Berry_Cream_Filling_%2815653895623%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Chocolate_Cake_Roll_with_Berry_Cream_Filling_%2815653895623%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolate_Cake_Roll_with_Berry_Cream_Filling_(15653895623).jpg",
+    "author": "Willis Lam",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Roll covered in cream topped with pineapple, blueberry, strawberry, mandarin orange and grape",
+    "thumb": "thumbs/s10-ca-8--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:2022-10-01 14 45 43 Chocolate covered blueberries from the Chocolate Barn in Shaftsbury, Bennington County, Vermont.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/2022-10-01_14_45_43_Chocolate_covered_blueberries_from_the_Chocolate_Barn_in_Shaftsbury%2C_Bennington_County%2C_Vermont.jpg/1280px-2022-10-01_14_45_43_Chocolate_covered_blueberries_from_the_Chocolate_Barn_in_Shaftsbury%2C_Bennington_County%2C_Vermont.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/2022-10-01_14_45_43_Chocolate_covered_blueberries_from_the_Chocolate_Barn_in_Shaftsbury%2C_Bennington_County%2C_Vermont.jpg/500px-2022-10-01_14_45_43_Chocolate_covered_blueberries_from_the_Chocolate_Barn_in_Shaftsbury%2C_Bennington_County%2C_Vermont.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:2022-10-01_14_45_43_Chocolate_covered_blueberries_from_the_Chocolate_Barn_in_Shaftsbury,_Bennington_County,_Vermont.jpg",
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Chocolate covered blueberries from the Chocolate Barn in Shaftsbury, Bennington County, Vermont",
+    "thumb": "thumbs/s10-ca-8--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chocolate cake at the office.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Chocolate_cake_at_the_office.jpg/1280px-Chocolate_cake_at_the_office.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Chocolate_cake_at_the_office.jpg/500px-Chocolate_cake_at_the_office.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolate_cake_at_the_office.jpg",
+    "author": "JIP",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "A chocolate cake topped with chocolate chips, blueberries and blackberries served at an office building in Martinlaakso, Vantaa, Finland.",
+    "thumb": "thumbs/s10-ca-8--4.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:24:36.063Z"
+ },
+ "s10-ca-9": {
+  "title": "Tire Sainte-Catherine",
+  "original": "Tire Sainte-Catherine",
+  "en": "Quebec molasses taffy",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Christmas. Mtl. Shoe Store BAnQ P48S1P12909.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Christmas._Mtl._Shoe_Store_BAnQ_P48S1P12909.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Christmas._Mtl._Shoe_Store_BAnQ_P48S1P12909.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Christmas._Mtl._Shoe_Store_BAnQ_P48S1P12909.jpg",
+    "author": "Conrad Poirier",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "We see the Marché de chaussures Lefebvre whose facade is decorated with Santa's sleigh pulled by two reindeer. This business is located on rue Sainte-Catherine in Montreal.",
+    "thumb": "thumbs/s10-ca-9--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:La poupée. G.9409.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/La_poup%C3%A9e._G.9409.jpg/1280px-La_poup%C3%A9e._G.9409.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/La_poup%C3%A9e._G.9409.jpg/500px-La_poup%C3%A9e._G.9409.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:La_poup%C3%A9e._G.9409.jpg",
+    "author": "Baric, Jules (Jules-Jean-Antoine Baric, dit) (Sainte-Catherine-de-Fierbois, 14–04–1825 - Monnaie, en 19–06–1905), dessinateur-lithographe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Auteur(s): Baric, Jules (Jules-Jean-Antoine Baric, dit) (Sainte-Catherine-de-Fierbois, 14–04–1825 - Monnaie, en 19–06–1905), dessinateur-lithographe Arnauld de Vresse, editeur Genix (1847 - 1864), imprimeur-lithographe Autres titres : Papa, tu sais bien la poupée que Laure Beauminois a reçue de son ",
+    "thumb": "thumbs/s10-ca-9--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:La poupée. G.9409(2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/La_poup%C3%A9e._G.9409%282%29.jpg/1280px-La_poup%C3%A9e._G.9409%282%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/La_poup%C3%A9e._G.9409%282%29.jpg/500px-La_poup%C3%A9e._G.9409%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:La_poup%C3%A9e._G.9409(2).jpg",
+    "author": "Baric, Jules (Jules-Jean-Antoine Baric, dit) (Sainte-Catherine-de-Fierbois, 14–04–1825 - Monnaie, en 19–06–1905), dessinateur-lithographe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Auteur(s): Baric, Jules (Jules-Jean-Antoine Baric, dit) (Sainte-Catherine-de-Fierbois, 14–04–1825 - Monnaie, en 19–06–1905), dessinateur-lithographe Arnauld de Vresse, editeur Genix (1847 - 1864), imprimeur-lithographe Autres titres : Papa, tu sais bien la poupée que Laure Beauminois a reçue de son ",
+    "thumb": "thumbs/s10-ca-9--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Casse-cou, G.9413.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Casse-cou%2C_G.9413.jpg/1280px-Casse-cou%2C_G.9413.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Casse-cou%2C_G.9413.jpg/500px-Casse-cou%2C_G.9413.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Casse-cou,_G.9413.jpg",
+    "author": "Baric, Jules (Jules-Jean-Antoine Baric, dit) (Sainte-Catherine-de-Fierbois, 14–04–1825 - Monnaie, en 19–06–1905), dessinateur-lithographe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Auteur(s): Baric, Jules (Jules-Jean-Antoine Baric, dit) (Sainte-Catherine-de-Fierbois, 14–04–1825 - Monnaie, en 19–06–1905), dessinateur-lithographe Arnauld de Vresse, editeur Genix (1847 - 1864), imprimeur-lithographe Autre titre: QUAND ON A FEMME ET ENFANT. (Titre de l'ensemble) Date de production",
+    "thumb": "thumbs/s10-ca-9--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Casse-cou, G.9413(2).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Casse-cou%2C_G.9413%282%29.jpg/1280px-Casse-cou%2C_G.9413%282%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Casse-cou%2C_G.9413%282%29.jpg/500px-Casse-cou%2C_G.9413%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Casse-cou,_G.9413(2).jpg",
+    "author": "Baric, Jules (Jules-Jean-Antoine Baric, dit) (Sainte-Catherine-de-Fierbois, 14–04–1825 - Monnaie, en 19–06–1905), dessinateur-lithographe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Auteur(s): Baric, Jules (Jules-Jean-Antoine Baric, dit) (Sainte-Catherine-de-Fierbois, 14–04–1825 - Monnaie, en 19–06–1905), dessinateur-lithographe Arnauld de Vresse, editeur Genix (1847 - 1864), imprimeur-lithographe Autre titre: QUAND ON A FEMME ET ENFANT. (Titre de l'ensemble) Date de production",
+    "thumb": "thumbs/s10-ca-9--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Parodie des Misérables. Planche 8 Planche 7, G.9360-2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Parodie_des_Mis%C3%A9rables._Planche_8_Planche_7%2C_G.9360-2.jpg/1280px-Parodie_des_Mis%C3%A9rables._Planche_8_Planche_7%2C_G.9360-2.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Parodie_des_Mis%C3%A9rables._Planche_8_Planche_7%2C_G.9360-2.jpg/500px-Parodie_des_Mis%C3%A9rables._Planche_8_Planche_7%2C_G.9360-2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Parodie_des_Mis%C3%A9rables._Planche_8_Planche_7,_G.9360-2.jpg",
+    "author": "Baric, Jules (Jules-Jean-Antoine Baric, dit) (Sainte-Catherine-de-Fierbois, 14–04–1825 - Monnaie, en 19–06–1905), dessinateur-lithographe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "Auteur(s): Baric, Jules (Jules-Jean-Antoine Baric, dit) (Sainte-Catherine-de-Fierbois, 14–04–1825 - Monnaie, en 19–06–1905), dessinateur-lithographe Roche, imprimeur-lithographe Arnauld de Vresse, editeur Autre titre: PARODIE DES MISERABLES DE VICTOR HUGO PAR BARIC. (Titre de l'ensemble) Date de pro",
+    "thumb": "thumbs/s10-ca-9--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:24:44.759Z"
+ },
+ "s10-ca-10": {
+  "title": "Pot-en-pot des Îles",
+  "original": "Pot-en-pot",
+  "en": "Magdalen Islands seafood pie",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T18:24:55.867Z"
+ },
+ "s10-ca-11": {
+  "title": "Chop suey québécois",
+  "original": "Chop suey",
+  "en": "Quebec chop suey",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Chopsueywithrice.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Chopsueywithrice.jpg/1280px-Chopsueywithrice.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Chopsueywithrice.jpg/500px-Chopsueywithrice.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chopsueywithrice.jpg",
+    "author": "Eli Hodapp from Naperville, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Garlic chicken and peapods chop suey with fried rice.",
+    "thumb": "thumbs/s10-ca-11--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Far East Chop Suey Little Tokyo LA.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Far_East_Chop_Suey_Little_Tokyo_LA.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/9/94/Far_East_Chop_Suey_Little_Tokyo_LA.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Far_East_Chop_Suey_Little_Tokyo_LA.jpg",
+    "author": "Everyguy at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Photo of the historic Far East Chop Suey restaurant in Little Tokyo in LA. For Chop Suey article. Photographer: David Roberts (myself) Taken: Nov. 12, 2007",
+    "thumb": "thumbs/s10-ca-11--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Brighouse Chop Suey Centre - Bradford Road - geograph.org.uk - 1566884.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Brighouse_Chop_Suey_Centre_-_Bradford_Road_-_geograph.org.uk_-_1566884.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Brighouse_Chop_Suey_Centre_-_Bradford_Road_-_geograph.org.uk_-_1566884.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Brighouse_Chop_Suey_Centre_-_Bradford_Road_-_geograph.org.uk_-_1566884.jpg",
+    "author": "Betty Longbottom",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Brighouse Chop Suey Centre - Bradford Road",
+    "thumb": "thumbs/s10-ca-11--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Canton Chop Suey House, Birchgrove, Cardiff - geograph.org.uk - 1716253.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Canton_Chop_Suey_House%2C_Birchgrove%2C_Cardiff_-_geograph.org.uk_-_1716253.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/5/51/Canton_Chop_Suey_House%2C_Birchgrove%2C_Cardiff_-_geograph.org.uk_-_1716253.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Canton_Chop_Suey_House,_Birchgrove,_Cardiff_-_geograph.org.uk_-_1716253.jpg",
+    "author": "John Grayson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Canton Chop Suey House, Birchgrove, Cardiff Canton refers to the area of China, not the district of Cardiff, for this is Birchgrove.",
+    "thumb": "thumbs/s10-ca-11--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Seattle - Chop Suey 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Seattle_-_Chop_Suey_01.jpg/1280px-Seattle_-_Chop_Suey_01.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Seattle_-_Chop_Suey_01.jpg/500px-Seattle_-_Chop_Suey_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Seattle_-_Chop_Suey_01.jpg",
+    "author": "Joe Mabel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Chop Suey, 1325 East Madison Street, Capitol Hill/First Hill neighborhood, Seattle, Washington.",
+    "thumb": "thumbs/s10-ca-11--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Seattle - Chop Suey 02.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Seattle_-_Chop_Suey_02.jpg/1280px-Seattle_-_Chop_Suey_02.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Seattle_-_Chop_Suey_02.jpg/500px-Seattle_-_Chop_Suey_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Seattle_-_Chop_Suey_02.jpg",
+    "author": "Joe Mabel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Chop Suey, 1325 East Madison Street, Capitol Hill/First Hill neighborhood, Seattle, Washington.",
+    "thumb": "thumbs/s10-ca-11--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:25:01.512Z"
+ },
+ "s10-ca-12": {
+  "title": "Biscuits à la mélasse",
+  "original": "Biscuits à la mélasse",
+  "en": "Molasses cookies",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T18:25:14.300Z"
+ },
+ "s10-ca-13": {
+  "title": "Soupe au chou",
+  "original": "Soupe au chou",
+  "en": "Quebec cabbage soup",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:02022 0015 La soupe aux choux.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/02022_0015_La_soupe_aux_choux.jpg/1280px-02022_0015_La_soupe_aux_choux.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/02022_0015_La_soupe_aux_choux.jpg/500px-02022_0015_La_soupe_aux_choux.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:02022_0015_La_soupe_aux_choux.jpg",
+    "author": "Silar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Cabbage Soup",
+    "thumb": "thumbs/s10-ca-13--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:02024 0002 Soupe aux choux (végétalien, vegan).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/02024_0002_Soupe_aux_choux_%28v%C3%A9g%C3%A9talien%2C_vegan%29.jpg/1280px-02024_0002_Soupe_aux_choux_%28v%C3%A9g%C3%A9talien%2C_vegan%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/02024_0002_Soupe_aux_choux_%28v%C3%A9g%C3%A9talien%2C_vegan%29.jpg/500px-02024_0002_Soupe_aux_choux_%28v%C3%A9g%C3%A9talien%2C_vegan%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:02024_0002_Soupe_aux_choux_(v%C3%A9g%C3%A9talien,_vegan).jpg",
+    "author": "Silar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Soupe aux choux (végétalien, vegan)",
+    "thumb": "thumbs/s10-ca-13--1.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:25:20.261Z"
+ },
+ "s10-ca-14": {
+  "title": "Crêpes au sirop d'érable",
+  "original": "Crêpes au sirop d'érable",
+  "en": "Pancakes with maple syrup",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:PancakesWithSyrup.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/PancakesWithSyrup.jpg/1280px-PancakesWithSyrup.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/PancakesWithSyrup.jpg/500px-PancakesWithSyrup.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:PancakesWithSyrup.jpg",
+    "author": "Renee Comet (photographer)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "two single pancakes with maple syrup on a plate",
+    "thumb": "thumbs/s10-ca-14--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:AFAF Pancake feed.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/AFAF_Pancake_feed.jpg/1280px-AFAF_Pancake_feed.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/AFAF_Pancake_feed.jpg/500px-AFAF_Pancake_feed.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:AFAF_Pancake_feed.jpg",
+    "author": "U.S. Air Force Photo/Dan Rohan",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Team Offutt kicked off the Air Force Assistance Fund campaign Monday with a pancake feed breakfast at the Patriot Club.",
+    "thumb": "thumbs/s10-ca-14--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Eggs and Pancakes.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Eggs_and_Pancakes.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/4/43/Eggs_and_Pancakes.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Eggs_and_Pancakes.jpg",
+    "author": "Michael Dorausch from Venice",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Two eggs over medium on top of two crispy edged fluffy panckaes soaked in maple syrup.",
+    "thumb": "thumbs/s10-ca-14--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pancakes (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Pancakes_%281%29.jpg/1280px-Pancakes_%281%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Pancakes_%281%29.jpg/500px-Pancakes_%281%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pancakes_(1).jpg",
+    "author": "Renee Comet (Photographer)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Title Pancakes Description Two single pancakes with maple syrup on a plate. Topics/Categories Food and Drink Type Color, Photo Source National Cancer Institute",
+    "thumb": "thumbs/s10-ca-14--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Piacere, Temple Fortune, London (5955505631).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Piacere%2C_Temple_Fortune%2C_London_%285955505631%29.jpg/1280px-Piacere%2C_Temple_Fortune%2C_London_%285955505631%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Piacere%2C_Temple_Fortune%2C_London_%285955505631%29.jpg/500px-Piacere%2C_Temple_Fortune%2C_London_%285955505631%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Piacere,_Temple_Fortune,_London_(5955505631).jpg",
+    "author": "Ewan Munro from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "The American-style blueberry pancakes, served with maple syrup. I thought they were pretty good. At Piacere, Finchley Road.",
+    "thumb": "thumbs/s10-ca-14--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Pancakes with Maple Syrup.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pancakes_with_Maple_Syrup.JPG/1280px-Pancakes_with_Maple_Syrup.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pancakes_with_Maple_Syrup.JPG/500px-Pancakes_with_Maple_Syrup.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Pancakes_with_Maple_Syrup.JPG",
+    "author": "CoveyHill",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Pancakes served with maple syrup in a sugar house",
+    "thumb": "thumbs/s10-ca-14--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:25:23.390Z"
+ },
+ "s10-ca-15": {
+  "title": "Pain doré",
+  "original": "Pain doré",
+  "en": "French toast Quebec",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Recueil. \"Le miracle du pain doré\" mystère adapté par Jacques Copeau - btv1b10516009f (03 of 36).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2803_of_36%29.jpg/1280px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2803_of_36%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2803_of_36%29.jpg/500px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2803_of_36%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_(03_of_36).jpg",
+    "author": "",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Contient : coupures de presse. - Concerne : représentation du 21 juillet 1943 à l'Hospice de Beaune Langue : français",
+    "thumb": "thumbs/s10-ca-15--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Recueil. \"Le miracle du pain doré\" mystère adapté par Jacques Copeau - btv1b10516009f (05 of 36).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2805_of_36%29.jpg/1280px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2805_of_36%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2805_of_36%29.jpg/500px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2805_of_36%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_(05_of_36).jpg",
+    "author": "",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Contient : coupures de presse. - Concerne : représentation du 21 juillet 1943 à l'Hospice de Beaune Langue : français",
+    "thumb": "thumbs/s10-ca-15--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Recueil. \"Le miracle du pain doré\" mystère adapté par Jacques Copeau - btv1b10516009f (06 of 36).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2806_of_36%29.jpg/1280px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2806_of_36%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2806_of_36%29.jpg/500px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2806_of_36%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_(06_of_36).jpg",
+    "author": "",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Contient : coupures de presse. - Concerne : représentation du 21 juillet 1943 à l'Hospice de Beaune Langue : français",
+    "thumb": "thumbs/s10-ca-15--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Recueil. \"Le miracle du pain doré\" mystère adapté par Jacques Copeau - btv1b10516009f (10 of 36).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2810_of_36%29.jpg/1280px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2810_of_36%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2810_of_36%29.jpg/500px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2810_of_36%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_(10_of_36).jpg",
+    "author": "",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Contient : coupures de presse. - Concerne : représentation du 21 juillet 1943 à l'Hospice de Beaune Langue : français",
+    "thumb": "thumbs/s10-ca-15--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Recueil. \"Le miracle du pain doré\" mystère adapté par Jacques Copeau - btv1b10516009f (14 of 36).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2814_of_36%29.jpg/1280px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2814_of_36%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2814_of_36%29.jpg/500px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2814_of_36%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_(14_of_36).jpg",
+    "author": "",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Contient : coupures de presse. - Concerne : représentation du 21 juillet 1943 à l'Hospice de Beaune Langue : français",
+    "thumb": "thumbs/s10-ca-15--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Recueil. \"Le miracle du pain doré\" mystère adapté par Jacques Copeau - btv1b10516009f (15 of 36).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2815_of_36%29.jpg/1280px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2815_of_36%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2815_of_36%29.jpg/500px-Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_%2815_of_36%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Recueil._%22Le_miracle_du_pain_dor%C3%A9%22_myst%C3%A8re_adapt%C3%A9_par_Jacques_Copeau_-_btv1b10516009f_(15_of_36).jpg",
+    "author": "",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Contient : coupures de presse. - Concerne : représentation du 21 juillet 1943 à l'Hospice de Beaune Langue : français",
+    "thumb": "thumbs/s10-ca-15--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:25:35.194Z"
+ },
+ "s10-ca-16": {
+  "title": "Sandwichs pas de croûte",
+  "original": "Sandwich pas de croûte",
+  "en": "Crustless party sandwiches",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:AfternoonTea.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/AfternoonTea.JPG/1280px-AfternoonTea.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/AfternoonTea.JPG/500px-AfternoonTea.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:AfternoonTea.JPG",
+    "author": "Jonathunder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Afternoon tea plate of finger foods: miniature pasties with a bit of horseradish, a prosciutto-fontina pinwheel, pickled green bean, ribbon sandwich of ham salad and egg salad, open-face sandwich with cucumber, radish, and cream cheese and another with thin-sliced pork tenderloin, pickle, and mustar",
+    "thumb": "thumbs/s10-ca-16--0.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:25:45.705Z"
+ },
+ "s10-ca-17": {
+  "title": "Ketchup aux fruits",
+  "original": "Ketchup aux fruits",
+  "en": "Quebec fruit ketchup",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Tomate Heinz 1439 P1020472.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Tomate_Heinz_1439_P1020472.JPG",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Tomate_Heinz_1439_P1020472.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Tomate_Heinz_1439_P1020472.JPG",
+    "author": "manfred.sause@volloeko.de",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "tomato cultivar ' Heinz 1439', ketchup-tomato bred by Heinz, fruit 50-200 g",
+    "thumb": "thumbs/s10-ca-17--0.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:H.J. Heinz Co. (3092888379).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/H.J._Heinz_Co._%283092888379%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/2/2d/H.J._Heinz_Co._%283092888379%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:H.J._Heinz_Co._(3092888379).jpg",
+    "author": "Miami U. Libraries - Digital Collections",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Persistent URL: digital.lib.muohio.edu/u?/tradecards,2759 Subject (TGM): Children; Boys; Girls; Ketchup; Pickles; Preserves; Condiments; Canned foods; Trademarks; Food industry; Message: Keywords",
+    "thumb": "thumbs/s10-ca-17--1.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:20160617-AMS-LSC-9000 (61-sec.) (27334710733).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/20160617-AMS-LSC-9000_%2861-sec.%29_%2827334710733%29.jpg/1280px-20160617-AMS-LSC-9000_%2861-sec.%29_%2827334710733%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/20160617-AMS-LSC-9000_%2861-sec.%29_%2827334710733%29.jpg/500px-20160617-AMS-LSC-9000_%2861-sec.%29_%2827334710733%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:20160617-AMS-LSC-9000_(61-sec.)_(27334710733).jpg",
+    "author": "U.S. Department of Agriculture",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Shaved Vegetable Salad with Microgreens &amp; Plum Vinaigrette. Yields 2 to 3 servings. Prep time 10 minutes. Cook time 0 minutes. Total time 10 minutes. 2 carrots. 5 radishes. 2 zucchini. 2 cups salad greens, torn. 1-cup Microgreens. ¼ cup Plum ‘Chups* (fruit ketchup). 2 tbsp extra-virgin olive oil",
+    "thumb": "thumbs/s10-ca-17--2.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:20160617-AMS-LSC-9003 (15-seconds) (27524575063).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/20160617-AMS-LSC-9003_%2815-seconds%29_%2827524575063%29.jpg/1280px-20160617-AMS-LSC-9003_%2815-seconds%29_%2827524575063%29.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/20160617-AMS-LSC-9003_%2815-seconds%29_%2827524575063%29.jpg/500px-20160617-AMS-LSC-9003_%2815-seconds%29_%2827524575063%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:20160617-AMS-LSC-9003_(15-seconds)_(27524575063).jpg",
+    "author": "U.S. Department of Agriculture",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "description": "Shaved Vegetable Salad with Microgreens &amp; Plum Vinaigrette. Yields 2 to 3 servings. Prep time 10 minutes. Cook time 0 minutes. Total time 10 minutes. 2 carrots. 5 radishes. 2 zucchini. 2 cups salad greens, torn. 1-cup Microgreens. ¼ cup Plum ‘Chups* (fruit ketchup). 2 tbsp extra-virgin olive oil",
+    "thumb": "thumbs/s10-ca-17--3.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Włocławek-ketchup bench.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/W%C5%82oc%C5%82awek-ketchup_bench.jpg/1280px-W%C5%82oc%C5%82awek-ketchup_bench.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/W%C5%82oc%C5%82awek-ketchup_bench.jpg/500px-W%C5%82oc%C5%82awek-ketchup_bench.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:W%C5%82oc%C5%82awek-ketchup_bench.jpg",
+    "author": "Mariochom",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Bench at Piłsudski's Boulevards in Włocławek. It was painted blue and sticked with Ketchup \"Włocławek\". It was one of couple benches painted like that in Włocławek. This was promotion action led by Zakład Przetwórstwa Owocowo-Warzywnego Kotlin (Fruit-Vegetable Preserves Factory Kotlin). On 16th of J",
+    "thumb": "thumbs/s10-ca-17--4.jpg"
+   },
+   {
+    "source": "Wikimedia Commons",
+    "file": "File:Włocławek-installation at Grodzki Square.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/W%C5%82oc%C5%82awek-installation_at_Grodzki_Square.jpg/1280px-W%C5%82oc%C5%82awek-installation_at_Grodzki_Square.jpg",
+    "preview": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/W%C5%82oc%C5%82awek-installation_at_Grodzki_Square.jpg/500px-W%C5%82oc%C5%82awek-installation_at_Grodzki_Square.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:W%C5%82oc%C5%82awek-installation_at_Grodzki_Square.jpg",
+    "author": "Mariochom",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Installation in form of Ketchup \"Włocławek\" at Grodzki Square in Włocławek. Clock was counting down to 16th of July 2018 year. On that day Zakład Przetwórstwa Owocowo-Warzywnego Kotlin (Fruit-Vegetable Preserves Factory Kotlin) organised concert and picnic. Promotion Catchword of action was: \"Usiądz",
+    "thumb": "thumbs/s10-ca-17--5.jpg"
+   }
+  ],
+  "status": "review_required",
+  "searchedAt": "2026-10-08T18:25:53.447Z"
+ },
+ "s10-ca-18": {
+  "title": "Macaroni chinois",
+  "original": "Macaroni chinois",
+  "en": "Quebec Chinese macaroni",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T18:26:02.176Z"
+ },
+ "s10-ca-19": {
+  "title": "Guédille au homard",
+  "original": "Guédille au homard",
+  "en": "Lobster roll Gaspésie",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T18:26:13.808Z"
+ },
+ "s10-ca-20": {
+  "title": "Cipâte aux fruits de mer",
+  "original": "Cipaille gaspésien",
+  "en": "Gaspé seafood cipaille",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T18:26:24.603Z"
+ },
+ "s10-ca-21": {
+  "title": "Saucisses à l'érable",
+  "original": "Saucisses à l'érable",
+  "en": "Maple sausages",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T18:26:37.150Z"
+ },
+ "s10-ca-22": {
+  "title": "Pouding au riz",
+  "original": "Pouding au riz",
+  "en": "Rice pudding",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T18:26:48.707Z"
+ },
+ "s10-ca-23": {
+  "title": "Soupe à l'orge et au bœuf",
+  "original": "Soupe à l'orge",
+  "en": "Beef barley soup",
+  "country": "CA",
+  "supplementaryError": null,
+  "candidates": [],
+  "status": "no_candidates",
+  "searchedAt": "2026-10-08T18:26:58.605Z"
+ }
+}

@@ -1,0 +1,184 @@
+[
+ {
+  "slug": "s15-bs-0",
+  "country": "BS",
+  "original": "Cracked conch",
+  "title": "Cracked conch bahaméen",
+  "en": "Bahamian cracked conch"
+ },
+ {
+  "slug": "s15-bs-1",
+  "country": "BS",
+  "original": "Conch fritters",
+  "title": "Conch fritters",
+  "en": "Bahamian conch fritters"
+ },
+ {
+  "slug": "s15-bs-2",
+  "country": "BS",
+  "original": "Johnnycake",
+  "title": "Johnnycake bahaméen",
+  "en": "Bahamian johnny cake"
+ },
+ {
+  "slug": "s15-tl-3",
+  "country": "TL",
+  "original": "Ai manas",
+  "title": "Ai manas (sauce au piment timoraise)",
+  "en": "Timorese ai manas chili sauce"
+ },
+ {
+  "slug": "s15-tl-4",
+  "country": "TL",
+  "original": "Bibinka",
+  "title": "Bibinka timorais",
+  "en": "Timorese bibinka"
+ },
+ {
+  "slug": "s15-fj-5",
+  "country": "FJ",
+  "original": "Palusami",
+  "title": "Palusami fidjien",
+  "en": "Fijian palusami"
+ },
+ {
+  "slug": "s15-fj-6",
+  "country": "FJ",
+  "original": "Cassava cake",
+  "title": "Gâteau de manioc fidjien",
+  "en": "Fijian cassava cake"
+ },
+ {
+  "slug": "s15-pg-7",
+  "country": "PG",
+  "original": "Kaukau",
+  "title": "Kaukau rôti (patate douce)",
+  "en": "Papua New Guinea kaukau"
+ },
+ {
+  "slug": "s15-li-8",
+  "country": "LI",
+  "original": "Rösti",
+  "title": "Rösti",
+  "en": "Liechtenstein rösti"
+ },
+ {
+  "slug": "s15-li-9",
+  "country": "LI",
+  "original": "Kässpätzle",
+  "title": "Kässpätzle",
+  "en": "Liechtenstein kaesspaetzle"
+ },
+ {
+  "slug": "s15-gy-10",
+  "country": "GY",
+  "original": "Metemgee",
+  "title": "Metemgee",
+  "en": "Guyanese metemgee"
+ },
+ {
+  "slug": "s15-gy-11",
+  "country": "GY",
+  "original": "Pine tart",
+  "title": "Pine tart guyanais",
+  "en": "Guyanese pine tart"
+ },
+ {
+  "slug": "s15-gy-12",
+  "country": "GY",
+  "original": "Garlic pork",
+  "title": "Garlic pork guyanais",
+  "en": "Guyanese garlic pork"
+ },
+ {
+  "slug": "s15-dj-13",
+  "country": "DJ",
+  "original": "Skoudehkaris",
+  "title": "Skoudehkaris",
+  "en": "Djiboutian skoudehkaris"
+ },
+ {
+  "slug": "s15-dj-14",
+  "country": "DJ",
+  "original": "Halwa",
+  "title": "Halwo djiboutien",
+  "en": "Djiboutian halwo"
+ },
+ {
+  "slug": "s15-ws-15",
+  "country": "WS",
+  "original": "Panikeke",
+  "title": "Panikeke (beignets samoans)",
+  "en": "Samoan panikeke"
+ },
+ {
+  "slug": "s15-ws-16",
+  "country": "WS",
+  "original": "Sapasui",
+  "title": "Sapasui",
+  "en": "Samoan sapasui"
+ },
+ {
+  "slug": "s15-ws-17",
+  "country": "WS",
+  "original": "Fa'ausi",
+  "title": "Fa'ausi (taro au caramel de coco)",
+  "en": "Samoan faausi"
+ },
+ {
+  "slug": "s15-ad-18",
+  "country": "AD",
+  "original": "Coca de llardons",
+  "title": "Coca de llardons",
+  "en": "Catalan coca de llardons"
+ },
+ {
+  "slug": "s15-ad-19",
+  "country": "AD",
+  "original": "Crema catalana",
+  "title": "Crema catalana andorrane",
+  "en": "Crema catalana"
+ },
+ {
+  "slug": "s15-vu-20",
+  "country": "VU",
+  "original": "Tuluk",
+  "title": "Tuluk",
+  "en": "Vanuatu tuluk"
+ },
+ {
+  "slug": "s15-vu-21",
+  "country": "VU",
+  "original": "Simboro",
+  "title": "Simboro",
+  "en": "Vanuatu simboro"
+ },
+ {
+  "slug": "s15-mv-22",
+  "country": "MV",
+  "original": "Boshi mashuni",
+  "title": "Boshi mashuni",
+  "en": "Maldivian banana flower salad"
+ },
+ {
+  "slug": "s15-mv-23",
+  "country": "MV",
+  "original": "Bajiya",
+  "title": "Bajiya maldivien",
+  "en": "Maldivian bajiya"
+ },
+ {
+  "slug": "s15-cv-24",
+  "country": "CV",
+  "original": "Cachupa rica",
+  "title": "Cachupa rica",
+  "en": "Cape Verdean cachupa rica"
+ },
+ {
+  "slug": "s15-cv-25",
+  "country": "CV",
+  "original": "Pudim de queijo",
+  "title": "Pudim de queijo",
+  "en": "Cape Verdean cheese pudding"
+ }
+]

@@ -19,12 +19,6 @@ function flagFor(code: string) {
     );
 }
 
-function difficultyLabel(value: "easy" | "medium" | "hard" | null) {
-  if (value === "hard") return "Difficile" as const;
-  if (value === "medium") return "Moyen" as const;
-  return "Facile" as const;
-}
-
 function timeLabel(prep: number | null, cook: number | null) {
   const total = (prep ?? 0) + (cook ?? 0);
   if (!total) return "—";
@@ -60,7 +54,7 @@ export default async function HomePage() {
     supabase
       .from("recipes")
       .select(
-        "id,title,original_title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status,source_type,source_page_url,moderation_notes)",
+        "id,title,original_title,country_code,region,category,difficulty,spice_level,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status,source_type,source_page_url,moderation_notes)",
       )
       .eq("status", "published")
       .eq("is_editorial", true)
@@ -134,7 +128,8 @@ export default async function HomePage() {
         flag: code.length === 2 ? flagFor(code) : "🌍",
         image,
         time: timeLabel(recipe.prep_minutes, recipe.cook_minutes),
-        difficulty: difficultyLabel(recipe.difficulty),
+        difficulty: recipe.difficulty,
+        spiceLevel: recipe.spice_level ?? 0,
         category: recipe.category || "Recette",
       };
     })

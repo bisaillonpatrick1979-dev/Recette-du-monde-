@@ -1150,6 +1150,8 @@ export type Database = {
           source_name: string | null
           source_notes: string | null
           source_url: string | null
+          spice_level: number
+          spice_level_source: string
           status: Database["public"]["Enums"]["recipe_status"]
           title: string
           updated_at: string
@@ -1182,6 +1184,8 @@ export type Database = {
           source_name?: string | null
           source_notes?: string | null
           source_url?: string | null
+          spice_level?: number
+          spice_level_source?: string
           status?: Database["public"]["Enums"]["recipe_status"]
           title: string
           updated_at?: string
@@ -1214,6 +1218,8 @@ export type Database = {
           source_name?: string | null
           source_notes?: string | null
           source_url?: string | null
+          spice_level?: number
+          spice_level_source?: string
           status?: Database["public"]["Enums"]["recipe_status"]
           title?: string
           updated_at?: string

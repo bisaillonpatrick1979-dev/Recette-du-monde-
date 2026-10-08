@@ -342,6 +342,7 @@ export default async function RecipePage({ params }: Props) {
             prepMinutes={recipe.prep_minutes}
             cookMinutes={recipe.cook_minutes}
             difficulty={recipe.difficulty}
+            spiceLevel={recipe.spice_level}
             authenticity={recipe.authenticity}
             baseDescription={recipe.description}
             baseServings={recipe.servings}

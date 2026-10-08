@@ -5,6 +5,7 @@ import { RecipeServingScaler } from "@/components/recipe-serving-scaler";
 import type { LanguageCode } from "@/lib/preferences";
 import { convertTemperatures } from "@/lib/units";
 import { usePreferences } from "@/lib/use-preferences";
+import { DifficultyBadge, SpiceBadge } from "@/components/recipe-level-badges";
 
 type BaseIngredient = {
   id: number;
@@ -133,6 +134,7 @@ export function LocalizedRecipeContent({
   prepMinutes,
   cookMinutes,
   difficulty,
+  spiceLevel,
   authenticity,
 }: {
   sourceLanguage?: string | null;
@@ -144,6 +146,7 @@ export function LocalizedRecipeContent({
   prepMinutes?: number | null;
   cookMinutes?: number | null;
   difficulty?: string | null;
+  spiceLevel?: number | null;
   authenticity?: string | null;
 }) {
   const [preferences, updatePreferences] = usePreferences();
@@ -167,7 +170,6 @@ export function LocalizedRecipeContent({
   }, [baseDescription, baseIngredients, baseSteps, language, source, translations]);
 
   const text = labels[language] ?? labels.fr;
-  const difficultyLabel = difficulty ? text.difficulty[difficulty as keyof typeof text.difficulty] : null;
   const authenticityLabel = authenticity ? text.authenticity[authenticity as keyof typeof text.authenticity] : null;
   const showsOtherLanguage = localized.fromSource && source !== language;
 
@@ -177,7 +179,8 @@ export function LocalizedRecipeContent({
         <span>{text.prep} : {prepMinutes ?? "—"} min</span>
         <span>{text.cook} : {cookMinutes ?? "—"} min</span>
         <span>{text.servings} : {baseServings ?? "—"}</span>
-        {difficultyLabel ? <span>{difficultyLabel}</span> : null}
+        <DifficultyBadge difficulty={difficulty} language={language} />
+        <SpiceBadge level={spiceLevel} language={language} />
         {authenticityLabel ? <span>{authenticityLabel}</span> : null}
       </div>
 

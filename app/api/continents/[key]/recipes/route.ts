@@ -18,7 +18,7 @@ export async function GET(
   const { data: recipes, error } = await supabase
     .from("recipes")
     .select(
-      "id,title,original_title,country_code,region,category,difficulty,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status,source_type,source_page_url,moderation_notes),recipe_likes(count),recipe_ratings(rating)",
+      "id,title,original_title,country_code,region,category,difficulty,spice_level,prep_minutes,cook_minutes,published_at,recipe_title_translations(language_code,title),recipe_images!recipe_images_recipe_id_fkey(id,storage_path,external_url,is_primary,status,source_type,source_page_url,moderation_notes),recipe_likes(count),recipe_ratings(rating)",
     )
     .eq("status", "published")
     .eq("is_editorial", true)
@@ -61,6 +61,7 @@ export async function GET(
         region: recipe.region,
         category: recipe.category || "Recette",
         difficulty: recipe.difficulty,
+        spiceLevel: recipe.spice_level ?? 0,
         minutes: totalMinutes || null,
         image,
         likes,

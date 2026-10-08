@@ -102,6 +102,15 @@ export default async function PublishPage({ searchParams }: Props) {
                 <option value="hard">Difficile</option>
               </select>
             </label>
+            <label><span>Piment</span>
+              <select name="spice_level" defaultValue="auto">
+                <option value="auto">Estimer d’après les ingrédients</option>
+                <option value="0">Pas piquant</option>
+                <option value="1">🌶 Légèrement piquant</option>
+                <option value="2">🌶🌶 Relevé</option>
+                <option value="3">🌶🌶🌶 Très piquant</option>
+              </select>
+            </label>
             <label><span>Préparation (min)</span><input name="prep_minutes" type="number" min="0" /></label>
             <label><span>Cuisson (min)</span><input name="cook_minutes" type="number" min="0" /></label>
             <label><span>Portions</span><input name="servings" type="number" min="0.25" step="0.25" /></label>

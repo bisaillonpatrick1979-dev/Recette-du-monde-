@@ -1,0 +1,254 @@
+[
+ {
+  "slug": "s6-ca-0",
+  "country": "CA",
+  "original": "Cipaille",
+  "title": "Pâté six-pâtes",
+  "en": "Quebec cipaille"
+ },
+ {
+  "slug": "s6-cn-1",
+  "country": "CN",
+  "original": "Guotie",
+  "title": "Guotie",
+  "en": "Chinese potstickers guotie"
+ },
+ {
+  "slug": "s6-de-2",
+  "country": "DE",
+  "original": "Brezel",
+  "title": "Brezel bavaroise",
+  "en": "Bavarian pretzel"
+ },
+ {
+  "slug": "s6-es-3",
+  "country": "ES",
+  "original": "Migas",
+  "title": "Migas",
+  "en": "Spanish migas"
+ },
+ {
+  "slug": "s6-es-4",
+  "country": "ES",
+  "original": "Txangurro",
+  "title": "Txangurro",
+  "en": "Basque stuffed crab"
+ },
+ {
+  "slug": "s6-fr-5",
+  "country": "FR",
+  "original": "Andouillette",
+  "title": "Andouillette",
+  "en": "French andouillette"
+ },
+ {
+  "slug": "s6-fr-6",
+  "country": "FR",
+  "original": "Bourride",
+  "title": "Bourride",
+  "en": "Provençal bourride"
+ },
+ {
+  "slug": "s6-fr-7",
+  "country": "FR",
+  "original": "Cervelle de canut",
+  "title": "Cervelle de canut",
+  "en": "Lyon cervelle de canut"
+ },
+ {
+  "slug": "s6-fr-8",
+  "country": "FR",
+  "original": "Crozets",
+  "title": "Crozets",
+  "en": "Savoy crozets pasta"
+ },
+ {
+  "slug": "s6-fr-9",
+  "country": "FR",
+  "original": "Farçous",
+  "title": "Farçous",
+  "en": "Aveyron farçous"
+ },
+ {
+  "slug": "s6-fr-10",
+  "country": "FR",
+  "original": "Fiadone",
+  "title": "Fiadone",
+  "en": "Corsican fiadone"
+ },
+ {
+  "slug": "s6-fr-11",
+  "country": "FR",
+  "original": "Kig ha farz",
+  "title": "Kig ha farz",
+  "en": "Breton kig ha farz"
+ },
+ {
+  "slug": "s6-fr-12",
+  "country": "FR",
+  "original": "Pan bagnat",
+  "title": "Pan bagnat",
+  "en": "Nice pan bagnat"
+ },
+ {
+  "slug": "s6-fr-13",
+  "country": "FR",
+  "original": "Pithiviers",
+  "title": "Pithiviers",
+  "en": "Pithiviers almond pie"
+ },
+ {
+  "slug": "s6-fr-14",
+  "country": "FR",
+  "original": "Pounti",
+  "title": "Pounti",
+  "en": "Auvergne pounti"
+ },
+ {
+  "slug": "s6-fr-15",
+  "country": "FR",
+  "original": "Tielle",
+  "title": "Tielle sétoise",
+  "en": "Sète octopus pie"
+ },
+ {
+  "slug": "s6-fr-16",
+  "country": "FR",
+  "original": "Tourteau fromager",
+  "title": "Tourteau fromager",
+  "en": "Poitou tourteau fromager"
+ },
+ {
+  "slug": "s6-fr-17",
+  "country": "FR",
+  "original": "Welsh",
+  "title": "Welsh (Nord)",
+  "en": "Lille welsh rarebit"
+ },
+ {
+  "slug": "s6-gb-18",
+  "country": "GB",
+  "original": "Scotch egg",
+  "title": "Scotch egg",
+  "en": "Scotch egg"
+ },
+ {
+  "slug": "s6-in-19",
+  "country": "IN",
+  "original": "Bisi bele bath",
+  "title": "Bisi bele bath",
+  "en": "Karnataka bisi bele bath"
+ },
+ {
+  "slug": "s6-in-20",
+  "country": "IN",
+  "original": "Chicken Chettinad",
+  "title": "Chicken Chettinad",
+  "en": "Chettinad chicken curry"
+ },
+ {
+  "slug": "s6-in-21",
+  "country": "IN",
+  "original": "Momo",
+  "title": "Momo",
+  "en": "Sikkim momo dumplings"
+ },
+ {
+  "slug": "s6-it-22",
+  "country": "IT",
+  "original": "Casoncelli",
+  "title": "Casoncelli",
+  "en": "Bergamo casoncelli"
+ },
+ {
+  "slug": "s6-it-23",
+  "country": "IT",
+  "original": "Cjarsons",
+  "title": "Cjarsons",
+  "en": "Carnia cjarsons"
+ },
+ {
+  "slug": "s6-it-24",
+  "country": "IT",
+  "original": "Olive all'ascolana",
+  "title": "Olive all'ascolana",
+  "en": "Ascoli stuffed olives"
+ },
+ {
+  "slug": "s6-it-25",
+  "country": "IT",
+  "original": "Passatelli",
+  "title": "Passatelli",
+  "en": "Romagna passatelli"
+ },
+ {
+  "slug": "s6-it-26",
+  "country": "IT",
+  "original": "Sarde in saor",
+  "title": "Sarde in saor",
+  "en": "Venetian sarde in saor"
+ },
+ {
+  "slug": "s6-it-27",
+  "country": "IT",
+  "original": "Strangozzi",
+  "title": "Strangozzi",
+  "en": "Umbrian strangozzi"
+ },
+ {
+  "slug": "s6-it-28",
+  "country": "IT",
+  "original": "Testaroli",
+  "title": "Testaroli",
+  "en": "Lunigiana testaroli"
+ },
+ {
+  "slug": "s6-it-29",
+  "country": "IT",
+  "original": "Vincisgrassi",
+  "title": "Vincisgrassi",
+  "en": "Marche vincisgrassi"
+ },
+ {
+  "slug": "s6-it-30",
+  "country": "IT",
+  "original": "Bigoli",
+  "title": "Bigoli",
+  "en": "Venetian bigoli"
+ },
+ {
+  "slug": "s6-jp-31",
+  "country": "JP",
+  "original": "Chanko nabe",
+  "title": "Chanko nabe",
+  "en": "Sumo chanko nabe"
+ },
+ {
+  "slug": "s6-jp-32",
+  "country": "JP",
+  "original": "Motsunabe",
+  "title": "Motsunabe",
+  "en": "Fukuoka motsunabe"
+ },
+ {
+  "slug": "s6-jp-33",
+  "country": "JP",
+  "original": "Sōki soba",
+  "title": "Sōki soba",
+  "en": "Okinawa soki soba"
+ },
+ {
+  "slug": "s6-kr-34",
+  "country": "KR",
+  "original": "Naengmyeon",
+  "title": "Naengmyeon",
+  "en": "Korean cold noodles"
+ },
+ {
+  "slug": "s6-mx-35",
+  "country": "MX",
+  "original": "Machaca",
+  "title": "Machaca con huevo",
+  "en": "Sonora machaca with egg"
+ }
+]

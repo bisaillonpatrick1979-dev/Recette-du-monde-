@@ -5,7 +5,7 @@ import { LocalizedRecipeTitle } from "@/components/localized-recipe-title";
 import { OpenRecipeImage } from "@/components/open-recipe-image";
 import { BORDERLESS_LABEL } from "@/lib/continents";
 import { isTrustedRecipeImage, resolveMediaUrl } from "@/lib/media";
-import { QUICK_FILTERS, SEARCH_CATEGORIES, ilikePattern } from "@/lib/search-filters";
+import { QUICK_FILTERS, SEARCH_CATEGORIES, countryCodesForQuery, ilikePattern } from "@/lib/search-filters";
 import { fetchAllRows } from "@/lib/supabase/fetch-all";
 import { createClient } from "@/lib/supabase/server";
 
@@ -28,6 +28,8 @@ const PAGE_SIZE = 60;
 
 type LightRecipe = {
   id: string;
+  country_code: string | null;
+  primary_place_id: string | null;
   prep_minutes: number | null;
   cook_minutes: number | null;
   published_at: string | null;
@@ -35,7 +37,7 @@ type LightRecipe = {
   recipe_likes: Array<{ count: number }> | null;
 };
 
-const LIGHT_COLUMNS = "id,prep_minutes,cook_minutes,published_at,search_text,recipe_likes(count)";
+const LIGHT_COLUMNS = "id,country_code,primary_place_id,prep_minutes,cook_minutes,published_at,search_text,recipe_likes(count)";
 
 function normalize(value: string) {
   return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -73,7 +75,35 @@ export default async function SearchPage({ searchParams }: Props) {
       : Promise.resolve({ data: [], error: null }),
   ]);
 
+  // Recherche d'un pays (« Canada », « canadien ») ou d'un lieu (« Québec », « Montréal ») :
+  // toutes les recettes de ce pays ou de ce lieu, affichées en premier.
+  const countryCodes = q ? countryCodesForQuery(q) : [];
+  const { data: matchedPlaces } = textPattern
+    ? await supabase.from("culinary_places").select("id,country_code,place_type").ilike("name", textPattern).limit(50)
+    : { data: [] as Array<{ id: string; country_code: string | null; place_type: string }> };
+  for (const place of matchedPlaces ?? []) {
+    if (place.place_type === "country" && place.country_code && !countryCodes.includes(place.country_code)) {
+      countryCodes.push(place.country_code);
+    }
+  }
+  const placeIds = (matchedPlaces ?? []).filter((place) => place.place_type !== "country").map((place) => place.id);
+  const [byCountry, byPlace] = await Promise.all([
+    countryCodes.length
+      ? fetchAllRows<LightRecipe>((from, to) =>
+          supabase.from("recipes").select(LIGHT_COLUMNS).eq("status", "published").in("country_code", countryCodes).order("id").range(from, to),
+        )
+      : Promise.resolve({ data: [] as LightRecipe[], error: null }),
+    placeIds.length
+      ? fetchAllRows<LightRecipe>((from, to) =>
+          supabase.from("recipes").select(LIGHT_COLUMNS).eq("status", "published").in("primary_place_id", placeIds).order("id").range(from, to),
+        )
+      : Promise.resolve({ data: [] as LightRecipe[], error: null }),
+  ]);
+  const geoMatches = new Set<string>([...byCountry.data, ...byPlace.data].map((recipe) => recipe.id));
+
   const matches = new Map<string, LightRecipe>();
+  for (const recipe of byCountry.data) matches.set(recipe.id, recipe);
+  for (const recipe of byPlace.data) matches.set(recipe.id, recipe);
   for (const recipe of byText.data) matches.set(recipe.id, recipe);
   for (const row of byIngredient.data) {
     if (row.recipes) matches.set(row.recipes.id, row.recipes);
@@ -91,6 +121,7 @@ export default async function SearchPage({ searchParams }: Props) {
       publishedAt: recipe.published_at ?? "",
       totalMinutes: (recipe.prep_minutes ?? 0) + (recipe.cook_minutes ?? 0) || null,
       likes: recipe.recipe_likes?.[0]?.count ?? 0,
+      geo: geoMatches.has(recipe.id),
     }));
 
   if (filter?.maxMinutes) {
@@ -98,6 +129,7 @@ export default async function SearchPage({ searchParams }: Props) {
     ranked = ranked.filter((recipe) => recipe.totalMinutes !== null && recipe.totalMinutes <= max);
   }
   ranked.sort((a, b) =>
+    Number(b.geo) - Number(a.geo) ||
     (filter?.popular ? b.likes - a.likes : 0) || b.publishedAt.localeCompare(a.publishedAt),
   );
 
@@ -115,7 +147,7 @@ export default async function SearchPage({ searchParams }: Props) {
         )
         .in("id", pageIds)
     : { data: [], error: null };
-  const error = byText.error || byIngredient.error || detailError;
+  const error = byText.error || byIngredient.error || byCountry.error || byPlace.error || detailError;
 
   const displayNames = new Intl.DisplayNames(["fr"], { type: "region" });
   const detailById = new Map((data ?? []).map((recipe) => [recipe.id, recipe]));

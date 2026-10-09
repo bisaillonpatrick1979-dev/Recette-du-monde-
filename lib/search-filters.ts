@@ -39,3 +39,53 @@ export function ilikePattern(value: string) {
   const cleaned = value.replace(/[%_\\,()"]/g, " ").replace(/\s+/g, " ").trim();
   return cleaned ? `%${cleaned}%` : null;
 }
+
+// Recherche par pays : « canada », « Canadá », « canadien » → CA.
+// Noms en français, anglais et espagnol générés par Intl, plus quelques gentilés courants.
+const DEMONYMS: Record<string, string> = {
+  canadien: "CA", canadienne: "CA", quebecois: "CA", quebecoise: "CA", acadien: "CA", acadienne: "CA",
+  francais: "FR", francaise: "FR", italien: "IT", italienne: "IT", espagnol: "ES", espagnole: "ES",
+  mexicain: "MX", mexicaine: "MX", japonais: "JP", japonaise: "JP", chinois: "CN", chinoise: "CN",
+  indien: "IN", indienne: "IN", marocain: "MA", marocaine: "MA", libanais: "LB", libanaise: "LB",
+  grec: "GR", grecque: "GR", turc: "TR", turque: "TR", thai: "TH", thailandais: "TH", vietnamien: "VN",
+  coreen: "KR", coreenne: "KR", allemand: "DE", allemande: "DE", portugais: "PT", bresilien: "BR",
+  peruvien: "PE", americain: "US", americaine: "US", belge: "BE", suisse: "CH", senegalais: "SN",
+  irlandais: "IE", polonais: "PL", russe: "RU", ethiopien: "ET", haitien: "HT", cubain: "CU",
+};
+
+function normalizeName(value: string) {
+  return value.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z]+/g, " ").trim();
+}
+
+let countryIndex: Map<string, string> | null = null;
+function getCountryIndex() {
+  if (countryIndex) return countryIndex;
+  countryIndex = new Map(Object.entries(DEMONYMS));
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const names = ["fr", "en", "es"].map((lang) => new Intl.DisplayNames([lang], { type: "region" }));
+  for (const a of letters) {
+    for (const b of letters) {
+      const code = a + b;
+      for (const display of names) {
+        let name: string | undefined;
+        try {
+          name = display.of(code);
+        } catch {
+          name = undefined;
+        }
+        if (!name || name === code) continue;
+        const key = normalizeName(name);
+        if (key && !countryIndex.has(key)) countryIndex.set(key, code);
+      }
+    }
+  }
+  return countryIndex;
+}
+
+/** Codes pays correspondant exactement à la recherche (nom du pays ou gentilé). */
+export function countryCodesForQuery(query: string): string[] {
+  const key = normalizeName(query);
+  if (key.length < 3) return [];
+  const code = getCountryIndex().get(key);
+  return code ? [code] : [];
+}

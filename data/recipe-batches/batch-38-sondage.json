@@ -1,0 +1,408 @@
+[
+ {
+  "slug": "s16-bo-59",
+  "country": "BO",
+  "original": "Api con pastel",
+  "title": "Api con pastel",
+  "en": "Api morado with pastel"
+ },
+ {
+  "slug": "s16-bo-60",
+  "country": "BO",
+  "original": "Chairo",
+  "title": "Chairo",
+  "en": "Chairo paceño"
+ },
+ {
+  "slug": "s16-bo-61",
+  "country": "BO",
+  "original": "Fricasé",
+  "title": "Fricasé",
+  "en": "Bolivian fricase"
+ },
+ {
+  "slug": "s16-bo-62",
+  "country": "BO",
+  "original": "Cuñapé",
+  "title": "Cuñapé",
+  "en": "Cuñapé"
+ },
+ {
+  "slug": "s16-bo-63",
+  "country": "BO",
+  "original": "Sopa de quinua",
+  "title": "Sopa de quinua",
+  "en": "Quinoa soup Bolivia"
+ },
+ {
+  "slug": "s16-py-64",
+  "country": "PY",
+  "original": "Kiveve",
+  "title": "Kiveve",
+  "en": "Kiveve"
+ },
+ {
+  "slug": "s16-py-65",
+  "country": "PY",
+  "original": "Pira caldo",
+  "title": "Pira caldo",
+  "en": "Pira caldo"
+ },
+ {
+  "slug": "s16-py-66",
+  "country": "PY",
+  "original": "Payagua mascada",
+  "title": "Payagua mascada",
+  "en": "Payagua mascada"
+ },
+ {
+  "slug": "s16-py-67",
+  "country": "PY",
+  "original": "So'o yosopy",
+  "title": "So'o yosopy",
+  "en": "So'o yosopy"
+ },
+ {
+  "slug": "s16-sv-68",
+  "country": "SV",
+  "original": "Riguas",
+  "title": "Riguas",
+  "en": "Riguas"
+ },
+ {
+  "slug": "s16-sv-69",
+  "country": "SV",
+  "original": "Atol de elote",
+  "title": "Atol de elote",
+  "en": "Atol de elote"
+ },
+ {
+  "slug": "s16-sv-70",
+  "country": "SV",
+  "original": "Semita",
+  "title": "Semita",
+  "en": "Salvadoran semita"
+ },
+ {
+  "slug": "s16-sv-71",
+  "country": "SV",
+  "original": "Pastelitos de carne",
+  "title": "Pastelitos de carne",
+  "en": "Salvadoran pastelitos"
+ },
+ {
+  "slug": "s16-ni-72",
+  "country": "NI",
+  "original": "Quesillo",
+  "title": "Quesillo",
+  "en": "Nicaraguan quesillo"
+ },
+ {
+  "slug": "s16-ni-73",
+  "country": "NI",
+  "original": "Vaho",
+  "title": "Vaho",
+  "en": "Vigorón vaho"
+ },
+ {
+  "slug": "s16-ni-74",
+  "country": "NI",
+  "original": "Rosquillas",
+  "title": "Rosquillas",
+  "en": "Nicaraguan rosquillas"
+ },
+ {
+  "slug": "s16-ht-75",
+  "country": "HT",
+  "original": "Bannann peze",
+  "title": "Bannann peze",
+  "en": "Haitian fried plantains"
+ },
+ {
+  "slug": "s16-ht-76",
+  "country": "HT",
+  "original": "Lanbi",
+  "title": "Lanbi",
+  "en": "Haitian conch stew"
+ },
+ {
+  "slug": "s16-ht-77",
+  "country": "HT",
+  "original": "Diri kole ak pwa",
+  "title": "Diri kole ak pwa",
+  "en": "Haitian rice and beans"
+ },
+ {
+  "slug": "s16-ht-78",
+  "country": "HT",
+  "original": "Pen patat",
+  "title": "Pen patat",
+  "en": "Haitian sweet potato pudding"
+ },
+ {
+  "slug": "s16-tt-79",
+  "country": "TT",
+  "original": "Aloo pie",
+  "title": "Aloo pie",
+  "en": "Trinidad aloo pie"
+ },
+ {
+  "slug": "s16-tt-80",
+  "country": "TT",
+  "original": "Buss up shut",
+  "title": "Buss up shut",
+  "en": "Buss up shut"
+ },
+ {
+  "slug": "s16-tt-81",
+  "country": "TT",
+  "original": "Sada roti",
+  "title": "Sada roti",
+  "en": "Sada roti"
+ },
+ {
+  "slug": "s16-tt-82",
+  "country": "TT",
+  "original": "Trinidad corn soup",
+  "title": "Trinidad corn soup",
+  "en": "Trinidad corn soup"
+ },
+ {
+  "slug": "s16-tt-83",
+  "country": "TT",
+  "original": "Saheena",
+  "title": "Saheena",
+  "en": "Saheena"
+ },
+ {
+  "slug": "s16-mu-84",
+  "country": "MU",
+  "original": "Alouda",
+  "title": "Alouda",
+  "en": "Alouda"
+ },
+ {
+  "slug": "s16-mu-85",
+  "country": "MU",
+  "original": "Napolitaine",
+  "title": "Napolitaine",
+  "en": "Mauritian napolitaine"
+ },
+ {
+  "slug": "s16-mu-86",
+  "country": "MU",
+  "original": "Farata",
+  "title": "Farata",
+  "en": "Mauritian farata"
+ },
+ {
+  "slug": "s16-mu-87",
+  "country": "MU",
+  "original": "Gâteau patate",
+  "title": "Gâteau patate",
+  "en": "Mauritian sweet potato cake"
+ },
+ {
+  "slug": "s16-mg-88",
+  "country": "MG",
+  "original": "Mi sao",
+  "title": "Mi sao",
+  "en": "Mi sao"
+ },
+ {
+  "slug": "s16-mg-89",
+  "country": "MG",
+  "original": "Kitoza",
+  "title": "Kitoza",
+  "en": "Kitoza"
+ },
+ {
+  "slug": "s16-mg-90",
+  "country": "MG",
+  "original": "Mokary",
+  "title": "Mokary",
+  "en": "Mokary"
+ },
+ {
+  "slug": "s16-mn-91",
+  "country": "MN",
+  "original": "Bansh",
+  "title": "Bansh",
+  "en": "Bansh dumplings"
+ },
+ {
+  "slug": "s16-mn-92",
+  "country": "MN",
+  "original": "Guriltai shul",
+  "title": "Guriltai shul",
+  "en": "Guriltai shul"
+ },
+ {
+  "slug": "s16-mn-93",
+  "country": "MN",
+  "original": "Süütei tsai",
+  "title": "Süütei tsai",
+  "en": "Suutei tsai"
+ },
+ {
+  "slug": "s16-mn-94",
+  "country": "MN",
+  "original": "Aaruul",
+  "title": "Aaruul",
+  "en": "Aaruul"
+ },
+ {
+  "slug": "s16-er-95",
+  "country": "ER",
+  "original": "Himbasha",
+  "title": "Himbasha",
+  "en": "Himbasha"
+ },
+ {
+  "slug": "s16-ps-96",
+  "country": "PS",
+  "original": "Maqluba",
+  "title": "Maqluba",
+  "en": "Maqluba"
+ },
+ {
+  "slug": "s16-ps-97",
+  "country": "PS",
+  "original": "Ka'ak al-Quds",
+  "title": "Ka'ak al-Quds",
+  "en": "Jerusalem kaak"
+ },
+ {
+  "slug": "s16-cm-98",
+  "country": "CM",
+  "original": "Achu",
+  "title": "Achu",
+  "en": "Achu soup"
+ },
+ {
+  "slug": "s16-cm-99",
+  "country": "CM",
+  "original": "Beignets haricots",
+  "title": "Beignets haricots",
+  "en": "Cameroonian beignets haricots"
+ },
+ {
+  "slug": "s16-mk-100",
+  "country": "MK",
+  "original": "Turli tava",
+  "title": "Turli tava",
+  "en": "Turli tava"
+ },
+ {
+  "slug": "s16-lt-101",
+  "country": "LT",
+  "original": "Vėdarai",
+  "title": "Vėdarai",
+  "en": "Vėdarai"
+ },
+ {
+  "slug": "s16-lt-102",
+  "country": "LT",
+  "original": "Skilandis",
+  "title": "Skilandis",
+  "en": "Skilandis"
+ },
+ {
+  "slug": "s16-lt-103",
+  "country": "LT",
+  "original": "Grybukai",
+  "title": "Grybukai",
+  "en": "Grybukai"
+ },
+ {
+  "slug": "s16-lt-104",
+  "country": "LT",
+  "original": "Koldūnai",
+  "title": "Koldūnai",
+  "en": "Koldūnai"
+ },
+ {
+  "slug": "s16-si-105",
+  "country": "SI",
+  "original": "Kremšnita",
+  "title": "Kremšnita",
+  "en": "Bled cream cake"
+ },
+ {
+  "slug": "s16-si-106",
+  "country": "SI",
+  "original": "Ričet",
+  "title": "Ričet",
+  "en": "Ričet"
+ },
+ {
+  "slug": "s16-si-107",
+  "country": "SI",
+  "original": "Ajdovi žganci",
+  "title": "Ajdovi žganci",
+  "en": "Ajdovi žganci"
+ },
+ {
+  "slug": "s16-al-108",
+  "country": "AL",
+  "original": "Flija",
+  "title": "Flija",
+  "en": "Flija"
+ },
+ {
+  "slug": "s16-al-109",
+  "country": "AL",
+  "original": "Petulla",
+  "title": "Petulla",
+  "en": "Petulla"
+ },
+ {
+  "slug": "s16-al-110",
+  "country": "AL",
+  "original": "Trileçe",
+  "title": "Trileçe",
+  "en": "Trileçe"
+ },
+ {
+  "slug": "s16-cy-111",
+  "country": "CY",
+  "original": "Flaouna",
+  "title": "Flaouna",
+  "en": "Flaouna"
+ },
+ {
+  "slug": "s16-cy-112",
+  "country": "CY",
+  "original": "Kolokasi",
+  "title": "Kolokasi",
+  "en": "Kolokasi"
+ },
+ {
+  "slug": "s16-cy-113",
+  "country": "CY",
+  "original": "Ttavas",
+  "title": "Ttavas",
+  "en": "Ttavas"
+ },
+ {
+  "slug": "s16-tz-114",
+  "country": "TZ",
+  "original": "Zanzibar pizza",
+  "title": "Zanzibar pizza",
+  "en": "Zanzibar pizza"
+ },
+ {
+  "slug": "s16-tz-115",
+  "country": "TZ",
+  "original": "Mandazi",
+  "title": "Mandazi",
+  "en": "Mandazi"
+ },
+ {
+  "slug": "s16-tz-116",
+  "country": "TZ",
+  "original": "Wali wa nazi",
+  "title": "Wali wa nazi",
+  "en": "Wali wa nazi"
+ }
+]

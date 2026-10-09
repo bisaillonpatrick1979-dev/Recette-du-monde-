@@ -318,7 +318,8 @@ button { cursor: pointer; }
 .recipe-level-row { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; }
 .continent-modal-recipe-body p.recipe-level-row { display: flex; min-height: 0; margin-top: 4px; }
 .planet-recipe-body small.recipe-level-row { display: flex; margin-top: 4px; }
-.recipe-columns { display: grid; grid-template-columns: .8fr 1.2fr; gap: 40px; margin-top: 34px; }
+.recipe-columns { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 40px; margin-top: 34px; }
+.recipe-columns > * { min-width: 0; }
 .recipe-columns h2 { font-family: Georgia, serif; font-size: 30px; }
 .ingredient-list, .step-list { padding-left: 22px; }
 .ingredient-list li, .step-list li { margin-bottom: 14px; line-height: 1.6; }
@@ -2794,8 +2795,9 @@ button.continent-card-main {
 }
 .serving-scaler-heading {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 18px;
+  gap: 12px 18px;
   align-items: center;
   margin-bottom: 12px;
 }
@@ -2803,7 +2805,8 @@ button.continent-card-main {
   margin: 2px 0 0;
 }
 .serving-stepper {
-  min-width: 190px;
+  flex: 0 1 190px;
+  min-width: 170px;
   min-height: 64px;
   display: grid;
   grid-template-columns: 48px 1fr 48px;

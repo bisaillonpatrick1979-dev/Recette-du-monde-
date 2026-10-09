@@ -1,0 +1,415 @@
+[
+ {
+  "slug": "s16-az-0",
+  "country": "AZ",
+  "original": "Şəkərbura",
+  "title": "Şəkərbura",
+  "en": "Shekerbura"
+ },
+ {
+  "slug": "s16-az-1",
+  "country": "AZ",
+  "original": "Paxlava",
+  "title": "Paxlava",
+  "en": "Azerbaijani pakhlava"
+ },
+ {
+  "slug": "s16-az-2",
+  "country": "AZ",
+  "original": "Dovğa",
+  "title": "Dovğa",
+  "en": "Dovga yogurt soup"
+ },
+ {
+  "slug": "s16-az-3",
+  "country": "AZ",
+  "original": "Lülə kabab",
+  "title": "Lülə kabab",
+  "en": "Lula kebab"
+ },
+ {
+  "slug": "s16-am-4",
+  "country": "AM",
+  "original": "Zhingyalov hats",
+  "title": "Zhingyalov hats",
+  "en": "Zhingyalov hats"
+ },
+ {
+  "slug": "s16-am-5",
+  "country": "AM",
+  "original": "Spas",
+  "title": "Spas",
+  "en": "Armenian spas yogurt soup"
+ },
+ {
+  "slug": "s16-am-6",
+  "country": "AM",
+  "original": "Lavash",
+  "title": "Lavash",
+  "en": "Armenian lavash"
+ },
+ {
+  "slug": "s16-am-7",
+  "country": "AM",
+  "original": "Ishli kufta",
+  "title": "Ishli kufta",
+  "en": "Ishli kufta"
+ },
+ {
+  "slug": "s16-uz-8",
+  "country": "UZ",
+  "original": "Chuchvara",
+  "title": "Chuchvara",
+  "en": "Chuchvara dumplings"
+ },
+ {
+  "slug": "s16-uz-9",
+  "country": "UZ",
+  "original": "Norin",
+  "title": "Norin",
+  "en": "Norin noodles horse meat"
+ },
+ {
+  "slug": "s16-uz-10",
+  "country": "UZ",
+  "original": "Dimlama",
+  "title": "Dimlama",
+  "en": "Dimlama stew"
+ },
+ {
+  "slug": "s16-uz-11",
+  "country": "UZ",
+  "original": "Achichuk",
+  "title": "Achichuk",
+  "en": "Achichuk salad"
+ },
+ {
+  "slug": "s16-iq-12",
+  "country": "IQ",
+  "original": "Quzi",
+  "title": "Quzi",
+  "en": "Iraqi quzi lamb rice"
+ },
+ {
+  "slug": "s16-iq-13",
+  "country": "IQ",
+  "original": "Kahi wa geymar",
+  "title": "Kahi wa geymar",
+  "en": "Kahi with geymar"
+ },
+ {
+  "slug": "s16-iq-14",
+  "country": "IQ",
+  "original": "Pacha",
+  "title": "Pacha",
+  "en": "Iraqi pacha"
+ },
+ {
+  "slug": "s16-iq-15",
+  "country": "IQ",
+  "original": "Tashreeb",
+  "title": "Tashreeb",
+  "en": "Tashreeb"
+ },
+ {
+  "slug": "s16-sa-16",
+  "country": "SA",
+  "original": "Margoog",
+  "title": "Margoog",
+  "en": "Margoog"
+ },
+ {
+  "slug": "s16-sa-17",
+  "country": "SA",
+  "original": "Areeka",
+  "title": "Areeka",
+  "en": "Areeka"
+ },
+ {
+  "slug": "s16-sa-18",
+  "country": "SA",
+  "original": "Haneeth",
+  "title": "Haneeth",
+  "en": "Haneeth"
+ },
+ {
+  "slug": "s16-ye-19",
+  "country": "YE",
+  "original": "Zurbian",
+  "title": "Zurbian",
+  "en": "Zurbian rice"
+ },
+ {
+  "slug": "s16-ye-20",
+  "country": "YE",
+  "original": "Shafut",
+  "title": "Shafut",
+  "en": "Shafut"
+ },
+ {
+  "slug": "s16-ye-21",
+  "country": "YE",
+  "original": "Aseeda",
+  "title": "Aseeda",
+  "en": "Yemeni aseeda"
+ },
+ {
+  "slug": "s16-lv-22",
+  "country": "LV",
+  "original": "Jāņu siers",
+  "title": "Jāņu siers",
+  "en": "Jāņu siers caraway cheese"
+ },
+ {
+  "slug": "s16-lv-23",
+  "country": "LV",
+  "original": "Debesmanna",
+  "title": "Debesmanna",
+  "en": "Debesmanna"
+ },
+ {
+  "slug": "s16-lv-24",
+  "country": "LV",
+  "original": "Aukstā zupa",
+  "title": "Aukstā zupa",
+  "en": "Latvian cold beet soup"
+ },
+ {
+  "slug": "s16-lv-25",
+  "country": "LV",
+  "original": "Rasols",
+  "title": "Rasols",
+  "en": "Latvian rasols salad"
+ },
+ {
+  "slug": "s16-lv-26",
+  "country": "LV",
+  "original": "Maizes zupa",
+  "title": "Maizes zupa",
+  "en": "Latvian bread soup"
+ },
+ {
+  "slug": "s16-sk-27",
+  "country": "SK",
+  "original": "Strapačky",
+  "title": "Strapačky",
+  "en": "Strapačky"
+ },
+ {
+  "slug": "s16-sk-28",
+  "country": "SK",
+  "original": "Bryndzové pirohy",
+  "title": "Bryndzové pirohy",
+  "en": "Bryndzové pirohy"
+ },
+ {
+  "slug": "s16-sk-29",
+  "country": "SK",
+  "original": "Žemľovka",
+  "title": "Žemľovka",
+  "en": "Žemľovka bread pudding"
+ },
+ {
+  "slug": "s16-sk-30",
+  "country": "SK",
+  "original": "Skalický trdelník",
+  "title": "Skalický trdelník",
+  "en": "Skalický trdelník"
+ },
+ {
+  "slug": "s16-rs-31",
+  "country": "RS",
+  "original": "Sarma",
+  "title": "Sarma",
+  "en": "Serbian sarma"
+ },
+ {
+  "slug": "s16-rs-32",
+  "country": "RS",
+  "original": "Punjene paprike",
+  "title": "Punjene paprike",
+  "en": "Serbian stuffed peppers"
+ },
+ {
+  "slug": "s16-rs-33",
+  "country": "RS",
+  "original": "Podvarak",
+  "title": "Podvarak",
+  "en": "Podvarak"
+ },
+ {
+  "slug": "s16-rs-34",
+  "country": "RS",
+  "original": "Vanilice",
+  "title": "Vanilice",
+  "en": "Vanilice cookies"
+ },
+ {
+  "slug": "s16-rs-35",
+  "country": "RS",
+  "original": "Urnebes",
+  "title": "Urnebes",
+  "en": "Urnebes salad"
+ },
+ {
+  "slug": "s16-lk-36",
+  "country": "LK",
+  "original": "Watalappan",
+  "title": "Watalappan",
+  "en": "Watalappam"
+ },
+ {
+  "slug": "s16-lk-37",
+  "country": "LK",
+  "original": "Kokis",
+  "title": "Kokis",
+  "en": "Kokis"
+ },
+ {
+  "slug": "s16-lk-38",
+  "country": "LK",
+  "original": "Isso vadai",
+  "title": "Isso vadai",
+  "en": "Isso vadai prawn"
+ },
+ {
+  "slug": "s16-lk-39",
+  "country": "LK",
+  "original": "Pol roti",
+  "title": "Pol roti",
+  "en": "Pol roti"
+ },
+ {
+  "slug": "s16-lk-40",
+  "country": "LK",
+  "original": "Wambatu moju",
+  "title": "Wambatu moju",
+  "en": "Wambatu moju"
+ },
+ {
+  "slug": "s16-et-41",
+  "country": "ET",
+  "original": "Firfir",
+  "title": "Firfir",
+  "en": "Ethiopian firfir"
+ },
+ {
+  "slug": "s16-et-42",
+  "country": "ET",
+  "original": "Beyaynetu",
+  "title": "Beyaynetu",
+  "en": "Beyaynetu"
+ },
+ {
+  "slug": "s16-et-43",
+  "country": "ET",
+  "original": "Dulet",
+  "title": "Dulet",
+  "en": "Dulet"
+ },
+ {
+  "slug": "s16-et-44",
+  "country": "ET",
+  "original": "Chechebsa",
+  "title": "Chechebsa",
+  "en": "Chechebsa"
+ },
+ {
+  "slug": "s16-np-45",
+  "country": "NP",
+  "original": "Juju dhau",
+  "title": "Juju dhau",
+  "en": "Juju dhau"
+ },
+ {
+  "slug": "s16-np-46",
+  "country": "NP",
+  "original": "Bara",
+  "title": "Bara",
+  "en": "Newari bara"
+ },
+ {
+  "slug": "s16-np-47",
+  "country": "NP",
+  "original": "Choila",
+  "title": "Choila",
+  "en": "Choila"
+ },
+ {
+  "slug": "s16-np-48",
+  "country": "NP",
+  "original": "Kwati",
+  "title": "Kwati",
+  "en": "Kwati soup"
+ },
+ {
+  "slug": "s16-np-49",
+  "country": "NP",
+  "original": "Sekuwa",
+  "title": "Sekuwa",
+  "en": "Sekuwa"
+ },
+ {
+  "slug": "s16-mm-50",
+  "country": "MM",
+  "original": "Nan gyi thoke",
+  "title": "Nan gyi thoke",
+  "en": "Nan gyi thoke"
+ },
+ {
+  "slug": "s16-mm-51",
+  "country": "MM",
+  "original": "Mont lin maya",
+  "title": "Mont lin maya",
+  "en": "Mont lin maya"
+ },
+ {
+  "slug": "s16-mm-52",
+  "country": "MM",
+  "original": "Htamane",
+  "title": "Htamane",
+  "en": "Htamane"
+ },
+ {
+  "slug": "s16-mm-53",
+  "country": "MM",
+  "original": "Shan tohpu",
+  "title": "Shan tohpu",
+  "en": "Burmese tofu"
+ },
+ {
+  "slug": "s16-la-54",
+  "country": "LA",
+  "original": "Sai oua",
+  "title": "Sai oua",
+  "en": "Sai oua sausage"
+ },
+ {
+  "slug": "s16-la-55",
+  "country": "LA",
+  "original": "Khao jee pâté",
+  "title": "Khao jee pâté",
+  "en": "Lao khao jee sandwich"
+ },
+ {
+  "slug": "s16-la-56",
+  "country": "LA",
+  "original": "Nam khao",
+  "title": "Nam khao",
+  "en": "Nam khao crispy rice salad"
+ },
+ {
+  "slug": "s16-la-57",
+  "country": "LA",
+  "original": "Ping kai",
+  "title": "Ping kai",
+  "en": "Lao grilled chicken"
+ },
+ {
+  "slug": "s16-kz-58",
+  "country": "KZ",
+  "original": "Kazy",
+  "title": "Kazy",
+  "en": "Kazy horse sausage"
+ }
+]

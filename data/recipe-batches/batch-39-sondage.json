@@ -1,0 +1,443 @@
+[
+ {
+  "slug": "s17-it-0",
+  "country": "IT",
+  "original": "Risotto al nero di seppia",
+  "title": "Risotto al nero di seppia",
+  "en": "Black squid ink risotto Venice"
+ },
+ {
+  "slug": "s17-it-1",
+  "country": "IT",
+  "original": "Baccalà mantecato",
+  "title": "Baccalà mantecato",
+  "en": "Baccalà mantecato Venice"
+ },
+ {
+  "slug": "s17-it-2",
+  "country": "IT",
+  "original": "Pasta con le sarde",
+  "title": "Pasta con le sarde",
+  "en": "Pasta con le sarde"
+ },
+ {
+  "slug": "s17-it-3",
+  "country": "IT",
+  "original": "Sfincione",
+  "title": "Sfincione",
+  "en": "Sfincione palermitano"
+ },
+ {
+  "slug": "s17-it-4",
+  "country": "IT",
+  "original": "Fregola con arselle",
+  "title": "Fregola con arselle",
+  "en": "Fregola sarda arselle"
+ },
+ {
+  "slug": "s17-it-5",
+  "country": "IT",
+  "original": "Porceddu",
+  "title": "Porceddu",
+  "en": "Porceddu Sardinian roast suckling pig"
+ },
+ {
+  "slug": "s17-it-6",
+  "country": "IT",
+  "original": "Cassoeula",
+  "title": "Cassoeula",
+  "en": "Cassoeula"
+ },
+ {
+  "slug": "s17-it-7",
+  "country": "IT",
+  "original": "Bollito misto",
+  "title": "Bollito misto",
+  "en": "Bollito misto piemontese"
+ },
+ {
+  "slug": "s17-it-8",
+  "country": "IT",
+  "original": "Brasato al Barolo",
+  "title": "Brasato al Barolo",
+  "en": "Brasato al Barolo"
+ },
+ {
+  "slug": "s17-it-9",
+  "country": "IT",
+  "original": "Tajarin al tartufo",
+  "title": "Tajarin al tartufo",
+  "en": "Tajarin truffle"
+ },
+ {
+  "slug": "s17-it-10",
+  "country": "IT",
+  "original": "Spaghetti alle vongole",
+  "title": "Spaghetti alle vongole",
+  "en": "Spaghetti alle vongole"
+ },
+ {
+  "slug": "s17-it-11",
+  "country": "IT",
+  "original": "Babà napoletano",
+  "title": "Babà napoletano",
+  "en": "Babà al rum Naples"
+ },
+ {
+  "slug": "s17-it-12",
+  "country": "IT",
+  "original": "Pastiera napoletana",
+  "title": "Pastiera napoletana",
+  "en": "Pastiera napoletana"
+ },
+ {
+  "slug": "s17-it-13",
+  "country": "IT",
+  "original": "Zeppole di San Giuseppe",
+  "title": "Zeppole di San Giuseppe",
+  "en": "Zeppole di San Giuseppe"
+ },
+ {
+  "slug": "s17-it-14",
+  "country": "IT",
+  "original": "Cacciucco",
+  "title": "Cacciucco",
+  "en": "Cacciucco livornese"
+ },
+ {
+  "slug": "s17-it-15",
+  "country": "IT",
+  "original": "Cantucci",
+  "title": "Cantucci",
+  "en": "Cantucci di Prato"
+ },
+ {
+  "slug": "s17-it-16",
+  "country": "IT",
+  "original": "Trippa alla romana",
+  "title": "Trippa alla romana",
+  "en": "Trippa alla romana"
+ },
+ {
+  "slug": "s17-it-17",
+  "country": "IT",
+  "original": "Carciofi alla giudia",
+  "title": "Carciofi alla giudia",
+  "en": "Carciofi alla giudia"
+ },
+ {
+  "slug": "s17-it-18",
+  "country": "IT",
+  "original": "Tortelli di zucca",
+  "title": "Tortelli di zucca",
+  "en": "Tortelli di zucca Mantova"
+ },
+ {
+  "slug": "s17-it-19",
+  "country": "IT",
+  "original": "Passatelli in brodo",
+  "title": "Passatelli in brodo",
+  "en": "Passatelli in brodo"
+ },
+ {
+  "slug": "s17-it-20",
+  "country": "IT",
+  "original": "Tigelle",
+  "title": "Tigelle",
+  "en": "Tigelle crescentine Modena"
+ },
+ {
+  "slug": "s17-it-21",
+  "country": "IT",
+  "original": "Maritozzo con la panna",
+  "title": "Maritozzo con la panna",
+  "en": "Maritozzo con la panna"
+ },
+ {
+  "slug": "s17-it-22",
+  "country": "IT",
+  "original": "Focaccia di Recco",
+  "title": "Focaccia di Recco",
+  "en": "Focaccia di Recco col formaggio"
+ },
+ {
+  "slug": "s17-it-23",
+  "country": "IT",
+  "original": "Struffoli",
+  "title": "Struffoli",
+  "en": "Struffoli napoletani"
+ },
+ {
+  "slug": "s17-it-24",
+  "country": "IT",
+  "original": "Granita con brioche",
+  "title": "Granita con brioche",
+  "en": "Granita siciliana brioche"
+ },
+ {
+  "slug": "s17-it-25",
+  "country": "IT",
+  "original": "Pane carasau",
+  "title": "Pane carasau",
+  "en": "Pane carasau"
+ },
+ {
+  "slug": "s17-es-26",
+  "country": "ES",
+  "original": "Gilda",
+  "title": "Gilda",
+  "en": "Gilda pintxo"
+ },
+ {
+  "slug": "s17-es-27",
+  "country": "ES",
+  "original": "Tumbet",
+  "title": "Tumbet",
+  "en": "Tumbet mallorquín"
+ },
+ {
+  "slug": "s17-es-28",
+  "country": "ES",
+  "original": "Arroz a banda",
+  "title": "Arroz a banda",
+  "en": "Arroz a banda"
+ },
+ {
+  "slug": "s17-es-29",
+  "country": "ES",
+  "original": "Arroz con costra",
+  "title": "Arroz con costra",
+  "en": "Arroz con costra Elche"
+ },
+ {
+  "slug": "s17-es-30",
+  "country": "ES",
+  "original": "All i pebre",
+  "title": "All i pebre",
+  "en": "All i pebre anguila"
+ },
+ {
+  "slug": "s17-es-31",
+  "country": "ES",
+  "original": "Suquet de peix",
+  "title": "Suquet de peix",
+  "en": "Suquet de peix"
+ },
+ {
+  "slug": "s17-es-32",
+  "country": "ES",
+  "original": "Esqueixada",
+  "title": "Esqueixada",
+  "en": "Esqueixada de bacallà"
+ },
+ {
+  "slug": "s17-es-33",
+  "country": "ES",
+  "original": "Escudella i carn d'olla",
+  "title": "Escudella i carn d'olla",
+  "en": "Escudella i carn d'olla"
+ },
+ {
+  "slug": "s17-es-34",
+  "country": "ES",
+  "original": "Mel i mató",
+  "title": "Mel i mató",
+  "en": "Mel i mató"
+ },
+ {
+  "slug": "s17-es-35",
+  "country": "ES",
+  "original": "Tortillitas de camarones",
+  "title": "Tortillitas de camarones",
+  "en": "Tortillitas de camarones Cádiz"
+ },
+ {
+  "slug": "s17-es-36",
+  "country": "ES",
+  "original": "Pescaíto frito",
+  "title": "Pescaíto frito",
+  "en": "Pescaíto frito Málaga"
+ },
+ {
+  "slug": "s17-es-37",
+  "country": "ES",
+  "original": "Flamenquín",
+  "title": "Flamenquín",
+  "en": "Flamenquín cordobés"
+ },
+ {
+  "slug": "s17-es-38",
+  "country": "ES",
+  "original": "Cochinillo asado",
+  "title": "Cochinillo asado",
+  "en": "Cochinillo asado Segovia"
+ },
+ {
+  "slug": "s17-es-39",
+  "country": "ES",
+  "original": "Lechazo asado",
+  "title": "Lechazo asado",
+  "en": "Lechazo asado"
+ },
+ {
+  "slug": "s17-es-40",
+  "country": "ES",
+  "original": "Morcilla de Burgos",
+  "title": "Morcilla de Burgos",
+  "en": "Morcilla de Burgos"
+ },
+ {
+  "slug": "s17-es-41",
+  "country": "ES",
+  "original": "Torrijas",
+  "title": "Torrijas",
+  "en": "Torrijas"
+ },
+ {
+  "slug": "s17-es-42",
+  "country": "ES",
+  "original": "Ensaladilla rusa",
+  "title": "Ensaladilla rusa",
+  "en": "Ensaladilla rusa tapa"
+ },
+ {
+  "slug": "s17-es-43",
+  "country": "ES",
+  "original": "Callos a la madrileña",
+  "title": "Callos a la madrileña",
+  "en": "Callos a la madrileña"
+ },
+ {
+  "slug": "s17-es-44",
+  "country": "ES",
+  "original": "Sobao pasiego",
+  "title": "Sobao pasiego",
+  "en": "Sobao pasiego"
+ },
+ {
+  "slug": "s17-es-45",
+  "country": "ES",
+  "original": "Pimientos del piquillo rellenos",
+  "title": "Pimientos del piquillo rellenos",
+  "en": "Pimientos del piquillo rellenos"
+ },
+ {
+  "slug": "s17-es-46",
+  "country": "ES",
+  "original": "Bacalao a la vizcaína",
+  "title": "Bacalao a la vizcaína",
+  "en": "Bacalao a la vizcaína"
+ },
+ {
+  "slug": "s17-es-47",
+  "country": "ES",
+  "original": "Porrusalda",
+  "title": "Porrusalda",
+  "en": "Porrusalda"
+ },
+ {
+  "slug": "s17-es-48",
+  "country": "ES",
+  "original": "Caldo gallego",
+  "title": "Caldo gallego",
+  "en": "Caldo gallego"
+ },
+ {
+  "slug": "s17-es-49",
+  "country": "ES",
+  "original": "Filloas",
+  "title": "Filloas",
+  "en": "Filloas gallegas"
+ },
+ {
+  "slug": "s17-in-50",
+  "country": "IN",
+  "original": "Thepla",
+  "title": "Thepla",
+  "en": "Gujarati thepla"
+ },
+ {
+  "slug": "s17-in-51",
+  "country": "IN",
+  "original": "Khandvi",
+  "title": "Khandvi",
+  "en": "Khandvi"
+ },
+ {
+  "slug": "s17-in-52",
+  "country": "IN",
+  "original": "Avial",
+  "title": "Avial",
+  "en": "Avial Kerala"
+ },
+ {
+  "slug": "s17-in-53",
+  "country": "IN",
+  "original": "Malabar parotta",
+  "title": "Malabar parotta",
+  "en": "Kerala parotta"
+ },
+ {
+  "slug": "s17-in-54",
+  "country": "IN",
+  "original": "Chettinad chicken",
+  "title": "Chettinad chicken",
+  "en": "Chettinad chicken curry"
+ },
+ {
+  "slug": "s17-in-55",
+  "country": "IN",
+  "original": "Pesarattu",
+  "title": "Pesarattu",
+  "en": "Pesarattu"
+ },
+ {
+  "slug": "s17-in-56",
+  "country": "IN",
+  "original": "Goan fish curry",
+  "title": "Goan fish curry",
+  "en": "Goan fish curry"
+ },
+ {
+  "slug": "s17-in-57",
+  "country": "IN",
+  "original": "Chicken xacuti",
+  "title": "Chicken xacuti",
+  "en": "Chicken xacuti"
+ },
+ {
+  "slug": "s17-in-58",
+  "country": "IN",
+  "original": "Sorpotel",
+  "title": "Sorpotel",
+  "en": "Sorpotel Goa"
+ },
+ {
+  "slug": "s17-in-59",
+  "country": "IN",
+  "original": "Shorshe ilish",
+  "title": "Shorshe ilish",
+  "en": "Shorshe ilish"
+ },
+ {
+  "slug": "s17-in-60",
+  "country": "IN",
+  "original": "Mishti doi",
+  "title": "Mishti doi",
+  "en": "Mishti doi"
+ },
+ {
+  "slug": "s17-in-61",
+  "country": "IN",
+  "original": "Sandesh",
+  "title": "Sandesh",
+  "en": "Sandesh sweet"
+ },
+ {
+  "slug": "s17-in-62",
+  "country": "IN",
+  "original": "Luchi",
+  "title": "Luchi",
+  "en": "Luchi Bengali"
+ }
+]

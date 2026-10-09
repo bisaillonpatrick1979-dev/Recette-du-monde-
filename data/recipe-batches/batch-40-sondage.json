@@ -1,0 +1,436 @@
+[
+ {
+  "slug": "s17-in-63",
+  "country": "IN",
+  "original": "Amritsari kulcha",
+  "title": "Amritsari kulcha",
+  "en": "Amritsari kulcha"
+ },
+ {
+  "slug": "s17-in-64",
+  "country": "IN",
+  "original": "Tandoori chicken",
+  "title": "Tandoori chicken",
+  "en": "Tandoori chicken"
+ },
+ {
+  "slug": "s17-in-65",
+  "country": "IN",
+  "original": "Lassi",
+  "title": "Lassi",
+  "en": "Punjabi lassi"
+ },
+ {
+  "slug": "s17-in-66",
+  "country": "IN",
+  "original": "Gushtaba",
+  "title": "Gushtaba",
+  "en": "Gushtaba Kashmiri"
+ },
+ {
+  "slug": "s17-in-67",
+  "country": "IN",
+  "original": "Kahwa",
+  "title": "Kahwa",
+  "en": "Kashmiri kahwa"
+ },
+ {
+  "slug": "s17-in-68",
+  "country": "IN",
+  "original": "Ghevar",
+  "title": "Ghevar",
+  "en": "Ghevar"
+ },
+ {
+  "slug": "s17-in-69",
+  "country": "IN",
+  "original": "Pyaaz kachori",
+  "title": "Pyaaz kachori",
+  "en": "Pyaz kachori"
+ },
+ {
+  "slug": "s17-in-70",
+  "country": "IN",
+  "original": "Puran poli",
+  "title": "Puran poli",
+  "en": "Puran poli"
+ },
+ {
+  "slug": "s17-in-71",
+  "country": "IN",
+  "original": "Ukadiche modak",
+  "title": "Ukadiche modak",
+  "en": "Modak"
+ },
+ {
+  "slug": "s17-in-72",
+  "country": "IN",
+  "original": "Sabudana khichdi",
+  "title": "Sabudana khichdi",
+  "en": "Sabudana khichdi"
+ },
+ {
+  "slug": "s17-in-73",
+  "country": "IN",
+  "original": "Masor tenga",
+  "title": "Masor tenga",
+  "en": "Assamese masor tenga"
+ },
+ {
+  "slug": "s17-in-74",
+  "country": "IN",
+  "original": "Rasam",
+  "title": "Rasam",
+  "en": "Rasam"
+ },
+ {
+  "slug": "s17-cn-75",
+  "country": "CN",
+  "original": "Guobaorou",
+  "title": "Guobaorou",
+  "en": "Guo bao rou Harbin"
+ },
+ {
+  "slug": "s17-cn-76",
+  "country": "CN",
+  "original": "Jiaozi",
+  "title": "Jiaozi",
+  "en": "Jiaozi dumplings"
+ },
+ {
+  "slug": "s17-cn-77",
+  "country": "CN",
+  "original": "Huiguorou",
+  "title": "Huiguorou",
+  "en": "Twice cooked pork"
+ },
+ {
+  "slug": "s17-cn-78",
+  "country": "CN",
+  "original": "Shuizhuyu",
+  "title": "Shuizhuyu",
+  "en": "Shuizhu yu boiled fish"
+ },
+ {
+  "slug": "s17-cn-79",
+  "country": "CN",
+  "original": "Fuqi feipian",
+  "title": "Fuqi feipian",
+  "en": "Fuqi feipian"
+ },
+ {
+  "slug": "s17-cn-80",
+  "country": "CN",
+  "original": "Chongqing xiaomian",
+  "title": "Chongqing xiaomian",
+  "en": "Chongqing xiaomian noodles"
+ },
+ {
+  "slug": "s17-cn-81",
+  "country": "CN",
+  "original": "Duojiao yutou",
+  "title": "Duojiao yutou",
+  "en": "Duo jiao yu tou fish head"
+ },
+ {
+  "slug": "s17-cn-82",
+  "country": "CN",
+  "original": "Xihu cuyu",
+  "title": "Xihu cuyu",
+  "en": "West Lake fish in vinegar"
+ },
+ {
+  "slug": "s17-cn-83",
+  "country": "CN",
+  "original": "Longjing xiaren",
+  "title": "Longjing xiaren",
+  "en": "Longjing shrimp"
+ },
+ {
+  "slug": "s17-cn-84",
+  "country": "CN",
+  "original": "Jiaohuaji",
+  "title": "Jiaohuaji",
+  "en": "Beggar's chicken"
+ },
+ {
+  "slug": "s17-cn-85",
+  "country": "CN",
+  "original": "Fotiaoqiang",
+  "title": "Fotiaoqiang",
+  "en": "Buddha jumps over the wall"
+ },
+ {
+  "slug": "s17-cn-86",
+  "country": "CN",
+  "original": "Haili jian",
+  "title": "Haili jian",
+  "en": "Xiamen oyster omelette"
+ },
+ {
+  "slug": "s17-cn-87",
+  "country": "CN",
+  "original": "Wonton noodles",
+  "title": "Wonton noodles",
+  "en": "Cantonese wonton noodles"
+ },
+ {
+  "slug": "s17-cn-88",
+  "country": "CN",
+  "original": "Baozaifan",
+  "title": "Baozaifan",
+  "en": "Claypot rice"
+ },
+ {
+  "slug": "s17-cn-89",
+  "country": "CN",
+  "original": "Baiqieji",
+  "title": "Baiqieji",
+  "en": "White cut chicken"
+ },
+ {
+  "slug": "s17-cn-90",
+  "country": "CN",
+  "original": "Dapanji",
+  "title": "Dapanji",
+  "en": "Dapanji big plate chicken"
+ },
+ {
+  "slug": "s17-cn-91",
+  "country": "CN",
+  "original": "Yangrou paomo",
+  "title": "Yangrou paomo",
+  "en": "Yangrou paomo Xi'an"
+ },
+ {
+  "slug": "s17-cn-92",
+  "country": "CN",
+  "original": "Liangpi",
+  "title": "Liangpi",
+  "en": "Liangpi cold noodles"
+ },
+ {
+  "slug": "s17-cn-93",
+  "country": "CN",
+  "original": "Luosifen",
+  "title": "Luosifen",
+  "en": "Luosifen Liuzhou"
+ },
+ {
+  "slug": "s17-cn-94",
+  "country": "CN",
+  "original": "Goubuli baozi",
+  "title": "Goubuli baozi",
+  "en": "Goubuli baozi Tianjin"
+ },
+ {
+  "slug": "s17-cn-95",
+  "country": "CN",
+  "original": "Tanghulu",
+  "title": "Tanghulu",
+  "en": "Tanghulu"
+ },
+ {
+  "slug": "s17-cn-96",
+  "country": "CN",
+  "original": "Suanla fen",
+  "title": "Suanla fen",
+  "en": "Suanla fen hot and sour noodles"
+ },
+ {
+  "slug": "s17-cn-97",
+  "country": "CN",
+  "original": "Char siu bao",
+  "title": "Char siu bao",
+  "en": "Char siu bao"
+ },
+ {
+  "slug": "s17-cn-98",
+  "country": "CN",
+  "original": "Dan tat",
+  "title": "Dan tat",
+  "en": "Cantonese egg tart"
+ },
+ {
+  "slug": "s17-cn-99",
+  "country": "CN",
+  "original": "Gulaorou",
+  "title": "Gulaorou",
+  "en": "Sweet and sour pork Cantonese"
+ },
+ {
+  "slug": "s17-mx-100",
+  "country": "MX",
+  "original": "Sopes",
+  "title": "Sopes",
+  "en": "Mexican sopes"
+ },
+ {
+  "slug": "s17-mx-101",
+  "country": "MX",
+  "original": "Tacos de canasta",
+  "title": "Tacos de canasta",
+  "en": "Tacos de canasta"
+ },
+ {
+  "slug": "s17-mx-102",
+  "country": "MX",
+  "original": "Flautas",
+  "title": "Flautas",
+  "en": "Flautas mexicanas"
+ },
+ {
+  "slug": "s17-mx-103",
+  "country": "MX",
+  "original": "Enfrijoladas",
+  "title": "Enfrijoladas",
+  "en": "Enfrijoladas"
+ },
+ {
+  "slug": "s17-mx-104",
+  "country": "MX",
+  "original": "Chiles rellenos",
+  "title": "Chiles rellenos",
+  "en": "Chiles rellenos"
+ },
+ {
+  "slug": "s17-mx-105",
+  "country": "MX",
+  "original": "Pan de muerto",
+  "title": "Pan de muerto",
+  "en": "Pan de muerto"
+ },
+ {
+  "slug": "s17-mx-106",
+  "country": "MX",
+  "original": "Conchas",
+  "title": "Conchas",
+  "en": "Conchas pan dulce"
+ },
+ {
+  "slug": "s17-mx-107",
+  "country": "MX",
+  "original": "Elote",
+  "title": "Elote",
+  "en": "Elote preparado"
+ },
+ {
+  "slug": "s17-mx-108",
+  "country": "MX",
+  "original": "Sopa de tortilla",
+  "title": "Sopa de tortilla",
+  "en": "Sopa de tortilla"
+ },
+ {
+  "slug": "s17-mx-109",
+  "country": "MX",
+  "original": "Chapulines",
+  "title": "Chapulines",
+  "en": "Chapulines Oaxaca"
+ },
+ {
+  "slug": "s17-mx-110",
+  "country": "MX",
+  "original": "Memelas",
+  "title": "Memelas",
+  "en": "Memelas Oaxaca"
+ },
+ {
+  "slug": "s17-mx-111",
+  "country": "MX",
+  "original": "Carne asada",
+  "title": "Carne asada",
+  "en": "Carne asada norteña"
+ },
+ {
+  "slug": "s17-mx-112",
+  "country": "MX",
+  "original": "Machaca con huevo",
+  "title": "Machaca con huevo",
+  "en": "Machaca con huevo"
+ },
+ {
+  "slug": "s17-mx-113",
+  "country": "MX",
+  "original": "Coyotas",
+  "title": "Coyotas",
+  "en": "Coyotas Sonora"
+ },
+ {
+  "slug": "s17-mx-114",
+  "country": "MX",
+  "original": "Mixiotes",
+  "title": "Mixiotes",
+  "en": "Mixiote"
+ },
+ {
+  "slug": "s17-mx-115",
+  "country": "MX",
+  "original": "Barbacoa de borrego",
+  "title": "Barbacoa de borrego",
+  "en": "Barbacoa de borrego Hidalgo"
+ },
+ {
+  "slug": "s17-mx-116",
+  "country": "MX",
+  "original": "Pastes",
+  "title": "Pastes",
+  "en": "Pastes Real del Monte"
+ },
+ {
+  "slug": "s17-mx-117",
+  "country": "MX",
+  "original": "Camarones a la diabla",
+  "title": "Camarones a la diabla",
+  "en": "Camarones a la diabla"
+ },
+ {
+  "slug": "s17-mx-118",
+  "country": "MX",
+  "original": "Pescado a la talla",
+  "title": "Pescado a la talla",
+  "en": "Pescado a la talla"
+ },
+ {
+  "slug": "s17-mx-119",
+  "country": "MX",
+  "original": "Champurrado",
+  "title": "Champurrado",
+  "en": "Champurrado"
+ },
+ {
+  "slug": "s17-mx-120",
+  "country": "MX",
+  "original": "Agua de horchata",
+  "title": "Agua de horchata",
+  "en": "Horchata mexicana"
+ },
+ {
+  "slug": "s17-mx-121",
+  "country": "MX",
+  "original": "Agua de jamaica",
+  "title": "Agua de jamaica",
+  "en": "Agua de jamaica"
+ },
+ {
+  "slug": "s17-mx-122",
+  "country": "MX",
+  "original": "Capirotada",
+  "title": "Capirotada",
+  "en": "Capirotada"
+ },
+ {
+  "slug": "s17-mx-123",
+  "country": "MX",
+  "original": "Marquesitas",
+  "title": "Marquesitas",
+  "en": "Marquesitas Yucatán"
+ },
+ {
+  "slug": "s17-mx-124",
+  "country": "MX",
+  "original": "Relleno negro",
+  "title": "Relleno negro",
+  "en": "Relleno negro Yucatán"
+ }
+]
